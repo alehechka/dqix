@@ -2,7 +2,10 @@ module dqix
 
 go 1.21.5
 
-require github.com/urfave/cli/v2 v2.26.0
+require (
+	github.com/urfave/cli/v2 v2.26.0
+	golang.org/x/net v0.19.0
+)
 
 require (
 	github.com/cpuguy83/go-md2man/v2 v2.0.2 // indirect

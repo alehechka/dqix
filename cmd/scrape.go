@@ -2,14 +2,23 @@ package cmd
 
 import (
 	"dqix/cmd/flags"
-	"fmt"
+	"dqix/internal/scraper"
+	"dqix/internal/scraper/wikidot"
+	"net/url"
 
 	"github.com/urfave/cli/v2"
 )
 
 func scrapeWikidot(ctx *cli.Context) (err error) {
-	fmt.Println("scraping...")
-	return
+	wikiURL, err := url.Parse(ctx.String(flags.ArgWikidotURL))
+	if err != nil {
+		return err
+	}
+
+	return wikidot.Init(&scraper.Config{
+		WikiURL: wikiURL,
+	}).Scrape()
+
 }
 
 var scrapeWikidotCommand = &cli.Command{
