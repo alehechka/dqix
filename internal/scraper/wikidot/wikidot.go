@@ -3,6 +3,7 @@ package wikidot
 import (
 	"dqix/internal/scraper"
 	"dqix/internal/scraper/utils"
+	"dqix/internal/types"
 	"encoding/json"
 	"fmt"
 	"net/http"
@@ -14,13 +15,13 @@ import (
 
 type WikidotScraper struct {
 	config *scraper.Config
-	pages  scraper.Pages
+	pages  types.Pages
 }
 
 func Init(config *scraper.Config) scraper.Scraper {
 	return &WikidotScraper{
 		config: config,
-		pages:  make(scraper.Pages),
+		pages:  make(types.Pages),
 	}
 }
 
@@ -28,7 +29,7 @@ func (s WikidotScraper) Scrape() (err error) {
 	s.ScrapeFrom("/system:list-all-pages")
 	s.ScrapeFrom("/system:page-tags-list")
 
-	return s.WriteFile("data/wikidot.json")
+	return s.WriteFile("data/wikidot/raw.json")
 }
 
 func (s WikidotScraper) WriteFile(path string) (err error) {
@@ -55,7 +56,7 @@ func (s WikidotScraper) ScrapeFrom(path string) (err error) {
 	return
 }
 
-func (s WikidotScraper) ScrapePageLinks(page scraper.PageContent) (err error) {
+func (s WikidotScraper) ScrapePageLinks(page types.PageContent) (err error) {
 	fmt.Println("Scraping: ", page.Path)
 
 	for path := range page.Links {
@@ -71,17 +72,17 @@ func (s WikidotScraper) ScrapePageLinks(page scraper.PageContent) (err error) {
 	return
 }
 
-func (s WikidotScraper) ScrapePage(path string) (page scraper.PageContent, err error) {
+func (s WikidotScraper) ScrapePage(path string) (page types.PageContent, err error) {
 	trimmedPath := strings.TrimPrefix(path, "/")
 	res, err := http.Get(fmt.Sprintf("%s/%s", s.config.WikiURL, trimmedPath))
 	if err != nil {
-		return scraper.PageContent{}, err
+		return types.PageContent{}, err
 	}
 	defer res.Body.Close()
 
 	doc, err := html.Parse(res.Body)
 	if err != nil {
-		return scraper.PageContent{}, err
+		return types.PageContent{}, err
 	}
 
 	// Find and print all links on the web page
@@ -141,7 +142,7 @@ func (s WikidotScraper) ScrapePage(path string) (page scraper.PageContent, err e
 	}
 	link(doc, false)
 
-	return scraper.PageContent{
+	return types.PageContent{
 		Path:  trimmedPath,
 		Text:  text,
 		Links: links,

@@ -9,11 +9,3 @@ type Config struct {
 type Scraper interface {
 	Scrape() error
 }
-
-type PageContent struct {
-	Path  string
-	Text  []string
-	Links map[string]string
-}
-
-type Pages map[string]PageContent
