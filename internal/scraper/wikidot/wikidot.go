@@ -25,7 +25,23 @@ func Init(config *scraper.Config) scraper.Scraper {
 }
 
 func (s WikidotScraper) Scrape() (err error) {
-	page, err := s.ScrapePage("", false)
+	s.ScrapeFrom("/system:list-all-pages")
+	s.ScrapeFrom("/system:page-tags-list")
+
+	return s.WriteFile("data/wikidot.json")
+}
+
+func (s WikidotScraper) WriteFile(path string) (err error) {
+	file, err := json.MarshalIndent(s.pages, "", " ")
+	if err != nil {
+		return err
+	}
+
+	return os.WriteFile(path, file, 0644)
+}
+
+func (s WikidotScraper) ScrapeFrom(path string) (err error) {
+	page, err := s.ScrapePage(path)
 	if err != nil {
 		return err
 	}
@@ -36,12 +52,7 @@ func (s WikidotScraper) Scrape() (err error) {
 		return err
 	}
 
-	file, err := json.MarshalIndent(s.pages, "", " ")
-	if err != nil {
-		return err
-	}
-
-	return os.WriteFile("data/wikidot.json", file, 0644)
+	return
 }
 
 func (s WikidotScraper) ScrapePageLinks(page scraper.PageContent) (err error) {
@@ -49,7 +60,7 @@ func (s WikidotScraper) ScrapePageLinks(page scraper.PageContent) (err error) {
 
 	for path := range page.Links {
 		if _, ok := s.pages[path]; !ok {
-			pageContent, err := s.ScrapePage(path, true)
+			pageContent, err := s.ScrapePage(path)
 			if err != nil {
 				return err
 			}
@@ -60,7 +71,7 @@ func (s WikidotScraper) ScrapePageLinks(page scraper.PageContent) (err error) {
 	return
 }
 
-func (s WikidotScraper) ScrapePage(path string, mainContentOnly bool) (page scraper.PageContent, err error) {
+func (s WikidotScraper) ScrapePage(path string) (page scraper.PageContent, err error) {
 	trimmedPath := strings.TrimPrefix(path, "/")
 	res, err := http.Get(fmt.Sprintf("%s/%s", s.config.WikiURL, trimmedPath))
 	if err != nil {
@@ -76,14 +87,13 @@ func (s WikidotScraper) ScrapePage(path string, mainContentOnly bool) (page scra
 	// Find and print all links on the web page
 	links := make(map[string]string)
 	text := make([]string, 0)
-	var link func(*html.Node, bool, bool)
-	link = func(n *html.Node, shouldCaptureLinks, shouldCaptureText bool) {
+	var link func(*html.Node, bool)
+	link = func(n *html.Node, isMainContent bool) {
 		if n.Type == html.ElementNode && n.Data == "script" {
 			return
 		}
 
-		var isMainContent bool
-		if !shouldCaptureText && n.Type == html.ElementNode && n.Data == "div" {
+		if !isMainContent && n.Type == html.ElementNode && n.Data == "div" {
 			for _, a := range n.Attr {
 				if a.Key == "id" {
 					if a.Val == "main-content" {
@@ -94,30 +104,42 @@ func (s WikidotScraper) ScrapePage(path string, mainContentOnly bool) (page scra
 			}
 		}
 
-		if shouldCaptureLinks && n.Type == html.ElementNode && n.Data == "a" {
-			for _, a := range n.Attr {
-				if a.Key == "href" {
-					hrefPath := strings.Split(a.Val, "#")[0]
-					if strings.HasPrefix(hrefPath, "/") {
-						links[hrefPath] = utils.GetNodeText(n)
+		if isMainContent {
+
+			// the tag pages have a floating box with all the tags listed and it just adds a bunch of fluff, so this skips the node if found
+			if n.Type == html.ElementNode && n.Data == "div" {
+				for _, a := range n.Attr {
+					if a.Key == "class" && a.Val == "pages-tag-cloud-box" {
+						return
 					}
 				}
 			}
-		}
 
-		if shouldCaptureText && n.Type == html.TextNode {
-			t := strings.TrimSpace(n.Data)
-			if t != "" {
-				text = append(text, t)
+			if n.Type == html.ElementNode && n.Data == "a" {
+				for _, a := range n.Attr {
+					if a.Key == "href" {
+						hrefPath := strings.Split(a.Val, "#")[0]
+						if strings.HasPrefix(hrefPath, "/") {
+							links[hrefPath] = utils.GetNodeText(n)
+						}
+					}
+				}
+			}
+
+			if n.Type == html.TextNode {
+				t := strings.TrimSpace(n.Data)
+				if t != "" {
+					text = append(text, t)
+				}
 			}
 		}
 
 		// traverses the HTML of the webpage from the first child node
 		for c := n.FirstChild; c != nil; c = c.NextSibling {
-			link(c, (shouldCaptureLinks || isMainContent), (shouldCaptureText || isMainContent))
+			link(c, isMainContent)
 		}
 	}
-	link(doc, !mainContentOnly, false)
+	link(doc, false)
 
 	return scraper.PageContent{
 		Path:  trimmedPath,
