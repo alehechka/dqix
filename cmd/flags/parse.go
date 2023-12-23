@@ -12,7 +12,7 @@ const ArgWikidotPath string = "wikidot-path"
 var FlagWikidotPath = &cli.StringFlag{
 	Name:  ArgWikidotPath,
 	Usage: "Specifies the path to the Wikidot data folder",
-	Value: "/data/wikidot",
+	Value: "./data/wikidot/",
 }
 
 const ArgInputDataFileName string = "input-file"
