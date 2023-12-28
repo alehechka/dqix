@@ -54,18 +54,8 @@ func (i InventoryMap) GetClassification(typeId string, category string, classifi
 }
 
 func (i InventoryMap) GetClassificationSlice(typeId string, category string, classification string) (classifications []Inventory) {
-	types, ok := i[typeId]
-	if !ok || types == nil {
-		return
-	}
-
-	categories, ok := types[category]
-	if !ok || categories == nil {
-		return
-	}
-
-	classes, ok := categories[classification]
-	if !ok || classes == nil {
+	classes := i.GetClassification(typeId, category, classification)
+	if classes == nil {
 		return
 	}
 

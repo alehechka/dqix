@@ -76,8 +76,6 @@ func (r *RouterHandler) Run(port int) error {
 		return err
 	}
 
-	fmt.Println(len(r.app.data.inventoryMap))
-
 	addr := fmt.Sprintf(":%d", port)
 
 	return r.router.Run(addr)
