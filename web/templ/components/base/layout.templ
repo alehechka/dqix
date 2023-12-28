@@ -1,0 +1,33 @@
+package base
+
+templ Layout(pageTitle string) {
+	<html lang="en">
+		<head>
+			@Meta(pageTitle)
+		</head>
+		<body>
+			<main id="page-wrapper">
+				@ContentWrapper() {
+					{ children... }
+				}
+			</main>
+		</body>
+	</html>
+}
+
+templ ContentWrapper() {
+	<div>
+		@Header()
+		<section id="page-content">
+			{ children... }
+		</section>
+	</div>
+}
+
+templ Header() {
+	<header>
+		<a href="/">
+			<img src="/static/dqix_logo.webp" alt="Dragon Quest IX" class="h-20"/>
+		</a>
+	</header>
+}

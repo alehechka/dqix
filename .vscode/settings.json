@@ -1,3 +1,4 @@
 {
-  "cSpell.words": ["armamentalist", "Wikidot"]
+  "cSpell.words": ["armamentalist", "Wikidot"],
+  "css.customData": [".vscode/tailwind.json"]
 }

@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  dqix:
+    image: alehechka/dqix
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: start
+    ports:
+      - 8080:8080

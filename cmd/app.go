@@ -11,6 +11,7 @@ func App(version string) *cli.App {
 	app.Version = version
 	app.Usage = "New wiki site for Dragon Quest IX"
 	app.Commands = []*cli.Command{
+		StartCommand,
 		ScrapeCommand,
 		ParseCommand,
 	}

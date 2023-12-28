@@ -1,0 +1,164 @@
+name: Deploy Application
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+# Kill the workflow if the PR is updated with a new commit. Pushes to main will run sequentially.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event_name }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  build_and_deploy:
+    name: Build and Deploy Application
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      id-token: write
+      deployments: write
+
+    env:
+      registry: us-central1-docker.pkg.dev
+
+    steps:
+      ###### Variables ######
+
+      - name: Get Repository Name
+        id: repository
+        uses: lockerstock/github-actions/clean-variable@main
+        with:
+          variable: ${{ github.repository }}
+
+      - name: Environment
+        id: environment
+        run: |
+          if [ "${{ github.ref_name }}" = "${{ github.event.repository.default_branch }}" ]; then
+            echo "name=production" >> $GITHUB_OUTPUT
+          else 
+            echo "name=development" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Image Name
+        id: image
+        run: echo "name=${{ env.registry }}/${{ secrets.GCP_PROJECT_ID }}/${{ github.repository }}" >> $GITHUB_OUTPUT
+        shell: bash
+
+      - name: Short Sha
+        id: image_tag
+        uses: lockerstock/github-actions/get-short-sha@main
+
+      - name: Prepare Docker Tags
+        id: docker
+        run: |
+          FULL_IMAGE_NAME="${{ steps.image.outputs.name }}:${{ steps.image_tag.outputs.short_sha }}"
+          TAGS="$FULL_IMAGE_NAME"
+
+          if [ "${{ steps.environment.outputs.name }}" = "production" ]; then
+            TAGS+=",${{ steps.image.outputs.name }}:latest"
+          fi
+
+          echo "full_image_name=$FULL_IMAGE_NAME" >> $GITHUB_OUTPUT
+          echo "tags=$TAGS" >> $GITHUB_OUTPUT
+        shell: bash
+
+      ###### Initialize GitHub Deployment ######
+
+      - name: Start Deployment
+        id: deployment
+        uses: lockerstock/github-actions/deployment-status@main
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          step: start
+          environment: ${{ steps.environment.outputs.name }}
+
+      ###### GCloud Setup ######
+
+      - name: Setup GCloud Auth
+        id: auth
+        uses: google-github-actions/auth@v1
+        with:
+          workload_identity_provider: ${{ secrets.GCP_IDENTITY_PROVIDER }}
+          service_account: ${{ secrets.GCP_SERVICE_ACCOUNT }}
+          token_format: 'access_token'
+
+      - uses: docker/setup-buildx-action@v2
+
+      - uses: docker/login-action@v2
+        with:
+          registry: ${{ env.registry }}
+          username: oauth2accesstoken
+          password: ${{ steps.auth.outputs.access_token }}
+
+      ###### Publish Docker Image ######
+
+      - name: Build and Push Docker Image
+        uses: docker/build-push-action@v3
+        with:
+          push: true
+          tags: ${{ steps.docker.outputs.tags }}
+          # TODO: If arm64 CloudRun nodes are available, revert platforms to `linux/amd64,linux/arm64`.
+          platforms: linux/amd64
+          labels: |
+            "org.opencontainers.image.source=${{ github.server_url }}/${{ github.repository }}"
+            "org.opencontainers.image.authors=${{ github.repository_owner }},${{ github.actor }}"
+            "org.opencontainers.image.version=${{ steps.image_tag.outputs.short_sha }}"
+            "org.opencontainers.image.ref.name=${{ github.head_ref || github.ref_name }}"
+            "org.opencontainers.image.environment=${{ steps.environment.outputs.name }}"
+            "org.opencontainers.image.sha=${{ github.sha }}"
+          build-args: |
+            RELEASE_VERSION=${{ steps.image_tag.outputs.short_sha }}
+
+      ###### Deploy Cloud Run ######
+
+      - name: Deploy PR to Cloud Run
+        if: steps.environment.outputs.name == 'development'
+        id: deploy_pr
+        uses: google-github-actions/deploy-cloudrun@v1
+        with:
+          service: ${{ steps.repository.outputs.variable }}
+          image: ${{ steps.docker.outputs.full_image_name }}
+          tag: pr-${{ github.event.pull_request.number }}
+          no_traffic: true
+          flags: '--port=8080 --allow-unauthenticated --args=start'
+          region: us-central1
+          env_vars: |
+            GO_ENV=${{ steps.environment.outputs.name }}
+            GIN_MODE=debug
+
+      - name: Deploy to Cloud Run
+        if: steps.environment.outputs.name == 'production'
+        id: deploy
+        uses: google-github-actions/deploy-cloudrun@v1
+        with:
+          service: ${{ steps.repository.outputs.variable }}
+          image: ${{ steps.docker.outputs.full_image_name }}
+          flags: '--port=8080 --allow-unauthenticated --args=start'
+          region: us-central1
+          env_vars: |
+            GO_ENV=${{ steps.environment.outputs.name }}
+            GIN_MODE=release
+
+      - name: Update traffic to latest
+        if: steps.environment.outputs.name == 'production'
+        uses: google-github-actions/deploy-cloudrun@v1
+        with:
+          service: ${{ steps.repository.outputs.variable }}
+          revision_traffic: LATEST=100
+
+      ###### Update Deployment Status ######
+
+      - name: Finish Deployment
+        uses: lockerstock/github-actions/deployment-status@main
+        if: always()
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          deployment_id: ${{ steps.deployment.outputs.deployment_id }}
+          step: finish
+          env_url: ${{ steps.deploy.outputs.url || steps.deploy_pr.outputs.url }}
+          environment: ${{ steps.environment.outputs.name }}
+          auto_inactive: true
