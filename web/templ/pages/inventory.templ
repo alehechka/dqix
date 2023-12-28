@@ -1,0 +1,30 @@
+package pages
+
+import "dqix/internal/types"
+import "dqix/web/templ/components/base"
+import "strings"
+import "dqix/web/templ/utilities"
+
+templ InventoryClassificationPage(class string, inventoryMap map[string]types.Inventory) {
+	@base.Layout("DQIX | " + strings.Title(class), class) {
+		@inventoryClassificationContent(inventoryMap)
+	}
+}
+
+templ InventoryClassificationContentWithSideNav(class string, inventoryMap map[string]types.Inventory) {
+	@base.MainContentWithSidenav(class) {
+		@inventoryClassificationContent(inventoryMap)
+	}
+}
+
+templ inventoryClassificationContent(inventoryMap map[string]types.Inventory) {
+	<div>
+		<ul>
+			for _, inventory := range inventoryMap {
+				<li>
+					<a href={ fn.Path("inventory", inventory.Type, inventory.Category, inventory.Classification, inventory.ID) }>{ inventory.Title }</a>
+				</li>
+			}
+		</ul>
+	</div>
+}

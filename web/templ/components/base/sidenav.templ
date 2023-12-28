@@ -1,9 +1,10 @@
 package base
 
-import fn "dqix/web/templ/utilities"
 import "dqix/internal/types"
 
-templ SideNav(page types.SideNavPages) {
+import fn "dqix/web/templ/utilities"
+
+templ SideNav(page string) {
 	<aside
 		id="sidenav"
 		hx-boost="true"
@@ -16,10 +17,10 @@ templ SideNav(page types.SideNavPages) {
 				aria-expanded:w-[--full-sidenav-width] aria-expanded:px-2"
 	>
 		<ul class="flex h-full flex-col gap-1 overflow-x-hidden">
-			@SideNavLink("Everyday Items", fn.Path("bag", "items", "everyday"), page.EverydayItems)
-			@SideNavLink("Important Items", fn.Path("bag", "items", "important"), page.ImportantItems)
-			@SideNavLink("Head Armor", fn.Path("equipment", "armor", "head"), page.HeadArmor)
-			@SideNavLink("Torso Armor", fn.Path("equipment", "armor", "torso"), page.TorsoArmor)
+			@SideNavLink("Everyday Items", fn.Path("inventory", "bag", "items", types.ClassEverydayItem), page == types.ClassEverydayItem)
+			@SideNavLink("Important Items", fn.Path("inventory", "bag", "items", types.ClassImportantItem), page == types.ClassImportantItem)
+			@SideNavLink("Head Armor", fn.Path("inventory", "equipment", "armor", types.ClassHeadArmor), page == types.ClassHeadArmor)
+			@SideNavLink("Torso Armor", fn.Path("inventory", "equipment", "armor", types.ClassTorsoArmor), page == types.ClassTorsoArmor)
 		</ul>
 	</aside>
 }

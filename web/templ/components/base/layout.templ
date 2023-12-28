@@ -1,9 +1,8 @@
 package base
 
 import "dqix/web/templ/components/icons"
-import "dqix/internal/types"
 
-templ Layout(pageTitle string, page types.SideNavPages) {
+templ Layout(pageTitle string, page string) {
 	<html lang="en" class="h-full overflow-hidden">
 		<head>
 			@Meta(pageTitle)
@@ -18,7 +17,7 @@ templ Layout(pageTitle string, page types.SideNavPages) {
 	</html>
 }
 
-templ MainContentWithSidenav(page types.SideNavPages) {
+templ MainContentWithSidenav(page string) {
 	<div id="sidenav-page-wrapper">
 		@SideNav(page)
 		@MainContent() {

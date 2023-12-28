@@ -1,8 +1,8 @@
 package types
 
-type SideNavPages struct {
-	EverydayItems  bool
-	ImportantItems bool
-	HeadArmor      bool
-	TorsoArmor     bool
-}
+const (
+	ClassEverydayItem  string = "everyday-item"
+	ClassImportantItem string = "important-item"
+	ClassHeadArmor     string = "head"
+	ClassTorsoArmor    string = "torso"
+)

@@ -40,6 +40,14 @@ func (a *app) SetupRouter() *gin.Engine {
 		ctx.HTML(http.StatusOK, "", pages.IndexPage())
 	})
 
+	engine.GET("/inventory")
+	engine.GET("/inventory/:type")
+	engine.GET("/inventory/:type/:category")
+	engine.GET("/inventory/:type/:category/:classification", func(ctx *gin.Context) {
+		ctx.HTML(http.StatusOK, "", pages.InventoryClassificationContentWithSideNav(ctx.Param("classification"), nil))
+	})
+	engine.GET("/inventory/:type/:category/:classification/:id")
+
 	return engine
 }
 
