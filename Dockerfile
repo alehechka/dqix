@@ -15,7 +15,7 @@ RUN npm install
 
 COPY Makefile .
 COPY tailwind.config.js .
-COPY internal/templ internal/templ
+COPY web/templ web/templ
 COPY web web
 
 RUN npm run build:css
@@ -28,9 +28,9 @@ WORKDIR /app
 
 RUN go install github.com/a-h/templ/cmd/templ@latest
 
-COPY internal/templ internal/templ
+COPY web/templ web/templ
 
-RUN templ generate --path=internal/templ
+RUN templ generate --path=web/templ
 
 # BUILD SERVER
 
@@ -44,7 +44,7 @@ COPY go.sum .
 RUN go mod download
 
 COPY . .
-COPY --from=templ-builder app/internal/templ internal/templ
+COPY --from=templ-builder app/web/templ web/templ
 
 ENV CGO_ENABLED=0
 ARG RELEASE_VERSION=latest

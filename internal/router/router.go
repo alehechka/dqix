@@ -1,7 +1,9 @@
 package router
 
 import (
+	"dqix/web/templ/components/base/pages"
 	"fmt"
+	"net/http"
 
 	"github.com/gin-contrib/gzip"
 	"github.com/gin-gonic/gin"
@@ -33,6 +35,10 @@ func (a *app) SetupRouter() *gin.Engine {
 	engine.SetTrustedProxies(nil)
 
 	a.StaticFiles(engine)
+
+	engine.GET("/", func(ctx *gin.Context) {
+		ctx.HTML(http.StatusOK, "", pages.IndexPage())
+	})
 
 	return engine
 }
