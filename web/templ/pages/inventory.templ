@@ -7,18 +7,19 @@ import "dqix/web/templ/utilities"
 
 templ InventoryClassificationPage(class string, inventories []types.Inventory) {
 	@base.Layout("DQIX | " + strings.Title(class), class) {
-		@inventoryClassificationContent(inventories)
+		@InventoryClassificationContent(class, inventories)
 	}
 }
 
 templ InventoryClassificationContentWithSideNav(class string, inventories []types.Inventory) {
 	@base.MainContentWithSidenav(class) {
-		@inventoryClassificationContent(inventories)
+		@InventoryClassificationContent(class, inventories)
 	}
 }
 
-templ inventoryClassificationContent(inventories []types.Inventory) {
+templ InventoryClassificationContent(class string, inventories []types.Inventory) {
 	<div>
+		<h1 class="text-3xl font-bold">{ strings.Title(strings.ReplaceAll(class, "-", " ")) }</h1>
 		<ul>
 			for _, inventory := range inventories {
 				<li>

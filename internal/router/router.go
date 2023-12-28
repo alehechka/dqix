@@ -1,6 +1,7 @@
 package router
 
 import (
+	"dqix/pkg/htmx"
 	"dqix/web/templ/pages"
 	"fmt"
 	"net/http"
@@ -47,7 +48,16 @@ func (a *app) SetupRouter() *gin.Engine {
 		typeId := ctx.Param("type")
 		category := ctx.Param("category")
 		classification := ctx.Param("classification")
-		ctx.HTML(http.StatusOK, "", pages.InventoryClassificationContentWithSideNav(classification, a.data.inventoryMap.GetClassificationSlice(typeId, category, classification)))
+
+		switch htmx.GetHxSwapTarget(ctx) {
+		case "page-content":
+			ctx.HTML(http.StatusOK, "", pages.InventoryClassificationContent(classification, a.data.inventoryMap.GetClassificationSlice(typeId, category, classification)))
+		case "sidenav-page-wrapper":
+			ctx.HTML(http.StatusOK, "", pages.InventoryClassificationContentWithSideNav(classification, a.data.inventoryMap.GetClassificationSlice(typeId, category, classification)))
+		default:
+			ctx.HTML(http.StatusOK, "", pages.InventoryClassificationPage(classification, a.data.inventoryMap.GetClassificationSlice(typeId, category, classification)))
+		}
+
 	})
 	engine.GET("/inventory/:type/:category/:classification/:id")
 
