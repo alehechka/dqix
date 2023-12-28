@@ -1,0 +1,3860 @@
+{
+ "aeon-s-robe": {
+  "id": "aeon-s-robe",
+  "title": "Aeon's Robe",
+  "description": "A righteous robe that fends off fatal spells.",
+  "statistics": {
+   "defense": 47,
+   "magicalMight": 38,
+   "magicalMending": 38,
+   "special": {
+    "effect": "Resists 22% damage from all elements; dispels 35% infliction rate of Whack"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "alefgard-armour": {
+  "id": "alefgard-armour",
+  "title": "Alefgard Armour",
+  "description": "Mail made to mimic that worn by a hero of Alefgard.",
+  "statistics": {
+   "defense": 60,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "alena-s-dress": {
+  "id": "alena-s-dress",
+  "title": "Alena's Dress",
+  "description": "A tantalising one-piece worn by Tsarevna Alena.",
+  "statistics": {
+   "defense": 32,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "angel-s-robe": {
+  "id": "angel-s-robe",
+  "title": "Angel's Robe",
+  "description": "Curious clothing that fends off fatal spells.",
+  "statistics": {
+   "defense": 41,
+   "magicalMight": 30,
+   "magicalMending": 30,
+   "special": {
+    "effect": "Resists 18% damage from all elements; dispels 25% infliction rate of Whack"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "aquila-s-armour": {
+  "id": "aquila-s-armour",
+  "title": "Aquila's Armour",
+  "description": "Would wearing this make you feel like some kind of superior Celestrian?",
+  "statistics": {
+   "defense": 35,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "archangel-s-robe": {
+  "id": "archangel-s-robe",
+  "title": "Archangel's Robe",
+  "description": "An unreal robe that fends off fatal spells.",
+  "statistics": {
+   "defense": 44,
+   "magicalMight": 34,
+   "magicalMending": 34,
+   "special": {
+    "effect": "Resists 20% damage from all elements; dispels 30% infliction rate of Whack"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "ingredientFor": [
+   "aeon-s-robe",
+   ",",
+   "seraph-s-robe"
+  ]
+ },
+ "ascetic-robe": {
+  "id": "ascetic-robe",
+  "title": "Ascetic Robe",
+  "description": "A virtuous vestment for male priests that stops MP from being stolen.",
+  "statistics": {
+   "defense": 19,
+   "magicalMending": 18,
+   "special": {
+    "effect": "Resists 30% MP Absorption"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "ingredientFor": [
+   "saintly-robe"
+  ]
+ },
+ "ashlynn-s-clothes": {
+  "id": "ashlynn-s-clothes",
+  "title": "Ashlynn's Clothes",
+  "description": "A dress donned by Ashlynn, apparently.",
+  "statistics": {
+   "defense": 32,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "best-vest": {
+  "id": "best-vest",
+  "title": "Best Vest",
+  "description": "A fetching and fashionable vest.",
+  "statistics": {
+   "defense": 12,
+   "magicalMight": 8,
+   "magicalMending": 8,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 2000,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "bianca-s-clothes": {
+  "id": "bianca-s-clothes",
+  "title": "Bianca's Clothes",
+  "description": "Get-up-and-go garb worn by Bianca Whitaker.",
+  "statistics": {
+   "defense": 31,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "borya-s-robe": {
+  "id": "borya-s-robe",
+  "title": "Borya's Robe",
+  "description": "A cloak that once covered the shoulders of the sorcerer Borya.",
+  "statistics": {
+   "defense": 18,
+   "magicalMight": 12,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "brawling-byrnie": {
+  "id": "brawling-byrnie",
+  "title": "Brawling Byrnie",
+  "description": "Combat clobber for high-grade female gladiators.",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "gladiator-(female-only)"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "bronze-armour": {
+  "id": "bronze-armour",
+  "title": "Bronze Armour",
+  "description": "Armour made of alloyed metal plates.",
+  "statistics": {
+   "defense": 14,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 720,
+  "vocations": [
+   "warrior",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "bunny-suit": {
+  "id": "bunny-suit",
+  "title": "Bunny Suit",
+  "description": "The sort of glamorous get-up bunny girls gad about in.",
+  "statistics": {
+   "defense": 22,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 3550,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "cannock-cloak": {
+  "id": "cannock-cloak",
+  "title": "Cannock Cloak",
+  "description": "A comfortable cape worn by the Prince of Cannock.",
+  "statistics": {
+   "defense": 36,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "cape-of-good-karma": {
+  "id": "cape-of-good-karma",
+  "title": "Cape of Good Karma",
+  "description": "A male sage's surplice that fights Fizzle and MP draining.",
+  "statistics": {
+   "defense": 35,
+   "magicalMight": 23,
+   "magicalMending": 23,
+   "special": {
+    "effect": "Resists 30% MP Absorption; dispels 30% infliction rate of Fizzle"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "captain-s-coat": {
+  "id": "captain-s-coat",
+  "title": "Captain's Coat",
+  "description": "A coat cut for a cutlass-wielding captain of considerable renown.",
+  "statistics": {
+   "defense": 53,
+   "special": {}
+  },
+  "rarity": 3,
+  "buyPrice": 35000,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "carver-s-vest": {
+  "id": "carver-s-vest",
+  "title": "Carver's Vest",
+  "description": "A vest of Carver's that could easily be mistaken for a ratty rag.",
+  "statistics": {
+   "defense": 34,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "catoptric-armour": {
+  "id": "catoptric-armour",
+  "title": "Catoptric Armour",
+  "description": "A resplendent suit that sometimes sends spells back to their source",
+  "statistics": {
+   "defense": 60,
+   "special": {
+    "effect": "Chance to reflect spells"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "celestial-suit": {
+  "id": "celestial-suit",
+  "title": "Celestial Suit",
+  "description": "Astral attire made from incredible ingredients.",
+  "statistics": {
+   "defense": 2,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "celestria-s-gown": {
+  "id": "celestria-s-gown",
+  "title": "Celestria's Gown",
+  "description": "A radiant robe that wards off sleep and death and heals wounds.",
+  "statistics": {
+   "defense": 37,
+   "magicalMending": 32,
+   "special": {
+    "effect": "Recovers 25 HP each turn; dispels 30% infliction rates of Snooze and Whack"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "ingredientFor": [
+   "celestria-s-raiment"
+  ]
+ },
+ "celestria-s-raiment": {
+  "id": "celestria-s-raiment",
+  "title": "Celestria's Raiment",
+  "description": "A downy gown that wards off sleep and death and heals wounds.",
+  "statistics": {
+   "defense": 43,
+   "magicalMending": 40,
+   "special": {
+    "effect": "Recovers 25 HP each turn; dispels 30% infliction rates of Snooze and Whack"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "chain-mail": {
+  "id": "chain-mail",
+  "title": "Chain Mail",
+  "description": "A supple suit made from little loops of wire.",
+  "statistics": {
+   "defense": 11,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 540,
+  "vocations": [
+   "warrior",
+   "priest",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "cloak-of-concealment": {
+  "id": "cloak-of-concealment",
+  "title": "Cloak of Concealment",
+  "description": "Enchanted attire that makes evading enemy attacks easier.",
+  "statistics": {
+   "defense": 18,
+   "evasionChance": 4,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "recipe": {
+   "cloak-of-evasion": 1,
+   "lambswool": 1,
+   "slipweed": 2
+  }
+ },
+ "cloak-of-evasion": {
+  "id": "cloak-of-evasion",
+  "title": "Cloak of Evasion",
+  "description": "Uncommon clothing that makes evading enemy attacks easier.",
+  "statistics": {
+   "defense": 13,
+   "evasionChance": 3,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 1000,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "combat-costume": {
+  "id": "combat-costume",
+  "title": "Combat Costume",
+  "description": "A piece of clothing worn by pre-modern female martial artists.",
+  "statistics": {
+   "defense": 48,
+   "special": {}
+  },
+  "rarity": 2,
+  "buyPrice": 27500,
+  "vocations": [
+   "martial-artist-(female-only)"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "combat-top": {
+  "id": "combat-top",
+  "title": "Combat Top",
+  "description": "A piece of clothing worn by pre-modern male martial artists.",
+  "statistics": {
+   "defense": 47,
+   "special": {}
+  },
+  "rarity": 2,
+  "buyPrice": 27000,
+  "vocations": [
+   "martial-artist-(male-only)"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "dancer-s-costume": {
+  "id": "dancer-s-costume",
+  "title": "Dancer's Costume",
+  "description": "Attractive attire donned by dancers.",
+  "statistics": {
+   "defense": 13,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 740,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "ingredientFor": [
+   "dancer-s-dress"
+  ]
+ },
+ "dancer-s-dress": {
+  "id": "dancer-s-dress",
+  "title": "Dancer's Dress",
+  "description": "A gorgeous garment that's great for girls on the stage.",
+  "statistics": {
+   "defense": 30,
+   "special": {
+    "effect": "Resists 15% damage from Fire and Ice"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "canBeUsedFor": [
+   "012-putting-on-the-glitz"
+  ]
+ },
+ "dangerous-bikini-top": {
+  "id": "dangerous-bikini-top",
+  "title": "Dangerous Bikini Top",
+  "description": "Swimwear that's somewhat unsafe to set eyes on.",
+  "statistics": {
+   "defense": 1,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 13800,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "ingredientFor": [
+   "hot-bikini-top"
+  ]
+ },
+ "dangerous-bustier": {
+  "id": "dangerous-bustier",
+  "title": "Dangerous Bustier",
+  "description": "A barely believable bodice that you'd be brave to look at.",
+  "statistics": {
+   "defense": 1,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "recipe": {
+   "divine-bustier": 1,
+   "reset-stone": 1
+  },
+  "ingredientFor": [
+   "silk-bustier"
+  ]
+ },
+ "dark-robe": {
+  "id": "dark-robe",
+  "title": "Dark Robe",
+  "description": "A gloomy-looking gown that sends enemy attacks astray.",
+  "statistics": {
+   "defense": 37,
+   "evasionChance": 2,
+   "special": {}
+  },
+  "rarity": 2,
+  "buyPrice": 13500,
+  "vocations": [
+   "priest",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "recipe": {
+   "evencloth": 3,
+   "slipweed": 3,
+   "velvet-cape": 1
+  },
+  "ingredientFor": [
+   "phantom-mask",
+   ",",
+   "macabre-mantle"
+  ]
+ },
+ "debora-s-dress": {
+  "id": "debora-s-dress",
+  "title": "Debora's Dress",
+  "description": "A gaudy garment dearly beloved by Debora Briscoletti.",
+  "statistics": {
+   "defense": 32,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "divine-bustier": {
+  "id": "divine-bustier",
+  "title": "Divine Bustier",
+  "description": "A beautiful bodice that makes sidestepping enemy strikes a cinch.",
+  "statistics": {
+   "defense": 58,
+   "evasionChance": 3,
+   "special": {}
+  },
+  "rarity": 4,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "recipe": {
+   "sainted-soma": 3,
+   "silk-bustier": 1,
+   "slipweed": 7
+  }
+ },
+ "divine-dress": {
+  "id": "divine-dress",
+  "title": "Divine Dress",
+  "description": "A lady sage's surplice that fights Fizzle and MP draining.",
+  "statistics": {
+   "defense": 35,
+   "magicalMight": 23,
+   "magicalMending": 25,
+   "special": {
+    "effect": "Resists 30% MP Absorption; dispels 30% infliction rate of Fizzle"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "dragon-dress": {
+  "id": "dragon-dress",
+  "title": "Dragon Dress",
+  "description": "Female martial artist's attire that fends off fire and ice attacks.",
+  "statistics": {
+   "defense": 40,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "martial-artist-(female-only)"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "recipe": {
+   "dragon-scale": 1,
+   "finessence": 2,
+   "strongsam": 1
+  }
+ },
+ "dragon-mail": {
+  "id": "dragon-mail",
+  "title": "Dragon Mail",
+  "description": "A scaly suit that deflects fire- and ice-based damage.",
+  "statistics": {
+   "defense": 44,
+   "special": {
+    "effect": "Resists 20% damage from Fire and Ice"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "dragon-robe": {
+  "id": "dragon-robe",
+  "title": "Dragon Robe",
+  "description": "A garment possessed by a powerful dragon that muffles magical attacks.",
+  "statistics": {
+   "defense": 39,
+   "magicalMight": 32,
+   "special": {
+    "effect": "Resists 18% damage from Fire, Ice, Wind, Lightning, and Dark"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "dragon-top": {
+  "id": "dragon-top",
+  "title": "Dragon Top",
+  "description": "Martial artist's attire that impedes attacks of fire and ice.",
+  "statistics": {
+   "defense": 39,
+   "special": {
+    "effect": "Resists 18% damage from Fire and Ice"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "ingredientFor": [
+   "xenlon-robe"
+  ]
+ },
+ "dragon-warrior-armour": {
+  "id": "dragon-warrior-armour",
+  "title": "Dragon Warrior Armour",
+  "description": "Armour given by Greygnarl as a token of friendship.",
+  "statistics": {
+   "defense": 38,
+   "special": {
+    "effect": "Resists 10% damage from Fire and Dark"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "emperor-s-attire": {
+  "id": "emperor-s-attire",
+  "title": "Emperor's Attire",
+  "description": "Magic-resistant regalia that exudes an emperor's exaltedness.",
+  "statistics": {
+   "defense": 38,
+   "magicalMight": 30,
+   "magicalMending": 30,
+   "special": {
+    "effect": "Resists 20% damage from all elements"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "empress-s-robe": {
+  "id": "empress-s-robe",
+  "title": "Empress's Robe",
+  "description": "Magic-resistant regalia that exudes an empress's elegance.",
+  "statistics": {
+   "defense": 38,
+   "magicalMight": 30,
+   "magicalMending": 30,
+   "special": {
+    "effect": "Resists 20% damage from all elements"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "enchanted-armour": {
+  "id": "enchanted-armour",
+  "title": "Enchanted Armour",
+  "description": "A saintly suit of armour that staves off spells.",
+  "statistics": {
+   "defense": 42,
+   "magicalMight": 7,
+   "magicalMending": 7,
+   "special": {
+    "effect": "Resists 15% damage from Fire, Ice, Wind, and Lightning; 12% from Dark"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "ingredientFor": [
+   "ethereal-armour"
+  ]
+ },
+ "enchanted-robes": {
+  "id": "enchanted-robes",
+  "title": "Enchanted Robes",
+  "description": "A sound vestment that staunchly stands up to spells.",
+  "statistics": {
+   "defense": 20,
+   "magicalMight": 16,
+   "magicalMending": 16,
+   "special": {
+    "effect": "Resists 20% damage from Fire, Ice, Wind, Lightning, and Dark"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "ingredientFor": [
+   "ethereal-robes",
+   ",",
+   "flowing-dress"
+  ]
+ },
+ "erdrick-s-armour": {
+  "id": "erdrick-s-armour",
+  "title": "Erdrick's Armour",
+  "description": "Archetypal armour once worn by a heralded hero.",
+  "statistics": {
+   "defense": 82,
+   "special": {
+    "effect": "Resists 20% damage from Fire, Ice, Wind, Lightning, and Dark"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "erinn-s-outfit": {
+  "id": "erinn-s-outfit",
+  "title": "Erinn's Outfit",
+  "description": "Erinn's much-beloved inn-tending outfit.",
+  "statistics": {
+   "defense": 20,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "ethereal-armour": {
+  "id": "ethereal-armour",
+  "title": "Ethereal Armour",
+  "description": "A stupendous suit of armour that staves off spells.",
+  "statistics": {
+   "defense": 47,
+   "magicalMight": 10,
+   "magicalMending": 10,
+   "special": {
+    "effect": "Resists 18% damage from Fire, Ice, Wind, and Lightning; 15% from Dark"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "ethereal-robes": {
+  "id": "ethereal-robes",
+  "title": "Ethereal Robes",
+  "description": "A protected vestment that's particularly powerful against magic.",
+  "statistics": {
+   "defense": 26,
+   "magicalMight": 20,
+   "magicalMending": 20,
+   "special": {
+    "effect": "Resists 22% damage from Fire, Ice, Wind, Lightning, and Dark"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "femiscyran-mail": {
+  "id": "femiscyran-mail",
+  "title": "Femiscyran Mail",
+  "description": "A flexible defensive garment for female fighters.",
+  "statistics": {
+   "defense": 40,
+   "special": {}
+  },
+  "rarity": 2,
+  "buyPrice": 6100,
+  "vocations": [
+   "warrior-(female-only)"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "fencing-frock": {
+  "id": "fencing-frock",
+  "title": "Fencing Frock",
+  "description": "Female armamentalist's attire that impedes the impact of magic attacks.",
+  "statistics": {
+   "defense": 44,
+   "magicalMight": 16,
+   "special": {
+    "effect": "Resists 15% damage from Fire, Ice, Wind, Lightning, and Dark"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "fencing-jacket": {
+  "id": "fencing-jacket",
+  "title": "Fencing Jacket",
+  "description": "Male armamentalist's attire that impedes the impact of magic attacks.",
+  "statistics": {
+   "defense": 45,
+   "magicalMight": 15,
+   "special": {
+    "effect": "Resists 15% damage from Fire, Ice, Wind, Lightning, and Dark"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "fizzle-proof-suit": {
+  "id": "fizzle-proof-suit",
+  "title": "Fizzle-Proof Suit",
+  "description": "An enchanted ensemble for male mages that fends off Fizzle.",
+  "statistics": {
+   "defense": 24,
+   "magicalMight": 24,
+   "special": {
+    "effect": "Dispels 40% infliction rate of Fizzle"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "ingredientFor": [
+   "sage-s-robe"
+  ]
+ },
+ "fizzle-retardant-blouse": {
+  "id": "fizzle-retardant-blouse",
+  "title": "Fizzle-Retardant Blouse",
+  "description": "A gob-smacking garment for female mages that fends of Fizzle.",
+  "statistics": {
+   "defense": 18,
+   "magicalMight": 18,
+   "special": {
+    "effect": "Dispels 30% infliction rate of Fizzle"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "fizzle-retardant-suit": {
+  "id": "fizzle-retardant-suit",
+  "title": "Fizzle-Retardant Suit",
+  "description": "A gob-smacking garment for male mages that fends off Fizzle.",
+  "statistics": {
+   "defense": 18,
+   "magicalMight": 18,
+   "special": {
+    "effect": "Dispels 30% infliction rate of Fizzle"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "ingredientFor": [
+   "fizzle-proof-suit"
+  ]
+ },
+ "flamenco-shirt": {
+  "id": "flamenco-shirt",
+  "title": "Flamenco Shirt",
+  "description": "Rose-coloured regalia that's right on for male performers.",
+  "statistics": {
+   "defense": 38,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "minstrel-(male-only)"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "recipe": {
+   "brighten-rock": 3,
+   "garish-garb": 1,
+   "technicolour-dreamcloth": 1
+  },
+  "canBeUsedFor": [
+   "012-putting-on-the-glitz"
+  ]
+ },
+ "fleurette-s-frock": {
+  "id": "fleurette-s-frock",
+  "title": "Fleurette's Frock",
+  "description": "A dazzling dress of Fleurette's from a famous label.",
+  "statistics": {
+   "defense": 27,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "flowing-dress": {
+  "id": "flowing-dress",
+  "title": "Flowing Dress",
+  "description": "A consecrated costume that curbs fire- and ice-based damage.",
+  "statistics": {
+   "defense": 25,
+   "magicalMight": 18,
+   "magicalMending": 18,
+   "special": {
+    "effect": "Resists 25% damage from Fire and Ice"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "full-plate-armour": {
+  "id": "full-plate-armour",
+  "title": "Full Plate Armour",
+  "description": "Steel armour that covers the upper quarters.",
+  "statistics": {
+   "defense": 28,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "thief",
+   "gladiator",
+   "paladin",
+   "armamentalist"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "recipe": {
+   "iron-armour": 1,
+   "iron-ore": 1,
+   "royal-soil": 1
+  }
+ },
+ "fur-poncho": {
+  "id": "fur-poncho",
+  "title": "Fur Poncho",
+  "description": "A sturdy skin that staves off fire and ice attacks.",
+  "statistics": {
+   "defense": 15,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "recipe": {
+   "leather-cape": 1,
+   "magic-beast-hide": 3
+  }
+ },
+ "fur-vest": {
+  "id": "fur-vest",
+  "title": "Fur Vest",
+  "description": "Body-hugging boyswear that fends off fire- and ice-based attacks.",
+  "statistics": {
+   "defense": 36,
+   "special": {
+    "effect": "Resists 15% damage from Fire and Ice"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "garish-garb": {
+  "id": "garish-garb",
+  "title": "Garish Garb",
+  "description": "Ta-daa! Glitzy, some might say gaudy, garb for stars of the stage.",
+  "statistics": {
+   "defense": 12,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 660,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "gigant-armour": {
+  "id": "gigant-armour",
+  "title": "Gigant Armour",
+  "description": "Heavy armour, strong against fire-, ice- and lightning-based attacks.",
+  "statistics": {
+   "defense": 58,
+   "special": {
+    "effect": "Resists 15% damage from Fire, Ice, and Lightning"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "gigasteel-armour": {
+  "id": "gigasteel-armour",
+  "title": "Gigasteel Armour",
+  "description": "A very hard version of full plate armour.",
+  "statistics": {
+   "defense": 36,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "thief",
+   "gladiator",
+   "paladin",
+   "armamentalist"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "recipe": {
+   "full-plate-armour": 1,
+   "hephaestus--flame": 1,
+   "iron-ore": 2
+  }
+ },
+ "glombolero": {
+  "id": "glombolero",
+  "title": "Glombolero",
+  "description": "Curious clothing that absorbs the power of magic cast on it.",
+  "statistics": {
+   "defense": 20,
+   "magicalMight": 16,
+   "special": {
+    "effect": "Absorbs MP from incoming spells"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "glorious-armour": {
+  "id": "glorious-armour",
+  "title": "Glorious Armour",
+  "description": "Acclaimed armour that mends HP and MP merely by moving about.",
+  "statistics": {
+   "defense": 85,
+   "special": {
+    "effect": "Resists 20% damage from Fire and Ice; recovers HP and MP while walking about"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "ingredientFor": [
+   "mythical-armour",
+   ",",
+   "legendary-armour"
+  ]
+ },
+ "gold-mail": {
+  "id": "gold-mail",
+  "title": "Gold Mail",
+  "description": "Protective golden garb that deflects a dash of magic damage.",
+  "statistics": {
+   "defense": 38,
+   "special": {
+    "effect": "Resists 10% damage from Fire, Ice, Wind, and Lightning; 8% from Dark"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "ingredientFor": [
+   "platinum-mail"
+  ]
+ },
+ "gooey-gear": {
+  "id": "gooey-gear",
+  "title": "Gooey Gear",
+  "description": "Wobbly wear oozing with fancy-dress flair for an amazing translimation.",
+  "statistics": {
+   "defense": 21,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "recipe": {
+   "garish-garb": 1,
+   "slimedrop": 3
+  }
+ },
+ "gothan-robe": {
+  "id": "gothan-robe",
+  "title": "Gothan Robe",
+  "description": "A frugal gown that once graced the shoulders of the King of Gotha.",
+  "statistics": {
+   "defense": 40,
+   "magicalMight": 12,
+   "magicalMending": 20,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "gusto-garb": {
+  "id": "gusto-garb",
+  "title": "GUSTO Garb",
+  "description": "One of Morrie's special suits of carefully clashing colours.",
+  "statistics": {
+   "defense": 40,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "heavy-armour": {
+  "id": "heavy-armour",
+  "title": "Heavy Armour",
+  "description": "A sturdy suit that staves off some fire- and ice-based strife.",
+  "statistics": {
+   "defense": 35,
+   "special": {
+    "effect": "Resists 18% damage from Fire and Ice"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "holy-femail": {
+  "id": "holy-femail",
+  "title": "Holy Femail",
+  "description": "Protection for female paladins that guards against ungodly powers.",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "paladin-(female-only)"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "holy-mail": {
+  "id": "holy-mail",
+  "title": "Holy Mail",
+  "description": "Protection for male paladins that guards against ungodly powers.",
+  "statistics": {
+   "defense": 47,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "paladin-(male-only)"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "recipe": {
+   "chain-mail": 1,
+   "holy-talisman": 1,
+   "mythril-ore": 1
+  }
+ },
+ "iron-armour": {
+  "id": "iron-armour",
+  "title": "Iron Armour",
+  "description": "Meta armour that covers the upper quarters.",
+  "statistics": {
+   "defense": 18,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 1200,
+  "vocations": [
+   "warrior",
+   "thief",
+   "gladiator",
+   "paladin",
+   "armamentalist"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "iron-cuirass": {
+  "id": "iron-cuirass",
+  "title": "Iron Cuirass",
+  "description": "Good defensive garb made of iron that covers the chest.",
+  "statistics": {
+   "defense": 16,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 1000,
+  "vocations": [
+   "warrior",
+   "priest",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "jaguarment": {
+  "id": "jaguarment",
+  "title": "Jaguarment",
+  "description": "A jazzy dress made from a jaguar's hide.",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 25500,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "jessica-s-frock": {
+  "id": "jessica-s-frock",
+  "title": "Jessica's Frock",
+  "description": "A delightful décolleté dress donned by Jessica.",
+  "statistics": {
+   "defense": 29,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "jolly-roger-jumper": {
+  "id": "jolly-roger-jumper",
+  "title": "Jolly Roger Jumper",
+  "description": "A scary top sporting a skull-and-crossbones design.",
+  "statistics": {
+   "defense": 19,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 520,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "king-s-coat": {
+  "id": "king-s-coat",
+  "title": "King's Coat",
+  "description": "Magic-resistant regalia that would complement a king.",
+  "statistics": {
+   "defense": 34,
+   "magicalMight": 25,
+   "magicalMending": 25,
+   "special": {
+    "effect": "Resists 18% damage from all elements"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "ingredientFor": [
+   "emperor-s-attire"
+  ]
+ },
+ "kiryl-s-clothes": {
+  "id": "kiryl-s-clothes",
+  "title": "Kiryl's Clothes",
+  "description": "Clobber that once clad Bishop Kiryl.",
+  "statistics": {
+   "defense": 22,
+   "magicalMending": 12,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "large-scale-armour": {
+  "id": "large-scale-armour",
+  "title": "Large-Scale Armour",
+  "description": "Armour constructed with a covering of carefully selected scales.",
+  "statistics": {
+   "defense": 17,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "thief",
+   "minstrel",
+   "gladiotor",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "recipe": {
+   "scale-armour": 1,
+   "scale-shield": 1,
+   "snakeskin": 1
+  }
+ },
+ "leather-armour": {
+  "id": "leather-armour",
+  "title": "Leather Armour",
+  "description": "Fully frill-free armour of firm, tanned leather.",
+  "statistics": {
+   "defense": 6,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 180,
+  "vocations": [
+   "warrior",
+   "priest",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "leather-cape": {
+  "id": "leather-cape",
+  "title": "Leather Cape",
+  "description": "A toasty, tanned-leather type of attire.",
+  "statistics": {
+   "defense": 8,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 320,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "leather-dress": {
+  "id": "leather-dress",
+  "title": "Leather Dress",
+  "description": "A surprisingly stylish dress made of hard-wearing animal hide.",
+  "statistics": {
+   "defense": 6,
+   "magicalMending": 3,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 290,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "legendary-armour": {
+  "id": "legendary-armour",
+  "title": "Legendary Armour",
+  "description": "Unparalleled protection that mends HP and MP merely by moving about.",
+  "statistics": {
+   "defense": 100,
+   "special": {
+    "effect": "Resists 25% damage from Fire and Ice; recovers HP and MP while walking about"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "liquid-metal-armour": {
+  "id": "liquid-metal-armour",
+  "title": "Liquid Metal Armour",
+  "description": "Armour with a liquid metal slime emblem that staves off spells.",
+  "statistics": {
+   "defense": 70,
+   "special": {
+    "effect": "Resists 18% damage from all elements"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "ingredientFor": [
+   "metal-king-armour"
+  ]
+ },
+ "macabre-mantle": {
+  "id": "macabre-mantle",
+  "title": "Macabre Mantle",
+  "description": "Dingy drapery that makes dodging enemy attacks a doddle.",
+  "statistics": {
+   "defense": 42,
+   "evasionChance": 3,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "priest",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "recipe": {
+   "dark-robe": 1,
+   "terrible-tattoo": 3,
+   "wing-of-bat": 4
+  }
+ },
+ "magic-armour": {
+  "id": "magic-armour",
+  "title": "Magic Armour",
+  "description": "A strange suit of armour that staves off spells.",
+  "statistics": {
+   "defense": 37,
+   "magicalMight": 4,
+   "magicalMending": 4,
+   "special": {
+    "effect": "Resists 12% damage from Fire, Ice, Wind, and Lightning; 10% from Dark"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "ingredientFor": [
+   "enchanted-armour",
+   "dragon-mail",
+   "spiked-armour",
+   "mirror-armour"
+  ]
+ },
+ "magical-robes": {
+  "id": "magical-robes",
+  "title": "Magical Robes",
+  "description": "A magical vestment that spoils the effects of spells.",
+  "statistics": {
+   "defense": 15,
+   "magicalMight": 12,
+   "magicalMending": 12,
+   "special": {
+    "effect": "Resists 18% damage from Fire, Ice, Wind, Lightning, and Dark"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "ingredientFor": [
+   "enchanted-robes"
+  ]
+ },
+ "maid-outfit": {
+  "id": "maid-outfit",
+  "title": "Maid Outfit",
+  "description": "Aproned attire made for maids.",
+  "statistics": {
+   "defense": 25,
+   "special": {}
+  },
+  "rarity": 3,
+  "buyPrice": 18000,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "maiden-s-mantle": {
+  "id": "maiden-s-mantle",
+  "title": "Maiden's Mantle",
+  "description": "A mighty magical cloak favoured by erudite females.",
+  "statistics": {
+   "defense": 32,
+   "magicalMight": 18,
+   "magicalMending": 22,
+   "special": {
+    "effect": "Resists 12% damage from Fire, Ice, Wind, Lightning, and Dark"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "majestic-mantle": {
+  "id": "majestic-mantle",
+  "title": "Majestic Mantle",
+  "description": "A regal wrap that enhances the elegance of any outfit eightfold.",
+  "statistics": {
+   "defense": 26,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "priest",
+   "mage",
+   "thief",
+   "minstrel",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "recipe": {
+   "bow-tie": 1,
+   "brighten-rock": 3,
+   "velvet-cape": 1
+  },
+  "ingredientFor": [
+   "cape-of-good-karma"
+  ]
+ },
+ "maribel-s-clothes": {
+  "id": "maribel-s-clothes",
+  "title": "Maribel's Clothes",
+  "description": "A one-piece that was worn by Maribel.",
+  "statistics": {
+   "defense": 30,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "maya-s-outfit": {
+  "id": "maya-s-outfit",
+  "title": "Maya's Outfit",
+  "description": "A racy raiment donned by the dancer Maya.",
+  "statistics": {
+   "defense": 17,
+   "magicalMight": 11,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "meena-s-robe": {
+  "id": "meena-s-robe",
+  "title": "Meena's Robe",
+  "description": "An uncomplicated cloak worn by Meena the mystic.",
+  "statistics": {
+   "defense": 20,
+   "magicalMending": 11,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "mesotoga": {
+  "id": "mesotoga",
+  "title": "Mesotoga",
+  "description": "A radical wrap that repels fire, ice, poison, sleep and paralysis.",
+  "statistics": {
+   "defense": 70,
+   "special": {
+    "effect": "Resists 22% damage from Fire, Ice, Wind, Lightning, and Dark; dispels 30% infliction rates of Snooze, Poison, and Paralysis"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "metal-king-armour": {
+  "id": "metal-king-armour",
+  "title": "Metal King Armour",
+  "description": "Armour with a metal king slime emblem that staves off spells.",
+  "statistics": {
+   "defense": 77,
+   "special": {
+    "effect": "Resists 20% damage from all elements"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "metal-slime-armour": {
+  "id": "metal-slime-armour",
+  "title": "Metal Slime Armour",
+  "description": "Armour with a metal slime emblem that staves off spells.",
+  "statistics": {
+   "defense": 63,
+   "special": {
+    "effect": "Resists 15% damage from all elements"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "midenhall-garb": {
+  "id": "midenhall-garb",
+  "title": "Midenhall Garb",
+  "description": "An outfit ostensibly worn by the Prince of Midenhall.",
+  "statistics": {
+   "defense": 55,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "milly-s-clothes": {
+  "id": "milly-s-clothes",
+  "title": "Milly's Clothes",
+  "description": "Ribbon-ridden raiment made famous by the mighty Milly.",
+  "statistics": {
+   "defense": 33,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "mirror-armour": {
+  "id": "mirror-armour",
+  "title": "Mirror Armour",
+  "description": "Enchanted armour that sometimes sends spells back to their source.",
+  "statistics": {
+   "defense": 52,
+   "special": {
+    "effect": "Chance to reflect spells"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "ingredientFor": [
+   "catoptric-armour"
+  ]
+ },
+ "moonbrooke-dress": {
+  "id": "moonbrooke-dress",
+  "title": "Moonbrooke Dress",
+  "description": "A plain piece of clothing worn by the Princess of Moonbrooke.",
+  "statistics": {
+   "defense": 20,
+   "magicalMight": 10,
+   "magicalMending": 5,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "muscle-belt": {
+  "id": "muscle-belt",
+  "title": "Muscle Belt",
+  "description": "A belt for the bare skin that bolsters the beauty of brawn.",
+  "statistics": {
+   "defense": 24,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "mythical-armour": {
+  "id": "mythical-armour",
+  "title": "Mythical Armour",
+  "description": "Impermeable armour that mends HP and MP merely by moving about.",
+  "statistics": {
+   "defense": 93,
+   "special": {
+    "effect": "Resists 22% damage from Fire and Ice; recovers HP and MP while walking about"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "nera-s-dress": {
+  "id": "nera-s-dress",
+  "title": "Nera's Dress",
+  "description": "A pricey piece of clothing once worn by Nera Briscoletti.",
+  "statistics": {
+   "defense": 27,
+   "magicalMending": 5,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "nightmare-gown": {
+  "id": "nightmare-gown",
+  "title": "Nightmare Gown",
+  "description": "A deadly dressing-gown that dulls defence against many disorders.",
+  "statistics": {
+   "defense": 27,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "priest",
+   "mage",
+   "minstrel",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "ingredientFor": [
+   "celestria-s-gown"
+  ]
+ },
+ "nomadic-deel": {
+  "id": "nomadic-deel",
+  "title": "Nomadic Deel",
+  "description": "A kilt revered by rangers for possessing the power of the earth.",
+  "statistics": {
+   "defense": 39,
+   "special": {
+    "effect": "Resists 25% damage from Earth"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "pallium-regale": {
+  "id": "pallium-regale",
+  "title": "Pallium Regale",
+  "description": "A gown that grants only real royalty the right to wear it.",
+  "statistics": {
+   "defense": 63,
+   "special": {
+    "effect": "Resists 20% damage from all elements"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "patty-s-dirndl": {
+  "id": "patty-s-dirndl",
+  "title": "Patty's Dirndl",
+  "description": "A dress built with buxom lady bartenders in mind.",
+  "statistics": {
+   "defense": 25,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "plain-clothes": {
+  "id": "plain-clothes",
+  "title": "Plain Clothes",
+  "description": "A bog-standard bit of kit made of common cloth.",
+  "statistics": {
+   "defense": 2,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 30,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "plain-dress": {
+  "id": "plain-dress",
+  "title": "Plain Dress",
+  "description": "A nice little number that brings to mind the green of young grass.",
+  "statistics": {
+   "defense": 15,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 1600,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "platinum-mail": {
+  "id": "platinum-mail",
+  "title": "Platinum Mail",
+  "description": "Precious protection that can deflect a dash of magic damage.",
+  "statistics": {
+   "defense": 43,
+   "special": {
+    "effect": "Resists 12% damage from Fire, Ice, Wind, and Lightning; 10% from Dark"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "canBeUsedFor": [
+   "012-putting-on-the-glitz"
+  ]
+ },
+ "priestess-s-pinafore": {
+  "id": "priestess-s-pinafore",
+  "title": "Priestess's Pinafore",
+  "description": "A virtuous vestment for female priests that stops MP from being stolen.",
+  "statistics": {
+   "defense": 19,
+   "magicalMending": 18,
+   "special": {
+    "effect": "Resists 30% MP Absorption"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "prince-s-pea-coat": {
+  "id": "prince-s-pea-coat",
+  "title": "Prince's Pea Coat",
+  "description": "Magic-resistant regalia that would be perfect for a prince.",
+  "statistics": {
+   "defense": 30,
+   "magicalMight": 20,
+   "magicalMending": 20,
+   "special": {
+    "effect": "Resists 15% damage from all elements"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "ingredientFor": [
+   "king-s-coat"
+  ]
+ },
+ "princess-s-robe": {
+  "id": "princess-s-robe",
+  "title": "Princess's Robe",
+  "description": "Magic-resistant regalia that would be perfect for a princess.",
+  "statistics": {
+   "defense": 30,
+   "magicalMight": 20,
+   "magicalMending": 20,
+   "special": {
+    "effect": "Resists 15% damage from all elements"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "ingredientFor": [
+   "queen-s-robe"
+  ]
+ },
+ "queen-s-robe": {
+  "id": "queen-s-robe",
+  "title": "Queen's Robe",
+  "description": "Magic-resistant regalia that would complement a queen.",
+  "statistics": {
+   "defense": 34,
+   "magicalMight": 25,
+   "magicalMending": 25,
+   "special": {
+    "effect": "Resists 18% damage from all elements"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "ingredientFor": [
+   "empress-s-robe"
+  ]
+ },
+ "ragnar-s-armour": {
+  "id": "ragnar-s-armour",
+  "title": "Ragnar's Armour",
+  "description": "A replica of Ragnar McRyan's royal guard's armour.",
+  "statistics": {
+   "defense": 38,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "robe-of-serenity": {
+  "id": "robe-of-serenity",
+  "title": "Robe of Serenity",
+  "description": "Stops some attacks that would otherwise send the wearer to sleep.",
+  "statistics": {
+   "defense": 9,
+   "magicalMight": 5,
+   "magicalMending": 5,
+   "special": {
+    "effect": "Dispels 25% infliction rate of Snooze"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "robe-of-sweet-dreams": {
+  "id": "robe-of-sweet-dreams",
+  "title": "Robe of Sweet Dreams",
+  "description": "A gown that guards against attacks that send victims to sleep.",
+  "statistics": {
+   "defense": 14,
+   "magicalMight": 8,
+   "magicalMending": 10,
+   "special": {
+    "effect": "Dispels 40% infliction rate of Snooze"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "rogue-s-robes": {
+  "id": "rogue-s-robes",
+  "title": "Rogue's Robes",
+  "description": "Apparel apparently worn by principled male pilferers.",
+  "statistics": {
+   "defense": 39,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "thief-(male-only)"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "roguess-s-robes": {
+  "id": "roguess-s-robes",
+  "title": "Roguess's Robes",
+  "description": "Apparel apparently worn by principled female pilferers.",
+  "statistics": {
+   "defense": 39,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "thief-(female-only)"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "rusty-armour": {
+  "id": "rusty-armour",
+  "title": "Rusty Armour",
+  "description": "A spoilt, sorrowful suit of armour of obscure origin.",
+  "statistics": {
+   "defense": 26,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "ingredientFor": [
+   "erdrick-s-armour"
+  ]
+ },
+ "sacred-armour": {
+  "id": "sacred-armour",
+  "title": "Sacred Armour",
+  "description": "Enchanted armour that helps heal its wearer's wounds in battle.",
+  "statistics": {
+   "defense": 46,
+   "special": {
+    "effect": "Recovers 25 HP each turn"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "ingredientFor": [
+   "sacrosanct-armour"
+  ]
+ },
+ "sacrosanct-armour": {
+  "id": "sacrosanct-armour",
+  "title": "Sacrosanct Armour",
+  "description": "A splendid suit that helps heal its wearer's wounds in battle.",
+  "statistics": {
+   "defense": 53,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "recipe": {
+   "life-bracer": 1,
+   "ruby-of-protection": 1,
+   "sacred-armour": 1
+  }
+ },
+ "sage-s-robe": {
+  "id": "sage-s-robe",
+  "title": "Sage's Robe",
+  "description": "A gorgeous gown that guards against magic damage.",
+  "statistics": {
+   "defense": 32,
+   "magicalMight": 22,
+   "magicalMending": 16,
+   "special": {
+    "effect": "Resists 15% damage from Fire, Ice, Wind, Lightning, and Dark"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "saintly-robe": {
+  "id": "saintly-robe",
+  "title": "Saintly Robe",
+  "description": "A godly gown that defends against the draining of magic.",
+  "statistics": {
+   "defense": 25,
+   "magicalMending": 24,
+   "special": {
+    "effect": "Resists 40% MP Absorption"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "ingredientFor": [
+   "sage-s-robe"
+  ]
+ },
+ "santa-s-little-helper-suit": {
+  "id": "santa-s-little-helper-suit",
+  "title": "Santa's Little Helper Suit",
+  "description": "Pop this on and just try not to feel the spirit of the season of goodwill!",
+  "statistics": {
+   "defense": 50,
+   "special": {
+    "effect": "Resists 20% damage from Ice"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "santa-suit": {
+  "id": "santa-suit",
+  "title": "Santa Suit",
+  "description": "Jolly old Father Christmas's inimitable outfit. Ho ho ho!",
+  "statistics": {
+   "defense": 52,
+   "special": {
+    "effect": "Resists 20% damage from Ice"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "scale-armour": {
+  "id": "scale-armour",
+  "title": "Scale Armour",
+  "description": "A suit of armour with a scaly skin.",
+  "statistics": {
+   "defense": 9,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 350,
+  "vocations": [
+   "warrior",
+   "priest",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "sellma-s-frock": {
+  "id": "sellma-s-frock",
+  "title": "Sellma's Frock",
+  "description": "A voluminous dress, perfect for hiding espionage equipment.",
+  "statistics": {
+   "defense": 30,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "seraph-s-robe": {
+  "id": "seraph-s-robe",
+  "title": "Seraph's Robe",
+  "description": "An unrivalled robe that fends off fatal spells.",
+  "statistics": {
+   "defense": 50,
+   "magicalMight": 42,
+   "magicalMending": 42,
+   "special": {
+    "effect": "Resists 25% damage from all elements; dispels 40% infliction rate of Whack"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "shimmering-dress": {
+  "id": "shimmering-dress",
+  "title": "Shimmering Dress",
+  "description": "A nebulous number that's not unknown to reflect spells.",
+  "statistics": {
+   "defense": 35,
+   "special": {
+    "effect": "Chance to reflect spells"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "ingredientFor": [
+   "princess-s-robe"
+  ]
+ },
+ "shipmate-s-shirt": {
+  "id": "shipmate-s-shirt",
+  "title": "Shipmate's Shirt",
+  "description": "A stripy shirt for seafaring souls.",
+  "statistics": {
+   "defense": 25,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 5980,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "silk-robe": {
+  "id": "silk-robe",
+  "title": "Silk Robe",
+  "description": "A quality cape spun from silk yarn.",
+  "statistics": {
+   "defense": 3,
+   "magicalMight": 3,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 210,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "silver-cuirass": {
+  "id": "silver-cuirass",
+  "title": "Silver Cuirass",
+  "description": "A precious piece of protection for the chest.",
+  "statistics": {
+   "defense": 25,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "recipe": {
+   "iron-cuirass": 1,
+   "silver-platter": 1
+  }
+ },
+ "silver-mail": {
+  "id": "silver-mail",
+  "title": "Silver Mail",
+  "description": "An argent suit of armour that deflects a dash of magic damage.",
+  "statistics": {
+   "defense": 31,
+   "special": {
+    "effect": "Resists 8% damage from Fire, Ice, Wind, and Lightning; 5% from Dark"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "ingredientFor": [
+   "gold-mail"
+  ]
+ },
+ "sizzling-bikini-top": {
+  "id": "sizzling-bikini-top",
+  "title": "Sizzling Bikini Top",
+  "description": "Bold bathing gear that bravely beats back fire and lightning attacks.",
+  "statistics": {
+   "defense": 45,
+   "special": {
+    "effect": "Resists 15% damage from Fire and Lightning"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "skeleton-suit": {
+  "id": "skeleton-suit",
+  "title": "Skeleton Suit",
+  "description": "The spooky, skeletal top half of a bone-themed ensemble.",
+  "statistics": {
+   "defense": 38,
+   "special": {}
+  },
+  "rarity": 3,
+  "buyPrice": 15000,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "smart-suit": {
+  "id": "smart-suit",
+  "title": "Smart Suit",
+  "description": "A super-smart and stylish suit for the most fastidious of fops.",
+  "statistics": {
+   "defense": 18,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 2300,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "somnia-clothes": {
+  "id": "somnia-clothes",
+  "title": "Somnia Clothes",
+  "description": "A simple suit sported by the Prince of Somnia.",
+  "statistics": {
+   "defense": 47,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "spangled-dress": {
+  "id": "spangled-dress",
+  "title": "Spangled Dress",
+  "description": "A graceful gown for the more mature lady.",
+  "statistics": {
+   "defense": 18,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 2500,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "spiked-armour": {
+  "id": "spiked-armour",
+  "title": "Spiked Armour",
+  "description": "Artful armour that reflects damage right back at its source.",
+  "statistics": {
+   "defense": 39,
+   "special": {
+    "effect": "Chance to reflect 20% of damage taken"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "star-s-suit": {
+  "id": "star-s-suit",
+  "title": "Star's Suit",
+  "description": "A suit for celebrities who have a need to be noticed.",
+  "statistics": {
+   "defense": 44,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "stellar-suit": {
+  "id": "stellar-suit",
+  "title": "Stellar Suit",
+  "description": "A fashionable fit for faerlie flamboyant females.",
+  "statistics": {
+   "defense": 38,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "stratotoga": {
+  "id": "stratotoga",
+  "title": "Stratotoga",
+  "description": "A resistant wrap that repels fire, ice, poison, sleep and paralysis.",
+  "statistics": {
+   "defense": 66,
+   "special": {
+    "effect": "Resists 22% damage from Fire and Ice; dispels 25% infliction rates of Snooze, Poison, and Paralysis"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "ingredientFor": [
+   "mesotoga",
+   ",",
+   "exotoga"
+  ]
+ },
+ "strongsam": {
+  "id": "strongsam",
+  "title": "Strongsam",
+  "description": "An unrestrictive outfit that's much-loved by female martial artists.",
+  "statistics": {
+   "defense": 32,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 4100,
+  "vocations": [
+   "martial-artist-(female-only)"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "ingredientFor": [
+   "dragon-dress"
+  ]
+ },
+ "summer-dress": {
+  "id": "summer-dress",
+  "title": "Summer Dress",
+  "description": "A fancy frock that's white, light and quite cool.",
+  "statistics": {
+   "defense": 24,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 4800,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "superstar-s-suit": {
+  "id": "superstar-s-suit",
+  "title": "Superstar's Suit",
+  "description": "A sparkling suit for an illustrious luminary.",
+  "statistics": {
+   "defense": 53,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "recipe": {
+   "lucida-shard": 3,
+   "star-s-suit": 1
+  }
+ },
+ "surplice": {
+  "id": "surplice",
+  "title": "Surplice",
+  "description": "A past priest's vital vestment used to evade magic draining.",
+  "statistics": {
+   "defense": 30,
+   "magicalMending": 27,
+   "special": {
+    "effect": "Resists 40% MP Absorption"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "swinedimples-blazer": {
+  "id": "swinedimples-blazer",
+  "title": "Swinedimples Blazer",
+  "description": "The uniform of an acclaimed academy.",
+  "statistics": {
+   "defense": 10,
+   "special": {}
+  },
+  "rarity": 2,
+  "buyPrice": 1500,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "canBeUsedFor": [
+   "012-putting-on-the-glitz"
+  ]
+ },
+ "tactical-vest": {
+  "id": "tactical-vest",
+  "title": "Tactical Vest",
+  "description": "Combat clobber for high-grade male gladiators.",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "gladiator-(male-only)"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "technicolour-tutu": {
+  "id": "technicolour-tutu",
+  "title": "Technicolour Tutu",
+  "description": "A gasp-worthy gown for golden girls.",
+  "statistics": {
+   "defense": 53,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "luminary-(female-only)"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "recipe": {
+   "technicolour-dreamcloth": 1,
+   "tint-tastic-tutu": 1
+  }
+ },
+ "templar-s-togs": {
+  "id": "templar-s-togs",
+  "title": "Templar's Togs",
+  "description": "Audacious red attire readily donned by the Templar Angelo.",
+  "statistics": {
+   "defense": 35,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "tint-tastic-tutu": {
+  "id": "tint-tastic-tutu",
+  "title": "Tint-Tastic Tutu",
+  "description": "A frilly, floating frock for the furtherance of fans' fantasies.",
+  "statistics": {
+   "defense": 44,
+   "special": {}
+  },
+  "rarity": 2,
+  "buyPrice": 24400,
+  "vocations": [
+   "luminary-(female-only)"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "torneko-s-clothes": {
+  "id": "torneko-s-clothes",
+  "title": "Torneko's Clothes",
+  "description": "A stripy suit made for the merchant Taloon.",
+  "statistics": {
+   "defense": 30,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "tortoise-shell": {
+  "id": "tortoise-shell",
+  "title": "Tortoise Shell",
+  "description": "Not to be confused with the item,",
+  "statistics": {
+   "special": {}
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "ingredientFor": [
+   "black-tortoise-fan",
+   ",",
+   "tortoiseshell-armour"
+  ]
+ },
+ "tortoiseshell-armour": {
+  "id": "tortoiseshell-armour",
+  "title": "Tortoiseshell Armour",
+  "description": "An eccentric enhancement of the tortoise shell.",
+  "statistics": {
+   "defense": 30,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "armamentalist",
+   "ranger",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "recipe": {
+   "emerald-moss": 2,
+   "tortoise-shell": 1,
+   "tortoiseshell": 2
+  }
+ },
+ "tracksuit-top": {
+  "id": "tracksuit-top",
+  "title": "Tracksuit Top",
+  "description": "A loose garment made for tougher training sessions.",
+  "statistics": {
+   "defense": 15,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "martial-artist",
+   "thief"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "recipe": {
+   "finessence": 1,
+   "training-top": 1
+  }
+ },
+ "training-top": {
+  "id": "training-top",
+  "title": "Training Top",
+  "description": "A loose garment made for ease of movement when working out.",
+  "statistics": {
+   "defense": 7,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 250,
+  "vocations": [
+   "martial-artist",
+   "thief"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "ingredientFor": [
+   "tracksuit-top"
+  ]
+ },
+ "trodain-togs": {
+  "id": "trodain-togs",
+  "title": "Trodain Togs",
+  "description": "The type of suit a certain Tordain trooper might be tricked out in.",
+  "statistics": {
+   "defense": 52,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "trode-s-robes": {
+  "id": "trode-s-robes",
+  "title": "Trode's Robes",
+  "description": "An unadorned outfit ostensibly owned by King Trode of Trodain.",
+  "statistics": {
+   "defense": 23,
+   "magicalMight": 6,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "tropotoga": {
+  "id": "tropotoga",
+  "title": "Tropotoga",
+  "description": "A reassuring wrap that repels fire, ice, poison, sleep and paralysis.",
+  "statistics": {
+   "defense": 61,
+   "special": {
+    "effect": "Resists 20% damage from Fire and Ice; dispels 20% infliction rates of Snooze, Poison, and Paralysis"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "tussler-s-top": {
+  "id": "tussler-s-top",
+  "title": "Tussler's Top",
+  "description": "An outfit for male martial artists to wear in real-life combat.",
+  "statistics": {
+   "defense": 31,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 3400,
+  "vocations": [
+   "martial-artist-(male-only)"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "recipe": {
+   "finessence": 1,
+   "magic-beast-hide": 2,
+   "tracksuit-top": 1
+  }
+ },
+ "twinkling-tuxedo": {
+  "id": "twinkling-tuxedo",
+  "title": "Twinkling Tuxedo",
+  "description": "A supernatural suit that sporadically reflects spells.",
+  "statistics": {
+   "defense": 35,
+   "special": {
+    "effect": "Chance to reflect spells"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "ingredientFor": [
+   "prince-s-pea-coat"
+  ]
+ },
+ "velvet-cape": {
+  "id": "velvet-cape",
+  "title": "Velvet Cape",
+  "description": "A classy cloak that improves one's appearance.",
+  "statistics": {
+   "defense": 20,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 3000,
+  "vocations": [
+   "priest",
+   "mage",
+   "thief",
+   "minstrel",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "ingredientFor": [
+   "majestic-mantle",
+   ",",
+   "dark-robe"
+  ]
+ },
+ "veteran-s-armour": {
+  "id": "veteran-s-armour",
+  "title": "Veteran's Armour",
+  "description": "Ancient armour said to harbour the soul of a bygone battler.",
+  "statistics": {
+   "defense": 56,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "warrior"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "victorious-armour": {
+  "id": "victorious-armour",
+  "title": "Victorious Armour",
+  "description": "Mystical mail that mends HP and MP merely by moving about.",
+  "statistics": {
+   "defense": 78,
+   "special": {
+    "effect": "Resists 18% damage from Fire and Ice; recovers HP and MP while walking about"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "warrior-s-armour": {
+  "id": "warrior-s-armour",
+  "title": "Warrior's Armour",
+  "description": "A snazzy suit of armour that would suit a snooty soldier.",
+  "statistics": {
+   "defense": 41,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "warrior"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "wayfarer-s-clothes": {
+  "id": "wayfarer-s-clothes",
+  "title": "Wayfarer's Clothes",
+  "description": "Hardy hempen togs treasured by travellers.",
+  "statistics": {
+   "defense": 4,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 70,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "wedding-dress": {
+  "id": "wedding-dress",
+  "title": "Wedding Dress",
+  "description": "What the bride wears at a traditional white wedding.",
+  "statistics": {
+   "defense": 45,
+   "special": {
+    "effect": "Resists 20% damage from Dark"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "white-t-shirt": {
+  "id": "white-t-shirt",
+  "title": "White T-Shirt",
+  "description": "A plain, white t-shirt.",
+  "statistics": {
+   "defense": 11,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 520,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "canBeUsedFor": [
+   "012-putting-on-the-glitz"
+  ]
+ },
+ "white-tuxedo": {
+  "id": "white-tuxedo",
+  "title": "White Tuxedo",
+  "description": "What the groom wears at a slightly snazzy white wedding.",
+  "statistics": {
+   "defense": 48,
+   "special": {
+    "effect": "Resists 20% damage from Dark"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "witch-s-robe": {
+  "id": "witch-s-robe",
+  "title": "Witch's Robe",
+  "description": "A Fizzle-fizzling frock that harbours the soul of an ancient sorceress.",
+  "statistics": {
+   "defense": 27,
+   "magicalMight": 28,
+   "special": {
+    "effect": "Dispels 40% infliction rate of Fizzle"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "wizard-s-robe": {
+  "id": "wizard-s-robe",
+  "title": "Wizard's Robe",
+  "description": "A Fizzle-fizzling frock that harbours the soul of an ancient sorceror.",
+  "statistics": {
+   "defense": 27,
+   "magicalMight": 27,
+   "special": {
+    "effect": "Dispels 40% infliction rate of Fizzle"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "xenlon-robe": {
+  "id": "xenlon-robe",
+  "title": "Xenlon Robe",
+  "description": "A garment possessed by a dragon deity that muffles magical attacks.",
+  "statistics": {
+   "defense": 45,
+   "magicalMight": 42,
+   "special": {
+    "effect": "Resists 20% damage from Fire, Ice, Wind, Lightning, and Dark"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "yangus-s-billy": {
+  "id": "yangus-s-billy",
+  "title": "Yangus's Billy",
+  "description": "A flurry waistcoat that once failed to fully contain Yangus's chest.",
+  "statistics": {
+   "defense": 33,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "zenithian-clothes": {
+  "id": "zenithian-clothes",
+  "title": "Zenithian Clothes",
+  "description": "An unadorned outfit worn by a hero of Zenithia.",
+  "statistics": {
+   "defense": 54,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ },
+ "zenithian-leotard": {
+  "id": "zenithian-leotard",
+  "title": "Zenithian Leotard",
+  "description": "A body-hugging one-piece worn by a heroine of Zenithia.",
+  "statistics": {
+   "defense": 53,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
+ }
+}

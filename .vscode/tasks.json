@@ -3,9 +3,6 @@
   "tasks": [
     {
       "label": "start",
-      // "runOptions": {
-      //   "runOn": "folderOpen"
-      // },
       "dependsOrder": "parallel",
       "dependsOn": ["templ", "css", "app"]
     },

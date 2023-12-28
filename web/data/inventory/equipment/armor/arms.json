@@ -1,0 +1,1777 @@
+{
+ "alefgard-gloves": {
+  "id": "alefgard-gloves",
+  "title": "Alefgard Gloves",
+  "description": "Fingerwear fashionable in Alefgard.",
+  "statistics": {
+   "deftness": 64,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "alena-s-gloves": {
+  "id": "alena-s-gloves",
+  "title": "Alena's Gloves",
+  "description": "Winsome handwear one might find in a tsarevna's wardrobe.",
+  "statistics": {
+   "deftness": 44,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "aliahan-gloves": {
+  "id": "aliahan-gloves",
+  "title": "Aliahan Gloves",
+  "description": "Hand coverings that quietly contributed to a hero's quest.",
+  "statistics": {
+   "deftness": 62,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "angelo-s-gloves": {
+  "id": "angelo-s-gloves",
+  "title": "Angelo's Gloves",
+  "description": "Affected armwear advocated by Angelo.",
+  "statistics": {
+   "deftness": 52,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "apprentice-s-gloves": {
+  "id": "apprentice-s-gloves",
+  "title": "Apprentice's Gloves",
+  "description": "Fingerwear that fosters fine movement.",
+  "statistics": {
+   "defense": 8,
+   "deftness": 88,
+   "special": {}
+  },
+  "rarity": 4,
+  "vocations": [
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms",
+  "recipe": {
+   "grandmaster-s-gloves": 1,
+   "reset-stone": 1
+  }
+ },
+ "archer-s-armguard": {
+  "id": "archer-s-armguard",
+  "title": "Archer's Armguard",
+  "description": "Handwear for handling bows, habitually worn by rangers.",
+  "statistics": {
+   "deftness": 50,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 770,
+  "vocations": [
+   "ranger"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms",
+  "ingredientFor": [
+   "hotshot-bow"
+  ]
+ },
+ "ashlynn-s-gloves": {
+  "id": "ashlynn-s-gloves",
+  "title": "Ashlynn's Gloves",
+  "description": "Magical mitts adored by Ashlynn.",
+  "statistics": {
+   "deftness": 50,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "battler-s-bracers": {
+  "id": "battler-s-bracers",
+  "title": "Battler's Bracers",
+  "description": "On-trend armwear for advanced adventurers.",
+  "statistics": {
+   "defense": 12,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 3300,
+  "vocations": [
+   "warrior",
+   "priest",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "bianca-s-bracelets": {
+  "id": "bianca-s-bracelets",
+  "title": "Bianca's Bracelets",
+  "description": "Bangles bent into shape by Bianca herself.",
+  "statistics": {
+   "defense": 13,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "blessed-bindings": {
+  "id": "blessed-bindings",
+  "title": "Blessed Bindings",
+  "description": "Cloth wrist coverings once worn by a sage of a bygone age.",
+  "statistics": {
+   "defense": 17,
+   "magicalMight": 10,
+   "magicalMending": 10,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "sage"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms",
+  "recipe": {
+   "bruiser-s-bracers": 1,
+   "sage-s-elixir": 2,
+   "thinkincense": 3
+  }
+ },
+ "blindin--bracers": {
+  "id": "blindin--bracers",
+  "title": "Blindin' Bracers",
+  "description": "Brawny bracelets' brimmin' wiv Yangus's bottle.",
+  "statistics": {
+   "defense": 14,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "bruiser-s-bracers": {
+  "id": "bruiser-s-bracers",
+  "title": "Bruiser's Bracers",
+  "description": "Wrist guards revered by the ranks of the martial arts.",
+  "statistics": {
+   "defense": 12,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 2250,
+  "vocations": [
+   "martial-artist"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms",
+  "ingredientFor": [
+   "blessed-bindings"
+  ]
+ },
+ "cannock-gloves": {
+  "id": "cannock-gloves",
+  "title": "Cannock Gloves",
+  "description": "Fashionable fingerwear autographed by the Prince of Cannock.",
+  "statistics": {
+   "deftness": 54,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "carver-s-bracers": {
+  "id": "carver-s-bracers",
+  "title": "Carver's Bracers",
+  "description": "Rip-roaring wristwear worn by the hard-working Carver.",
+  "statistics": {
+   "defense": 16,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "cotton-gloves": {
+  "id": "cotton-gloves",
+  "title": "Cotton Gloves",
+  "description": "Run-of-the-mill mitts made of unfancy fabric.",
+  "statistics": {
+   "deftness": 5,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 50,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "crimson-gauntlets": {
+  "id": "crimson-gauntlets",
+  "title": "Crimson Gauntlets",
+  "description": "Faithful fistwear of a rich red hue.",
+  "statistics": {
+   "deftness": 83,
+   "special": {}
+  },
+  "rarity": 2,
+  "buyPrice": 4250,
+  "vocations": [
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "diana-gauntlets": {
+  "id": "diana-gauntlets",
+  "title": "Diana Gauntlets",
+  "description": "Moonlight-infused mittens with unparalleled defensive potential.",
+  "statistics": {
+   "defense": 26,
+   "special": {}
+  },
+  "rarity": 4,
+  "vocations": [
+   "warrior",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms",
+  "recipe": {
+   "agate-of-evolution": 1,
+   "red-orb": 1,
+   "vesta-gauntlets": 1
+  }
+ },
+ "dragon-warrior-gloves": {
+  "id": "dragon-warrior-gloves",
+  "title": "Dragon Warrior Gloves",
+  "description": "Gloves given by Greygnarl as a token of friendship.",
+  "statistics": {
+   "defense": 10,
+   "special": {
+    "effect": "Resists 5% damage from Fire and Dark"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "einhaender": {
+  "id": "einhaender",
+  "title": "Einhänder",
+  "description": "A one-handed glove that makes the wearer look well-hard.",
+  "statistics": {
+   "deftness": 56,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms",
+  "canBeUsedFor": [
+   "012-putting-on-the-glitz"
+  ]
+ },
+ "enchanted-gloves": {
+  "id": "enchanted-gloves",
+  "title": "Enchanted Gloves",
+  "description": "Gloves whose saintly guardianship gives relief against magic attacks.",
+  "statistics": {
+   "defense": 12,
+   "magicalMight": 7,
+   "magicalMending": 7,
+   "special": {
+    "effect": "Resists 7% damage from Fire, Ice, Wind, Lightning, and Dark"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms",
+  "ingredientFor": [
+   "ethereal-gloves",
+   "can-be-used-for:",
+   "012-putting-on-the-glitz"
+  ]
+ },
+ "enchantress-s-gloves": {
+  "id": "enchantress-s-gloves",
+  "title": "Enchantress's Gloves",
+  "description": "Mitts made use of by female mages of a bygone age.",
+  "statistics": {
+   "magicalMight": 15,
+   "deftness": 66,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "mage"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "erdrick-s-gauntlets": {
+  "id": "erdrick-s-gauntlets",
+  "title": "Erdrick's Gauntlets",
+  "description": "High-grade gloves once graced by the hands of a legendary hero.",
+  "statistics": {
+   "defense": 25,
+   "special": {
+    "effect": "Dispels 40% infliction rate of Divine Intervention"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "ethereal-gloves": {
+  "id": "ethereal-gloves",
+  "title": "Ethereal Gloves",
+  "description": "Handwear that staves off spell damage with spiritual protection.",
+  "statistics": {
+   "defense": 15,
+   "magicalMight": 10,
+   "magicalMending": 10,
+   "special": {
+    "effect": "Resists 10% damage from Fire, Ice, Wind, Lightning, and Dark"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "femiscyran-fingerwear": {
+  "id": "femiscyran-fingerwear",
+  "title": "Femiscyran Fingerwear",
+  "description": "Gloves instilled with the strength of legendary woman warriors.",
+  "statistics": {
+   "defense": 11,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 1900,
+  "vocations": [
+   "warrior-(female-only)"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "fingerless-gauntlets": {
+  "id": "fingerless-gauntlets",
+  "title": "Fingerless Gauntlets",
+  "description": "Handwear whose lack of digital coverage allows for deft movement.",
+  "statistics": {
+   "deftness": 58,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 1050,
+  "vocations": [
+   "thief"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "fingerless-gloves": {
+  "id": "fingerless-gloves",
+  "title": "Fingerless Gloves",
+  "description": "Fingerwear favoured by female martial artists of a former age.",
+  "statistics": {
+   "deftness": 73,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "martial-artist"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "gigasteel-gauntlets": {
+  "id": "gigasteel-gauntlets",
+  "title": "Gigasteel Gauntlets",
+  "description": "Gorgeous gloves made of gigasteel.",
+  "statistics": {
+   "defense": 11,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms",
+  "recipe": {
+   "hephaestus--flame": 1,
+   "iron-ore": 2,
+   "steel-gauntlets": 1
+  }
+ },
+ "glommer-s-gloves": {
+  "id": "glommer-s-gloves",
+  "title": "Glommer's Gloves",
+  "description": "High-class handwear worn by heroes of the thieving hierarchy.",
+  "statistics": {
+   "deftness": 76,
+   "special": {}
+  },
+  "rarity": 2,
+  "buyPrice": 3400,
+  "vocations": [
+   "thief"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "gloomy-gloves": {
+  "id": "gloomy-gloves",
+  "title": "Gloomy Gloves",
+  "description": "Mysterious mittens that impart mighty resilience to dark magic.",
+  "statistics": {
+   "deftness": 80,
+   "special": {
+    "effect": "Resists 8% damage from Dark"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms",
+  "ingredientFor": [
+   "murky-mittens"
+  ]
+ },
+ "godly-gloves": {
+  "id": "godly-gloves",
+  "title": "Godly Gloves",
+  "description": "Divine digitwear that defies the undoable.",
+  "statistics": {
+   "defense": 15,
+   "deftness": 100,
+   "special": {}
+  },
+  "rarity": 5,
+  "vocations": [
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms",
+  "recipe": {
+   "agate-of-evolution": 3,
+   "master-s-gloves": 1,
+   "silver-orb": 3
+  }
+ },
+ "gorgeous-gloves": {
+  "id": "gorgeous-gloves",
+  "title": "Gorgeous Gloves",
+  "description": "Modish mittens mainly adored by armamentalists.",
+  "statistics": {
+   "deftness": 45,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 900,
+  "vocations": [
+   "armamentalist"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "gothan-wristbands": {
+  "id": "gothan-wristbands",
+  "title": "Gothan Wristbands",
+  "description": "Guards for the wrists that are relics of Gothan royalty.",
+  "statistics": {
+   "defense": 18,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "grandissimo-gloves": {
+  "id": "grandissimo-gloves",
+  "title": "Grandissimo Gloves",
+  "description": "Massively masculine mittens styled by the inimitable Morrie himself.",
+  "statistics": {
+   "deftness": 54,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "grandmaster-s-gloves": {
+  "id": "grandmaster-s-gloves",
+  "title": "Grandmaster's Gloves",
+  "description": "Mystical mitts that nurture nonpareil nimbleness.",
+  "statistics": {
+   "defense": 12,
+   "deftness": 96,
+   "special": {}
+  },
+  "rarity": 4,
+  "vocations": [
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms",
+  "recipe": {
+   "agate-of-evolution": 3,
+   "master-s-gloves": 1,
+   "silver-orb": 3
+  }
+ },
+ "guru-s-gloves": {
+  "id": "guru-s-gloves",
+  "title": "Guru's Gloves",
+  "description": "Mystical mitts made use of by a sage of distant memory.",
+  "statistics": {
+   "magicalMight": 10,
+   "magicalMending": 10,
+   "deftness": 77,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "sage"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms",
+  "recipe": {
+   "heavy-handwear": 1,
+   "sage-s-elixir": 2,
+   "thinkincense": 3
+  }
+ },
+ "heavy-gauntlets": {
+  "id": "heavy-gauntlets",
+  "title": "Heavy Gauntlets",
+  "description": "Handwear once worn habitually by honest-to-goodness heroes.",
+  "statistics": {
+   "defense": 19,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "minstrel",
+   "paladin",
+   "gladiator",
+   "armamentalist",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms",
+  "recipe": {
+   "aggressence": 1,
+   "densinium": 2,
+   "sturdy-gauntlets": 1
+  }
+ },
+ "heavy-handwear": {
+  "id": "heavy-handwear",
+  "title": "Heavy Handwear",
+  "description": "Thick, weighty gloves that give a good defensive boost.",
+  "statistics": {
+   "defense": 8,
+   "deftness": 63,
+   "special": {}
+  },
+  "rarity": 2,
+  "buyPrice": 1900,
+  "vocations": [
+   "warrior",
+   "priest",
+   "martial-artist",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "iron-gauntlets": {
+  "id": "iron-gauntlets",
+  "title": "Iron Gauntlets",
+  "description": "Elementary metal mitts.",
+  "statistics": {
+   "defense": 5,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 450,
+  "vocations": [
+   "warrior",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "kiefer-s-gloves": {
+  "id": "kiefer-s-gloves",
+  "title": "Kiefer's Gloves",
+  "description": "Handwear made of hide that's just perfect for Prince Kiefer.",
+  "statistics": {
+   "deftness": 46,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "leather-gauntlets": {
+  "id": "leather-gauntlets",
+  "title": "Leather Gauntlets",
+  "description": "Wholesome handwear made of hardy hide.",
+  "statistics": {
+   "defense": 2,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 60,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "leather-gloves": {
+  "id": "leather-gloves",
+  "title": "Leather Gloves",
+  "description": "Handwear made from tanned hide.",
+  "statistics": {
+   "deftness": 16,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 190,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms",
+  "recipe": {
+   "cotton-gloves": 1,
+   "magic-beast-hide": 1
+  }
+ },
+ "light-gauntlets": {
+  "id": "light-gauntlets",
+  "title": "Light Gauntlets",
+  "description": "Lightweight wonders worn by world-class wanderers.",
+  "statistics": {
+   "defense": 13,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 4200,
+  "vocations": [
+   "warrior",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms",
+  "ingredientFor": [
+   "sturdy-gauntlets"
+  ]
+ },
+ "linen-gloves": {
+  "id": "linen-gloves",
+  "title": "Linen gloves",
+  "description": "Well made workwear that won't wear easily.",
+  "statistics": {
+   "deftness": 10,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 90,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "liquid-metal-slime-gloves": {
+  "id": "liquid-metal-slime-gloves",
+  "title": "Liquid Metal Slime Gloves",
+  "description": "Heavenly handwear that harbours the lustre of a liquid metal slime.",
+  "statistics": {
+   "defense": 22,
+   "special": {
+    "effect": "Dispels 25% infliction rate of Sap"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms",
+  "ingredientFor": [
+   "metal-king-slime-gloves"
+  ]
+ },
+ "lockpicker-s-mitts": {
+  "id": "lockpicker-s-mitts",
+  "title": "Lockpicker's Mitts",
+  "description": "Gossamer-thin gloves for the purloining professional.",
+  "statistics": {
+   "deftness": 52,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 800,
+  "vocations": [
+   "thief"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "magic-mittens": {
+  "id": "magic-mittens",
+  "title": "Magic Mittens",
+  "description": "Magical mitts that diminish damage from magic attacks.",
+  "statistics": {
+   "defense": 9,
+   "magicalMight": 4,
+   "magicalMending": 4,
+   "special": {
+    "effect": "Resists 5% damage from Fire, Ice, Wind, Lightning, and Dark"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "marquess-s-mittens": {
+  "id": "marquess-s-mittens",
+  "title": "Marquess's Mittens",
+  "description": "Graceful gloves that guard against Dazzle magic and confusion.",
+  "statistics": {
+   "deftness": 65,
+   "special": {
+    "effect": "Dispels 15% infliction rates of Dazzle and Fuddle"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms",
+  "ingredientFor": [
+   "monarch-s-mittens"
+  ]
+ },
+ "master-s-gloves": {
+  "id": "master-s-gloves",
+  "title": "Master's Gloves",
+  "description": "Magical mitts that make those who don them deliciously dextrous.",
+  "statistics": {
+   "defense": 10,
+   "deftness": 92,
+   "special": {}
+  },
+  "rarity": 4,
+  "vocations": [
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms",
+  "recipe": {
+   "agate-of-evolution": 1,
+   "apprentice-s-gloves": 1,
+   "silver-orb": 1
+  }
+ },
+ "matador-s-gloves": {
+  "id": "matador-s-gloves",
+  "title": "Matador's Gloves",
+  "description": "The beloved badge of a bona fide bullfighter.",
+  "statistics": {
+   "deftness": 85,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms",
+  "recipe": {
+   "mental-mittens": 1,
+   "mercury-s-bandana": 1,
+   "slipweed": 4
+  }
+ },
+ "maya-s-bracelets": {
+  "id": "maya-s-bracelets",
+  "title": "Maya's Bracelets",
+  "description": "Memorabilia from Maya's magical performing moments.",
+  "statistics": {
+   "defense": 12,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "mayoress-s-mittens": {
+  "id": "mayoress-s-mittens",
+  "title": "Mayoress's Mittens",
+  "description": "High-class handwear that hinders Dazzle magic and confusion.",
+  "statistics": {
+   "deftness": 60,
+   "special": {
+    "effect": "Dispels 12% infliction rates of Dazzle and Fuddle"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "mcryan-s-mittens": {
+  "id": "mcryan-s-mittens",
+  "title": "McRyan's Mittens",
+  "description": "Warrior's gloves once worn by Ragnar McRyan.",
+  "statistics": {
+   "deftness": 54,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "meena-s-bracelets": {
+  "id": "meena-s-bracelets",
+  "title": "Meena's Bracelets",
+  "description": "Alluring armlets that once rendered Meena's wrists resplendent.",
+  "statistics": {
+   "defense": 12,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "mental-mittens": {
+  "id": "mental-mittens",
+  "title": "Mental Mittens",
+  "description": "Mittens for melee mash-ups mainly adored by armamentalists.",
+  "statistics": {
+   "deftness": 50,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 1550,
+  "vocations": [
+   "armamentalist"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms",
+  "ingredientFor": [
+   "matador-s-gloves"
+  ]
+ },
+ "metal-king-slime-gloves": {
+  "id": "metal-king-slime-gloves",
+  "title": "Metal King Slime Gloves",
+  "description": "High-class handwear harbouring the brilliance of a metal king slime.",
+  "statistics": {
+   "defense": 24,
+   "special": {
+    "effect": "Dispels 30% infliction rate of Sap"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "metal-slime-gauntlets": {
+  "id": "metal-slime-gauntlets",
+  "title": "Metal Slime Gauntlets",
+  "description": "Handwear that harbours the mystical sheen of a metal slime.",
+  "statistics": {
+   "defense": 10,
+   "special": {
+    "effect": "Dispels 20% infliction rate of Sap"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "metallic-mitts": {
+  "id": "metallic-mitts",
+  "title": "Metallic Mitts",
+  "description": "Good, strong, reinforced gloves worn by gladiators.",
+  "statistics": {
+   "defense": 16,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 3500,
+  "vocations": [
+   "gladiator"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "midenhall-gloves": {
+  "id": "midenhall-gloves",
+  "title": "Midenhall Gloves",
+  "description": "Homespun handwear preferred by the Prince of Midenhall.",
+  "statistics": {
+   "deftness": 60,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "milly-s-bracers": {
+  "id": "milly-s-bracers",
+  "title": "Milly's Bracers",
+  "description": "Small, simple bracelets that suit Milly to a tee.",
+  "statistics": {
+   "defense": 13,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "minister-s-mittens": {
+  "id": "minister-s-mittens",
+  "title": "Minister's Mittens",
+  "description": "Holy handwear that protected the palms of a priest of the past.",
+  "statistics": {
+   "magicalMending": 16,
+   "deftness": 68,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "priest"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "monarch-s-mittens": {
+  "id": "monarch-s-mittens",
+  "title": "Monarch's Mittens",
+  "description": "A posh pair that protects against Dazzle magic and confusion.",
+  "statistics": {
+   "deftness": 70,
+   "special": {
+    "effect": "Dispels 18% infliction rates of Dazzle and Fuddle"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms",
+  "ingredientFor": [
+   "queen-s-robe"
+  ]
+ },
+ "murky-mittens": {
+  "id": "murky-mittens",
+  "title": "Murky Mittens",
+  "description": "Magical mittens that drive dark magic away.",
+  "statistics": {
+   "deftness": 86,
+   "special": {
+    "effect": "Resists 10% damage from Dark"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "nera-s-bracelets": {
+  "id": "nera-s-bracelets",
+  "title": "Nera's Bracelets",
+  "description": "Ritzy wristwear worn by the blue-haired Briscoletti bambina.",
+  "statistics": {
+   "defense": 14,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "riotous-wristbands": {
+  "id": "riotous-wristbands",
+  "title": "Riotous Wristbands",
+  "description": "Wristwear once worn by a whilom martial artist.",
+  "statistics": {
+   "defense": 16,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "martial-artist"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "rubber-gloves": {
+  "id": "rubber-gloves",
+  "title": "Rubber Gloves",
+  "description": "Flexible fingerwear that confounds incoming flashes of lighting.",
+  "statistics": {
+   "deftness": 23,
+   "special": {
+    "effect": "Resists 10% damage from Lightning"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "rusty-gauntlets": {
+  "id": "rusty-gauntlets",
+  "title": "Rusty Gauntlets",
+  "description": "Tarnished and tattered handwear of obscure origins.",
+  "statistics": {
+   "defense": 10,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "minstrel",
+   "gladiator",
+   "armamentalist",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "silver-bracelets": {
+  "id": "silver-bracelets",
+  "title": "Silver Bracelets",
+  "description": "Basic silver bangles.",
+  "statistics": {
+   "defense": 7,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 540,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms",
+  "canBeUsedFor": [
+   "012-putting-on-the-glitz"
+  ]
+ },
+ "sol-invictus-gauntlets": {
+  "id": "sol-invictus-gauntlets",
+  "title": "Sol Invictus Gauntlets",
+  "description": "Solar smashers with unparalleled defensive potential.",
+  "statistics": {
+   "defense": 30,
+   "special": {}
+  },
+  "rarity": 5,
+  "vocations": [
+   "warrior",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms",
+  "recipe": {
+   "agate-of-evolution": 3,
+   "diana-gauntlets": 1,
+   "red-orb": 3
+  }
+ },
+ "somnia-gloves": {
+  "id": "somnia-gloves",
+  "title": "Somnia Gloves",
+  "description": "Gloves that were the preferred pair of the Prince of Somnia.",
+  "statistics": {
+   "deftness": 66,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "steel-gauntlets": {
+  "id": "steel-gauntlets",
+  "title": "Steel Gauntlets",
+  "description": "Hefty handwear made of hard steel.",
+  "statistics": {
+   "defense": 8,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms",
+  "recipe": {
+   "iron-gauntlets": 1,
+   "iron-ore": 1,
+   "royal-soil": 1
+  }
+ },
+ "sturdy-gauntlets": {
+  "id": "sturdy-gauntlets",
+  "title": "Sturdy Gauntlets",
+  "description": "Handwear sported by some celebrated chevaliers.",
+  "statistics": {
+   "defense": 16,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms",
+  "recipe": {
+   "aggressence": 1,
+   "iron-ore": 2,
+   "light-gauntlets": 1
+  }
+ },
+ "tempestes-gauntlets": {
+  "id": "tempestes-gauntlets",
+  "title": "Tempestes Gauntlets",
+  "description": "Stormy gauntlets with unparalleled defensive potential.",
+  "statistics": {
+   "defense": 28,
+   "special": {}
+  },
+  "rarity": 4,
+  "vocations": [
+   "warrior",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms",
+  "recipe": {
+   "agate-of-evolution": 3,
+   "diana-gauntlets": 1,
+   "red-orb": 3
+  }
+ },
+ "ultramarine-mittens": {
+  "id": "ultramarine-mittens",
+  "title": "Ultramarine Mittens",
+  "description": "Super-cool gloves in a totally on-trend turquoise.",
+  "statistics": {
+   "deftness": 37,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "veteran-s-gloves": {
+  "id": "veteran-s-gloves",
+  "title": "Veteran's Gloves",
+  "description": "The well-worn handwear of a whilom warrior.",
+  "statistics": {
+   "deftness": 65,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "warrior"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "warrior-s-gloves": {
+  "id": "warrior-s-gloves",
+  "title": "Warrior's Gloves",
+  "description": "Very thick gloves that adorn the hands of all kinds of warrior.",
+  "statistics": {
+   "defense": 6,
+   "deftness": 43,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 950,
+  "vocations": [
+   "warrior-(male-only)"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "wayfarer-s-gloves": {
+  "id": "wayfarer-s-gloves",
+  "title": "Wayfarer's Gloves",
+  "description": "Gloves gladly worn by globetrotters.",
+  "statistics": {
+   "deftness": 30,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 660,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ },
+ "zenithian-gauntlets": {
+  "id": "zenithian-gauntlets",
+  "title": "Zenithian Gauntlets",
+  "description": "Wondrous handwear worn by the hero of Zenithia.",
+  "statistics": {
+   "deftness": 68,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms"
+ }
+}

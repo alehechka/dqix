@@ -8,7 +8,7 @@ import (
 )
 
 func start(ctx *cli.Context) (err error) {
-	return router.NewRouter().Run(ctx.Int(flags.PortArg))
+	return router.NewRouter(router.WithData(ctx.String(flags.ArgDataPath))).Run(ctx.Int(flags.ArgPort))
 }
 
 // StartCommand starts the application.

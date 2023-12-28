@@ -16,7 +16,7 @@ RUN npm install
 COPY Makefile .
 COPY tailwind.config.js .
 COPY web/templ web/templ
-COPY web web
+COPY web/static web/static
 
 RUN npm run build:css
 
@@ -61,6 +61,7 @@ WORKDIR /app
 COPY --from=go-builder /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
 COPY --from=go-builder /app/server .
 
-COPY --from=web-builder app/web web
+COPY --from=web-builder app/web/static web/static
+COPY web/data web/data
 
 ENTRYPOINT [ "/app/server" ]

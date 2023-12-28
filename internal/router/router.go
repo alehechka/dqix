@@ -1,7 +1,8 @@
 package router
 
 import (
-	"dqix/web/templ/components/base/pages"
+	"dqix/pkg/htmx"
+	"dqix/web/templ/pages"
 	"fmt"
 	"net/http"
 
@@ -40,10 +41,41 @@ func (a *app) SetupRouter() *gin.Engine {
 		ctx.HTML(http.StatusOK, "", pages.IndexPage())
 	})
 
+	engine.GET("/inventory")
+	engine.GET("/inventory/:type")
+	engine.GET("/inventory/:type/:category")
+	engine.GET("/inventory/:type/:category/:classification", func(ctx *gin.Context) {
+		typeId := ctx.Param("type")
+		category := ctx.Param("category")
+		classification := ctx.Param("classification")
+		inventories := a.data.inventoryMap.GetClassificationSlice(typeId, category, classification)
+
+		// TODO add some utility function that checks if the request Accept's JSON (and/or weighted with others)
+		if ctx.GetHeader("Accept") == "application/json" {
+			ctx.JSON(http.StatusOK, inventories)
+			return
+		}
+
+		switch htmx.GetHxSwapTarget(ctx) {
+		case "page-content":
+			ctx.HTML(http.StatusOK, "", pages.InventoryClassificationContent(classification, inventories))
+		case "sidenav-page-wrapper":
+			ctx.HTML(http.StatusOK, "", pages.InventoryClassificationContentWithSideNav(classification, inventories))
+		default:
+			ctx.HTML(http.StatusOK, "", pages.InventoryClassificationPage(classification, inventories))
+		}
+
+	})
+	engine.GET("/inventory/:type/:category/:classification/:id")
+
 	return engine
 }
 
 func (r *RouterHandler) Run(port int) error {
+	if err := r.app.loadData(); err != nil {
+		return err
+	}
+
 	addr := fmt.Sprintf(":%d", port)
 
 	return r.router.Run(addr)

@@ -1,0 +1,371 @@
+{
+ "avalanche-axe": {
+  "id": "avalanche-axe",
+  "title": "Avalanche Axe",
+  "description": "An impressive ice-based axe with an interesting shape.",
+  "statistics": {
+   "agility": 126,
+   "special": {
+    "effect": "Deals Ice-elemental damage"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "axe"
+ },
+ "bad-axe": {
+  "id": "bad-axe",
+  "title": "Bad Axe",
+  "description": "A tip-top tomahawk that takes tension from its target.",
+  "statistics": {
+   "agility": 146,
+   "special": {
+    "effect": "Reduces enemy tension per hit"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "axe",
+  "ingredientFor": [
+   "maxi-axe"
+  ]
+ },
+ "battle-axe": {
+  "id": "battle-axe",
+  "title": "Battle Axe",
+  "description": "A huge hacker created exclusively for combat.",
+  "statistics": {
+   "agility": 52,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 3900,
+  "vocations": [
+   "gladiator",
+   "ranger"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "axe",
+  "ingredientFor": [
+   "halberd",
+   ",",
+   "moon-axe"
+  ]
+ },
+ "climaxe": {
+  "id": "climaxe",
+  "title": "Climaxe",
+  "description": "An unchallenged chopper that takes tension from its target.",
+  "statistics": {
+   "agility": 168,
+   "special": {
+    "effect": "Reduces enemy tension per hit"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "axe"
+ },
+ "executioner-s-axe": {
+  "id": "executioner-s-axe",
+  "title": "Executioner's Axe",
+  "description": "Attack:",
+  "statistics": {
+   "special": {}
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "axe"
+ },
+ "full-moon-axe": {
+  "id": "full-moon-axe",
+  "title": "Full Moon Axe",
+  "description": "A sharpened reshaping of the moon axe.",
+  "statistics": {
+   "agility": 82,
+   "special": {
+    "effect": "Chance to inflict confusion"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "axe"
+ },
+ "galaxy-axe": {
+  "id": "galaxy-axe",
+  "title": "Galaxy Axe",
+  "description": "An almighty cosmic cleaver that takes tension from its target.",
+  "statistics": {
+   "agility": 178,
+   "special": {
+    "effect": "Reduces enemy tension per hit"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "axe"
+ },
+ "gigasteel-axe": {
+  "id": "gigasteel-axe",
+  "title": "Gigasteel Axe",
+  "description": "A horrendously heavy hacker made by souping up a steel axe.",
+  "statistics": {
+   "agility": 68,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "gladiator",
+   "ranger"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "axe",
+  "recipe": {
+   "hephaestus--flame": 1,
+   "iron-ore": 2,
+   "steel-axe": 1
+  }
+ },
+ "golden-axe": {
+  "id": "golden-axe",
+  "title": "Golden Axe",
+  "description": "A battle-axe with a blunt edge made from malleable metal.",
+  "statistics": {
+   "agility": 26,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "gladiator",
+   "ranger"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "axe",
+  "recipe": {
+   "gold-bar": 1,
+   "iron-axe": 1
+  }
+ },
+ "headman-s-axe": {
+  "id": "headman-s-axe",
+  "title": "Headman's Axe",
+  "description": "An enormous axe of frankly fearsome force.",
+  "statistics": {
+   "agility": 98,
+   "special": {}
+  },
+  "rarity": 2,
+  "buyPrice": 28800,
+  "vocations": [
+   "gladiator",
+   "ranger"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "axe",
+  "ingredientFor": [
+   "executioner-s-axe"
+  ]
+ },
+ "headsman-s-axe": {
+  "id": "headsman-s-axe",
+  "title": "Headsman's Axe",
+  "description": "An enormous axe of frankly fearsome force.",
+  "statistics": {
+   "agility": 98,
+   "special": {}
+  },
+  "rarity": 2,
+  "buyPrice": 28800,
+  "vocations": [
+   "gladiator",
+   "ranger"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "axe",
+  "ingredientFor": [
+   "executioner-s-axe"
+  ]
+ },
+ "heavy-hatchet": {
+  "id": "heavy-hatchet",
+  "title": "Heavy Hatchet",
+  "description": "A heinous hatchet that can hew through any material monster.",
+  "statistics": {
+   "agility": 134,
+   "special": {
+    "effect": "Deals 1.20x damage to Material family"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "axe"
+ },
+ "ice-axe": {
+  "id": "ice-axe",
+  "title": "Ice Axe",
+  "description": "An ice-based axe with an interesting shape.",
+  "statistics": {
+   "agility": 108,
+   "special": {
+    "effect": "Deals Ice-elemental damage"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "axe",
+  "ingredientFor": [
+   "avalanche-axe"
+  ]
+ },
+ "iron-axe": {
+  "id": "iron-axe",
+  "title": "Iron Axe",
+  "description": "A meaty metal axe.",
+  "statistics": {
+   "agility": 30,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 1800,
+  "vocations": [
+   "gladiator",
+   "ranger"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "axe",
+  "ingredientFor": [
+   "steel-axe",
+   ",",
+   "golden-axe"
+  ]
+ },
+ "kaiser-axe": {
+  "id": "kaiser-axe",
+  "title": "Kaiser Axe",
+  "description": "A cracking cleaver, even more imperial than the king axe.",
+  "statistics": {
+   "agility": 92,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "gladiator",
+   "ranger"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "axe",
+  "recipe": {
+   "king-axe": 1,
+   "monarchic-mark": 1,
+   "slime-crown": 1
+  }
+ },
+ "king-axe": {
+  "id": "king-axe",
+  "title": "King Axe",
+  "description": "A splendid splitter sporting runes that harbour great magic.",
+  "statistics": {
+   "agility": 78,
+   "special": {}
+  },
+  "rarity": 2,
+  "buyPrice": 16000,
+  "vocations": [
+   "gladiator",
+   "ranger"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "axe",
+  "recipe": {
+   "golden-axe": 1,
+   "slime-crown": 1
+  },
+  "ingredientFor": [
+   "kaiser-axe",
+   ",",
+   "king-s-coat"
+  ]
+ },
+ "maxi-axe": {
+  "id": "maxi-axe",
+  "title": "Maxi Axe",
+  "description": "A mighty massacrer that takes tension from its target.",
+  "statistics": {
+   "agility": 157,
+   "special": {
+    "effect": "Reduces enemy tension per hit"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "axe",
+  "ingredientFor": [
+   "climaxe",
+   ",",
+   "galaxy-axe"
+  ]
+ },
+ "moon-axe": {
+  "id": "moon-axe",
+  "title": "Moon Axe",
+  "description": "A mysterious axe that may make those it minces a mite confused.",
+  "statistics": {
+   "agility": 65,
+   "special": {
+    "effect": "Chance to inflict confusion"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "axe",
+  "ingredientFor": [
+   "full-moon-axe",
+   ",",
+   "ring-of-clarity"
+  ]
+ },
+ "pro-s-axe": {
+  "id": "pro-s-axe",
+  "title": "Pro's Axe",
+  "description": "A large axe loved by lumber-jacks that can fell any plantlike foe.",
+  "statistics": {
+   "agility": 87,
+   "special": {
+    "effect": "Deals 1.20x damage to Plant family"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "axe"
+ },
+ "steel-axe": {
+  "id": "steel-axe",
+  "title": "Steel Axe",
+  "description": "A sizeable, strong and somewhat weighty steel axe.",
+  "statistics": {
+   "agility": 47,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "gladiator",
+   "ranger"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "axe",
+  "recipe": {
+   "iron-axe": 1,
+   "iron-ore": 1,
+   "lava-lump": 1
+  }
+ }
+}

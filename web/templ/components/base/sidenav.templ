@@ -1,0 +1,65 @@
+package base
+
+import "dqix/internal/types"
+
+import fn "dqix/web/templ/utilities"
+
+templ SideNav(page string) {
+	<aside
+		id="sidenav"
+		hx-boost="true"
+		hx-target="#sidenav-page-wrapper"
+		hx-swap="outerHTML"
+		class="peer fixed right-0 top-16
+				z-40 h-[calc(100%-var(--navbar-height))] w-[--sidenav-width]
+				border-l-[1px] border-gray-300 bg-white
+				py-2 transition-[width_px] duration-300 
+				aria-expanded:w-[--full-sidenav-width] aria-expanded:px-2"
+	>
+		<ul class="flex h-full flex-col gap-1 overflow-x-hidden">
+			@SideNavLink("Everyday Items", fn.Path("inventory", "bag", "items", types.ClassEverydayItem), page == types.ClassEverydayItem)
+			@SideNavLink("Important Items", fn.Path("inventory", "bag", "items", types.ClassImportantItem), page == types.ClassImportantItem)
+			@SideNavLink("Head Armor", fn.Path("inventory", "equipment", "armor", types.ClassHeadArmor), page == types.ClassHeadArmor)
+			@SideNavLink("Torso Armor", fn.Path("inventory", "equipment", "armor", types.ClassTorsoArmor), page == types.ClassTorsoArmor)
+		</ul>
+	</aside>
+}
+
+templ SideNavLink(text string, href templ.SafeURL, isActive bool) {
+	<li>
+		<a
+			href={ href }
+			if isActive {
+				aria-current="page"
+			}
+			class="flex flex-row items-center gap-2 
+					rounded p-2 text-gray-700 hover:bg-gray-200 
+					aria-[current='page']:bg-blue-100 aria-[current='page']:bg-opacity-70 
+					aria-[current='page']:text-blue-700 
+					hover:aria-[current='page']:bg-opacity-100"
+		>
+			<span>{ text }</span>
+		</a>
+	</li>
+}
+
+script sidenavScriptUtils() {
+	const sm = window.matchMedia('(min-width: 640px)');
+
+	function sidenav() {
+		return document.getElementById('sidenav');
+	}
+
+	function closeSidenav(e) {
+		if (e.matches) {
+			sidenav().setAttribute('aria-expanded', 'false');
+		}
+	}
+
+	sm.addEventListener('change', closeSidenav);
+}
+
+script toggleSidenav() {
+	var x = document.getElementById('sidenav').getAttribute('aria-expanded') === 'true' ? 'false' : 'true';
+  	document.getElementById('sidenav').setAttribute('aria-expanded', x);
+}

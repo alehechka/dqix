@@ -1,33 +1,59 @@
 package base
 
-templ Layout(pageTitle string) {
-	<html lang="en">
+import "dqix/web/templ/components/icons"
+
+templ Layout(pageTitle string, page string) {
+	<html lang="en" class="h-full overflow-hidden">
 		<head>
 			@Meta(pageTitle)
 		</head>
-		<body>
-			<main id="page-wrapper">
-				@ContentWrapper() {
-					{ children... }
-				}
-			</main>
+		<body class="h-full overflow-hidden">
+			@sidenavScriptUtils()
+			@Navbar()
+			@MainContentWithSidenav(page) {
+				{ children... }
+			}
 		</body>
 	</html>
 }
 
-templ ContentWrapper() {
-	<div>
-		@Header()
-		<section id="page-content">
+templ MainContentWithSidenav(page string) {
+	<div id="sidenav-page-wrapper">
+		@SideNav(page)
+		@MainContent() {
 			{ children... }
-		</section>
+		}
 	</div>
 }
 
-templ Header() {
-	<header>
+templ MainContent() {
+	<main
+		id="page-wrapper"
+		class="mt-[--navbar-height] 
+				h-[calc(100%-var(--navbar-height))] 
+				overflow-auto bg-gray-50 
+				transition-[margin-right] duration-300
+				peer-[#sidenav]:mr-[--sidenav-width]"
+	>
+		@ContentWrapper() {
+			{ children... }
+		}
+	</main>
+}
+
+templ ContentWrapper() {
+	<section id="page-content" class="min-w-fit p-4 sm:p-8">
+		{ children... }
+	</section>
+}
+
+templ Navbar() {
+	<header class="fixed top-0 z-50 flex h-[--navbar-height] w-full flex-row items-center border-b-[1px] border-gray-300 bg-white">
 		<a href="/">
-			<img src="/static/dqix_logo.webp" alt="Dragon Quest IX" class="h-20"/>
+			<img src="/static/dqix_logo.webp" alt="Dragon Quest IX" class="h-[--navbar-height]"/>
 		</a>
+		<button class="mr-4 ml-auto block md:hidden hover:bg-gray-200 rounded p-1" onclick={ toggleSidenav() }>
+			@icons.Hamburger(icons.WithSize("1.25rem"))
+		</button>
 	</header>
 }

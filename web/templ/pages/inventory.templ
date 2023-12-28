@@ -1,0 +1,31 @@
+package pages
+
+import "dqix/internal/types"
+import "dqix/web/templ/components/base"
+import "strings"
+import "dqix/web/templ/utilities"
+
+templ InventoryClassificationPage(class string, inventories []types.Inventory) {
+	@base.Layout("DQIX | " + strings.Title(class), class) {
+		@InventoryClassificationContent(class, inventories)
+	}
+}
+
+templ InventoryClassificationContentWithSideNav(class string, inventories []types.Inventory) {
+	@base.MainContentWithSidenav(class) {
+		@InventoryClassificationContent(class, inventories)
+	}
+}
+
+templ InventoryClassificationContent(class string, inventories []types.Inventory) {
+	<div>
+		<h1 class="text-3xl font-bold">{ strings.Title(strings.ReplaceAll(class, "-", " ")) }</h1>
+		<ul>
+			for _, inventory := range inventories {
+				<li>
+					<a href={ fn.Path("inventory", inventory.Type, inventory.Category, inventory.Classification, inventory.ID) }>{ inventory.Title }</a>
+				</li>
+			}
+		</ul>
+	</div>
+}
