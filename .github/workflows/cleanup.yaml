@@ -1,0 +1,26 @@
+name: Cleanup Repository Resources
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: 15 6 5 * * # 6:15AM UTC on 5th day of every month (1:15AM CDT/12:15AM CST)
+
+jobs:
+  deployment-cleanup:
+    runs-on: ubuntu-latest
+    name: Cleanup Inactive Deployments
+
+    permissions:
+      deployments: write
+
+    strategy:
+      matrix:
+        environment:
+          - development
+          - production
+
+    steps:
+      - uses: lockerstock/github-actions/delete-inactive-deployments@main
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          environment: ${{ matrix.environment }}
