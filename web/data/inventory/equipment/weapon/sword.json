@@ -1,0 +1,606 @@
+{
+ "aurora-blade": {
+  "id": "aurora-blade",
+  "title": "Aurora Blade",
+  "description": "A wondrous weapon that flings flames if used as an item in battle.",
+  "statistics": {
+   "agility": 70,
+   "special": {
+    "usage": "Deals 6-10 Fire damage to all enemies"
+   }
+  },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "armamentalist"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "sword",
+  "recipe": {
+   "brighten-rock": 3,
+   "cautery-sword": 1,
+   "holy-water": 1
+  }
+ },
+ "bandit-blade": {
+  "id": "bandit-blade",
+  "title": "Bandit Blade",
+  "description": "A sizeable sabre supremely suited to swindling sorts.",
+  "statistics": {
+   "agility": 58,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 6300,
+  "vocations": [
+   "warrior",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "armamentalist"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "sword"
+ },
+ "cautery-sword": {
+  "id": "cautery-sword",
+  "title": "Cautery Sword",
+  "description": "A sacred sword that flings flames if used as an item in battle.",
+  "statistics": {
+   "agility": 42,
+   "special": {
+    "usage": "Deals 6-10 Fire damage to all enemies"
+   }
+  },
+  "rarity": 1,
+  "buyPrice": 3000,
+  "vocations": [
+   "warrior",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "armamentalist"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "sword"
+ },
+ "copper-sword": {
+  "id": "copper-sword",
+  "title": "Copper Sword",
+  "description": "A commonplace cutter made of copper.",
+  "statistics": {
+   "agility": 7,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 150,
+  "vocations": [
+   "warrior",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "armamentalist"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "sword"
+ },
+ "dragon-slayer": {
+  "id": "dragon-slayer",
+  "title": "Dragon Slayer",
+  "description": "An even deadlier descendant of the dragonsbane.",
+  "statistics": {
+   "agility": 88,
+   "special": {
+    "effect": "Deals 1.20x damage to Dragon family"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "sword"
+ },
+ "dragonsbane": {
+  "id": "dragonsbane",
+  "title": "Dragonsbane",
+  "description": "A mighty masher that's merciless even against the scales of dragons.",
+  "statistics": {
+   "agility": 73,
+   "special": {
+    "effect": "Deals 1.20x damage to Dragon family"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "sword",
+  "ingredientFor": [
+   "dragon-slayer"
+  ]
+ },
+ "erdrick-s-sword": {
+  "id": "erdrick-s-sword",
+  "title": "Erdrick's Sword",
+  "description": "A well-known weapon once wielded by a legendary lionheart.",
+  "statistics": {
+   "agility": 158,
+   "special": {}
+  },
+  "rarity": 4,
+  "vocations": [
+   "warrior",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "armamentalist"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "sword",
+  "recipe": {
+   "glass-frit": 9,
+   "orichalcum": 1,
+   "rusty-sword": 1
+  }
+ },
+ "falcon-blade": {
+  "id": "falcon-blade",
+  "title": "Falcon Blade",
+  "description": "A sword so fast, it can slice an enemy twice in a single strike.",
+  "statistics": {
+   "agility": 12,
+   "special": {
+    "effect": "Attacks twice in one turn"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "sword",
+  "ingredientFor": [
+   "über-falcon-blade"
+  ]
+ },
+ "fire-blade": {
+  "id": "fire-blade",
+  "title": "Fire Blade",
+  "description": "A hot blade that spits forth flames if used as an item in battle.",
+  "statistics": {
+   "agility": 83,
+   "special": {
+    "usage": "Deals 23-33 Fire damage to all enemies"
+   }
+  },
+  "rarity": 1,
+  "buyPrice": 21500,
+  "vocations": [
+   "warrior",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "armamentalist"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "sword",
+  "recipe": {
+   "lava-lump": 3,
+   "rockbomb-shard": 1,
+   "valkyrie-sword": 1
+  }
+ },
+ "fizzle-foil": {
+  "id": "fizzle-foil",
+  "title": "Fizzle Foil",
+  "description": "A slender sword that would suit a seriously skilled soldier.",
+  "statistics": {
+   "agility": 67,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "armamentalist"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "sword",
+  "recipe": {
+   "mythril-ore": 1,
+   "narspicious": 3,
+   "rapier": 1
+  }
+ },
+ "gigasteel-broadsword": {
+  "id": "gigasteel-broadsword",
+  "title": "Gigasteel Broadsword",
+  "description": "A refined steel blade of rip-roaring quality.",
+  "statistics": {
+   "agility": 62,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "armamentalist"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "sword",
+  "recipe": {
+   "hephaestus--flame": 1,
+   "iron-ore": 2,
+   "steel-broadsword": 1
+  }
+ },
+ "hypernova-sword": {
+  "id": "hypernova-sword",
+  "title": "Hypernova Sword",
+  "description": "An almighty blade that dulls the defence of the foes it fights.",
+  "statistics": {
+   "agility": 180,
+   "special": {
+    "effect": "10% chance to decrease enemy defence a little"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "sword"
+ },
+ "inferno-blade": {
+  "id": "inferno-blade",
+  "title": "Inferno Blade",
+  "description": "A fiery blade that spits forth flames if used as an item in battle.",
+  "statistics": {
+   "agility": 99,
+   "special": {
+    "usage": "Deals 23-33 Fire damage to all enemies"
+   }
+  },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "armamentalist"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "sword",
+  "recipe": {
+   "fire-blade": 1,
+   "rockbomb-shard": 3,
+   "sunstone": 1
+  }
+ },
+ "iron-broadsword": {
+  "id": "iron-broadsword",
+  "title": "Iron Broadsword",
+  "description": "A regular, wrought iron sword.",
+  "statistics": {
+   "agility": 27,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "thief",
+   "minstrel"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "sword"
+ },
+ "liquid-metal-sword": {
+  "id": "liquid-metal-sword",
+  "title": "Liquid Metal Sword",
+  "description": "An extremely hard blade that carries incredible clout.",
+  "statistics": {
+   "agility": 124,
+   "special": {
+    "effect": "Deals +1 damage to metal enemies"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "sword",
+  "ingredientFor": [
+   "metal-king-sword"
+  ]
+ },
+ "metal-king-sword": {
+  "id": "metal-king-sword",
+  "title": "Metal King Sword",
+  "description": "An incredibly hard blade that carries incredible clout.",
+  "statistics": {
+   "agility": 137,
+   "special": {
+    "effect": "Deals +1 damage to metal enemies"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "sword"
+ },
+ "metal-slime-sword": {
+  "id": "metal-slime-sword",
+  "title": "Metal Slime Sword",
+  "description": "A hard blade that carries incredible clout.",
+  "statistics": {
+   "agility": 110,
+   "special": {
+    "effect": "Deals +1 damage to metal enemies"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "sword",
+  "ingredientFor": [
+   "liquid-metal-sword"
+  ]
+ },
+ "miracle-sword": {
+  "id": "miracle-sword",
+  "title": "Miracle Sword",
+  "description": "A wonderful weapon that heals the holder's HP with every blow.",
+  "statistics": {
+   "agility": 67,
+   "special": {
+    "effect": "Returns 25% of damage dealt as HP"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "sword",
+  "ingredientFor": [
+   "über-miracle-sword"
+  ]
+ },
+ "nebula-sword": {
+  "id": "nebula-sword",
+  "title": "Nebula Sword",
+  "description": "An unbelievable blade that dulls the defence of the foes it fights.",
+  "statistics": {
+   "agility": 155,
+   "special": {
+    "effect": "10% chance to decrease enemy defence a little"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "sword",
+  "ingredientFor": [
+   "supernova-sword",
+   ",",
+   "hypernova-sword"
+  ]
+ },
+ "platinum-sword": {
+  "id": "platinum-sword",
+  "title": "Platinum Sword",
+  "description": "A heralded hacker made from hard platinum.",
+  "statistics": {
+   "agility": 51,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 4500,
+  "vocations": [
+   "warrior",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "armamentalist"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "sword",
+  "recipe": {
+   "hephaestus--flame": 1,
+   "iron-broadsword": 1,
+   "platinum-ore": 1
+  }
+ },
+ "rapier": {
+  "id": "rapier",
+  "title": "Rapier",
+  "description": "A delightfully designed, slim-bladed sword.",
+  "statistics": {
+   "agility": 19,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 480,
+  "vocations": [
+   "warrior",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "armamentalist"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "sword",
+  "ingredientFor": [
+   "fizzle-foil",
+   "can-be-used-for:",
+   "012-putting-on-the-glitz"
+  ]
+ },
+ "rusty-sword": {
+  "id": "rusty-sword",
+  "title": "Rusty Sword",
+  "description": "A shabby and unshiny sword whose origins are obscure.",
+  "statistics": {
+   "agility": 35,
+   "special": {
+    "effect": "25% chance to miss"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "sword"
+ },
+ "soldier-s-sword": {
+  "id": "soldier-s-sword",
+  "title": "Soldier's Sword",
+  "description": "A simple sword supplied to low-ranking castle custodians.",
+  "statistics": {
+   "agility": 13,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 240,
+  "vocations": [
+   "warrior",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "armamentalist"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "sword"
+ },
+ "stardust-sword": {
+  "id": "stardust-sword",
+  "title": "Stardust Sword",
+  "description": "A legendary blade that dulls the defence of the foes it fights.",
+  "statistics": {
+   "agility": 145,
+   "special": {
+    "effect": "10% chance to decrease enemy defence a little"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "sword",
+  "ingredientFor": [
+   "nebula-sword"
+  ]
+ },
+ "steel-broadsword": {
+  "id": "steel-broadsword",
+  "title": "Steel Broadsword",
+  "description": "A fully fledged fighting blade forged from steel.",
+  "statistics": {
+   "agility": 45,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "thief",
+   "minstrel"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "sword",
+  "recipe": {
+   "iron-broadsword": 1,
+   "iron-ore": 1,
+   "lava-lump": 1
+  }
+ },
+ "supernova-sword": {
+  "id": "supernova-sword",
+  "title": "Supernova Sword",
+  "description": "An unbeatable blade that dulls the defence of the foes it fights.",
+  "statistics": {
+   "agility": 168,
+   "special": {
+    "effect": "10% chance to decrease enemy defence a little"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "sword"
+ },
+ "valkyrie-sword": {
+  "id": "valkyrie-sword",
+  "title": "Valkyrie Sword",
+  "description": "A fine-edged blade wielded by famous female fighters.",
+  "statistics": {
+   "agility": 64,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 7700,
+  "vocations": [
+   "warrior",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "armamentalist"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "sword"
+ },
+ "warrior-s-sword": {
+  "id": "warrior-s-sword",
+  "title": "Warrior's Sword",
+  "description": "A biting blade favoured by battle-scarred brigands.",
+  "statistics": {
+   "agility": 63,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "armamentalist"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "sword",
+  "recipe": {
+   "raging-ruby": 1,
+   "soldier-s-sword": 1,
+   "warrior-s-helm": 1
+  }
+ },
+ "über-falcon-blade": {
+  "id": "über-falcon-blade",
+  "title": "Über Falcon Blade",
+  "description": "A fiercer form of the falcon blade.",
+  "statistics": {
+   "agility": 26,
+   "special": {
+    "effect": "Attacks twice in one turn"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "sword"
+ },
+ "über-miracle-sword": {
+  "id": "über-miracle-sword",
+  "title": "Über Miracle Sword",
+  "description": "A more mighty model of the miracle sword.",
+  "statistics": {
+   "agility": 93,
+   "special": {
+    "effect": "Returns 25% of damage dealt as HP"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "sword",
+  "canBeUsedFor": [
+   "012-putting-on-the-glitz"
+  ]
+ }
+}

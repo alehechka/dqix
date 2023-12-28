@@ -1,0 +1,330 @@
+{
+ "ace-of-clubs": {
+  "id": "ace-of-clubs",
+  "title": "Ace of Clubs",
+  "description": "A colossal cudgel, reportedly once wielded by giants.",
+  "statistics": {
+   "agility": 35,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "gladiator",
+   "paladin"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "hammer",
+  "recipe": {
+   "belle-cap": 3,
+   "oaken-club": 1
+  }
+ },
+ "earthsplitter": {
+  "id": "earthsplitter",
+  "title": "Earthsplitter",
+  "description": "A pounder of prodigious power that could crack continents in two",
+  "statistics": {
+   "agility": 160,
+   "special": {}
+  },
+  "rarity": 4,
+  "vocations": [
+   "gladiator",
+   "paladin"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "hammer",
+  "recipe": {
+   "agate-of-evolution": 1,
+   "groundbreaker": 1,
+   "yellow-orb": 1
+  }
+ },
+ "giant-s-hammer": {
+  "id": "giant-s-hammer",
+  "title": "Giant's Hammer",
+  "description": "A big basher that mashes monsters of material make-up.",
+  "statistics": {
+   "agility": 109,
+   "special": {
+    "effect": "Deals 1.20x damage to Material family"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "hammer",
+  "ingredientFor": [
+   "titan-s-hammer"
+  ]
+ },
+ "giant-wrench": {
+  "id": "giant-wrench",
+  "title": "Giant Wrench",
+  "description": "A sizeable spanner that can sock it to monsters of the machine family.",
+  "statistics": {
+   "agility": 64,
+   "special": {
+    "effect": "Deals 1.20x damage to Machine family"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "hammer"
+ },
+ "groundbreaker": {
+  "id": "groundbreaker",
+  "title": "Groundbreaker",
+  "description": "A pounder of imposing power that may rend the very ground asunder.",
+  "statistics": {
+   "agility": 151,
+   "special": {}
+  },
+  "rarity": 4,
+  "vocations": [
+   "gladiator",
+   "paladin"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "hammer",
+  "recipe": {
+   "moonsmasher": 1,
+   "reset-stone": 1
+  },
+  "ingredientFor": [
+   "earthsplitter"
+  ]
+ },
+ "hela-s-hammer": {
+  "id": "hela-s-hammer",
+  "title": "Hela's Hammer",
+  "description": "A tricky tool to tame, but one that can finish foes in one fell swoop.",
+  "statistics": {
+   "agility": 132,
+   "special": {
+    "effect": "25% chance to miss"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "hammer"
+ },
+ "marauder-s-maul": {
+  "id": "marauder-s-maul",
+  "title": "Marauder's Maul",
+  "description": "A favourite of foul demons, it has dazzling destructive clout.",
+  "statistics": {
+   "agility": 93,
+   "special": {}
+  },
+  "rarity": 2,
+  "buyPrice": 21500,
+  "vocations": [
+   "gladiator",
+   "paladin"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "hammer"
+ },
+ "megaton-hammer": {
+  "id": "megaton-hammer",
+  "title": "Megaton Hammer",
+  "description": "A huge hammer that weighs heavy on the heads of those it hits.",
+  "statistics": {
+   "agility": 132,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "gladiator",
+   "paladin"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "hammer",
+  "recipe": {
+   "densinium": 3,
+   "hela-s-hammer": 1,
+   "orichalcum": 3
+  },
+  "ingredientFor": [
+   "warlord-s-hammer"
+  ]
+ },
+ "moonmasher": {
+  "id": "moonmasher",
+  "title": "Moonmasher",
+  "description": "A pounder of stupendous power that could crush the moon.",
+  "statistics": {
+   "agility": 169,
+   "special": {}
+  },
+  "rarity": 4,
+  "vocations": [
+   "gladiator",
+   "paladin"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "hammer",
+  "recipe": {
+   "agate-of-evolution": 3,
+   "earthsplitter": 1,
+   "yellow-orb": 3
+  }
+ },
+ "sledgehammer": {
+  "id": "sledgehammer",
+  "title": "Sledgehammer",
+  "description": "A heavyweight hammer with a head of iron.",
+  "statistics": {
+   "agility": 28,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 1300,
+  "vocations": [
+   "gladiator",
+   "paladin"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "hammer"
+ },
+ "starsmasher": {
+  "id": "starsmasher",
+  "title": "Starsmasher",
+  "description": "A pounder of peerless power, whose cosmic clout could crack a star.",
+  "statistics": {
+   "agility": 179,
+   "special": {}
+  },
+  "rarity": 5,
+  "vocations": [
+   "gladiator",
+   "paladin"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "hammer",
+  "recipe": {
+   "agate-of-evolution": 3,
+   "earthsplitter": 1,
+   "yellow-orb": 3
+  }
+ },
+ "terra-firmer": {
+  "id": "terra-firmer",
+  "title": "Terra Firmer",
+  "description": "An even more ruinous version of the terra tamper.",
+  "statistics": {
+   "agility": 87,
+   "special": {
+    "effect": "Deals Earth-elemental damage"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "hammer",
+  "ingredientFor": [
+   "terra-hammer"
+  ]
+ },
+ "terra-tamper": {
+  "id": "terra-tamper",
+  "title": "Terra Tamper",
+  "description": "A powerful pounder that harbours the essence of the earth's energy.",
+  "statistics": {
+   "agility": 75,
+   "special": {
+    "effect": "Deals Earth-elemental damage"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "hammer",
+  "ingredientFor": [
+   "terra-firmer"
+  ]
+ },
+ "titan-s-hammer": {
+  "id": "titan-s-hammer",
+  "title": "Titan's Hammer",
+  "description": "A huge hammer that easily erases monsters of material make-up.",
+  "statistics": {
+   "agility": 118,
+   "special": {
+    "effect": "Deals 1.20x damage to Material family"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "hammer"
+ },
+ "war-hammer": {
+  "id": "war-hammer",
+  "title": "War Hammer",
+  "description": "A steel-headed hammer manufactured for melees!",
+  "statistics": {
+   "agility": 55,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 4600,
+  "vocations": [
+   "gladiator"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "hammer",
+  "ingredientFor": [
+   "über-war-hammer"
+  ]
+ },
+ "warlord-s-hammer": {
+  "id": "warlord-s-hammer",
+  "title": "Warlord's Hammer",
+  "description": "A mammoth mallet that weighs heavy on the heads of those it hits.",
+  "statistics": {
+   "agility": 140,
+   "special": {}
+  },
+  "rarity": 4,
+  "vocations": [
+   "gladiator",
+   "paladin"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "hammer",
+  "recipe": {
+   "megaton-hammer": 1,
+   "mighty-armlet": 1,
+   "orichalcum": 1
+  }
+ },
+ "über-war-hammer": {
+  "id": "über-war-hammer",
+  "title": "Über War Hammer",
+  "description": "An even more formidable form of the war hammer.",
+  "statistics": {
+   "agility": 70,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "gladiator",
+   "paladin"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "hammer",
+  "recipe": {
+   "mighty-armlet": 1,
+   "war-hammer": 1
+  }
+ }
+}

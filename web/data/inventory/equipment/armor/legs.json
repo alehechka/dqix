@@ -1,0 +1,1961 @@
+{
+ "alefgard-trousers": {
+  "id": "alefgard-trousers",
+  "title": "Alefgard Trousers",
+  "description": "Simple slacks sported by a hero of Alefgard.",
+  "statistics": {
+   "defense": 18,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "alena-s-tights": {
+  "id": "alena-s-tights",
+  "title": "Alena's Tights",
+  "description": "Heavy black hosiery once worn by Tsarevna Alena.",
+  "statistics": {
+   "defense": 12,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "aliahan-trousers": {
+  "id": "aliahan-trousers",
+  "title": "Aliahan Trousers",
+  "description": "Bog-standard slacks supposedly sported by a legendary hero.",
+  "statistics": {
+   "defense": 21,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "aquila-s-trousers": {
+  "id": "aquila-s-trousers",
+  "title": "Aquila's Trousers",
+  "description": "Plain pantaloons imbued with Aquila's aura.",
+  "statistics": {
+   "defense": 17,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "battle-britches": {
+  "id": "battle-britches",
+  "title": "Battle Britches",
+  "description": "Trousers tailored for tussling that gladiators go mad for.",
+  "statistics": {
+   "defense": 17,
+   "special": {
+    "effect": "Dispels 25% infliction rate of Stop"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "black-knickers": {
+  "id": "black-knickers",
+  "title": "Black Knickers",
+  "description": "These provide protection when worn under a dress.",
+  "statistics": {
+   "defense": 14,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 2880,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "blessed-bottoms": {
+  "id": "blessed-bottoms",
+  "title": "Blessed Bottoms",
+  "description": "Enchanted chinos that make more of the wearer's magical might.",
+  "statistics": {
+   "defense": 14,
+   "magicalMight": 18,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "mage"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs",
+  "recipe": {
+   "lambswool": 2,
+   "sorcerer-s-stone": 1,
+   "wizard-s-trousers": 1
+  }
+ },
+ "blue-jeans": {
+  "id": "blue-jeans",
+  "title": "Blue Jeans",
+  "description": "Casual trousers usually worn by the young - or the young at heart.",
+  "statistics": {
+   "defense": 12,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 1350,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "blue-knickers": {
+  "id": "blue-knickers",
+  "title": "Blue Knickers",
+  "description": "These provide perfect protection when worn under a dress.",
+  "statistics": {
+   "defense": 5,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 260,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "blue-skirt": {
+  "id": "blue-skirt",
+  "title": "Blue Skirt",
+  "description": "A cool, calm, comfortable and classic bright blue skirt.",
+  "statistics": {
+   "defense": 12,
+   "magicalMight": 8,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 1750,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "boomer-briefs": {
+  "id": "boomer-briefs",
+  "title": "Boomer Briefs",
+  "description": "Pants that put the 't' in 'testosterone'.",
+  "statistics": {
+   "defense": 8,
+   "magicalMight": 4,
+   "magicalMending": 4,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 420,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs",
+  "recipe": {
+   "boomerang": 1,
+   "boxer-shorts": 1
+  }
+ },
+ "boxer-shorts": {
+  "id": "boxer-shorts",
+  "title": "Boxer Shorts",
+  "description": "Underwear by men, for men.",
+  "statistics": {
+   "defense": 2,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 30,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "cannock-trousers": {
+  "id": "cannock-trousers",
+  "title": "Cannock Trousers",
+  "description": "Ashen attire that the Prince of Cannock put over his pins.",
+  "statistics": {
+   "defense": 13,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "carver-s-shorts": {
+  "id": "carver-s-shorts",
+  "title": "Carver's Shorts",
+  "description": "A pair of Carver's captivatingly cut shorts.",
+  "statistics": {
+   "defense": 12,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "celestial-stockings": {
+  "id": "celestial-stockings",
+  "title": "Celestial Stockings",
+  "description": "Strange stockings that somehow seem angelic.",
+  "statistics": {
+   "defense": 2,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "chainmail-socks": {
+  "id": "chainmail-socks",
+  "title": "Chainmail Socks",
+  "description": "Chunky chainmail legwear.",
+  "statistics": {
+   "defense": 17,
+   "special": {
+    "effect": "Dispels 30% infliction rate of Whack"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "combat-trousers": {
+  "id": "combat-trousers",
+  "title": "Combat Trousers",
+  "description": "A piece of clothing worn by pre-modern martial artists.",
+  "statistics": {
+   "defense": 19,
+   "special": {}
+  },
+  "rarity": 2,
+  "buyPrice": 9500,
+  "vocations": [
+   "martial-artist"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "cor-blimey-trousers": {
+  "id": "cor-blimey-trousers",
+  "title": "Cor Blimey Trousers",
+  "description": "A puffed up pair belonging to Pickham's premier pilferer.",
+  "statistics": {
+   "defense": 16,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "cotton-trousers": {
+  "id": "cotton-trousers",
+  "title": "Cotton Trousers",
+  "description": "Simple slacks made of standard stuff.",
+  "statistics": {
+   "defense": 2,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 80,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "dangerous-midriff-wrap": {
+  "id": "dangerous-midriff-wrap",
+  "title": "Dangerous Midriff Wrap",
+  "description": "Swimwear that's somewhat unsafe to set eyes on.",
+  "statistics": {
+   "defense": 1,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 11400,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs",
+  "ingredientFor": [
+   "hot-bikini-bottoms"
+  ]
+ },
+ "denim-skirt": {
+  "id": "denim-skirt",
+  "title": "Denim Skirt",
+  "description": "A daringly cut denim miniskirt for the more adventurous maiden.",
+  "statistics": {
+   "defense": 12,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 1380,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "dragon-trousers": {
+  "id": "dragon-trousers",
+  "title": "Dragon Trousers",
+  "description": "Martial artist's attire that impedes attacks of fire and ice.",
+  "statistics": {
+   "defense": 16,
+   "special": {
+    "effect": "Resists 7% damage from Fire and Ice"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs",
+  "ingredientFor": [
+   "tantric-trousers"
+  ]
+ },
+ "dragon-warrior-trousers": {
+  "id": "dragon-warrior-trousers",
+  "title": "Dragon Warrior Trousers",
+  "description": "Given by Greygnarl as a token of friendship.",
+  "statistics": {
+   "defense": 14,
+   "special": {
+    "effect": "Resists 5% damage from Fire and Dark"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "estard-trousers": {
+  "id": "estard-trousers",
+  "title": "Estard Trousers",
+  "description": "Bog-standard slacks sold in Estard.",
+  "statistics": {
+   "defense": 20,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "eternity-trousers": {
+  "id": "eternity-trousers",
+  "title": "Eternity Trousers",
+  "description": "Steady slacks that withstand paralysis, sleep and death spells.",
+  "statistics": {
+   "defense": 27,
+   "magicalMight": 12,
+   "magicalMending": 12,
+   "special": {
+    "effect": "Dispels 25% infliction rates of Whack, Snooze, and Paralysis"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "fancy-pants": {
+  "id": "fancy-pants",
+  "title": "Fancy Pants",
+  "description": "Loud legwear that helps hold off sleep and enchantment attacks.",
+  "statistics": {
+   "defense": 15,
+   "special": {
+    "effect": "Dispels 25% infliction rates of Snooze and Dazzle"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "femiscyran-bottoms": {
+  "id": "femiscyran-bottoms",
+  "title": "Femiscyran Bottoms",
+  "description": "Loose-fitting legwear worn by woman warriors.",
+  "statistics": {
+   "defense": 13,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 1450,
+  "vocations": [
+   "warrior-(female-only)"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "fishnet-stockings": {
+  "id": "fishnet-stockings",
+  "title": "Fishnet Stockings",
+  "description": "Tights that make a flattering fit for any lady's legs.",
+  "statistics": {
+   "defense": 9,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 800,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs",
+  "ingredientFor": [
+   "stiletto-heels"
+  ]
+ },
+ "fleurette-s-chaussettes": {
+  "id": "fleurette-s-chaussettes",
+  "title": "Fleurette's Chaussettes",
+  "description": "Stripy, knee-high socks that are a favourite of Fleurette's.",
+  "statistics": {
+   "defense": 13,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "gigasteel-kneecaps": {
+  "id": "gigasteel-kneecaps",
+  "title": "Gigasteel Kneecaps",
+  "description": "Gigasteel supplementary wear that prevents knocks to the knees.",
+  "statistics": {
+   "defense": 16,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs",
+  "recipe": {
+   "hephaestus--flame": 1,
+   "iron-ore": 2,
+   "steel-kneecaps": 1
+  }
+ },
+ "green-tights": {
+  "id": "green-tights",
+  "title": "Green Tights",
+  "description": "Leaf-green legwear that deflects death magic, poison and paralysis.",
+  "statistics": {
+   "defense": 13,
+   "special": {
+    "effect": "Dispels 25% infliction rates of Whack, Poison, and Paralysis"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs",
+  "ingredientFor": [
+   "transparent-tights",
+   "can-be-used-for:",
+   "012-putting-on-the-glitz"
+  ]
+ },
+ "hot-bikini-bottoms": {
+  "id": "hot-bikini-bottoms",
+  "title": "Hot Bikini Bottoms",
+  "description": "Waterwear that works well against fire and lightning attacks.",
+  "statistics": {
+   "defense": 10,
+   "special": {
+    "effect": "Resists 7% damage from Fire and Lightning"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs",
+  "ingredientFor": [
+   "sizzling-bikini-bottoms"
+  ]
+ },
+ "immortal-trousers": {
+  "id": "immortal-trousers",
+  "title": "Immortal Trousers",
+  "description": "Steady slacks that stand up to sleep magic and death spells.",
+  "statistics": {
+   "defense": 24,
+   "magicalMight": 10,
+   "magicalMending": 10,
+   "special": {
+    "effect": "Dispels 25% infliction rates of Whack and Snooze"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs",
+  "ingredientFor": [
+   "eternity-trousers",
+   ",",
+   "infinity-trousers"
+  ]
+ },
+ "impregnable-leggings": {
+  "id": "impregnable-leggings",
+  "title": "Impregnable Leggings",
+  "description": "Magical legwear that disrupts attempts to lower defence.",
+  "statistics": {
+   "defense": 22,
+   "special": {
+    "effect": "Dispels 50% infliction rate of Sap"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "infinity-trousers": {
+  "id": "infinity-trousers",
+  "title": "Infinity Trousers",
+  "description": "Super-steady slacks that stand up to all sorts of strangeness.",
+  "statistics": {
+   "defense": 30,
+   "magicalMight": 15,
+   "magicalMending": 15,
+   "special": {
+    "effect": "Dispels 25% infliction rates of Whack, Snooze, Paralysis, and Dazzle"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "invincible-trousers": {
+  "id": "invincible-trousers",
+  "title": "Invincible Trousers",
+  "description": "Steady slacks that staunchly withstand death spells.",
+  "statistics": {
+   "defense": 21,
+   "magicalMight": 8,
+   "magicalMending": 8,
+   "special": {
+    "effect": "Dispels 25% infliction rate of Whack"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "iron-kneecaps": {
+  "id": "iron-kneecaps",
+  "title": "Iron Kneecaps",
+  "description": "Iron contrivances that prevent knocks to the knees.",
+  "statistics": {
+   "defense": 9,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 640,
+  "vocations": [
+   "warrior",
+   "priest",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs",
+  "ingredientFor": [
+   "steel-kneecaps",
+   "can-be-used-for:",
+   "012-putting-on-the-glitz"
+  ]
+ },
+ "kiefer-s-trousers": {
+  "id": "kiefer-s-trousers",
+  "title": "Kiefer's Trousers",
+  "description": "Prince Kiefer's close-fitting pitch-black pants.",
+  "statistics": {
+   "defense": 15,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "kiltlet": {
+  "id": "kiltlet",
+  "title": "Kiltlet",
+  "description": "A tweedy, tartan number with a certain cuteness to its cut.",
+  "statistics": {
+   "defense": 15,
+   "magicalMight": 11,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 4200,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "leather-kilt": {
+  "id": "leather-kilt",
+  "title": "Leather Kilt",
+  "description": "A loincloth from bits of bashed-together beast hide.",
+  "statistics": {
+   "defense": 5,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 110,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs",
+  "recipe": {
+   "boxer-shorts": 1,
+   "magic-beast-hide": 1
+  }
+ },
+ "loud-trousers": {
+  "id": "loud-trousers",
+  "title": "Loud Trousers",
+  "description": "Super-snazzy slacks for showmen that stave off sleep.",
+  "statistics": {
+   "defense": 12,
+   "special": {
+    "effect": "Dispels 25% infliction rate of Snooze"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "magical-skirt": {
+  "id": "magical-skirt",
+  "title": "Magical Skirt",
+  "description": "A sorcerous skirt that can fight back magical attacks.",
+  "statistics": {
+   "defense": 13,
+   "magicalMight": 9,
+   "magicalMending": 9,
+   "special": {
+    "effect": "Resists 7% damage from Fire, Ice, Wind, Lightning, and Dark"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "maya-s-bottoms": {
+  "id": "maya-s-bottoms",
+  "title": "Maya's Bottoms",
+  "description": "Lascivious legwear donned by the dancer Maya.",
+  "statistics": {
+   "defense": 9,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "midenhall-trousers": {
+  "id": "midenhall-trousers",
+  "title": "Midenhall Trousers",
+  "description": "Spartan slacks sported by the Prince of Midenhall.",
+  "statistics": {
+   "defense": 20,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "milly-s-pants": {
+  "id": "milly-s-pants",
+  "title": "Milly's Pants",
+  "description": "Chalk-white trousers of Milly's with a fairly free fit.",
+  "statistics": {
+   "defense": 16,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "nicker-s-knickers": {
+  "id": "nicker-s-knickers",
+  "title": "Nicker's Knickers",
+  "description": "Long briefs for keen thiefs that allow super-swift movement.",
+  "statistics": {
+   "defense": 13,
+   "agility": 10,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 1820,
+  "vocations": [
+   "thief"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "pirate-pantaloons": {
+  "id": "pirate-pantaloons",
+  "title": "Pirate Pantaloons",
+  "description": "Seafaring slacks sported by a celebrated swashbuckler.",
+  "statistics": {
+   "defense": 20,
+   "special": {}
+  },
+  "rarity": 3,
+  "buyPrice": 28000,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "pop-socks": {
+  "id": "pop-socks",
+  "title": "Pop Socks",
+  "description": "Foot coverings for females that fit the leg up to the knee.",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 680,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "red-skirt": {
+  "id": "red-skirt",
+  "title": "Red Skirt",
+  "description": "A fierce, fiery, flashy, and fun bright red skirt.",
+  "statistics": {
+   "defense": 5,
+   "magicalMight": 3,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 340,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "red-tights": {
+  "id": "red-tights",
+  "title": "Red Tights",
+  "description": "Scarlet stockings that stave off fire- and ice-based strikes.",
+  "statistics": {
+   "defense": 13,
+   "special": {
+    "effect": "Resists 7% damage from Fire and Lightning"
+   }
+  },
+  "buyPrice": 2400,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs",
+  "recipe": {
+   "crimson-coral": 4,
+   "pop-socks": 1
+  }
+ },
+ "santa-s-slacks": {
+  "id": "santa-s-slacks",
+  "title": "Santa's Slacks",
+  "description": "Santa's trademark crimson trousers.",
+  "statistics": {
+   "defense": 19,
+   "special": {}
+  },
+  "rarity": 3,
+  "buyPrice": 12000,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "seabreeze-skirt": {
+  "id": "seabreeze-skirt",
+  "title": "Seabreeze Skirt",
+  "description": "A bracing bit of womenswear that smells slightly of the sea.",
+  "statistics": {
+   "defense": 17,
+   "magicalMending": 12,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 6800,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "sizzling-bikini-bottoms": {
+  "id": "sizzling-bikini-bottoms",
+  "title": "Sizzling Bikini Bottoms",
+  "description": "Bold bathing gear that bravely beats back fire and lightning attacks.",
+  "statistics": {
+   "defense": 19,
+   "special": {
+    "effect": "Resists 10% damage from Fire and Lightning"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "skeletal-slacks": {
+  "id": "skeletal-slacks",
+  "title": "Skeletal Slacks",
+  "description": "Bloodcurling bottoms decorated with beautifully drawn bones.",
+  "statistics": {
+   "defense": 16,
+   "special": {}
+  },
+  "rarity": 3,
+  "buyPrice": 10000,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "slick-slacks": {
+  "id": "slick-slacks",
+  "title": "Slick Slacks",
+  "description": "Sprightly slacks for a super-fast fighting frenzy.",
+  "statistics": {
+   "defense": 14,
+   "agility": 15,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "martial-artist"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "snazzy-skirt": {
+  "id": "snazzy-skirt",
+  "title": "Snazzy Skirt",
+  "description": "A super-trendy skirt with an air of upper-crustness to it.",
+  "statistics": {
+   "defense": 10,
+   "magicalMending": 6,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 1200,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs",
+  "canBeUsedFor": [
+   "012-putting-on-the-glitz"
+  ]
+ },
+ "somnia-shorts": {
+  "id": "somnia-shorts",
+  "title": "Somnia Shorts",
+  "description": "Simple shorn-off slacks sold in Somnia.",
+  "statistics": {
+   "defense": 20,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "sorcerer-s-slacks": {
+  "id": "sorcerer-s-slacks",
+  "title": "Sorcerer's Slacks",
+  "description": "Legwear that makes much more of the wearer's magical might.",
+  "statistics": {
+   "defense": 11,
+   "magicalMight": 14,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 2100,
+  "vocations": [
+   "mage"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "springtime-skirt": {
+  "id": "springtime-skirt",
+  "title": "Springtime Skirt",
+  "description": "A classy, if slightly cutesy pink skirt.",
+  "statistics": {
+   "defense": 6,
+   "magicalMending": 2,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 440,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "steel-kneecaps": {
+  "id": "steel-kneecaps",
+  "title": "Steel Kneecaps",
+  "description": "Steel supplementary wear that prevents knocks to the knees.",
+  "statistics": {
+   "defense": 12,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs",
+  "recipe": {
+   "iron-kneecaps": 1,
+   "iron-ore": 1,
+   "royal-soil": 1
+  }
+ },
+ "stellar-stockings": {
+  "id": "stellar-stockings",
+  "title": "Stellar Stockings",
+  "description": "Knee-high legwear for the faerlie fashion-conscious female.",
+  "statistics": {
+   "defense": 15,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "steppe-steppers": {
+  "id": "steppe-steppers",
+  "title": "Steppe Steppers",
+  "description": "Paralysis-preventing legwear beloved by roaming rangers.",
+  "statistics": {
+   "defense": 16,
+   "special": {
+    "effect": "Dispels 25% infliction rate of Paralysis"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "sturdy-slacks": {
+  "id": "sturdy-slacks",
+  "title": "Sturdy Slacks",
+  "description": "Protective legwear that disrupts attempts to lower defence.",
+  "statistics": {
+   "defense": 18,
+   "special": {
+    "effect": "Dispels 50% infliction rate of Sap"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "swinedimples-skirt": {
+  "id": "swinedimples-skirt",
+  "title": "Swinedimples Skirt",
+  "description": "The uniform of an acclaimed academy.",
+  "statistics": {
+   "defense": 11,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 1100,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "swinedimples-slacks": {
+  "id": "swinedimples-slacks",
+  "title": "Swinedimples Slacks",
+  "description": "The uniform of an acclaimed academy.",
+  "statistics": {
+   "defense": 11,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 1000,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "swordsman-s-slacks": {
+  "id": "swordsman-s-slacks",
+  "title": "Swordsman's Slacks",
+  "description": "Armamentalist's attire that wears well against Fizzle magic.",
+  "statistics": {
+   "defense": 16,
+   "special": {
+    "effect": "Dispels 25% infliction rate of Fizzle"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "tantric-trousers": {
+  "id": "tantric-trousers",
+  "title": "Tantric Trousers",
+  "description": "Magic-boosting slacks worn by the sages of bygone ages.",
+  "statistics": {
+   "defense": 19,
+   "magicalMight": 10,
+   "magicalMending": 10,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "sage"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs",
+  "recipe": {
+   "dragon-trousers": 1,
+   "sage-s-elixir": 2,
+   "thinkincense": 3
+  }
+ },
+ "templar-s-trousers": {
+  "id": "templar-s-trousers",
+  "title": "Templar's Trousers",
+  "description": "Spick and span scarlet legwear attributed to the Templar Angelo.",
+  "statistics": {
+   "defense": 13,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "torneko-s-trousers": {
+  "id": "torneko-s-trousers",
+  "title": "Torneko's Trousers",
+  "description": "Loose-fitting legwear once worn by the wily Torneko Taloon.",
+  "statistics": {
+   "defense": 14,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "toughie-trousers": {
+  "id": "toughie-trousers",
+  "title": "Toughie Trousers",
+  "description": "Legwear for lovable louts that looks a little tight.",
+  "statistics": {
+   "defense": 12,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "tracky-bottoms": {
+  "id": "tracky-bottoms",
+  "title": "Tracky Bottoms",
+  "description": "A loose garment made for more advanced martial arts training.",
+  "statistics": {
+   "defense": 9,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "martial-artist",
+   "thief"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs",
+  "recipe": {
+   "finessence": 1,
+   "training-trousers": 1
+  }
+ },
+ "training-trousers": {
+  "id": "training-trousers",
+  "title": "Training Trousers",
+  "description": "A loose garment made for martial artists to work out in.",
+  "statistics": {
+   "defense": 4,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 170,
+  "vocations": [
+   "martial-artist",
+   "thief"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs",
+  "ingredientFor": [
+   "tracky-bottoms"
+  ]
+ },
+ "transparent-tights": {
+  "id": "transparent-tights",
+  "title": "Transparent Tights",
+  "description": "Strange see-through stockings.",
+  "statistics": {
+   "defense": 18,
+   "special": {
+    "effect": "Dispels 25% infliction rates of Dazzle and Fuddle"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs",
+  "canBeUsedFor": [
+   "012-putting-on-the-glitz"
+  ]
+ },
+ "trinity-tights": {
+  "id": "trinity-tights",
+  "title": "Trinity Tights",
+  "description": "A pair of priest's tights from past times that improve magical mending.",
+  "statistics": {
+   "defense": 18,
+   "magicalMending": 20,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "priest"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "trodain-trousers": {
+  "id": "trodain-trousers",
+  "title": "Trodain Trousers",
+  "description": "Cheapo chinos traded in the territory of Trodain.",
+  "statistics": {
+   "defense": 19,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "tussler-s-trousers": {
+  "id": "tussler-s-trousers",
+  "title": "Tussler's Trousers",
+  "description": "Made for martial artists to test their mettle in mortal combat.",
+  "statistics": {
+   "defense": 13,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 1500,
+  "vocations": [
+   "martial-artist"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs",
+  "recipe": {
+   "finessence": 1,
+   "magic-beast-hide": 2,
+   "tracky-bottoms": 1
+  },
+  "ingredientFor": [
+   "dragon-trousers"
+  ]
+ },
+ "warrior-s-trousers": {
+  "id": "warrior-s-trousers",
+  "title": "Warrior's Trousers",
+  "description": "Red-tinged trousers worn by warriors.",
+  "statistics": {
+   "defense": 14,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 1550,
+  "vocations": [
+   "warrior"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "white-tights": {
+  "id": "white-tights",
+  "title": "White Tights",
+  "description": "Silvery stockings that slightly stave off ice and wind attacks.",
+  "statistics": {
+   "defense": 13,
+   "special": {
+    "effect": "Resists 7% damage from Ice and Wind"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "white-tuxedo-trousers": {
+  "id": "white-tuxedo-trousers",
+  "title": "White Tuxedo Trousers",
+  "description": "The bottom half of a beautifully tailored tuxedo.",
+  "statistics": {
+   "defense": 18,
+   "special": {}
+  },
+  "rarity": 3,
+  "buyPrice": 15000,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "wizard-s-trousers": {
+  "id": "wizard-s-trousers",
+  "title": "Wizard's Trousers",
+  "description": "Strange slacks that seem to strengthen magical might.",
+  "statistics": {
+   "defense": 10,
+   "magicalMight": 12,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 1700,
+  "vocations": [
+   "mage"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs",
+  "ingredientFor": [
+   "blessed-bottoms"
+  ]
+ },
+ "wonder-pants": {
+  "id": "wonder-pants",
+  "title": "Wonder Pants",
+  "description": "Pants that really put the 't' in 'testosterone'.",
+  "statistics": {
+   "defense": 12,
+   "magicalMight": 8,
+   "magicalMending": 8,
+   "special": {
+    "effect": "Resists 7% damage from Ice"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "zenithian-leggings": {
+  "id": "zenithian-leggings",
+  "title": "Zenithian Leggings",
+  "description": "Warming legwear once worn by a heroine of Zenithia.",
+  "statistics": {
+   "defense": 18,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
+ "zenithian-trousers": {
+  "id": "zenithian-trousers",
+  "title": "Zenithian Trousers",
+  "description": "A pair of unpretentious trousers worn by a hero of Zenithia.",
+  "statistics": {
+   "defense": 19,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ }
+}

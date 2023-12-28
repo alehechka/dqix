@@ -1,0 +1,408 @@
+{
+ "beast-claws": {
+  "id": "beast-claws",
+  "title": "Beast Claws",
+  "description": "Razor-sharp rippers resembling those of a mythical magical beast.",
+  "statistics": {
+   "agility": 114,
+   "special": {
+    "effect": "Deals 1.20x damage to Beast family"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "claw",
+  "ingredientFor": [
+   "beastmaster-claws"
+  ]
+ },
+ "beastmaster-claws": {
+  "id": "beastmaster-claws",
+  "title": "Beastmaster Claws",
+  "description": "Sharp shredders said to resemble those of the king of beasts.",
+  "statistics": {
+   "agility": 125,
+   "special": {
+    "effect": "Deals 1.20x damage to Beast family"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "claw",
+  "requiredFor": [
+   "144-claws-for-thought"
+  ]
+ },
+ "cobra-claws": {
+  "id": "cobra-claws",
+  "title": "Cobra Claws",
+  "description": "Large toxic talons, hooked like those of a hellish demon.",
+  "statistics": {
+   "agility": 93,
+   "special": {
+    "effect": "Chance to inflict envenomation"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "claw",
+  "ingredientFor": [
+   "king-cobra-claws"
+  ]
+ },
+ "combusticlaws": {
+  "id": "combusticlaws",
+  "title": "Combusticlaws",
+  "description": "Terrifying toughened talons made from fire claws.",
+  "statistics": {
+   "agility": 99,
+   "special": {
+    "usage": "Deals 23-33 Fire damage to all enemies"
+   }
+  },
+  "rarity": 2,
+  "vocations": [
+   "martial-artist",
+   "thief"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "claw",
+  "recipe": {
+   "fire-claws": 1,
+   "rockbomb-shard": 3,
+   "sunstone": 1
+  }
+ },
+ "crow-s-claws": {
+  "id": "crow-s-claws",
+  "title": "Crow's Claws",
+  "description": "Talons that tear through their target swift as a swooping bird.",
+  "statistics": {
+   "agility": 10,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 4800,
+  "vocations": [
+   "martial-artist",
+   "thief"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "claw"
+ },
+ "dragon-claws": {
+  "id": "dragon-claws",
+  "title": "Dragon Claws",
+  "description": "Rock-hard, razor-sharp rippers like the talons of a dragon.",
+  "statistics": {
+   "agility": 78,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 14500,
+  "vocations": [
+   "martial-artist",
+   "thief"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "claw"
+ },
+ "dragonlord-claws": {
+  "id": "dragonlord-claws",
+  "title": "Dragonlord Claws",
+  "description": "Claws that can carve up dragon scales as easily as cutting cake.",
+  "statistics": {
+   "agility": 143,
+   "special": {
+    "effect": "Deals 1.20x damage to Dragon family"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "claw",
+  "ingredientFor": [
+   "dragovian-claws"
+  ]
+ },
+ "dragovian-claws": {
+  "id": "dragovian-claws",
+  "title": "Dragovian Claws",
+  "description": "Claws that whip through dragon scales as if they were water.",
+  "statistics": {
+   "agility": 153,
+   "special": {
+    "effect": "Deals 1.20x damage to Dragon family"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "claw",
+  "ingredientFor": [
+   "dragovian-lord-claws",
+   ",",
+   "xenlon-claws"
+  ]
+ },
+ "dragovian-lord-claws": {
+  "id": "dragovian-lord-claws",
+  "title": "Dragovian Lord Claws",
+  "description": "Claws that cut dragon scales as quickly as waving goodbye.",
+  "statistics": {
+   "agility": 163,
+   "special": {
+    "effect": "Deals 1.20x damage to Dragon family"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "claw"
+ },
+ "fire-claws": {
+  "id": "fire-claws",
+  "title": "Fire Claws",
+  "description": "Claws that fling forth fire if used as an item in battle.",
+  "statistics": {
+   "agility": 88,
+   "special": {
+    "usage": "Deals 23-33 Fire damage to all enemies"
+   }
+  },
+  "rarity": 1,
+  "vocations": [
+   "martial-artist",
+   "thief"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "claw",
+  "recipe": {
+   "dragon-claws": 1,
+   "lava-lump": 3,
+   "rockbomb-shard": 1
+  }
+ },
+ "gigasteel-claws": {
+  "id": "gigasteel-claws",
+  "title": "Gigasteel Claws",
+  "description": "Super sharp metal scratchers forged from shrewdly selected steel.",
+  "statistics": {
+   "agility": 47,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "martial-artist",
+   "thief"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "claw",
+  "recipe": {
+   "hephaestus--flame": 1,
+   "iron-ore": 2,
+   "steel-claws": 1
+  }
+ },
+ "hammer-handrills": {
+  "id": "hammer-handrills",
+  "title": "Hammer Handrills",
+  "description": "Heavy-duty drill-like devices that can cut holes through steel.",
+  "statistics": {
+   "agility": 83,
+   "special": {
+    "effect": "Deals 1.20x damage to Machine family"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "claw",
+  "requiredFor": [
+   "011-the-not-so-great-escape"
+  ]
+ },
+ "handrills": {
+  "id": "handrills",
+  "title": "Handrills",
+  "description": "Drill-like devices that can sink holes into steel.",
+  "statistics": {
+   "agility": 61,
+   "special": {
+    "effect": "Deals 1.20x damage to Machine family"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "claw",
+  "ingredientFor": [
+   "hammer-handrills"
+  ]
+ },
+ "iron-claws": {
+  "id": "iron-claws",
+  "title": "Iron Claws",
+  "description": "Metal menaces worn by many warriors.",
+  "statistics": {
+   "agility": 17,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 620,
+  "vocations": [
+   "martial-artist",
+   "thief"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "claw"
+ },
+ "kestrel-claws": {
+  "id": "kestrel-claws",
+  "title": "Kestrel Claws",
+  "description": "Talons that tear through their target like a hungry hawk.",
+  "statistics": {
+   "agility": 15,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "martial-artist",
+   "thief"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "claw",
+  "recipe": {
+   "agility-ring": 1,
+   "crow-s-claws": 1
+  },
+  "ingredientFor": [
+   "kite-claws",
+   ",",
+   "eaglewing"
+  ]
+ },
+ "king-cobra-claws": {
+  "id": "king-cobra-claws",
+  "title": "King Cobra Claws",
+  "description": "Enormous toxic talons, hooked like those of a hellish demon.",
+  "statistics": {
+   "agility": 106,
+   "special": {
+    "effect": "Chance to inflict envenomation"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "claw"
+ },
+ "kite-claws": {
+  "id": "kite-claws",
+  "title": "Kite Claws",
+  "description": "Talons that tear through their target like a crazed kite.",
+  "statistics": {
+   "agility": 20,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "martial-artist",
+   "thief"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "claw",
+  "recipe": {
+   "enchanted-stone": 2,
+   "kestrel-claws": 1
+  }
+ },
+ "razor-claws": {
+  "id": "razor-claws",
+  "title": "Razor Claws",
+  "description": "Hooked claws full of exotic foreign fascination.",
+  "statistics": {
+   "agility": 28,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 1750,
+  "vocations": [
+   "martial-artist",
+   "thief"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "claw"
+ },
+ "sacred-claws": {
+  "id": "sacred-claws",
+  "title": "Sacred Claws",
+  "description": "Consecrated claws capable of cutting even formless foes.",
+  "statistics": {
+   "agility": 43,
+   "special": {
+    "effect": "Deals 1.20x damage to Elemental family"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "claw"
+ },
+ "steel-claws": {
+  "id": "steel-claws",
+  "title": "Steel Claws",
+  "description": "Tough talons made from strengthened steel.",
+  "statistics": {
+   "agility": 31,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "martial-artist",
+   "thief"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "claw",
+  "recipe": {
+   "iron-claws": 1,
+   "iron-ore": 1,
+   "lava-lump": 1
+  }
+ },
+ "stone-claws": {
+  "id": "stone-claws",
+  "title": "Stone Claws",
+  "description": "Super-simple scratchers made from sharpened stones.",
+  "statistics": {
+   "agility": 15,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 100,
+  "vocations": [
+   "martial-artist",
+   "thief"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "claw"
+ },
+ "xenlon-claws": {
+  "id": "xenlon-claws",
+  "title": "Xenlon Claws",
+  "description": "The claws to end all claws. Destroy dragons with the flick of a wrist.",
+  "statistics": {
+   "agility": 173,
+   "special": {
+    "effect": "Deals 1.20x damage to Dragon family"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "claw"
+ }
+}

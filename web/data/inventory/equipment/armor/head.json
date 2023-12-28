@@ -1,0 +1,3269 @@
+{
+ "alefgard-helm": {
+  "id": "alefgard-helm",
+  "title": "Alefgard Helm",
+  "description": "A helmet habitually worn by a hero of Alefgard.",
+  "statistics": {
+   "defense": 32,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "alena-s-hat": {
+  "id": "alena-s-hat",
+  "title": "Alena's Hat",
+  "description": "A triangular topper modelled on that of a tough tsarevna.",
+  "statistics": {
+   "defense": 20,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "aliahan-headpiece": {
+  "id": "aliahan-headpiece",
+  "title": "Aliahan Headpiece",
+  "description": "A gleaming garland given a great popularity boost by a legendary hero.",
+  "statistics": {
+   "defense": 30,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "apollo-s-crown": {
+  "id": "apollo-s-crown",
+  "title": "Apollo's Crown",
+  "description": "A cosmic coronet that banishes sleep and confusion.",
+  "statistics": {
+   "defense": 36,
+   "special": {
+    "effect": "Dispels 30% infliction rates of Snooze and Fuddle"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "ingredientFor": [
+   "skull-helm"
+  ]
+ },
+ "ashlynn-s-hair": {
+  "id": "ashlynn-s-hair",
+  "title": "Ashlynn's Hair",
+  "description": "Ashlynn's tufts tied up at the top.",
+  "statistics": {
+   "defense": 19,
+   "magicalMight": 10,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "autumn-shower-hat": {
+  "id": "autumn-shower-hat",
+  "title": "Autumn Shower Hat",
+  "description": "An odd ornament for the head that obstructs confusion.",
+  "statistics": {
+   "defense": 24,
+   "magicalMight": 26,
+   "magicalMending": 19,
+   "special": {
+    "effect": "Dispels 40% infliction rate of Fuddle"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "ingredientFor": [
+   "winter-sky-hat"
+  ]
+ },
+ "bandana": {
+  "id": "bandana",
+  "title": "Bandana",
+  "description": "A bog-standard band to wrap around the bonce.",
+  "statistics": {
+   "defense": 1,
+   "magicalMending": 2,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 45,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "ingredientFor": [
+   "trailblazing-bandana"
+  ]
+ },
+ "battler-s-band": {
+  "id": "battler-s-band",
+  "title": "Battler's Band",
+  "description": "Guarding garb that bedecks the brow of many a gladiator.",
+  "statistics": {
+   "defense": 21,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 4050,
+  "vocations": [
+   "gladiator"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "bianca-s-braid": {
+  "id": "bianca-s-braid",
+  "title": "Bianca's Braid",
+  "description": "An unpretentious plait like that of the boyish yet beautiful Bianca.",
+  "statistics": {
+   "defense": 18,
+   "magicalMight": 7,
+   "magicalMending": 7,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "blessed-helm": {
+  "id": "blessed-helm",
+  "title": "Blessed Helm",
+  "description": "A holy helm hardy against confusion, illusion and poison.",
+  "statistics": {
+   "defense": 44,
+   "special": {
+    "effect": "Dispels 25% infliction rates of Dazzle, Fuddle, and Poison"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "ingredientFor": [
+   "wonder-helm",
+   ",",
+   "heavenly-helm"
+  ]
+ },
+ "borya-s-bouffant": {
+  "id": "borya-s-bouffant",
+  "title": "Borya's Bouffant",
+  "description": "A silvery shock resembling that of the sorcerer Borya.",
+  "statistics": {
+   "defense": 16,
+   "magicalMending": 11,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "brown-afro": {
+  "id": "brown-afro",
+  "title": "Brown Afro",
+  "description": "The biggest style a brunette can bestow upon their bonce.",
+  "statistics": {
+   "defense": 18,
+   "magicalMight": 9,
+   "magicalMending": 6,
+   "special": {}
+  },
+  "rarity": 3,
+  "buyPrice": 7800,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "bunny-ears": {
+  "id": "bunny-ears",
+  "title": "Bunny Ears",
+  "description": "A rabbity requirement for the bona fide bunny girl.",
+  "statistics": {
+   "defense": 10,
+   "magicalMight": 5,
+   "magicalMending": 8,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 1120,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "recipe": {
+   "bunny-tail": 2,
+   "hairband": 1
+  }
+ },
+ "cannock-helm": {
+  "id": "cannock-helm",
+  "title": "Cannock Helm",
+  "description": "Avant-garde goggled nogginwear perfect for the Prince of Cannock.",
+  "statistics": {
+   "defense": 17,
+   "magicalMending": 10,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "canny-cap": {
+  "id": "canny-cap",
+  "title": "Canny Cap",
+  "description": "A nice piece of nogginwear that shows how savvy a sage is.",
+  "statistics": {
+   "defense": 13,
+   "magicalMight": 18,
+   "magicalMending": 18,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 12600,
+  "vocations": [
+   "sage"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "recipe": {
+   "brainy-bracer": 2,
+   "feathered-cap": 1
+  }
+ },
+ "carver-s-hair": {
+  "id": "carver-s-hair",
+  "title": "Carver's Hair",
+  "description": "A manly Mohican mop in Carver's style.",
+  "statistics": {
+   "defense": 22,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "cat-ears": {
+  "id": "cat-ears",
+  "title": "Cat Ears",
+  "description": "An eared headband that makes a full-on feline fashion statement.",
+  "statistics": {
+   "defense": 10,
+   "magicalMight": 8,
+   "magicalMending": 5,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 1150,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "recipe": {
+   "hairband": 1,
+   "kitty-litter": 2
+  },
+  "requiredFor": [
+   "016-help-meowt-here!"
+  ]
+ },
+ "cavalier-hat": {
+  "id": "cavalier-hat",
+  "title": "Cavalier Hat",
+  "description": "A high-class hat aimed squarely at extravagant armamentalists.",
+  "statistics": {
+   "defense": 16,
+   "magicalMight": 21,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 7100,
+  "vocations": [
+   "armamentalist"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "circlet": {
+  "id": "circlet",
+  "title": "Circlet",
+  "description": "An accessory made to make foreheads more fancy.",
+  "statistics": {
+   "defense": 9,
+   "magicalMight": 8,
+   "magicalMending": 6,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 980,
+  "vocations": [
+   "priest",
+   "mage",
+   "minstrel",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "ingredientFor": [
+   "gold-circlet",
+   ",",
+   "malleable-mask"
+  ]
+ },
+ "crown-of-clarity": {
+  "id": "crown-of-clarity",
+  "title": "Crown of Clarity",
+  "description": "A headpiece once worn by a whilom sage.",
+  "statistics": {
+   "defense": 23,
+   "magicalMight": 18,
+   "magicalMending": 18,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "sage"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "recipe": {
+   "mythril-ore": 1,
+   "thinkincense": 5,
+   "thinking-cap": 1
+  }
+ },
+ "debora-s-damasks": {
+  "id": "debora-s-damasks",
+  "title": "Debora's Damasks",
+  "description": "Debora Briscoletti's beloved hair embellishment.",
+  "statistics": {
+   "defense": 20,
+   "magicalMight": 9,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "disturbin--turban": {
+  "id": "disturbin--turban",
+  "title": "Disturbin' Turban",
+  "description": "A shadow-shrouded turban thought highly of by thieves.",
+  "statistics": {
+   "defense": 16,
+   "special": {
+    "effect": "Resists 10% damage from Dark; dispels 25% infliction rate of Poison"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "dragon-warrior-helm": {
+  "id": "dragon-warrior-helm",
+  "title": "Dragon Warrior Helm",
+  "description": "A gift given by Greygnarl as a token of friendship.",
+  "statistics": {
+   "defense": 17,
+   "special": {
+    "effect": "Resists 5% damage from Fire and Dark"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "ear-cosy": {
+  "id": "ear-cosy",
+  "title": "Ear Cosy",
+  "description": "A fluffy trademark of the really committed ranger.",
+  "statistics": {
+   "defense": 16,
+   "special": {
+    "effect": "Resists 10% damage from Ice"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "erdrick-s-helmet": {
+  "id": "erdrick-s-helmet",
+  "title": "Erdrick's Helmet",
+  "description": "A historic helm that harbours the might of a legendary hero.",
+  "statistics": {
+   "defense": 42,
+   "special": {
+    "effect": "Dispels 30% infliction rates of Dazzle, Whack, and Paralysis"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "erinn-s-headkerchief": {
+  "id": "erinn-s-headkerchief",
+  "title": "Erinn's Headkerchief",
+  "description": "The basic bandana Erinn wears to keep her hair under control.",
+  "statistics": {
+   "defense": 7,
+   "magicalMight": 5,
+   "magicalMending": 5,
+   "special": {
+    "effect": "Dispels 30% infliction rate of Stop"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "estard-hood": {
+  "id": "estard-hood",
+  "title": "Estard Hood",
+  "description": "A favourite of fishermen that's particularly popular in Estard.",
+  "statistics": {
+   "defense": 22,
+   "magicalMight": 9,
+   "magicalMending": 13,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "feather-headband": {
+  "id": "feather-headband",
+  "title": "Feather Headband",
+  "description": "A plumed piece of kit most often worn by minstrels.",
+  "statistics": {
+   "defense": 12,
+   "magicalMight": 5,
+   "magicalMending": 5,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 1450,
+  "vocations": [
+   "minstrel"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "recipe": {
+   "flurry-feather": 2,
+   "hairband": 1
+  },
+  "ingredientFor": [
+   "musketeer-hat",
+   "can-be-used-for:",
+   "012-putting-on-the-glitz"
+  ]
+ },
+ "feathered-cap": {
+  "id": "feathered-cap",
+  "title": "Feathered Cap",
+  "description": "A feathery hat that's the height of fashion.",
+  "statistics": {
+   "defense": 7,
+   "magicalMight": 5,
+   "magicalMending": 5,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 620,
+  "vocations": [
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "recipe": {
+   "flurry-feather": 1,
+   "leather-hat": 1
+  },
+  "ingredientFor": [
+   "canny-cap",
+   ",",
+   "musketeer-hat"
+  ]
+ },
+ "filigree-mask": {
+  "id": "filigree-mask",
+  "title": "Filigree Mask",
+  "description": "Protection for the whole head prettified with precious metal.",
+  "statistics": {
+   "defense": 20,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "gladiator",
+   "paladin"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "recipe": {
+   "iron-mask": 1,
+   "silver-platter": 1,
+   "silver-tiara": 1
+  }
+ },
+ "fleurette-s-floret": {
+  "id": "fleurette-s-floret",
+  "title": "Fleurette's Floret",
+  "description": "A black bloom to embellish the hair in Fleurette's fancy style.",
+  "statistics": {
+   "defense": 19,
+   "magicalMending": 10,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "fur-hood": {
+  "id": "fur-hood",
+  "title": "Fur Hood",
+  "description": "A snug skin hood that softens the shock of shivery climes.",
+  "statistics": {
+   "defense": 8,
+   "magicalMight": 3,
+   "magicalMending": 5,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 550,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "recipe": {
+   "lambswool": 1,
+   "leather-hat": 1,
+   "magic-beast-hide": 1
+  },
+  "ingredientFor": [
+   "ear-cosy"
+  ]
+ },
+ "gigasteel-helmet": {
+  "id": "gigasteel-helmet",
+  "title": "Gigasteel Helmet",
+  "description": "A handsome hat made of hard gigasteel.",
+  "statistics": {
+   "defense": 19,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "recipe": {
+   "hephaestus--flame": 1,
+   "iron-ore": 2,
+   "steel-helmet": 1
+  }
+ },
+ "gold-circlet": {
+  "id": "gold-circlet",
+  "title": "Gold Circlet",
+  "description": "An elegant accessory made from an expensive metal.",
+  "statistics": {
+   "defense": 11,
+   "magicalMight": 11,
+   "magicalMending": 9,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "priest",
+   "mage",
+   "minstrel",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "recipe": {
+   "circlet": 1,
+   "gold-bracer": 1,
+   "gold-ring": 1
+  }
+ },
+ "golden-tiara": {
+  "id": "golden-tiara",
+  "title": "Golden Tiara",
+  "description": "Gorgeous golden headgear worn by women.",
+  "statistics": {
+   "defense": 11,
+   "magicalMight": 12,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "recipe": {
+   "gold-bracer": 1,
+   "gold-ring": 1,
+   "silver-tiara": 1
+  }
+ },
+ "gothan-turban": {
+  "id": "gothan-turban",
+  "title": "Gothan Turban",
+  "description": "A no-frills fabric headpiece loved by the long-lost king of Gotha.",
+  "statistics": {
+   "defense": 28,
+   "magicalMight": 8,
+   "magicalMending": 15,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "great-helm": {
+  "id": "great-helm",
+  "title": "Great Helm",
+  "description": "A hat made of a magical metal that's stouter than steel.",
+  "statistics": {
+   "defense": 27,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "gladiator",
+   "paladin"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "recipe": {
+   "hades--helm": 1,
+   "saint-s-ashes": 1
+  }
+ },
+ "hades--helm": {
+  "id": "hades--helm",
+  "title": "Hades' Helm",
+  "description": "A horned hat with a fiendish face that begets misfortune.",
+  "statistics": {
+   "defense": 22,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "gladiator",
+   "paladin"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "recipe": {
+   "great-helm": 1,
+   "malicite": 1
+  }
+ },
+ "hairband": {
+  "id": "hairband",
+  "title": "Hairband",
+  "description": "An appealing accessory worn on the head.",
+  "statistics": {
+   "defense": 2,
+   "magicalMight": 2,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 60,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "ingredientFor": [
+   "bunny-ears",
+   ",",
+   "cat-ears",
+   ",",
+   "feather-headband"
+  ]
+ },
+ "hallowed-helm": {
+  "id": "hallowed-helm",
+  "title": "Hallowed Helm",
+  "description": "A helm offering holy protection against confusion and illusion.",
+  "statistics": {
+   "defense": 40,
+   "special": {
+    "effect": "Dispels 20% infliction rates of Dazzle and Fuddle"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "halo": {
+  "id": "halo",
+  "title": "Halo",
+  "description": "A replica of a radiant ring that reveals a real Celestrian.",
+  "statistics": {
+   "defense": 22,
+   "magicalMight": 8,
+   "magicalMending": 7,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "happy-hat": {
+  "id": "happy-hat",
+  "title": "Happy Hat",
+  "description": "A curious cap that accumulates MP as its wearer wanders about.",
+  "statistics": {
+   "defense": 17,
+   "magicalMight": 15,
+   "magicalMending": 15,
+   "special": {
+    "effect": "Recovers MP while walking about"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "hardwood-headwear": {
+  "id": "hardwood-headwear",
+  "title": "Hardwood headwear",
+  "description": "A humdrum headpiece made from a hollowed out stump.",
+  "statistics": {
+   "defense": 4,
+   "magicalMight": 2,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 370,
+  "vocations": [
+   "warrior",
+   "priest",
+   "thief",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "heavenly-helm": {
+  "id": "heavenly-helm",
+  "title": "Heavenly Helm",
+  "description": "A godly guard against confusion, illusion, poison and death.",
+  "statistics": {
+   "defense": 50,
+   "special": {
+    "effect": "Dispels 35% infliction rates of Dazzle, Fuddle, Poison, and Whack"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "hermetic-hat": {
+  "id": "hermetic-hat",
+  "title": "Hermetic Hat",
+  "description": "Holy headwear that all but halts the effects of death magic.",
+  "statistics": {
+   "defense": 14,
+   "magicalMending": 22,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 4000,
+  "vocations": [
+   "priest"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "hocus-hat": {
+  "id": "hocus-hat",
+  "title": "Hocus Hat",
+  "description": "An enigmatic extra of which enchanters are often enamoured.",
+  "statistics": {
+   "defense": 12,
+   "magicalMight": 18,
+   "special": {
+    "effect": "Dispels 25% infliction rate of Fizzle"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "holy-hat": {
+  "id": "holy-hat",
+  "title": "Holy Hat",
+  "description": "Holy headwear that hinders the effects of death magic.",
+  "statistics": {
+   "defense": 11,
+   "magicalMending": 18,
+   "special": {
+    "effect": "Dispels 25% infliction rate of Whack"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "hunter-s-hat": {
+  "id": "hunter-s-hat",
+  "title": "Hunter's Hat",
+  "description": "Red-blooded rigging worn by rangers on the hunt.",
+  "statistics": {
+   "defense": 15,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 2200,
+  "vocations": [
+   "ranger"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "recipe": {
+   "lambswool": 1,
+   "magic-beast-hide": 1,
+   "pointy-hat": 1
+  },
+  "ingredientFor": [
+   "hotshot-bow"
+  ]
+ },
+ "iron-helmet": {
+  "id": "iron-helmet",
+  "title": "Iron Helmet",
+  "description": "A humble hat made of iron.",
+  "statistics": {
+   "defense": 11,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 1100,
+  "vocations": [
+   "warrior",
+   "priest",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "iron-mask": {
+  "id": "iron-mask",
+  "title": "Iron Mask",
+  "description": "A complete metal covering for the cranium.",
+  "statistics": {
+   "defense": 14,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 2100,
+  "vocations": [
+   "warrior",
+   "gladiator",
+   "paladin"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "ingredientFor": [
+   "filigree-mask",
+   ",",
+   "platinum-headgear"
+  ]
+ },
+ "jess-s-tresses": {
+  "id": "jess-s-tresses",
+  "title": "Jess's Tresses",
+  "description": "A twin ponytail that Jessica touts as being terrific for travelling.",
+  "statistics": {
+   "defense": 21,
+   "magicalMight": 11,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "kiefer-s-hair": {
+  "id": "kiefer-s-hair",
+  "title": "Kiefer's Hair",
+  "description": "Prince Kiefer's raucous, roguish hairdo.",
+  "statistics": {
+   "defense": 23,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "kiryl-s-kamilavka": {
+  "id": "kiryl-s-kamilavka",
+  "title": "Kiryl's Kamilavka",
+  "description": "A tall bonce embellishment that belonged to Bishop Kiryl.",
+  "statistics": {
+   "defense": 17,
+   "magicalMending": 12,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "leather-hat": {
+  "id": "leather-hat",
+  "title": "Leather Hat",
+  "description": "A highly ordinary headpiece of hardened hide.",
+  "statistics": {
+   "defense": 3,
+   "magicalMending": 2,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 65,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "liquid-metal-helm": {
+  "id": "liquid-metal-helm",
+  "title": "Liquid Metal Helm",
+  "description": "Priceless protection packed with the power of liquid metal slimes.",
+  "statistics": {
+   "defense": 37,
+   "special": {
+    "effect": "Dispels 20% infliction rates of Snooze, Whack, and Fizzle"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "ingredientFor": [
+   "metal-king-helm"
+  ]
+ },
+ "magical-hat": {
+  "id": "magical-hat",
+  "title": "Magical Hat",
+  "description": "A hat that heightens its wearer's magical might.",
+  "statistics": {
+   "defense": 13,
+   "magicalMight": 16,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 6400,
+  "vocations": [
+   "priest",
+   "mage",
+   "minstrel",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "ingredientFor": [
+   "mega-magical-hat"
+  ]
+ },
+ "maid-s-mop": {
+  "id": "maid-s-mop",
+  "title": "Maid's Mop",
+  "description": "A hairband that no maid could manage without.",
+  "statistics": {
+   "defense": 20,
+   "magicalMight": 4,
+   "magicalMending": 6,
+   "special": {}
+  },
+  "rarity": 3,
+  "buyPrice": 18000,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "mail-coif": {
+  "id": "mail-coif",
+  "title": "Mail Coif",
+  "description": "A heavy hood made from interlaced iron loops.",
+  "statistics": {
+   "defense": 20,
+   "magicalMending": 4,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 4500,
+  "vocations": [
+   "paladin"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "ingredientFor": [
+   "mythril-coif"
+  ]
+ },
+ "malleable-mask": {
+  "id": "malleable-mask",
+  "title": "Malleable Mask",
+  "description": "A flamboyant facemask that protects against paralysis attacks.",
+  "statistics": {
+   "defense": 13,
+   "magicalMight": 8,
+   "magicalMending": 6,
+   "special": {
+    "effect": "Dispels 25% infliction rate of Paralysis"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "ingredientFor": [
+   "papillon-mask"
+  ]
+ },
+ "maribel-s-hood": {
+  "id": "maribel-s-hood",
+  "title": "Maribel's Hood",
+  "description": "A cute cowl carrying Maribel's bona fide signature.",
+  "statistics": {
+   "defense": 20,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "maya-s-mane": {
+  "id": "maya-s-mane",
+  "title": "Maya's Mane",
+  "description": "A hairdo that harks back to that of the dazzling dancer Maya.",
+  "statistics": {
+   "defense": 17,
+   "magicalMight": 10,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "meena-s-mane": {
+  "id": "meena-s-mane",
+  "title": "Meena's Mane",
+  "description": "Long, lavish hairdo modelled on that of Meena the mystic.",
+  "statistics": {
+   "defense": 17,
+   "magicalMending": 10,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "mega-magical-hat": {
+  "id": "mega-magical-hat",
+  "title": "Mega-Magical Hat",
+  "description": "A mysterious hat that meets the requirements of magic users.",
+  "statistics": {
+   "defense": 15,
+   "magicalMight": 20,
+   "special": {}
+  },
+  "vocations": [
+   "priest",
+   "mage",
+   "minstrel",
+   "armamentalist"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "recipe": {
+   "magical-hat": 1,
+   "prayer-ring": 2,
+   "sorcerer-s-stone": 1
+  }
+ },
+ "mercury-s-bandana": {
+  "id": "mercury-s-bandana",
+  "title": "Mercury's Bandana",
+  "description": "Enchanted attire for the head that enhances its wearer's agility.",
+  "statistics": {
+   "defense": 11,
+   "agility": 20,
+   "magicalMending": 8,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "recipe": {
+   "agility-ring": 1,
+   "trailblazing-bandana": 1
+  },
+  "ingredientFor": [
+   "ballistick",
+   ",",
+   "matador-s-gloves"
+  ]
+ },
+ "metal-king-helm": {
+  "id": "metal-king-helm",
+  "title": "Metal King Helm",
+  "description": "High-class headgear in which sits the soul of a metal king slime.",
+  "statistics": {
+   "defense": 41,
+   "special": {
+    "effect": "Dispels 25% infliction rates of Snooze, Whack, and Fizzle"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "metal-slime-helm": {
+  "id": "metal-slime-helm",
+  "title": "Metal Slime Helm",
+  "description": "A handy helmet that harbours the hardiness of metal slimes.",
+  "statistics": {
+   "defense": 33,
+   "special": {
+    "effect": "Dispels 15% infliction rates of Snooze, Whack, and Fizzle"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "ingredientFor": [
+   "liquid-metal-helm"
+  ]
+ },
+ "midenhall-helm": {
+  "id": "midenhall-helm",
+  "title": "Midenhall Helm",
+  "description": "A helmet undeniably hailing from His Majesty of Midenhall.",
+  "statistics": {
+   "defense": 33,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "milly-s-hair": {
+  "id": "milly-s-hair",
+  "title": "Milly's Hair",
+  "description": "Long blond locks like those worn by Milly.",
+  "statistics": {
+   "defense": 19,
+   "magicalMending": 10,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "minerva-s-mitre": {
+  "id": "minerva-s-mitre",
+  "title": "Minerva's Mitre",
+  "description": "A certain symbol of the supreme savvy of a sage.",
+  "statistics": {
+   "defense": 14,
+   "magicalMight": 20,
+   "magicalMending": 20,
+   "special": {
+    "effect": "Dispels 35% infliction rate of Whack"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "minotaur-helm": {
+  "id": "minotaur-helm",
+  "title": "Minotaur Helm",
+  "description": "Hardcore horned headgear for the real wild card.",
+  "statistics": {
+   "defense": 30,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "thief",
+   "gladiator",
+   "ranger"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "recipe": {
+   "magic-beast-horn": 4,
+   "mighty-armlet": 1,
+   "raging-bull-helm": 1
+  }
+ },
+ "mitre": {
+  "id": "mitre",
+  "title": "Mitre",
+  "description": "A holy hat that perched on the head of a priest from the past.",
+  "statistics": {
+   "defense": 16,
+   "magicalMending": 25,
+   "special": {
+    "effect": "Dispels 25% infliction rate of Whack"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "monarchic-moustache": {
+  "id": "monarchic-moustache",
+  "title": "Monarchic Moustache",
+  "description": "Stick this on and you'll seem like some kind of revered royal…probably.",
+  "statistics": {
+   "defense": 10,
+   "magicalMight": 7,
+   "magicalMending": 7,
+   "special": {}
+  },
+  "rarity": 3,
+  "buyPrice": 15000,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "moonbrooke-hood": {
+  "id": "moonbrooke-hood",
+  "title": "Moonbrooke Hood",
+  "description": "A classy cowl popularised by a princess of Moonbrooke.",
+  "statistics": {
+   "defense": 15,
+   "magicalMight": 12,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "morrie-s-mullet": {
+  "id": "morrie-s-mullet",
+  "title": "Morrie's Mullet",
+  "description": "A barber-baffling head of hair modelled in Morrie-esque style.",
+  "statistics": {
+   "defense": 18,
+   "magicalMight": 6,
+   "magicalMending": 6,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "musketeer-hat": {
+  "id": "musketeer-hat",
+  "title": "Musketeer Hat",
+  "description": "A posh piece of plumed headgear put on by armamentalists.",
+  "statistics": {
+   "defense": 12,
+   "magicalMight": 18,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 4200,
+  "vocations": [
+   "armamentalist"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "recipe": {
+   "feather-headband": 1,
+   "feathered-cap": 1,
+   "magic-beast-hide": 3
+  }
+ },
+ "mythril-coif": {
+  "id": "mythril-coif",
+  "title": "Mythril Coif",
+  "description": "A hardy hood made from interlaced loops of the mighty metal mythril.",
+  "statistics": {
+   "defense": 23,
+   "magicalMending": 8,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "paladin"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "recipe": {
+   "mail-coif": 1,
+   "mythril-ore": 2
+  }
+ },
+ "mythril-helm": {
+  "id": "mythril-helm",
+  "title": "Mythril Helm",
+  "description": "An eye-catching cap made from the mighty metal mythril.",
+  "statistics": {
+   "defense": 25,
+   "special": {}
+  },
+  "rarity": 2,
+  "buyPrice": 16800,
+  "vocations": [
+   "warrior",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "recipe": {
+   "mythril-ore": 3,
+   "platinum-headgear": 1
+  }
+ },
+ "nera-s-hair": {
+  "id": "nera-s-hair",
+  "title": "Nera's Hair",
+  "description": "Beautiful, long blue hair like that of Nera Briscoletti.",
+  "statistics": {
+   "defense": 18,
+   "magicalMending": 9,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "papillon-mask": {
+  "id": "papillon-mask",
+  "title": "Papillon Mask",
+  "description": "A fantastic facemask that fends off paralysis attacks.",
+  "statistics": {
+   "defense": 17,
+   "magicalMight": 12,
+   "magicalMending": 8,
+   "special": {
+    "effect": "Dispels 30% infliction rate of Paralysis"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "ingredientFor": [
+   "phantom-mask",
+   "required-for:",
+   "020-a-masky-task"
+  ]
+ },
+ "phantom-mask": {
+  "id": "phantom-mask",
+  "title": "Phantom Mask",
+  "description": "A magical mask that musters aplomb and agility in its master.",
+  "statistics": {
+   "defense": 20,
+   "agility": 25,
+   "magicalMight": 16,
+   "magicalMending": 14,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "recipe": {
+   "dark-robe": 1,
+   "papillon-mask": 1,
+   "slipweed": 3
+  }
+ },
+ "platinum-headgear": {
+  "id": "platinum-headgear",
+  "title": "Platinum Headgear",
+  "description": "A pretty piece of protection for the head made from platinum.",
+  "statistics": {
+   "defense": 19,
+   "special": {}
+  },
+  "rarity": 2,
+  "buyPrice": 5500,
+  "vocations": [
+   "warrior",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "recipe": {
+   "hephaestus--flame": 1,
+   "iron-mask": 1,
+   "platinum-ore": 1
+  }
+ },
+ "pointy-hat": {
+  "id": "pointy-hat",
+  "title": "Pointy Hat",
+  "description": "A tiny topper with a tapered tip.",
+  "statistics": {
+   "defense": 9,
+   "magicalMight": 6,
+   "magicalMending": 4,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 840,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "recipe": {
+   "leather-hat": 1,
+   "magic-beast-horn": 1
+  }
+ },
+ "proper-topper": {
+  "id": "proper-topper",
+  "title": "Proper Topper",
+  "description": "A classy black hat that fulfils the requirements of formal dress.",
+  "statistics": {
+   "defense": 22,
+   "magicalMending": 12,
+   "special": {}
+  },
+  "rarity": 3,
+  "buyPrice": 20000,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "pumpkin-head": {
+  "id": "pumpkin-head",
+  "title": "Pumpkin Head",
+  "description": "Want to look just like a jack o' lantern? Well, look no further!",
+  "statistics": {
+   "defense": 21,
+   "magicalMight": 14,
+   "special": {}
+  },
+  "rarity": 3,
+  "buyPrice": 9000,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "raging-bull-helm": {
+  "id": "raging-bull-helm",
+  "title": "Raging Bull Helm",
+  "description": "Horned headgear for the wild at heart.",
+  "statistics": {
+   "defense": 22,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 10400,
+  "vocations": [
+   "warrior",
+   "thief",
+   "gladiator",
+   "ranger"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "recipe": {
+   "gigasteel-helmet": 1,
+   "magic-beast-horn": 2,
+   "tough-guy-tattoo": 1
+  }
+ },
+ "ragnar-s-helm": {
+  "id": "ragnar-s-helm",
+  "title": "Ragnar's Helm",
+  "description": "Plucky poll protection made use of by McRyan.",
+  "statistics": {
+   "defense": 24,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "ravishing-ribbon": {
+  "id": "ravishing-ribbon",
+  "title": "Ravishing Ribbon",
+  "description": "Pretty paraphernalia that's part of every luminary's allure.",
+  "statistics": {
+   "defense": 18,
+   "magicalMight": 14,
+   "magicalMending": 16,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 11500,
+  "vocations": [
+   "luminary-(female-only)"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "red-afro": {
+  "id": "red-afro",
+  "title": "Red Afro",
+  "description": "The raddest style a redhead can bestow upon their bonce.",
+  "statistics": {
+   "defense": 18,
+   "magicalMight": 6,
+   "magicalMending": 9,
+   "special": {}
+  },
+  "rarity": 3,
+  "buyPrice": 6000,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "rusty-helmet": {
+  "id": "rusty-helmet",
+  "title": "Rusty Helmet",
+  "description": "A poorly preserved headpiece that precious little is known about.",
+  "statistics": {
+   "defense": 21,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "ingredientFor": [
+   "erdrick-s-helmet"
+  ]
+ },
+ "santa-s-hat": {
+  "id": "santa-s-hat",
+  "title": "Santa's Hat",
+  "description": "The bright red hat that Santa Claus adores.",
+  "statistics": {
+   "defense": 25,
+   "magicalMight": 7,
+   "magicalMending": 8,
+   "special": {}
+  },
+  "rarity": 3,
+  "buyPrice": 12000,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "scholar-s-circlet": {
+  "id": "scholar-s-circlet",
+  "title": "Scholar's Circlet",
+  "description": "High-brow headgear that heavily heightens its wearer's magical might.",
+  "statistics": {
+   "defense": 20,
+   "magicalMight": 16,
+   "magicalMending": 16,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "recipe": {
+   "brainy-bracer": 1,
+   "sage-s-elixir": 1,
+   "thinking-cap": 1
+  }
+ },
+ "sharp-shades": {
+  "id": "sharp-shades",
+  "title": "Sharp Shades",
+  "description": "Radical wrap-arounds worn by self-proclaimed kings of cool.",
+  "statistics": {
+   "defense": 15,
+   "magicalMight": 20,
+   "special": {}
+  },
+  "rarity": 3,
+  "buyPrice": 8000,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "silken-veil": {
+  "id": "silken-veil",
+  "title": "Silken Veil",
+  "description": "The piece that takes pride of place atop the bridal mop.",
+  "statistics": {
+   "defense": 19,
+   "magicalMending": 15,
+   "special": {}
+  },
+  "rarity": 3,
+  "buyPrice": 30000,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "silver-specs": {
+  "id": "silver-specs",
+  "title": "Silver Specs",
+  "description": "Geeky glasses that give off an air of intelligent appeal.",
+  "statistics": {
+   "defense": 14,
+   "magicalMight": 18,
+   "magicalMending": 18,
+   "special": {}
+  },
+  "rarity": 3,
+  "buyPrice": 5000,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "silver-tiara": {
+  "id": "silver-tiara",
+  "title": "Silver Tiara",
+  "description": "A lavishly crafted adornment for ladies' locks.",
+  "statistics": {
+   "defense": 6,
+   "magicalMight": 8,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "ingredientFor": [
+   "filigree-mask",
+   ",",
+   "golden-tiara"
+  ]
+ },
+ "skull-cap": {
+  "id": "skull-cap",
+  "title": "Skull Cap",
+  "description": "A super-realistic skull mask that will scare everyone silly!",
+  "statistics": {
+   "defense": 20,
+   "magicalMight": 5,
+   "magicalMending": 5,
+   "special": {}
+  },
+  "rarity": 3,
+  "buyPrice": 12000,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "skull-helm": {
+  "id": "skull-helm",
+  "title": "Skull Helm",
+  "description": "A blood-curdling cap for the cranium that curses the curious.",
+  "statistics": {
+   "defense": 32,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "priest",
+   "thief",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "recipe": {
+   "apollo-s-crown": 1,
+   "malicite": 1
+  }
+ },
+ "slime-crown": {
+  "id": "slime-crown",
+  "title": "Slime Crown",
+  "description": "A crown worn by a king slime.",
+  "statistics": {
+   "defense": 13,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "canBeUsedFor": [
+   "012-putting-on-the-glitz"
+  ]
+ },
+ "slood": {
+  "id": "slood",
+  "title": "Slood",
+  "description": "A cute cover for the head with a slimy slant.",
+  "statistics": {
+   "defense": 13,
+   "magicalMight": 8,
+   "magicalMending": 8,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "recipe": {
+   "pointy-hat": 1,
+   "slimedrop": 3
+  }
+ },
+ "somnia-hair": {
+  "id": "somnia-hair",
+  "title": "Somnia Hair",
+  "description": "A handsome hairdo that harks back to that of the Prince of Somnia.",
+  "statistics": {
+   "defense": 23,
+   "magicalMight": 12,
+   "magicalMending": 12,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "spellward-circlet": {
+  "id": "spellward-circlet",
+  "title": "Spellward Circlet",
+  "description": "A holy headpiece that hinders the effects of harmful spells.",
+  "statistics": {
+   "defense": 19,
+   "magicalMight": 19,
+   "magicalMending": 19,
+   "special": {
+    "effect": "Dispels 25% infliction rate of Snooze, Whack, Fuddle, and Fizzle"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "ingredientFor": [
+   "empress-s-robe"
+  ]
+ },
+ "spring-breeze-hat": {
+  "id": "spring-breeze-hat",
+  "title": "Spring Breeze Hat",
+  "description": "An odd ornament for the head that obstructs Dazzle magic.",
+  "statistics": {
+   "defense": 22,
+   "magicalMight": 16,
+   "magicalMending": 31,
+   "special": {
+    "effect": "Dispels 40% infliction rate of Dazzle"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "star-circlet": {
+  "id": "star-circlet",
+  "title": "Star Circlet",
+  "description": "A confusion-confounding accoutrement that sparkles with starlight.",
+  "statistics": {
+   "defense": 13,
+   "magicalMight": 14,
+   "magicalMending": 12,
+   "special": {
+    "effect": "Dispels 25% infliction rate of Fuddle"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "steel-helmet": {
+  "id": "steel-helmet",
+  "title": "Steel Helmet",
+  "description": "A hardy hat made of steel.",
+  "statistics": {
+   "defense": 15,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "recipe": {
+   "iron-helmet": 1,
+   "iron-ore": 1,
+   "royal-soil": 1
+  }
+ },
+ "steely-sweatband": {
+  "id": "steely-sweatband",
+  "title": "Steely Sweatband",
+  "description": "A headband for martial artists strengthened with strands of steel.",
+  "statistics": {
+   "defense": 21,
+   "special": {
+    "effect": "Dispels 40% infliction rate of Blunt"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "stellar-starflower": {
+  "id": "stellar-starflower",
+  "title": "Stellar Starflower",
+  "description": "A flowery frill for furnishing the hair in Stella's style.",
+  "statistics": {
+   "defense": 23,
+   "magicalMight": 8,
+   "magicalMending": 8,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "summer-cloud-hat": {
+  "id": "summer-cloud-hat",
+  "title": "Summer Cloud Hat",
+  "description": "An odd ornament for the head that obstructs death magic.",
+  "statistics": {
+   "defense": 23,
+   "magicalMight": 20,
+   "magicalMending": 26,
+   "special": {
+    "effect": "Dispels 40% infliction rate of Whack"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "ingredientFor": [
+   "autumn-shower-hat"
+  ]
+ },
+ "sun-crown": {
+  "id": "sun-crown",
+  "title": "Sun Crown",
+  "description": "A classy coronet that beats bouts of sleep and confusion.",
+  "statistics": {
+   "defense": 32,
+   "special": {
+    "effect": "Dispels 30% infliction rates of Snooze and Fuddle"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "ingredientFor": [
+   "apollo-s-crown"
+  ]
+ },
+ "supernatural-specs": {
+  "id": "supernatural-specs",
+  "title": "Supernatural Specs",
+  "description": "Enchanted eyewear that enhances magical might a bit.",
+  "statistics": {
+   "defense": 13,
+   "magicalMight": 12,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "swashbuckler-s-bonnet": {
+  "id": "swashbuckler-s-bonnet",
+  "title": "Swashbuckler's Bonnet",
+  "description": "The piratical hat worn by well-known seafarers the world over.",
+  "statistics": {
+   "defense": 23,
+   "magicalMight": 10,
+   "magicalMending": 8,
+   "special": {}
+  },
+  "rarity": 3,
+  "buyPrice": 30000,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "templar-s-tresses": {
+  "id": "templar-s-tresses",
+  "title": "Templar's Tresses",
+  "description": "Angelo's painstakingly preened handsome haircut.",
+  "statistics": {
+   "defense": 21,
+   "magicalMending": 11,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "thief-s-turban": {
+  "id": "thief-s-turban",
+  "title": "Thief's Turban",
+  "description": "A length of fabric that thieves like to loop around their heads.",
+  "statistics": {
+   "defense": 13,
+   "special": {
+    "effect": "Dispels 25% infliction rate of Poison"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "thinking-cap": {
+  "id": "thinking-cap",
+  "title": "Thinking Cap",
+  "description": "A hat that heightens its wearer's magical might.",
+  "statistics": {
+   "defense": 18,
+   "magicalMight": 12,
+   "magicalMending": 12,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 12500,
+  "vocations": [
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "recipe": {
+   "gold-circlet": 1,
+   "sorcerer-s-stone": 3,
+   "steel-helmet": 1
+  }
+ },
+ "thug-s-mug": {
+  "id": "thug-s-mug",
+  "title": "Thug's Mug",
+  "description": "A horny head covering that thugs thrive in.",
+  "statistics": {
+   "defense": 20,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "tip-top-topper": {
+  "id": "tip-top-topper",
+  "title": "Tip-Top Topper",
+  "description": "A bright white hat that fulfils the requirements of formal dress.",
+  "statistics": {
+   "defense": 22,
+   "magicalMending": 12,
+   "special": {}
+  },
+  "rarity": 3,
+  "buyPrice": 20000,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "top-hat": {
+  "id": "top-hat",
+  "title": "Top Hat",
+  "description": "The telltale trappings of a luminary.",
+  "statistics": {
+   "defense": 18,
+   "magicalMight": 15,
+   "magicalMending": 15,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 12000,
+  "vocations": [
+   "luminary-(male-only)"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "torneko-s-cap": {
+  "id": "torneko-s-cap",
+  "title": "Torneko's Cap",
+  "description": "A small-scale skullcap signed inside by Torneko Taloon.",
+  "statistics": {
+   "defense": 17,
+   "magicalMending": 10,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "trailblazing-bandana": {
+  "id": "trailblazing-bandana",
+  "title": "Trailblazing Bandana",
+  "description": "An understated skull wrap that subtly shines.",
+  "statistics": {
+   "defense": 7,
+   "magicalMending": 5,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "recipe": {
+   "bandana": 1,
+   "bow-tie": 1
+  }
+ },
+ "tricky-turban": {
+  "id": "tricky-turban",
+  "title": "Tricky Turban",
+  "description": "A remarkable wrap that's made for mages.",
+  "statistics": {
+   "defense": 11,
+   "magicalMight": 18,
+   "special": {
+    "effect": "Resists 25% MP Absorption"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "trodain-bandana": {
+  "id": "trodain-bandana",
+  "title": "Trodain Bandana",
+  "description": "A cloth head-covering worn by a warrior of Trodain.",
+  "statistics": {
+   "defense": 26,
+   "magicalMight": 15,
+   "magicalMending": 8,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "trodeface": {
+  "id": "trodeface",
+  "title": "Trodeface",
+  "description": "A fancy-dress facemask featuring King Trode's famous phiz.",
+  "statistics": {
+   "defense": 23,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "turban": {
+  "id": "turban",
+  "title": "Turban",
+  "description": "A lengthy cloth wrap that keeps the conk cosy and safe.",
+  "statistics": {
+   "defense": 7,
+   "magicalMight": 3,
+   "magicalMending": 3,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 310,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "unhappy-hat": {
+  "id": "unhappy-hat",
+  "title": "Unhappy Hat",
+  "description": "A perplexingly pitiful piece of headgear.",
+  "statistics": {
+   "defense": 17,
+   "magicalMight": 12,
+   "magicalMending": 12,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "priest",
+   "mage",
+   "thief",
+   "minstrel",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "veteran-s-helm": {
+  "id": "veteran-s-helm",
+  "title": "Veteran's Helm",
+  "description": "A skull-saver sported by bygone battlers.",
+  "statistics": {
+   "defense": 28,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "warrior"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "warrior-s-helm": {
+  "id": "warrior-s-helm",
+  "title": "Warrior's Helm",
+  "description": "A sturdy protective skin for the skull mostly worn by warriors.",
+  "statistics": {
+   "defense": 18,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 3000,
+  "vocations": [
+   "warriors"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "ingredientFor": [
+   "warrior-s-sword"
+  ]
+ },
+ "winter-sky-hat": {
+  "id": "winter-sky-hat",
+  "title": "Winter Sky Hat",
+  "description": "An odd ornament for the head that obstructs sleep-inducing magic.",
+  "statistics": {
+   "defense": 25,
+   "magicalMight": 30,
+   "magicalMending": 14,
+   "special": {
+    "effect": "Dispels 40% infliction rate of Snooze"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head",
+  "ingredientFor": [
+   "spring-breeze-hat"
+  ]
+ },
+ "witch-s-hat": {
+  "id": "witch-s-hat",
+  "title": "Witch's Hat",
+  "description": "A hat sported by a sorceress of centuries past.",
+  "statistics": {
+   "defense": 16,
+   "magicalMight": 24,
+   "special": {
+    "effect": "Dispels 25% infliction rate of Fizzle"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "wizard-s-hat": {
+  "id": "wizard-s-hat",
+  "title": "Wizard's Hat",
+  "description": "A hat once worn by a whilom wizard.",
+  "statistics": {
+   "defense": 16,
+   "magicalMight": 25,
+   "special": {
+    "effect": "Resists 25% MP Absorption"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "wonder-helm": {
+  "id": "wonder-helm",
+  "title": "Wonder Helm",
+  "description": "A holy helm that holds off confusion, illusion and poison.",
+  "statistics": {
+   "defense": 47,
+   "special": {
+    "effect": "Dispels 30% infliction rates of Dazzle, Fuddle, and Poison"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "x-ray-specs": {
+  "id": "x-ray-specs",
+  "title": "X-Ray Specs",
+  "description": "Enchanted eyewear that enhances magical mending a bit.",
+  "statistics": {
+   "defense": 13,
+   "magicalMending": 12,
+   "special": {}
+  },
+  "rarity": 2,
+  "buyPrice": 3400,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "yangus-s-titfer": {
+  "id": "yangus-s-titfer",
+  "title": "Yangus's Titfer",
+  "description": "A spiky skullcap scented with the sweet smell of Yangus's sweat.",
+  "statistics": {
+   "defense": 24,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ },
+ "zenithian-helm": {
+  "id": "zenithian-helm",
+  "title": "Zenithian Helm",
+  "description": "A hip helmet that a Zenithian hero would happily have on.",
+  "statistics": {
+   "defense": 31,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "head"
+ }
+}

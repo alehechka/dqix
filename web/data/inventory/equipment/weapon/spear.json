@@ -1,0 +1,423 @@
+{
+ "bamboo-lance": {
+  "id": "bamboo-lance",
+  "title": "Bamboo Lance",
+  "description": "A simple spear fashioned from fresh bamboo.",
+  "statistics": {
+   "agility": 6,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 85,
+  "vocations": [
+   "warrior",
+   "priest",
+   "paladin"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "spear"
+ },
+ "battle-fork": {
+  "id": "battle-fork",
+  "title": "Battle Fork",
+  "description": "A fair-sized fork that makes short work of aquatic enemies.",
+  "statistics": {
+   "agility": 45,
+   "special": {
+    "effect": "Deals 1.20x damage to Aquatic family"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "spear",
+  "ingredientFor": [
+   "trident"
+  ]
+ },
+ "celestial-spear": {
+  "id": "celestial-spear",
+  "title": "Celestial Spear",
+  "description": "A super-sized spear suffused with a sacred light that zaps zombies.",
+  "statistics": {
+   "agility": 70,
+   "special": {
+    "effect": "Deals 1.20x damage to Zombie family"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "spear",
+  "ingredientFor": [
+   "lightning-lance",
+   ",",
+   "demon-spear",
+   "can-be-used-for:",
+   "012-putting-on-the-glitz"
+  ]
+ },
+ "demon-spear": {
+  "id": "demon-spear",
+  "title": "Demon Spear",
+  "description": "A spear that can floor a foe with a single well-sighted strike.",
+  "statistics": {
+   "agility": 93,
+   "special": {
+    "effect": "Chance to inflict instant death"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "spear"
+ },
+ "gigasteel-lance": {
+  "id": "gigasteel-lance",
+  "title": "Gigasteel Lance",
+  "description": "A souped-up steel lance with superior penetrative potential.",
+  "statistics": {
+   "agility": 50,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "paladin"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "spear",
+  "recipe": {
+   "hephaestus--flame": 1,
+   "iron-ore": 2,
+   "steel-lance": 1
+  }
+ },
+ "gracos-s-trident": {
+  "id": "gracos-s-trident",
+  "title": "Gracos's Trident",
+  "description": "A spear said to once have been used by an emperor of the ocean.",
+  "statistics": {
+   "agility": 88,
+   "special": {
+    "effect": "Deals 1.20x damage to Aquatic family"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "spear"
+ },
+ "halberd": {
+  "id": "halberd",
+  "title": "Halberd",
+  "description": "A whopper of a weapon with elements of both a spear and a battle-axe.",
+  "statistics": {
+   "agility": 75,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 11200,
+  "vocations": [
+   "warrior",
+   "priest",
+   "paladin"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "spear",
+  "recipe": {
+   "battle-axe": 1,
+   "partisan": 1
+  }
+ },
+ "hero-spear": {
+  "id": "hero-spear",
+  "title": "Hero Spear",
+  "description": "A spear that serves to restore its bearer's HP with every strike.",
+  "statistics": {
+   "agility": 107,
+   "special": {
+    "effect": "Returns 25% of damage dealt as HP"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "spear"
+ },
+ "holy-lance": {
+  "id": "holy-lance",
+  "title": "Holy Lance",
+  "description": "A holy lance blessed by the Almighty that zealously zaps zombies.",
+  "statistics": {
+   "agility": 39,
+   "special": {
+    "effect": "Deals 1.20x damage to Zombie family"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "spear"
+ },
+ "iron-lance": {
+  "id": "iron-lance",
+  "title": "Iron Lance",
+  "description": "A spear made of iron for everyday action.",
+  "statistics": {
+   "agility": 17,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 450,
+  "vocations": [
+   "warrior",
+   "priest",
+   "paladin"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "spear"
+ },
+ "lightning-lance": {
+  "id": "lightning-lance",
+  "title": "Lightning Lance",
+  "description": "A magical spear within which lingers the power of lightning.",
+  "statistics": {
+   "agility": 85,
+   "special": {
+    "effect": "Deals Lightning-elemental damage"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "spear",
+  "ingredientFor": [
+   "storm-spear"
+  ]
+ },
+ "liquid-metal-spear": {
+  "id": "liquid-metal-spear",
+  "title": "Liquid Metal Spear",
+  "description": "A supreme spear packed with the power of liquid metal slimes.",
+  "statistics": {
+   "agility": 125,
+   "special": {
+    "effect": "Deals +1 damage to metal enemies"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "spear",
+  "ingredientFor": [
+   "metal-king-spear"
+  ]
+ },
+ "long-spear": {
+  "id": "long-spear",
+  "title": "Long Spear",
+  "description": "A long and leaden javelin.",
+  "statistics": {
+   "agility": 29,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 1400,
+  "vocations": [
+   "warrior",
+   "priest",
+   "paladin"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "spear"
+ },
+ "metal-king-spear": {
+  "id": "metal-king-spear",
+  "title": "Metal King Spear",
+  "description": "A supreme spear packed with the power of metal king slimes.",
+  "statistics": {
+   "agility": 136,
+   "special": {
+    "effect": "Deals +1 damage to metal enemies"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "spear"
+ },
+ "metal-slime-spear": {
+  "id": "metal-slime-spear",
+  "title": "Metal Slime Spear",
+  "description": "A supreme spear packed with the power of metal slimes.",
+  "statistics": {
+   "agility": 115,
+   "special": {
+    "effect": "Deals +1 damage to metal enemies"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "spear"
+ },
+ "partisan": {
+  "id": "partisan",
+  "title": "Partisan",
+  "description": "A sizeable spear with blades stemming from the sides of the spike.",
+  "statistics": {
+   "agility": 61,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 7100,
+  "vocations": [
+   "warrior",
+   "priest",
+   "paladin"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "spear"
+ },
+ "poker": {
+  "id": "poker",
+  "title": "Poker",
+  "description": "A lavish lance that can shoot through any shield.",
+  "statistics": {
+   "agility": 144,
+   "special": {
+    "effect": "Normal attacks cannot be blocked"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "spear",
+  "ingredientFor": [
+   "stud-poker"
+  ]
+ },
+ "red-hot-poker": {
+  "id": "red-hot-poker",
+  "title": "Red-Hot Poker",
+  "description": "An unrivalled lance that can shoot through any shield.",
+  "statistics": {
+   "agility": 176,
+   "special": {
+    "effect": "Normal attacks cannot be blocked"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "spear"
+ },
+ "sandstorm-spear": {
+  "id": "sandstorm-spear",
+  "title": "Sandstorm Spear",
+  "description": "A spear that sends sand to blind baddies if used as an item in battle.",
+  "statistics": {
+   "agility": 54,
+   "special": {
+    "usage": "Dazzle"
+   }
+  },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "paladin"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "spear",
+  "recipe": {
+   "glass-frit": 2,
+   "holy-lance": 1,
+   "kitty-litter": 2
+  },
+  "ingredientFor": [
+   "sober-ring"
+  ]
+ },
+ "split-pot-poker": {
+  "id": "split-pot-poker",
+  "title": "Split-Pot Poker",
+  "description": "A lethal lance that can shoot through any shield.",
+  "statistics": {
+   "agility": 166,
+   "special": {
+    "effect": "Normal attacks cannot be blocked"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "spear"
+ },
+ "steel-lance": {
+  "id": "steel-lance",
+  "title": "Steel Lance",
+  "description": "A basic spear with a steel spike.",
+  "statistics": {
+   "agility": 33,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "paladin"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "spear",
+  "recipe": {
+   "iron-lance": 1,
+   "iron-ore": 1,
+   "lava-lump": 1
+  }
+ },
+ "storm-spear": {
+  "id": "storm-spear",
+  "title": "Storm Spear",
+  "description": "A spear said to have served a god of thunder in bygone days.",
+  "statistics": {
+   "agility": 97,
+   "special": {
+    "effect": "Deals Lighting-elemental damage"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "spear"
+ },
+ "stud-poker": {
+  "id": "stud-poker",
+  "title": "Stud Poker",
+  "description": "An alarming lance that can shoot through any shield.",
+  "statistics": {
+   "agility": 155,
+   "special": {
+    "effect": "Normal attacks cannot be blocked"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "spear",
+  "ingredientFor": [
+   "split-pot-poker",
+   ",",
+   "red-hot-poker"
+  ]
+ },
+ "trident": {
+  "id": "trident",
+  "title": "Trident",
+  "description": "A three-pronged fork that facilitates the filleting of fishy foes.",
+  "statistics": {
+   "agility": 65,
+   "special": {
+    "effect": "Deals 1.20x damage to Aquatic family"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "spear"
+ }
+}

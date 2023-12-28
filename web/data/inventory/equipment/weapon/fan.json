@@ -1,0 +1,475 @@
+{
+ "attribeauty": {
+  "id": "attribeauty",
+  "title": "Attribeauty",
+  "description": "A fabled fan with tons of untold powers.",
+  "statistics": {
+   "agility": 123,
+   "special": {
+    "effect": "Always goes first; unblockable; deals +1 damage to metal enemies; reduces enemy tension per hit"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "fan"
+ },
+ "azure-dragon-fan": {
+  "id": "azure-dragon-fan",
+  "title": "Azure Dragon Fan",
+  "description": "A thundery fan furnished with the mark of a mythical beast.",
+  "statistics": {
+   "agility": 70,
+   "special": {
+    "effect": "Deals Lightning-elemental damage"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "fan"
+ },
+ "black-tortoise-fan": {
+  "id": "black-tortoise-fan",
+  "title": "Black Tortoise Fan",
+  "description": "An earthy fan furnished with the mark of a mythical beast.",
+  "statistics": {
+   "agility": 64,
+   "special": {
+    "effect": "Deals Earth-elemental damage"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "fan"
+ },
+ "cobra-fan": {
+  "id": "cobra-fan",
+  "title": "Cobra Fan",
+  "description": "A fan that fosters the force of lightning.",
+  "statistics": {
+   "agility": 56,
+   "special": {
+    "effect": "Deals Lightning-elemental damage"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "fan"
+ },
+ "critical-fan": {
+  "id": "critical-fan",
+  "title": "Critical Fan",
+  "description": "A fabled fan that ups the occurrence of coups de grâce.",
+  "statistics": {
+   "agility": 130,
+   "special": {
+    "effect": "Increases Coup de Grâce rate by 6%"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "fan",
+  "ingredientFor": [
+   "overcritical-fan"
+  ]
+ },
+ "dire-critical-fan": {
+  "id": "dire-critical-fan",
+  "title": "Dire Critical Fan",
+  "description": "An unfailing battle fan that ups the occurrence of coups de grâce.",
+  "statistics": {
+   "agility": 164,
+   "special": {
+    "effect": "Increases Coup de Grâce rate by 10%"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "fan"
+ },
+ "feather-fan": {
+  "id": "feather-fan",
+  "title": "Feather Fan",
+  "description": "A flamboyant fan made from peacock feathers.",
+  "statistics": {
+   "agility": 9,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 110,
+  "vocations": [
+   "martial-artist",
+   "minstrel",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "fan"
+ },
+ "feline-fan": {
+  "id": "feline-fan",
+  "title": "Feline Fan",
+  "description": "A fan that fosters the force of ice.",
+  "statistics": {
+   "agility": 54,
+   "special": {
+    "effect": "Deals Ice-elemental damage"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "fan",
+  "ingredientFor": [
+   "white-tiger-fan"
+  ]
+ },
+ "foehn-fan": {
+  "id": "foehn-fan",
+  "title": "Foehn Fan",
+  "description": "A fan that fires air at foes if used as an item in battle.",
+  "statistics": {
+   "agility": 40,
+   "special": {
+    "usage": "Deals 8-24 Wind damage to enemy group"
+   }
+  },
+  "rarity": 1,
+  "buyPrice": 3200,
+  "vocations": [
+   "martial-artist",
+   "minstrel",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "fan",
+  "recipe": {
+   "agility-ring": 1,
+   "feather-fan": 1,
+   "flurry-feather": 1
+  },
+  "ingredientFor": [
+   "gale-force-fan"
+  ]
+ },
+ "fowl-fan": {
+  "id": "fowl-fan",
+  "title": "Fowl Fan",
+  "description": "A fan that fosters the force of fire.",
+  "statistics": {
+   "agility": 52,
+   "special": {
+    "effect": "Deals Fire-elemental damage"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "fan"
+ },
+ "friendly-fan": {
+  "id": "friendly-fan",
+  "title": "Friendly Fan",
+  "description": "A fan that can fix a friend's wounds if used as an item in battle.",
+  "statistics": {
+   "agility": 112,
+   "special": {
+    "usage": "Recovers 75-90 HP of one ally"
+   }
+  },
+  "rarity": 3,
+  "buyPrice": 45000,
+  "vocations": [
+   "martial-artist",
+   "minstrel"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "fan",
+  "recipe": {
+   "horse-manure": 9,
+   "life-bracer": 1,
+   "solar-fan": 1
+  }
+ },
+ "gale-force-fan": {
+  "id": "gale-force-fan",
+  "title": "Gale Force Fan",
+  "description": "A fan that whips a wild whirlwind at foes if used as an item in battle.",
+  "statistics": {
+   "agility": 62,
+   "special": {
+    "usage": "Deals 8-24 Wind damage to enemy group"
+   }
+  },
+  "rarity": 2,
+  "vocations": [
+   "martial-artist",
+   "minstrel",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "fan",
+  "recipe": {
+   "agility-ring": 1,
+   "enchanted-stone": 1,
+   "foehn-fan": 1
+  }
+ },
+ "gigasteel-fan": {
+  "id": "gigasteel-fan",
+  "title": "Gigasteel Fan",
+  "description": "A ferocious fan with slats made of strengthened steel.",
+  "statistics": {
+   "agility": 45,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "martial-artist",
+   "minstrel",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "fan",
+  "recipe": {
+   "hephaestus--flame": 1,
+   "iron-ore": 2,
+   "steel-fan": 1
+  }
+ },
+ "hypercritical-fan": {
+  "id": "hypercritical-fan",
+  "title": "Hypercritical Fan",
+  "description": "An unbeatable battle fan that ups the occurrence of coups de grâce.",
+  "statistics": {
+   "agility": 152,
+   "special": {
+    "effect": "Increases Coup de Grâce rate by 8%"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "fan"
+ },
+ "iron-fan": {
+  "id": "iron-fan",
+  "title": "Iron Fan",
+  "description": "An inflexible fan, heavy due to having slats made of metal.",
+  "statistics": {
+   "agility": 14,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 300,
+  "vocations": [
+   "martial-artist",
+   "minstrel",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "fan",
+  "ingredientFor": [
+   "steel-fan"
+  ]
+ },
+ "lunar-fan": {
+  "id": "lunar-fan",
+  "title": "Lunar Fan",
+  "description": "A magnificent fan made more so by a mystical moonscape.",
+  "statistics": {
+   "agility": 88,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "martial-artist",
+   "minstrel"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "fan",
+  "recipe": {
+   "full-moon-ring": 1,
+   "lucida-shard": 1,
+   "stellar-fan": 1
+  },
+  "ingredientFor": [
+   "solar-fan"
+  ]
+ },
+ "overcritical-fan": {
+  "id": "overcritical-fan",
+  "title": "Overcritical Fan",
+  "description": "A mighty fan that ups the occurrence of coups de grâce.",
+  "statistics": {
+   "agility": 142,
+   "special": {
+    "effect": "Increases Coup de Grâce rate by 7%"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "fan",
+  "ingredientFor": [
+   "hypercritical-fan",
+   ",",
+   "dire-critical-fan"
+  ]
+ },
+ "solar-fan": {
+  "id": "solar-fan",
+  "title": "Solar Fan",
+  "description": "A sainted, painted fan inscribed with a sumptuous sunny scene.",
+  "statistics": {
+   "agility": 100,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "martial-artist",
+   "minstrel"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "fan",
+  "recipe": {
+   "crimson-coral": 3,
+   "lunar-fan": 1,
+   "sunstone": 1
+  }
+ },
+ "steel-fan": {
+  "id": "steel-fan",
+  "title": "Steel Fan",
+  "description": "A strong fan with slats made of steel.",
+  "statistics": {
+   "agility": 30,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "martial-artist",
+   "minstrel",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "fan",
+  "recipe": {
+   "iron-fan": 1,
+   "iron-ore": 1,
+   "lava-lump": 1
+  }
+ },
+ "stellar-fan": {
+  "id": "stellar-fan",
+  "title": "Stellar Fan",
+  "description": "An exquisite fan resplendent with a sweeping starscape.",
+  "statistics": {
+   "agility": 77,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 12000,
+  "vocations": [
+   "martial-artist",
+   "minstrel"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "fan",
+  "ingredientFor": [
+   "lunar-fan"
+  ]
+ },
+ "tortoiseshell-fan": {
+  "id": "tortoiseshell-fan",
+  "title": "Tortoiseshell Fan",
+  "description": "A fan that fosters the force of the earth.",
+  "statistics": {
+   "agility": 50,
+   "special": {
+    "effect": "Deals Earth-elemental damage"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "fan",
+  "ingredientFor": [
+   "black-tortoise-fan"
+  ]
+ },
+ "vermillion-bird-fan": {
+  "id": "vermillion-bird-fan",
+  "title": "Vermillion Bird Fan",
+  "description": "A fiery fan furnished with the mark of a mythical beast.",
+  "statistics": {
+   "agility": 66,
+   "special": {
+    "effect": "Deals Fire-elemental damage"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "fan"
+ },
+ "war-fan": {
+  "id": "war-fan",
+  "title": "War Fan",
+  "description": "A fighter's fan, created for combat.",
+  "statistics": {
+   "agility": 24,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 920,
+  "vocations": [
+   "martial-artist",
+   "minstrel",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "fan",
+  "ingredientFor": [
+   "cobra-fan",
+   "fowl-fan",
+   "feline-fan",
+   "tortoiseshell-fan"
+  ]
+ },
+ "white-bouquet": {
+  "id": "white-bouquet",
+  "title": "White Bouquet",
+  "description": "The beautiful bunch of flowers borne proudly by every bride.",
+  "statistics": {
+   "agility": 92,
+   "special": {}
+  },
+  "rarity": 3,
+  "buyPrice": 50000,
+  "vocations": [
+   "martial-artist",
+   "minstrel"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "fan"
+ },
+ "white-tiger-fan": {
+  "id": "white-tiger-fan",
+  "title": "White Tiger Fan",
+  "description": "A watery fan furnished with the mark of a mythical beast.",
+  "statistics": {
+   "agility": 68,
+   "special": {
+    "effect": "Deals Ice-elemental damage"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "fan"
+ }
+}

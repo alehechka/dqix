@@ -1,0 +1,401 @@
+{
+ "ballistick": {
+  "id": "ballistick",
+  "title": "Ballistick",
+  "description": "A stupendous staff that twirls like a tornado and hits like a hurricane.",
+  "statistics": {
+   "agility": 104,
+   "special": {
+    "effect": "Deals Wind-elemental damage"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "stave"
+ },
+ "carrying-pole": {
+  "id": "carrying-pole",
+  "title": "Carrying Pole",
+  "description": "A sturdy stick for lugging heavy luggage.",
+  "statistics": {
+   "agility": 15,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 530,
+  "vocations": [
+   "priest",
+   "martial-artist"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "stave"
+ },
+ "catatonic-cosh": {
+  "id": "catatonic-cosh",
+  "title": "Catatonic Cosh",
+  "description": "An unsurpassed stick that solidifies itself to smack foes silly.",
+  "statistics": {
+   "agility": 162,
+   "special": {
+    "effect": "Deals 1.20x damage to Elemental family"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "stave"
+ },
+ "coma-cudgel": {
+  "id": "coma-cudgel",
+  "title": "Coma Cudgel",
+  "description": "A supreme stick that solidifies itself to smack foes silly.",
+  "statistics": {
+   "agility": 170,
+   "special": {
+    "effect": "Deals 1.20x damage to Elemental family"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "stave"
+ },
+ "dragon-rod": {
+  "id": "dragon-rod",
+  "title": "Dragon Rod",
+  "description": "A scary stick said to harbour the might of dragons.",
+  "statistics": {
+   "agility": 113,
+   "special": {}
+  },
+  "rarity": 2,
+  "buyPrice": 39800,
+  "vocations": [
+   "priest",
+   "martial-artist"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "stave",
+  "ingredientFor": [
+   "xenlon-rod"
+  ]
+ },
+ "driller-pillar": {
+  "id": "driller-pillar",
+  "title": "Driller Pillar",
+  "description": "A well-balanced weapon that packs one heck of a whack!",
+  "statistics": {
+   "agility": 60,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 5300,
+  "vocations": [
+   "priest",
+   "martial-artist"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "stave",
+  "ingredientFor": [
+   "killer-pillar",
+   ",",
+   "mistick"
+  ]
+ },
+ "gigasteel-bar": {
+  "id": "gigasteel-bar",
+  "title": "Gigasteel Bar",
+  "description": "An even harder hitter than the steel bar.",
+  "statistics": {
+   "agility": 62,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "priest",
+   "martial-artist"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "stave",
+  "recipe": {
+   "hephaestus--flame": 1,
+   "iron-ore": 2,
+   "steel-bar": 1
+  }
+ },
+ "iron-bar": {
+  "id": "iron-bar",
+  "title": "Iron Bar",
+  "description": "A metal rod that can really make those on its receiving end reel.",
+  "statistics": {
+   "agility": 36,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 2300,
+  "vocations": [
+   "priest",
+   "martial-artist"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "stave",
+  "ingredientFor": [
+   "steel-bar"
+  ]
+ },
+ "killer-pillar": {
+  "id": "killer-pillar",
+  "title": "Killer Pillar",
+  "description": "A cudgel commonly employed by competent combatants.",
+  "statistics": {
+   "agility": 75,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "priest",
+   "martial-artist"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "stave",
+  "recipe": {
+   "driller-pillar": 1,
+   "mighty-armlet": 1
+  }
+ },
+ "knockout-rod": {
+  "id": "knockout-rod",
+  "title": "Knockout Rod",
+  "description": "A supernatural stick that solidifies itself to smack foes silly.",
+  "statistics": {
+   "agility": 142,
+   "special": {
+    "effect": "Deals 1.20x damage to Elemental family"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "stave",
+  "ingredientFor": [
+   "senseless-stick"
+  ]
+ },
+ "laundry-pole": {
+  "id": "laundry-pole",
+  "title": "Laundry Pole",
+  "description": "A long bamboo pole 'borrowed' from a boring old clothes horse.",
+  "statistics": {
+   "agility": 5,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 40,
+  "vocations": [
+   "priest",
+   "martial-artist"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "stave",
+  "ingredientFor": [
+   "longbow"
+  ]
+ },
+ "mistick": {
+  "id": "mistick",
+  "title": "Mistick",
+  "description": "A strong staff that rains down blows like a sudden storm.",
+  "statistics": {
+   "agility": 82,
+   "special": {
+    "effect": "Deals Wind-elemental damage"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "stave"
+ },
+ "oaken-pole": {
+  "id": "oaken-pole",
+  "title": "Oaken Pole",
+  "description": "A lengthy stick carved from the bough of a sturdy oak.",
+  "statistics": {
+   "agility": 22,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 780,
+  "vocations": [
+   "priest",
+   "martial-artist"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "stave",
+  "ingredientFor": [
+   "pillar-of-strength"
+  ]
+ },
+ "optimistick": {
+  "id": "optimistick",
+  "title": "Optimistick",
+  "description": "A stormy stick that hails down blows like it's monsoon season.",
+  "statistics": {
+   "agility": 93,
+   "special": {
+    "effect": "Deals Wind-elemental damage"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "stave",
+  "ingredientFor": [
+   "ballistick"
+  ]
+ },
+ "orichalcudgel": {
+  "id": "orichalcudgel",
+  "title": "Orichalcudgel",
+  "description": "A stonking stick made of a super-rare substance.",
+  "statistics": {
+   "agility": 133,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "priest",
+   "martial-artist"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "stave",
+  "recipe": {
+   "hephaestus--flame": 3,
+   "orichalcum": 3
+  }
+ },
+ "pillar-of-strength": {
+  "id": "pillar-of-strength",
+  "title": "Pillar of Strength",
+  "description": "A quarterstaff of quite worrying width.",
+  "statistics": {
+   "agility": 47,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 3400,
+  "vocations": [
+   "priest",
+   "martial-artist"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "stave",
+  "recipe": {
+   "oaken-pole": 3,
+   "utility-belt": 1
+  }
+ },
+ "sadistick": {
+  "id": "sadistick",
+  "title": "Sadistick",
+  "description": "A beastly bludgeon with a spiky end.",
+  "statistics": {
+   "agility": 90,
+   "special": {}
+  },
+  "rarity": 2,
+  "buyPrice": 26500,
+  "vocations": [
+   "priest",
+   "martial-artist"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "stave"
+ },
+ "senseless-stick": {
+  "id": "senseless-stick",
+  "title": "Senseless Stick",
+  "description": "A celebrated stick that solidifies itself to smack foes silly.",
+  "statistics": {
+   "agility": 153,
+   "special": {
+    "effect": "Deals 1.20x damage to Elemental family"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "stave",
+  "ingredientFor": [
+   "catatonic-cosh",
+   ",",
+   "coma-cudgel"
+  ]
+ },
+ "sleepy-stick": {
+  "id": "sleepy-stick",
+  "title": "Sleepy Stick",
+  "description": "A curious cudgel that sometimes sends the enemy to sleep.",
+  "statistics": {
+   "agility": 65,
+   "special": {
+    "effect": "Chance to inflict snooze"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "stave"
+ },
+ "slumber-stick": {
+  "id": "slumber-stick",
+  "title": "Slumber Stick",
+  "description": "A supernatural stick that sometimes sends the enemy to sleep.",
+  "statistics": {
+   "agility": 85,
+   "special": {
+    "effect": "Chance to inflict snooze"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "stave"
+ },
+ "steel-bar": {
+  "id": "steel-bar",
+  "title": "Steel Bar",
+  "description": "A rock-solid rod made from strengthened steel.",
+  "statistics": {
+   "agility": 49,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "priest",
+   "martial-artist"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "stave",
+  "recipe": {
+   "iron-bar": 1,
+   "iron-ore": 1,
+   "lava-lump": 1
+  }
+ },
+ "xenlon-rod": {
+  "id": "xenlon-rod",
+  "title": "Xenlon Rod",
+  "description": "Attack:",
+  "statistics": {
+   "special": {}
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "stave"
+ }
+}

@@ -1,0 +1,2282 @@
+{
+ "advanced-axecraft": {
+  "id": "advanced-axecraft",
+  "title": "'Advanced Axecraft'",
+  "description": "Pop this in your pocket to gain use of the",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 3,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "agate-of-evolution": {
+  "id": "agate-of-evolution",
+  "title": "Agate of Evolution",
+  "description": "A special stone that encourages evolution. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 3,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "recipe": {
+   "chronocrystal": 1,
+   "ethereal-stone": 2,
+   "sainted-soma": 2
+  },
+  "ingredientFor": [
+   "nebula-sword",
+   "supernova-sword",
+   "hypernova-sword",
+   "stud-poker",
+   "split-pot-poker",
+   "red-hot-poker",
+   "darting-dagger",
+   "dashing-dagger",
+   "dynamo-dagger",
+   "savant-s-staff",
+   "shining-staff",
+   "brilliant-staff",
+   "aurora-staff",
+   "goddess-whip",
+   "mega-gringham-whip",
+   "giga-gringham-whip",
+   "über-gringham-whip",
+   "senseless-stick",
+   "catatonic-cosh",
+   "coma-cudgel",
+   "dragovian-claws",
+   "dragovian-lord-claws",
+   "xenlon-claws",
+   "overcritical-fan",
+   "hypercritical-fan",
+   "dire-critical-fan",
+   "avalanche-axe",
+   "maxi-axe",
+   "galaxy-axe",
+   "titan-s-hammer",
+   "earthsplitter",
+   "moonmasher",
+   "starsmasher",
+   "asterang",
+   "stellarang",
+   "galaxarang",
+   "archangel-s-bow",
+   "aeon-s-bow",
+   "seraph-s-bow",
+   "big-boss-shield",
+   "psyche-swiper",
+   "devilry-drinker",
+   "soul-sucker",
+   "apollo-s-crown",
+   "blessed-helm",
+   "wonder-helm",
+   "heavenly-helm",
+   "spring-breeze-hat",
+   "summer-cloud-hat",
+   "autumn-shower-hat",
+   "winter-sky-hat",
+   "glorious-armour",
+   "mythical-armour",
+   "legendary-armour",
+   "stratotoga",
+   "mesotoga",
+   "exotoga",
+   "celestria-s-raiment",
+   "archangel-s-robe",
+   "aeon-s-robe",
+   "seraph-s-robe",
+   "diana-gauntlets",
+   "tempestes-gauntlets",
+   "sol-invictus-gauntlets",
+   "master-s-gloves",
+   "grandmaster-s-gloves",
+   "godly-gloves",
+   "immortal-trousers",
+   "eternity-trousers",
+   "infinity-trousers",
+   "basilic-boots",
+   "emperor-s-boots",
+   "boots-of-beatitude",
+   "tricksie-boots",
+   "sagacious-sandals",
+   "sapient-sandals",
+   "sentient-sandals"
+  ]
+ },
+ "aggressence": {
+  "id": "aggressence",
+  "title": "Aggressence",
+  "description": "An extract composed of the vigorous verve for victory. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 1,
+  "sellPrice": 750,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "recipe": {
+   "fisticup": 2,
+   "softwort": 1,
+   "wakerobin": 1
+  }
+ },
+ "angel-bell": {
+  "id": "angel-bell",
+  "title": "Angel Bell",
+  "description": "A cure for confusion that concentrates on a single ally.",
+  "statistics": {
+   "special": {}
+  },
+  "buyPrice": 90,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "ingredientFor": [
+   "ring-of-clarity",
+   ",",
+   "perfect-panacea",
+   ",",
+   "astral-plume"
+  ]
+ },
+ "antidotal-herb": {
+  "id": "antidotal-herb",
+  "title": "Antidotal Herb",
+  "description": "A helpful herb that purges the scourge of poison from a single ally.",
+  "statistics": {
+   "special": {}
+  },
+  "buyPrice": 10,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "ingredientFor": [
+   "strong-antidote",
+   "required-for:",
+   "005-herb-list"
+  ]
+ },
+ "archery-for-the-adept": {
+  "id": "archery-for-the-adept",
+  "title": "'Archery for the Adept'",
+  "description": "Pop this in your pocket to gain use of the",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 3,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "armamentalist-s-album": {
+  "id": "armamentalist-s-album",
+  "title": "'Armamentalist's Album'",
+  "description": "Pop this in your pocket to focus the Fource for you and all your allies.",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 3,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "astral-plume": {
+  "id": "astral-plume",
+  "title": "Astral Plume",
+  "description": "A feather from the white wings of a heavenly being. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 1,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "recipe": {
+   "angel-bell": 1,
+   "flurry-feather": 3,
+   "fresh-water": 2
+  },
+  "ingredientFor": [
+   "mega-magical-mace",
+   "sizzling-bikini-top",
+   "celestria-s-raiment",
+   "sizzling-bikini-bottoms",
+   "sainted-soma"
+  ]
+ },
+ "basic-biscuits": {
+  "id": "basic-biscuits",
+  "title": "Basic Biscuits",
+  "description": "A tasty tit-for-tat treat from an avid admirer.",
+  "statistics": {
+   "special": {}
+  },
+  "buyPrice": 500,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "belle-cap": {
+  "id": "belle-cap",
+  "title": "Belle Cap",
+  "description": "A mysteriously marvellous-looking mushroom. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "birdsong-nectar": {
+  "id": "birdsong-nectar",
+  "title": "Birdsong Nectar",
+  "description": "Queer concoction that confers a sweet singing voice. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 2,
+  "sellPrice": 210,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "recipe": {
+   "fresh-water": 1,
+   "nectar": 3,
+   "sleeping-hibiscus": 5
+  }
+ },
+ "birthday-cake": {
+  "id": "birthday-cake",
+  "title": "Birthday Cake",
+  "description": "A gateau that anyone would be glad to get on their birthday.",
+  "statistics": {
+   "special": {}
+  },
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "block-o--choc": {
+  "id": "block-o--choc",
+  "title": "Block o' Choc",
+  "description": "A succulent and sweet show of affection from a sweetheart.",
+  "statistics": {
+   "special": {}
+  },
+  "buyPrice": 500,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "blue-orb": {
+  "id": "blue-orb",
+  "title": "Blue Orb",
+  "description": "A ridiculously rare orb of cornflower blue. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 4,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "brighten-rock": {
+  "id": "brighten-rock",
+  "title": "Brighten Rock",
+  "description": "A sacred stone alive with the might of light. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "sellPrice": 48,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "ingredientFor": [
+   "aurora-blade",
+   "magma-staff",
+   "majestic-mantle",
+   "flamenco-shirt",
+   "dancer-s-dress",
+   "twinkling-tuxedo",
+   "shimmering-dress",
+   "technicolour-dreamcloth",
+   "lucida-shard"
+  ]
+ },
+ "butterfly-wing": {
+  "id": "butterfly-wing",
+  "title": "Butterfly Wing",
+  "description": "The charming wing of a fluttering thing. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "sellPrice": 9,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "requiredFor": [
+   "146-hail-to-the-queen"
+  ]
+ },
+ "celestial-skein": {
+  "id": "celestial-skein",
+  "title": "Celestial Skein",
+  "description": "Mysterious string within which water flows. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 2,
+  "sellPrice": 224,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "recipe": {
+   "fresh-water": 3,
+   "tangleweb": 5
+  },
+  "requiredFor": [
+   "159-have-you-seen-charlene?"
+  ]
+ },
+ "chimaera-wing": {
+  "id": "chimaera-wing",
+  "title": "Chimaera Wing",
+  "description": "A tool that can teleport people to places they've been before.",
+  "statistics": {
+   "special": {}
+  },
+  "buyPrice": 25,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "canBeUsedFor": [
+   "013-all-fired-up"
+  ]
+ },
+ "choice-chocolate": {
+  "id": "choice-chocolate",
+  "title": "Choice Chocolate",
+  "description": "An especially sugary show of affection from a sweetheart.",
+  "statistics": {
+   "special": {}
+  },
+  "buyPrice": 3000,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "christmas-cake": {
+  "id": "christmas-cake",
+  "title": "Christmas Cake",
+  "description": "A succulent sweet prepared for the festive season.",
+  "statistics": {
+   "special": {}
+  },
+  "buyPrice": 4800,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "chronocrystal": {
+  "id": "chronocrystal",
+  "title": "Chronocrystal",
+  "description": "A crystal formed over countless millennia. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 3,
+  "buyPrice": 50000,
+  "sellPrice": 25000,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "ingredientFor": [
+   "agate-of-evolution"
+  ]
+ },
+ "clear-spear-theory": {
+  "id": "clear-spear-theory",
+  "title": "'Clear Spear Theory'",
+  "description": "Pop this in your pocket to gain use of the",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 3,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "coagulant": {
+  "id": "coagulant",
+  "title": "Coagulant",
+  "description": "Poisonous powder that puts a single enemy into a state of paralysis.",
+  "statistics": {
+   "special": {}
+  },
+  "buyPrice": 90,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "corundum": {
+  "id": "corundum",
+  "title": "Corundum",
+  "description": "An unpolished precious stone with a rusty lustre. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 1,
+  "sellPrice": 300,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "ingredientFor": [
+   "raging-ruby",
+   ",",
+   "ruby-of-protection"
+  ]
+ },
+ "cowpat": {
+  "id": "cowpat",
+  "title": "Cowpat",
+  "description": "Fragrant fallout from a farmyard favourite. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "sellPrice": 2,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "crimson-coral": {
+  "id": "crimson-coral",
+  "title": "Crimson Coral",
+  "description": "A stunning souvenir from the sea. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "sellPrice": 36,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "crown-jewel": {
+  "id": "crown-jewel",
+  "title": "Crown Jewel",
+  "description": "A giant gem that gleams gloriously.",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 1,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "densinium": {
+  "id": "densinium",
+  "title": "Densinium",
+  "description": "A lump of mysterious metal that's drastically dense. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 2,
+  "sellPrice": 1400,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "recipe": {
+   "flintstone": 3,
+   "iron-ore": 3
+  },
+  "ingredientFor": [
+   "gracos-s-trident",
+   "terra-firmer",
+   "megaton-hammer",
+   "ogre-shield",
+   "heavy-gauntlets",
+   "impregnable-leggings"
+  ]
+ },
+ "elfin-elixir": {
+  "id": "elfin-elixir",
+  "title": "Elfin Elixir",
+  "description": "An enchanted elixir that totally tops up a single ally's MP.",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 2,
+  "buyPrice": 5,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "recipe": {
+   "nectar": 5,
+   "royal-soil": 3,
+   "yggdrasil-leaf": 1
+  },
+  "ingredientFor": [
+   "elfin-charm",
+   ",",
+   "yggdrasil-dew"
+  ]
+ },
+ "emerald-moss": {
+  "id": "emerald-moss",
+  "title": "Emerald Moss",
+  "description": "A vividly verdant piece of vegetation. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "sellPrice": 40,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "enchanted-stone": {
+  "id": "enchanted-stone",
+  "title": "Enchanted Stone",
+  "description": "A pebble possessed by a departed soul. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 1,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "recipe": {
+   "ice-crystal": 2,
+   "mystifying-mixture": 1,
+   "thunderball": 2
+  },
+  "ingredientFor": [
+   "tsunami-staff",
+   "kite-claws",
+   "gale-force-fan",
+   "purblind-bow",
+   "enchanted-shield",
+   "enchanted-armour",
+   "enchanted-robes",
+   "enchanted-gloves",
+   "ethereal-stone"
+  ]
+ },
+ "ethereal-stone": {
+  "id": "ethereal-stone",
+  "title": "Ethereal Stone",
+  "description": "A protective pebble possessed by a phantom spirit. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 2,
+  "sellPrice": 600,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "recipe": {
+   "enchanted-stone": 1,
+   "narspicious": 2,
+   "perfect-panacea": 1
+  },
+  "ingredientFor": [
+   "executioner-s-axe",
+   "terra-hammer",
+   "blinding-bow",
+   "ethereal-shield",
+   "ethereal-armour",
+   "ethereal-robes",
+   "ethereal-gloves",
+   "gold-bar",
+   "agate-of-evolution",
+   "required-for:",
+   "151-pushy-peddler"
+  ]
+ },
+ "evac-u-bell": {
+  "id": "evac-u-bell",
+  "title": "Evac-u-bell",
+  "description": "Allows the ringer to instantly escape from a tower, cave, or dungeon.",
+  "statistics": {
+   "special": {}
+  },
+  "buyPrice": 28,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "evencloth": {
+  "id": "evencloth",
+  "title": "Evencloth",
+  "description": "Coal-black cloth cloaked in impenetrable darkness. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "sellPrice": 47,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "ingredientFor": [
+   "assassin-s-dagger",
+   "tortoiseshell-fan",
+   "thief-s-turban",
+   "dark-robe",
+   "gloomy-gloves",
+   "murky-mittens",
+   "lucida-shard",
+   "required-for:",
+   "009-labour-of-love"
+  ]
+ },
+ "fearsome-fisticuffing": {
+  "id": "fearsome-fisticuffing",
+  "title": "'Fearsome Fisticuffing'",
+  "description": "Pop this in your pocket to gain use of the",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 3,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "festive-feast": {
+  "id": "festive-feast",
+  "title": "Festive Feast",
+  "description": "An assortment of appetising eats full of festive feeling.",
+  "statistics": {
+   "special": {}
+  },
+  "buyPrice": 2500,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "finessence": {
+  "id": "finessence",
+  "title": "Finessence",
+  "description": "An extract composed of concentrated combat capabilities. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 1,
+  "sellPrice": 850,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "recipe": {
+   "fisticup": 2,
+   "slipweed": 1,
+   "superior-medicine": 1
+  }
+ },
+ "fisticup": {
+  "id": "fisticup",
+  "title": "Fisticup",
+  "description": "A funny fungus in the form of a fist. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "flintstone": {
+  "id": "flintstone",
+  "title": "Flintstone",
+  "description": "A rock that's just right for setting off sparks. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "sellPrice": 48,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "ingredientFor": [
+   "terra-tamper",
+   "densinium"
+  ]
+ },
+ "flurry-feather": {
+  "id": "flurry-feather",
+  "title": "Flurry Feather",
+  "description": "A plume plucked from a great big bird. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "fresh-water": {
+  "id": "fresh-water",
+  "title": "Fresh Water",
+  "description": "Wondrous water of perfect purity. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "further-fanmanship": {
+  "id": "further-fanmanship",
+  "title": "'Further Fanmanship'",
+  "description": "Pop this in your pocket to gain use of the",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 3,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "fygg": {
+  "id": "fygg",
+  "title": "Fygg",
+  "description": "A golden fruit of the Great World Tree, Yggdrasil.",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 1,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "glass-frit": {
+  "id": "glass-frit",
+  "title": "Glass Frit",
+  "description": "Gentle grit that's perfect for polishing. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "sellPrice": 28,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "gleeban-gold-piece": {
+  "id": "gleeban-gold-piece",
+  "title": "Gleeban Gold Piece",
+  "description": "A coin with no practical use, which will fetch a pretty penny if sold.",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 1,
+  "sellPrice": 1000,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "gleeban-groat": {
+  "id": "gleeban-groat",
+  "title": "Gleeban Groat",
+  "description": "A coin with no practical use, which will fetch a pretty penny if sold.",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 1,
+  "sellPrice": 100,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "gleeban-guinea": {
+  "id": "gleeban-guinea",
+  "title": "Gleeban Guinea",
+  "description": "A coin with no practical use, which will fetch a pretty penny if sold.",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 1,
+  "sellPrice": 500,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "gold-bar": {
+  "id": "gold-bar",
+  "title": "Gold Bar",
+  "description": "A piece of pure gold that's heart-warmingly heavy. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 3,
+  "sellPrice": 5000,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "recipe": {
+   "birdsong-nectar": 5,
+   "ethereal-stone": 2,
+   "sainted-soma": 3
+  },
+  "ingredientFor": [
+   "storm-spear",
+   "golden-axe",
+   "spellward-circlet",
+   "meteorite-bracer",
+   "goddess-ring"
+  ]
+ },
+ "grubby-bandage": {
+  "id": "grubby-bandage",
+  "title": "Grubby Bandage",
+  "description": "A soiled dressing much-loved by mummies. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "sellPrice": 35,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "hardcore-hammering": {
+  "id": "hardcore-hammering",
+  "title": "'Hardcore Hammering'",
+  "description": "Pop this in your pocket to gain use of the",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 3,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "hephaestus--flame": {
+  "id": "hephaestus--flame",
+  "title": "Hephaestus' Flame",
+  "description": "A fire so fantastically fierce it can melt metal. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 1,
+  "sellPrice": 265,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "recipe": {
+   "lava-lump": 1,
+   "royal-soil": 1,
+   "toad-oil": 1
+  }
+ },
+ "holy-water": {
+  "id": "holy-water",
+  "title": "Holy Water",
+  "description": "A righteous repellent that keeps weaker monsters away.",
+  "statistics": {
+   "special": {}
+  },
+  "buyPrice": 40,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "ingredientFor": [
+   "aurora-blade",
+   "divine-dagger",
+   "white-shield",
+   "holy-talisman",
+   "magic-water"
+  ]
+ },
+ "horse-manure": {
+  "id": "horse-manure",
+  "title": "Horse Manure",
+  "description": "An equine extra that exudes a pungent perfume. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "ice-crystal": {
+  "id": "ice-crystal",
+  "title": "Ice Crystal",
+  "description": "A captivating crystal with cryogenic powers. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "sellPrice": 45,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "iron-nails": {
+  "id": "iron-nails",
+  "title": "Iron Nails",
+  "description": "Nothing more than normal nails. Alchemise 'em!",
+  "statistics": {
+   "special": {}
+  },
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "iron-ore": {
+  "id": "iron-ore",
+  "title": "Iron Ore",
+  "description": "Rock containing an enormous amount of iron. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "sellPrice": 120,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "ingredientFor": [
+   "steel-broadsword",
+   "gigasteel-broadsword",
+   "steel-lance",
+   "gigasteel-lance",
+   "spiked-steel-whip",
+   "gigaspike-whip",
+   "steel-bar",
+   "gigasteel-bar",
+   "steel-claws",
+   "gigasteel-claws",
+   "hammer-handrills",
+   "steel-fan",
+   "gigasteel-fan",
+   "steel-axe",
+   "gigasteel-axe",
+   "steel-shield",
+   "gigasteel-shield",
+   "steel-helmet",
+   "gigasteel-helmet",
+   "full-plate-armour",
+   "gigasteel-armour",
+   "steel-gauntlets",
+   "gigasteel-gauntlets",
+   "sturdy-gauntlets",
+   "steel-kneecaps",
+   "gigasteel-kneecaps",
+   "steel-sabatons",
+   "gigasteel-sabatons",
+   "densinium"
+  ]
+ },
+ "kitty-litter": {
+  "id": "kitty-litter",
+  "title": "Kitty Litter",
+  "description": "A peculiar powder that purring pets apparently prefer. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "sellPrice": 19,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "ingredientFor": [
+   "sandstorm-spear",
+   "feline-fan",
+   "kitty-shield",
+   "catty-shield",
+   "cat-ears"
+  ]
+ },
+ "knifing-know-how": {
+  "id": "knifing-know-how",
+  "title": "'Knifing Know-How'",
+  "description": "Pop this in your pocket to gain use of the",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 3,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "lambswool": {
+  "id": "lambswool",
+  "title": "Lambswool",
+  "description": "A fluffy fleece of ovine origins. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "buyPrice": 180,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "ingredientFor": [
+   "fur-hood",
+   "hunter-s-hat",
+   "ear-cosy",
+   "cloak-of-concealment",
+   "robe-of-sweet-dreams",
+   "queen-s-robe",
+   "empress-s-robe",
+   "king-s-coat",
+   "emperor-s-attire",
+   "blessed-bottoms",
+   "required-for:",
+   "014-snug-as-a-thug"
+  ]
+ },
+ "lava-lump": {
+  "id": "lava-lump",
+  "title": "Lava Lump",
+  "description": "A pyroclastic rock possessing the power of fire. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "sellPrice": 42,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "ingredientFor": [
+   "steel-broadsword",
+   "fire-blade",
+   "steel-lance",
+   "spiked-steel-whip",
+   "steel-bar",
+   "steel-claws",
+   "fire-claws",
+   "steel-fan",
+   "vermillion-bird-fan",
+   "steel-axe",
+   "flametang-boomerang",
+   "flame-shield",
+   "hephaestus--flame"
+  ]
+ },
+ "lucida-shard": {
+  "id": "lucida-shard",
+  "title": "Lucida Shard",
+  "description": "A fragment formed from some heavenly fallout. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 2,
+  "sellPrice": 900,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "recipe": {
+   "brighten-rock": 3,
+   "evencloth": 3
+  },
+  "ingredientFor": [
+   "lunar-fan",
+   "hexarang",
+   "star-circlet",
+   "superstar-s-suit",
+   "meteorite-bracer",
+   "sainted-soma",
+   "sunstone"
+  ]
+ },
+ "luminary-s-lore": {
+  "id": "luminary-s-lore",
+  "title": "'Luminary's Lore'",
+  "description": "Pop this in your pocket to gain use of the",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 3,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "lunaria": {
+  "id": "lunaria",
+  "title": "Lunaria",
+  "description": "An antidote to paralysis for a single ally that also adds around 90 HP.",
+  "statistics": {
+   "special": {}
+  },
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "recipe": {
+   "moonwort-bulb": 3
+  }
+ },
+ "mage-s-manual": {
+  "id": "mage-s-manual",
+  "title": "'Mage's Manual'",
+  "description": "Pop this in your pocket to gain use of the",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 3,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "magic-beast-hide": {
+  "id": "magic-beast-hide",
+  "title": "Magic Beast Hide",
+  "description": "Heavy hide taken from a brutal beast. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "magic-beast-horn": {
+  "id": "magic-beast-horn",
+  "title": "Magic Beast Horn",
+  "description": "A hard horn taken from a brutal beast. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "sellPrice": 62,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "magic-water": {
+  "id": "magic-water",
+  "title": "Magic Water",
+  "description": "An enchanted elixir that restores around 30 MP to a single ally.",
+  "statistics": {
+   "special": {}
+  },
+  "buyPrice": 500,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "recipe": {
+   "holy-water": 1,
+   "nectar": 1,
+   "royal-soil": 1
+  },
+  "requiredFor": [
+   "008-don-t-cry-over-spilt-ink"
+  ]
+ },
+ "malicite": {
+  "id": "malicite",
+  "title": "Malicite",
+  "description": "A jinxed gem that calls cured curses back on its bearer. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 2,
+  "sellPrice": 666,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "recipe": {
+   "narspicious": 3,
+   "pink-pearl": 1,
+   "terrible-tattoo": 2
+  }
+ },
+ "manky-mud": {
+  "id": "manky-mud",
+  "title": "Manky Mud",
+  "description": "Dangerous dirt that's totally toxic. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "sellPrice": 15,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "ingredientFor": [
+   "poison-moth-knife",
+   ",",
+   "poison-needle",
+   ",",
+   "mystifying-mixture",
+   "required-for:",
+   "127-a-right-royal-nightmare"
+  ]
+ },
+ "martial-artist-s-manual": {
+  "id": "martial-artist-s-manual",
+  "title": "'Martial Artist's Manual'",
+  "description": "Pop this in your pocket to take tension from battle to battle.",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 3,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "medicinal-herb": {
+  "id": "medicinal-herb",
+  "title": "Medicinal Herb",
+  "description": "A helpful herb that restores around 30 HP to a single ally.",
+  "statistics": {
+   "special": {}
+  },
+  "buyPrice": 8,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "ingredientFor": [
+   "strong-medicine",
+   ",",
+   "superior-medicine",
+   ",",
+   "strong-antidote",
+   "required-for:",
+   "005-herb-list",
+   "can-be-used-for:",
+   "013-all-fired-up"
+  ]
+ },
+ "mini-medal": {
+  "id": "mini-medal",
+  "title": "Mini Medal",
+  "description": "A mysterious medal that someone somewhere supposedly collects.",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 1,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "minstrel-s-manual": {
+  "id": "minstrel-s-manual",
+  "title": "'Minstrel's Manual'",
+  "description": "Pop this in your pocket to gain use of the",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 3,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "mirrorstone": {
+  "id": "mirrorstone",
+  "title": "Mirrorstone",
+  "description": "A resplendent rock that reflects light like a mirror. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "sellPrice": 56,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "ingredientFor": [
+   "silver-shield",
+   "mirror-armour",
+   "catoptric-armour",
+   "sunstone"
+  ]
+ },
+ "moonwort-bulb": {
+  "id": "moonwort-bulb",
+  "title": "Moonwort Bulb",
+  "description": "An antidote to paralysis that unfreezes an ally.",
+  "statistics": {
+   "special": {}
+  },
+  "buyPrice": 30,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "ingredientFor": [
+   "softwort",
+   ",",
+   "lunaria",
+   ",",
+   "panacea",
+   "required-for:",
+   "005-herb-list"
+  ]
+ },
+ "mystifying-mixture": {
+  "id": "mystifying-mixture",
+  "title": "Mystifying Mixture",
+  "description": "A potion that sends a single enemy into a state of confusion.",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 1,
+  "sellPrice": 280,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "recipe": {
+   "belle-cap": 1,
+   "cowpat": 3,
+   "manky-mud": 1
+  },
+  "ingredientFor": [
+   "moon-axe",
+   "full-moon-axe",
+   "purblind-bow",
+   "blinding-bow",
+   "enchanted-stone"
+  ]
+ },
+ "mythril-ore": {
+  "id": "mythril-ore",
+  "title": "Mythril Ore",
+  "description": "Rock containing a massive amount of mythril. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 1,
+  "sellPrice": 3000,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "requiredFor": [
+   "146-hail-to-the-queen"
+  ]
+ },
+ "narspicious": {
+  "id": "narspicious",
+  "title": "Narspicious",
+  "description": "A peculiar plant with an untrustworthy air. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "sellPrice": 21,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "ingredientFor": [
+   "fizzle-foil",
+   "slumber-stick",
+   "malleable-mask",
+   "papillon-mask",
+   "fancy-pants",
+   "ethereal-stone",
+   "malicite",
+   "required-for:",
+   "060-that-makes-scents"
+  ]
+ },
+ "nectar": {
+  "id": "nectar",
+  "title": "Nectar",
+  "description": "The sweet, fragrant essence of a flower in bloom. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "orichalcum": {
+  "id": "orichalcum",
+  "title": "Orichalcum",
+  "description": "A highly prized mineral of magnificent hardness. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 3,
+  "buyPrice": 15,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "panacea": {
+  "id": "panacea",
+  "title": "Panacea",
+  "description": "A remedy that removes poison and paralysis and restores around 90 HP.",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 1,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "recipe": {
+   "moonwort-bulb": 1,
+   "special-medicine": 1,
+   "superior-medicine": 1
+  }
+ },
+ "party-popper": {
+  "id": "party-popper",
+  "title": "Party Popper",
+  "description": "A cracker that frightens foes with a fearsome bang.",
+  "statistics": {
+   "special": {}
+  },
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "perfect-panacea": {
+  "id": "perfect-panacea",
+  "title": "Perfect Panacea",
+  "description": "A remedy that removes all manner of ills and restores around 90 HP.",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 1,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "recipe": {
+   "angel-bell": 1,
+   "panacea": 1,
+   "wakerobin": 1
+  },
+  "ingredientFor": [
+   "ethereal-stone"
+  ]
+ },
+ "platinum-ore": {
+  "id": "platinum-ore",
+  "title": "Platinum Ore",
+  "description": "Rock containing a high proportion of platinum. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 1,
+  "sellPrice": 1500,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "ingredientFor": [
+   "platinum-sword",
+   "celestial-spear",
+   "platinum-platter",
+   "platinum-shield",
+   "platinum-headgear",
+   "platinum-mail"
+  ]
+ },
+ "posh-biscuits": {
+  "id": "posh-biscuits",
+  "title": "Posh Biscuits",
+  "description": "A truly tempting bit of tucker from an avid admirer.",
+  "statistics": {
+   "special": {}
+  },
+  "buyPrice": 3000,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "priest-s-primer": {
+  "id": "priest-s-primer",
+  "title": "Priest's Primer",
+  "description": "Pop this in your pocket to gain use of the",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 3,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "purple-orb": {
+  "id": "purple-orb",
+  "title": "Purple Orb",
+  "description": "A ridiculously rare orb of deep purple. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 4,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "ranger-s-revelations": {
+  "id": "ranger-s-revelations",
+  "title": "'Ranger's Revelations'",
+  "description": "Pop this in your pocket to perform critical hits in times of crisis.",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 3,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "red-orb": {
+  "id": "red-orb",
+  "title": "Red Orb",
+  "description": "A ridiculously rare orb of richest red. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 4,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "reset-stone": {
+  "id": "reset-stone",
+  "title": "Reset Stone",
+  "description": "A retroactive rock that might undo the effects of alchemy. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 2,
+  "buyPrice": 10,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "resurrock": {
+  "id": "resurrock",
+  "title": "Resurrock",
+  "description": "A stone said to hold the secret of restoring life. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "sellPrice": 225,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "ingredientFor": [
+   "flame-shield",
+   "ice-shield",
+   "holy-talisman",
+   "life-ring",
+   "required-for:",
+   "049-rock-on"
+  ]
+ },
+ "rockbomb-shard": {
+  "id": "rockbomb-shard",
+  "title": "Rockbomb Shard",
+  "description": "An explosive bit of boulder that deals damage to all foes.",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 1,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "ingredientFor": [
+   "fire-blade",
+   "inferno-blade",
+   "magma-staff",
+   "fire-claws",
+   "combusticlaws",
+   "flametang-boomerang",
+   "banefire-boomerang"
+  ]
+ },
+ "royal-soil": {
+  "id": "royal-soil",
+  "title": "Royal Soil",
+  "description": "A mass of mud with magical characteristics. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "sellPrice": 41,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "ingredientFor": [
+   "black-tortoise-fan",
+   "terra-tamper",
+   "terra-firmer",
+   "terra-hammer",
+   "steel-shield",
+   "steel-helmet",
+   "full-plate-armour",
+   "steel-gauntlets",
+   "steel-kneecaps",
+   "steel-sabatons",
+   "magic-water",
+   "sage-s-elixir",
+   "elfin-elixir",
+   "hephaestus--flame",
+   "required-for:",
+   "036-little-miss-bossy-boots"
+  ]
+ },
+ "sage-s-elixir": {
+  "id": "sage-s-elixir",
+  "title": "Sage's Elixir",
+  "description": "An enchanted elixer that restores around 90 MP to a single ally.",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 1,
+  "sellPrice": 750,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "sage-s-stone": {
+  "id": "sage-s-stone",
+  "title": "Sage's Stone",
+  "description": "A rock that restores everyone's HP when used in battle.",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 3,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "recipe": {
+   "birdsong-nectar": 3,
+   "orichalcum": 1,
+   "silver-orb": 1
+  }
+ },
+ "saint-s-ashes": {
+  "id": "saint-s-ashes",
+  "title": "Saint's Ashes",
+  "description": "Abrasive ash that cleans off curses. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 2,
+  "buyPrice": 8,
+  "sellPrice": 800,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "sainted-soma": {
+  "id": "sainted-soma",
+  "title": "Sainted Soma",
+  "description": "Incredible liquid infused with an angelic essence. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 2,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "recipe": {
+   "astral-plume": 2,
+   "lucida-shard": 2,
+   "sage-s-elixir": 2
+  },
+  "ingredientFor": [
+   "xenlon-rod",
+   "divine-bustier",
+   "goddess-ring",
+   "gold-bar",
+   "agate-of-evolution"
+  ]
+ },
+ "seashell": {
+  "id": "seashell",
+  "title": "Seashell",
+  "description": "A cute, colourless keepsake from the coast. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "sellPrice": 34,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "secrets-of-the-shield": {
+  "id": "secrets-of-the-shield",
+  "title": "'Secrets of the Shield'",
+  "description": "Pop this in your pocket to completely avoid critical hits..",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 3,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "seed-of-agility": {
+  "id": "seed-of-agility",
+  "title": "Seed of Agility",
+  "description": "A seed that slightly supplements a single ally's agility.",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 1,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "seed-of-defence": {
+  "id": "seed-of-defence",
+  "title": "Seed of Defence",
+  "description": "A seed that steps up a single ally's defensive skills slightly.",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 1,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "seed-of-deftness": {
+  "id": "seed-of-deftness",
+  "title": "Seed of Deftness",
+  "description": "A seed that steps up a single ally's deftness a dash.",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 1,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "seed-of-life": {
+  "id": "seed-of-life",
+  "title": "Seed of Life",
+  "description": "A seed that slightly supplements a single ally's maximum health.",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 1,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "seed-of-magic": {
+  "id": "seed-of-magic",
+  "title": "Seed of Magic",
+  "description": "A seed that slightly supplements a single ally's maximum MP.",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 1,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "seed-of-skill": {
+  "id": "seed-of-skill",
+  "title": "Seed of Skill",
+  "description": "A seed that slightly supplements a single ally's skill points.",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 1,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "seed-of-sorcery": {
+  "id": "seed-of-sorcery",
+  "title": "Seed of Sorcery",
+  "description": "A seed that steps up a single ally's magical might slightly.",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 1,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "seed-of-strength": {
+  "id": "seed-of-strength",
+  "title": "Seed of Strength",
+  "description": "A seed that steps up a single ally's strength slightly.",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 1,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "seed-of-therapeusis": {
+  "id": "seed-of-therapeusis",
+  "title": "Seed of Therapeusis",
+  "description": "A seed that steps up a single ally's magical mending slightly.",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 1,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "silver-orb": {
+  "id": "silver-orb",
+  "title": "Silver Orb",
+  "description": "A ridiculously rare orb of sparkling silver. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 4,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "sleeping-hibiscus": {
+  "id": "sleeping-hibiscus",
+  "title": "Sleeping Hibiscus",
+  "description": "A serious sedative that sends a single group of enemies to sleep.",
+  "statistics": {
+   "special": {}
+  },
+  "buyPrice": 68,
+  "sellPrice": 34,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "requiredFor": [
+   "146-hail-to-the-queen"
+  ]
+ },
+ "slimedrop": {
+  "id": "slimedrop",
+  "title": "Slimedrop",
+  "description": "A gooey gumdrop shaped like a lovely little slime. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "sellPrice": 14,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "requiredFor": [
+   "007-curious-crevice"
+  ]
+ },
+ "slipweed": {
+  "id": "slipweed",
+  "title": "Slipweed",
+  "description": "A plant that's so slippery it's problematic to pick up. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "ingredientFor": [
+   "phantom-mask",
+   "cloak-of-concealment",
+   "dark-robe",
+   "divine-bustier",
+   "matador-s-gloves",
+   "finessence"
+  ]
+ },
+ "snakeskin": {
+  "id": "snakeskin",
+  "title": "Snakeskin",
+  "description": "The sloughed-off skin of a slithering serpent. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "sellPrice": 49,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "ingredientFor": [
+   "snakeskin-whip",
+   "serpentine-whip",
+   "sidewinder",
+   "cobra-fan",
+   "tricky-turban",
+   "large-scale-armour"
+  ]
+ },
+ "softwort": {
+  "id": "softwort",
+  "title": "Softwort",
+  "description": "An antidote to paralysis for a single ally that also adds around 60 HP.",
+  "statistics": {
+   "special": {}
+  },
+  "buyPrice": 95,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "recipe": {
+   "moonwort-bulb": 1,
+   "strong-medicine": 1
+  }
+ },
+ "special-antidote": {
+  "id": "special-antidote",
+  "title": "Special Antidote",
+  "description": "A herb that heals poison and restores around 90 HP to a single ally.",
+  "statistics": {
+   "special": {}
+  },
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "recipe": {
+   "strong-antidote": 2
+  }
+ },
+ "special-medicine": {
+  "id": "special-medicine",
+  "title": "Special Medicine",
+  "description": "A helpful herb that restores around 90 HP to a single ally.",
+  "statistics": {
+   "special": {}
+  },
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "recipe": {
+   "strong-medicine": 2
+  }
+ },
+ "staff-studies": {
+  "id": "staff-studies",
+  "title": "'Staff Studies'",
+  "description": "Pop this in your pocket to gain use of the",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 3,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "sterling-s-whistle": {
+  "id": "sterling-s-whistle",
+  "title": "Sterling's Whistle",
+  "description": "A puff on this will bring the Starflight Express steaming to your aid.",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 1,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "strong-antidote": {
+  "id": "strong-antidote",
+  "title": "Strong Antidote",
+  "description": "A herb that heals poison and restores around 40 HP to a single ally.",
+  "statistics": {
+   "special": {}
+  },
+  "buyPrice": 38,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "recipe": {
+   "antidotal-herb": 1,
+   "medicinal-herb": 1
+  },
+  "ingredientFor": [
+   "special-antidote"
+  ]
+ },
+ "strong-medicine": {
+  "id": "strong-medicine",
+  "title": "Strong Medicine",
+  "description": "A helpful herb that restores around 40 HP to a single ally.",
+  "statistics": {
+   "special": {}
+  },
+  "buyPrice": 36,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "recipe": {
+   "medicinal-herb": 2
+  },
+  "ingredientFor": [
+   "special-medicine",
+   ",",
+   "superior-medicine",
+   ",",
+   "softwort"
+  ]
+ },
+ "sunstone": {
+  "id": "sunstone",
+  "title": "Sunstone",
+  "description": "A radiant rock that sizzles with solar heat. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 3,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "recipe": {
+   "hephaestus--flame": 1,
+   "lucida-shard": 2,
+   "mirrorstone": 3
+  }
+ },
+ "superior-medicine": {
+  "id": "superior-medicine",
+  "title": "Superior Medicine",
+  "description": "A helpful herb that restores around 60 HP to a single ally.",
+  "statistics": {
+   "special": {}
+  },
+  "buyPrice": 50,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "recipe": {
+   "medicinal-herb": 1,
+   "strong-medicine": 1
+  },
+  "ingredientFor": [
+   "panacea",
+   ",",
+   "finessence"
+  ]
+ },
+ "swordcraft-in-summary": {
+  "id": "swordcraft-in-summary",
+  "title": "'Swordcraft in Summary'",
+  "description": "Pop this in your pocket to gain use of the",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 3,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "tangleweb": {
+  "id": "tangleweb",
+  "title": "Tangleweb",
+  "description": "A cloying cobweb that slows the enemy to a snail's pace.",
+  "statistics": {
+   "special": {}
+  },
+  "buyPrice": 35,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "technicolour-dreamcloth": {
+  "id": "technicolour-dreamcloth",
+  "title": "Technicolour Dreamcloth",
+  "description": "Colourful cloth that glows like a rainbow. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 2,
+  "sellPrice": 650,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "recipe": {
+   "brighten-rock": 1,
+   "celestial-skein": 1,
+   "grubby-bandage": 3
+  },
+  "ingredientFor": [
+   "ballistick",
+   "flamenco-shirt",
+   "dancer-s-dress",
+   "technicolour-tutu",
+   "sizzling-bikini-top",
+   "sizzling-bikini-bottoms",
+   "required-for:",
+   "027-big-headed-bard"
+  ]
+ },
+ "the-boomerang-bible": {
+  "id": "the-boomerang-bible",
+  "title": "'The Boomerang Bible'",
+  "description": "Pop this in your pocket to gain use of the",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 3,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "the-core-of-the-claw": {
+  "id": "the-core-of-the-claw",
+  "title": "'The Core of the Claw'",
+  "description": "Pop this in your pocket to gain use of the",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 3,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "thief-s-theory": {
+  "id": "thief-s-theory",
+  "title": "'Thief's Theory'",
+  "description": "Pop this in your pocket to steal stuff without lifting a finger.",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 3,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "thinkincense": {
+  "id": "thinkincense",
+  "title": "Thinkincense",
+  "description": "A peculiar plant with a soothing scent when burned. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "sellPrice": 22,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "ingredientFor": [
+   "crown-of-clarity",
+   "sage-s-robe",
+   "cape-of-good-karma",
+   "blessed-bindings",
+   "guru-s-gloves",
+   "tantric-trousers",
+   "brahman-boots",
+   "rosary",
+   "required-for:",
+   "060-that-makes-scents"
+  ]
+ },
+ "thunderball": {
+  "id": "thunderball",
+  "title": "Thunderball",
+  "description": "A chunk of rock charged with electrical energy. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "sellPrice": 43,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "ingredientFor": [
+   "lightning-lance",
+   "storm-spear",
+   "lightning-staff",
+   "lightning-conductor",
+   "azure-dragon-fan",
+   "enchanted-stone"
+  ]
+ },
+ "toad-oil": {
+  "id": "toad-oil",
+  "title": "Toad Oil",
+  "description": "The greasy excretion of an enormous amphibian. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "sellPrice": 70,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "tortoiseshell": {
+  "id": "tortoiseshell",
+  "title": "Tortoiseshell",
+  "description": "Not to be confused with the armour,",
+  "statistics": {
+   "special": {}
+  },
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "ingredientFor": [
+   "tortoiseshell-fan",
+   "shell-shield",
+   "tortoise-shell",
+   "tortoiseshell-armour"
+  ]
+ },
+ "wakerobin": {
+  "id": "wakerobin",
+  "title": "Wakerobin",
+  "description": "A powerful pick-me-up that can stir a single ally from sleep.",
+  "statistics": {
+   "special": {}
+  },
+  "buyPrice": 66,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "ingredientFor": [
+   "rousing-ring",
+   ",",
+   "perfect-panacea",
+   ",",
+   "aggressence"
+  ]
+ },
+ "wands-and-beyond": {
+  "id": "wands-and-beyond",
+  "title": "'Wands and Beyond'",
+  "description": "Pop this in your pocket to gain use of the",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 3,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "wing-of-bat": {
+  "id": "wing-of-bat",
+  "title": "Wing of Bat",
+  "description": "The big black wing of a big black bat. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "sellPrice": 16,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "working-with-whips": {
+  "id": "working-with-whips",
+  "title": "'Working with Whips'",
+  "description": "Pop this in your pocket to gain use of the",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 3,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "yellow-orb": {
+  "id": "yellow-orb",
+  "title": "Yellow Orb",
+  "description": "A ridiculously rare orb of buttercup yellow. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 4,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item"
+ },
+ "yggdrasil-dew": {
+  "id": "yggdrasil-dew",
+  "title": "Yggdrasil Dew",
+  "description": "Divine drops that bring the whole party back to full health.",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 2,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "recipe": {
+   "elfin-elixir": 1,
+   "yggdrasil-leaf": 1
+  }
+ },
+ "yggdrasil-leaf": {
+  "id": "yggdrasil-leaf",
+  "title": "Yggdrasil Leaf",
+  "description": "Rare foliage that can resurrect a single written-off ally.",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 2,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday-item",
+  "ingredientFor": [
+   "yggdrasil-dew",
+   ",",
+   "elfin-elixir"
+  ]
+ }
+}

@@ -1,0 +1,432 @@
+{
+ "archdemon-whip": {
+  "id": "archdemon-whip",
+  "title": "Archdemon Whip",
+  "description": "A woeful whip that whiffs worryingly of wickedness.",
+  "statistics": {
+   "agility": 86,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "mage",
+   "minstrel",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "whip",
+  "recipe": {
+   "demon-whip": 1,
+   "malicite": 1,
+   "terrible-tattoo": 2
+  }
+ },
+ "battle-whip": {
+  "id": "battle-whip",
+  "title": "Battle Whip",
+  "description": "A combat whip that can hit a whole heap of enemies at once.",
+  "statistics": {
+   "agility": 17,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 960,
+  "vocations": [
+   "mage",
+   "minstrel",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "whip"
+ },
+ "chain-whip": {
+  "id": "chain-whip",
+  "title": "Chain Whip",
+  "description": "A whip of linked loops that can lash a whole line of enemies at once.",
+  "statistics": {
+   "agility": 28,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 3700,
+  "vocations": [
+   "mage",
+   "minstrel",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "whip",
+  "ingredientFor": [
+   "hunter-s-bow"
+  ]
+ },
+ "demon-whip": {
+  "id": "demon-whip",
+  "title": "Demon Whip",
+  "description": "A warped whip that whiffs worryingly of wickedness.",
+  "statistics": {
+   "agility": 72,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "mage",
+   "minstrel",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "whip",
+  "recipe": {
+   "iron-whip": 1,
+   "terrible-tattoo": 1,
+   "wing-of-bat": 3
+  }
+ },
+ "dragontail-whip": {
+  "id": "dragontail-whip",
+  "title": "Dragontail Whip",
+  "description": "A terribly tough whip designed to duplicate a dragon's tail.",
+  "statistics": {
+   "agility": 50,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 14000,
+  "vocations": [
+   "mage",
+   "minstrel",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "whip",
+  "recipe": {
+   "aggressence": 1,
+   "dragon-scale": 3,
+   "iron-whip": 1
+  }
+ },
+ "empress-s-whip": {
+  "id": "empress-s-whip",
+  "title": "Empress's Whip",
+  "description": "A ladylike lash fondly flaunted by a famous queen.",
+  "statistics": {
+   "agility": 93,
+   "special": {
+    "effect": "Deals 1.20x damage to Humanoid family"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "whip",
+  "ingredientFor": [
+   "goddess-whip"
+  ]
+ },
+ "giga-gringham-whip": {
+  "id": "giga-gringham-whip",
+  "title": "Giga Gringham Whip",
+  "description": "A reformed and remodelled revision of the Gringham whip.",
+  "statistics": {
+   "agility": 132,
+   "special": {
+    "effect": "Targets all enemies"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "whip"
+ },
+ "gigaspike-whip": {
+  "id": "gigaspike-whip",
+  "title": "Gigaspike Whip",
+  "description": "A fortified form of the spiked steel whip.",
+  "statistics": {
+   "agility": 68,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "mage",
+   "minstrel",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "whip",
+  "recipe": {
+   "hephaestus--flame": 1,
+   "iron-ore": 2,
+   "spiked-steel-whip": 1
+  }
+ },
+ "gringham-whip": {
+  "id": "gringham-whip",
+  "title": "Gringham Whip",
+  "description": "A fantastic flail that can attack all foes at once.",
+  "statistics": {
+   "agility": 118,
+   "special": {
+    "effect": "Targets all enemies"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "whip",
+  "ingredientFor": [
+   "mega-gringham-whip"
+  ]
+ },
+ "iron-whip": {
+  "id": "iron-whip",
+  "title": "Iron Whip",
+  "description": "A strong whip woven from ferrous fibres.",
+  "statistics": {
+   "agility": 38,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 6000,
+  "vocations": [
+   "mage",
+   "minstrel",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "whip",
+  "ingredientFor": [
+   "spiked-steel-whip",
+   ",",
+   "dragontail-whip",
+   ",",
+   "demon-whip",
+   "can-be-used-for:",
+   "012-putting-on-the-glitz"
+  ]
+ },
+ "leather-whip": {
+  "id": "leather-whip",
+  "title": "Leather Whip",
+  "description": "A whip made of hide that can hit a whole heap of enemies at once.",
+  "statistics": {
+   "agility": 4,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 95,
+  "vocations": [
+   "mage",
+   "minstrel",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "whip"
+ },
+ "mega-gringham-whip": {
+  "id": "mega-gringham-whip",
+  "title": "Mega Gringham Whip",
+  "description": "An even more vicious version of the Gringham whip.",
+  "statistics": {
+   "agility": 124,
+   "special": {
+    "effect": "Targets all enemies"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "whip",
+  "ingredientFor": [
+   "giga-gringham-whip",
+   ",",
+   "über-gringham-whip"
+  ]
+ },
+ "queen-s-whip": {
+  "id": "queen-s-whip",
+  "title": "Queen's Whip",
+  "description": "A ladylike lash fondly flaunted by a famous queen.",
+  "statistics": {
+   "agility": 80,
+   "special": {
+    "effect": "Deals 1.20x damage to Humanoid family"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "whip"
+ },
+ "scourge-whip": {
+  "id": "scourge-whip",
+  "title": "Scourge Whip",
+  "description": "A ferocious whip that lashes foes like a menacing monsoon.",
+  "statistics": {
+   "agility": 86,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "mage",
+   "minstrel",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "whip",
+  "recipe": {
+   "archdemon-whip": 1,
+   "saint-s-ashes": 1
+  }
+ },
+ "serpentine-whip": {
+  "id": "serpentine-whip",
+  "title": "Serpentine Whip",
+  "description": "A sturdy whip made from the skin of a large snake.",
+  "statistics": {
+   "agility": 33,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "mage",
+   "minstrel",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "whip",
+  "recipe": {
+   "magic-beast-horn": 1,
+   "snakeskin": 5,
+   "snakeskin-whip": 1
+  }
+ },
+ "sidewinder": {
+  "id": "sidewinder",
+  "title": "Sidewinder",
+  "description": "A stronger and more severe version of the serpentine whip.",
+  "statistics": {
+   "agility": 43,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "mage",
+   "minstrel",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "whip",
+  "recipe": {
+   "serpentine-whip": 1,
+   "snakeskin": 6,
+   "tough-guy-tattoo": 1
+  }
+ },
+ "snakeskin-whip": {
+  "id": "snakeskin-whip",
+  "title": "Snakeskin Whip",
+  "description": "A scaly whip that can hit a whole heap of enemies at once.",
+  "statistics": {
+   "agility": 23,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 2500,
+  "vocations": [
+   "mage",
+   "minstrel",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "whip",
+  "recipe": {
+   "leather-whip": 1,
+   "snakeskin": 3
+  }
+ },
+ "spiked-steel-whip": {
+  "id": "spiked-steel-whip",
+  "title": "Spiked Steel Whip",
+  "description": "A wicked whip woven from steel wires with spiny protrusions.",
+  "statistics": {
+   "agility": 54,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "mage",
+   "minstrel",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "whip",
+  "recipe": {
+   "iron-ore": 1,
+   "iron-whip": 1,
+   "lava-lump": 1
+  },
+  "ingredientFor": [
+   "gigaspike-whip"
+  ]
+ },
+ "thorn-whip": {
+  "id": "thorn-whip",
+  "title": "Thorn Whip",
+  "description": "A thorny thong that can hit a whole heap of enemies at once.",
+  "statistics": {
+   "agility": 11,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 350,
+  "vocations": [
+   "mage",
+   "minstrel",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "whip"
+ },
+ "wizardly-whip": {
+  "id": "wizardly-whip",
+  "title": "Wizardly Whip",
+  "description": "A well-known whip derived from a dim and distant city of doom.",
+  "statistics": {
+   "agility": 100,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "mage",
+   "minstrel",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "whip"
+ },
+ "über-gringham-whip": {
+  "id": "über-gringham-whip",
+  "title": "Über Gringham Whip",
+  "description": "A greatly improved Gringham whip that packs a serious punch.",
+  "statistics": {
+   "agility": 140,
+   "special": {
+    "effect": "Targets all enemies"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "whip"
+ }
+}

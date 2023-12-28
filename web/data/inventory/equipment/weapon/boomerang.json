@@ -1,0 +1,429 @@
+{
+ "asterang": {
+  "id": "asterang",
+  "title": "Asterang",
+  "description": "A rip-roaring 'rang that flattens foes like an avalanche of asteroids.",
+  "statistics": {
+   "agility": 120,
+   "special": {}
+  },
+  "rarity": 4,
+  "vocations": [
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "boomerang",
+  "recipe": {
+   "agate-of-evolution": 1,
+   "meteorang": 1,
+   "silver-orb": 1
+  }
+ },
+ "banefire-boomerang": {
+  "id": "banefire-boomerang",
+  "title": "Banefire Boomerang",
+  "description": "A boomerang blessed with the power of billowing flames.",
+  "statistics": {
+   "agility": 80,
+   "special": {
+    "effect": "Deals Fire-elemental damage"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "boomerang"
+ },
+ "blusterang": {
+  "id": "blusterang",
+  "title": "Blusterang",
+  "description": "A throwing stick so staggeringly strong, it can whip up a whirlwind.",
+  "statistics": {
+   "agility": 75,
+   "special": {
+    "effect": "Deals Wind-elemental damage"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "boomerang"
+ },
+ "boomerang": {
+  "id": "boomerang",
+  "title": "Boomerang",
+  "description": "A thrown weapon that can strike all enemies with a single sling.",
+  "statistics": {
+   "agility": 13,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 750,
+  "vocations": [
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "boomerang",
+  "ingredientFor": [
+   "reinforced-boomerang",
+   ",",
+   "boomer-briefs"
+  ]
+ },
+ "crucerang": {
+  "id": "crucerang",
+  "title": "Crucerang",
+  "description": "A dream 'rang that's a doddle to dispatch and deals decent damage.",
+  "statistics": {
+   "agility": 30,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 4300,
+  "vocations": [
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "boomerang",
+  "recipe": {
+   "gold-rosary": 1,
+   "hunter-s-bow": 1,
+   "reinforced-boomerang": 1
+  }
+ },
+ "cutting-edge-boomerang": {
+  "id": "cutting-edge-boomerang",
+  "title": "Cutting-Edge Boomerang",
+  "description": "A metal boomerang of shocking sharpness.",
+  "statistics": {
+   "agility": 35,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "boomerang",
+  "recipe": {
+   "edged-boomerang": 1,
+   "iron-nails": 3,
+   "magic-beast-horn": 3
+  }
+ },
+ "eaglewing": {
+  "id": "eaglewing",
+  "title": "Eaglewing",
+  "description": "A kylie whose construction is modelled on the king of hawks.",
+  "statistics": {
+   "agility": 65,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "boomerang",
+  "recipe": {
+   "flurry-feather": 3,
+   "kestrel-claws": 1,
+   "swallowtail": 1
+  }
+ },
+ "edged-boomerang": {
+  "id": "edged-boomerang",
+  "title": "Edged Boomerang",
+  "description": "A metal boomerang with a bladed bite.",
+  "statistics": {
+   "agility": 22,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 2750,
+  "vocations": [
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "boomerang",
+  "ingredientFor": [
+   "icicle-dirk",
+   ",",
+   "cutting-edge-boomerang"
+  ]
+ },
+ "erazor-wing-boomerang": {
+  "id": "erazor-wing-boomerang",
+  "title": "Erazor-Wing Boomerang",
+  "description": "An uncommonly keen kylie that carves the way to conquest.",
+  "statistics": {
+   "agility": 58,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "boomerang",
+  "recipe": {
+   "aggressence": 3,
+   "mythril-ore": 1,
+   "razer-wing-boomerang": 1
+  }
+ },
+ "flametang-boomerang": {
+  "id": "flametang-boomerang",
+  "title": "Flametang Boomerang",
+  "description": "A boomerang bearing a fiery force.",
+  "statistics": {
+   "agility": 71,
+   "special": {
+    "effect": "Deals Fire-elemental damage"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "boomerang",
+  "ingredientFor": [
+   "banefire-boomerang"
+  ]
+ },
+ "galaxarang": {
+  "id": "galaxarang",
+  "title": "Galaxarang",
+  "description": "A rip-roaring 'rang glorified for its galaxy-gashing get-up-and-go.",
+  "statistics": {
+   "agility": 138,
+   "special": {}
+  },
+  "rarity": 5,
+  "vocations": [
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "boomerang",
+  "recipe": {
+   "agate-of-evolution": 3,
+   "asterang": 1,
+   "silver-orb": 3
+  }
+ },
+ "gusterang": {
+  "id": "gusterang",
+  "title": "Gusterang",
+  "description": "A throwing stick suffused with the strength of the wind.",
+  "statistics": {
+   "agility": 61,
+   "special": {
+    "effect": "Deals Wind-elemental damage"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "boomerang",
+  "ingredientFor": [
+   "blusterang",
+   ",",
+   "flametang-boomerang",
+   ",",
+   "blustery-bow"
+  ]
+ },
+ "hexarang": {
+  "id": "hexarang",
+  "title": "Hexarang",
+  "description": "A curious kylie that's a pinch more powerful than the pentarang.",
+  "statistics": {
+   "agility": 101,
+   "special": {
+    "effect": "Deals 1.20x damage to Demon family"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "boomerang",
+  "ingredientFor": [
+   "pentarang"
+  ]
+ },
+ "meteorang": {
+  "id": "meteorang",
+  "title": "Meteorang",
+  "description": "A rip-roaring 'rang that flattens foes like a meteorite.",
+  "statistics": {
+   "agility": 111,
+   "special": {}
+  },
+  "rarity": 4,
+  "vocations": [
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "boomerang",
+  "recipe": {
+   "reset-stone": 1,
+   "stellarang": 1
+  },
+  "ingredientFor": [
+   "asterang"
+  ]
+ },
+ "pentarang": {
+  "id": "pentarang",
+  "title": "Pentarang",
+  "description": "A boomerang blessed with the power of billowing flames.",
+  "statistics": {
+   "agility": 89,
+   "special": {
+    "effect": "Deals 1.20x damage to Demon family"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "boomerang",
+  "ingredientFor": [
+   "hexarang"
+  ]
+ },
+ "razer-wing-boomerang": {
+  "id": "razer-wing-boomerang",
+  "title": "Razer-Wing Boomerang",
+  "description": "A razor-sharp 'rang renowned for razing the rabble to the ground.",
+  "statistics": {
+   "agility": 50,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "boomerang",
+  "recipe": {
+   "lunaria": 3,
+   "razor-wing-boomerang": 1
+  }
+ },
+ "razor-wing-boomerang": {
+  "id": "razor-wing-boomerang",
+  "title": "Razor-Wing Boomerang",
+  "description": "A steel-bladed boomerang with an acute edge.",
+  "statistics": {
+   "agility": 38,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 9100,
+  "vocations": [
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "boomerang",
+  "ingredientFor": [
+   "vermillion-bird-fan",
+   ",",
+   "razer-wing-boomerang"
+  ]
+ },
+ "reinforced-boomerang": {
+  "id": "reinforced-boomerang",
+  "title": "Reinforced Boomerang",
+  "description": "A slightly superior version of the basic boomerang.",
+  "statistics": {
+   "agility": 26,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "boomerang",
+  "recipe": {
+   "boomerang": 1,
+   "iron-nails": 3
+  }
+ },
+ "stellarang": {
+  "id": "stellarang",
+  "title": "Stellarang",
+  "description": "A rip-roaring 'rang that ploughs through its prey like a supernova.",
+  "statistics": {
+   "agility": 129,
+   "special": {}
+  },
+  "rarity": 4,
+  "vocations": [
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "boomerang",
+  "recipe": {
+   "agate-of-evolution": 3,
+   "asterang": 1,
+   "silver-orb": 3
+  }
+ },
+ "swallowtail": {
+  "id": "swallowtail",
+  "title": "Swallowtail",
+  "description": "A boomerang based on a picture of a pair of soaring swallows.",
+  "statistics": {
+   "agility": 48,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 9600,
+  "vocations": [
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "boomerang",
+  "ingredientFor": [
+   "eaglewing",
+   ",",
+   "gusterang"
+  ]
+ }
+}

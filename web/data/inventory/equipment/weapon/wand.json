@@ -1,0 +1,565 @@
+{
+ "aurora-staff": {
+  "id": "aurora-staff",
+  "title": "Aurora Staff",
+  "description": "An unsurpassed staff that stamps out magical effects when used as an item in battle.",
+  "statistics": {
+   "agility": 98,
+   "magicalMending": 18,
+   "special": {
+    "usage": "Disruptive Wave"
+   }
+  },
+  "rarity": 5,
+  "vocations": [
+   "priest",
+   "mage",
+   "paladin",
+   "armamentalist",
+   "sage"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "wand",
+  "recipe": {
+   "agate-of-evolution": 1,
+   "blue-orb": 1,
+   "shining-staff": 1
+  }
+ },
+ "bright-staff": {
+  "id": "bright-staff",
+  "title": "Bright Staff",
+  "description": "A radiant staff that stamps out magical effects when used as an item in battle.",
+  "statistics": {
+   "agility": 85,
+   "magicalMending": 8,
+   "special": {
+    "usage": "Disruptive Wave"
+   }
+  },
+  "rarity": 4,
+  "vocations": [
+   "priest",
+   "mage",
+   "paladin",
+   "armamentalist",
+   "sage"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "wand",
+  "recipe": {
+   "brilliant-staff": 1,
+   "reset-stone": 1
+  },
+  "ingredientFor": [
+   "shining-staff"
+  ]
+ },
+ "brilliant-staff": {
+  "id": "brilliant-staff",
+  "title": "Brilliant Staff",
+  "description": "A divine staff that stamps out magical effects when used as an item in battle.",
+  "statistics": {
+   "agility": 94,
+   "magicalMending": 15,
+   "special": {
+    "usage": "Disruptive Wave"
+   }
+  },
+  "rarity": 4,
+  "vocations": [
+   "priest",
+   "mage",
+   "paladin",
+   "armamentalist",
+   "sage"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "wand",
+  "recipe": {
+   "agate-of-evolution": 1,
+   "blue-orb": 1,
+   "shining-staff": 1
+  }
+ },
+ "brouhaha-boomstick": {
+  "id": "brouhaha-boomstick",
+  "title": "Brouhaha Boomstick",
+  "description": "A weird wand with a somewhat flute-like form.",
+  "statistics": {
+   "agility": 50,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "priest",
+   "mage",
+   "paladin",
+   "armamentalist",
+   "sage"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "wand"
+ },
+ "faerie-staff": {
+  "id": "faerie-staff",
+  "title": "Faerie Staff",
+  "description": "A strange staff that once sealed away some faerie sisters.",
+  "statistics": {
+   "agility": 5,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "priest",
+   "mage",
+   "paladin",
+   "armamentalist",
+   "sage"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "wand"
+ },
+ "hieroglyph-staff": {
+  "id": "hieroglyph-staff",
+  "title": "Hieroglyph Staff",
+  "description": "A stick that seriously steps up magical might.",
+  "statistics": {
+   "agility": 54,
+   "magicalMight": 15,
+   "special": {}
+  },
+  "vocations": [
+   "priest",
+   "mage",
+   "paladin",
+   "armamentalist",
+   "sage"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "wand",
+  "recipe": {
+   "rune-staff": 1,
+   "sage-s-elixir": 3,
+   "sorcerer-s-ring": 1
+  }
+ },
+ "lightning-conductor": {
+  "id": "lightning-conductor",
+  "title": "Lightning Conductor",
+  "description": "A staff that throws thunderbolts if used as an item in battle.",
+  "statistics": {
+   "agility": 40,
+   "special": {
+    "usage": "Deals 17-27 Lightning damage to enemy group"
+   }
+  },
+  "rarity": 2,
+  "vocations": [
+   "priest",
+   "mage",
+   "paladin",
+   "armamentalist",
+   "sage"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "wand",
+  "recipe": {
+   "lightning-staff": 1,
+   "sage-s-elixir": 1,
+   "thunderball": 0
+  }
+ },
+ "lightning-staff": {
+  "id": "lightning-staff",
+  "title": "Lightning Staff",
+  "description": "A staff that summons savage lightning if used as an item in battle.",
+  "statistics": {
+   "agility": 28,
+   "special": {
+    "usage": "Deals 17-27 Lightning damage to enemy group"
+   }
+  },
+  "rarity": 1,
+  "buyPrice": 8100,
+  "vocations": [
+   "priest",
+   "mage",
+   "paladin",
+   "armamentalist",
+   "sage"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "wand",
+  "recipe": {
+   "magic-water": 1,
+   "stolos--staff": 1,
+   "thunderball": 3
+  }
+ },
+ "magical-mace": {
+  "id": "magical-mace",
+  "title": "Magical Mace",
+  "description": "A magical staff that sucks masses of MP from the enemy.",
+  "statistics": {
+   "agility": 57,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 17000,
+  "vocations": [
+   "priest",
+   "mage",
+   "paladin",
+   "armamentalist",
+   "sage"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "wand",
+  "ingredientFor": [
+   "mega-magical-mace"
+  ]
+ },
+ "magma-staff": {
+  "id": "magma-staff",
+  "title": "Magma Staff",
+  "description": "A staff that lobs lava if used as an item in battle.",
+  "statistics": {
+   "agility": 35,
+   "special": {
+    "usage": "Deals 20-30 Lightning damage to enemy group"
+   }
+  },
+  "rarity": 1,
+  "buyPrice": 10800,
+  "vocations": [
+   "priest",
+   "mage",
+   "paladin",
+   "armamentalist",
+   "sage"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "wand",
+  "recipe": {
+   "brighten-rock": 3,
+   "rockbomb-shard": 3,
+   "stolos--staff": 1
+  }
+ },
+ "oak-staff": {
+  "id": "oak-staff",
+  "title": "Oak Staff",
+  "description": "A staff whittled from the wood of an old oak tree.",
+  "statistics": {
+   "agility": 3,
+   "special": {
+    "usage": "Deals 12-16 Ice damage to one enemy"
+   }
+  },
+  "rarity": 1,
+  "buyPrice": 120,
+  "vocations": [
+   "priest",
+   "mage",
+   "paladin",
+   "armamentalist",
+   "sage"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "wand"
+ },
+ "rune-staff": {
+  "id": "rune-staff",
+  "title": "Rune Staff",
+  "description": "A stick that steps up magical might.",
+  "statistics": {
+   "agility": 45,
+   "magicalMight": 8,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 12400,
+  "vocations": [
+   "priest",
+   "mage",
+   "paladin",
+   "armamentalist",
+   "sage"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "wand",
+  "recipe": {
+   "magic-water": 5,
+   "ruby-of-protection": 1,
+   "stolos--staff": 1
+  },
+  "ingredientFor": [
+   "hieroglyph-staff"
+  ]
+ },
+ "sage-s-staff": {
+  "id": "sage-s-staff",
+  "title": "Sage's Staff",
+  "description": "Protects an ally from breath attacks if used as an item in battle.",
+  "statistics": {
+   "agility": 73,
+   "magicalMight": 12,
+   "special": {
+    "usage": "Insulate"
+   }
+  },
+  "rarity": 2,
+  "buyPrice": 35000,
+  "vocations": [
+   "priest",
+   "mage",
+   "paladin",
+   "armamentalist",
+   "sage"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "wand",
+  "ingredientFor": [
+   "savant-s-staff"
+  ]
+ },
+ "savant-s-staff": {
+  "id": "savant-s-staff",
+  "title": "Savant's Staff",
+  "description": "A souped-up sort of sage's staff, with mightier magic.",
+  "statistics": {
+   "agility": 80,
+   "magicalMight": 20,
+   "special": {
+    "usage": "Insulate"
+   }
+  },
+  "rarity": 3,
+  "vocations": [
+   "priest",
+   "mage",
+   "paladin",
+   "armamentalist",
+   "sage"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "wand",
+  "recipe": {
+   "agate-of-evolution": 1,
+   "sage-s-elixir": 3,
+   "sage-s-staff": 1
+  }
+ },
+ "sceptre-of-gitt": {
+  "id": "sceptre-of-gitt",
+  "title": "Sceptre of Gitt",
+  "description": "Hereditary heirloom of the heinous heads of the Gittish Empire.",
+  "statistics": {
+   "agility": 70,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "priest",
+   "mage",
+   "paladin",
+   "armamentalist",
+   "sage"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "wand"
+ },
+ "shining-staff": {
+  "id": "shining-staff",
+  "title": "Shining Staff",
+  "description": "A holy staff that stamps out magical effects when used as an item in battle.",
+  "statistics": {
+   "agility": 90,
+   "magicalMending": 12,
+   "special": {
+    "usage": "Disruptive Wave"
+   }
+  },
+  "rarity": 4,
+  "vocations": [
+   "priest",
+   "mage",
+   "paladin",
+   "armamentalist",
+   "sage"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "wand",
+  "recipe": {
+   "agate-of-evolution": 1,
+   "blue-orb": 1,
+   "bright-staff": 1
+  }
+ },
+ "staff-of-divine-wrath": {
+  "id": "staff-of-divine-wrath",
+  "title": "Staff of Divine Wrath",
+  "description": "A stick that whips foes with wild winds if used as an item in battle.",
+  "statistics": {
+   "agility": 20,
+   "special": {
+    "usage": "Deals 8-24 Wind damage to enemy group"
+   }
+  },
+  "rarity": 1,
+  "vocations": [
+   "priest",
+   "mage",
+   "paladin",
+   "armamentalist",
+   "sage"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "wand",
+  "recipe": {
+   "flurry-feather": 3,
+   "sage-s-elixir": 1,
+   "staff-of-sentencing": 1
+  }
+ },
+ "staff-of-sentencing": {
+  "id": "staff-of-sentencing",
+  "title": "Staff of Sentencing",
+  "description": "A wand that whisks up whirling winds when used as an item in battle.",
+  "statistics": {
+   "agility": 11,
+   "special": {
+    "usage": "Deals 8-24 Wind damage to enemy group"
+   }
+  },
+  "rarity": 1,
+  "buyPrice": 1600,
+  "vocations": [
+   "priest",
+   "mage",
+   "paladin",
+   "armamentalist",
+   "sage"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "wand",
+  "recipe": {
+   "flurry-feather": 1,
+   "magic-water": 1,
+   "wizard-s-staff": 1
+  }
+ },
+ "stolos--staff": {
+  "id": "stolos--staff",
+  "title": "Stolos' Staff",
+  "description": "A staff that stops your party's paralysis if used as an item in battle.",
+  "statistics": {
+   "agility": 18,
+   "special": {
+    "usage": "Tingle"
+   }
+  },
+  "rarity": 1,
+  "buyPrice": 3150,
+  "vocations": [
+   "priest",
+   "mage",
+   "paladin",
+   "armamentalist",
+   "sage"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "wand"
+ },
+ "tsunami-staff": {
+  "id": "tsunami-staff",
+  "title": "Tsunami Staff",
+  "description": "A rod of the ocean gods that smacks seaborne foes with fierce force.",
+  "statistics": {
+   "agility": 36,
+   "special": {
+    "effect": "Deals 1.20x damage to Aquatic family"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "wand"
+ },
+ "watermaul-wand": {
+  "id": "watermaul-wand",
+  "title": "Watermaul Wand",
+  "description": "A staff swirling with the strength of the sea. Feared by fishy foes.",
+  "statistics": {
+   "agility": 25,
+   "special": {
+    "effect": "Deals 1.20x damage to Aquatic family"
+   }
+  },
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "wand"
+ },
+ "wizard-s-staff": {
+  "id": "wizard-s-staff",
+  "title": "Wizard's Staff",
+  "description": "A staff that throws fire at foes if used as an item in battle.",
+  "statistics": {
+   "agility": 7,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 840,
+  "vocations": [
+   "priest",
+   "mage",
+   "paladin",
+   "armamentalist",
+   "sage"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "wand"
+ },
+ "wyrmwand": {
+  "id": "wyrmwand",
+  "title": "Wyrmwand",
+  "description": "A wand that fries foes with dragonfire if used as an item in battle.",
+  "statistics": {
+   "agility": 88,
+   "special": {
+    "usage": "Deals 23-33 Fire damage to all enemies"
+   }
+  },
+  "rarity": 3,
+  "vocations": [
+   "priest",
+   "mage",
+   "paladin",
+   "armamentalist",
+   "sage"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "wand"
+ }
+}

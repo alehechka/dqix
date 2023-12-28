@@ -1,0 +1,1033 @@
+{
+ "big-boss-shield": {
+  "id": "big-boss-shield",
+  "title": "Big Boss Shield",
+  "description": "A shield that casts a Sap spell if used as an item in battle.",
+  "statistics": {
+   "defense": 34,
+   "blockChance": 6,
+   "special": {
+    "usage": "Sap"
+   }
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "shield",
+  "recipe": {
+   "agate-of-evolution": 1,
+   "boss-shield": 1,
+   "mighty-armlet": 1
+  }
+ },
+ "boss-shield": {
+  "id": "boss-shield",
+  "title": "Boss Shield",
+  "description": "A shield that casts a Sap spell if used as an item in battle.",
+  "statistics": {
+   "defense": 31,
+   "blockChance": 5.5,
+   "special": {
+    "usage": "Sap"
+   }
+  },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "shield"
+ },
+ "brain-drainer": {
+  "id": "brain-drainer",
+  "title": "Brain Drainer",
+  "description": "A supernatural shield that brings a magical barrier into being.",
+  "statistics": {
+   "defense": 34,
+   "blockChance": 8.5,
+   "special": {
+    "usage": "Magic Barrier",
+    "effect": "Resists 10% damage from Fire, Ice, Wind, Lightning, and Dark;"
+   }
+  },
+  "rarity": 4,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "shield",
+  "recipe": {
+   "devilry-drinker": 1,
+   "reset-stone": 1
+  }
+ },
+ "bronze-shield": {
+  "id": "bronze-shield",
+  "title": "Bronze Shield",
+  "description": "A sizeable shield bashed out of bronze.",
+  "statistics": {
+   "defense": 6,
+   "blockChance": 0.5,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 370,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "shield"
+ },
+ "dark-shield": {
+  "id": "dark-shield",
+  "title": "Dark Shield",
+  "description": "A jet-black shield that guards against fire- and ice-based attacks.",
+  "statistics": {
+   "defense": 30,
+   "blockChance": 5,
+   "special": {
+    "effect": "Resists 5% damage from Fire and Ice"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "shield",
+  "ingredientFor": [
+   "ogre-shield"
+  ]
+ },
+ "devilry-drinker": {
+  "id": "devilry-drinker",
+  "title": "Devilry Drinker",
+  "description": "A supreme shield that brings a magical barrier into being.",
+  "statistics": {
+   "defense": 38,
+   "blockChance": 9.5,
+   "special": {
+    "usage": "Magic Barrier",
+    "effect": "Resists 10% damage from Fire, Ice, Wind, Lightning, and Dark;"
+   }
+  },
+  "rarity": 4,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "shield",
+  "recipe": {
+   "agate-of-evolution": 3,
+   "green-orb": 3,
+   "psyche-swiper": 1
+  }
+ },
+ "dragon-shield": {
+  "id": "dragon-shield",
+  "title": "Dragon Shield",
+  "description": "A shield of dragon's scales that stifles fire- and ice-based strikes.",
+  "statistics": {
+   "defense": 24,
+   "blockChance": 3.5,
+   "special": {
+    "effect": "Resists 10% damage from Fire and Ice"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "shield"
+ },
+ "empowered-shield": {
+  "id": "empowered-shield",
+  "title": "Empowered Shield",
+  "description": "A big shield that bolsters its bearer's HP if used in battle.",
+  "statistics": {
+   "defense": 29,
+   "blockChance": 4.5,
+   "special": {
+    "usage": "Midheal",
+    "effect": "Resists 5% damage from Fire and Ice;"
+   }
+  },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "shield",
+  "recipe": {
+   "life-bracer": 2,
+   "power-shield": 1
+  }
+ },
+ "erdrick-s-shield": {
+  "id": "erdrick-s-shield",
+  "title": "Erdrick's Shield",
+  "description": "A shield purportedly sported by the original legendary hero himself.",
+  "statistics": {
+   "defense": 39,
+   "blockChance": 9,
+   "special": {}
+  },
+  "rarity": 4,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "shield",
+  "recipe": {
+   "glass-frit": 9,
+   "orichalcum": 1,
+   "rusty-shield": 1
+  }
+ },
+ "ethereal-shield": {
+  "id": "ethereal-shield",
+  "title": "Ethereal Shield",
+  "description": "A mystical shield that holds fast against even fierce offensive spells.",
+  "statistics": {
+   "defense": 23,
+   "blockChance": 3.5,
+   "magicalMight": 12,
+   "magicalMending": 12,
+   "special": {
+    "effect": "Resists 10% damage from Fire, Ice, Wind, Lightning, and Dark"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "shield"
+ },
+ "flame-shield": {
+  "id": "flame-shield",
+  "title": "Flame Shield",
+  "description": "A shield that builds a fireproof barrier if used as an item in battle.",
+  "statistics": {
+   "defense": 18,
+   "blockChance": 2.5,
+   "special": {
+    "usage": "Increases fire resistance of all allies",
+    "effect": "Resists 10% damage from Fire;"
+   }
+  },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "shield",
+  "recipe": {
+   "lava-lump": 1,
+   "magic-shield": 1,
+   "resurrock": 1
+  }
+ },
+ "gigasteel-shield": {
+  "id": "gigasteel-shield",
+  "title": "Gigasteel Shield",
+  "description": "A strengthened steel shield that can dampen fire and ice damage.",
+  "statistics": {
+   "defense": 16,
+   "blockChance": 2,
+   "special": {
+    "effect": "Resists 9% damage from Fire and Ice"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "shield"
+ },
+ "goddess-shield": {
+  "id": "goddess-shield",
+  "title": "Goddess Shield",
+  "description": "A sanctified shield that's certain to stave off magic attacks.",
+  "statistics": {
+   "defense": 35,
+   "blockChance": 7,
+   "special": {
+    "effect": "Resists 10% damage from Fire, Ice, Wind, Lightning, and Dark"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "shield"
+ },
+ "gold-platter": {
+  "id": "gold-platter",
+  "title": "Gold Platter",
+  "description": "A gorgeous gold dish that makes a good stopgap shield.",
+  "statistics": {
+   "defense": 9,
+   "blockChance": 2,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "shield",
+  "recipe": {
+   "gold-bracer": 1,
+   "silver-platter": 1
+  },
+  "canBeUsedFor": [
+   "012-putting-on-the-glitz"
+  ]
+ },
+ "ice-shield": {
+  "id": "ice-shield",
+  "title": "Ice Shield",
+  "description": "A shield that builds an iceproof barrier if used as an item in battle.",
+  "statistics": {
+   "defense": 18,
+   "blockChance": 2.5,
+   "special": {
+    "usage": "Increases ice resistance of all allies",
+    "effect": "Resists 10% damage from Ice;"
+   }
+  },
+  "rarity": 1,
+  "buyPrice": 5700,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "shield",
+  "recipe": {
+   "ice-crystal": 1,
+   "magic-shield": 1,
+   "resurrock": 1
+  }
+ },
+ "iron-shield": {
+  "id": "iron-shield",
+  "title": "Iron Shield",
+  "description": "A steadfast shield made of iron.",
+  "statistics": {
+   "defense": 10,
+   "blockChance": 1,
+   "special": {
+    "effect": "Resists 5% damage from Fire and Ice"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "shield",
+  "ingredientFor": [
+   "steel-shield",
+   "can-be-used-for:",
+   "012-putting-on-the-glitz"
+  ]
+ },
+ "kitty-shield": {
+  "id": "kitty-shield",
+  "title": "Kitty Shield",
+  "description": "A charming piece of armour with a feline design.",
+  "statistics": {
+   "defense": 11,
+   "blockChance": 2,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "shield",
+  "recipe": {
+   "kitty-litter": 1,
+   "light-shield": 1
+  },
+  "ingredientFor": [
+   "white-tiger-fan",
+   ",",
+   "catty-shield"
+  ]
+ },
+ "leather-shield": {
+  "id": "leather-shield",
+  "title": "Leather Shield",
+  "description": "An unsophisticated shield of leather over lumber.",
+  "statistics": {
+   "defense": 3,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 90,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "shield"
+ },
+ "light-shield": {
+  "id": "light-shield",
+  "title": "Light Shield",
+  "description": "A lightweight shield, easily used and ideal for learners.",
+  "statistics": {
+   "defense": 10,
+   "blockChance": 1.5,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 1250,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "shield"
+ },
+ "liquid-metal-shield": {
+  "id": "liquid-metal-shield",
+  "title": "Liquid Metal Shield",
+  "description": "A shield made with liquid metal slimes that guards against magical attacks.",
+  "statistics": {
+   "defense": 35,
+   "blockChance": 8,
+   "special": {
+    "effect": "Resists 7% damage from all elements"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "shield",
+  "ingredientFor": [
+   "metal-king-shield"
+  ]
+ },
+ "magic-shield": {
+  "id": "magic-shield",
+  "title": "Magic Shield",
+  "description": "A mystical shield that provides protection against offensive spells.",
+  "statistics": {
+   "defense": 17,
+   "blockChance": 2.5,
+   "magicalMight": 8,
+   "magicalMending": 8,
+   "special": {
+    "effect": "Resists 5% damage from Fire, Ice, Wind, Lightning, and Dark."
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "shield",
+  "ingredientFor": [
+   "enchanted-shield",
+   "flame-shield",
+   "ice-shield",
+   "dragon-shield",
+   "tempest-shield",
+   "can-be-used-for:",
+   "012-putting-on-the-glitz"
+  ]
+ },
+ "metal-king-shield": {
+  "id": "metal-king-shield",
+  "title": "Metal King Shield",
+  "description": "A shield made with metal king slimes that guards against magical attacks.",
+  "statistics": {
+   "defense": 37,
+   "blockChance": 8.5,
+   "special": {
+    "effect": "Resists 10% damage from all elements"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "shield"
+ },
+ "metal-slime-shield": {
+  "id": "metal-slime-shield",
+  "title": "Metal Slime Shield",
+  "description": "A shield made with metal slimes that guards against magical attacks.",
+  "statistics": {
+   "defense": 33,
+   "blockChance": 7.5,
+   "special": {
+    "effect": "Resists 5% damage from all elements"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "shield",
+  "ingredientFor": [
+   "liquid-metal-shield"
+  ]
+ },
+ "ogre-shield": {
+  "id": "ogre-shield",
+  "title": "Ogre Shield",
+  "description": "A super-sized shield that can stave off fire- and ice-based strikes.",
+  "statistics": {
+   "defense": 33,
+   "blockChance": 5.5,
+   "special": {
+    "effect": "Resists 7% damage from Fire and Ice"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "shield"
+ },
+ "platinum-platter": {
+  "id": "platinum-platter",
+  "title": "Platinum Platter",
+  "description": "A prize platinum plate that makes a perfect stopgap shield.",
+  "statistics": {
+   "defense": 12,
+   "blockChance": 2,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "shield",
+  "recipe": {
+   "gold-platter": 1,
+   "platinum-ore": 1
+  }
+ },
+ "platinum-shield": {
+  "id": "platinum-shield",
+  "title": "Platinum Shield",
+  "description": "Protection made of platinum that fares well against fire attacks.",
+  "statistics": {
+   "defense": 15,
+   "blockChance": 2,
+   "special": {
+    "effect": "Resists 5% damage from Fire"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "shield",
+  "canBeUsedFor": [
+   "012-putting-on-the-glitz"
+  ]
+ },
+ "pot-lid": {
+  "id": "pot-lid",
+  "title": "Pot Lid",
+  "description": "A super-simple shield shaped by sticking a strap on a saucepan lid.",
+  "statistics": {
+   "defense": 1,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 40,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "shield"
+ },
+ "power-shield": {
+  "id": "power-shield",
+  "title": "Power Shield",
+  "description": "A shield that bolsters its bearer's HP if used as an item in battle.",
+  "statistics": {
+   "defense": 27,
+   "blockChance": 4,
+   "special": {
+    "usage": "Midheal",
+    "effect": "Resists 5% damage from Fire and Ice;"
+   }
+  },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "shield",
+  "recipe": {
+   "panacea": 1,
+   "raging-ruby": 1,
+   "warrior-s-shield": 1
+  },
+  "ingredientFor": [
+   "empowered-shield"
+  ]
+ },
+ "psyche-swiper": {
+  "id": "psyche-swiper",
+  "title": "Psyche Swiper",
+  "description": "A splendid shield that brings a magical barrier into being.",
+  "statistics": {
+   "defense": 36,
+   "blockChance": 9,
+   "special": {
+    "usage": "Magic Barrier",
+    "effect": "Resists 10% damage from Fire, Ice, Wind, Lightning, and Dark;"
+   }
+  },
+  "rarity": 4,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "shield",
+  "recipe": {
+   "agate-of-evolution": 1,
+   "brain-drainer": 1,
+   "green-orb": 1
+  }
+ },
+ "ruinous-shield": {
+  "id": "ruinous-shield",
+  "title": "Ruinous Shield",
+  "description": "A sinister shield that emanates an eerie aura.",
+  "statistics": {
+   "blockChance": 6.5,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "shield"
+ },
+ "rusty-shield": {
+  "id": "rusty-shield",
+  "title": "Rusty Shield",
+  "description": "A corroded and conked-out shield of obscure origins.",
+  "statistics": {
+   "defense": 5,
+   "blockChance": 2.5,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "minstrel",
+   "armamentalist"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "shield",
+  "ingredientFor": [
+   "erdrick-s-shield"
+  ]
+ },
+ "saintess-shield": {
+  "id": "saintess-shield",
+  "title": "Saintess Shield",
+  "description": "A sanctified shield that's stout in the face of magical attacks.",
+  "statistics": {
+   "defense": 32,
+   "blockChance": 6.5,
+   "special": {
+    "effect": "Resists 7% damage from Fire, Ice, Wind, Lightning, and Dark"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "shield",
+  "ingredientFor": [
+   "goddess-shield"
+  ]
+ },
+ "scale-shield": {
+  "id": "scale-shield",
+  "title": "Scale Shield",
+  "description": "A shield made by sticking sturdy scales together.",
+  "statistics": {
+   "defense": 5,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 150,
+  "sellPrice": 75,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "shield"
+ },
+ "shell-shield": {
+  "id": "shell-shield",
+  "title": "Shell Shield",
+  "description": "A shield made from the shell of a tortoise.",
+  "statistics": {
+   "defense": 8,
+   "blockChance": 0.5,
+   "special": {}
+  },
+  "rarity": 1,
+  "buyPrice": 600,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "shield",
+  "recipe": {
+   "scale-shield": 1,
+   "tortoiseshell": 1
+  }
+ },
+ "silver-platter": {
+  "id": "silver-platter",
+  "title": "Silver Platter",
+  "description": "A salver made of silver that makes a stopgap shield.",
+  "statistics": {
+   "defense": 6,
+   "blockChance": 1,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "shield",
+  "ingredientFor": [
+   "gold-platter",
+   ",",
+   "filigree-mask",
+   ",",
+   "silver-cuirass"
+  ]
+ },
+ "silver-shield": {
+  "id": "silver-shield",
+  "title": "Silver Shield",
+  "description": "A shiny shield that shuns MP absorption, fire and thunder.",
+  "statistics": {
+   "defense": 32,
+   "blockChance": 6,
+   "special": {
+    "effect": "Resists 18% damage from Lightning; 10% from Fire; resists 25% MP Absorption"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "shield"
+ },
+ "slime-shield": {
+  "id": "slime-shield",
+  "title": "Slime Shield",
+  "description": "A slime-shaped shield that just oozes class.",
+  "statistics": {
+   "defense": 16,
+   "blockChance": 2.5,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "shield"
+ },
+ "soul-sucker": {
+  "id": "soul-sucker",
+  "title": "Soul Sucker",
+  "description": "A superlative shield that brings a magical barrier into being.",
+  "statistics": {
+   "defense": 40,
+   "blockChance": 10,
+   "special": {
+    "usage": "Magic Barrier",
+    "effect": "Resists 10% damage from Fire, Ice, Wind, Lightning, and Dark;"
+   }
+  },
+  "rarity": 4,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "shield",
+  "recipe": {
+   "agate-of-evolution": 3,
+   "green-orb": 3,
+   "psyche-swiper": 1
+  }
+ },
+ "steel-shield": {
+  "id": "steel-shield",
+  "title": "Steel Shield",
+  "description": "A shield of steel that can stave off some fire- and ice-based strife.",
+  "statistics": {
+   "defense": 13,
+   "blockChance": 1.5,
+   "special": {
+    "effect": "Resists 7% damage from Fire and Ice"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "shield",
+  "ingredientFor": [
+   "gigasteel-shield"
+  ]
+ },
+ "tempest-shield": {
+  "id": "tempest-shield",
+  "title": "Tempest Shield",
+  "description": "A shield that baffles breath attacks if used as an item in battle.",
+  "statistics": {
+   "defense": 25,
+   "blockChance": 3.5,
+   "special": {
+    "usage": "Insulate"
+   }
+  },
+  "rarity": 1,
+  "buyPrice": 12500,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "shield",
+  "recipe": {
+   "flurry-feather": 3,
+   "magic-shield": 1,
+   "ruby-of-protection": 1
+  }
+ },
+ "warrior-s-shield": {
+  "id": "warrior-s-shield",
+  "title": "Warrior's Shield",
+  "description": "A shield for soldiers offering some immunity to magic attacks.",
+  "statistics": {
+   "defense": 21,
+   "blockChance": 3.5,
+   "special": {
+    "effect": "Resists 5% damage from Fire, Ice, Wind, Lightning, and Dark"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "shield"
+ },
+ "white-knight-s-shield": {
+  "id": "white-knight-s-shield",
+  "title": "White Knight's Shield",
+  "description": "A sacred shield employed to protect against unholy assaults.",
+  "statistics": {
+   "defense": 25,
+   "blockChance": 4,
+   "special": {
+    "effect": "Resists 10% damage from Dark; 5% from Fire and Ice"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "shield",
+  "ingredientFor": [
+   "silver-shield",
+   "can-be-used-for:",
+   "012-putting-on-the-glitz"
+  ]
+ },
+ "white-shield": {
+  "id": "white-shield",
+  "title": "White Shield",
+  "description": "A sacred shield that shines with a white light.",
+  "statistics": {
+   "defense": 20,
+   "blockChance": 3,
+   "special": {
+    "effect": "Resists 5% damage from Fire"
+   }
+  },
+  "type": "equipment",
+  "category": "armor",
+  "classification": "shield"
+ }
+}
