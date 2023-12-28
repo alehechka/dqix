@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"os"
 	"path/filepath"
+	"sort"
 	"strconv"
 	"strings"
 )
@@ -38,7 +39,7 @@ func (i InventoryMap) AddInventory(inventory Inventory) {
 	i[inventory.Type][inventory.Category][inventory.Classification][inventory.ID] = inventory
 }
 
-func (i InventoryMap) GetInventory(typeId string, category string, classification string, inventoryId string) (inventory Inventory) {
+func (i InventoryMap) GetClassification(typeId string, category string, classification string) (classifications map[string]Inventory) {
 	types, ok := i[typeId]
 	if !ok || types == nil {
 		return
@@ -49,8 +50,40 @@ func (i InventoryMap) GetInventory(typeId string, category string, classificatio
 		return
 	}
 
-	classifications, ok := categories[classification]
-	if !ok || classifications == nil {
+	return categories[classification]
+}
+
+func (i InventoryMap) GetClassificationSlice(typeId string, category string, classification string) (classifications []Inventory) {
+	types, ok := i[typeId]
+	if !ok || types == nil {
+		return
+	}
+
+	categories, ok := types[category]
+	if !ok || categories == nil {
+		return
+	}
+
+	classes, ok := categories[classification]
+	if !ok || classes == nil {
+		return
+	}
+
+	keys := make([]string, 0, len(classes))
+	for k := range classes {
+		keys = append(keys, k)
+	}
+	sort.Strings(keys)
+
+	for _, k := range keys {
+		classifications = append(classifications, classes[k])
+	}
+	return
+}
+
+func (i InventoryMap) GetInventory(typeId string, category string, classification string, inventoryId string) (inventory Inventory) {
+	classifications := i.GetClassification(typeId, category, classification)
+	if classifications == nil {
 		return
 	}
 

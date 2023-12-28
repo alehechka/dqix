@@ -5,22 +5,22 @@ import "dqix/web/templ/components/base"
 import "strings"
 import "dqix/web/templ/utilities"
 
-templ InventoryClassificationPage(class string, inventoryMap map[string]types.Inventory) {
+templ InventoryClassificationPage(class string, inventories []types.Inventory) {
 	@base.Layout("DQIX | " + strings.Title(class), class) {
-		@inventoryClassificationContent(inventoryMap)
+		@inventoryClassificationContent(inventories)
 	}
 }
 
-templ InventoryClassificationContentWithSideNav(class string, inventoryMap map[string]types.Inventory) {
+templ InventoryClassificationContentWithSideNav(class string, inventories []types.Inventory) {
 	@base.MainContentWithSidenav(class) {
-		@inventoryClassificationContent(inventoryMap)
+		@inventoryClassificationContent(inventories)
 	}
 }
 
-templ inventoryClassificationContent(inventoryMap map[string]types.Inventory) {
+templ inventoryClassificationContent(inventories []types.Inventory) {
 	<div>
 		<ul>
-			for _, inventory := range inventoryMap {
+			for _, inventory := range inventories {
 				<li>
 					<a href={ fn.Path("inventory", inventory.Type, inventory.Category, inventory.Classification, inventory.ID) }>{ inventory.Title }</a>
 				</li>

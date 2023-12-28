@@ -44,7 +44,10 @@ func (a *app) SetupRouter() *gin.Engine {
 	engine.GET("/inventory/:type")
 	engine.GET("/inventory/:type/:category")
 	engine.GET("/inventory/:type/:category/:classification", func(ctx *gin.Context) {
-		ctx.HTML(http.StatusOK, "", pages.InventoryClassificationContentWithSideNav(ctx.Param("classification"), nil))
+		typeId := ctx.Param("type")
+		category := ctx.Param("category")
+		classification := ctx.Param("classification")
+		ctx.HTML(http.StatusOK, "", pages.InventoryClassificationContentWithSideNav(classification, a.data.inventoryMap.GetClassificationSlice(typeId, category, classification)))
 	})
 	engine.GET("/inventory/:type/:category/:classification/:id")
 
@@ -52,6 +55,12 @@ func (a *app) SetupRouter() *gin.Engine {
 }
 
 func (r *RouterHandler) Run(port int) error {
+	if err := r.app.loadData(); err != nil {
+		return err
+	}
+
+	fmt.Println(len(r.app.data.inventoryMap))
+
 	addr := fmt.Sprintf(":%d", port)
 
 	return r.router.Run(addr)
