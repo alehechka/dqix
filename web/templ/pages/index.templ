@@ -1,0 +1,16 @@
+package pages
+
+import "dqix/web/templ/components/base"
+import "dqix/internal/types"
+
+templ IndexPage() {
+	@base.Layout("Dragon Quest IX", types.SideNavPages{}) {
+		@indexContent()
+	}
+}
+
+templ indexContent() {
+	<div class="" hx-boost="true">
+		<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae nulla sequi officiis eligendi! Eos iusto error a ratione quisquam eveniet dolore nobis, animi impedit porro hic nulla, unde eum cupiditate?</p>
+	</div>
+}

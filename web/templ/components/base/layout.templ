@@ -1,33 +1,120 @@
 package base
 
-templ Layout(pageTitle string) {
-	<html lang="en">
+import "dqix/web/templ/components/icons"
+import fn "dqix/web/templ/utilities"
+import "dqix/internal/types"
+
+templ Layout(pageTitle string, page types.SideNavPages) {
+	<html lang="en" class="h-full overflow-hidden">
 		<head>
 			@Meta(pageTitle)
 		</head>
-		<body>
-			<main id="page-wrapper">
-				@ContentWrapper() {
-					{ children... }
-				}
-			</main>
+		<body class="h-full overflow-hidden">
+			@sidenavScriptUtils()
+			@Navbar()
+			@MainContentWithSidenav(page) {
+				{ children... }
+			}
 		</body>
 	</html>
 }
 
+templ MainContentWithSidenav(page types.SideNavPages) {
+	<div id="sidenav-page-wrapper">
+		@SideNav(page)
+		@MainContent() {
+			{ children... }
+		}
+	</div>
+}
+
+templ MainContent() {
+	<main
+		id="page-wrapper"
+		class="mt-[--navbar-height] 
+				h-[calc(100%-var(--navbar-height))] 
+				overflow-auto bg-gray-50 
+				transition-[margin-right] duration-300
+				peer-[#sidenav]:mr-[--sidenav-width]"
+	>
+		@ContentWrapper() {
+			{ children... }
+		}
+	</main>
+}
+
 templ ContentWrapper() {
 	<div>
-		@Header()
-		<section id="page-content">
+		<section id="page-content" class="min-w-fit p-4 sm:p-8 bg-red-300">
 			{ children... }
 		</section>
 	</div>
 }
 
-templ Header() {
-	<header>
+templ Navbar() {
+	<header class="fixed top-0 z-50 flex h-[--navbar-height] w-full flex-row items-center border-b-[1px] border-gray-300 bg-white">
 		<a href="/">
-			<img src="/static/dqix_logo.webp" alt="Dragon Quest IX" class="h-20"/>
+			<img src="/static/dqix_logo.webp" alt="Dragon Quest IX" class="h-[--navbar-height]"/>
 		</a>
+		<button class="mr-4 ml-auto block md:hidden hover:bg-gray-200 rounded p-1" onclick={ toggleSidenav() }>
+			@icons.Hamburger(icons.WithSize("1.25rem"))
+		</button>
 	</header>
+}
+
+templ SideNav(page types.SideNavPages) {
+	<aside
+		id="sidenav"
+		class="peer fixed right-0 top-16
+				z-40 h-[calc(100%-var(--navbar-height))] w-[--sidenav-width]
+				border-l-[1px] border-gray-300 bg-white
+				py-2 transition-[width_px] duration-300 
+				aria-expanded:w-[--full-sidenav-width] aria-expanded:px-2"
+	>
+		<ul class="flex h-full flex-col gap-1 overflow-x-hidden">
+			@SideNavLink("Everyday Items", fn.Path("bag", "items", "everyday"), page.EverydayItems)
+			@SideNavLink("Important Items", fn.Path("bag", "items", "important"), page.ImportantItems)
+			@SideNavLink("Head Armor", fn.Path("equipment", "armor", "head"), page.HeadArmor)
+			@SideNavLink("Torso Armor", fn.Path("equipment", "armor", "torso"), page.TorsoArmor)
+		</ul>
+	</aside>
+}
+
+templ SideNavLink(text string, href templ.SafeURL, isActive bool) {
+	<li>
+		<a
+			href={ href }
+			if isActive {
+				aria-current="page"
+			}
+			class="flex flex-row items-center gap-2 
+					rounded p-2 text-gray-700 hover:bg-gray-200 
+					aria-[current='page']:bg-blue-100 aria-[current='page']:bg-opacity-70 
+					aria-[current='page']:text-blue-700 
+					hover:aria-[current='page']:bg-opacity-100"
+		>
+			<span>{ text }</span>
+		</a>
+	</li>
+}
+
+script sidenavScriptUtils() {
+	const sm = window.matchMedia('(min-width: 640px)');
+
+	function sidenav() {
+		return document.getElementById('sidenav');
+	}
+
+	function closeSidenav(e) {
+		if (e.matches) {
+			sidenav().setAttribute('aria-expanded', 'false');
+		}
+	}
+
+	sm.addEventListener('change', closeSidenav);
+}
+
+script toggleSidenav() {
+	var x = document.getElementById('sidenav').getAttribute('aria-expanded') === 'true' ? 'false' : 'true';
+  	document.getElementById('sidenav').setAttribute('aria-expanded', x);
 }

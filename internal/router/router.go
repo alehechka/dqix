@@ -1,7 +1,7 @@
 package router
 
 import (
-	"dqix/web/templ/components/base/pages"
+	"dqix/web/templ/pages"
 	"fmt"
 	"net/http"
 
