@@ -297,6 +297,9 @@
    "chain-whip": 1,
    "longbow": 1
   },
+  "droppedBy": {
+   "hunter-mech": "(1/64)"
+  },
   "ingredientFor": [
    "crucerang"
   ]

@@ -78,7 +78,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "droppedBy": {
+   "zoma": "(lv. 69–80: 15%; lv. 81–90: 20%; lv. 91–99: 25%)"
+  }
  },
  "apollo-s-crown": {
   "id": "apollo-s-crown",
@@ -750,7 +753,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "droppedBy": {
+   "orgodemir": "(lv. 57–68: 20%; lv. 69–80: 25%)"
+  }
  },
  "feather-headband": {
   "id": "feather-headband",
@@ -1028,7 +1034,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "droppedBy": {
+   "nimzo": "(lv. 16–25: 20%; lv. 26–40: 25%)"
+  }
  },
  "great-helm": {
   "id": "great-helm",
@@ -1141,6 +1150,9 @@
    "reset-stone": 1,
    "wonder-helm": 1
   },
+  "droppedBy": {
+   "hammibal": "(1/50)"
+  },
   "ingredientFor": [
    "blessed-helm"
   ]
@@ -1227,7 +1239,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "droppedBy": {
+   "teaky-mask": "(1/16)"
+  }
  },
  "heavenly-helm": {
   "id": "heavenly-helm",
@@ -1875,7 +1890,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "droppedBy": {
+   "malroth": "(lv. 26–40: 15%; lv. 91–99: 20%)"
+  }
  },
  "milly-s-hair": {
   "id": "milly-s-hair",
@@ -1967,7 +1985,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "droppedBy": {
+   "wight-emperor": "(1/64)"
+  }
  },
  "monarchic-moustache": {
   "id": "monarchic-moustache",
@@ -2250,6 +2271,9 @@
    "iron-mask": 1,
    "platinum-ore": 1
   },
+  "droppedBy": {
+   "shogum": "(steal only)"
+  },
   "ingredientFor": [
    "012-putting-on-the-glitz",
    "can-be-used-for:",
@@ -2375,6 +2399,9 @@
    "gigasteel-helmet": 1,
    "magic-beast-horn": 2,
    "tough-guy-tattoo": 1
+  },
+  "droppedBy": {
+   "barbatos": "(1/128)"
   },
   "ingredientFor": [
    "minotaur-helm"
@@ -2822,7 +2849,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "droppedBy": {
+   "mortamor": "(lv. 69–80: 15%; lv. 81–90: 20%; lv. 91–99: 25%)"
+  }
  },
  "spellward-circlet": {
   "id": "spellward-circlet",
@@ -2886,6 +2916,9 @@
    "agate-of-evolution": 1,
    "green-orb": 1,
    "winter-sky-hat": 1
+  },
+  "droppedBy": {
+   "fowleye": "(1/50)"
   },
   "ingredientFor": [
    "summer-cloud-hat"
@@ -3094,7 +3127,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "droppedBy": {
+   "elusid": "(1/20)"
+  }
  },
  "swashbuckler-s-bonnet": {
   "id": "swashbuckler-s-bonnet",
@@ -3175,6 +3211,9 @@
   "recipe": {
    "evencloth": 2,
    "turban": 1
+  },
+  "droppedBy": {
+   "raving-reaper": "(1/64)"
   }
  },
  "thinking-cap": {
@@ -3205,6 +3244,9 @@
    "gold-circlet": 1,
    "sorcerer-s-stone": 3,
    "steel-helmet": 1
+  },
+  "droppedBy": {
+   "darkonium-slime": "(1/128)"
   },
   "ingredientFor": [
    "012-putting-on-the-glitz",
@@ -3460,6 +3502,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "head",
+  "droppedBy": {
+   "mummy-boy": "(1/64)"
+  },
   "ingredientFor": [
    "thief-s-turban",
    "tricky-turban"
@@ -3582,7 +3627,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "droppedBy": {
+   "moai-minstrel": "(1/64)"
+  }
  },
  "wizard-s-hat": {
   "id": "wizard-s-hat",

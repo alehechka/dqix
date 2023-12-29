@@ -48,7 +48,10 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "sword"
+  "classification": "sword",
+  "droppedBy": {
+   "mandrake-marauder": "(1/128)"
+  }
  },
  "cautery-sword": {
   "id": "cautery-sword",
@@ -95,7 +98,10 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "sword"
+  "classification": "sword",
+  "droppedBy": {
+   "skeleton": "(1/128)"
+  }
  },
  "dragon-slayer": {
   "id": "dragon-slayer",
@@ -145,6 +151,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "sword",
+  "droppedBy": {
+   "mandrake-marshal": "(1/128)"
+  },
   "ingredientFor": [
    "dragon-slayer"
   ]
@@ -227,6 +236,9 @@
    "rockbomb-shard": 1,
    "valkyrie-sword": 1
   },
+  "droppedBy": {
+   "scarlet-fever": "(1/128)"
+  },
   "ingredientFor": [
    "inferno-blade"
   ]
@@ -254,6 +266,9 @@
    "mythril-ore": 1,
    "narspicious": 3,
    "rapier": 1
+  },
+  "droppedBy": {
+   "goresby-purrvis": "(100%)"
   }
  },
  "gigasteel-broadsword": {
@@ -460,6 +475,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "sword",
+  "droppedBy": {
+   "shogum": "(1/20)"
+  },
   "ingredientFor": [
    "über-miracle-sword"
   ]
@@ -519,6 +537,9 @@
    "hephaestus--flame": 1,
    "iron-broadsword": 1,
    "platinum-ore": 1
+  },
+  "droppedBy": {
+   "skeleton-soldier": "(1/64)"
   },
   "canBeUsedFor": [
    "012-putting-on-the-glitz"
@@ -704,6 +725,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "sword",
+  "droppedBy": {
+   "prime-slime": "(1/64)"
+  },
   "ingredientFor": [
    "fire-blade"
   ]
@@ -731,6 +755,9 @@
    "raging-ruby": 1,
    "soldier-s-sword": 1,
    "warrior-s-helm": 1
+  },
+  "droppedBy": {
+   "barriearthenwarrior": "(1/128)"
   }
  },
  "über-falcon-blade": {

@@ -88,6 +88,9 @@
    "terrible-tattoo": 1,
    "wing-of-bat": 3
   },
+  "droppedBy": {
+   "alphyn": "(1/64)"
+  },
   "ingredientFor": [
    "archdemon-whip"
   ]
@@ -114,6 +117,9 @@
    "aggressence": 1,
    "dragon-scale": 3,
    "iron-whip": 1
+  },
+  "droppedBy": {
+   "equinox": "(steal: 1/128; drop: 10%)"
   }
  },
  "empress-s-whip": {
@@ -291,6 +297,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "whip",
+  "droppedBy": {
+   "lunatick": "(1/32)"
+  },
   "ingredientFor": [
    "snakeskin-whip"
   ]
@@ -441,6 +450,9 @@
    "leather-whip": 1,
    "snakeskin": 3
   },
+  "droppedBy": {
+   "sail-serpent": "(1/128)"
+  },
   "ingredientFor": [
    "serpentine-whip"
   ]
@@ -488,7 +500,10 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "whip"
+  "classification": "whip",
+  "droppedBy": {
+   "raving-lunatick": "(1/32)"
+  }
  },
  "wizardly-whip": {
   "id": "wizardly-whip",

@@ -215,6 +215,9 @@
    "stolos--staff": 1,
    "thunderball": 3
   },
+  "droppedBy": {
+   "cumulus-rex": "(1/128)"
+  },
   "ingredientFor": [
    "012-putting-on-the-glitz",
    "can-be-used-for:",
@@ -273,6 +276,9 @@
    "brighten-rock": 3,
    "rockbomb-shard": 3,
    "stolos--staff": 1
+  },
+  "droppedBy": {
+   "live-lava": "(1/128)"
   }
  },
  "oak-staff": {
@@ -407,6 +413,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "wand",
+  "droppedBy": {
+   "king-godwyn": "(100%)"
+  },
   "canBeUsedFor": [
    "012-putting-on-the-glitz"
   ]
@@ -504,6 +513,9 @@
    "magic-water": 1,
    "wizard-s-staff": 1
   },
+  "droppedBy": {
+   "clawcerer": "(1/128)"
+  },
   "ingredientFor": [
    "staff-of-divine-wrath"
   ]
@@ -531,6 +543,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "wand",
+  "droppedBy": {
+   "purrestidigitator": "(1/256)"
+  },
   "ingredientFor": [
    "lightning-staff",
    "magma-staff",

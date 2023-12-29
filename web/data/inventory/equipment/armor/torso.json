@@ -56,7 +56,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "droppedBy": {
+   "dragonlord": "(lv. 9–15: 15%)"
+  }
  },
  "alena-s-dress": {
   "id": "alena-s-dress",
@@ -111,6 +114,9 @@
   "recipe": {
    "aeon-s-robe": 1,
    "reset-stone": 1
+  },
+  "droppedBy": {
+   "tyrannosaurus-wrecks": "(1/50)"
   },
   "ingredientFor": [
    "archangel-s-robe"
@@ -194,6 +200,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "droppedBy": {
+   "wight-priest": "(1/128)"
+  },
   "ingredientFor": [
    "saintly-robe"
   ]
@@ -326,7 +335,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "droppedBy": {
+   "void-droid": "(1/128)"
+  }
  },
  "bronze-armour": {
   "id": "bronze-armour",
@@ -628,6 +640,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "droppedBy": {
+   "skeleton-soldier": "(1/32)"
+  },
   "ingredientFor": [
    "chainmail-socks",
    "holy-mail"
@@ -969,7 +984,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "droppedBy": {
+   "vermil-lion": "(1/128)"
+  }
  },
  "dragon-dress": {
   "id": "dragon-dress",
@@ -1023,6 +1041,9 @@
    "dragon-scale": 2,
    "magic-armour": 1,
    "raging-ruby": 1
+  },
+  "droppedBy": {
+   "claws": "(1/128)"
   }
  },
  "dragon-robe": {
@@ -1421,7 +1442,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "droppedBy": {
+   "cannibelle": "(1/128)"
+  }
  },
  "fencing-jacket": {
   "id": "fencing-jacket",
@@ -1440,7 +1464,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "droppedBy": {
+   "excalipurr": "(steal only)"
+  }
  },
  "fizzle-proof-suit": {
   "id": "fizzle-proof-suit",
@@ -1486,7 +1513,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "droppedBy": {
+   "cobra-cardinal": "(1/128)"
+  }
  },
  "fizzle-retardant-suit": {
   "id": "fizzle-retardant-suit",
@@ -1506,6 +1536,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "droppedBy": {
+   "python-priest": "(1/128)"
+  },
   "ingredientFor": [
    "fizzle-proof-suit"
   ]
@@ -1591,6 +1624,9 @@
   "recipe": {
    "celestial-skein": 3,
    "enchanted-robes": 1
+  },
+  "droppedBy": {
+   "cumulus-hex": "(1/64)"
   }
  },
  "full-plate-armour": {
@@ -1651,6 +1687,9 @@
    "leather-cape": 1,
    "magic-beast-hide": 3
   },
+  "droppedBy": {
+   "great-gruffon": "(1/64)"
+  },
   "ingredientFor": [
    "fur-vest"
   ]
@@ -1687,6 +1726,9 @@
   "recipe": {
    "fur-poncho": 1,
    "magic-beast-hide": 3
+  },
+  "droppedBy": {
+   "cyclops": "(1/128)"
   }
  },
  "garish-garb": {
@@ -1716,6 +1758,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "droppedBy": {
+   "slugger": "(1/128)"
+  },
   "ingredientFor": [
    "flamenco-shirt",
    "gooey-gear"
@@ -1922,7 +1967,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "droppedBy": {
+   "nimzo": "(lv. 69–80: 15%; lv. 81–90: 20%; lv. 91–99: 25%)"
+  }
  },
  "gusto-garb": {
   "id": "gusto-garb",
@@ -1970,7 +2018,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "droppedBy": {
+   "mandrake-major": "(1/128)"
+  }
  },
  "holy-femail": {
   "id": "holy-femail",
@@ -1985,7 +2036,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "droppedBy": {
+   "wishmaster": "(1/128)"
+  }
  },
  "holy-mail": {
   "id": "holy-mail",
@@ -2028,6 +2082,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "droppedBy": {
+   "restless-armour": "(1/128)"
+  },
   "ingredientFor": [
    "full-plate-armour"
   ]
@@ -2057,6 +2114,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "droppedBy": {
+   "lesionnaire": "(1/64)"
+  },
   "ingredientFor": [
    "silver-cuirass",
    "tortoise-shell"
@@ -2288,6 +2348,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "droppedBy": {
+   "bodkin-bowyer": "(1/64)"
+  },
   "ingredientFor": [
    "fur-poncho"
   ]
@@ -2750,7 +2813,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "droppedBy": {
+   "malroth": "(lv. 9–15: 15%; lv. 81–90: 20%)"
+  }
  },
  "milly-s-clothes": {
   "id": "milly-s-clothes",
@@ -2968,7 +3034,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "droppedBy": {
+   "slugly-betsy": "(1/128)"
+  }
  },
  "pallium-regale": {
   "id": "pallium-regale",
@@ -2993,7 +3062,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "droppedBy": {
+   "slionheart": "(1/256)"
+  }
  },
  "patty-s-dirndl": {
   "id": "patty-s-dirndl",
@@ -3048,7 +3120,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "droppedBy": {
+   "bodkin-archer": "(1/16)"
+  }
  },
  "plain-dress": {
   "id": "plain-dress",
@@ -3126,7 +3201,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "droppedBy": {
+   "wight-king": "(1/128)"
+  }
  },
  "prince-s-pea-coat": {
   "id": "prince-s-pea-coat",
@@ -3336,7 +3414,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "droppedBy": {
+   "widow-s-pique": "(1/128)"
+  }
  },
  "roguess-s-robes": {
   "id": "roguess-s-robes",
@@ -3352,7 +3433,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "droppedBy": {
+   "terror-troll": "(1/128)"
+  }
  },
  "rusty-armour": {
   "id": "rusty-armour",
@@ -3400,6 +3484,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "droppedBy": {
+   "sir-sanguinus": "(1/20)"
+  },
   "ingredientFor": [
    "sacrosanct-armour"
   ]
@@ -3568,6 +3655,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "droppedBy": {
+   "icikiller": "(1/16)"
+  },
   "ingredientFor": [
    "large-scale-armour"
   ]
@@ -3870,6 +3960,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "droppedBy": {
+   "dark-skeleton": "(1/128)"
+  },
   "ingredientFor": [
    "twinkling-tuxedo"
   ]
@@ -3928,6 +4021,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "droppedBy": {
+   "cannibelle": "(1/16)"
+  },
   "ingredientFor": [
    "012-putting-on-the-glitz",
    "can-be-used-for:",
@@ -3960,6 +4056,9 @@
    "magic-armour": 1,
    "magic-beast-horn": 2
   },
+  "droppedBy": {
+   "gloomy-gastropog": "(1/256)"
+  },
   "canBeUsedFor": [
    "012-putting-on-the-glitz"
   ]
@@ -3979,6 +4078,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "droppedBy": {
+   "elusid": "(steal only)"
+  },
   "ingredientFor": [
    "superstar-s-suit"
   ]
@@ -4128,7 +4230,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "droppedBy": {
+   "wight-emperor": "(1/128)"
+  }
  },
  "swinedimples-blazer": {
   "id": "swinedimples-blazer",
@@ -4174,7 +4279,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "droppedBy": {
+   "excalipurr": "(1/120)"
+  }
  },
  "technicolour-tutu": {
   "id": "technicolour-tutu",
@@ -4239,6 +4347,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "droppedBy": {
+   "prism-peacock": "(1/256)"
+  },
   "ingredientFor": [
    "technicolour-tutu"
   ]
@@ -4403,7 +4514,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "droppedBy": {
+   "rhapthorne": "(lv. 69–80: 15%; lv. 81–90: 20%; lv. 91–99: 25%)"
+  }
  },
  "trode-s-robes": {
   "id": "trode-s-robes",
@@ -4459,6 +4573,9 @@
   "recipe": {
    "mesotoga": 1,
    "reset-stone": 1
+  },
+  "droppedBy": {
+   "atlas": "(1/50)"
   },
   "ingredientFor": [
    "stratotoga"
@@ -4595,6 +4712,9 @@
    "mythical-armour": 1,
    "reset-stone": 1
   },
+  "droppedBy": {
+   "excalipurr": "(1/50)"
+  },
   "ingredientFor": [
    "glorious-armour"
   ]
@@ -4613,7 +4733,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "droppedBy": {
+   "hammibal": "(1/20)"
+  }
  },
  "wayfarer-s-clothes": {
   "id": "wayfarer-s-clothes",
@@ -4772,7 +4895,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "droppedBy": {
+   "boa-bishop": "(1/256)"
+  }
  },
  "xenlon-robe": {
   "id": "xenlon-robe",
@@ -4857,7 +4983,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "droppedBy": {
+   "dhoulmagus": "(lv. 69–80: 15%; lv. 81–90: 20%; lv. 91–99: 25%)"
+  }
  },
  "zenithian-leotard": {
   "id": "zenithian-leotard",
@@ -4884,6 +5013,9 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "droppedBy": {
+   "estark": "(lv. 69–80: 15%; lv. 81–90: 20%; lv. 91–99: 25%)"
+  }
  }
 }

@@ -74,6 +74,9 @@
    "butterfly-wing": 2,
    "grubby-bandage": 1
   },
+  "droppedBy": {
+   "expload": "(1/64)"
+  },
   "ingredientFor": [
    "012-putting-on-the-glitz",
    "can-be-used-for:",
@@ -433,6 +436,9 @@
   "type": "equipment",
   "category": "accessories",
   "classification": "accessory",
+  "droppedBy": {
+   "cannibox": "(1/128)"
+  },
   "ingredientFor": [
    "brainy-bracer",
    "gold-circlet",
@@ -993,6 +999,9 @@
   "type": "equipment",
   "category": "accessories",
   "classification": "accessory",
+  "droppedBy": {
+   "goodybag": "(1/64)"
+  },
   "ingredientFor": [
    "012-putting-on-the-glitz",
    "can-be-used-for:",
@@ -1254,6 +1263,9 @@
    "corundum": 1,
    "dragon-scale": 1
   },
+  "droppedBy": {
+   "king-godfrey": "(100%)"
+  },
   "ingredientFor": [
    "monarchic-mark",
    "rune-staff",
@@ -1293,6 +1305,9 @@
    "malicite": 1,
    "sorcerer-s-ring": 1
   },
+  "droppedBy": {
+   "aggrosculpture": "(1/256)"
+  },
   "ingredientFor": [
    "sorcerer-s-ring"
   ]
@@ -1327,6 +1342,9 @@
   "recipe": {
    "gold-ring": 1,
    "slimedrop": 1
+  },
+  "droppedBy": {
+   "slime-stack": "(1/32)"
   },
   "ingredientFor": [
    "012-putting-on-the-glitz",

@@ -55,6 +55,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "shield",
+  "droppedBy": {
+   "freaky-tiki": "(1/128)"
+  },
   "ingredientFor": [
    "big-boss-shield"
   ]
@@ -89,6 +92,9 @@
    "devilry-drinker": 1,
    "reset-stone": 1
   },
+  "droppedBy": {
+   "sir-sanguinus": "(1/50)"
+  },
   "ingredientFor": [
    "psyche-swiper"
   ]
@@ -114,7 +120,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "shield"
+  "classification": "shield",
+  "droppedBy": {
+   "leery-lout": "(1/128)"
+  }
  },
  "dark-shield": {
   "id": "dark-shield",
@@ -210,6 +219,9 @@
    "dragon-scale": 3,
    "magic-shield": 1,
    "raging-ruby": 1
+  },
+  "droppedBy": {
+   "wonder-wyrtle": "(1/64)"
   }
  },
  "empowered-shield": {
@@ -489,6 +501,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "shield",
+  "droppedBy": {
+   "salamarauder": "(1/64)"
+  },
   "ingredientFor": [
    "012-putting-on-the-glitz",
    "can-be-used-for:",
@@ -549,7 +564,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "shield"
+  "classification": "shield",
+  "droppedBy": {
+   "leery-lout": "(1/16)"
+  }
  },
  "light-shield": {
   "id": "light-shield",
@@ -826,7 +844,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "shield"
+  "classification": "shield",
+  "droppedBy": {
+   "wooper-trooper": "(1/16)"
+  }
  },
  "power-shield": {
   "id": "power-shield",
@@ -921,6 +942,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "shield",
+  "droppedBy": {
+   "alarmour": "(1/256)"
+  },
   "ingredientFor": [
    "saintess-shield"
   ]
@@ -1006,6 +1030,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "shield",
+  "droppedBy": {
+   "earthenwarrior": "(1/32)"
+  },
   "ingredientFor": [
    "large-scale-armour",
    "shell-shield"

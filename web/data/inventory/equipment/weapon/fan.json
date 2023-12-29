@@ -93,6 +93,9 @@
    "snakeskin": 2,
    "war-fan": 1
   },
+  "droppedBy": {
+   "seavern": "(1/64)"
+  },
   "ingredientFor": [
    "azure-dragon-fan"
   ]
@@ -165,6 +168,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "fan",
+  "droppedBy": {
+   "mecha-mynah": "(1/64)"
+  },
   "ingredientFor": [
    "foehn-fan"
   ]

@@ -271,7 +271,10 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "axe"
+  "classification": "axe",
+  "droppedBy": {
+   "au-1000": "(1/256)"
+  }
  },
  "ice-axe": {
   "id": "ice-axe",
@@ -448,7 +451,10 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "axe"
+  "classification": "axe",
+  "droppedBy": {
+   "trauminator": "(1/20)"
+  }
  },
  "steel-axe": {
   "id": "steel-axe",

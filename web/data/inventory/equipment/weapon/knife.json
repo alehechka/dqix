@@ -150,6 +150,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "knife",
+  "droppedBy": {
+   "handsome-crab": "(1/128)"
+  },
   "ingredientFor": [
    "assassin-s-dagger",
    "falcon-knife-earring"
@@ -392,6 +395,9 @@
    "edged-boomerang": 1,
    "ice-crystal": 3
   },
+  "droppedBy": {
+   "uncommon-cold": "(1/128)"
+  },
   "ingredientFor": [
    "fenrir-fang",
    "ice-axe"
@@ -470,6 +476,9 @@
    "magic-beast-horn": 1,
    "manky-mud": 3
   },
+  "droppedBy": {
+   "peckerel": "(1/64)"
+  },
   "ingredientFor": [
    "assassin-s-dagger",
    "contra-band"
@@ -543,6 +552,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "knife",
+  "droppedBy": {
+   "fright-knight": "(1/64)"
+  },
   "ingredientFor": [
    "soul-breaker"
   ]

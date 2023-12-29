@@ -17,6 +17,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "claw",
+  "droppedBy": {
+   "vermil-lion": "(1/128)"
+  },
   "ingredientFor": [
    "beastmaster-claws"
   ]
@@ -68,6 +71,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "claw",
+  "droppedBy": {
+   "hammer-horror": "(1/128)"
+  },
   "ingredientFor": [
    "king-cobra-claws"
   ]
@@ -245,6 +251,9 @@
    "lava-lump": 3,
    "rockbomb-shard": 1
   },
+  "droppedBy": {
+   "nemean": "(steal: 1/128; drop: 10%)"
+  },
   "ingredientFor": [
    "combusticlaws"
   ]
@@ -338,6 +347,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "claw",
+  "droppedBy": {
+   "bewarewolf": "(1/64)"
+  },
   "ingredientFor": [
    "sacred-claws",
    "steel-claws"
@@ -429,7 +441,10 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "claw"
+  "classification": "claw",
+  "droppedBy": {
+   "riptide": "(1/64)"
+  }
  },
  "sacred-claws": {
   "id": "sacred-claws",

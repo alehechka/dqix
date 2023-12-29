@@ -18,6 +18,9 @@
   "recipe": {
    "belle-cap": 3,
    "oaken-club": 1
+  },
+  "droppedBy": {
+   "gigantes": "(1/128)"
   }
  },
  "earthsplitter": {
@@ -65,6 +68,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "hammer",
+  "droppedBy": {
+   "atlas": "(1/20)"
+  },
   "ingredientFor": [
    "titan-s-hammer"
   ]
@@ -131,6 +137,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "hammer",
+  "droppedBy": {
+   "hell-s-gatekeeper": "(1/128)"
+  },
   "ingredientFor": [
    "megaton-hammer"
   ]
@@ -151,7 +160,10 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "hammer"
+  "classification": "hammer",
+  "droppedBy": {
+   "great-troll": "(1/128)"
+  }
  },
  "megaton-hammer": {
   "id": "megaton-hammer",

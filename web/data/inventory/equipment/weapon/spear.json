@@ -38,6 +38,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "spear",
+  "droppedBy": {
+   "deadcurion": "(1/128)"
+  },
   "ingredientFor": [
    "trident"
   ]
@@ -168,6 +171,9 @@
   "recipe": {
    "battle-axe": 1,
    "partisan": 1
+  },
+  "droppedBy": {
+   "charmour": "(1/128)"
   }
  },
  "hero-spear": {
@@ -214,6 +220,9 @@
    "gold-rosary": 1,
    "iron-lance": 1
   },
+  "droppedBy": {
+   "trigertaur": "(1/128)"
+  },
   "ingredientFor": [
    "sandstorm-spear"
   ]
@@ -236,6 +245,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "spear",
+  "droppedBy": {
+   "chariot-chappie": "(1/64)"
+  },
   "ingredientFor": [
    "holy-lance",
    "steel-lance"
@@ -601,6 +613,9 @@
    "battle-fork": 1,
    "crimson-coral": 2,
    "seashell": 2
+  },
+  "droppedBy": {
+   "stale-whale": "(1/64)"
   },
   "ingredientFor": [
    "gracos-s-trident"
