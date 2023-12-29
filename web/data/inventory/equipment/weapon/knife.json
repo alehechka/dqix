@@ -48,7 +48,10 @@
    "butterfly-wing": 3,
    "coagulant": 3,
    "poison-moth-knife": 1
-  }
+  },
+  "ingredientFor": [
+   "dread-dagger"
+  ]
  },
  "bronze-knife": {
   "id": "bronze-knife",
@@ -95,7 +98,11 @@
    "agate-of-evolution": 1,
    "deft-dagger": 1,
    "purple-orb": 1
-  }
+  },
+  "ingredientFor": [
+   "dashing-dagger",
+   "dynamo-dagger"
+  ]
  },
  "dashing-dagger": {
   "id": "dashing-dagger",
@@ -225,7 +232,10 @@
    "batterfly-knife": 1,
    "butterfly-wing": 5,
    "disturbin--turban": 1
-  }
+  },
+  "ingredientFor": [
+   "papillon-mask"
+  ]
  },
  "dynamo-dagger": {
   "id": "dynamo-dagger",
@@ -326,7 +336,10 @@
    "crimson-coral": 3,
    "gladius": 1,
    "sunstone": 1
-  }
+  },
+  "ingredientFor": [
+   "gladius"
+  ]
  },
  "gladius": {
   "id": "gladius",

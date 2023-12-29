@@ -170,7 +170,11 @@
    "agate-of-evolution": 1,
    "angel-s-robe": 1,
    "yellow-orb": 1
-  }
+  },
+  "ingredientFor": [
+   "aeon-s-robe",
+   "seraph-s-robe"
+  ]
  },
  "ascetic-robe": {
   "id": "ascetic-robe",
@@ -565,7 +569,10 @@
   "recipe": {
    "nightmare-gown": 1,
    "saint-s-ashes": 3
-  }
+  },
+  "ingredientFor": [
+   "celestria-s-raiment"
+  ]
  },
  "celestria-s-raiment": {
   "id": "celestria-s-raiment",
@@ -939,7 +946,10 @@
    "sainted-soma": 3,
    "silk-bustier": 1,
    "slipweed": 7
-  }
+  },
+  "ingredientFor": [
+   "dangerous-bustier"
+  ]
  },
  "divine-dress": {
   "id": "divine-dress",
@@ -980,7 +990,10 @@
    "dragon-scale": 1,
    "finessence": 2,
    "strongsam": 1
-  }
+  },
+  "ingredientFor": [
+   "xenlon-robe"
+  ]
  },
  "dragon-mail": {
   "id": "dragon-mail",
@@ -1190,7 +1203,10 @@
   "recipe": {
    "enchanted-stone": 1,
    "magic-armour": 1
-  }
+  },
+  "ingredientFor": [
+   "ethereal-armour"
+  ]
  },
  "enchanted-robes": {
   "id": "enchanted-robes",
@@ -1220,7 +1236,11 @@
   "recipe": {
    "enchanted-stone": 1,
    "magical-robes": 1
-  }
+  },
+  "ingredientFor": [
+   "ethereal-robes",
+   "flowing-dress"
+  ]
  },
  "erdrick-s-armour": {
   "id": "erdrick-s-armour",
@@ -1444,7 +1464,10 @@
    "fizzle-retardant-suit": 1,
    "grubby-bandage": 3,
    "sorcerer-s-ring": 1
-  }
+  },
+  "ingredientFor": [
+   "sage-s-robe"
+  ]
  },
  "fizzle-retardant-blouse": {
   "id": "fizzle-retardant-blouse",
@@ -1593,7 +1616,10 @@
    "iron-armour": 1,
    "iron-ore": 1,
    "royal-soil": 1
-  }
+  },
+  "ingredientFor": [
+   "gigasteel-armour"
+  ]
  },
  "fur-poncho": {
   "id": "fur-poncho",
@@ -1798,7 +1824,11 @@
    "agate-of-evolution": 1,
    "red-orb": 1,
    "victorious-armour": 1
-  }
+  },
+  "ingredientFor": [
+   "mythical-armour",
+   "legendary-armour"
+  ]
  },
  "gold-mail": {
   "id": "gold-mail",
@@ -1826,7 +1856,10 @@
    "gold-bracer": 1,
    "gold-ring": 1,
    "silver-mail": 1
-  }
+  },
+  "ingredientFor": [
+   "platinum-mail"
+  ]
  },
  "gooey-gear": {
   "id": "gooey-gear",
@@ -1857,7 +1890,10 @@
   "recipe": {
    "garish-garb": 1,
    "slimedrop": 3
-  }
+  },
+  "requiredFor": [
+   "018-our-precious-precious"
+  ]
  },
  "gothan-robe": {
   "id": "gothan-robe",
@@ -2136,7 +2172,10 @@
    "king-axe": 1,
    "lambswool": 2,
    "prince-s-pea-coat": 1
-  }
+  },
+  "ingredientFor": [
+   "emperor-s-attire"
+  ]
  },
  "kiryl-s-clothes": {
   "id": "kiryl-s-clothes",
@@ -2336,7 +2375,10 @@
    "metal-slime-armour": 1,
    "orichalcum": 1,
    "slimedrop": 6
-  }
+  },
+  "ingredientFor": [
+   "metal-king-armour"
+  ]
  },
  "macabre-mantle": {
   "id": "macabre-mantle",
@@ -2365,7 +2407,10 @@
    "dark-robe": 1,
    "terrible-tattoo": 3,
    "wing-of-bat": 4
-  }
+  },
+  "requiredFor": [
+   "022-mantle-à-la-mode"
+  ]
  },
  "magic-armour": {
   "id": "magic-armour",
@@ -3059,7 +3104,10 @@
    "gold-mail": 1,
    "hephaestus--flame": 1,
    "platinum-ore": 1
-  }
+  },
+  "canBeUsedFor": [
+   "012-putting-on-the-glitz"
+  ]
  },
  "priestess-s-pinafore": {
   "id": "priestess-s-pinafore",
@@ -3172,7 +3220,10 @@
    "lambswool": 2,
    "monarch-s-mittens": 1,
    "princess-s-robe": 1
-  }
+  },
+  "ingredientFor": [
+   "empress-s-robe"
+  ]
  },
  "ragnar-s-armour": {
   "id": "ragnar-s-armour",
@@ -3427,7 +3478,10 @@
    "ascetic-robe": 1,
    "grubby-bandage": 3,
    "rosary": 1
-  }
+  },
+  "ingredientFor": [
+   "sage-s-robe"
+  ]
  },
  "santa-s-little-helper-suit": {
   "id": "santa-s-little-helper-suit",
@@ -3606,7 +3660,10 @@
    "brighten-rock": 3,
    "pink-pearl": 1,
    "spangled-dress": 1
-  }
+  },
+  "ingredientFor": [
+   "princess-s-robe"
+  ]
  },
  "shipmate-s-shirt": {
   "id": "shipmate-s-shirt",
@@ -3980,7 +4037,11 @@
    "agate-of-evolution": 1,
    "blue-orb": 1,
    "tropotoga": 1
-  }
+  },
+  "ingredientFor": [
+   "mesotoga",
+   "exotoga"
+  ]
  },
  "strongsam": {
   "id": "strongsam",
@@ -4291,7 +4352,10 @@
   "recipe": {
    "finessence": 1,
    "training-top": 1
-  }
+  },
+  "ingredientFor": [
+   "tussler-s-top"
+  ]
  },
  "training-top": {
   "id": "training-top",
@@ -4420,7 +4484,10 @@
    "finessence": 1,
    "magic-beast-hide": 2,
    "tracksuit-top": 1
-  }
+  },
+  "ingredientFor": [
+   "dragon-top"
+  ]
  },
  "twinkling-tuxedo": {
   "id": "twinkling-tuxedo",
@@ -4454,7 +4521,10 @@
    "bow-tie": 1,
    "brighten-rock": 3,
    "smart-suit": 1
-  }
+  },
+  "ingredientFor": [
+   "prince-s-pea-coat"
+  ]
  },
  "velvet-cape": {
   "id": "velvet-cape",

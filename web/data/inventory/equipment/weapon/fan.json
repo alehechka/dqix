@@ -423,7 +423,11 @@
    "agate-of-evolution": 1,
    "critical-fan": 1,
    "green-orb": 1
-  }
+  },
+  "ingredientFor": [
+   "hypercritical-fan",
+   "dire-critical-fan"
+  ]
  },
  "solar-fan": {
   "id": "solar-fan",
@@ -445,7 +449,10 @@
    "crimson-coral": 3,
    "lunar-fan": 1,
    "sunstone": 1
-  }
+  },
+  "ingredientFor": [
+   "friendly-fan"
+  ]
  },
  "steel-fan": {
   "id": "steel-fan",
@@ -468,7 +475,10 @@
    "iron-fan": 1,
    "iron-ore": 1,
    "lava-lump": 1
-  }
+  },
+  "ingredientFor": [
+   "gigasteel-fan"
+  ]
  },
  "stellar-fan": {
   "id": "stellar-fan",

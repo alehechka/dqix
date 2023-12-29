@@ -77,7 +77,11 @@
    "agate-of-evolution": 1,
    "angel-s-bow": 1,
    "yellow-orb": 1
-  }
+  },
+  "ingredientFor": [
+   "aeon-s-bow",
+   "seraph-s-bow"
+  ]
  },
  "billowing-bow": {
   "id": "billowing-bow",
@@ -317,7 +321,10 @@
   "recipe": {
    "laundry-pole": 1,
    "short-bow": 1
-  }
+  },
+  "ingredientFor": [
+   "hunter-s-bow"
+  ]
  },
  "odin-s-bow": {
   "id": "odin-s-bow",
@@ -339,7 +346,10 @@
   "recipe": {
    "oh-no-bow": 1,
    "saint-s-ashes": 3
-  }
+  },
+  "ingredientFor": [
+   "oh-no-bow"
+  ]
  },
  "oh-no-bow": {
   "id": "oh-no-bow",

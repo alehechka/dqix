@@ -106,7 +106,10 @@
    "agate-of-evolution": 1,
    "sun-crown": 1,
    "sunstone": 1
-  }
+  },
+  "ingredientFor": [
+   "skull-helm"
+  ]
  },
  "ashlynn-s-hair": {
   "id": "ashlynn-s-hair",
@@ -167,7 +170,10 @@
    "agate-of-evolution": 1,
    "green-orb": 1,
    "summer-cloud-hat": 1
-  }
+  },
+  "ingredientFor": [
+   "winter-sky-hat"
+  ]
  },
  "bandana": {
   "id": "bandana",
@@ -274,7 +280,11 @@
    "agate-of-evolution": 1,
    "hallowed-helm": 1,
    "purple-orb": 1
-  }
+  },
+  "ingredientFor": [
+   "wonder-helm",
+   "heavenly-helm"
+  ]
  },
  "borya-s-bouffant": {
   "id": "borya-s-bouffant",
@@ -920,7 +930,10 @@
    "hephaestus--flame": 1,
    "iron-ore": 2,
    "steel-helmet": 1
-  }
+  },
+  "ingredientFor": [
+   "raging-bull-helm"
+  ]
  },
  "gold-circlet": {
   "id": "gold-circlet",
@@ -948,7 +961,12 @@
    "circlet": 1,
    "gold-bracer": 1,
    "gold-ring": 1
-  }
+  },
+  "ingredientFor": [
+   "thinking-cap",
+   "star-circlet",
+   "spellward-circlet"
+  ]
  },
  "golden-tiara": {
   "id": "golden-tiara",
@@ -1032,7 +1050,10 @@
   "recipe": {
    "hades--helm": 1,
    "saint-s-ashes": 1
-  }
+  },
+  "ingredientFor": [
+   "hades--helm"
+  ]
  },
  "hades--helm": {
   "id": "hades--helm",
@@ -1513,7 +1534,10 @@
    "metal-slime-helm": 1,
    "orichalcum": 1,
    "slimedrop": 6
-  }
+  },
+  "ingredientFor": [
+   "metal-king-helm"
+  ]
  },
  "magical-hat": {
   "id": "magical-hat",
@@ -1623,7 +1647,10 @@
    "butterfly-wing": 2,
    "circlet": 1,
    "narspicious": 2
-  }
+  },
+  "ingredientFor": [
+   "papillon-mask"
+  ]
  },
  "maribel-s-hood": {
   "id": "maribel-s-hood",
@@ -2158,6 +2185,9 @@
    "malleable-mask": 1,
    "narspicious": 3
   },
+  "ingredientFor": [
+   "phantom-mask"
+  ],
   "requiredFor": [
    "020-a-masky-task"
   ]
@@ -2760,7 +2790,10 @@
   "recipe": {
    "pointy-hat": 1,
    "slimedrop": 3
-  }
+  },
+  "requiredFor": [
+   "018-our-precious-precious"
+  ]
  },
  "somnia-hair": {
   "id": "somnia-hair",
@@ -2817,7 +2850,10 @@
    "gold-bar": 1,
    "gold-circlet": 1,
    "monarchic-mark": 1
-  }
+  },
+  "ingredientFor": [
+   "empress-s-robe"
+  ]
  },
  "spring-breeze-hat": {
   "id": "spring-breeze-hat",
@@ -2910,7 +2946,11 @@
    "iron-helmet": 1,
    "iron-ore": 1,
    "royal-soil": 1
-  }
+  },
+  "ingredientFor": [
+   "gigasteel-helmet",
+   "thinking-cap"
+  ]
  },
  "steely-sweatband": {
   "id": "steely-sweatband",
@@ -2991,7 +3031,10 @@
    "agate-of-evolution": 1,
    "green-orb": 1,
    "spring-breeze-hat": 1
-  }
+  },
+  "ingredientFor": [
+   "autumn-shower-hat"
+  ]
  },
  "sun-crown": {
   "id": "sun-crown",
@@ -3020,7 +3063,10 @@
   "recipe": {
    "saint-s-ashes": 3,
    "skull-helm": 1
-  }
+  },
+  "ingredientFor": [
+   "apollo-s-crown"
+  ]
  },
  "supernatural-specs": {
   "id": "supernatural-specs",
@@ -3300,7 +3346,10 @@
   "recipe": {
    "bandana": 1,
    "bow-tie": 1
-  }
+  },
+  "ingredientFor": [
+   "mercury-s-bandana"
+  ]
  },
  "tricky-turban": {
   "id": "tricky-turban",
@@ -3511,7 +3560,10 @@
    "agate-of-evolution": 1,
    "autumn-shower-hat": 1,
    "green-orb": 1
-  }
+  },
+  "ingredientFor": [
+   "spring-breeze-hat"
+  ]
  },
  "witch-s-hat": {
   "id": "witch-s-hat",

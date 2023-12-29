@@ -268,6 +268,10 @@
    "nectar": 3,
    "sleeping-hibiscus": 5
   },
+  "ingredientFor": [
+   "sage-s-stone",
+   "gold-bar"
+  ],
   "requiredFor": [
    "025-warbling-wellard",
    "156-inn-search-of-an-inny"
@@ -2308,7 +2312,10 @@
   "classification": "everyday-item",
   "recipe": {
    "strong-antidote": 2
-  }
+  },
+  "ingredientFor": [
+   "contra-band"
+  ]
  },
  "special-medicine": {
   "id": "special-medicine",
@@ -2409,6 +2416,14 @@
    "lucida-shard": 2,
    "mirrorstone": 3
   },
+  "ingredientFor": [
+   "inferno-blade",
+   "flame-tang",
+   "combusticlaws",
+   "solar-fan",
+   "banefire-boomerang",
+   "apollo-s-crown"
+  ],
   "requiredFor": [
    "021-spud-she-like"
   ]

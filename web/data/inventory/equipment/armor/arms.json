@@ -445,7 +445,11 @@
    "agate-of-evolution": 1,
    "red-orb": 1,
    "vesta-gauntlets": 1
-  }
+  },
+  "ingredientFor": [
+   "tempestes-gauntlets",
+   "sol-invictus-gauntlets"
+  ]
  },
  "dragon-warrior-gloves": {
   "id": "dragon-warrior-gloves",
@@ -540,7 +544,9 @@
    "enchanted-stone": 1,
    "magic-mittens": 1
   },
-  "canBeUsedFor": [
+  "ingredientFor": [
+   "ethereal-gloves",
+   "can-be-used-for:",
    "012-putting-on-the-glitz"
   ]
  },
@@ -1150,7 +1156,10 @@
    "metal-slime-gauntlets": 1,
    "orichalcum": 1,
    "slimedrop": 6
-  }
+  },
+  "ingredientFor": [
+   "metal-king-slime-gloves"
+  ]
  },
  "lockpicker-s-mitts": {
   "id": "lockpicker-s-mitts",
@@ -1230,7 +1239,10 @@
   "recipe": {
    "mayoress-s-mittens": 1,
    "monarchic-mark": 1
-  }
+  },
+  "ingredientFor": [
+   "monarch-s-mittens"
+  ]
  },
  "master-s-gloves": {
   "id": "master-s-gloves",
@@ -1260,7 +1272,11 @@
    "agate-of-evolution": 1,
    "apprentice-s-gloves": 1,
    "silver-orb": 1
-  }
+  },
+  "ingredientFor": [
+   "grandmaster-s-gloves",
+   "godly-gloves"
+  ]
  },
  "matador-s-gloves": {
   "id": "matador-s-gloves",
@@ -1592,7 +1608,10 @@
   "recipe": {
    "highness-heels": 1,
    "marquess-s-mittens": 1
-  }
+  },
+  "ingredientFor": [
+   "queen-s-robe"
+  ]
  },
  "murky-mittens": {
   "id": "murky-mittens",
@@ -1833,7 +1852,10 @@
    "iron-gauntlets": 1,
    "iron-ore": 1,
    "royal-soil": 1
-  }
+  },
+  "ingredientFor": [
+   "gigasteel-gauntlets"
+  ]
  },
  "sturdy-gauntlets": {
   "id": "sturdy-gauntlets",
@@ -1859,7 +1881,10 @@
    "aggressence": 1,
    "iron-ore": 2,
    "light-gauntlets": 1
-  }
+  },
+  "ingredientFor": [
+   "heavy-gauntlets"
+  ]
  },
  "tempestes-gauntlets": {
   "id": "tempestes-gauntlets",

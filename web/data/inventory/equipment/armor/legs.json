@@ -815,7 +815,10 @@
    "hephaestus--flame": 1,
    "iron-ore": 2,
    "steel-kneecaps": 1
-  }
+  },
+  "canBeUsedFor": [
+   "012-putting-on-the-glitz"
+  ]
  },
  "green-tights": {
   "id": "green-tights",
@@ -888,7 +891,10 @@
    "crimson-coral": 3,
    "dangerous-midriff-wrap": 1,
    "seashell": 3
-  }
+  },
+  "ingredientFor": [
+   "sizzling-bikini-bottoms"
+  ]
  },
  "immortal-trousers": {
   "id": "immortal-trousers",
@@ -924,7 +930,11 @@
    "agate-of-evolution": 1,
    "immortal-trousers": 1,
    "purple-orb": 1
-  }
+  },
+  "ingredientFor": [
+   "eternity-trousers",
+   "infinity-trousers"
+  ]
  },
  "impregnable-leggings": {
   "id": "impregnable-leggings",
@@ -1705,7 +1715,10 @@
    "iron-kneecaps": 1,
    "iron-ore": 1,
    "royal-soil": 1
-  }
+  },
+  "ingredientFor": [
+   "gigasteel-kneecaps"
+  ]
  },
  "stellar-stockings": {
   "id": "stellar-stockings",
@@ -1984,7 +1997,10 @@
   "recipe": {
    "finessence": 1,
    "training-trousers": 1
-  }
+  },
+  "ingredientFor": [
+   "tussler-s-trousers"
+  ]
  },
  "training-trousers": {
   "id": "training-trousers",
@@ -2039,7 +2055,10 @@
    "green-tights": 1,
    "red-tights": 1,
    "white-tights": 1
-  }
+  },
+  "canBeUsedFor": [
+   "012-putting-on-the-glitz"
+  ]
  },
  "trinity-tights": {
   "id": "trinity-tights",

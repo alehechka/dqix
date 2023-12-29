@@ -20,7 +20,11 @@
    "agate-of-evolution": 1,
    "meteorang": 1,
    "silver-orb": 1
-  }
+  },
+  "ingredientFor": [
+   "stellarang",
+   "galaxarang"
+  ]
  },
  "banefire-boomerang": {
   "id": "banefire-boomerang",
@@ -317,7 +321,10 @@
    "lucida-shard": 3,
    "mythril-ore": 3,
    "pentarang": 1
-  }
+  },
+  "ingredientFor": [
+   "pentarang"
+  ]
  },
  "meteorang": {
   "id": "meteorang",
@@ -391,7 +398,10 @@
   "recipe": {
    "lunaria": 3,
    "razor-wing-boomerang": 1
-  }
+  },
+  "ingredientFor": [
+   "erazor-wing-boomerang"
+  ]
  },
  "razor-wing-boomerang": {
   "id": "razor-wing-boomerang",
@@ -436,7 +446,10 @@
   "recipe": {
    "boomerang": 1,
    "iron-nails": 3
-  }
+  },
+  "ingredientFor": [
+   "crucerang"
+  ]
  },
  "stellarang": {
   "id": "stellarang",

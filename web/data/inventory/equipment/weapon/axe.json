@@ -207,7 +207,10 @@
   "recipe": {
    "gold-bar": 1,
    "iron-axe": 1
-  }
+  },
+  "ingredientFor": [
+   "king-axe"
+  ]
  },
  "headman-s-axe": {
   "id": "headman-s-axe",
@@ -340,7 +343,10 @@
    "king-axe": 1,
    "monarchic-mark": 1,
    "slime-crown": 1
-  }
+  },
+  "ingredientFor": [
+   "ice-axe"
+  ]
  },
  "king-axe": {
   "id": "king-axe",
@@ -390,7 +396,11 @@
    "agate-of-evolution": 1,
    "bad-axe": 1,
    "purple-orb": 1
-  }
+  },
+  "ingredientFor": [
+   "climaxe",
+   "galaxy-axe"
+  ]
  },
  "moon-axe": {
   "id": "moon-axe",
@@ -460,6 +470,9 @@
    "iron-axe": 1,
    "iron-ore": 1,
    "lava-lump": 1
-  }
+  },
+  "ingredientFor": [
+   "gigasteel-axe"
+  ]
  }
 }

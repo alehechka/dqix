@@ -24,7 +24,10 @@
    "brighten-rock": 3,
    "cautery-sword": 1,
    "holy-water": 1
-  }
+  },
+  "canBeUsedFor": [
+   "012-putting-on-the-glitz"
+  ]
  },
  "bandit-blade": {
   "id": "bandit-blade",
@@ -379,7 +382,10 @@
    "metal-slime-sword": 1,
    "orichalcum": 1,
    "slimedrop": 6
-  }
+  },
+  "ingredientFor": [
+   "metal-king-sword"
+  ]
  },
  "metal-king-sword": {
   "id": "metal-king-sword",
@@ -483,7 +489,11 @@
    "agate-of-evolution": 1,
    "silver-orb": 1,
    "stardust-sword": 1
-  }
+  },
+  "ingredientFor": [
+   "supernova-sword",
+   "hypernova-sword"
+  ]
  },
  "platinum-sword": {
   "id": "platinum-sword",
@@ -639,7 +649,10 @@
    "iron-broadsword": 1,
    "iron-ore": 1,
    "lava-lump": 1
-  }
+  },
+  "ingredientFor": [
+   "gigasteel-broadsword"
+  ]
  },
  "supernova-sword": {
   "id": "supernova-sword",
@@ -770,6 +783,9 @@
   "recipe": {
    "life-bracer": 2,
    "miracle-sword": 1
-  }
+  },
+  "canBeUsedFor": [
+   "012-putting-on-the-glitz"
+  ]
  }
 }

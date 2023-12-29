@@ -20,7 +20,10 @@
    "demon-whip": 1,
    "malicite": 1,
    "terrible-tattoo": 2
-  }
+  },
+  "ingredientFor": [
+   "scourge-whip"
+  ]
  },
  "battle-whip": {
   "id": "battle-whip",
@@ -136,7 +139,10 @@
    "highness-heels": 1,
    "monarchic-mark": 1,
    "queen-s-whip": 1
-  }
+  },
+  "ingredientFor": [
+   "goddess-whip"
+  ]
  },
  "giga-gringham-whip": {
   "id": "giga-gringham-whip",
@@ -312,7 +318,11 @@
    "agate-of-evolution": 1,
    "green-orb": 1,
    "gringham-whip": 1
-  }
+  },
+  "ingredientFor": [
+   "giga-gringham-whip",
+   "über-gringham-whip"
+  ]
  },
  "queen-s-whip": {
   "id": "queen-s-whip",
@@ -381,7 +391,10 @@
    "magic-beast-horn": 1,
    "snakeskin": 5,
    "snakeskin-whip": 1
-  }
+  },
+  "ingredientFor": [
+   "sidewinder"
+  ]
  },
  "sidewinder": {
   "id": "sidewinder",

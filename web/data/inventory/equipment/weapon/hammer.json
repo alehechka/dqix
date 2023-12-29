@@ -40,7 +40,11 @@
    "agate-of-evolution": 1,
    "groundbreaker": 1,
    "yellow-orb": 1
-  }
+  },
+  "ingredientFor": [
+   "moonmasher",
+   "starsmasher"
+  ]
  },
  "giant-s-hammer": {
   "id": "giant-s-hammer",
@@ -379,6 +383,9 @@
   "recipe": {
    "mighty-armlet": 1,
    "war-hammer": 1
-  }
+  },
+  "ingredientFor": [
+   "terra-tamper"
+  ]
  }
 }

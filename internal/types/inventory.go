@@ -276,6 +276,7 @@ func (p PageContent) parseFromBase(inventory *Inventory) {
 			}
 			for i++; i < lastIndex; i += 2 {
 				if !strings.HasPrefix(p.Text[i+1], "x") {
+					i--
 					break
 				}
 				id := TitleToID(p.Text[i])

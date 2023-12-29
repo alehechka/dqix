@@ -438,7 +438,11 @@
    "agate-of-evolution": 1,
    "blue-orb": 1,
    "bright-staff": 1
-  }
+  },
+  "ingredientFor": [
+   "brilliant-staff",
+   "aurora-staff"
+  ]
  },
  "staff-of-divine-wrath": {
   "id": "staff-of-divine-wrath",
@@ -466,7 +470,11 @@
    "flurry-feather": 3,
    "sage-s-elixir": 1,
    "staff-of-sentencing": 1
-  }
+  },
+  "ingredientFor": [
+   "blusterang",
+   "billowing-bow"
+  ]
  },
  "staff-of-sentencing": {
   "id": "staff-of-sentencing",

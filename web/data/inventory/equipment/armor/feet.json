@@ -207,7 +207,11 @@
    "agate-of-evolution": 1,
    "hero-s-boots": 1,
    "yellow-orb": 1
-  }
+  },
+  "ingredientFor": [
+   "emperor-s-boots",
+   "boots-of-beatitude"
+  ]
  },
  "bianca-s-boots": {
   "id": "bianca-s-boots",
@@ -746,7 +750,10 @@
   "recipe": {
    "depressing-shoes": 1,
    "lucky-pendant": 1
-  }
+  },
+  "ingredientFor": [
+   "pixie-boots"
+  ]
  },
  "emperor-s-boots": {
   "id": "emperor-s-boots",
@@ -925,7 +932,10 @@
    "hephaestus--flame": 1,
    "iron-ore": 2,
    "steel-sabatons": 1
-  }
+  },
+  "canBeUsedFor": [
+   "012-putting-on-the-glitz"
+  ]
  },
  "gothan-gumboots": {
   "id": "gothan-gumboots",
@@ -1098,7 +1108,11 @@
   "recipe": {
    "monarchic-mark": 1,
    "stiletto-heels": 1
-  }
+  },
+  "ingredientFor": [
+   "empress-s-whip",
+   "monarch-s-mittens"
+  ]
  },
  "hiking-boots": {
   "id": "hiking-boots",
@@ -1356,7 +1370,10 @@
    "metal-slime-sollerets": 1,
    "orichalcum": 1,
    "slimedrop": 6
-  }
+  },
+  "ingredientFor": [
+   "metal-king-slime-boots"
+  ]
  },
  "maribel-s-shoes": {
   "id": "maribel-s-shoes",
@@ -1578,7 +1595,10 @@
   "recipe": {
    "elevating-shoes": 1,
    "elfin-charm": 2
-  }
+  },
+  "ingredientFor": [
+   "tricksie-boots"
+  ]
  },
  "posh-pumps": {
   "id": "posh-pumps",
@@ -1631,7 +1651,10 @@
    "mythril-ore": 1,
    "ruby-of-protection": 1,
    "safety-shoes": 1
-  }
+  },
+  "ingredientFor": [
+   "safest-shoes"
+  ]
  },
  "safest-shoes": {
   "id": "safest-shoes",
@@ -1712,7 +1735,11 @@
    "agate-of-evolution": 1,
    "blue-orb": 1,
    "sensible-sandals": 1
-  }
+  },
+  "ingredientFor": [
+   "sapient-sandals",
+   "sentient-sandals"
+  ]
  },
  "saintly-sollerets": {
   "id": "saintly-sollerets",
@@ -2134,7 +2161,11 @@
    "iron-ore": 1,
    "iron-sabatons": 1,
    "royal-soil": 1
-  }
+  },
+  "ingredientFor": [
+   "gigasteel-sabatons",
+   "payback-pumps"
+  ]
  },
  "stiletto-heels": {
   "id": "stiletto-heels",

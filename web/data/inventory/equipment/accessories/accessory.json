@@ -248,7 +248,10 @@
    "gold-ring": 1,
    "poison-needle": 1,
    "special-antidote": 1
-  }
+  },
+  "ingredientFor": [
+   "catholicon-ring"
+  ]
  },
  "dragon-scale": {
   "id": "dragon-scale",
@@ -397,7 +400,11 @@
    "gold-bar": 1,
    "life-ring": 1,
    "sainted-soma": 1
-  }
+  },
+  "ingredientFor": [
+   "goddess-whip",
+   "goddess-shield"
+  ]
  },
  "gold-bracer": {
   "id": "gold-bracer",
@@ -545,7 +552,14 @@
    "gold-rosary": 1,
    "holy-water": 5,
    "resurrock": 1
-  }
+  },
+  "ingredientFor": [
+   "celestial-spear",
+   "sacred-claws",
+   "white-knight-s-shield",
+   "holy-mail",
+   "elfin-charm"
+  ]
  },
  "legion-of-merit": {
   "id": "legion-of-merit",
@@ -605,7 +619,14 @@
   "recipe": {
    "gold-bracer": 1,
    "life-ring": 2
-  }
+  },
+  "ingredientFor": [
+   "über-miracle-sword",
+   "soul-breaker",
+   "friendly-fan",
+   "empowered-shield",
+   "sacrosanct-armour"
+  ]
  },
  "life-ring": {
   "id": "life-ring",
@@ -704,7 +725,13 @@
   "recipe": {
    "reckless-necklace": 1,
    "saint-s-ashes": 1
-  }
+  },
+  "ingredientFor": [
+   "happy-hat",
+   "elevating-shoes",
+   "monarchic-mark",
+   "reckless-necklace"
+  ]
  },
  "mager-achievement": {
   "id": "mager-achievement",
@@ -820,7 +847,10 @@
    "agility-ring": 2,
    "gold-bar": 1,
    "lucida-shard": 3
-  }
+  },
+  "ingredientFor": [
+   "über-falcon-blade"
+  ]
  },
  "mighty-armlet": {
   "id": "mighty-armlet",
@@ -897,7 +927,17 @@
    "lucky-pendant": 1,
    "raging-ruby": 1,
    "ruby-of-protection": 1
-  }
+  },
+  "ingredientFor": [
+   "empress-s-whip",
+   "beastmaster-claws",
+   "kaiser-axe",
+   "spellward-circlet",
+   "princess-s-robe",
+   "prince-s-pea-coat",
+   "marquess-s-mittens",
+   "highness-heels"
+  ]
  },
  "noscar": {
   "id": "noscar",
@@ -1142,7 +1182,10 @@
    "fresh-water": 3,
    "pink-pearl": 1,
    "thinkincense": 3
-  }
+  },
+  "ingredientFor": [
+   "saintly-robe"
+  ]
  },
  "rousing-ring": {
   "id": "rousing-ring",
@@ -1176,7 +1219,10 @@
    "gold-ring": 1,
    "sleepy-stick": 1,
    "wakerobin": 3
-  }
+  },
+  "ingredientFor": [
+   "catholicon-ring"
+  ]
  },
  "ruby-of-protection": {
   "id": "ruby-of-protection",
@@ -1320,7 +1366,11 @@
    "gold-ring": 1,
    "panacea": 1,
    "sandstorm-spear": 1
-  }
+  },
+  "ingredientFor": [
+   "mirror-armour",
+   "catholicon-ring"
+  ]
  },
  "soldier-s-medal": {
   "id": "soldier-s-medal",

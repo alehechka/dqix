@@ -318,7 +318,10 @@
    "agility-ring": 1,
    "celestial-skein": 2,
    "mistick": 1
-  }
+  },
+  "ingredientFor": [
+   "ballistick"
+  ]
  },
  "orichalcudgel": {
   "id": "orichalcudgel",
@@ -403,7 +406,11 @@
    "agate-of-evolution": 1,
    "blue-orb": 1,
    "knockout-rod": 1
-  }
+  },
+  "ingredientFor": [
+   "catatonic-cosh",
+   "coma-cudgel"
+  ]
  },
  "sleepy-stick": {
   "id": "sleepy-stick",
@@ -473,7 +480,10 @@
    "iron-bar": 1,
    "iron-ore": 1,
    "lava-lump": 1
-  }
+  },
+  "ingredientFor": [
+   "gigasteel-bar"
+  ]
  },
  "xenlon-rod": {
   "id": "xenlon-rod",

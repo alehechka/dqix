@@ -425,7 +425,9 @@
    "gold-bracer": 1,
    "silver-platter": 1
   },
-  "canBeUsedFor": [
+  "ingredientFor": [
+   "platinum-platter",
+   "can-be-used-for:",
    "012-putting-on-the-glitz"
   ]
  },
@@ -608,7 +610,10 @@
    "metal-slime-shield": 1,
    "orichalcum": 1,
    "slimedrop": 6
-  }
+  },
+  "ingredientFor": [
+   "metal-king-shield"
+  ]
  },
  "magic-shield": {
   "id": "magic-shield",
@@ -888,7 +893,11 @@
    "agate-of-evolution": 1,
    "brain-drainer": 1,
    "green-orb": 1
-  }
+  },
+  "ingredientFor": [
+   "devilry-drinker",
+   "soul-sucker"
+  ]
  },
  "ruinous-shield": {
   "id": "ruinous-shield",
@@ -968,7 +977,10 @@
   "recipe": {
    "ruinous-shield": 1,
    "saint-s-ashes": 3
-  }
+  },
+  "ingredientFor": [
+   "goddess-shield"
+  ]
  },
  "scale-shield": {
   "id": "scale-shield",
@@ -1172,7 +1184,10 @@
    "iron-ore": 1,
    "iron-shield": 1,
    "royal-soil": 1
-  }
+  },
+  "ingredientFor": [
+   "gigasteel-shield"
+  ]
  },
  "tempest-shield": {
   "id": "tempest-shield",
@@ -1266,7 +1281,9 @@
    "mythril-ore": 1,
    "white-shield": 1
   },
-  "canBeUsedFor": [
+  "ingredientFor": [
+   "silver-shield",
+   "can-be-used-for:",
    "012-putting-on-the-glitz"
   ]
  },
