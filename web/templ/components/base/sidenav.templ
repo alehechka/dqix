@@ -17,10 +17,50 @@ templ SideNav(page string) {
 				aria-expanded:w-[--full-sidenav-width] aria-expanded:px-2"
 	>
 		<ul class="flex h-full flex-col gap-1 overflow-x-hidden">
-			@SideNavLink("Everyday Items", fn.Path("inventory", "bag", "items", types.ClassEverydayItem), page == types.ClassEverydayItem)
-			@SideNavLink("Important Items", fn.Path("inventory", "bag", "items", types.ClassImportantItem), page == types.ClassImportantItem)
-			@SideNavLink("Head Armor", fn.Path("inventory", "equipment", "armor", types.ClassHeadArmor), page == types.ClassHeadArmor)
-			@SideNavLink("Torso Armor", fn.Path("inventory", "equipment", "armor", types.ClassTorsoArmor), page == types.ClassTorsoArmor)
+			<details
+				class="pl-2"
+				if types.IsItem(page) {
+					open
+				}
+			>
+				<summary>Items</summary>
+				@SideNavLink("Everyday", fn.Path("inventory", "bag", "items", types.ClassItemEveryday), page == types.ClassItemEveryday)
+				@SideNavLink("Important", fn.Path("inventory", "bag", "items", types.ClassItemImportant), page == types.ClassItemImportant)
+			</details>
+			<details
+				class="pl-2"
+				if types.IsArmor(page) {
+					open
+				}
+			>
+				<summary>Armor</summary>
+				@SideNavLink("Head", fn.Path("inventory", "equipment", "armor", types.ClassArmorHead), page == types.ClassArmorHead)
+				@SideNavLink("Torso", fn.Path("inventory", "equipment", "armor", types.ClassArmorTorso), page == types.ClassArmorTorso)
+				@SideNavLink("Shields", fn.Path("inventory", "equipment", "armor", types.ClassArmorShield), page == types.ClassArmorShield)
+				@SideNavLink("Arms", fn.Path("inventory", "equipment", "armor", types.ClassArmorArms), page == types.ClassArmorArms)
+				@SideNavLink("Legs", fn.Path("inventory", "equipment", "armor", types.ClassArmorLegs), page == types.ClassArmorLegs)
+				@SideNavLink("Feet", fn.Path("inventory", "equipment", "armor", types.ClassArmorFeet), page == types.ClassArmorFeet)
+			</details>
+			<details
+				class="pl-2"
+				if types.IsWeapon(page) {
+					open
+				}
+			>
+				<summary>Weapons</summary>
+				@SideNavLink("Axes", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponAxe), page == types.ClassWeaponAxe)
+				@SideNavLink("Boomerangs", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponBoomerang), page == types.ClassWeaponBoomerang)
+				@SideNavLink("Bows", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponBow), page == types.ClassWeaponBow)
+				@SideNavLink("Claws", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponClaw), page == types.ClassWeaponClaw)
+				@SideNavLink("Fans", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponFan), page == types.ClassWeaponFan)
+				@SideNavLink("Hammers", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponHammer), page == types.ClassWeaponHammer)
+				@SideNavLink("Knifes", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponKnife), page == types.ClassWeaponKnife)
+				@SideNavLink("Spears", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponSpear), page == types.ClassWeaponSpear)
+				@SideNavLink("Staves", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponStave), page == types.ClassWeaponStave)
+				@SideNavLink("Swords", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponSword), page == types.ClassWeaponSword)
+				@SideNavLink("Wands", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponWand), page == types.ClassWeaponWand)
+				@SideNavLink("Whips", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponWhip), page == types.ClassWeaponWhip)
+			</details>
 		</ul>
 	</aside>
 }
