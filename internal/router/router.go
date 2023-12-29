@@ -64,9 +64,29 @@ func (a *app) SetupRouter() *gin.Engine {
 		default:
 			ctx.HTML(http.StatusOK, "", pages.InventoryClassificationPage(classification, inventories))
 		}
-
 	})
-	engine.GET("/inventory/:type/:category/:classification/:id")
+	engine.GET("/inventory/:type/:category/:classification/:id", func(ctx *gin.Context) {
+		typeId := ctx.Param("type")
+		category := ctx.Param("category")
+		classification := ctx.Param("classification")
+		id := ctx.Param("id")
+		inventory := a.data.inventoryMap.GetInventory(typeId, category, classification, id)
+
+		// TODO add some utility function that checks if the request Accept's JSON (and/or weighted with others)
+		if ctx.GetHeader("Accept") == "application/json" {
+			ctx.JSON(http.StatusOK, inventory)
+			return
+		}
+
+		switch htmx.GetHxSwapTarget(ctx) {
+		case "page-content":
+			ctx.HTML(http.StatusOK, "", pages.InventoryContent(inventory, a.data.GetThing))
+		case "sidenav-page-wrapper":
+			ctx.HTML(http.StatusOK, "", pages.InventoryContentWithSideNav(inventory, a.data.GetThing))
+		default:
+			ctx.HTML(http.StatusOK, "", pages.InventoryPage(inventory, a.data.GetThing))
+		}
+	})
 
 	return engine
 }

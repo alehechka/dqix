@@ -9,6 +9,11 @@
     "effect": "Deals 1.20x damage to Beast family"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "martial-artist",
+   "thief"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "claw",
@@ -26,12 +31,20 @@
     "effect": "Deals 1.20x damage to Beast family"
    }
   },
+  "rarity": 3,
+  "sellPrice": 23750,
+  "vocations": [
+   "martial-artist",
+   "thief"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "claw",
-  "requiredFor": [
-   "144-claws-for-thought"
-  ]
+  "recipe": {
+   "beast-claws": 1,
+   "magic-beast-horn": 9,
+   "monarchic-mark": 1
+  }
  },
  "cobra-claws": {
   "id": "cobra-claws",
@@ -43,6 +56,12 @@
     "effect": "Chance to inflict envenomation"
    }
   },
+  "rarity": 2,
+  "buyPrice": 29000,
+  "vocations": [
+   "martial-artist",
+   "thief"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "claw",
@@ -90,7 +109,10 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "claw"
+  "classification": "claw",
+  "ingredientFor": [
+   "kestrel-claws"
+  ]
  },
  "dragon-claws": {
   "id": "dragon-claws",
@@ -108,7 +130,10 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "claw"
+  "classification": "claw",
+  "ingredientFor": [
+   "fire-claws"
+  ]
  },
  "dragonlord-claws": {
   "id": "dragonlord-claws",
@@ -120,9 +145,18 @@
     "effect": "Deals 1.20x damage to Dragon family"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "martial-artist",
+   "thief"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "claw",
+  "recipe": {
+   "dragovian-lord-claws": 1,
+   "reset-stone": 1
+  },
   "ingredientFor": [
    "dragovian-claws"
   ]
@@ -137,14 +171,19 @@
     "effect": "Deals 1.20x damage to Dragon family"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "martial-artist",
+   "thief"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "claw",
-  "ingredientFor": [
-   "dragovian-lord-claws",
-   ",",
-   "xenlon-claws"
-  ]
+  "recipe": {
+   "agate-of-evolution": 1,
+   "dragonlord-claws": 1,
+   "red-orb": 1
+  }
  },
  "dragovian-lord-claws": {
   "id": "dragovian-lord-claws",
@@ -156,9 +195,22 @@
     "effect": "Deals 1.20x damage to Dragon family"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "martial-artist",
+   "thief"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "claw"
+  "classification": "claw",
+  "recipe": {
+   "agate-of-evolution": 3,
+   "dragovian-claws": 1,
+   "red-orb": 3
+  },
+  "ingredientFor": [
+   "dragonlord-claws"
+  ]
  },
  "fire-claws": {
   "id": "fire-claws",
@@ -182,7 +234,10 @@
    "dragon-claws": 1,
    "lava-lump": 3,
    "rockbomb-shard": 1
-  }
+  },
+  "ingredientFor": [
+   "combusticlaws"
+  ]
  },
  "gigasteel-claws": {
   "id": "gigasteel-claws",
@@ -216,12 +271,19 @@
     "effect": "Deals 1.20x damage to Machine family"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "martial-artist",
+   "thief"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "claw",
-  "requiredFor": [
-   "011-the-not-so-great-escape"
-  ]
+  "recipe": {
+   "handrills": 1,
+   "iron-nails": 5,
+   "iron-ore": 1
+  }
  },
  "handrills": {
   "id": "handrills",
@@ -233,6 +295,12 @@
     "effect": "Deals 1.20x damage to Machine family"
    }
   },
+  "rarity": 1,
+  "buyPrice": 7600,
+  "vocations": [
+   "martial-artist",
+   "thief"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "claw",
@@ -256,7 +324,11 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "claw"
+  "classification": "claw",
+  "ingredientFor": [
+   "steel-claws",
+   "sacred-claws"
+  ]
  },
  "kestrel-claws": {
   "id": "kestrel-claws",
@@ -280,7 +352,6 @@
   },
   "ingredientFor": [
    "kite-claws",
-   ",",
    "eaglewing"
   ]
  },
@@ -294,9 +365,19 @@
     "effect": "Chance to inflict envenomation"
    }
   },
+  "rarity": 3,
+  "vocations": [
+   "martial-artist",
+   "thief"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "claw"
+  "classification": "claw",
+  "recipe": {
+   "cobra-claws": 1,
+   "terrible-tattoo": 4,
+   "wing-of-bat": 4
+  }
  },
  "kite-claws": {
   "id": "kite-claws",
@@ -347,9 +428,19 @@
     "effect": "Deals 1.20x damage to Elemental family"
    }
   },
+  "rarity": 1,
+  "buyPrice": 3100,
+  "vocations": [
+   "martial-artist",
+   "thief"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "claw"
+  "classification": "claw",
+  "recipe": {
+   "holy-talisman": 1,
+   "iron-claws": 1
+  }
  },
  "steel-claws": {
   "id": "steel-claws",
@@ -401,8 +492,18 @@
     "effect": "Deals 1.20x damage to Dragon family"
    }
   },
+  "rarity": 5,
+  "vocations": [
+   "martial-artist",
+   "thief"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "claw"
+  "classification": "claw",
+  "recipe": {
+   "agate-of-evolution": 3,
+   "dragovian-claws": 1,
+   "red-orb": 3
+  }
  }
 }

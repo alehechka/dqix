@@ -32,9 +32,20 @@
     "effect": "Deals Fire-elemental damage"
    }
   },
+  "rarity": 3,
+  "vocations": [
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "boomerang"
+  "classification": "boomerang",
+  "recipe": {
+   "flametang-boomerang": 1,
+   "rockbomb-shard": 3,
+   "sunstone": 1
+  }
  },
  "blusterang": {
   "id": "blusterang",
@@ -46,9 +57,20 @@
     "effect": "Deals Wind-elemental damage"
    }
   },
+  "rarity": 3,
+  "vocations": [
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "boomerang"
+  "classification": "boomerang",
+  "recipe": {
+   "agility-ring": 2,
+   "gusterang": 1,
+   "staff-of-divine-wrath": 1
+  }
  },
  "boomerang": {
   "id": "boomerang",
@@ -70,7 +92,6 @@
   "classification": "boomerang",
   "ingredientFor": [
    "reinforced-boomerang",
-   ",",
    "boomer-briefs"
   ]
  },
@@ -164,7 +185,6 @@
   "classification": "boomerang",
   "ingredientFor": [
    "icicle-dirk",
-   ",",
    "cutting-edge-boomerang"
   ]
  },
@@ -201,9 +221,21 @@
     "effect": "Deals Fire-elemental damage"
    }
   },
+  "rarity": 2,
+  "buyPrice": 19500,
+  "vocations": [
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "boomerang",
+  "recipe": {
+   "gusterang": 1,
+   "lava-lump": 3,
+   "rockbomb-shard": 3
+  },
   "ingredientFor": [
    "banefire-boomerang"
   ]
@@ -241,14 +273,24 @@
     "effect": "Deals Wind-elemental damage"
    }
   },
+  "rarity": 2,
+  "buyPrice": 14800,
+  "vocations": [
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "boomerang",
+  "recipe": {
+   "agility-ring": 1,
+   "flurry-feather": 3,
+   "swallowtail": 1
+  },
   "ingredientFor": [
    "blusterang",
-   ",",
    "flametang-boomerang",
-   ",",
    "blustery-bow"
   ]
  },
@@ -262,12 +304,20 @@
     "effect": "Deals 1.20x damage to Demon family"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "boomerang",
-  "ingredientFor": [
-   "pentarang"
-  ]
+  "recipe": {
+   "lucida-shard": 3,
+   "mythril-ore": 3,
+   "pentarang": 1
+  }
  },
  "meteorang": {
   "id": "meteorang",
@@ -304,9 +354,19 @@
     "effect": "Deals 1.20x damage to Demon family"
    }
   },
+  "rarity": 3,
+  "vocations": [
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "boomerang",
+  "recipe": {
+   "hexarang": 1,
+   "reset-stone": 1
+  },
   "ingredientFor": [
    "hexarang"
   ]
@@ -353,7 +413,6 @@
   "classification": "boomerang",
   "ingredientFor": [
    "vermillion-bird-fan",
-   ",",
    "razer-wing-boomerang"
   ]
  },
@@ -400,7 +459,10 @@
    "agate-of-evolution": 3,
    "asterang": 1,
    "silver-orb": 3
-  }
+  },
+  "ingredientFor": [
+   "meteorang"
+  ]
  },
  "swallowtail": {
   "id": "swallowtail",
@@ -422,7 +484,6 @@
   "classification": "boomerang",
   "ingredientFor": [
    "eaglewing",
-   ",",
    "gusterang"
   ]
  }

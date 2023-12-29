@@ -52,6 +52,12 @@
     "effect": "Deals 1.20x damage to Material family"
    }
   },
+  "rarity": 2,
+  "buyPrice": 35500,
+  "vocations": [
+   "gladiator",
+   "paladin"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "hammer",
@@ -69,6 +75,12 @@
     "effect": "Deals 1.20x damage to Machine family"
    }
   },
+  "rarity": 1,
+  "buyPrice": 7900,
+  "vocations": [
+   "gladiator",
+   "paladin"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "hammer"
@@ -107,9 +119,17 @@
     "effect": "25% chance to miss"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "gladiator",
+   "paladin"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "hammer"
+  "classification": "hammer",
+  "ingredientFor": [
+   "megaton-hammer"
+  ]
  },
  "marauder-s-maul": {
   "id": "marauder-s-maul",
@@ -174,7 +194,10 @@
    "agate-of-evolution": 3,
    "earthsplitter": 1,
    "yellow-orb": 3
-  }
+  },
+  "ingredientFor": [
+   "groundbreaker"
+  ]
  },
  "sledgehammer": {
   "id": "sledgehammer",
@@ -226,9 +249,19 @@
     "effect": "Deals Earth-elemental damage"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "gladiator",
+   "paladin"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "hammer",
+  "recipe": {
+   "densinium": 2,
+   "royal-soil": 5,
+   "terra-tamper": 1
+  },
   "ingredientFor": [
    "terra-hammer"
   ]
@@ -243,9 +276,20 @@
     "effect": "Deals Earth-elemental damage"
    }
   },
+  "rarity": 1,
+  "buyPrice": 15000,
+  "vocations": [
+   "gladiator",
+   "paladin"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "hammer",
+  "recipe": {
+   "flintstone": 1,
+   "royal-soil": 3,
+   "über-war-hammer": 1
+  },
   "ingredientFor": [
    "terra-firmer"
   ]
@@ -260,9 +304,19 @@
     "effect": "Deals 1.20x damage to Material family"
    }
   },
+  "rarity": 3,
+  "vocations": [
+   "gladiator",
+   "paladin"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "hammer"
+  "classification": "hammer",
+  "recipe": {
+   "agate-of-evolution": 1,
+   "giant-s-hammer": 1,
+   "tough-guy-tattoo": 1
+  }
  },
  "war-hammer": {
   "id": "war-hammer",

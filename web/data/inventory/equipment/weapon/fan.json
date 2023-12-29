@@ -9,6 +9,11 @@
     "effect": "Always goes first; unblockable; deals +1 damage to metal enemies; reduces enemy tension per hit"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "martial-artist",
+   "minstrel"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "fan"
@@ -23,9 +28,20 @@
     "effect": "Deals Lightning-elemental damage"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "martial-artist",
+   "minstrel",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "fan"
+  "classification": "fan",
+  "recipe": {
+   "cobra-fan": 1,
+   "dragon-scale": 2,
+   "thunderball": 3
+  }
  },
  "black-tortoise-fan": {
   "id": "black-tortoise-fan",
@@ -37,9 +53,20 @@
     "effect": "Deals Earth-elemental damage"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "martial-artist",
+   "minstrel",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "fan"
+  "classification": "fan",
+  "recipe": {
+   "royal-soil": 3,
+   "tortoise-shell": 1,
+   "tortoiseshell-fan": 1
+  }
  },
  "cobra-fan": {
   "id": "cobra-fan",
@@ -51,9 +78,24 @@
     "effect": "Deals Lightning-elemental damage"
    }
   },
+  "rarity": 1,
+  "buyPrice": 5200,
+  "vocations": [
+   "martial-artist",
+   "minstrel",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "fan"
+  "classification": "fan",
+  "recipe": {
+   "dragon-scale": 1,
+   "snakeskin": 2,
+   "war-fan": 1
+  },
+  "ingredientFor": [
+   "azure-dragon-fan"
+  ]
  },
  "critical-fan": {
   "id": "critical-fan",
@@ -65,9 +107,18 @@
     "effect": "Increases Coup de Grâce rate by 6%"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "martial-artist",
+   "minstrel"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "fan",
+  "recipe": {
+   "hypercritical-fan": 1,
+   "reset-stone": 1
+  },
   "ingredientFor": [
    "overcritical-fan"
   ]
@@ -82,9 +133,19 @@
     "effect": "Increases Coup de Grâce rate by 10%"
    }
   },
+  "rarity": 5,
+  "vocations": [
+   "martial-artist",
+   "minstrel"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "fan"
+  "classification": "fan",
+  "recipe": {
+   "agate-of-evolution": 3,
+   "green-orb": 3,
+   "overcritical-fan": 1
+  }
  },
  "feather-fan": {
   "id": "feather-fan",
@@ -103,7 +164,10 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "fan"
+  "classification": "fan",
+  "ingredientFor": [
+   "foehn-fan"
+  ]
  },
  "feline-fan": {
   "id": "feline-fan",
@@ -115,9 +179,20 @@
     "effect": "Deals Ice-elemental damage"
    }
   },
+  "rarity": 1,
+  "buyPrice": 5100,
+  "vocations": [
+   "martial-artist",
+   "minstrel"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "fan",
+  "recipe": {
+   "kitty-litter": 2,
+   "seashell": 2,
+   "war-fan": 1
+  },
   "ingredientFor": [
    "white-tiger-fan"
   ]
@@ -161,9 +236,23 @@
     "effect": "Deals Fire-elemental damage"
    }
   },
+  "rarity": 1,
+  "buyPrice": 5000,
+  "vocations": [
+   "martial-artist",
+   "minstrel"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "fan"
+  "classification": "fan",
+  "recipe": {
+   "crimson-coral": 2,
+   "flurry-feather": 2,
+   "war-fan": 1
+  },
+  "ingredientFor": [
+   "vermillion-bird-fan"
+  ]
  },
  "friendly-fan": {
   "id": "friendly-fan",
@@ -248,9 +337,22 @@
     "effect": "Increases Coup de Grâce rate by 8%"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "martial-artist",
+   "minstrel"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "fan"
+  "classification": "fan",
+  "recipe": {
+   "agate-of-evolution": 3,
+   "green-orb": 3,
+   "overcritical-fan": 1
+  },
+  "ingredientFor": [
+   "critical-fan"
+  ]
  },
  "iron-fan": {
   "id": "iron-fan",
@@ -309,14 +411,19 @@
     "effect": "Increases Coup de Grâce rate by 7%"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "martial-artist",
+   "minstrel"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "fan",
-  "ingredientFor": [
-   "hypercritical-fan",
-   ",",
-   "dire-critical-fan"
-  ]
+  "recipe": {
+   "agate-of-evolution": 1,
+   "critical-fan": 1,
+   "green-orb": 1
+  }
  },
  "solar-fan": {
   "id": "solar-fan",
@@ -394,9 +501,20 @@
     "effect": "Deals Earth-elemental damage"
    }
   },
+  "rarity": 1,
+  "buyPrice": 4900,
+  "vocations": [
+   "martial-artist",
+   "minstrel"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "fan",
+  "recipe": {
+   "evencloth": 1,
+   "tortoiseshell": 2,
+   "war-fan": 1
+  },
   "ingredientFor": [
    "black-tortoise-fan"
   ]
@@ -411,9 +529,20 @@
     "effect": "Deals Fire-elemental damage"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "martial-artist",
+   "minstrel",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "fan"
+  "classification": "fan",
+  "recipe": {
+   "fowl-fan": 1,
+   "lava-lump": 3,
+   "razor-wing-boomerang": 1
+  }
  },
  "war-fan": {
   "id": "war-fan",
@@ -468,8 +597,19 @@
     "effect": "Deals Ice-elemental damage"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "martial-artist",
+   "minstrel",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "fan"
+  "classification": "fan",
+  "recipe": {
+   "feline-fan": 1,
+   "ice-crystal": 3,
+   "kitty-shield": 1
+  }
  }
 }

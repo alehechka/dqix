@@ -117,6 +117,11 @@
     "effect": "Dispels 25% infliction rate of Stop"
    }
   },
+  "rarity": 1,
+  "buyPrice": 3120,
+  "vocations": [
+   "gladiator"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "legs"
@@ -288,7 +293,10 @@
   "recipe": {
    "boomerang": 1,
    "boxer-shorts": 1
-  }
+  },
+  "ingredientFor": [
+   "wonder-pants"
+  ]
  },
  "boxer-shorts": {
   "id": "boxer-shorts",
@@ -316,7 +324,11 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "ingredientFor": [
+   "leather-kilt",
+   "boomer-briefs"
+  ]
  },
  "cannock-trousers": {
   "id": "cannock-trousers",
@@ -409,9 +421,19 @@
     "effect": "Dispels 30% infliction rate of Whack"
    }
   },
+  "rarity": 1,
+  "buyPrice": 2900,
+  "vocations": [
+   "paladin"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "recipe": {
+   "chain-mail": 2,
+   "iron-nails": 2,
+   "pop-socks": 1
+  }
  },
  "combat-trousers": {
   "id": "combat-trousers",
@@ -554,9 +576,19 @@
     "effect": "Resists 7% damage from Fire and Ice"
    }
   },
+  "rarity": 2,
+  "buyPrice": 5600,
+  "vocations": [
+   "martial-artist"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "legs",
+  "recipe": {
+   "dragon-scale": 2,
+   "finessence": 2,
+   "tussler-s-trousers": 1
+  },
   "ingredientFor": [
    "tantric-trousers"
   ]
@@ -571,9 +603,27 @@
     "effect": "Resists 5% damage from Fire and Dark"
    }
   },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "canBeUsedFor": [
+   "012-putting-on-the-glitz"
+  ]
  },
  "estard-trousers": {
   "id": "estard-trousers",
@@ -614,9 +664,32 @@
     "effect": "Dispels 25% infliction rates of Whack, Snooze, and Paralysis"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "recipe": {
+   "agate-of-evolution": 3,
+   "immortal-trousers": 1,
+   "purple-orb": 3
+  },
+  "ingredientFor": [
+   "invincible-trousers"
+  ]
  },
  "fancy-pants": {
   "id": "fancy-pants",
@@ -628,9 +701,18 @@
     "effect": "Dispels 25% infliction rates of Snooze and Dazzle"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "minstrel"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "recipe": {
+   "belle-cap": 3,
+   "loud-trousers": 1,
+   "narspicious": 1
+  }
  },
  "femiscyran-bottoms": {
   "id": "femiscyran-bottoms",
@@ -745,9 +827,29 @@
     "effect": "Dispels 25% infliction rates of Whack, Poison, and Paralysis"
    }
   },
+  "rarity": 1,
+  "buyPrice": 2500,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "legs",
+  "recipe": {
+   "emerald-moss": 4,
+   "pop-socks": 1
+  },
   "ingredientFor": [
    "transparent-tights",
    "can-be-used-for:",
@@ -764,12 +866,29 @@
     "effect": "Resists 7% damage from Fire and Lightning"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "legs",
-  "ingredientFor": [
-   "sizzling-bikini-bottoms"
-  ]
+  "recipe": {
+   "crimson-coral": 3,
+   "dangerous-midriff-wrap": 1,
+   "seashell": 3
+  }
  },
  "immortal-trousers": {
   "id": "immortal-trousers",
@@ -783,14 +902,29 @@
     "effect": "Dispels 25% infliction rates of Whack and Snooze"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "legs",
-  "ingredientFor": [
-   "eternity-trousers",
-   ",",
-   "infinity-trousers"
-  ]
+  "recipe": {
+   "agate-of-evolution": 1,
+   "immortal-trousers": 1,
+   "purple-orb": 1
+  }
  },
  "impregnable-leggings": {
   "id": "impregnable-leggings",
@@ -802,9 +936,29 @@
     "effect": "Dispels 50% infliction rate of Sap"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "recipe": {
+   "densinium": 1,
+   "orichalcum": 1,
+   "sturdy-slacks": 1
+  }
  },
  "infinity-trousers": {
   "id": "infinity-trousers",
@@ -818,9 +972,29 @@
     "effect": "Dispels 25% infliction rates of Whack, Snooze, Paralysis, and Dazzle"
    }
   },
+  "rarity": 5,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "recipe": {
+   "agate-of-evolution": 3,
+   "immortal-trousers": 1,
+   "purple-orb": 3
+  }
  },
  "invincible-trousers": {
   "id": "invincible-trousers",
@@ -834,9 +1008,31 @@
     "effect": "Dispels 25% infliction rate of Whack"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "recipe": {
+   "eternity-trousers": 1,
+   "reset-stone": 1
+  },
+  "ingredientFor": [
+   "immortal-trousers"
+  ]
  },
  "iron-kneecaps": {
   "id": "iron-kneecaps",
@@ -953,7 +1149,10 @@
   "recipe": {
    "boxer-shorts": 1,
    "magic-beast-hide": 1
-  }
+  },
+  "ingredientFor": [
+   "utility-belt"
+  ]
  },
  "loud-trousers": {
   "id": "loud-trousers",
@@ -965,9 +1164,19 @@
     "effect": "Dispels 25% infliction rate of Snooze"
    }
   },
+  "rarity": 1,
+  "buyPrice": 1480,
+  "vocations": [
+   "minstrel"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "ingredientFor": [
+   "fancy-pants",
+   "can-be-used-for:",
+   "012-putting-on-the-glitz"
+  ]
  },
  "magical-skirt": {
   "id": "magical-skirt",
@@ -981,6 +1190,21 @@
     "effect": "Resists 7% damage from Fire, Ice, Wind, Lightning, and Dark"
    }
   },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "legs"
@@ -1137,7 +1361,13 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "ingredientFor": [
+   "chainmail-socks",
+   "red-tights",
+   "green-tights",
+   "white-tights"
+  ]
  },
  "red-skirt": {
   "id": "red-skirt",
@@ -1178,6 +1408,7 @@
     "effect": "Resists 7% damage from Fire and Lightning"
    }
   },
+  "rarity": 1,
   "buyPrice": 2400,
   "vocations": [
    "warrior",
@@ -1199,7 +1430,12 @@
   "recipe": {
    "crimson-coral": 4,
    "pop-socks": 1
-  }
+  },
+  "ingredientFor": [
+   "transparent-tights",
+   "can-be-used-for:",
+   "012-putting-on-the-glitz"
+  ]
  },
  "santa-s-slacks": {
   "id": "santa-s-slacks",
@@ -1268,9 +1504,29 @@
     "effect": "Resists 10% damage from Fire and Lightning"
    }
   },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "recipe": {
+   "astral-plume": 2,
+   "hot-bikini-bottoms": 1,
+   "technicolour-dreamcloth": 1
+  }
  },
  "skeletal-slacks": {
   "id": "skeletal-slacks",
@@ -1488,6 +1744,11 @@
     "effect": "Dispels 25% infliction rate of Paralysis"
    }
   },
+  "rarity": 1,
+  "buyPrice": 2600,
+  "vocations": [
+   "ranger"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "legs"
@@ -1502,9 +1763,28 @@
     "effect": "Dispels 50% infliction rate of Sap"
    }
   },
+  "rarity": 3,
+  "buyPrice": 12500,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "ingredientFor": [
+   "impregnable-leggings"
+  ]
  },
  "swinedimples-skirt": {
   "id": "swinedimples-skirt",
@@ -1572,6 +1852,11 @@
     "effect": "Dispels 25% infliction rate of Fizzle"
    }
   },
+  "rarity": 1,
+  "buyPrice": 2700,
+  "vocations": [
+   "armamentalist"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "legs"
@@ -1732,12 +2017,29 @@
     "effect": "Dispels 25% infliction rates of Dazzle and Fuddle"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "legs",
-  "canBeUsedFor": [
-   "012-putting-on-the-glitz"
-  ]
+  "recipe": {
+   "green-tights": 1,
+   "red-tights": 1,
+   "white-tights": 1
+  }
  },
  "trinity-tights": {
   "id": "trinity-tights",
@@ -1835,9 +2137,32 @@
     "effect": "Resists 7% damage from Ice and Wind"
    }
   },
+  "rarity": 1,
+  "buyPrice": 2450,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "recipe": {
+   "pop-socks": 1,
+   "seashell": 4
+  },
+  "ingredientFor": [
+   "transparent-tights"
+  ]
  },
  "white-tuxedo-trousers": {
   "id": "white-tuxedo-trousers",
@@ -1900,9 +2225,28 @@
     "effect": "Resists 7% damage from Ice"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "recipe": {
+   "aggressence": 1,
+   "boomer-briefs": 1
+  }
  },
  "zenithian-leggings": {
   "id": "zenithian-leggings",

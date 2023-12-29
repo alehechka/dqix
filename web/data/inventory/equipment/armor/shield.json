@@ -54,7 +54,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "shield"
+  "classification": "shield",
+  "ingredientFor": [
+   "big-boss-shield"
+  ]
  },
  "brain-drainer": {
   "id": "brain-drainer",
@@ -85,7 +88,10 @@
   "recipe": {
    "devilry-drinker": 1,
    "reset-stone": 1
-  }
+  },
+  "ingredientFor": [
+   "psyche-swiper"
+  ]
  },
  "bronze-shield": {
   "id": "bronze-shield",
@@ -121,6 +127,17 @@
     "effect": "Resists 5% damage from Fire and Ice"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "shield",
@@ -158,7 +175,10 @@
    "agate-of-evolution": 3,
    "green-orb": 3,
    "psyche-swiper": 1
-  }
+  },
+  "ingredientFor": [
+   "brain-drainer"
+  ]
  },
  "dragon-shield": {
   "id": "dragon-shield",
@@ -171,9 +191,26 @@
     "effect": "Resists 10% damage from Fire and Ice"
    }
   },
+  "rarity": 1,
+  "buyPrice": 9800,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "shield"
+  "classification": "shield",
+  "recipe": {
+   "dragon-scale": 3,
+   "magic-shield": 1,
+   "raging-ruby": 1
+  }
  },
  "empowered-shield": {
   "id": "empowered-shield",
@@ -248,9 +285,24 @@
     "effect": "Resists 10% damage from Fire, Ice, Wind, Lightning, and Dark"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "shield"
+  "classification": "shield",
+  "recipe": {
+   "enchanted-shield": 1,
+   "ethereal-stone": 1
+  }
  },
  "flame-shield": {
   "id": "flame-shield",
@@ -295,9 +347,25 @@
     "effect": "Resists 9% damage from Fire and Ice"
    }
   },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "shield"
+  "classification": "shield",
+  "recipe": {
+   "hephaestus--flame": 1,
+   "iron-ore": 2,
+   "steel-shield": 1
+  }
  },
  "goddess-shield": {
   "id": "goddess-shield",
@@ -310,9 +378,25 @@
     "effect": "Resists 10% damage from Fire, Ice, Wind, Lightning, and Dark"
    }
   },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "shield"
+  "classification": "shield",
+  "recipe": {
+   "goddess-ring": 1,
+   "orichalcum": 1,
+   "saintess-shield": 1
+  }
  },
  "gold-platter": {
   "id": "gold-platter",
@@ -389,6 +473,17 @@
     "effect": "Resists 5% damage from Fire and Ice"
    }
   },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "shield",
@@ -427,7 +522,6 @@
   },
   "ingredientFor": [
    "white-tiger-fan",
-   ",",
    "catty-shield"
   ]
  },
@@ -478,7 +572,12 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "shield"
+  "classification": "shield",
+  "ingredientFor": [
+   "kitty-shield",
+   "white-shield",
+   "platinum-shield"
+  ]
  },
  "liquid-metal-shield": {
   "id": "liquid-metal-shield",
@@ -491,12 +590,25 @@
     "effect": "Resists 7% damage from all elements"
    }
   },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "shield",
-  "ingredientFor": [
-   "metal-king-shield"
-  ]
+  "recipe": {
+   "metal-slime-shield": 1,
+   "orichalcum": 1,
+   "slimedrop": 6
+  }
  },
  "magic-shield": {
   "id": "magic-shield",
@@ -511,6 +623,17 @@
     "effect": "Resists 5% damage from Fire, Ice, Wind, Lightning, and Dark."
    }
   },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "shield",
@@ -535,9 +658,25 @@
     "effect": "Resists 10% damage from all elements"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "shield"
+  "classification": "shield",
+  "recipe": {
+   "liquid-metal-shield": 1,
+   "orichalcum": 1,
+   "slime-crown": 1
+  }
  },
  "metal-slime-shield": {
   "id": "metal-slime-shield",
@@ -550,6 +689,17 @@
     "effect": "Resists 5% damage from all elements"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "shield",
@@ -568,9 +718,24 @@
     "effect": "Resists 7% damage from Fire and Ice"
    }
   },
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "shield"
+  "classification": "shield",
+  "recipe": {
+   "dark-shield": 1,
+   "densinium": 2,
+   "magic-beast-horn": 5
+  }
  },
  "platinum-platter": {
   "id": "platinum-platter",
@@ -611,9 +776,25 @@
     "effect": "Resists 5% damage from Fire"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "shield",
+  "recipe": {
+   "hephaestus--flame": 1,
+   "light-shield": 1,
+   "platinum-ore": 1
+  },
   "canBeUsedFor": [
    "012-putting-on-the-glitz"
   ]
@@ -730,7 +911,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "shield"
+  "classification": "shield",
+  "ingredientFor": [
+   "saintess-shield"
+  ]
  },
  "rusty-shield": {
   "id": "rusty-shield",
@@ -767,12 +951,24 @@
     "effect": "Resists 7% damage from Fire, Ice, Wind, Lightning, and Dark"
    }
   },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "shield",
-  "ingredientFor": [
-   "goddess-shield"
-  ]
+  "recipe": {
+   "ruinous-shield": 1,
+   "saint-s-ashes": 3
+  }
  },
  "scale-shield": {
   "id": "scale-shield",
@@ -797,7 +993,11 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "shield"
+  "classification": "shield",
+  "ingredientFor": [
+   "shell-shield",
+   "large-scale-armour"
+  ]
  },
  "shell-shield": {
   "id": "shell-shield",
@@ -853,9 +1053,7 @@
   "classification": "shield",
   "ingredientFor": [
    "gold-platter",
-   ",",
    "filigree-mask",
-   ",",
    "silver-cuirass"
   ]
  },
@@ -870,9 +1068,24 @@
     "effect": "Resists 18% damage from Lightning; 10% from Fire; resists 25% MP Absorption"
    }
   },
+  "rarity": 2,
+  "buyPrice": 30500,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "shield"
+  "classification": "shield",
+  "recipe": {
+   "mirrorstone": 3,
+   "mythril-ore": 2,
+   "white-knight-s-shield": 1
+  }
  },
  "slime-shield": {
   "id": "slime-shield",
@@ -941,12 +1154,25 @@
     "effect": "Resists 7% damage from Fire and Ice"
    }
   },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "shield",
-  "ingredientFor": [
-   "gigasteel-shield"
-  ]
+  "recipe": {
+   "iron-ore": 1,
+   "iron-shield": 1,
+   "royal-soil": 1
+  }
  },
  "tempest-shield": {
   "id": "tempest-shield",
@@ -991,9 +1217,24 @@
     "effect": "Resists 5% damage from Fire, Ice, Wind, Lightning, and Dark"
    }
   },
+  "rarity": 2,
+  "buyPrice": 6700,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "shield"
+  "classification": "shield",
+  "ingredientFor": [
+   "power-shield"
+  ]
  },
  "white-knight-s-shield": {
   "id": "white-knight-s-shield",
@@ -1006,12 +1247,26 @@
     "effect": "Resists 10% damage from Dark; 5% from Fire and Ice"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "shield",
-  "ingredientFor": [
-   "silver-shield",
-   "can-be-used-for:",
+  "recipe": {
+   "holy-talisman": 1,
+   "mythril-ore": 1,
+   "white-shield": 1
+  },
+  "canBeUsedFor": [
    "012-putting-on-the-glitz"
   ]
  },
@@ -1026,8 +1281,27 @@
     "effect": "Resists 5% damage from Fire"
    }
   },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "shield"
+  "classification": "shield",
+  "recipe": {
+   "holy-water": 5,
+   "light-shield": 1,
+   "seashell": 5
+  },
+  "ingredientFor": [
+   "white-knight-s-shield"
+  ]
  }
 }

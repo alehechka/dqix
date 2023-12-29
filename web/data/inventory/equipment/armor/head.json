@@ -90,12 +90,23 @@
     "effect": "Dispels 30% infliction rates of Snooze and Fuddle"
    }
   },
+  "rarity": 3,
+  "vocations": [
+   "priest",
+   "thief",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "ranger"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "head",
-  "ingredientFor": [
-   "skull-helm"
-  ]
+  "recipe": {
+   "agate-of-evolution": 1,
+   "sun-crown": 1,
+   "sunstone": 1
+  }
  },
  "ashlynn-s-hair": {
   "id": "ashlynn-s-hair",
@@ -137,12 +148,26 @@
     "effect": "Dispels 40% infliction rate of Fuddle"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "head",
-  "ingredientFor": [
-   "winter-sky-hat"
-  ]
+  "recipe": {
+   "agate-of-evolution": 1,
+   "green-orb": 1,
+   "summer-cloud-hat": 1
+  }
  },
  "bandana": {
   "id": "bandana",
@@ -232,14 +257,24 @@
     "effect": "Dispels 25% infliction rates of Dazzle, Fuddle, and Poison"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "warrior",
+   "priest",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "head",
-  "ingredientFor": [
-   "wonder-helm",
-   ",",
-   "heavenly-helm"
-  ]
+  "recipe": {
+   "agate-of-evolution": 1,
+   "hallowed-helm": 1,
+   "purple-orb": 1
+  }
  },
  "borya-s-bouffant": {
   "id": "borya-s-bouffant",
@@ -491,7 +526,6 @@
   "classification": "head",
   "ingredientFor": [
    "gold-circlet",
-   ",",
    "malleable-mask"
   ]
  },
@@ -556,9 +590,17 @@
     "effect": "Resists 10% damage from Dark; dispels 25% infliction rate of Poison"
    }
   },
+  "rarity": 1,
+  "buyPrice": 2900,
+  "vocations": [
+   "thief"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "ingredientFor": [
+   "dread-dagger"
+  ]
  },
  "dragon-warrior-helm": {
   "id": "dragon-warrior-helm",
@@ -570,6 +612,21 @@
     "effect": "Resists 5% damage from Fire and Dark"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "head"
@@ -584,9 +641,19 @@
     "effect": "Resists 10% damage from Ice"
    }
   },
+  "rarity": 1,
+  "buyPrice": 2400,
+  "vocations": [
+   "ranger"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "recipe": {
+   "bunny-tail": 1,
+   "fur-hood": 1,
+   "lambswool": 1
+  }
  },
  "erdrick-s-helmet": {
   "id": "erdrick-s-helmet",
@@ -598,9 +665,22 @@
     "effect": "Dispels 30% infliction rates of Dazzle, Whack, and Paralysis"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "warrior",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "recipe": {
+   "glass-frit": 9,
+   "orichalcum": 1,
+   "rusty-helmet": 1
+  }
  },
  "erinn-s-headkerchief": {
   "id": "erinn-s-headkerchief",
@@ -614,6 +694,21 @@
     "effect": "Dispels 30% infliction rate of Stop"
    }
   },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "head"
@@ -707,7 +802,6 @@
   },
   "ingredientFor": [
    "canny-cap",
-   ",",
    "musketeer-hat"
   ]
  },
@@ -960,7 +1054,10 @@
   "recipe": {
    "great-helm": 1,
    "malicite": 1
-  }
+  },
+  "ingredientFor": [
+   "great-helm"
+  ]
  },
  "hairband": {
   "id": "hairband",
@@ -992,9 +1089,7 @@
   "classification": "head",
   "ingredientFor": [
    "bunny-ears",
-   ",",
    "cat-ears",
-   ",",
    "feather-headband"
   ]
  },
@@ -1008,9 +1103,26 @@
     "effect": "Dispels 20% infliction rates of Dazzle and Fuddle"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "warrior",
+   "priest",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "recipe": {
+   "reset-stone": 1,
+   "wonder-helm": 1
+  },
+  "ingredientFor": [
+   "blessed-helm"
+  ]
  },
  "halo": {
   "id": "halo",
@@ -1053,9 +1165,24 @@
     "effect": "Recovers MP while walking about"
    }
   },
+  "rarity": 3,
+  "vocations": [
+   "priest",
+   "mage",
+   "thief",
+   "minstrel",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "recipe": {
+   "lucky-pendant": 1,
+   "unhappy-hat": 1
+  }
  },
  "hardwood-headwear": {
   "id": "hardwood-headwear",
@@ -1091,9 +1218,24 @@
     "effect": "Dispels 35% infliction rates of Dazzle, Fuddle, Poison, and Whack"
    }
   },
+  "rarity": 5,
+  "vocations": [
+   "warrior",
+   "priest",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "recipe": {
+   "agate-of-evolution": 3,
+   "blessed-helm": 1,
+   "purple-orb": 3
+  }
  },
  "hermetic-hat": {
   "id": "hermetic-hat",
@@ -1124,6 +1266,11 @@
     "effect": "Dispels 25% infliction rate of Fizzle"
    }
   },
+  "rarity": 1,
+  "buyPrice": 2800,
+  "vocations": [
+   "mage"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "head"
@@ -1139,6 +1286,11 @@
     "effect": "Dispels 25% infliction rate of Whack"
    }
   },
+  "rarity": 1,
+  "buyPrice": 2600,
+  "vocations": [
+   "priest"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "head"
@@ -1190,7 +1342,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "ingredientFor": [
+   "steel-helmet"
+  ]
  },
  "iron-mask": {
   "id": "iron-mask",
@@ -1212,7 +1367,6 @@
   "classification": "head",
   "ingredientFor": [
    "filigree-mask",
-   ",",
    "platinum-headgear"
   ]
  },
@@ -1326,7 +1480,12 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "ingredientFor": [
+   "feathered-cap",
+   "fur-hood",
+   "pointy-hat"
+  ]
  },
  "liquid-metal-helm": {
   "id": "liquid-metal-helm",
@@ -1338,12 +1497,23 @@
     "effect": "Dispels 20% infliction rates of Snooze, Whack, and Fizzle"
    }
   },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "head",
-  "ingredientFor": [
-   "metal-king-helm"
-  ]
+  "recipe": {
+   "metal-slime-helm": 1,
+   "orichalcum": 1,
+   "slimedrop": 6
+  }
  },
  "magical-hat": {
   "id": "magical-hat",
@@ -1434,12 +1604,26 @@
     "effect": "Dispels 25% infliction rate of Paralysis"
    }
   },
+  "rarity": 1,
+  "vocations": [
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "head",
-  "ingredientFor": [
-   "papillon-mask"
-  ]
+  "recipe": {
+   "butterfly-wing": 2,
+   "circlet": 1,
+   "narspicious": 2
+  }
  },
  "maribel-s-hood": {
   "id": "maribel-s-hood",
@@ -1582,7 +1766,6 @@
   },
   "ingredientFor": [
    "ballistick",
-   ",",
    "matador-s-gloves"
   ]
  },
@@ -1596,9 +1779,23 @@
     "effect": "Dispels 25% infliction rates of Snooze, Whack, and Fizzle"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "warrior",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "recipe": {
+   "liquid-metal-helm": 1,
+   "orichalcum": 1,
+   "slime-crown": 1
+  }
  },
  "metal-slime-helm": {
   "id": "metal-slime-helm",
@@ -1610,6 +1807,15 @@
     "effect": "Dispels 15% infliction rates of Snooze, Whack, and Fizzle"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "head",
@@ -1684,6 +1890,11 @@
     "effect": "Dispels 35% infliction rate of Whack"
    }
   },
+  "rarity": 2,
+  "buyPrice": 14000,
+  "vocations": [
+   "sage"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "head"
@@ -1723,6 +1934,10 @@
     "effect": "Dispels 25% infliction rate of Whack"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "priest"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "head"
@@ -1923,12 +2138,27 @@
     "effect": "Dispels 30% infliction rate of Paralysis"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "head",
-  "ingredientFor": [
-   "phantom-mask",
-   "required-for:",
+  "recipe": {
+   "dread-dagger": 1,
+   "malleable-mask": 1,
+   "narspicious": 3
+  },
+  "requiredFor": [
    "020-a-masky-task"
   ]
  },
@@ -1989,7 +2219,12 @@
    "hephaestus--flame": 1,
    "iron-mask": 1,
    "platinum-ore": 1
-  }
+  },
+  "ingredientFor": [
+   "mythril-helm",
+   "can-be-used-for:",
+   "012-putting-on-the-glitz"
+  ]
  },
  "pointy-hat": {
   "id": "pointy-hat",
@@ -2023,7 +2258,11 @@
   "recipe": {
    "leather-hat": 1,
    "magic-beast-horn": 1
-  }
+  },
+  "ingredientFor": [
+   "slood",
+   "hunter-s-hat"
+  ]
  },
  "proper-topper": {
   "id": "proper-topper",
@@ -2106,7 +2345,10 @@
    "gigasteel-helmet": 1,
    "magic-beast-horn": 2,
    "tough-guy-tattoo": 1
-  }
+  },
+  "ingredientFor": [
+   "minotaur-helm"
+  ]
  },
  "ragnar-s-helm": {
   "id": "ragnar-s-helm",
@@ -2383,7 +2625,6 @@
   "classification": "head",
   "ingredientFor": [
    "filigree-mask",
-   ",",
    "golden-tiara"
   ]
  },
@@ -2442,7 +2683,10 @@
   "recipe": {
    "apollo-s-crown": 1,
    "malicite": 1
-  }
+  },
+  "ingredientFor": [
+   "sun-crown"
+  ]
  },
  "slime-crown": {
   "id": "slime-crown",
@@ -2470,7 +2714,18 @@
   "type": "equipment",
   "category": "armor",
   "classification": "head",
-  "canBeUsedFor": [
+  "ingredientFor": [
+   "metal-king-sword",
+   "metal-king-spear",
+   "king-axe",
+   "kaiser-axe",
+   "metal-king-shield",
+   "metal-king-helm",
+   "metal-king-armour",
+   "emperor-s-attire",
+   "metal-king-slime-gloves",
+   "metal-king-slime-boots",
+   "can-be-used-for:",
    "012-putting-on-the-glitz"
   ]
  },
@@ -2548,12 +2803,21 @@
     "effect": "Dispels 25% infliction rate of Snooze, Whack, Fuddle, and Fizzle"
    }
   },
+  "rarity": 3,
+  "vocations": [
+   "priest",
+   "mage",
+   "minstrel",
+   "armamentalist;-female-only"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "head",
-  "ingredientFor": [
-   "empress-s-robe"
-  ]
+  "recipe": {
+   "gold-bar": 1,
+   "gold-circlet": 1,
+   "monarchic-mark": 1
+  }
  },
  "spring-breeze-hat": {
   "id": "spring-breeze-hat",
@@ -2567,9 +2831,29 @@
     "effect": "Dispels 40% infliction rate of Dazzle"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "recipe": {
+   "agate-of-evolution": 1,
+   "green-orb": 1,
+   "winter-sky-hat": 1
+  },
+  "ingredientFor": [
+   "summer-cloud-hat"
+  ]
  },
  "star-circlet": {
   "id": "star-circlet",
@@ -2583,9 +2867,22 @@
     "effect": "Dispels 25% infliction rate of Fuddle"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "priest",
+   "mage",
+   "minstrel",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "recipe": {
+   "gold-circlet": 1,
+   "lucida-shard": 1
+  }
  },
  "steel-helmet": {
   "id": "steel-helmet",
@@ -2625,6 +2922,11 @@
     "effect": "Dispels 40% infliction rate of Blunt"
    }
   },
+  "rarity": 2,
+  "buyPrice": 15500,
+  "vocations": [
+   "martial-artist"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "head"
@@ -2670,12 +2972,26 @@
     "effect": "Dispels 40% infliction rate of Whack"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "head",
-  "ingredientFor": [
-   "autumn-shower-hat"
-  ]
+  "recipe": {
+   "agate-of-evolution": 1,
+   "green-orb": 1,
+   "spring-breeze-hat": 1
+  }
  },
  "sun-crown": {
   "id": "sun-crown",
@@ -2687,12 +3003,24 @@
     "effect": "Dispels 30% infliction rates of Snooze and Fuddle"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "priest",
+   "thief",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "head",
-  "ingredientFor": [
-   "apollo-s-crown"
-  ]
+  "recipe": {
+   "saint-s-ashes": 3,
+   "skull-helm": 1
+  }
  },
  "supernatural-specs": {
   "id": "supernatural-specs",
@@ -2790,9 +3118,18 @@
     "effect": "Dispels 25% infliction rate of Poison"
    }
   },
+  "rarity": 1,
+  "buyPrice": 1500,
+  "vocations": [
+   "thief"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "recipe": {
+   "evencloth": 2,
+   "turban": 1
+  }
  },
  "thinking-cap": {
   "id": "thinking-cap",
@@ -2822,7 +3159,13 @@
    "gold-circlet": 1,
    "sorcerer-s-stone": 3,
    "steel-helmet": 1
-  }
+  },
+  "ingredientFor": [
+   "scholar-s-circlet",
+   "crown-of-clarity",
+   "can-be-used-for:",
+   "012-putting-on-the-glitz"
+  ]
  },
  "thug-s-mug": {
   "id": "thug-s-mug",
@@ -2970,9 +3313,19 @@
     "effect": "Resists 25% MP Absorption"
    }
   },
+  "rarity": 1,
+  "buyPrice": 2680,
+  "vocations": [
+   "mage"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "recipe": {
+   "snakeskin": 1,
+   "toad-oil": 1,
+   "turban": 1
+  }
  },
  "trodain-bandana": {
   "id": "trodain-bandana",
@@ -3057,7 +3410,11 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "ingredientFor": [
+   "tricky-turban",
+   "thief-s-turban"
+  ]
  },
  "unhappy-hat": {
   "id": "unhappy-hat",
@@ -3082,7 +3439,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "ingredientFor": [
+   "happy-hat"
+  ]
  },
  "veteran-s-helm": {
   "id": "veteran-s-helm",
@@ -3132,12 +3492,26 @@
     "effect": "Dispels 40% infliction rate of Snooze"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "head",
-  "ingredientFor": [
-   "spring-breeze-hat"
-  ]
+  "recipe": {
+   "agate-of-evolution": 1,
+   "autumn-shower-hat": 1,
+   "green-orb": 1
+  }
  },
  "witch-s-hat": {
   "id": "witch-s-hat",
@@ -3150,6 +3524,10 @@
     "effect": "Dispels 25% infliction rate of Fizzle"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "mage"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "head"
@@ -3165,6 +3543,10 @@
     "effect": "Resists 25% MP Absorption"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "mage"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "head"
@@ -3179,9 +3561,27 @@
     "effect": "Dispels 30% infliction rates of Dazzle, Fuddle, and Poison"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "warrior",
+   "priest",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "recipe": {
+   "agate-of-evolution": 3,
+   "blessed-helm": 1,
+   "purple-orb": 3
+  },
+  "ingredientFor": [
+   "hallowed-helm"
+  ]
  },
  "x-ray-specs": {
   "id": "x-ray-specs",

@@ -84,7 +84,10 @@
    "iron-whip": 1,
    "terrible-tattoo": 1,
    "wing-of-bat": 3
-  }
+  },
+  "ingredientFor": [
+   "archdemon-whip"
+  ]
  },
  "dragontail-whip": {
   "id": "dragontail-whip",
@@ -120,12 +123,20 @@
     "effect": "Deals 1.20x damage to Humanoid family"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "mage",
+   "minstrel",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "whip",
-  "ingredientFor": [
-   "goddess-whip"
-  ]
+  "recipe": {
+   "highness-heels": 1,
+   "monarchic-mark": 1,
+   "queen-s-whip": 1
+  }
  },
  "giga-gringham-whip": {
   "id": "giga-gringham-whip",
@@ -137,9 +148,23 @@
     "effect": "Targets all enemies"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "mage",
+   "minstrel",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "whip"
+  "classification": "whip",
+  "recipe": {
+   "agate-of-evolution": 3,
+   "green-orb": 3,
+   "mega-gringham-whip": 1
+  },
+  "ingredientFor": [
+   "gringham-whip"
+  ]
  },
  "gigaspike-whip": {
   "id": "gigaspike-whip",
@@ -164,6 +189,31 @@
    "spiked-steel-whip": 1
   }
  },
+ "goddess-whip": {
+  "id": "goddess-whip",
+  "title": "Goddess Whip",
+  "description": "A ladylike lash fondly flaunted by a heavenly hand.",
+  "statistics": {
+   "agility": 106,
+   "special": {
+    "effect": "Deals 1.20x damage to Humanoid family"
+   }
+  },
+  "rarity": 3,
+  "vocations": [
+   "mage",
+   "minstrel",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "whip",
+  "recipe": {
+   "agate-of-evolution": 1,
+   "empress-s-whip": 1,
+   "goddess-ring": 1
+  }
+ },
  "gringham-whip": {
   "id": "gringham-whip",
   "title": "Gringham Whip",
@@ -174,9 +224,19 @@
     "effect": "Targets all enemies"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "mage",
+   "minstrel",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "whip",
+  "recipe": {
+   "giga-gringham-whip": 1,
+   "reset-stone": 1
+  },
   "ingredientFor": [
    "mega-gringham-whip"
   ]
@@ -201,9 +261,7 @@
   "classification": "whip",
   "ingredientFor": [
    "spiked-steel-whip",
-   ",",
    "dragontail-whip",
-   ",",
    "demon-whip",
    "can-be-used-for:",
    "012-putting-on-the-glitz"
@@ -226,7 +284,10 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "whip"
+  "classification": "whip",
+  "ingredientFor": [
+   "snakeskin-whip"
+  ]
  },
  "mega-gringham-whip": {
   "id": "mega-gringham-whip",
@@ -238,14 +299,20 @@
     "effect": "Targets all enemies"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "mage",
+   "minstrel",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "whip",
-  "ingredientFor": [
-   "giga-gringham-whip",
-   ",",
-   "über-gringham-whip"
-  ]
+  "recipe": {
+   "agate-of-evolution": 1,
+   "green-orb": 1,
+   "gringham-whip": 1
+  }
  },
  "queen-s-whip": {
   "id": "queen-s-whip",
@@ -257,9 +324,19 @@
     "effect": "Deals 1.20x damage to Humanoid family"
    }
   },
+  "rarity": 2,
+  "buyPrice": 41000,
+  "vocations": [
+   "mage",
+   "minstrel",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "whip"
+  "classification": "whip",
+  "ingredientFor": [
+   "empress-s-whip"
+  ]
  },
  "scourge-whip": {
   "id": "scourge-whip",
@@ -350,7 +427,10 @@
   "recipe": {
    "leather-whip": 1,
    "snakeskin": 3
-  }
+  },
+  "ingredientFor": [
+   "serpentine-whip"
+  ]
  },
  "spiked-steel-whip": {
   "id": "spiked-steel-whip",
@@ -425,8 +505,19 @@
     "effect": "Targets all enemies"
    }
   },
+  "rarity": 5,
+  "vocations": [
+   "mage",
+   "minstrel",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "whip"
+  "classification": "whip",
+  "recipe": {
+   "agate-of-evolution": 3,
+   "green-orb": 3,
+   "mega-gringham-whip": 1
+  }
  }
 }

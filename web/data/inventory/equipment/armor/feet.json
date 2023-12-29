@@ -191,14 +191,23 @@
     "effect": "Recovers HP while walking about"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "warrior",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "feet",
-  "ingredientFor": [
-   "emperor-s-boots",
-   ",",
-   "boots-of-beatitude"
-  ]
+  "recipe": {
+   "agate-of-evolution": 1,
+   "hero-s-boots": 1,
+   "yellow-orb": 1
+  }
  },
  "bianca-s-boots": {
   "id": "bianca-s-boots",
@@ -281,9 +290,23 @@
     "effect": "Recovers HP while walking about"
    }
   },
+  "rarity": 5,
+  "vocations": [
+   "warrior",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "recipe": {
+   "agate-of-evolution": 3,
+   "basilic-boots": 1,
+   "yellow-orb": 3
+  }
  },
  "borya-s-boots": {
   "id": "borya-s-boots",
@@ -575,7 +598,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "ingredientFor": [
+   "classy-clogs"
+  ]
  },
  "combat-boots": {
   "id": "combat-boots",
@@ -667,9 +693,27 @@
     "effect": "Resists 5% damage from Fire and Dark"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "canBeUsedFor": [
+   "012-putting-on-the-glitz"
+  ]
  },
  "elevating-shoes": {
   "id": "elevating-shoes",
@@ -681,12 +725,28 @@
     "effect": "Boosts +5% exp. gained at end of battle"
    }
   },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "feet",
-  "ingredientFor": [
-   "pixie-boots"
-  ]
+  "recipe": {
+   "depressing-shoes": 1,
+   "lucky-pendant": 1
+  }
  },
  "emperor-s-boots": {
   "id": "emperor-s-boots",
@@ -698,9 +758,26 @@
     "effect": "Recovers HP while walking about"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "warrior",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "recipe": {
+   "agate-of-evolution": 3,
+   "basilic-boots": 1,
+   "yellow-orb": 3
+  },
+  "ingredientFor": [
+   "hero-s-boots"
+  ]
  },
  "erinn-s-boots": {
   "id": "erinn-s-boots",
@@ -817,7 +894,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "canBeUsedFor": [
+   "012-putting-on-the-glitz"
+  ]
  },
  "gigasteel-sabatons": {
   "id": "gigasteel-sabatons",
@@ -884,9 +964,25 @@
     "effect": "Recovers HP while walking about"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "warrior",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "recipe": {
+   "emperor-s-boots": 1,
+   "reset-stone": 1
+  },
+  "ingredientFor": [
+   "basilic-boots"
+  ]
  },
  "high-class-heels": {
   "id": "high-class-heels",
@@ -942,7 +1038,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "ingredientFor": [
+   "stiletto-heels"
+  ]
  },
  "highland-boots": {
   "id": "highland-boots",
@@ -1227,7 +1326,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "canBeUsedFor": [
+   "012-putting-on-the-glitz"
+  ]
  },
  "liquid-metal-slime-boots": {
   "id": "liquid-metal-slime-boots",
@@ -1333,8 +1435,9 @@
   "category": "armor",
   "classification": "feet",
   "ingredientFor": [
-   "liquid-metal-slime-boots",
-   "required-for:",
+   "liquid-metal-slime-boots"
+  ],
+  "requiredFor": [
    "059-runny-bunny"
   ]
  },
@@ -1429,9 +1532,19 @@
     "effect": "Chance to reflect 20% of damage taken"
    }
   },
+  "rarity": 1,
+  "buyPrice": 2950,
+  "vocations": [
+   "gladiator"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "recipe": {
+   "iron-nails": 2,
+   "magic-beast-horn": 2,
+   "steel-sabatons": 1
+  }
  },
  "pixie-boots": {
   "id": "pixie-boots",
@@ -1443,12 +1556,29 @@
     "effect": "Provides protection from damaging surfaces"
    }
   },
+  "rarity": 3,
+  "buyPrice": 20,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "feet",
-  "ingredientFor": [
-   "tricksie-boots"
-  ]
+  "recipe": {
+   "elevating-shoes": 1,
+   "elfin-charm": 2
+  }
  },
  "posh-pumps": {
   "id": "posh-pumps",
@@ -1548,7 +1678,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "ingredientFor": [
+   "safer-shoes"
+  ]
  },
  "sagacious-sandals": {
   "id": "sagacious-sandals",
@@ -1560,14 +1693,26 @@
     "effect": "Recovers MP while walking about"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "sage",
+   "ranger",
+   "armamentalist",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "feet",
-  "ingredientFor": [
-   "sapient-sandals",
-   ",",
-   "sentient-sandals"
-  ]
+  "recipe": {
+   "agate-of-evolution": 1,
+   "blue-orb": 1,
+   "sensible-sandals": 1
+  }
  },
  "saintly-sollerets": {
   "id": "saintly-sollerets",
@@ -1651,9 +1796,29 @@
     "effect": "Recovers MP while walking about"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "sage",
+   "ranger",
+   "armamentalist",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "recipe": {
+   "agate-of-evolution": 3,
+   "blue-orb": 3,
+   "sagacious-sandals": 1
+  },
+  "ingredientFor": [
+   "sensible-sandals"
+  ]
  },
  "sattriya-sandals": {
   "id": "sattriya-sandals",
@@ -1692,9 +1857,28 @@
     "effect": "Recovers MP while walking about"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "sage",
+   "ranger",
+   "armamentalist",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "recipe": {
+   "reset-stone": 1,
+   "sapient-sandals": 1
+  },
+  "ingredientFor": [
+   "sagacious-sandals"
+  ]
  },
  "sentient-sandals": {
   "id": "sentient-sandals",
@@ -1706,9 +1890,26 @@
     "effect": "Recovers MP while walking about"
    }
   },
+  "rarity": 5,
+  "vocations": [
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "sage",
+   "ranger",
+   "armamentalist",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "recipe": {
+   "agate-of-evolution": 3,
+   "blue-orb": 3,
+   "sagacious-sandals": 1
+  }
  },
  "shaman-shoes": {
   "id": "shaman-shoes",
@@ -1902,7 +2103,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "canBeUsedFor": [
+   "012-putting-on-the-glitz"
+  ]
  },
  "steel-sabatons": {
   "id": "steel-sabatons",
@@ -2059,9 +2263,28 @@
     "effect": "Provides protection from damaging surfaces"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "recipe": {
+   "agate-of-evolution": 1,
+   "pixie-boots": 1
+  }
  },
  "trodainers": {
   "id": "trodainers",
@@ -2187,6 +2410,22 @@
     "effect": "Resists 10% damage from Lightning"
    }
   },
+  "rarity": 1,
+  "buyPrice": 330,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "feet",

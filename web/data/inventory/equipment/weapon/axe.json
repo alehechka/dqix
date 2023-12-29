@@ -9,9 +9,19 @@
     "effect": "Deals Ice-elemental damage"
    }
   },
+  "rarity": 3,
+  "vocations": [
+   "gladiator",
+   "ranger"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "axe"
+  "classification": "axe",
+  "recipe": {
+   "agate-of-evolution": 1,
+   "ice-axe": 1,
+   "ice-crystal": 6
+  }
  },
  "bad-axe": {
   "id": "bad-axe",
@@ -23,9 +33,18 @@
     "effect": "Reduces enemy tension per hit"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "gladiator",
+   "ranger"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "axe",
+  "recipe": {
+   "climaxe": 1,
+   "reset-stone": 1
+  },
   "ingredientFor": [
    "maxi-axe"
   ]
@@ -49,7 +68,6 @@
   "classification": "axe",
   "ingredientFor": [
    "halberd",
-   ",",
    "moon-axe"
   ]
  },
@@ -63,9 +81,22 @@
     "effect": "Reduces enemy tension per hit"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "gladiator",
+   "ranger"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "axe"
+  "classification": "axe",
+  "recipe": {
+   "agate-of-evolution": 3,
+   "maxi-axe": 1,
+   "purple-orb": 3
+  },
+  "ingredientFor": [
+   "bad-axe"
+  ]
  },
  "executioner-s-axe": {
   "id": "executioner-s-axe",
@@ -74,9 +105,18 @@
   "statistics": {
    "special": {}
   },
+  "vocations": [
+   "gladiator",
+   "ranger"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "axe"
+  "classification": "axe",
+  "recipe": {
+   "ethereal-stone": 2,
+   "headsman-s-axe": 1,
+   "raging-ruby": 1
+  }
  },
  "full-moon-axe": {
   "id": "full-moon-axe",
@@ -88,9 +128,19 @@
     "effect": "Chance to inflict confusion"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "gladiator",
+   "ranger"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "axe"
+  "classification": "axe",
+  "recipe": {
+   "full-moon-ring": 1,
+   "moon-axe": 1,
+   "mystifying-mixture": 3
+  }
  },
  "galaxy-axe": {
   "id": "galaxy-axe",
@@ -102,9 +152,19 @@
     "effect": "Reduces enemy tension per hit"
    }
   },
+  "rarity": 5,
+  "vocations": [
+   "gladiator",
+   "ranger"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "axe"
+  "classification": "axe",
+  "recipe": {
+   "agate-of-evolution": 3,
+   "maxi-axe": 1,
+   "purple-orb": 3
+  }
  },
  "gigasteel-axe": {
   "id": "gigasteel-axe",
@@ -201,6 +261,11 @@
     "effect": "Deals 1.20x damage to Material family"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "gladiator",
+   "ranger"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "axe"
@@ -215,9 +280,20 @@
     "effect": "Deals Ice-elemental damage"
    }
   },
+  "rarity": 3,
+  "buyPrice": 37000,
+  "vocations": [
+   "gladiator",
+   "ranger"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "axe",
+  "recipe": {
+   "ice-crystal": 3,
+   "icicle-dirk": 3,
+   "kaiser-axe": 1
+  },
   "ingredientFor": [
    "avalanche-axe"
   ]
@@ -241,7 +317,6 @@
   "classification": "axe",
   "ingredientFor": [
    "steel-axe",
-   ",",
    "golden-axe"
   ]
  },
@@ -290,7 +365,6 @@
   },
   "ingredientFor": [
    "kaiser-axe",
-   ",",
    "king-s-coat"
   ]
  },
@@ -304,14 +378,19 @@
     "effect": "Reduces enemy tension per hit"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "gladiator",
+   "ranger"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "axe",
-  "ingredientFor": [
-   "climaxe",
-   ",",
-   "galaxy-axe"
-  ]
+  "recipe": {
+   "agate-of-evolution": 1,
+   "bad-axe": 1,
+   "purple-orb": 1
+  }
  },
  "moon-axe": {
   "id": "moon-axe",
@@ -323,12 +402,22 @@
     "effect": "Chance to inflict confusion"
    }
   },
+  "rarity": 1,
+  "buyPrice": 8800,
+  "vocations": [
+   "gladiator",
+   "ranger"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "axe",
+  "recipe": {
+   "battle-axe": 1,
+   "lunaria": 1,
+   "mystifying-mixture": 1
+  },
   "ingredientFor": [
    "full-moon-axe",
-   ",",
    "ring-of-clarity"
   ]
  },
@@ -342,6 +431,11 @@
     "effect": "Deals 1.20x damage to Plant family"
    }
   },
+  "rarity": 1,
+  "vocations": [
+   "gladiator",
+   "ranger"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "axe"

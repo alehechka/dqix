@@ -9,7 +9,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important-item",
+  "requiredFor": [
+   "006-get-well-water"
+  ]
  },
  "backscratcher": {
   "id": "backscratcher",
@@ -189,7 +192,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important-item",
+  "requiredFor": [
+   "023-research-assistant"
+  ]
  },
  "dead-man-s-dagger": {
   "id": "dead-man-s-dagger",
@@ -645,7 +651,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important-item",
+  "requiredFor": [
+   "017-you-shouldn-t-have…really"
+  ]
  },
  "pink-sanguini-scarf": {
   "id": "pink-sanguini-scarf",

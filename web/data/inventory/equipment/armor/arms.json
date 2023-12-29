@@ -134,7 +134,10 @@
   "recipe": {
    "grandmaster-s-gloves": 1,
    "reset-stone": 1
-  }
+  },
+  "ingredientFor": [
+   "master-s-gloves"
+  ]
  },
  "archer-s-armguard": {
   "id": "archer-s-armguard",
@@ -387,7 +390,12 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "arms"
+  "classification": "arms",
+  "ingredientFor": [
+   "leather-gloves",
+   "can-be-used-for:",
+   "012-putting-on-the-glitz"
+  ]
  },
  "crimson-gauntlets": {
   "id": "crimson-gauntlets",
@@ -449,9 +457,27 @@
     "effect": "Resists 5% damage from Fire and Dark"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "arms"
+  "classification": "arms",
+  "canBeUsedFor": [
+   "012-putting-on-the-glitz"
+  ]
  },
  "einhaender": {
   "id": "einhaender",
@@ -495,12 +521,26 @@
     "effect": "Resists 7% damage from Fire, Ice, Wind, Lightning, and Dark"
    }
   },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "arms",
-  "ingredientFor": [
-   "ethereal-gloves",
-   "can-be-used-for:",
+  "recipe": {
+   "enchanted-stone": 1,
+   "magic-mittens": 1
+  },
+  "canBeUsedFor": [
    "012-putting-on-the-glitz"
   ]
  },
@@ -531,9 +571,22 @@
     "effect": "Dispels 40% infliction rate of Divine Intervention"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "warrior",
+   "minstrel",
+   "gladiator",
+   "armamentalist",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "arms"
+  "classification": "arms",
+  "recipe": {
+   "glass-frit": 9,
+   "orichalcum": 1,
+   "rusty-gauntlets": 1
+  }
  },
  "ethereal-gloves": {
   "id": "ethereal-gloves",
@@ -547,9 +600,25 @@
     "effect": "Resists 10% damage from Fire, Ice, Wind, Lightning, and Dark"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "priest",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "arms"
+  "classification": "arms",
+  "recipe": {
+   "enchanted-gloves": 1,
+   "ethereal-stone": 1
+  }
  },
  "femiscyran-fingerwear": {
   "id": "femiscyran-fingerwear",
@@ -655,9 +724,28 @@
     "effect": "Resists 8% damage from Dark"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "arms",
+  "recipe": {
+   "evencloth": 3,
+   "heavy-handwear": 1
+  },
   "ingredientFor": [
    "murky-mittens"
   ]
@@ -791,7 +879,10 @@
    "agate-of-evolution": 3,
    "master-s-gloves": 1,
    "silver-orb": 3
-  }
+  },
+  "ingredientFor": [
+   "apprentice-s-gloves"
+  ]
  },
  "guru-s-gloves": {
   "id": "guru-s-gloves",
@@ -888,7 +979,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "arms"
+  "classification": "arms",
+  "ingredientFor": [
+   "steel-gauntlets"
+  ]
  },
  "kiefer-s-gloves": {
   "id": "kiefer-s-gloves",
@@ -1040,12 +1134,23 @@
     "effect": "Dispels 25% infliction rate of Sap"
    }
   },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "arms",
-  "ingredientFor": [
-   "metal-king-slime-gloves"
-  ]
+  "recipe": {
+   "metal-slime-gauntlets": 1,
+   "orichalcum": 1,
+   "slimedrop": 6
+  }
  },
  "lockpicker-s-mitts": {
   "id": "lockpicker-s-mitts",
@@ -1076,9 +1181,27 @@
     "effect": "Resists 5% damage from Fire, Ice, Wind, Lightning, and Dark"
    }
   },
+  "rarity": 1,
+  "buyPrice": 2400,
+  "vocations": [
+   "warrior",
+   "priest",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "arms"
+  "classification": "arms",
+  "ingredientFor": [
+   "enchanted-gloves",
+   "can-be-used-for:",
+   "012-putting-on-the-glitz"
+  ]
  },
  "marquess-s-mittens": {
   "id": "marquess-s-mittens",
@@ -1090,12 +1213,24 @@
     "effect": "Dispels 15% infliction rates of Dazzle and Fuddle"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "priest",
+   "mage",
+   "thief",
+   "minstrel",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "arms",
-  "ingredientFor": [
-   "monarch-s-mittens"
-  ]
+  "recipe": {
+   "mayoress-s-mittens": 1,
+   "monarchic-mark": 1
+  }
  },
  "master-s-gloves": {
   "id": "master-s-gloves",
@@ -1193,9 +1328,26 @@
     "effect": "Dispels 12% infliction rates of Dazzle and Fuddle"
    }
   },
+  "rarity": 2,
+  "buyPrice": 2800,
+  "vocations": [
+   "priest",
+   "mage",
+   "thief",
+   "minstrel",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "arms"
+  "classification": "arms",
+  "ingredientFor": [
+   "marquess-s-mittens",
+   "can-be-used-for:",
+   "012-putting-on-the-glitz"
+  ]
  },
  "mcryan-s-mittens": {
   "id": "mcryan-s-mittens",
@@ -1281,9 +1433,23 @@
     "effect": "Dispels 30% infliction rate of Sap"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "warrior",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "arms"
+  "classification": "arms",
+  "recipe": {
+   "metal-slime-gauntlets": 1,
+   "orichalcum": 1,
+   "slime-crown": 1
+  }
  },
  "metal-slime-gauntlets": {
   "id": "metal-slime-gauntlets",
@@ -1295,9 +1461,21 @@
     "effect": "Dispels 20% infliction rate of Sap"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "arms"
+  "classification": "arms",
+  "ingredientFor": [
+   "liquid-metal-slime-gloves"
+  ]
  },
  "metallic-mitts": {
   "id": "metallic-mitts",
@@ -1397,12 +1575,24 @@
     "effect": "Dispels 18% infliction rates of Dazzle and Fuddle"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "priest",
+   "mage",
+   "thief",
+   "minstrel",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "arms",
-  "ingredientFor": [
-   "queen-s-robe"
-  ]
+  "recipe": {
+   "highness-heels": 1,
+   "marquess-s-mittens": 1
+  }
  },
  "murky-mittens": {
   "id": "murky-mittens",
@@ -1414,9 +1604,29 @@
     "effect": "Resists 10% damage from Dark"
    }
   },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "arms"
+  "classification": "arms",
+  "recipe": {
+   "evencloth": 3,
+   "gloomy-gloves": 1,
+   "malicite": 1
+  }
  },
  "nera-s-bracelets": {
   "id": "nera-s-bracelets",
@@ -1471,6 +1681,22 @@
     "effect": "Resists 10% damage from Lightning"
    }
   },
+  "rarity": 1,
+  "buyPrice": 370,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "arms"
@@ -1493,7 +1719,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "arms"
+  "classification": "arms",
+  "ingredientFor": [
+   "erdrick-s-gauntlets"
+  ]
  },
  "silver-bracelets": {
   "id": "silver-bracelets",
@@ -1656,7 +1885,10 @@
    "agate-of-evolution": 3,
    "diana-gauntlets": 1,
    "red-orb": 3
-  }
+  },
+  "ingredientFor": [
+   "vesta-gauntlets"
+  ]
  },
  "ultramarine-mittens": {
   "id": "ultramarine-mittens",
@@ -1683,7 +1915,12 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "arms"
+  "classification": "arms",
+  "ingredientFor": [
+   "utility-belt",
+   "can-be-used-for:",
+   "012-putting-on-the-glitz"
+  ]
  },
  "veteran-s-gloves": {
   "id": "veteran-s-gloves",

@@ -11,9 +11,25 @@
     "effect": "Resists 22% damage from all elements; dispels 35% infliction rate of Whack"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "thief",
+   "mage",
+   "minstrel",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "recipe": {
+   "agate-of-evolution": 3,
+   "archangel-s-robe": 1,
+   "yellow-orb": 3
+  },
+  "ingredientFor": [
+   "angel-s-robe"
+  ]
  },
  "alefgard-armour": {
   "id": "alefgard-armour",
@@ -81,9 +97,24 @@
     "effect": "Resists 18% damage from all elements; dispels 25% infliction rate of Whack"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "thief",
+   "mage",
+   "minstrel",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "recipe": {
+   "aeon-s-robe": 1,
+   "reset-stone": 1
+  },
+  "ingredientFor": [
+   "archangel-s-robe"
+  ]
  },
  "aquila-s-armour": {
   "id": "aquila-s-armour",
@@ -124,14 +155,22 @@
     "effect": "Resists 20% damage from all elements; dispels 30% infliction rate of Whack"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "thief",
+   "mage",
+   "minstrel",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
-  "ingredientFor": [
-   "aeon-s-robe",
-   ",",
-   "seraph-s-robe"
-  ]
+  "recipe": {
+   "agate-of-evolution": 1,
+   "angel-s-robe": 1,
+   "yellow-orb": 1
+  }
  },
  "ascetic-robe": {
   "id": "ascetic-robe",
@@ -144,6 +183,10 @@
     "effect": "Resists 30% MP Absorption"
    }
   },
+  "rarity": 1,
+  "vocations": [
+   "priest-(male-only)"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
@@ -206,7 +249,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "canBeUsedFor": [
+   "012-putting-on-the-glitz"
+  ]
  },
  "bianca-s-clothes": {
   "id": "bianca-s-clothes",
@@ -368,9 +414,18 @@
     "effect": "Resists 30% MP Absorption; dispels 30% infliction rate of Fizzle"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "sage-(male-only)"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "recipe": {
+   "majestic-mantle": 1,
+   "sage-s-elixir": 3,
+   "thinkincense": 6
+  }
  },
  "captain-s-coat": {
   "id": "captain-s-coat",
@@ -437,9 +492,24 @@
     "effect": "Chance to reflect spells"
    }
   },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "recipe": {
+   "catholicon-ring": 1,
+   "mirror-armour": 1,
+   "mirrorstone": 5
+  }
  },
  "celestial-suit": {
   "id": "celestial-suit",
@@ -479,12 +549,23 @@
     "effect": "Recovers 25 HP each turn; dispels 30% infliction rates of Snooze and Whack"
    }
   },
+  "rarity": 3,
+  "vocations": [
+   "priest",
+   "mage",
+   "minstrel",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
-  "ingredientFor": [
-   "celestria-s-raiment"
-  ]
+  "recipe": {
+   "nightmare-gown": 1,
+   "saint-s-ashes": 3
+  }
  },
  "celestria-s-raiment": {
   "id": "celestria-s-raiment",
@@ -497,9 +578,24 @@
     "effect": "Recovers 25 HP each turn; dispels 30% infliction rates of Snooze and Whack"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "priest",
+   "mage",
+   "minstrel",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "recipe": {
+   "agate-of-evolution": 1,
+   "astral-plume": 7,
+   "celestria-s-gown": 1
+  }
  },
  "chain-mail": {
   "id": "chain-mail",
@@ -524,7 +620,11 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "ingredientFor": [
+   "holy-mail",
+   "chainmail-socks"
+  ]
  },
  "cloak-of-concealment": {
   "id": "cloak-of-concealment",
@@ -586,7 +686,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "ingredientFor": [
+   "cloak-of-concealment"
+  ]
  },
  "combat-costume": {
   "id": "combat-costume",
@@ -663,9 +766,18 @@
     "effect": "Resists 15% damage from Fire and Ice"
    }
   },
+  "rarity": 1,
+  "vocations": [
+   "minstrel-(female-only)"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "recipe": {
+   "brighten-rock": 3,
+   "dancer-s-costume": 1,
+   "technicolour-dreamcloth": 1
+  },
   "canBeUsedFor": [
    "012-putting-on-the-glitz"
   ]
@@ -766,7 +878,6 @@
   },
   "ingredientFor": [
    "phantom-mask",
-   ",",
    "macabre-mantle"
   ]
  },
@@ -842,6 +953,10 @@
     "effect": "Resists 30% MP Absorption; dispels 30% infliction rate of Fizzle"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "sage-(female-only)"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "torso"
@@ -877,9 +992,25 @@
     "effect": "Resists 20% damage from Fire and Ice"
    }
   },
+  "rarity": 1,
+  "buyPrice": 11500,
+  "vocations": [
+   "warrior",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "ranger",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "recipe": {
+   "dragon-scale": 2,
+   "magic-armour": 1,
+   "raging-ruby": 1
+  }
  },
  "dragon-robe": {
   "id": "dragon-robe",
@@ -892,9 +1023,23 @@
     "effect": "Resists 18% damage from Fire, Ice, Wind, Lightning, and Dark"
    }
   },
+  "rarity": 3,
+  "vocations": [
+   "priest",
+   "mage",
+   "martial-artist",
+   "minstrel",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "ingredientFor": [
+   "xenlon-robe"
+  ]
  },
  "dragon-top": {
   "id": "dragon-top",
@@ -906,9 +1051,19 @@
     "effect": "Resists 18% damage from Fire and Ice"
    }
   },
+  "rarity": 2,
+  "buyPrice": 11200,
+  "vocations": [
+   "martial-artist"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "recipe": {
+   "dragon-scale": 2,
+   "finessence": 2,
+   "tussler-s-top": 1
+  },
   "ingredientFor": [
    "xenlon-robe"
   ]
@@ -923,9 +1078,27 @@
     "effect": "Resists 10% damage from Fire and Dark"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "canBeUsedFor": [
+   "012-putting-on-the-glitz"
+  ]
  },
  "emperor-s-attire": {
   "id": "emperor-s-attire",
@@ -939,9 +1112,23 @@
     "effect": "Resists 20% damage from all elements"
    }
   },
+  "rarity": 3,
+  "vocations": [
+   "priest",
+   "mage",
+   "minstrel",
+   "armamentalist",
+   "sage",
+   "luminary;-male-only"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "recipe": {
+   "king-s-coat": 1,
+   "lambswool": 3,
+   "slime-crown": 1
+  }
  },
  "empress-s-robe": {
   "id": "empress-s-robe",
@@ -955,9 +1142,23 @@
     "effect": "Resists 20% damage from all elements"
    }
   },
+  "rarity": 3,
+  "vocations": [
+   "priest",
+   "mage",
+   "minstrel",
+   "armamentalist",
+   "sage",
+   "luminary;-female-only"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "recipe": {
+   "lambswool": 3,
+   "queen-s-robe": 1,
+   "spellward-circlet": 1
+  }
  },
  "enchanted-armour": {
   "id": "enchanted-armour",
@@ -971,12 +1172,25 @@
     "effect": "Resists 15% damage from Fire, Ice, Wind, and Lightning; 12% from Dark"
    }
   },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
-  "ingredientFor": [
-   "ethereal-armour"
-  ]
+  "recipe": {
+   "enchanted-stone": 1,
+   "magic-armour": 1
+  }
  },
  "enchanted-robes": {
   "id": "enchanted-robes",
@@ -990,14 +1204,23 @@
     "effect": "Resists 20% damage from Fire, Ice, Wind, Lightning, and Dark"
    }
   },
+  "rarity": 1,
+  "vocations": [
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
-  "ingredientFor": [
-   "ethereal-robes",
-   ",",
-   "flowing-dress"
-  ]
+  "recipe": {
+   "enchanted-stone": 1,
+   "magical-robes": 1
+  }
  },
  "erdrick-s-armour": {
   "id": "erdrick-s-armour",
@@ -1009,9 +1232,22 @@
     "effect": "Resists 20% damage from Fire, Ice, Wind, Lightning, and Dark"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "warrior",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "recipe": {
+   "glass-frit": 9,
+   "orichalcum": 1,
+   "rusty-armour": 1
+  }
  },
  "erinn-s-outfit": {
   "id": "erinn-s-outfit",
@@ -1052,9 +1288,25 @@
     "effect": "Resists 18% damage from Fire, Ice, Wind, and Lightning; 15% from Dark"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "priest",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "recipe": {
+   "enchanted-armour": 1,
+   "ethereal-stone": 1
+  }
  },
  "ethereal-robes": {
   "id": "ethereal-robes",
@@ -1068,9 +1320,52 @@
     "effect": "Resists 22% damage from Fire, Ice, Wind, Lightning, and Dark"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "recipe": {
+   "enchanted-robes": 1,
+   "ethereal-stone": 1
+  }
+ },
+ "exotoga": {
+  "id": "exotoga",
+  "title": "Exotoga",
+  "description": "The perfect protection against fire, ice, poison, sleep and paralysis.",
+  "statistics": {
+   "defense": 75,
+   "special": {
+    "effect": "Resists 25% damage from Fire, Ice, Wind, Lightning, and Dark; dispels 35% infliction rates of Snooze, Poison, and Paralysis"
+   }
+  },
+  "rarity": 5,
+  "vocations": [
+   "priest",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "recipe": {
+   "agate-of-evolution": 3,
+   "blue-orb": 3,
+   "stratotoga": 1
+  }
  },
  "femiscyran-mail": {
   "id": "femiscyran-mail",
@@ -1100,6 +1395,10 @@
     "effect": "Resists 15% damage from Fire, Ice, Wind, Lightning, and Dark"
    }
   },
+  "rarity": 1,
+  "vocations": [
+   "armamentalist-(female-only)"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "torso"
@@ -1115,6 +1414,10 @@
     "effect": "Resists 15% damage from Fire, Ice, Wind, Lightning, and Dark"
    }
   },
+  "rarity": 1,
+  "vocations": [
+   "armamentalist-(male-only)"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "torso"
@@ -1130,12 +1433,18 @@
     "effect": "Dispels 40% infliction rate of Fizzle"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "mage-(male-only)"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
-  "ingredientFor": [
-   "sage-s-robe"
-  ]
+  "recipe": {
+   "fizzle-retardant-suit": 1,
+   "grubby-bandage": 3,
+   "sorcerer-s-ring": 1
+  }
  },
  "fizzle-retardant-blouse": {
   "id": "fizzle-retardant-blouse",
@@ -1148,6 +1457,10 @@
     "effect": "Dispels 30% infliction rate of Fizzle"
    }
   },
+  "rarity": 1,
+  "vocations": [
+   "mage-(female-only)"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "torso"
@@ -1163,6 +1476,10 @@
     "effect": "Dispels 30% infliction rate of Fizzle"
    }
   },
+  "rarity": 1,
+  "vocations": [
+   "mage-(male-only)"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
@@ -1233,9 +1550,25 @@
     "effect": "Resists 25% damage from Fire and Ice"
    }
   },
+  "rarity": 2,
+  "buyPrice": 18000,
+  "vocations": [
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "recipe": {
+   "celestial-skein": 3,
+   "enchanted-robes": 1
+  }
  },
  "full-plate-armour": {
   "id": "full-plate-armour",
@@ -1291,7 +1624,10 @@
   "recipe": {
    "leather-cape": 1,
    "magic-beast-hide": 3
-  }
+  },
+  "ingredientFor": [
+   "fur-vest"
+  ]
  },
  "fur-vest": {
   "id": "fur-vest",
@@ -1303,9 +1639,29 @@
     "effect": "Resists 15% damage from Fire and Ice"
    }
   },
+  "rarity": 1,
+  "buyPrice": 5800,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "recipe": {
+   "fur-poncho": 1,
+   "magic-beast-hide": 3
+  }
  },
  "garish-garb": {
   "id": "garish-garb",
@@ -1333,7 +1689,11 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "ingredientFor": [
+   "gooey-gear",
+   "flamenco-shirt"
+  ]
  },
  "gigant-armour": {
   "id": "gigant-armour",
@@ -1345,6 +1705,14 @@
     "effect": "Resists 15% damage from Fire, Ice, and Lightning"
    }
   },
+  "rarity": 2,
+  "buyPrice": 36000,
+  "vocations": [
+   "warrior",
+   "thief",
+   "gladiator",
+   "ranger"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "torso"
@@ -1385,6 +1753,21 @@
     "effect": "Absorbs MP from incoming spells"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "torso"
@@ -1399,14 +1782,23 @@
     "effect": "Resists 20% damage from Fire and Ice; recovers HP and MP while walking about"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "warrior",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
-  "ingredientFor": [
-   "mythical-armour",
-   ",",
-   "legendary-armour"
-  ]
+  "recipe": {
+   "agate-of-evolution": 1,
+   "red-orb": 1,
+   "victorious-armour": 1
+  }
  },
  "gold-mail": {
   "id": "gold-mail",
@@ -1418,12 +1810,23 @@
     "effect": "Resists 10% damage from Fire, Ice, Wind, and Lightning; 8% from Dark"
    }
   },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
-  "ingredientFor": [
-   "platinum-mail"
-  ]
+  "recipe": {
+   "gold-bracer": 1,
+   "gold-ring": 1,
+   "silver-mail": 1
+  }
  },
  "gooey-gear": {
   "id": "gooey-gear",
@@ -1522,6 +1925,13 @@
     "effect": "Resists 18% damage from Fire and Ice"
    }
   },
+  "rarity": 1,
+  "buyPrice": 3600,
+  "vocations": [
+   "warrior",
+   "gladiator",
+   "paladin"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "torso"
@@ -1581,7 +1991,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "ingredientFor": [
+   "full-plate-armour"
+  ]
  },
  "iron-cuirass": {
   "id": "iron-cuirass",
@@ -1607,7 +2020,11 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "ingredientFor": [
+   "silver-cuirass",
+   "tortoise-shell"
+  ]
  },
  "jaguarment": {
   "id": "jaguarment",
@@ -1703,12 +2120,23 @@
     "effect": "Resists 18% damage from all elements"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "priest",
+   "mage",
+   "minstrel",
+   "armamentalist",
+   "sage",
+   "luminary;-male-only"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
-  "ingredientFor": [
-   "emperor-s-attire"
-  ]
+  "recipe": {
+   "king-axe": 1,
+   "lambswool": 2,
+   "prince-s-pea-coat": 1
+  }
  },
  "kiryl-s-clothes": {
   "id": "kiryl-s-clothes",
@@ -1820,7 +2248,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "ingredientFor": [
+   "fur-poncho"
+  ]
  },
  "leather-dress": {
   "id": "leather-dress",
@@ -1861,9 +2292,23 @@
     "effect": "Resists 25% damage from Fire and Ice; recovers HP and MP while walking about"
    }
   },
+  "rarity": 5,
+  "vocations": [
+   "warrior",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "recipe": {
+   "agate-of-evolution": 3,
+   "glorious-armour": 1,
+   "red-orb": 3
+  }
  },
  "liquid-metal-armour": {
   "id": "liquid-metal-armour",
@@ -1875,12 +2320,23 @@
     "effect": "Resists 18% damage from all elements"
    }
   },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
-  "ingredientFor": [
-   "metal-king-armour"
-  ]
+  "recipe": {
+   "metal-slime-armour": 1,
+   "orichalcum": 1,
+   "slimedrop": 6
+  }
  },
  "macabre-mantle": {
   "id": "macabre-mantle",
@@ -1923,6 +2379,19 @@
     "effect": "Resists 12% damage from Fire, Ice, Wind, and Lightning; 10% from Dark"
    }
   },
+  "rarity": 1,
+  "buyPrice": 5800,
+  "vocations": [
+   "warrior",
+   "priest",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
@@ -1945,6 +2414,17 @@
     "effect": "Resists 18% damage from Fire, Ice, Wind, Lightning, and Dark"
    }
   },
+  "rarity": 1,
+  "buyPrice": 3600,
+  "vocations": [
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
@@ -1992,6 +2472,11 @@
     "effect": "Resists 12% damage from Fire, Ice, Wind, Lightning, and Dark"
    }
   },
+  "rarity": 1,
+  "buyPrice": 23500,
+  "vocations": [
+   "sage-(female-only)"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "torso"
@@ -2119,9 +2604,27 @@
     "effect": "Resists 22% damage from Fire, Ice, Wind, Lightning, and Dark; dispels 30% infliction rates of Snooze, Poison, and Paralysis"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "priest",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "recipe": {
+   "agate-of-evolution": 3,
+   "blue-orb": 3,
+   "stratotoga": 1
+  },
+  "ingredientFor": [
+   "tropotoga"
+  ]
  },
  "metal-king-armour": {
   "id": "metal-king-armour",
@@ -2133,9 +2636,23 @@
     "effect": "Resists 20% damage from all elements"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "warrior",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "recipe": {
+   "liquid-metal-armour": 1,
+   "orichalcum": 1,
+   "slime-crown": 1
+  }
  },
  "metal-slime-armour": {
   "id": "metal-slime-armour",
@@ -2147,9 +2664,21 @@
     "effect": "Resists 15% damage from all elements"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "ingredientFor": [
+   "liquid-metal-armour"
+  ]
  },
  "midenhall-garb": {
   "id": "midenhall-garb",
@@ -2215,9 +2744,25 @@
     "effect": "Chance to reflect spells"
    }
   },
+  "rarity": 2,
+  "buyPrice": 22500,
+  "vocations": [
+   "warrior",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "recipe": {
+   "magic-armour": 1,
+   "mirrorstone": 3,
+   "sober-ring": 1
+  },
   "ingredientFor": [
    "catoptric-armour"
   ]
@@ -2288,9 +2833,26 @@
     "effect": "Resists 22% damage from Fire and Ice; recovers HP and MP while walking about"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "warrior",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "recipe": {
+   "agate-of-evolution": 3,
+   "glorious-armour": 1,
+   "red-orb": 3
+  },
+  "ingredientFor": [
+   "victorious-armour"
+  ]
  },
  "nera-s-dress": {
   "id": "nera-s-dress",
@@ -2355,6 +2917,10 @@
     "effect": "Resists 25% damage from Earth"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "ranger"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "torso"
@@ -2369,6 +2935,17 @@
     "effect": "Resists 20% damage from all elements"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "priest",
+   "thief",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "torso"
@@ -2466,12 +3043,23 @@
     "effect": "Resists 12% damage from Fire, Ice, Wind, and Lightning; 10% from Dark"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
-  "canBeUsedFor": [
-   "012-putting-on-the-glitz"
-  ]
+  "recipe": {
+   "gold-mail": 1,
+   "hephaestus--flame": 1,
+   "platinum-ore": 1
+  }
  },
  "priestess-s-pinafore": {
   "id": "priestess-s-pinafore",
@@ -2484,6 +3072,10 @@
     "effect": "Resists 30% MP Absorption"
    }
   },
+  "rarity": 1,
+  "vocations": [
+   "priest-(female-only)"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "torso"
@@ -2500,9 +3092,22 @@
     "effect": "Resists 15% damage from all elements"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "priest",
+   "mage",
+   "minstrel",
+   "armamentalist",
+   "sage",
+   "luminary;-male-only"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "recipe": {
+   "monarchic-mark": 1,
+   "twinkling-tuxedo": 1
+  },
   "ingredientFor": [
    "king-s-coat"
   ]
@@ -2519,9 +3124,22 @@
     "effect": "Resists 15% damage from all elements"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "priest",
+   "mage",
+   "minstrel",
+   "armamentalist",
+   "sage",
+   "luminary;-female-only"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "recipe": {
+   "monarchic-mark": 1,
+   "shimmering-dress": 1
+  },
   "ingredientFor": [
    "queen-s-robe"
   ]
@@ -2538,12 +3156,23 @@
     "effect": "Resists 18% damage from all elements"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "priest",
+   "mage",
+   "minstrel",
+   "armamentalist",
+   "sage",
+   "luminary;-female-only"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
-  "ingredientFor": [
-   "empress-s-robe"
-  ]
+  "recipe": {
+   "lambswool": 2,
+   "monarch-s-mittens": 1,
+   "princess-s-robe": 1
+  }
  },
  "ragnar-s-armour": {
   "id": "ragnar-s-armour",
@@ -2584,9 +3213,28 @@
     "effect": "Dispels 25% infliction rate of Snooze"
    }
   },
+  "rarity": 1,
+  "buyPrice": 950,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "ingredientFor": [
+   "robe-of-sweet-dreams"
+  ]
  },
  "robe-of-sweet-dreams": {
   "id": "robe-of-sweet-dreams",
@@ -2600,9 +3248,28 @@
     "effect": "Dispels 40% infliction rate of Snooze"
    }
   },
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "recipe": {
+   "lambswool": 3,
+   "robe-of-serenity": 1,
+   "sleeping-hibiscus": 3
+  }
  },
  "rogue-s-robes": {
   "id": "rogue-s-robes",
@@ -2669,6 +3336,16 @@
     "effect": "Recovers 25 HP each turn"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
@@ -2715,9 +3392,18 @@
     "effect": "Resists 15% damage from Fire, Ice, Wind, Lightning, and Dark"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "sage"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "recipe": {
+   "fizzle-proof-suit": 1,
+   "saintly-robe": 1,
+   "thinkincense": 3
+  }
  },
  "saintly-robe": {
   "id": "saintly-robe",
@@ -2730,12 +3416,18 @@
     "effect": "Resists 40% MP Absorption"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "priest-(male-only)"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
-  "ingredientFor": [
-   "sage-s-robe"
-  ]
+  "recipe": {
+   "ascetic-robe": 1,
+   "grubby-bandage": 3,
+   "rosary": 1
+  }
  },
  "santa-s-little-helper-suit": {
   "id": "santa-s-little-helper-suit",
@@ -2747,6 +3439,22 @@
     "effect": "Resists 20% damage from Ice"
    }
   },
+  "rarity": 3,
+  "buyPrice": 24000,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "torso"
@@ -2761,6 +3469,22 @@
     "effect": "Resists 20% damage from Ice"
    }
   },
+  "rarity": 3,
+  "buyPrice": 18000,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "torso"
@@ -2789,7 +3513,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "ingredientFor": [
+   "large-scale-armour"
+  ]
  },
  "sellma-s-frock": {
   "id": "sellma-s-frock",
@@ -2830,9 +3557,22 @@
     "effect": "Resists 25% damage from all elements; dispels 40% infliction rate of Whack"
    }
   },
+  "rarity": 5,
+  "vocations": [
+   "thief",
+   "mage",
+   "minstrel",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "recipe": {
+   "agate-of-evolution": 3,
+   "archangel-s-robe": 1,
+   "yellow-orb": 3
+  }
  },
  "shimmering-dress": {
   "id": "shimmering-dress",
@@ -2844,12 +3584,29 @@
     "effect": "Chance to reflect spells"
    }
   },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
-  "ingredientFor": [
-   "princess-s-robe"
-  ]
+  "recipe": {
+   "brighten-rock": 3,
+   "pink-pearl": 1,
+   "spangled-dress": 1
+  }
  },
  "shipmate-s-shirt": {
   "id": "shipmate-s-shirt",
@@ -2906,7 +3663,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "ingredientFor": [
+   "silk-bustier"
+  ]
  },
  "silver-cuirass": {
   "id": "silver-cuirass",
@@ -2947,6 +3707,16 @@
     "effect": "Resists 8% damage from Fire, Ice, Wind, and Lightning; 5% from Dark"
    }
   },
+  "rarity": 1,
+  "buyPrice": 4000,
+  "vocations": [
+   "warrior",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
@@ -2964,9 +3734,29 @@
     "effect": "Resists 15% damage from Fire and Lightning"
    }
   },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "recipe": {
+   "astral-plume": 2,
+   "hot-bikini-top": 1,
+   "technicolour-dreamcloth": 1
+  }
  },
  "skeleton-suit": {
   "id": "skeleton-suit",
@@ -3022,7 +3812,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "ingredientFor": [
+   "twinkling-tuxedo"
+  ]
  },
  "somnia-clothes": {
   "id": "somnia-clothes",
@@ -3077,7 +3870,12 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "ingredientFor": [
+   "shimmering-dress",
+   "can-be-used-for:",
+   "012-putting-on-the-glitz"
+  ]
  },
  "spiked-armour": {
   "id": "spiked-armour",
@@ -3089,9 +3887,25 @@
     "effect": "Chance to reflect 20% of damage taken"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "recipe": {
+   "iron-nails": 5,
+   "magic-armour": 1,
+   "magic-beast-horn": 2
+  },
+  "canBeUsedFor": [
+   "012-putting-on-the-glitz"
+  ]
  },
  "star-s-suit": {
   "id": "star-s-suit",
@@ -3107,7 +3921,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "ingredientFor": [
+   "superstar-s-suit"
+  ]
  },
  "stellar-suit": {
   "id": "stellar-suit",
@@ -3146,14 +3963,24 @@
     "effect": "Resists 22% damage from Fire and Ice; dispels 25% infliction rates of Snooze, Poison, and Paralysis"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "priest",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
-  "ingredientFor": [
-   "mesotoga",
-   ",",
-   "exotoga"
-  ]
+  "recipe": {
+   "agate-of-evolution": 1,
+   "blue-orb": 1,
+   "tropotoga": 1
+  }
  },
  "strongsam": {
   "id": "strongsam",
@@ -3234,6 +4061,10 @@
     "effect": "Resists 40% MP Absorption"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "priest"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "torso"
@@ -3346,7 +4177,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "ingredientFor": [
+   "technicolour-tutu"
+  ]
  },
  "torneko-s-clothes": {
   "id": "torneko-s-clothes",
@@ -3380,14 +4214,32 @@
   "title": "Tortoise Shell",
   "description": "Not to be confused with the item,",
   "statistics": {
+   "defense": 22,
    "special": {}
   },
+  "rarity": 1,
+  "buyPrice": 1550,
+  "vocations": [
+   "warrior",
+   "priest",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "armamentalist",
+   "ranger",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "recipe": {
+   "emerald-moss": 1,
+   "iron-cuirass": 1,
+   "tortoiseshell": 1
+  },
   "ingredientFor": [
    "black-tortoise-fan",
-   ",",
    "tortoiseshell-armour"
   ]
  },
@@ -3527,9 +4379,26 @@
     "effect": "Resists 20% damage from Fire and Ice; dispels 20% infliction rates of Snooze, Poison, and Paralysis"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "priest",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "recipe": {
+   "mesotoga": 1,
+   "reset-stone": 1
+  },
+  "ingredientFor": [
+   "stratotoga"
+  ]
  },
  "tussler-s-top": {
   "id": "tussler-s-top",
@@ -3563,12 +4432,29 @@
     "effect": "Chance to reflect spells"
    }
   },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
-  "ingredientFor": [
-   "prince-s-pea-coat"
-  ]
+  "recipe": {
+   "bow-tie": 1,
+   "brighten-rock": 3,
+   "smart-suit": 1
+  }
  },
  "velvet-cape": {
   "id": "velvet-cape",
@@ -3594,7 +4480,6 @@
   "classification": "torso",
   "ingredientFor": [
    "majestic-mantle",
-   ",",
    "dark-robe"
   ]
  },
@@ -3624,9 +4509,25 @@
     "effect": "Resists 18% damage from Fire and Ice; recovers HP and MP while walking about"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "warrior",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "recipe": {
+   "mythical-armour": 1,
+   "reset-stone": 1
+  },
+  "ingredientFor": [
+   "glorious-armour"
+  ]
  },
  "warrior-s-armour": {
   "id": "warrior-s-armour",
@@ -3682,6 +4583,22 @@
     "effect": "Resists 20% damage from Dark"
    }
   },
+  "rarity": 3,
+  "buyPrice": 90000,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "torso"
@@ -3727,6 +4644,22 @@
     "effect": "Resists 20% damage from Dark"
    }
   },
+  "rarity": 3,
+  "buyPrice": 50000,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "torso"
@@ -3742,6 +4675,11 @@
     "effect": "Dispels 40% infliction rate of Fizzle"
    }
   },
+  "rarity": 2,
+  "buyPrice": 13000,
+  "vocations": [
+   "mage-(female-only)"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "torso"
@@ -3757,6 +4695,11 @@
     "effect": "Dispels 40% infliction rate of Fizzle"
    }
   },
+  "rarity": 2,
+  "buyPrice": 12500,
+  "vocations": [
+   "mage-(male-only)"
+  ],
   "type": "equipment",
   "category": "armor",
   "classification": "torso"
@@ -3772,9 +4715,25 @@
     "effect": "Resists 20% damage from Fire, Ice, Wind, Lightning, and Dark"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "priest",
+   "mage",
+   "martial-artist",
+   "minstrel",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "recipe": {
+   "dragon-dress": 1,
+   "dragon-robe": 1,
+   "dragon-top": 1
+  }
  },
  "yangus-s-billy": {
   "id": "yangus-s-billy",
