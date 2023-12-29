@@ -157,6 +157,8 @@ func (i Inventory) ToDataKey() DataKey {
 		Type:           i.Type,
 		Category:       i.Category,
 		Classification: i.Classification,
+		Title:          i.Title,
+		Path:           i.GetPath(),
 	}
 }
 
