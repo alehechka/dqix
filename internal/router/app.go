@@ -15,6 +15,28 @@ type app struct {
 
 type data struct {
 	inventoryMap types.InventoryMap
+	dataMap      map[string]types.DataKey
+}
+
+func (d data) GetThing(id string) (thing types.Thing) {
+	dataKey, ok := d.dataMap[id]
+	if !ok {
+		return nil
+	}
+
+	switch dataKey.Structure {
+	case "inventory":
+		return d.inventoryMap.GetInventoryFromDataKey(dataKey)
+	default:
+		return nil
+	}
+}
+
+func (d data) GetInventory(id string) (inventory types.Inventory) {
+	i := d.GetThing(id)
+
+	inventory, _ = i.(types.Inventory)
+	return
 }
 
 type RouterOption interface {
@@ -31,6 +53,7 @@ func WithData(path string) RouterOption {
 
 func (o dataPathOption) apply(a *app) {
 	a.data.inventoryMap = make(types.InventoryMap)
+	a.data.dataMap = make(map[string]types.DataKey)
 	a.dataPath = o.path
 }
 
@@ -81,6 +104,7 @@ func (a *app) loadInventory(basePath string) error {
 
 		for _, inventory := range classMap {
 			a.data.inventoryMap.AddInventory(inventory)
+			a.data.dataMap[inventory.ID] = inventory.ToDataKey()
 		}
 
 		return nil

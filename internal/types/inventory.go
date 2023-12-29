@@ -3,19 +3,12 @@ package types
 import (
 	"encoding/json"
 	"os"
+	"path"
 	"path/filepath"
 	"sort"
 	"strconv"
 	"strings"
 )
-
-type PageContent struct {
-	Path  string
-	Text  []string
-	Links map[string]string
-}
-
-type Pages map[string]PageContent
 
 type InventoryMap map[string]map[string]map[string]map[string]Inventory
 
@@ -80,6 +73,10 @@ func (i InventoryMap) GetInventory(typeId string, category string, classificatio
 	return classifications[inventoryId]
 }
 
+func (i InventoryMap) GetInventoryFromDataKey(d DataKey) Inventory {
+	return i.GetInventory(d.Type, d.Category, d.Classification, d.ID)
+}
+
 func (i InventoryMap) WriteJSON(basePath string) (err error) {
 	for typeId, categories := range i {
 		for category, classifications := range categories {
@@ -141,6 +138,28 @@ type Inventory struct {
 	CanBeUsedFor   []string       `json:"canBeUsedFor,omitempty"`
 }
 
+func (i Inventory) GetID() string {
+	return i.ID
+}
+
+func (i Inventory) GetTitle() string {
+	return i.Title
+}
+
+func (i Inventory) GetPath() string {
+	return "/" + path.Join("inventory", i.Type, i.Category, i.Classification, i.ID)
+}
+
+func (i Inventory) ToDataKey() DataKey {
+	return DataKey{
+		ID:             i.ID,
+		Structure:      "inventory",
+		Type:           i.Type,
+		Category:       i.Category,
+		Classification: i.Classification,
+	}
+}
+
 func (p PageContent) ParseAsWeapon() (inventory Inventory) {
 	inventory.Type = "equipment"
 	inventory.Category = "weapon"
@@ -185,28 +204,39 @@ func (p PageContent) parseFromBase(inventory *Inventory) {
 	inventory.Description = p.Text[1]
 	inventory.Classification = p.Text[lastIndex]
 
-	for i := 2; i < lastIndex; i += 2 {
+	for i := 2; i < lastIndex; i++ {
 		switch p.Text[i] {
 		// Statistics
 		case "Attack:":
-			inventory.Statistics.Agility, _ = strconv.Atoi(p.Text[i+1])
+			i++
+			inventory.Statistics.Agility, _ = strconv.Atoi(p.Text[i])
 		case "Defence:":
-			inventory.Statistics.Defense, _ = strconv.Atoi(p.Text[i+1])
+			i++
+			inventory.Statistics.Defense, _ = strconv.Atoi(p.Text[i])
 		case "Block Chance:":
-			inventory.Statistics.BlockChance, _ = strconv.ParseFloat(strings.TrimSuffix(p.Text[i+1], "%"), 64)
+			i++
+			inventory.Statistics.BlockChance, _ = strconv.ParseFloat(strings.TrimSuffix(p.Text[i], "%"), 64)
 		case "Agility:":
-			inventory.Statistics.Agility, _ = strconv.Atoi(p.Text[i+1])
+			i++
+			inventory.Statistics.Agility, _ = strconv.Atoi(p.Text[i])
 		case "Evasion Chance:":
-			inventory.Statistics.EvasionChance, _ = strconv.ParseFloat(strings.TrimSuffix(p.Text[i+1], "%"), 64)
+			i++
+			inventory.Statistics.EvasionChance, _ = strconv.ParseFloat(strings.TrimSuffix(p.Text[i], "%"), 64)
 		case "Magical Might:":
-			inventory.Statistics.MagicalMight, _ = strconv.Atoi(p.Text[i+1])
+			i++
+			inventory.Statistics.MagicalMight, _ = strconv.Atoi(p.Text[i])
 		case "Magical Mending:":
-			inventory.Statistics.MagicalMending, _ = strconv.Atoi(p.Text[i+1])
+			i++
+			inventory.Statistics.MagicalMending, _ = strconv.Atoi(p.Text[i])
 		case "MP Absorption Rate:":
+			i++
+			inventory.Statistics.MPAbsorptionRate, _ = strconv.ParseFloat(strings.TrimSuffix(p.Text[i], "%"), 64)
 		case "Deftness:":
-			inventory.Statistics.Deftness, _ = strconv.Atoi(p.Text[i+1])
+			i++
+			inventory.Statistics.Deftness, _ = strconv.Atoi(p.Text[i])
 		case "Charm:":
-			inventory.Statistics.Charm, _ = strconv.Atoi(p.Text[i+1])
+			i++
+			inventory.Statistics.Charm, _ = strconv.Atoi(p.Text[i])
 		case "Special:":
 			stop := i + 2
 			for i++; i <= stop; i++ {
@@ -216,17 +246,23 @@ func (p PageContent) parseFromBase(inventory *Inventory) {
 					break
 				} else if i < stop {
 					inventory.Statistics.Special.Effect = special
+					if p.Text[i+1] != "Use:" {
+						break
+					}
 				}
 			}
-
 		case "Rarity:":
-			inventory.Rarity, _ = strconv.Atoi(strings.Split(p.Text[i+1], "/")[0])
+			i++
+			inventory.Rarity, _ = strconv.Atoi(strings.Split(p.Text[i], "/")[0])
 		case "Buy price:":
-			inventory.BuyPrice, _ = strconv.Atoi(strings.Split(p.Text[i+1], " ")[0])
+			i++
+			inventory.BuyPrice, _ = strconv.Atoi(strings.Split(p.Text[i], " ")[0])
 		case "Sell price:":
-			inventory.SellPrice, _ = strconv.Atoi(strings.Split(p.Text[i+1], " ")[0])
+			i++
+			inventory.SellPrice, _ = strconv.Atoi(strings.Split(p.Text[i], " ")[0])
 		case "Used by:":
-			rawVocations := strings.Split(p.Text[i+1], ", ")
+			i++
+			rawVocations := strings.Split(p.Text[i], ", ")
 			for _, vocation := range rawVocations {
 				if strings.HasPrefix(vocation, "All") {
 					inventory.Vocations = AllVocations
@@ -246,12 +282,15 @@ func (p PageContent) parseFromBase(inventory *Inventory) {
 				num, _ := strconv.Atoi(strings.Split(strings.TrimPrefix(p.Text[i+1], "x"), " ")[0])
 				inventory.Recipe[id] = num
 			}
-		case "Where to find:":
-		case "Dropped by:":
+		case "Where to find:": // TODO
+		case "Dropped by:": // TODO
 		case "Alchemises:":
 			for i++; i < lastIndex; i++ {
 				if id := TitleToID(p.Text[i]); id != "" {
 					inventory.IngredientFor = append(inventory.IngredientFor, id)
+				}
+				if i+1 < lastIndex && p.Text[i+1] == "Required for:" {
+					break
 				}
 			}
 		case "Required for:":
@@ -277,6 +316,7 @@ func TitleToID(title string) string {
 	title = strings.TrimSuffix(title, "'")
 	title = strings.ReplaceAll(title, " ", "-")
 	title = strings.ReplaceAll(title, "'", "-")
+	title = strings.ReplaceAll(title, ",", "")
 	title = strings.ReplaceAll(title, "ä", "ae")
 
 	return title

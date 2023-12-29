@@ -1,5 +1,21 @@
 package types
 
+type PageContent struct {
+	Path  string
+	Text  []string
+	Links map[string]string
+}
+
+type Pages map[string]PageContent
+
+type DataKey struct {
+	ID             string
+	Structure      string
+	Type           string
+	Category       string
+	Classification string
+}
+
 const (
 	ClassItemEveryday  string = "everyday-item"
 	ClassItemImportant string = "important-item"
