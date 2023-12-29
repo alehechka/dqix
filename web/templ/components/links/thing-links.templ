@@ -1,0 +1,22 @@
+package links
+
+import "dqix/internal/types"
+import fn "dqix/web/templ/utilities"
+
+func ThingLink(id string, getter types.IGetThingFromID) templ.Component {
+	thing := getter(id)
+
+	if thing == nil {
+		return thingNotFoundLink(id)
+	}
+
+	return thingLink(thing)
+}
+
+templ thingLink(thing types.Thing) {
+	<a data-not-found="true" href={ fn.Path(thing.GetPath()) }>{ thing.GetTitle() }</a>
+}
+
+templ thingNotFoundLink(id string) {
+	<a class="text-gray-500" href={ fn.Path("not-found", id) }>{ id }</a>
+}

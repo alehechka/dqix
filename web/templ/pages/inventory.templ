@@ -2,9 +2,9 @@ package pages
 
 import "dqix/internal/types"
 import "dqix/web/templ/components/base"
+import "dqix/web/templ/components/links"
 import "strings"
 import "dqix/web/templ/utilities"
-import "fmt"
 
 // Inventory Classifications
 
@@ -53,24 +53,11 @@ templ InventoryContent(inventory types.Inventory, getter types.IGetThingFromID) 
 		if len(inventory.IngredientFor) > 0 {
 			<ul>
 				for _, id := range inventory.IngredientFor {
-					@thingListItem(id, getter)
+					<li class="text-sm text-blue-600 [&>*]:data-[not-found=true]:text-gray-400">
+						@links.ThingLink(id, getter)
+					</li>
 				}
 			</ul>
 		}
 	</div>
-}
-
-func thingListItem(id string, getter types.IGetThingFromID) templ.Component {
-	thing := getter(id)
-
-	if thing == nil {
-		fmt.Println("Found nil for: ", id)
-		return templ.NopComponent
-	}
-
-	return ThingListItem(thing)
-}
-
-templ ThingListItem(thing types.Thing) {
-	<li>{ thing.GetTitle() }</li>
 }

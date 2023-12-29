@@ -1,13 +1,14 @@
 package fn
 
 import (
+	"path"
 	"strings"
 
 	"github.com/a-h/templ"
 )
 
 func Path(parts ...string) templ.SafeURL {
-	path := strings.Join(parts, "/")
+	path := path.Join(parts...)
 
 	if !strings.HasPrefix(path, "/") {
 		path = "/" + path
