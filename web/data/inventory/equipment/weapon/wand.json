@@ -6,6 +6,7 @@
   "statistics": {
    "agility": 98,
    "magicalMending": 18,
+   "mpAbsorptionRate": 10,
    "special": {
     "usage": "Disruptive Wave"
    }
@@ -34,6 +35,7 @@
   "statistics": {
    "agility": 85,
    "magicalMending": 8,
+   "mpAbsorptionRate": 8.5,
    "special": {
     "usage": "Disruptive Wave"
    }
@@ -64,6 +66,7 @@
   "statistics": {
    "agility": 94,
    "magicalMending": 15,
+   "mpAbsorptionRate": 9.5,
    "special": {
     "usage": "Disruptive Wave"
    }
@@ -83,7 +86,10 @@
    "agate-of-evolution": 1,
    "blue-orb": 1,
    "shining-staff": 1
-  }
+  },
+  "ingredientFor": [
+   "bright-staff"
+  ]
  },
  "brouhaha-boomstick": {
   "id": "brouhaha-boomstick",
@@ -91,6 +97,7 @@
   "description": "A weird wand with a somewhat flute-like form.",
   "statistics": {
    "agility": 50,
+   "mpAbsorptionRate": 7,
    "special": {}
   },
   "rarity": 1,
@@ -111,6 +118,7 @@
   "description": "A strange staff that once sealed away some faerie sisters.",
   "statistics": {
    "agility": 5,
+   "mpAbsorptionRate": 1,
    "special": {}
   },
   "rarity": 2,
@@ -132,6 +140,7 @@
   "statistics": {
    "agility": 54,
    "magicalMight": 15,
+   "mpAbsorptionRate": 7.5,
    "special": {}
   },
   "vocations": [
@@ -156,6 +165,7 @@
   "description": "A staff that throws thunderbolts if used as an item in battle.",
   "statistics": {
    "agility": 40,
+   "mpAbsorptionRate": 4.5,
    "special": {
     "usage": "Deals 17-27 Lightning damage to enemy group"
    }
@@ -183,6 +193,7 @@
   "description": "A staff that summons savage lightning if used as an item in battle.",
   "statistics": {
    "agility": 28,
+   "mpAbsorptionRate": 3.5,
    "special": {
     "usage": "Deals 17-27 Lightning damage to enemy group"
    }
@@ -203,7 +214,12 @@
    "magic-water": 1,
    "stolos--staff": 1,
    "thunderball": 3
-  }
+  },
+  "ingredientFor": [
+   "lightning-conductor",
+   "can-be-used-for:",
+   "012-putting-on-the-glitz"
+  ]
  },
  "magical-mace": {
   "id": "magical-mace",
@@ -211,6 +227,7 @@
   "description": "A magical staff that sucks masses of MP from the enemy.",
   "statistics": {
    "agility": 57,
+   "mpAbsorptionRate": 8,
    "special": {}
   },
   "rarity": 1,
@@ -235,6 +252,7 @@
   "description": "A staff that lobs lava if used as an item in battle.",
   "statistics": {
    "agility": 35,
+   "mpAbsorptionRate": 4,
    "special": {
     "usage": "Deals 20-30 Lightning damage to enemy group"
    }
@@ -263,6 +281,7 @@
   "description": "A staff whittled from the wood of an old oak tree.",
   "statistics": {
    "agility": 3,
+   "mpAbsorptionRate": 1,
    "special": {
     "usage": "Deals 12-16 Ice damage to one enemy"
    }
@@ -287,6 +306,7 @@
   "statistics": {
    "agility": 45,
    "magicalMight": 8,
+   "mpAbsorptionRate": 6.5,
    "special": {}
   },
   "rarity": 1,
@@ -317,6 +337,7 @@
   "statistics": {
    "agility": 73,
    "magicalMight": 12,
+   "mpAbsorptionRate": 8,
    "special": {
     "usage": "Insulate"
    }
@@ -344,6 +365,7 @@
   "statistics": {
    "agility": 80,
    "magicalMight": 20,
+   "mpAbsorptionRate": 8.5,
    "special": {
     "usage": "Insulate"
    }
@@ -371,6 +393,7 @@
   "description": "Hereditary heirloom of the heinous heads of the Gittish Empire.",
   "statistics": {
    "agility": 70,
+   "mpAbsorptionRate": 7.5,
    "special": {}
   },
   "rarity": 3,
@@ -383,7 +406,10 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "wand"
+  "classification": "wand",
+  "canBeUsedFor": [
+   "012-putting-on-the-glitz"
+  ]
  },
  "shining-staff": {
   "id": "shining-staff",
@@ -392,6 +418,7 @@
   "statistics": {
    "agility": 90,
    "magicalMending": 12,
+   "mpAbsorptionRate": 9,
    "special": {
     "usage": "Disruptive Wave"
    }
@@ -419,6 +446,7 @@
   "description": "A stick that whips foes with wild winds if used as an item in battle.",
   "statistics": {
    "agility": 20,
+   "mpAbsorptionRate": 2.5,
    "special": {
     "usage": "Deals 8-24 Wind damage to enemy group"
    }
@@ -446,6 +474,7 @@
   "description": "A wand that whisks up whirling winds when used as an item in battle.",
   "statistics": {
    "agility": 11,
+   "mpAbsorptionRate": 2,
    "special": {
     "usage": "Deals 8-24 Wind damage to enemy group"
    }
@@ -466,7 +495,10 @@
    "flurry-feather": 1,
    "magic-water": 1,
    "wizard-s-staff": 1
-  }
+  },
+  "ingredientFor": [
+   "staff-of-divine-wrath"
+  ]
  },
  "stolos--staff": {
   "id": "stolos--staff",
@@ -474,6 +506,7 @@
   "description": "A staff that stops your party's paralysis if used as an item in battle.",
   "statistics": {
    "agility": 18,
+   "mpAbsorptionRate": 2.5,
    "special": {
     "usage": "Tingle"
    }
@@ -489,7 +522,13 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "wand"
+  "classification": "wand",
+  "ingredientFor": [
+   "watermaul-wand",
+   "lightning-staff",
+   "magma-staff",
+   "rune-staff"
+  ]
  },
  "tsunami-staff": {
   "id": "tsunami-staff",
@@ -497,13 +536,27 @@
   "description": "A rod of the ocean gods that smacks seaborne foes with fierce force.",
   "statistics": {
    "agility": 36,
+   "mpAbsorptionRate": 5.5,
    "special": {
     "effect": "Deals 1.20x damage to Aquatic family"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "priest",
+   "mage",
+   "paladin",
+   "armamentalist",
+   "sage"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "wand"
+  "classification": "wand",
+  "recipe": {
+   "celestial-skein": 1,
+   "enchanted-stone": 1,
+   "watermaul-wand": 1
+  }
  },
  "watermaul-wand": {
   "id": "watermaul-wand",
@@ -511,13 +564,31 @@
   "description": "A staff swirling with the strength of the sea. Feared by fishy foes.",
   "statistics": {
    "agility": 25,
+   "mpAbsorptionRate": 5,
    "special": {
     "effect": "Deals 1.20x damage to Aquatic family"
    }
   },
+  "rarity": 1,
+  "buyPrice": 4700,
+  "vocations": [
+   "priest",
+   "mage",
+   "paladin",
+   "armamentalist",
+   "sage"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "wand"
+  "classification": "wand",
+  "recipe": {
+   "crimson-coral": 3,
+   "seashell": 3,
+   "stolos--staff": 1
+  },
+  "ingredientFor": [
+   "tsunami-staff"
+  ]
  },
  "wizard-s-staff": {
   "id": "wizard-s-staff",
@@ -525,6 +596,7 @@
   "description": "A staff that throws fire at foes if used as an item in battle.",
   "statistics": {
    "agility": 7,
+   "mpAbsorptionRate": 1.5,
    "special": {}
   },
   "rarity": 1,
@@ -538,7 +610,10 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "wand"
+  "classification": "wand",
+  "ingredientFor": [
+   "staff-of-sentencing"
+  ]
  },
  "wyrmwand": {
   "id": "wyrmwand",
@@ -546,6 +621,7 @@
   "description": "A wand that fries foes with dragonfire if used as an item in battle.",
   "statistics": {
    "agility": 88,
+   "mpAbsorptionRate": 7.5,
    "special": {
     "usage": "Deals 23-33 Fire damage to all enemies"
    }

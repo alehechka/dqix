@@ -9,9 +9,20 @@
     "effect": "Deals Wind-elemental damage"
    }
   },
+  "rarity": 2,
+  "sellPrice": 17300,
+  "vocations": [
+   "priest",
+   "martial-artist"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "stave"
+  "classification": "stave",
+  "recipe": {
+   "mercury-s-bandana": 1,
+   "optimistick": 1,
+   "technicolour-dreamcloth": 1
+  }
  },
  "carrying-pole": {
   "id": "carrying-pole",
@@ -41,9 +52,22 @@
     "effect": "Deals 1.20x damage to Elemental family"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "priest",
+   "martial-artist"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "stave"
+  "classification": "stave",
+  "recipe": {
+   "agate-of-evolution": 3,
+   "blue-orb": 3,
+   "senseless-stick": 1
+  },
+  "ingredientFor": [
+   "knockout-rod"
+  ]
  },
  "coma-cudgel": {
   "id": "coma-cudgel",
@@ -55,9 +79,19 @@
     "effect": "Deals 1.20x damage to Elemental family"
    }
   },
+  "rarity": 5,
+  "vocations": [
+   "priest",
+   "martial-artist"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "stave"
+  "classification": "stave",
+  "recipe": {
+   "agate-of-evolution": 3,
+   "blue-orb": 3,
+   "senseless-stick": 1
+  }
  },
  "dragon-rod": {
   "id": "dragon-rod",
@@ -99,7 +133,6 @@
   "classification": "stave",
   "ingredientFor": [
    "killer-pillar",
-   ",",
    "mistick"
   ]
  },
@@ -177,9 +210,18 @@
     "effect": "Deals 1.20x damage to Elemental family"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "priest",
+   "martial-artist"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "stave",
+  "recipe": {
+   "catatonic-cosh": 1,
+   "reset-stone": 1
+  },
   "ingredientFor": [
    "senseless-stick"
   ]
@@ -215,9 +257,23 @@
     "effect": "Deals Wind-elemental damage"
    }
   },
+  "rarity": 1,
+  "buyPrice": 16500,
+  "vocations": [
+   "priest",
+   "martial-artist"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "stave"
+  "classification": "stave",
+  "recipe": {
+   "driller-pillar": 1,
+   "flurry-feather": 3,
+   "fresh-water": 3
+  },
+  "ingredientFor": [
+   "optimistick"
+  ]
  },
  "oaken-pole": {
   "id": "oaken-pole",
@@ -250,12 +306,19 @@
     "effect": "Deals Wind-elemental damage"
    }
   },
+  "rarity": 1,
+  "vocations": [
+   "priest",
+   "martial-artist"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "stave",
-  "ingredientFor": [
-   "ballistick"
-  ]
+  "recipe": {
+   "agility-ring": 1,
+   "celestial-skein": 2,
+   "mistick": 1
+  }
  },
  "orichalcudgel": {
   "id": "orichalcudgel",
@@ -328,14 +391,19 @@
     "effect": "Deals 1.20x damage to Elemental family"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "priest",
+   "martial-artist"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "stave",
-  "ingredientFor": [
-   "catatonic-cosh",
-   ",",
-   "coma-cudgel"
-  ]
+  "recipe": {
+   "agate-of-evolution": 1,
+   "blue-orb": 1,
+   "knockout-rod": 1
+  }
  },
  "sleepy-stick": {
   "id": "sleepy-stick",
@@ -347,9 +415,19 @@
     "effect": "Chance to inflict snooze"
    }
   },
+  "rarity": 1,
+  "buyPrice": 8200,
+  "vocations": [
+   "priest",
+   "martial-artist"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "stave"
+  "classification": "stave",
+  "ingredientFor": [
+   "slumber-stick",
+   "rousing-ring"
+  ]
  },
  "slumber-stick": {
   "id": "slumber-stick",
@@ -361,9 +439,19 @@
     "effect": "Chance to inflict snooze"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "priest",
+   "martial-artist"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "stave"
+  "classification": "stave",
+  "recipe": {
+   "narspicious": 1,
+   "sleeping-hibiscus": 3,
+   "sleepy-stick": 1
+  }
  },
  "steel-bar": {
   "id": "steel-bar",
@@ -394,8 +482,17 @@
   "statistics": {
    "special": {}
   },
+  "vocations": [
+   "priest",
+   "martial-artist"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "stave"
+  "classification": "stave",
+  "recipe": {
+   "dragon-rod": 1,
+   "dragon-scale": 3,
+   "sainted-soma": 3
+  }
  }
 }

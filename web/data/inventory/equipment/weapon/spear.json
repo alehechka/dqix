@@ -28,6 +28,13 @@
     "effect": "Deals 1.20x damage to Aquatic family"
    }
   },
+  "rarity": 1,
+  "buyPrice": 3900,
+  "vocations": [
+   "warrior",
+   "priest",
+   "paladin"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "spear",
@@ -45,14 +52,21 @@
     "effect": "Deals 1.20x damage to Zombie family"
    }
   },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "paladin"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "spear",
-  "ingredientFor": [
-   "lightning-lance",
-   ",",
-   "demon-spear",
-   "can-be-used-for:",
+  "recipe": {
+   "holy-talisman": 1,
+   "long-spear": 1,
+   "platinum-ore": 2
+  },
+  "canBeUsedFor": [
    "012-putting-on-the-glitz"
   ]
  },
@@ -66,9 +80,21 @@
     "effect": "Chance to inflict instant death"
    }
   },
+  "rarity": 2,
+  "buyPrice": 34500,
+  "vocations": [
+   "warrior",
+   "priest",
+   "paladin"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "spear"
+  "classification": "spear",
+  "recipe": {
+   "celestial-spear": 1,
+   "malicite": 1,
+   "terrible-tattoo": 3
+  }
  },
  "gigasteel-lance": {
   "id": "gigasteel-lance",
@@ -103,9 +129,20 @@
     "effect": "Deals 1.20x damage to Aquatic family"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "priest",
+   "paladin"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "spear"
+  "classification": "spear",
+  "recipe": {
+   "densinium": 2,
+   "mighty-armlet": 1,
+   "trident": 1
+  }
  },
  "halberd": {
   "id": "halberd",
@@ -140,6 +177,12 @@
     "effect": "Returns 25% of damage dealt as HP"
    }
   },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "paladin"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "spear"
@@ -154,9 +197,23 @@
     "effect": "Deals 1.20x damage to Zombie family"
    }
   },
+  "rarity": 1,
+  "buyPrice": 2700,
+  "vocations": [
+   "warrior",
+   "priest",
+   "paladin"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "spear"
+  "classification": "spear",
+  "recipe": {
+   "gold-rosary": 1,
+   "iron-lance": 1
+  },
+  "ingredientFor": [
+   "sandstorm-spear"
+  ]
  },
  "iron-lance": {
   "id": "iron-lance",
@@ -175,7 +232,11 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "spear"
+  "classification": "spear",
+  "ingredientFor": [
+   "steel-lance",
+   "holy-lance"
+  ]
  },
  "lightning-lance": {
   "id": "lightning-lance",
@@ -187,9 +248,21 @@
     "effect": "Deals Lightning-elemental damage"
    }
   },
+  "rarity": 1,
+  "buyPrice": 19800,
+  "vocations": [
+   "warrior",
+   "priest",
+   "paladin"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "spear",
+  "recipe": {
+   "celestial-spear": 1,
+   "mythril-ore": 1,
+   "thunderball": 3
+  },
   "ingredientFor": [
    "storm-spear"
   ]
@@ -204,12 +277,20 @@
     "effect": "Deals +1 damage to metal enemies"
    }
   },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "paladin"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "spear",
-  "ingredientFor": [
-   "metal-king-spear"
-  ]
+  "recipe": {
+   "metal-slime-spear": 1,
+   "orichalcum": 1,
+   "slimedrop": 6
+  }
  },
  "long-spear": {
   "id": "long-spear",
@@ -228,7 +309,10 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "spear"
+  "classification": "spear",
+  "ingredientFor": [
+   "celestial-spear"
+  ]
  },
  "metal-king-spear": {
   "id": "metal-king-spear",
@@ -240,9 +324,20 @@
     "effect": "Deals +1 damage to metal enemies"
    }
   },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "paladin"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "spear"
+  "classification": "spear",
+  "recipe": {
+   "liquid-slime-spear": 1,
+   "orichalcum": 1,
+   "slime-crown": 1
+  }
  },
  "metal-slime-spear": {
   "id": "metal-slime-spear",
@@ -254,9 +349,18 @@
     "effect": "Deals +1 damage to metal enemies"
    }
   },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "paladin"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "spear"
+  "classification": "spear",
+  "ingredientFor": [
+   "liquid-metal-spear"
+  ]
  },
  "partisan": {
   "id": "partisan",
@@ -275,7 +379,10 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "spear"
+  "classification": "spear",
+  "ingredientFor": [
+   "halberd"
+  ]
  },
  "poker": {
   "id": "poker",
@@ -287,9 +394,19 @@
     "effect": "Normal attacks cannot be blocked"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "warrior",
+   "priest",
+   "paladin"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "spear",
+  "recipe": {
+   "reset-stone": 1,
+   "split-pot-poker": 1
+  },
   "ingredientFor": [
    "stud-poker"
   ]
@@ -304,9 +421,20 @@
     "effect": "Normal attacks cannot be blocked"
    }
   },
+  "rarity": 5,
+  "vocations": [
+   "warrior",
+   "priest",
+   "paladin"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "spear"
+  "classification": "spear",
+  "recipe": {
+   "agate-of-evolution": 3,
+   "red-orb": 3,
+   "stud-poker": 1
+  }
  },
  "sandstorm-spear": {
   "id": "sandstorm-spear",
@@ -346,9 +474,23 @@
     "effect": "Normal attacks cannot be blocked"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "warrior",
+   "priest",
+   "paladin"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "spear"
+  "classification": "spear",
+  "recipe": {
+   "agate-of-evolution": 3,
+   "red-orb": 3,
+   "stud-poker": 1
+  },
+  "ingredientFor": [
+   "poker"
+  ]
  },
  "steel-lance": {
   "id": "steel-lance",
@@ -383,9 +525,20 @@
     "effect": "Deals Lighting-elemental damage"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "priest",
+   "paladin"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "spear"
+  "classification": "spear",
+  "recipe": {
+   "gold-bar": 1,
+   "lightning-lance": 1,
+   "thunderball": 5
+  }
  },
  "stud-poker": {
   "id": "stud-poker",
@@ -397,14 +550,20 @@
     "effect": "Normal attacks cannot be blocked"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "warrior",
+   "priest",
+   "paladin"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "spear",
-  "ingredientFor": [
-   "split-pot-poker",
-   ",",
-   "red-hot-poker"
-  ]
+  "recipe": {
+   "agate-of-evolution": 1,
+   "poker": 1,
+   "red-orb": 1
+  }
  },
  "trident": {
   "id": "trident",
@@ -416,8 +575,22 @@
     "effect": "Deals 1.20x damage to Aquatic family"
    }
   },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "paladin"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "spear"
+  "classification": "spear",
+  "recipe": {
+   "battle-fork": 1,
+   "crimson-coral": 2,
+   "seashell": 2
+  },
+  "ingredientFor": [
+   "gracos-s-trident"
+  ]
  }
 }

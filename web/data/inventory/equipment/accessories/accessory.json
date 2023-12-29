@@ -76,9 +76,7 @@
   },
   "ingredientFor": [
    "trailblazing-bandana",
-   ",",
    "majestic-mantle",
-   ",",
    "twinkling-tuxedo",
    "can-be-used-for:",
    "012-putting-on-the-glitz"
@@ -114,7 +112,11 @@
   "recipe": {
    "gold-bracer": 1,
    "sorcerer-s-stone": 2
-  }
+  },
+  "ingredientFor": [
+   "scholar-s-circlet",
+   "canny-cap"
+  ]
  },
  "bunny-tail": {
   "id": "bunny-tail",
@@ -142,7 +144,11 @@
   ],
   "type": "equipment",
   "category": "accessories",
-  "classification": "accessory"
+  "classification": "accessory",
+  "ingredientFor": [
+   "bunny-ears",
+   "ear-cosy"
+  ]
  },
  "catholicon-ring": {
   "id": "catholicon-ring",
@@ -154,9 +160,29 @@
     "effect": "Dispels 50% infliction rates of Dazzle, Snooze, Fuddle, Stop, Poison, and Paralysis"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "accessories",
   "classification": "accessory",
+  "recipe": {
+   "contra-band": 1,
+   "rousing-ring": 1,
+   "sober-ring": 1
+  },
   "ingredientFor": [
    "catoptric-armour"
   ]
@@ -171,6 +197,21 @@
     "effect": "Increases coup de grâce rate by 3%"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "accessories",
   "classification": "accessory"
@@ -185,12 +226,29 @@
     "effect": "Dispels 100% infliction rate of Poison"
    }
   },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "accessories",
   "classification": "accessory",
-  "ingredientFor": [
-   "catholicon-ring"
-  ]
+  "recipe": {
+   "gold-ring": 1,
+   "poison-needle": 1,
+   "special-antidote": 1
+  }
  },
  "dragon-scale": {
   "id": "dragon-scale",
@@ -217,7 +275,19 @@
   ],
   "type": "equipment",
   "category": "accessories",
-  "classification": "accessory"
+  "classification": "accessory",
+  "ingredientFor": [
+   "dragontail-whip",
+   "xenlon-rod",
+   "cobra-fan",
+   "azure-dragon-fan",
+   "dragon-shield",
+   "dragon-mail",
+   "dragon-dress",
+   "dragon-top",
+   "dragon-trousers",
+   "ruby-of-protection"
+  ]
  },
  "elfin-charm": {
   "id": "elfin-charm",
@@ -229,12 +299,31 @@
     "effect": "Resists 40% MP absorption; dispels 40% infliction rates of Snooze, Whack, Fuddle, Fizzle, and Stop"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "accessories",
   "classification": "accessory",
+  "recipe": {
+   "elfin-elixir": 1,
+   "emerald-moss": 3,
+   "holy-talisman": 1
+  },
   "ingredientFor": [
    "pixie-boots",
-   ",",
    "spirit-bracer"
   ]
  },
@@ -248,12 +337,31 @@
     "effect": "Dispels 100% infliction rate of Paralysis"
    }
   },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "accessories",
   "classification": "accessory",
+  "recipe": {
+   "gold-ring": 1,
+   "lunaria": 1,
+   "poison-moth-knife": 1
+  },
   "ingredientFor": [
    "lunar-fan",
-   ",",
    "full-moon-axe"
   ]
  },
@@ -267,14 +375,29 @@
     "effect": "Dispels 40% infliction rates of Snooze, Fuddle, and Paralysis; recovers MP while walking about"
    }
   },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "accessories",
   "classification": "accessory",
-  "ingredientFor": [
-   "goddess-whip",
-   ",",
-   "goddess-shield"
-  ]
+  "recipe": {
+   "gold-bar": 1,
+   "life-ring": 1,
+   "sainted-soma": 1
+  }
  },
  "gold-bracer": {
   "id": "gold-bracer",
@@ -383,7 +506,12 @@
   ],
   "type": "equipment",
   "category": "accessories",
-  "classification": "accessory"
+  "classification": "accessory",
+  "ingredientFor": [
+   "holy-lance",
+   "crucerang",
+   "holy-talisman"
+  ]
  },
  "holy-talisman": {
   "id": "holy-talisman",
@@ -395,16 +523,29 @@
     "effect": "Dispels 50% infliction rate of Whack"
    }
   },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "accessories",
   "classification": "accessory",
-  "ingredientFor": [
-   "celestial-spear",
-   "sacred-claws",
-   "white-knight-s-shield",
-   "holy-mail",
-   "elfin-charm"
-  ]
+  "recipe": {
+   "gold-rosary": 1,
+   "holy-water": 5,
+   "resurrock": 1
+  }
  },
  "legion-of-merit": {
   "id": "legion-of-merit",
@@ -443,16 +584,28 @@
     "effect": "Recovers 25 HP each turn"
    }
   },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "accessories",
   "classification": "accessory",
-  "ingredientFor": [
-   "über-miracle-sword",
-   "soul-breaker",
-   "friendly-fan",
-   "empowered-shield",
-   "sacrosanct-armour"
-  ]
+  "recipe": {
+   "gold-bracer": 1,
+   "life-ring": 2
+  }
  },
  "life-ring": {
   "id": "life-ring",
@@ -464,12 +617,30 @@
     "effect": "Recovers HP while walking about"
    }
   },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "accessories",
   "classification": "accessory",
+  "recipe": {
+   "prayer-ring": 1,
+   "resurrock": 3
+  },
   "ingredientFor": [
    "life-bracer",
-   ",",
    "goddess-ring"
   ]
  },
@@ -512,15 +683,28 @@
     "effect": "Dispels 40% infliction rates of Sap, Blunt, Decelerate, and Divine Intervention"
    }
   },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "accessories",
   "classification": "accessory",
-  "ingredientFor": [
-   "happy-hat",
-   "elevating-shoes",
-   "monarchic-mark",
-   "reckless-necklace"
-  ]
+  "recipe": {
+   "reckless-necklace": 1,
+   "saint-s-ashes": 1
+  }
  },
  "mager-achievement": {
   "id": "mager-achievement",
@@ -669,7 +853,18 @@
    "gold-bracer": 1,
    "strength-ring": 1,
    "tough-guy-tattoo": 1
-  }
+  },
+  "ingredientFor": [
+   "dragon-slayer",
+   "gracos-s-trident",
+   "killer-pillar",
+   "über-war-hammer",
+   "warlord-s-hammer",
+   "big-boss-shield",
+   "minotaur-helm",
+   "can-be-used-for:",
+   "012-putting-on-the-glitz"
+  ]
  },
  "monarchic-mark": {
   "id": "monarchic-mark",
@@ -760,9 +955,7 @@
   "classification": "accessory",
   "ingredientFor": [
    "shimmering-dress",
-   ",",
    "rosary",
-   ",",
    "malicite",
    "can-be-used-for:",
    "012-putting-on-the-glitz"
@@ -839,6 +1032,14 @@
    "corundum": 1,
    "strength-ring": 1
   },
+  "ingredientFor": [
+   "warrior-s-sword",
+   "executioner-s-axe",
+   "dragon-shield",
+   "power-shield",
+   "dragon-mail",
+   "monarchic-mark"
+  ],
   "requiredFor": [
    "019-moving-house"
   ]
@@ -887,9 +1088,29 @@
     "effect": "Dispels 100% infliction rate of Fuddle"
    }
   },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "accessories",
-  "classification": "accessory"
+  "classification": "accessory",
+  "recipe": {
+   "angel-bell": 3,
+   "gold-ring": 1,
+   "moon-axe": 1
+  }
  },
  "rosary": {
   "id": "rosary",
@@ -933,12 +1154,29 @@
     "effect": "Dispels 100% infliction rate of Snooze"
    }
   },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "accessories",
   "classification": "accessory",
-  "ingredientFor": [
-   "catholicon-ring"
-  ]
+  "recipe": {
+   "gold-ring": 1,
+   "sleepy-stick": 1,
+   "wakerobin": 3
+  }
  },
  "ruby-of-protection": {
   "id": "ruby-of-protection",
@@ -969,7 +1207,15 @@
   "recipe": {
    "corundum": 1,
    "dragon-scale": 1
-  }
+  },
+  "ingredientFor": [
+   "rune-staff",
+   "tempest-shield",
+   "sacrosanct-armour",
+   "safer-shoes",
+   "safest-shoes",
+   "monarchic-mark"
+  ]
  },
  "skull-ring": {
   "id": "skull-ring",
@@ -1000,7 +1246,10 @@
   "recipe": {
    "malicite": 1,
    "sorcerer-s-ring": 1
-  }
+  },
+  "ingredientFor": [
+   "sorcerer-s-ring"
+  ]
  },
  "slime-earrings": {
   "id": "slime-earrings",
@@ -1032,7 +1281,12 @@
   "recipe": {
    "gold-ring": 1,
    "slimedrop": 1
-  }
+  },
+  "ingredientFor": [
+   "falcon-knife-earring",
+   "can-be-used-for:",
+   "012-putting-on-the-glitz"
+  ]
  },
  "sober-ring": {
   "id": "sober-ring",
@@ -1044,14 +1298,29 @@
     "effect": "Dispels 100% infliction rate of Dazzle"
    }
   },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "accessories",
   "classification": "accessory",
-  "ingredientFor": [
-   "mirror-armour",
-   ",",
-   "catholicon-ring"
-  ]
+  "recipe": {
+   "gold-ring": 1,
+   "panacea": 1,
+   "sandstorm-spear": 1
+  }
  },
  "soldier-s-medal": {
   "id": "soldier-s-medal",
@@ -1113,9 +1382,7 @@
   },
   "ingredientFor": [
    "hieroglyph-staff",
-   ",",
    "fizzle-proof-suit",
-   ",",
    "skull-ring"
   ]
  },
@@ -1145,7 +1412,13 @@
   ],
   "type": "equipment",
   "category": "accessories",
-  "classification": "accessory"
+  "classification": "accessory",
+  "ingredientFor": [
+   "thinking-cap",
+   "mega-magical-hat",
+   "blessed-bottoms",
+   "brainy-bracer"
+  ]
  },
  "spirit-bracer": {
   "id": "spirit-bracer",
@@ -1214,7 +1487,6 @@
   },
   "ingredientFor": [
    "raging-ruby",
-   ",",
    "mighty-armlet"
   ]
  },
@@ -1243,7 +1515,16 @@
   ],
   "type": "equipment",
   "category": "accessories",
-  "classification": "accessory"
+  "classification": "accessory",
+  "ingredientFor": [
+   "demon-spear",
+   "demon-whip",
+   "archdemon-whip",
+   "king-cobra-claws",
+   "macabre-mantle",
+   "tough-guy-tattoo",
+   "malicite"
+  ]
  },
  "tough-guy-tattoo": {
   "id": "tough-guy-tattoo",
@@ -1274,7 +1555,13 @@
   "recipe": {
    "aggressence": 1,
    "terrible-tattoo": 1
-  }
+  },
+  "ingredientFor": [
+   "sidewinder",
+   "titan-s-hammer",
+   "raging-bull-helm",
+   "mighty-armlet"
+  ]
  },
  "utility-belt": {
   "id": "utility-belt",
@@ -1353,6 +1640,21 @@
     "effect": "Enables wearing most equipment restricted to the other gender"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
   "type": "equipment",
   "category": "accessories",
   "classification": "accessory"

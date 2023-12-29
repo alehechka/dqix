@@ -9,9 +9,21 @@
     "effect": "Chance to inflict instant death"
    }
   },
+  "rarity": 1,
+  "buyPrice": 7000,
+  "vocations": [
+   "warrior",
+   "mage",
+   "thief"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "knife"
+  "classification": "knife",
+  "recipe": {
+   "deadly-nightblade": 1,
+   "evencloth": 2,
+   "poison-needle": 1
+  }
  },
  "batterfly-knife": {
   "id": "batterfly-knife",
@@ -23,12 +35,20 @@
     "effect": "Deals 1.20x damage to Bug family"
    }
   },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "mage",
+   "thief"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "knife",
-  "ingredientFor": [
-   "dread-dagger"
-  ]
+  "recipe": {
+   "butterfly-wing": 3,
+   "coagulant": 3,
+   "poison-moth-knife": 1
+  }
  },
  "bronze-knife": {
   "id": "bronze-knife",
@@ -62,13 +82,47 @@
     "effect": "Normal attacks always go first"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "warrior",
+   "mage",
+   "thief"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "knife",
+  "recipe": {
+   "agate-of-evolution": 1,
+   "deft-dagger": 1,
+   "purple-orb": 1
+  }
+ },
+ "dashing-dagger": {
+  "id": "dashing-dagger",
+  "title": "Dashing Dagger",
+  "description": "A mighty knife that imparts unbeatable briskness.",
+  "statistics": {
+   "agility": 148,
+   "special": {
+    "effect": "Normal attacks always go first"
+   }
+  },
+  "rarity": 4,
+  "vocations": [
+   "warrior",
+   "mage",
+   "thief"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "knife",
+  "recipe": {
+   "agate-of-evolution": 3,
+   "darting-dagger": 1,
+   "purple-orb": 3
+  },
   "ingredientFor": [
-   "dashing-dagger",
-   ",",
-   "dynamo-dagger"
+   "deft-dagger"
   ]
  },
  "deadly-nightblade": {
@@ -88,7 +142,11 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "knife"
+  "classification": "knife",
+  "ingredientFor": [
+   "falcon-knife-earring",
+   "assassin-s-dagger"
+  ]
  },
  "deft-dagger": {
   "id": "deft-dagger",
@@ -100,9 +158,19 @@
     "effect": "Normal attacks always go first"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "warrior",
+   "mage",
+   "thief"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "knife",
+  "recipe": {
+   "dashing-dagger": 1,
+   "reset-stone": 1
+  },
   "ingredientFor": [
    "darting-dagger"
   ]
@@ -117,12 +185,22 @@
     "effect": "Deals 1.20x damage to Zombie family"
    }
   },
+  "rarity": 1,
+  "buyPrice": 640,
+  "vocations": [
+   "warrior",
+   "mage",
+   "thief"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "knife",
+  "recipe": {
+   "bronze-knife": 1,
+   "holy-water": 3
+  },
   "ingredientFor": [
    "poison-moth-knife",
-   ",",
    "icicle-dirk"
   ]
  },
@@ -159,9 +237,20 @@
     "effect": "Normal attacks always go first"
    }
   },
+  "rarity": 5,
+  "vocations": [
+   "warrior",
+   "mage",
+   "thief"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "knife"
+  "classification": "knife",
+  "recipe": {
+   "agate-of-evolution": 3,
+   "darting-dagger": 1,
+   "purple-orb": 3
+  }
  },
  "falcon-knife-earring": {
   "id": "falcon-knife-earring",
@@ -173,9 +262,21 @@
     "effect": "Attacks twice in one turn"
    }
   },
+  "rarity": 2,
+  "buyPrice": 15800,
+  "vocations": [
+   "warrior",
+   "mage",
+   "thief"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "knife"
+  "classification": "knife",
+  "recipe": {
+   "agility-ring": 3,
+   "deadly-nightblade": 1,
+   "slime-earrings": 1
+  }
  },
  "fenrir-fang": {
   "id": "fenrir-fang",
@@ -212,12 +313,20 @@
     "effect": "Deals Fire-elemental damage"
    }
   },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "mage",
+   "thief"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "knife",
-  "ingredientFor": [
-   "gladius"
-  ]
+  "recipe": {
+   "crimson-coral": 3,
+   "gladius": 1,
+   "sunstone": 1
+  }
  },
  "gladius": {
   "id": "gladius",
@@ -272,7 +381,6 @@
   },
   "ingredientFor": [
    "fenrir-fang",
-   ",",
    "ice-axe"
   ]
  },
@@ -305,9 +413,24 @@
     "effect": "Chance to inflict paralysis"
    }
   },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "mage",
+   "thief"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "knife"
+  "classification": "knife",
+  "recipe": {
+   "coagulant": 2,
+   "divine-dagger": 1,
+   "manky-mud": 1
+  },
+  "ingredientFor": [
+   "batterfly-knife",
+   "full-moon-ring"
+  ]
  },
  "poison-needle": {
   "id": "poison-needle",
@@ -319,9 +442,28 @@
     "effect": "Chance to inflict instant death; normal attacks cannot be blocked and always deal 1 damage"
    }
   },
+  "rarity": 1,
+  "buyPrice": 1900,
+  "sellPrice": 950,
+  "vocations": [
+   "warrior",
+   "mage",
+   "thief"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "knife"
+  "classification": "knife",
+  "recipe": {
+   "magic-beast-horn": 1,
+   "manky-mud": 3
+  },
+  "ingredientFor": [
+   "assassin-s-dagger",
+   "contra-band"
+  ],
+  "requiredFor": [
+   "183-poison-needle-1-ow-1"
+  ]
  },
  "pruning-knife": {
   "id": "pruning-knife",
@@ -333,6 +475,12 @@
     "effect": "Chance to inflict instant death"
    }
   },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "mage",
+   "thief"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "knife"
@@ -347,9 +495,20 @@
     "effect": "Chance to lower enemy attack a little"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "mage",
+   "thief"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "knife"
+  "classification": "knife",
+  "recipe": {
+   "life-bracer": 1,
+   "spirit-bracer": 1,
+   "sword-breaker": 1
+  }
  },
  "sword-breaker": {
   "id": "sword-breaker",
@@ -361,6 +520,13 @@
     "effect": "Chance to lower enemy attack a little"
    }
   },
+  "rarity": 1,
+  "buyPrice": 15500,
+  "vocations": [
+   "warrior",
+   "mage",
+   "thief"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "knife",

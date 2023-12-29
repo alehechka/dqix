@@ -9,9 +9,23 @@
     "effect": "Deals 1.20x damage to Demon family"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "armamentalist",
+   "ranger",
+   "sage"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "bow"
+  "classification": "bow",
+  "recipe": {
+   "agate-of-evolution": 3,
+   "archangel-s-bow": 1,
+   "yellow-orb": 3
+  },
+  "ingredientFor": [
+   "angel-s-bow"
+  ]
  },
  "angel-s-bow": {
   "id": "angel-s-bow",
@@ -23,9 +37,19 @@
     "effect": "Deals 1.20x damage to Demon family"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "armamentalist",
+   "ranger",
+   "sage"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "bow",
+  "recipe": {
+   "aeon-s-bow": 1,
+   "reset-stone": 1
+  },
   "ingredientFor": [
    "archangel-s-bow"
   ]
@@ -40,14 +64,20 @@
     "effect": "Deals 1.20x damage to Demon family"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "armamentalist",
+   "ranger",
+   "sage"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "bow",
-  "ingredientFor": [
-   "aeon-s-bow",
-   ",",
-   "seraph-s-bow"
-  ]
+  "recipe": {
+   "agate-of-evolution": 1,
+   "angel-s-bow": 1,
+   "yellow-orb": 1
+  }
  },
  "billowing-bow": {
   "id": "billowing-bow",
@@ -59,9 +89,20 @@
     "effect": "Deals Wind-elemental damage"
    }
   },
+  "rarity": 1,
+  "vocations": [
+   "armamentalist",
+   "ranger",
+   "sage"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "bow",
+  "recipe": {
+   "blowy-bow": 1,
+   "celestial-skein": 2,
+   "staff-of-divine-wrath": 1
+  },
   "ingredientFor": [
    "blustery-bow"
   ]
@@ -99,9 +140,21 @@
     "effect": "Deals Wind-elemental damage"
    }
   },
+  "rarity": 2,
+  "buyPrice": 12000,
+  "vocations": [
+   "armamentalist",
+   "ranger",
+   "sage"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "bow",
+  "recipe": {
+   "agility-ring": 1,
+   "flurry-feather": 3,
+   "potshot-bow": 1
+  },
   "ingredientFor": [
    "billowing-bow"
   ]
@@ -116,9 +169,20 @@
     "effect": "Deals Wind-elemental damage"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "armamentalist",
+   "ranger",
+   "sage"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "bow"
+  "classification": "bow",
+  "recipe": {
+   "billowing-bow": 1,
+   "celestial-skein": 3,
+   "gusterang": 1
+  }
  },
  "cheiron-s-bow": {
   "id": "cheiron-s-bow",
@@ -151,6 +215,12 @@
     "effect": "Chance to inflict confusion"
    }
   },
+  "rarity": 1,
+  "vocations": [
+   "armamentalist",
+   "ranger",
+   "sage"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "bow"
@@ -187,9 +257,20 @@
     "effect": "Deals 1.20x damage to Bird family"
    }
   },
+  "rarity": 1,
+  "vocations": [
+   "armamentalist",
+   "ranger",
+   "sage"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "bow"
+  "classification": "bow",
+  "recipe": {
+   "archer-s-armguard": 1,
+   "hunter-s-hat": 1,
+   "potshot-bow": 1
+  }
  },
  "hunter-s-bow": {
   "id": "hunter-s-bow",
@@ -211,7 +292,10 @@
   "recipe": {
    "chain-whip": 1,
    "longbow": 1
-  }
+  },
+  "ingredientFor": [
+   "crucerang"
+  ]
  },
  "longbow": {
   "id": "longbow",
@@ -292,9 +376,20 @@
     "effect": "Deals 1.20x damage to Bird family"
    }
   },
+  "rarity": 2,
+  "buyPrice": 9200,
+  "vocations": [
+   "armamentalist",
+   "ranger",
+   "sage"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "bow"
+  "classification": "bow",
+  "ingredientFor": [
+   "hotshot-bow",
+   "blowy-bow"
+  ]
  },
  "purblind-bow": {
   "id": "purblind-bow",
@@ -333,9 +428,20 @@
     "effect": "Deals 1.20x damage to Demon family"
    }
   },
+  "rarity": 5,
+  "vocations": [
+   "armamentalist",
+   "ranger",
+   "sage"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "bow"
+  "classification": "bow",
+  "recipe": {
+   "agate-of-evolution": 3,
+   "archangel-s-bow": 1,
+   "yellow-orb": 3
+  }
  },
  "short-bow": {
   "id": "short-bow",

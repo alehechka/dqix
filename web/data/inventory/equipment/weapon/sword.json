@@ -68,7 +68,10 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "sword"
+  "classification": "sword",
+  "ingredientFor": [
+   "aurora-blade"
+  ]
  },
  "copper-sword": {
   "id": "copper-sword",
@@ -101,9 +104,21 @@
     "effect": "Deals 1.20x damage to Dragon family"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "armamentalist"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "sword"
+  "classification": "sword",
+  "recipe": {
+   "dragonsbane": 1,
+   "mighty-armlet": 1
+  }
  },
  "dragonsbane": {
   "id": "dragonsbane",
@@ -115,6 +130,15 @@
     "effect": "Deals 1.20x damage to Dragon family"
    }
   },
+  "rarity": 1,
+  "buyPrice": 10000,
+  "vocations": [
+   "warrior",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "armamentalist"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "sword",
@@ -157,6 +181,15 @@
     "effect": "Attacks twice in one turn"
    }
   },
+  "rarity": 1,
+  "buyPrice": 14800,
+  "vocations": [
+   "warrior",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "armamentalist"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "sword",
@@ -190,7 +223,10 @@
    "lava-lump": 3,
    "rockbomb-shard": 1,
    "valkyrie-sword": 1
-  }
+  },
+  "ingredientFor": [
+   "inferno-blade"
+  ]
  },
  "fizzle-foil": {
   "id": "fizzle-foil",
@@ -252,9 +288,22 @@
     "effect": "10% chance to decrease enemy defence a little"
    }
   },
+  "rarity": 5,
+  "vocations": [
+   "warrior",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "armamentalist"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "sword"
+  "classification": "sword",
+  "recipe": {
+   "agate-of-evolution": 3,
+   "nebula-sword": 1,
+   "silver-orb": 3
+  }
  },
  "inferno-blade": {
   "id": "inferno-blade",
@@ -299,7 +348,11 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "sword"
+  "classification": "sword",
+  "ingredientFor": [
+   "steel-broadsword",
+   "platinum-sword"
+  ]
  },
  "liquid-metal-sword": {
   "id": "liquid-metal-sword",
@@ -311,12 +364,22 @@
     "effect": "Deals +1 damage to metal enemies"
    }
   },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "armamentalist"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "sword",
-  "ingredientFor": [
-   "metal-king-sword"
-  ]
+  "recipe": {
+   "metal-slime-sword": 1,
+   "orichalcum": 1,
+   "slimedrop": 6
+  }
  },
  "metal-king-sword": {
   "id": "metal-king-sword",
@@ -328,9 +391,22 @@
     "effect": "Deals +1 damage to metal enemies"
    }
   },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "armamentalist"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "sword"
+  "classification": "sword",
+  "recipe": {
+   "liquid-metal-sword": 1,
+   "orichalcum": 1,
+   "slime-crown": 1
+  }
  },
  "metal-slime-sword": {
   "id": "metal-slime-sword",
@@ -342,6 +418,14 @@
     "effect": "Deals +1 damage to metal enemies"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "armamentalist"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "sword",
@@ -359,6 +443,14 @@
     "effect": "Returns 25% of damage dealt as HP"
    }
   },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "armamentalist"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "sword",
@@ -376,14 +468,22 @@
     "effect": "10% chance to decrease enemy defence a little"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "warrior",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "armamentalist"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "sword",
-  "ingredientFor": [
-   "supernova-sword",
-   ",",
-   "hypernova-sword"
-  ]
+  "recipe": {
+   "agate-of-evolution": 1,
+   "silver-orb": 1,
+   "stardust-sword": 1
+  }
  },
  "platinum-sword": {
   "id": "platinum-sword",
@@ -409,7 +509,10 @@
    "hephaestus--flame": 1,
    "iron-broadsword": 1,
    "platinum-ore": 1
-  }
+  },
+  "canBeUsedFor": [
+   "012-putting-on-the-glitz"
+  ]
  },
  "rapier": {
   "id": "rapier",
@@ -447,9 +550,20 @@
     "effect": "25% chance to miss"
    }
   },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "armamentalist"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "sword"
+  "classification": "sword",
+  "ingredientFor": [
+   "erdrick-s-sword"
+  ]
  },
  "soldier-s-sword": {
   "id": "soldier-s-sword",
@@ -470,7 +584,10 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "sword"
+  "classification": "sword",
+  "ingredientFor": [
+   "warrior-s-sword"
+  ]
  },
  "stardust-sword": {
   "id": "stardust-sword",
@@ -482,9 +599,21 @@
     "effect": "10% chance to decrease enemy defence a little"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "warrior",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "armamentalist"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "sword",
+  "recipe": {
+   "reset-stone": 1,
+   "supernova-sword": 1
+  },
   "ingredientFor": [
    "nebula-sword"
   ]
@@ -522,9 +651,25 @@
     "effect": "10% chance to decrease enemy defence a little"
    }
   },
+  "rarity": 4,
+  "vocations": [
+   "warrior",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "armamentalist"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "sword"
+  "classification": "sword",
+  "recipe": {
+   "agate-of-evolution": 3,
+   "nebula-sword": 1,
+   "silver-orb": 3
+  },
+  "ingredientFor": [
+   "stardust-sword"
+  ]
  },
  "valkyrie-sword": {
   "id": "valkyrie-sword",
@@ -545,7 +690,10 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "sword"
+  "classification": "sword",
+  "ingredientFor": [
+   "fire-blade"
+  ]
  },
  "warrior-s-sword": {
   "id": "warrior-s-sword",
@@ -582,9 +730,21 @@
     "effect": "Attacks twice in one turn"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "armamentalist"
+  ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "sword"
+  "classification": "sword",
+  "recipe": {
+   "falcon-blade": 1,
+   "meteorite-bracer": 1
+  }
  },
  "über-miracle-sword": {
   "id": "über-miracle-sword",
@@ -596,11 +756,20 @@
     "effect": "Returns 25% of damage dealt as HP"
    }
   },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "armamentalist"
+  ],
   "type": "equipment",
   "category": "weapon",
   "classification": "sword",
-  "canBeUsedFor": [
-   "012-putting-on-the-glitz"
-  ]
+  "recipe": {
+   "life-bracer": 2,
+   "miracle-sword": 1
+  }
  }
 }
