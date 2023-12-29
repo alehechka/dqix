@@ -294,18 +294,21 @@ func (p PageContent) parseFromBase(inventory *Inventory) {
 					break
 				}
 			}
+			sort.Strings(inventory.IngredientFor)
 		case "Required for:":
 			for i++; i < lastIndex; i++ {
 				if id := TitleToID(p.Text[i]); id != "" {
 					inventory.RequiredFor = append(inventory.RequiredFor, id)
 				}
 			}
+			sort.Strings(inventory.RequiredFor)
 		case "Can be used for:":
 			for i++; i < lastIndex; i++ {
 				if id := TitleToID(p.Text[i]); id != "" {
 					inventory.CanBeUsedFor = append(inventory.CanBeUsedFor, id)
 				}
 			}
+			sort.Strings(inventory.CanBeUsedFor)
 		}
 	}
 }

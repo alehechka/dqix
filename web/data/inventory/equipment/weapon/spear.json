@@ -67,10 +67,10 @@
    "platinum-ore": 2
   },
   "ingredientFor": [
-   "lightning-lance",
-   "demon-spear",
+   "012-putting-on-the-glitz",
    "can-be-used-for:",
-   "012-putting-on-the-glitz"
+   "demon-spear",
+   "lightning-lance"
   ]
  },
  "demon-spear": {
@@ -237,8 +237,8 @@
   "category": "weapon",
   "classification": "spear",
   "ingredientFor": [
-   "steel-lance",
-   "holy-lance"
+   "holy-lance",
+   "steel-lance"
   ]
  },
  "lightning-lance": {
@@ -574,8 +574,8 @@
    "red-orb": 1
   },
   "ingredientFor": [
-   "split-pot-poker",
-   "red-hot-poker"
+   "red-hot-poker",
+   "split-pot-poker"
   ]
  },
  "trident": {

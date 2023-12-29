@@ -326,8 +326,8 @@
   "category": "armor",
   "classification": "legs",
   "ingredientFor": [
-   "leather-kilt",
-   "boomer-briefs"
+   "boomer-briefs",
+   "leather-kilt"
   ]
  },
  "cannock-trousers": {
@@ -854,9 +854,9 @@
    "pop-socks": 1
   },
   "ingredientFor": [
-   "transparent-tights",
+   "012-putting-on-the-glitz",
    "can-be-used-for:",
-   "012-putting-on-the-glitz"
+   "transparent-tights"
   ]
  },
  "hot-bikini-bottoms": {
@@ -1068,9 +1068,9 @@
   "category": "armor",
   "classification": "legs",
   "ingredientFor": [
-   "steel-kneecaps",
+   "012-putting-on-the-glitz",
    "can-be-used-for:",
-   "012-putting-on-the-glitz"
+   "steel-kneecaps"
   ]
  },
  "kiefer-s-trousers": {
@@ -1183,9 +1183,9 @@
   "category": "armor",
   "classification": "legs",
   "ingredientFor": [
-   "fancy-pants",
+   "012-putting-on-the-glitz",
    "can-be-used-for:",
-   "012-putting-on-the-glitz"
+   "fancy-pants"
   ]
  },
  "magical-skirt": {
@@ -1374,8 +1374,8 @@
   "classification": "legs",
   "ingredientFor": [
    "chainmail-socks",
-   "red-tights",
    "green-tights",
+   "red-tights",
    "white-tights"
   ]
  },
@@ -1442,9 +1442,9 @@
    "pop-socks": 1
   },
   "ingredientFor": [
-   "transparent-tights",
+   "012-putting-on-the-glitz",
    "can-be-used-for:",
-   "012-putting-on-the-glitz"
+   "transparent-tights"
   ]
  },
  "santa-s-slacks": {

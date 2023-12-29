@@ -426,9 +426,9 @@
    "silver-platter": 1
   },
   "ingredientFor": [
-   "platinum-platter",
+   "012-putting-on-the-glitz",
    "can-be-used-for:",
-   "012-putting-on-the-glitz"
+   "platinum-platter"
   ]
  },
  "ice-shield": {
@@ -490,9 +490,9 @@
   "category": "armor",
   "classification": "shield",
   "ingredientFor": [
-   "steel-shield",
+   "012-putting-on-the-glitz",
    "can-be-used-for:",
-   "012-putting-on-the-glitz"
+   "steel-shield"
   ]
  },
  "kitty-shield": {
@@ -523,8 +523,8 @@
    "light-shield": 1
   },
   "ingredientFor": [
-   "white-tiger-fan",
-   "catty-shield"
+   "catty-shield",
+   "white-tiger-fan"
   ]
  },
  "leather-shield": {
@@ -577,8 +577,8 @@
   "classification": "shield",
   "ingredientFor": [
    "kitty-shield",
-   "white-shield",
-   "platinum-shield"
+   "platinum-shield",
+   "white-shield"
   ]
  },
  "liquid-metal-shield": {
@@ -643,13 +643,13 @@
   "category": "armor",
   "classification": "shield",
   "ingredientFor": [
+   "012-putting-on-the-glitz",
+   "can-be-used-for:",
+   "dragon-shield",
    "enchanted-shield",
    "flame-shield",
    "ice-shield",
-   "dragon-shield",
-   "tempest-shield",
-   "can-be-used-for:",
-   "012-putting-on-the-glitz"
+   "tempest-shield"
   ]
  },
  "metal-king-shield": {
@@ -1007,8 +1007,8 @@
   "category": "armor",
   "classification": "shield",
   "ingredientFor": [
-   "shell-shield",
-   "large-scale-armour"
+   "large-scale-armour",
+   "shell-shield"
   ]
  },
  "shell-shield": {
@@ -1064,8 +1064,8 @@
   "category": "armor",
   "classification": "shield",
   "ingredientFor": [
-   "gold-platter",
    "filigree-mask",
+   "gold-platter",
    "silver-cuirass"
   ]
  },
@@ -1282,9 +1282,9 @@
    "white-shield": 1
   },
   "ingredientFor": [
-   "silver-shield",
+   "012-putting-on-the-glitz",
    "can-be-used-for:",
-   "012-putting-on-the-glitz"
+   "silver-shield"
   ]
  },
  "white-shield": {

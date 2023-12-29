@@ -432,8 +432,8 @@
   "category": "weapon",
   "classification": "stave",
   "ingredientFor": [
-   "slumber-stick",
-   "rousing-ring"
+   "rousing-ring",
+   "slumber-stick"
   ]
  },
  "slumber-stick": {

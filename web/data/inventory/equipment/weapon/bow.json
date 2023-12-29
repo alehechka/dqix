@@ -397,8 +397,8 @@
   "category": "weapon",
   "classification": "bow",
   "ingredientFor": [
-   "hotshot-bow",
-   "blowy-bow"
+   "blowy-bow",
+   "hotshot-bow"
   ]
  },
  "purblind-bow": {

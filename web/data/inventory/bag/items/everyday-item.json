@@ -28,83 +28,83 @@
    "sainted-soma": 2
   },
   "ingredientFor": [
-   "nebula-sword",
-   "supernova-sword",
-   "hypernova-sword",
-   "stud-poker",
-   "split-pot-poker",
-   "red-hot-poker",
+   "aeon-s-bow",
+   "aeon-s-robe",
+   "apollo-s-crown",
+   "archangel-s-bow",
+   "archangel-s-robe",
+   "asterang",
+   "aurora-staff",
+   "autumn-shower-hat",
+   "avalanche-axe",
+   "basilic-boots",
+   "big-boss-shield",
+   "blessed-helm",
+   "boots-of-beatitude",
+   "brilliant-staff",
+   "catatonic-cosh",
+   "celestria-s-raiment",
+   "coma-cudgel",
    "darting-dagger",
    "dashing-dagger",
-   "dynamo-dagger",
-   "savant-s-staff",
-   "shining-staff",
-   "brilliant-staff",
-   "aurora-staff",
-   "goddess-whip",
-   "mega-gringham-whip",
-   "giga-gringham-whip",
-   "über-gringham-whip",
-   "senseless-stick",
-   "catatonic-cosh",
-   "coma-cudgel",
+   "devilry-drinker",
+   "diana-gauntlets",
+   "dire-critical-fan",
    "dragovian-claws",
    "dragovian-lord-claws",
-   "xenlon-claws",
-   "overcritical-fan",
-   "hypercritical-fan",
-   "dire-critical-fan",
-   "avalanche-axe",
-   "maxi-axe",
-   "galaxy-axe",
-   "titan-s-hammer",
+   "dynamo-dagger",
    "earthsplitter",
-   "moonmasher",
-   "starsmasher",
-   "asterang",
-   "stellarang",
-   "galaxarang",
-   "archangel-s-bow",
-   "aeon-s-bow",
-   "seraph-s-bow",
-   "big-boss-shield",
-   "psyche-swiper",
-   "devilry-drinker",
-   "soul-sucker",
-   "apollo-s-crown",
-   "blessed-helm",
-   "wonder-helm",
-   "heavenly-helm",
-   "spring-breeze-hat",
-   "summer-cloud-hat",
-   "autumn-shower-hat",
-   "winter-sky-hat",
-   "glorious-armour",
-   "mythical-armour",
-   "legendary-armour",
-   "stratotoga",
-   "mesotoga",
-   "exotoga",
-   "celestria-s-raiment",
-   "archangel-s-robe",
-   "aeon-s-robe",
-   "seraph-s-robe",
-   "diana-gauntlets",
-   "tempestes-gauntlets",
-   "sol-invictus-gauntlets",
-   "master-s-gloves",
-   "grandmaster-s-gloves",
-   "godly-gloves",
-   "immortal-trousers",
-   "eternity-trousers",
-   "infinity-trousers",
-   "basilic-boots",
    "emperor-s-boots",
-   "boots-of-beatitude",
-   "tricksie-boots",
+   "eternity-trousers",
+   "exotoga",
+   "galaxarang",
+   "galaxy-axe",
+   "giga-gringham-whip",
+   "glorious-armour",
+   "goddess-whip",
+   "godly-gloves",
+   "grandmaster-s-gloves",
+   "heavenly-helm",
+   "hypercritical-fan",
+   "hypernova-sword",
+   "immortal-trousers",
+   "infinity-trousers",
+   "legendary-armour",
+   "master-s-gloves",
+   "maxi-axe",
+   "mega-gringham-whip",
+   "mesotoga",
+   "moonmasher",
+   "mythical-armour",
+   "nebula-sword",
+   "overcritical-fan",
+   "psyche-swiper",
+   "red-hot-poker",
    "sagacious-sandals",
    "sapient-sandals",
-   "sentient-sandals"
+   "savant-s-staff",
+   "senseless-stick",
+   "sentient-sandals",
+   "seraph-s-bow",
+   "seraph-s-robe",
+   "shining-staff",
+   "sol-invictus-gauntlets",
+   "soul-sucker",
+   "split-pot-poker",
+   "spring-breeze-hat",
+   "starsmasher",
+   "stellarang",
+   "stratotoga",
+   "stud-poker",
+   "summer-cloud-hat",
+   "supernova-sword",
+   "tempestes-gauntlets",
+   "titan-s-hammer",
+   "tricksie-boots",
+   "winter-sky-hat",
+   "wonder-helm",
+   "xenlon-claws",
+   "über-gringham-whip"
   ]
  },
  "aggressence": {
@@ -127,11 +127,11 @@
   "ingredientFor": [
    "dragontail-whip",
    "erazor-wing-boomerang",
-   "sturdy-gauntlets",
    "heavy-gauntlets",
-   "wonder-pants",
    "strength-ring",
-   "tough-guy-tattoo"
+   "sturdy-gauntlets",
+   "tough-guy-tattoo",
+   "wonder-pants"
   ]
  },
  "angel-bell": {
@@ -146,9 +146,9 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
-   "ring-of-clarity",
+   "astral-plume",
    "perfect-panacea",
-   "astral-plume"
+   "ring-of-clarity"
   ]
  },
  "antidotal-herb": {
@@ -210,11 +210,11 @@
    "fresh-water": 2
   },
   "ingredientFor": [
-   "mega-magical-mace",
-   "sizzling-bikini-top",
    "celestria-s-raiment",
+   "mega-magical-mace",
+   "sainted-soma",
    "sizzling-bikini-bottoms",
-   "sainted-soma"
+   "sizzling-bikini-top"
   ]
  },
  "basic-biscuits": {
@@ -241,10 +241,10 @@
   "classification": "everyday-item",
   "ingredientFor": [
    "ace-of-clubs",
-   "fancy-pants",
    "classy-clogs",
-   "sorceress-sandals",
-   "mystifying-mixture"
+   "fancy-pants",
+   "mystifying-mixture",
+   "sorceress-sandals"
   ],
   "requiredFor": [
    "017-you-shouldn-t-have...really",
@@ -269,8 +269,8 @@
    "sleeping-hibiscus": 5
   },
   "ingredientFor": [
-   "sage-s-stone",
-   "gold-bar"
+   "gold-bar",
+   "sage-s-stone"
   ],
   "requiredFor": [
    "025-warbling-wellard",
@@ -312,18 +312,18 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
-   "shining-staff",
-   "brilliant-staff",
    "aurora-staff",
-   "senseless-stick",
+   "brilliant-staff",
    "catatonic-cosh",
    "coma-cudgel",
-   "stratotoga",
-   "mesotoga",
    "exotoga",
+   "mesotoga",
    "sagacious-sandals",
    "sapient-sandals",
-   "sentient-sandals"
+   "senseless-stick",
+   "sentient-sandals",
+   "shining-staff",
+   "stratotoga"
   ]
  },
  "brighten-rock": {
@@ -339,14 +339,14 @@
   "classification": "everyday-item",
   "ingredientFor": [
    "aurora-blade",
+   "dancer-s-dress",
+   "flamenco-shirt",
+   "lucida-shard",
    "magma-staff",
    "majestic-mantle",
-   "flamenco-shirt",
-   "dancer-s-dress",
-   "twinkling-tuxedo",
    "shimmering-dress",
    "technicolour-dreamcloth",
-   "lucida-shard"
+   "twinkling-tuxedo"
   ]
  },
  "butterfly-wing": {
@@ -362,9 +362,9 @@
   "classification": "everyday-item",
   "ingredientFor": [
    "batterfly-knife",
+   "bow-tie",
    "dread-dagger",
-   "malleable-mask",
-   "bow-tie"
+   "malleable-mask"
   ],
   "requiredFor": [
    "146-hail-to-the-queen"
@@ -387,12 +387,12 @@
    "tangleweb": 5
   },
   "ingredientFor": [
-   "tsunami-staff",
-   "optimistick",
    "billowing-bow",
    "blustery-bow",
    "flowing-dress",
-   "technicolour-dreamcloth"
+   "optimistick",
+   "technicolour-dreamcloth",
+   "tsunami-staff"
   ],
   "requiredFor": [
    "159-have-you-seen-charlene?"
@@ -478,8 +478,8 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
-   "poison-moth-knife",
-   "batterfly-knife"
+   "batterfly-knife",
+   "poison-moth-knife"
   ]
  },
  "corundum": {
@@ -529,14 +529,14 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
-   "trident",
    "flame-tang",
-   "watermaul-wand",
    "fowl-fan",
-   "solar-fan",
-   "hot-bikini-top",
    "hot-bikini-bottoms",
-   "red-tights"
+   "hot-bikini-top",
+   "red-tights",
+   "solar-fan",
+   "trident",
+   "watermaul-wand"
   ]
  },
  "crown-jewel": {
@@ -569,11 +569,11 @@
   },
   "ingredientFor": [
    "gracos-s-trident",
-   "terra-firmer",
+   "heavy-gauntlets",
+   "impregnable-leggings",
    "megaton-hammer",
    "ogre-shield",
-   "heavy-gauntlets",
-   "impregnable-leggings"
+   "terra-firmer"
   ]
  },
  "elfin-elixir": {
@@ -610,10 +610,10 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
-   "tortoise-shell",
-   "tortoiseshell-armour",
+   "elfin-charm",
    "green-tights",
-   "elfin-charm"
+   "tortoise-shell",
+   "tortoiseshell-armour"
   ]
  },
  "enchanted-stone": {
@@ -633,15 +633,15 @@
    "thunderball": 2
   },
   "ingredientFor": [
-   "tsunami-staff",
-   "kite-claws",
-   "gale-force-fan",
-   "purblind-bow",
-   "enchanted-shield",
    "enchanted-armour",
-   "enchanted-robes",
    "enchanted-gloves",
-   "ethereal-stone"
+   "enchanted-robes",
+   "enchanted-shield",
+   "ethereal-stone",
+   "gale-force-fan",
+   "kite-claws",
+   "purblind-bow",
+   "tsunami-staff"
   ]
  },
  "ethereal-stone": {
@@ -662,15 +662,15 @@
    "perfect-panacea": 1
   },
   "ingredientFor": [
-   "executioner-s-axe",
-   "terra-hammer",
+   "agate-of-evolution",
    "blinding-bow",
-   "ethereal-shield",
    "ethereal-armour",
-   "ethereal-robes",
    "ethereal-gloves",
+   "ethereal-robes",
+   "ethereal-shield",
+   "executioner-s-axe",
    "gold-bar",
-   "agate-of-evolution"
+   "terra-hammer"
   ],
   "requiredFor": [
    "151-pushy-peddler"
@@ -701,12 +701,12 @@
   "classification": "everyday-item",
   "ingredientFor": [
    "assassin-s-dagger",
-   "tortoiseshell-fan",
-   "thief-s-turban",
    "dark-robe",
    "gloomy-gloves",
+   "lucida-shard",
    "murky-mittens",
-   "lucida-shard"
+   "thief-s-turban",
+   "tortoiseshell-fan"
   ],
   "requiredFor": [
    "009-labour-of-love"
@@ -754,13 +754,13 @@
    "superior-medicine": 1
   },
   "ingredientFor": [
-   "tracksuit-top",
-   "tussler-s-top",
    "dragon-dress",
    "dragon-top",
-   "tracky-bottoms",
-   "tussler-s-trousers",
    "dragon-trousers",
+   "tracksuit-top",
+   "tracky-bottoms",
+   "tussler-s-top",
+   "tussler-s-trousers",
    "wu-shoes"
   ]
  },
@@ -775,8 +775,8 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
-   "finessence",
-   "aggressence"
+   "aggressence",
+   "finessence"
   ],
   "requiredFor": [
    "017-you-shouldn-t-have...really"
@@ -794,8 +794,8 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
-   "terra-tamper",
-   "densinium"
+   "densinium",
+   "terra-tamper"
   ]
  },
  "flurry-feather": {
@@ -809,19 +809,19 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
-   "staff-of-sentencing",
-   "staff-of-divine-wrath",
-   "mistick",
+   "agility-ring",
+   "astral-plume",
+   "blowy-bow",
+   "eaglewing",
+   "feather-headband",
+   "feathered-cap",
    "foehn-fan",
    "fowl-fan",
-   "eaglewing",
    "gusterang",
-   "blowy-bow",
-   "tempest-shield",
-   "feathered-cap",
-   "feather-headband",
-   "agility-ring",
-   "astral-plume"
+   "mistick",
+   "staff-of-divine-wrath",
+   "staff-of-sentencing",
+   "tempest-shield"
   ]
  },
  "fresh-water": {
@@ -835,11 +835,11 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
-   "mistick",
-   "rosary",
-   "birdsong-nectar",
    "astral-plume",
-   "celestial-skein"
+   "birdsong-nectar",
+   "celestial-skein",
+   "mistick",
+   "rosary"
   ],
   "requiredFor": [
    "006-get-well-water"
@@ -881,12 +881,12 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
-   "erdrick-s-sword",
-   "sandstorm-spear",
-   "erdrick-s-shield",
-   "erdrick-s-helmet",
    "erdrick-s-armour",
-   "erdrick-s-gauntlets"
+   "erdrick-s-gauntlets",
+   "erdrick-s-helmet",
+   "erdrick-s-shield",
+   "erdrick-s-sword",
+   "sandstorm-spear"
   ]
  },
  "gleeban-gold-piece": {
@@ -946,11 +946,11 @@
    "sainted-soma": 3
   },
   "ingredientFor": [
-   "storm-spear",
+   "goddess-ring",
    "golden-axe",
-   "spellward-circlet",
    "meteorite-bracer",
-   "goddess-ring"
+   "spellward-circlet",
+   "storm-spear"
   ]
  },
  "grubby-bandage": {
@@ -965,11 +965,11 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
-   "saintly-robe",
-   "fizzle-proof-suit",
    "bow-tie",
-   "utility-belt",
-   "technicolour-dreamcloth"
+   "fizzle-proof-suit",
+   "saintly-robe",
+   "technicolour-dreamcloth",
+   "utility-belt"
   ],
   "requiredFor": [
    "030-wrapper-s-delight"
@@ -1005,25 +1005,25 @@
    "toad-oil": 1
   },
   "ingredientFor": [
-   "gigasteel-broadsword",
-   "platinum-sword",
-   "gigasteel-lance",
    "gigaspike-whip",
-   "gigasteel-bar",
-   "orichalcudgel",
-   "gigasteel-claws",
-   "orichalcum-claws",
-   "gigasteel-fan",
-   "gigasteel-axe",
-   "gigasteel-shield",
-   "platinum-shield",
-   "gigasteel-helmet",
-   "platinum-headgear",
    "gigasteel-armour",
-   "platinum-mail",
+   "gigasteel-axe",
+   "gigasteel-bar",
+   "gigasteel-broadsword",
+   "gigasteel-claws",
+   "gigasteel-fan",
    "gigasteel-gauntlets",
+   "gigasteel-helmet",
    "gigasteel-kneecaps",
+   "gigasteel-lance",
    "gigasteel-sabatons",
+   "gigasteel-shield",
+   "orichalcudgel",
+   "orichalcum-claws",
+   "platinum-headgear",
+   "platinum-mail",
+   "platinum-shield",
+   "platinum-sword",
    "sunstone"
   ]
  },
@@ -1041,9 +1041,9 @@
   "ingredientFor": [
    "aurora-blade",
    "divine-dagger",
-   "white-shield",
    "holy-talisman",
-   "magic-water"
+   "magic-water",
+   "white-shield"
   ]
  },
  "horse-manure": {
@@ -1072,13 +1072,13 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
-   "icicle-dirk",
-   "fenrir-fang",
-   "white-tiger-fan",
-   "ice-axe",
    "avalanche-axe",
+   "enchanted-stone",
+   "fenrir-fang",
+   "ice-axe",
    "ice-shield",
-   "enchanted-stone"
+   "icicle-dirk",
+   "white-tiger-fan"
   ]
  },
  "iron-nails": {
@@ -1092,12 +1092,12 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
-   "hammer-handrills",
-   "reinforced-boomerang",
-   "cutting-edge-boomerang",
-   "spiked-armour",
    "chainmail-socks",
-   "payback-pumps"
+   "cutting-edge-boomerang",
+   "hammer-handrills",
+   "payback-pumps",
+   "reinforced-boomerang",
+   "spiked-armour"
   ]
  },
  "iron-ore": {
@@ -1112,35 +1112,35 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
-   "steel-broadsword",
-   "gigasteel-broadsword",
-   "steel-lance",
-   "gigasteel-lance",
-   "spiked-steel-whip",
-   "gigaspike-whip",
-   "steel-bar",
-   "gigasteel-bar",
-   "steel-claws",
-   "gigasteel-claws",
-   "hammer-handrills",
-   "steel-fan",
-   "gigasteel-fan",
-   "steel-axe",
-   "gigasteel-axe",
-   "steel-shield",
-   "gigasteel-shield",
-   "steel-helmet",
-   "gigasteel-helmet",
+   "densinium",
    "full-plate-armour",
+   "gigaspike-whip",
    "gigasteel-armour",
-   "steel-gauntlets",
+   "gigasteel-axe",
+   "gigasteel-bar",
+   "gigasteel-broadsword",
+   "gigasteel-claws",
+   "gigasteel-fan",
    "gigasteel-gauntlets",
-   "sturdy-gauntlets",
-   "steel-kneecaps",
+   "gigasteel-helmet",
    "gigasteel-kneecaps",
-   "steel-sabatons",
+   "gigasteel-lance",
    "gigasteel-sabatons",
-   "densinium"
+   "gigasteel-shield",
+   "hammer-handrills",
+   "spiked-steel-whip",
+   "steel-axe",
+   "steel-bar",
+   "steel-broadsword",
+   "steel-claws",
+   "steel-fan",
+   "steel-gauntlets",
+   "steel-helmet",
+   "steel-kneecaps",
+   "steel-lance",
+   "steel-sabatons",
+   "steel-shield",
+   "sturdy-gauntlets"
   ]
  },
  "kitty-litter": {
@@ -1155,11 +1155,11 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
-   "sandstorm-spear",
+   "cat-ears",
+   "catty-shield",
    "feline-fan",
    "kitty-shield",
-   "catty-shield",
-   "cat-ears"
+   "sandstorm-spear"
   ]
  },
  "knifing-know-how": {
@@ -1186,16 +1186,16 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
+   "blessed-bottoms",
+   "cloak-of-concealment",
+   "ear-cosy",
+   "emperor-s-attire",
+   "empress-s-robe",
    "fur-hood",
    "hunter-s-hat",
-   "ear-cosy",
-   "cloak-of-concealment",
-   "robe-of-sweet-dreams",
-   "queen-s-robe",
-   "empress-s-robe",
    "king-s-coat",
-   "emperor-s-attire",
-   "blessed-bottoms"
+   "queen-s-robe",
+   "robe-of-sweet-dreams"
   ],
   "requiredFor": [
    "014-snug-as-a-thug"
@@ -1213,19 +1213,19 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
-   "steel-broadsword",
    "fire-blade",
-   "steel-lance",
-   "spiked-steel-whip",
-   "steel-bar",
-   "steel-claws",
    "fire-claws",
-   "steel-fan",
-   "vermillion-bird-fan",
-   "steel-axe",
-   "flametang-boomerang",
    "flame-shield",
-   "hephaestus--flame"
+   "flametang-boomerang",
+   "hephaestus--flame",
+   "spiked-steel-whip",
+   "steel-axe",
+   "steel-bar",
+   "steel-broadsword",
+   "steel-claws",
+   "steel-fan",
+   "steel-lance",
+   "vermillion-bird-fan"
   ]
  },
  "lucida-shard": {
@@ -1245,13 +1245,13 @@
    "evencloth": 3
   },
   "ingredientFor": [
-   "lunar-fan",
    "hexarang",
-   "star-circlet",
-   "superstar-s-suit",
+   "lunar-fan",
    "meteorite-bracer",
    "sainted-soma",
-   "sunstone"
+   "star-circlet",
+   "sunstone",
+   "superstar-s-suit"
   ]
  },
  "luminary-s-lore": {
@@ -1280,9 +1280,9 @@
    "moonwort-bulb": 3
   },
   "ingredientFor": [
+   "full-moon-ring",
    "moon-axe",
-   "razer-wing-boomerang",
-   "full-moon-ring"
+   "razer-wing-boomerang"
   ]
  },
  "mage-s-manual": {
@@ -1309,15 +1309,15 @@
   "classification": "everyday-item",
   "ingredientFor": [
    "fur-hood",
-   "hunter-s-hat",
-   "musketeer-hat",
    "fur-poncho",
-   "tussler-s-top",
    "fur-vest",
+   "hobnail-boots",
+   "hunter-s-hat",
    "leather-gloves",
    "leather-kilt",
-   "tussler-s-trousers",
-   "hobnail-boots"
+   "musketeer-hat",
+   "tussler-s-top",
+   "tussler-s-trousers"
   ]
  },
  "magic-beast-horn": {
@@ -1332,17 +1332,17 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
-   "poison-needle",
-   "fenrir-fang",
-   "serpentine-whip",
    "beastmaster-claws",
    "cutting-edge-boomerang",
-   "ogre-shield",
-   "raging-bull-helm",
+   "fenrir-fang",
    "minotaur-helm",
+   "ogre-shield",
+   "payback-pumps",
    "pointy-hat",
-   "spiked-armour",
-   "payback-pumps"
+   "poison-needle",
+   "raging-bull-helm",
+   "serpentine-whip",
+   "spiked-armour"
   ]
  },
  "magic-water": {
@@ -1362,10 +1362,10 @@
    "royal-soil": 1
   },
   "ingredientFor": [
-   "staff-of-sentencing",
    "lightning-staff",
    "rune-staff",
-   "sage-s-elixir"
+   "sage-s-elixir",
+   "staff-of-sentencing"
   ],
   "requiredFor": [
    "008-don-t-cry-over-spilt-ink"
@@ -1389,14 +1389,14 @@
    "terrible-tattoo": 2
   },
   "ingredientFor": [
-   "demon-spear",
    "archdemon-whip",
-   "oh-no-bow",
+   "demon-spear",
    "hades--helm",
-   "skull-helm",
    "murky-mittens",
-   "skull-ring",
-   "reckless-necklace"
+   "oh-no-bow",
+   "reckless-necklace",
+   "skull-helm",
+   "skull-ring"
   ]
  },
  "manky-mud": {
@@ -1411,9 +1411,9 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
+   "mystifying-mixture",
    "poison-moth-knife",
-   "poison-needle",
-   "mystifying-mixture"
+   "poison-needle"
   ],
   "requiredFor": [
    "127-a-right-royal-nightmare"
@@ -1443,14 +1443,14 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
+   "strong-antidote",
    "strong-medicine",
-   "superior-medicine",
-   "strong-antidote"
+   "superior-medicine"
   ],
   "requiredFor": [
    "005-herb-list",
-   "can-be-used-for:",
-   "013-all-fired-up"
+   "013-all-fired-up",
+   "can-be-used-for:"
   ]
  },
  "mini-medal": {
@@ -1489,9 +1489,9 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
-   "silver-shield",
-   "mirror-armour",
    "catoptric-armour",
+   "mirror-armour",
+   "silver-shield",
    "sunstone"
   ]
  },
@@ -1507,9 +1507,9 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
-   "softwort",
    "lunaria",
-   "panacea"
+   "panacea",
+   "softwort"
   ],
   "requiredFor": [
    "005-herb-list"
@@ -1533,11 +1533,11 @@
    "manky-mud": 1
   },
   "ingredientFor": [
-   "moon-axe",
-   "full-moon-axe",
-   "purblind-bow",
    "blinding-bow",
-   "enchanted-stone"
+   "enchanted-stone",
+   "full-moon-axe",
+   "moon-axe",
+   "purblind-bow"
   ]
  },
  "mythril-ore": {
@@ -1553,18 +1553,18 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
-   "mega-magical-mace",
-   "fizzle-foil",
-   "lightning-lance",
+   "crown-of-clarity",
    "erazor-wing-boomerang",
+   "fizzle-foil",
    "hexarang",
-   "white-knight-s-shield",
-   "silver-shield",
+   "holy-mail",
+   "lightning-lance",
+   "mega-magical-mace",
    "mythril-coif",
    "mythril-helm",
-   "crown-of-clarity",
-   "holy-mail",
-   "safer-shoes"
+   "safer-shoes",
+   "silver-shield",
+   "white-knight-s-shield"
   ],
   "requiredFor": [
    "146-hail-to-the-queen"
@@ -1582,13 +1582,13 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
+   "ethereal-stone",
+   "fancy-pants",
    "fizzle-foil",
-   "slumber-stick",
+   "malicite",
    "malleable-mask",
    "papillon-mask",
-   "fancy-pants",
-   "ethereal-stone",
-   "malicite"
+   "slumber-stick"
   ],
   "requiredFor": [
    "060-that-makes-scents"
@@ -1606,9 +1606,9 @@
   "classification": "everyday-item",
   "ingredientFor": [
    "birdsong-nectar",
+   "elfin-elixir",
    "magic-water",
-   "sage-s-elixir",
-   "elfin-elixir"
+   "sage-s-elixir"
   ]
  },
  "orichalcum": {
@@ -1624,33 +1624,33 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
-   "liquid-metal-sword",
-   "metal-king-sword",
+   "erdrick-s-armour",
+   "erdrick-s-gauntlets",
+   "erdrick-s-helmet",
+   "erdrick-s-shield",
    "erdrick-s-sword",
+   "goddess-shield",
+   "impregnable-leggings",
+   "liquid-metal-armour",
+   "liquid-metal-helm",
+   "liquid-metal-shield",
+   "liquid-metal-slime-boots",
+   "liquid-metal-slime-gloves",
+   "liquid-metal-sword",
    "liquid-slime-spear",
+   "megaton-hammer",
+   "metal-king-armour",
+   "metal-king-helm",
+   "metal-king-shield",
+   "metal-king-slime-boots",
+   "metal-king-slime-gloves",
    "metal-king-spear",
+   "metal-king-sword",
    "orichalcudgel",
    "orichalcum-claws",
-   "megaton-hammer",
-   "warlord-s-hammer",
-   "goddess-shield",
-   "liquid-metal-shield",
-   "metal-king-shield",
-   "erdrick-s-shield",
-   "liquid-metal-helm",
-   "metal-king-helm",
-   "erdrick-s-helmet",
-   "liquid-metal-armour",
-   "metal-king-armour",
-   "erdrick-s-armour",
-   "liquid-metal-slime-gloves",
-   "metal-king-slime-gloves",
-   "erdrick-s-gauntlets",
-   "impregnable-leggings",
-   "liquid-metal-slime-boots",
-   "metal-king-slime-boots",
    "safest-shoes",
-   "sage-s-stone"
+   "sage-s-stone",
+   "warlord-s-hammer"
   ]
  },
  "panacea": {
@@ -1670,9 +1670,9 @@
    "superior-medicine": 1
   },
   "ingredientFor": [
+   "perfect-panacea",
    "power-shield",
-   "sober-ring",
-   "perfect-panacea"
+   "sober-ring"
   ],
   "requiredFor": [
    "004-pick-me-up-a-panacea"
@@ -1722,12 +1722,12 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
-   "platinum-sword",
    "celestial-spear",
+   "platinum-headgear",
+   "platinum-mail",
    "platinum-platter",
    "platinum-shield",
-   "platinum-headgear",
-   "platinum-mail"
+   "platinum-sword"
   ]
  },
  "posh-biscuits": {
@@ -1766,18 +1766,18 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
+   "blessed-helm",
+   "climaxe",
    "darting-dagger",
    "dashing-dagger",
    "dynamo-dagger",
-   "maxi-axe",
-   "climaxe",
+   "eternity-trousers",
    "galaxy-axe",
-   "blessed-helm",
-   "wonder-helm",
    "heavenly-helm",
    "immortal-trousers",
-   "eternity-trousers",
-   "infinity-trousers"
+   "infinity-trousers",
+   "maxi-axe",
+   "wonder-helm"
   ]
  },
  "ranger-s-revelations": {
@@ -1804,18 +1804,18 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
-   "stud-poker",
-   "split-pot-poker",
-   "red-hot-poker",
+   "diana-gauntlets",
    "dragovian-claws",
    "dragovian-lord-claws",
-   "xenlon-claws",
    "glorious-armour",
-   "mythical-armour",
    "legendary-armour",
-   "diana-gauntlets",
+   "mythical-armour",
+   "red-hot-poker",
+   "sol-invictus-gauntlets",
+   "split-pot-poker",
+   "stud-poker",
    "tempestes-gauntlets",
-   "sol-invictus-gauntlets"
+   "xenlon-claws"
   ]
  },
  "reset-stone": {
@@ -1831,31 +1831,31 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
-   "stardust-sword",
-   "poker",
-   "gladius",
-   "deft-dagger",
-   "bright-staff",
-   "gringham-whip",
-   "knockout-rod",
-   "dragonlord-claws",
-   "critical-fan",
-   "bad-axe",
-   "groundbreaker",
-   "pentarang",
-   "meteorang",
    "angel-s-bow",
-   "brain-drainer",
-   "hallowed-helm",
-   "victorious-armour",
-   "dangerous-bustier",
-   "tropotoga",
    "angel-s-robe",
-   "vesta-gauntlets",
    "apprentice-s-gloves",
-   "invincible-trousers",
+   "bad-axe",
+   "brain-drainer",
+   "bright-staff",
+   "critical-fan",
+   "dangerous-bustier",
+   "deft-dagger",
+   "dragonlord-claws",
+   "gladius",
+   "gringham-whip",
+   "groundbreaker",
+   "hallowed-helm",
    "hero-s-boots",
-   "sensible-sandals"
+   "invincible-trousers",
+   "knockout-rod",
+   "meteorang",
+   "pentarang",
+   "poker",
+   "sensible-sandals",
+   "stardust-sword",
+   "tropotoga",
+   "vesta-gauntlets",
+   "victorious-armour"
   ]
  },
  "resurrock": {
@@ -1871,8 +1871,8 @@
   "classification": "everyday-item",
   "ingredientFor": [
    "flame-shield",
-   "ice-shield",
    "holy-talisman",
+   "ice-shield",
    "life-ring"
   ],
   "requiredFor": [
@@ -1891,13 +1891,13 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
-   "fire-blade",
-   "inferno-blade",
-   "magma-staff",
-   "fire-claws",
+   "banefire-boomerang",
    "combusticlaws",
+   "fire-blade",
+   "fire-claws",
    "flametang-boomerang",
-   "banefire-boomerang"
+   "inferno-blade",
+   "magma-staff"
   ]
  },
  "royal-soil": {
@@ -1913,19 +1913,19 @@
   "classification": "everyday-item",
   "ingredientFor": [
    "black-tortoise-fan",
-   "terra-tamper",
-   "terra-firmer",
-   "terra-hammer",
-   "steel-shield",
-   "steel-helmet",
+   "elfin-elixir",
    "full-plate-armour",
-   "steel-gauntlets",
-   "steel-kneecaps",
-   "steel-sabatons",
+   "hephaestus--flame",
    "magic-water",
    "sage-s-elixir",
-   "elfin-elixir",
-   "hephaestus--flame"
+   "steel-gauntlets",
+   "steel-helmet",
+   "steel-kneecaps",
+   "steel-sabatons",
+   "steel-shield",
+   "terra-firmer",
+   "terra-hammer",
+   "terra-tamper"
   ],
   "requiredFor": [
    "036-little-miss-bossy-boots"
@@ -1949,18 +1949,18 @@
    "royal-soil": 1
   },
   "ingredientFor": [
-   "staff-of-divine-wrath",
-   "lightning-conductor",
+   "blessed-bindings",
+   "brahman-boots",
+   "cape-of-good-karma",
+   "guru-s-gloves",
    "hieroglyph-staff",
+   "lightning-conductor",
+   "prayer-ring",
+   "sainted-soma",
    "savant-s-staff",
    "scholar-s-circlet",
-   "cape-of-good-karma",
-   "blessed-bindings",
-   "guru-s-gloves",
-   "tantric-trousers",
-   "brahman-boots",
-   "prayer-ring",
-   "sainted-soma"
+   "staff-of-divine-wrath",
+   "tantric-trousers"
   ]
  },
  "sage-s-stone": {
@@ -1994,14 +1994,14 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
-   "scourge-whip",
+   "celestria-s-gown",
+   "great-helm",
+   "lucky-pendant",
    "odin-s-bow",
    "saintess-shield",
-   "great-helm",
-   "sun-crown",
-   "celestria-s-gown",
+   "scourge-whip",
    "sorcerer-s-ring",
-   "lucky-pendant"
+   "sun-crown"
   ]
  },
  "sainted-soma": {
@@ -2021,11 +2021,11 @@
    "sage-s-elixir": 2
   },
   "ingredientFor": [
-   "xenlon-rod",
+   "agate-of-evolution",
    "divine-bustier",
    "goddess-ring",
    "gold-bar",
-   "agate-of-evolution"
+   "xenlon-rod"
   ]
  },
  "seashell": {
@@ -2040,12 +2040,12 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
+   "feline-fan",
+   "hot-bikini-bottoms",
+   "hot-bikini-top",
    "trident",
    "watermaul-wand",
-   "feline-fan",
    "white-shield",
-   "hot-bikini-top",
-   "hot-bikini-bottoms",
    "white-tights"
   ]
  },
@@ -2181,16 +2181,16 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
-   "nebula-sword",
-   "supernova-sword",
-   "hypernova-sword",
    "asterang",
-   "stellarang",
    "galaxarang",
-   "master-s-gloves",
-   "grandmaster-s-gloves",
    "godly-gloves",
-   "sage-s-stone"
+   "grandmaster-s-gloves",
+   "hypernova-sword",
+   "master-s-gloves",
+   "nebula-sword",
+   "sage-s-stone",
+   "stellarang",
+   "supernova-sword"
   ]
  },
  "sleeping-hibiscus": {
@@ -2206,10 +2206,10 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
-   "slumber-stick",
+   "birdsong-nectar",
    "robe-of-sweet-dreams",
-   "sorceress-sandals",
-   "birdsong-nectar"
+   "slumber-stick",
+   "sorceress-sandals"
   ],
   "requiredFor": [
    "146-hail-to-the-queen"
@@ -2227,16 +2227,16 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
+   "gooey-gear",
+   "liquid-metal-armour",
+   "liquid-metal-helm",
+   "liquid-metal-shield",
+   "liquid-metal-slime-boots",
+   "liquid-metal-slime-gloves",
    "liquid-metal-sword",
    "liquid-slime-spear",
-   "liquid-metal-shield",
-   "liquid-metal-helm",
-   "slood",
-   "liquid-metal-armour",
-   "gooey-gear",
-   "liquid-metal-slime-gloves",
-   "liquid-metal-slime-boots",
-   "slime-earrings"
+   "slime-earrings",
+   "slood"
   ],
   "requiredFor": [
    "007-curious-crevice"
@@ -2253,12 +2253,12 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
-   "phantom-mask",
    "cloak-of-concealment",
    "dark-robe",
    "divine-bustier",
+   "finessence",
    "matador-s-gloves",
-   "finessence"
+   "phantom-mask"
   ]
  },
  "snakeskin": {
@@ -2273,12 +2273,12 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
-   "snakeskin-whip",
+   "cobra-fan",
+   "large-scale-armour",
    "serpentine-whip",
    "sidewinder",
-   "cobra-fan",
-   "tricky-turban",
-   "large-scale-armour"
+   "snakeskin-whip",
+   "tricky-turban"
   ]
  },
  "softwort": {
@@ -2395,9 +2395,9 @@
    "medicinal-herb": 2
   },
   "ingredientFor": [
+   "softwort",
    "special-medicine",
-   "superior-medicine",
-   "softwort"
+   "superior-medicine"
   ]
  },
  "sunstone": {
@@ -2417,12 +2417,12 @@
    "mirrorstone": 3
   },
   "ingredientFor": [
-   "inferno-blade",
-   "flame-tang",
-   "combusticlaws",
-   "solar-fan",
+   "apollo-s-crown",
    "banefire-boomerang",
-   "apollo-s-crown"
+   "combusticlaws",
+   "flame-tang",
+   "inferno-blade",
+   "solar-fan"
   ],
   "requiredFor": [
    "021-spud-she-like"
@@ -2444,8 +2444,8 @@
    "strong-medicine": 1
   },
   "ingredientFor": [
-   "panacea",
-   "finessence"
+   "finessence",
+   "panacea"
   ]
  },
  "swordcraft-in-summary": {
@@ -2472,8 +2472,8 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
-   "silk-buster",
-   "celestial-skein"
+   "celestial-skein",
+   "silk-buster"
   ],
   "requiredFor": [
    "001-one-good-turn"
@@ -2498,11 +2498,11 @@
   },
   "ingredientFor": [
    "ballistick",
-   "flamenco-shirt",
    "dancer-s-dress",
-   "technicolour-tutu",
+   "flamenco-shirt",
+   "sizzling-bikini-bottoms",
    "sizzling-bikini-top",
-   "sizzling-bikini-bottoms"
+   "technicolour-tutu"
   ],
   "requiredFor": [
    "027-big-headed-bard"
@@ -2556,14 +2556,14 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
-   "crown-of-clarity",
-   "sage-s-robe",
-   "cape-of-good-karma",
    "blessed-bindings",
-   "guru-s-gloves",
-   "tantric-trousers",
    "brahman-boots",
-   "rosary"
+   "cape-of-good-karma",
+   "crown-of-clarity",
+   "guru-s-gloves",
+   "rosary",
+   "sage-s-robe",
+   "tantric-trousers"
   ],
   "requiredFor": [
    "060-that-makes-scents"
@@ -2581,12 +2581,12 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
-   "lightning-lance",
-   "storm-spear",
-   "lightning-staff",
-   "lightning-conductor",
    "azure-dragon-fan",
-   "enchanted-stone"
+   "enchanted-stone",
+   "lightning-conductor",
+   "lightning-lance",
+   "lightning-staff",
+   "storm-spear"
   ]
  },
  "toad-oil": {
@@ -2601,8 +2601,8 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
-   "tricky-turban",
-   "hephaestus--flame"
+   "hephaestus--flame",
+   "tricky-turban"
   ]
  },
  "tortoiseshell": {
@@ -2617,10 +2617,10 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
-   "tortoiseshell-fan",
    "shell-shield",
    "tortoise-shell",
-   "tortoiseshell-armour"
+   "tortoiseshell-armour",
+   "tortoiseshell-fan"
   ]
  },
  "wakerobin": {
@@ -2635,9 +2635,9 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
-   "rousing-ring",
+   "aggressence",
    "perfect-panacea",
-   "aggressence"
+   "rousing-ring"
   ]
  },
  "wands-and-beyond": {
@@ -2696,18 +2696,18 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
-   "earthsplitter",
-   "moonmasher",
-   "starsmasher",
-   "archangel-s-bow",
    "aeon-s-bow",
-   "seraph-s-bow",
-   "archangel-s-robe",
    "aeon-s-robe",
-   "seraph-s-robe",
+   "archangel-s-bow",
+   "archangel-s-robe",
    "basilic-boots",
+   "boots-of-beatitude",
+   "earthsplitter",
    "emperor-s-boots",
-   "boots-of-beatitude"
+   "moonmasher",
+   "seraph-s-bow",
+   "seraph-s-robe",
+   "starsmasher"
   ]
  },
  "yggdrasil-dew": {
@@ -2738,8 +2738,8 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
-   "yggdrasil-dew",
-   "elfin-elixir"
+   "elfin-elixir",
+   "yggdrasil-dew"
   ]
  }
 }

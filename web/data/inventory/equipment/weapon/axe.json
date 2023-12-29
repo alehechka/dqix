@@ -319,8 +319,8 @@
   "category": "weapon",
   "classification": "axe",
   "ingredientFor": [
-   "steel-axe",
-   "golden-axe"
+   "golden-axe",
+   "steel-axe"
   ]
  },
  "kaiser-axe": {

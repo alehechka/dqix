@@ -282,8 +282,8 @@
    "purple-orb": 1
   },
   "ingredientFor": [
-   "wonder-helm",
-   "heavenly-helm"
+   "heavenly-helm",
+   "wonder-helm"
   ]
  },
  "borya-s-bouffant": {
@@ -775,9 +775,9 @@
    "hairband": 1
   },
   "ingredientFor": [
-   "musketeer-hat",
+   "012-putting-on-the-glitz",
    "can-be-used-for:",
-   "012-putting-on-the-glitz"
+   "musketeer-hat"
   ]
  },
  "feathered-cap": {
@@ -963,9 +963,9 @@
    "gold-ring": 1
   },
   "ingredientFor": [
-   "thinking-cap",
+   "spellward-circlet",
    "star-circlet",
-   "spellward-circlet"
+   "thinking-cap"
   ]
  },
  "golden-tiara": {
@@ -2251,9 +2251,9 @@
    "platinum-ore": 1
   },
   "ingredientFor": [
-   "mythril-helm",
+   "012-putting-on-the-glitz",
    "can-be-used-for:",
-   "012-putting-on-the-glitz"
+   "mythril-helm"
   ]
  },
  "pointy-hat": {
@@ -2290,8 +2290,8 @@
    "magic-beast-horn": 1
   },
   "ingredientFor": [
-   "slood",
-   "hunter-s-hat"
+   "hunter-s-hat",
+   "slood"
   ]
  },
  "proper-topper": {
@@ -2745,18 +2745,18 @@
   "category": "armor",
   "classification": "head",
   "ingredientFor": [
-   "metal-king-sword",
-   "metal-king-spear",
-   "king-axe",
-   "kaiser-axe",
-   "metal-king-shield",
-   "metal-king-helm",
-   "metal-king-armour",
-   "emperor-s-attire",
-   "metal-king-slime-gloves",
-   "metal-king-slime-boots",
+   "012-putting-on-the-glitz",
    "can-be-used-for:",
-   "012-putting-on-the-glitz"
+   "emperor-s-attire",
+   "kaiser-axe",
+   "king-axe",
+   "metal-king-armour",
+   "metal-king-helm",
+   "metal-king-shield",
+   "metal-king-slime-boots",
+   "metal-king-slime-gloves",
+   "metal-king-spear",
+   "metal-king-sword"
   ]
  },
  "slood": {
@@ -3207,10 +3207,10 @@
    "steel-helmet": 1
   },
   "ingredientFor": [
-   "scholar-s-circlet",
-   "crown-of-clarity",
+   "012-putting-on-the-glitz",
    "can-be-used-for:",
-   "012-putting-on-the-glitz"
+   "crown-of-clarity",
+   "scholar-s-circlet"
   ]
  },
  "thug-s-mug": {
@@ -3461,8 +3461,8 @@
   "category": "armor",
   "classification": "head",
   "ingredientFor": [
-   "tricky-turban",
-   "thief-s-turban"
+   "thief-s-turban",
+   "tricky-turban"
   ]
  },
  "unhappy-hat": {

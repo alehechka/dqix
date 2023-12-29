@@ -629,8 +629,8 @@
   "category": "armor",
   "classification": "torso",
   "ingredientFor": [
-   "holy-mail",
-   "chainmail-socks"
+   "chainmail-socks",
+   "holy-mail"
   ]
  },
  "cloak-of-concealment": {
@@ -884,8 +884,8 @@
    "velvet-cape": 1
   },
   "ingredientFor": [
-   "phantom-mask",
-   "macabre-mantle"
+   "macabre-mantle",
+   "phantom-mask"
   ]
  },
  "debora-s-dress": {
@@ -1717,8 +1717,8 @@
   "category": "armor",
   "classification": "torso",
   "ingredientFor": [
-   "gooey-gear",
-   "flamenco-shirt"
+   "flamenco-shirt",
+   "gooey-gear"
   ]
  },
  "gigant-armour": {
@@ -1826,8 +1826,8 @@
    "victorious-armour": 1
   },
   "ingredientFor": [
-   "mythical-armour",
-   "legendary-armour"
+   "legendary-armour",
+   "mythical-armour"
   ]
  },
  "gold-mail": {
@@ -2441,10 +2441,10 @@
   "category": "armor",
   "classification": "torso",
   "ingredientFor": [
-   "enchanted-armour",
    "dragon-mail",
-   "spiked-armour",
-   "mirror-armour"
+   "enchanted-armour",
+   "mirror-armour",
+   "spiked-armour"
   ]
  },
  "magical-robes": {
@@ -3929,9 +3929,9 @@
   "category": "armor",
   "classification": "torso",
   "ingredientFor": [
-   "shimmering-dress",
+   "012-putting-on-the-glitz",
    "can-be-used-for:",
-   "012-putting-on-the-glitz"
+   "shimmering-dress"
   ]
  },
  "spiked-armour": {
@@ -4039,8 +4039,8 @@
    "tropotoga": 1
   },
   "ingredientFor": [
-   "mesotoga",
-   "exotoga"
+   "exotoga",
+   "mesotoga"
   ]
  },
  "strongsam": {
@@ -4549,8 +4549,8 @@
   "category": "armor",
   "classification": "torso",
   "ingredientFor": [
-   "majestic-mantle",
-   "dark-robe"
+   "dark-robe",
+   "majestic-mantle"
   ]
  },
  "veteran-s-armour": {

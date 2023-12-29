@@ -216,9 +216,9 @@
    "thunderball": 3
   },
   "ingredientFor": [
-   "lightning-conductor",
+   "012-putting-on-the-glitz",
    "can-be-used-for:",
-   "012-putting-on-the-glitz"
+   "lightning-conductor"
   ]
  },
  "magical-mace": {
@@ -440,8 +440,8 @@
    "bright-staff": 1
   },
   "ingredientFor": [
-   "brilliant-staff",
-   "aurora-staff"
+   "aurora-staff",
+   "brilliant-staff"
   ]
  },
  "staff-of-divine-wrath": {
@@ -472,8 +472,8 @@
    "staff-of-sentencing": 1
   },
   "ingredientFor": [
-   "blusterang",
-   "billowing-bow"
+   "billowing-bow",
+   "blusterang"
   ]
  },
  "staff-of-sentencing": {
@@ -532,10 +532,10 @@
   "category": "weapon",
   "classification": "wand",
   "ingredientFor": [
-   "watermaul-wand",
    "lightning-staff",
    "magma-staff",
-   "rune-staff"
+   "rune-staff",
+   "watermaul-wand"
   ]
  },
  "tsunami-staff": {

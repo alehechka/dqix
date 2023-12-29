@@ -392,9 +392,9 @@
   "category": "armor",
   "classification": "arms",
   "ingredientFor": [
-   "leather-gloves",
+   "012-putting-on-the-glitz",
    "can-be-used-for:",
-   "012-putting-on-the-glitz"
+   "leather-gloves"
   ]
  },
  "crimson-gauntlets": {
@@ -447,8 +447,8 @@
    "vesta-gauntlets": 1
   },
   "ingredientFor": [
-   "tempestes-gauntlets",
-   "sol-invictus-gauntlets"
+   "sol-invictus-gauntlets",
+   "tempestes-gauntlets"
   ]
  },
  "dragon-warrior-gloves": {
@@ -545,9 +545,9 @@
    "magic-mittens": 1
   },
   "ingredientFor": [
-   "ethereal-gloves",
+   "012-putting-on-the-glitz",
    "can-be-used-for:",
-   "012-putting-on-the-glitz"
+   "ethereal-gloves"
   ]
  },
  "enchantress-s-gloves": {
@@ -1207,9 +1207,9 @@
   "category": "armor",
   "classification": "arms",
   "ingredientFor": [
-   "enchanted-gloves",
+   "012-putting-on-the-glitz",
    "can-be-used-for:",
-   "012-putting-on-the-glitz"
+   "enchanted-gloves"
   ]
  },
  "marquess-s-mittens": {
@@ -1274,8 +1274,8 @@
    "silver-orb": 1
   },
   "ingredientFor": [
-   "grandmaster-s-gloves",
-   "godly-gloves"
+   "godly-gloves",
+   "grandmaster-s-gloves"
   ]
  },
  "matador-s-gloves": {
@@ -1360,9 +1360,9 @@
   "category": "armor",
   "classification": "arms",
   "ingredientFor": [
-   "marquess-s-mittens",
+   "012-putting-on-the-glitz",
    "can-be-used-for:",
-   "012-putting-on-the-glitz"
+   "marquess-s-mittens"
   ]
  },
  "mcryan-s-mittens": {
@@ -1942,9 +1942,9 @@
   "category": "armor",
   "classification": "arms",
   "ingredientFor": [
-   "utility-belt",
+   "012-putting-on-the-glitz",
    "can-be-used-for:",
-   "012-putting-on-the-glitz"
+   "utility-belt"
   ]
  },
  "veteran-s-gloves": {

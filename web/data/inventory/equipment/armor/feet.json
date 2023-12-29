@@ -209,8 +209,8 @@
    "yellow-orb": 1
   },
   "ingredientFor": [
-   "emperor-s-boots",
-   "boots-of-beatitude"
+   "boots-of-beatitude",
+   "emperor-s-boots"
   ]
  },
  "bianca-s-boots": {
@@ -1204,9 +1204,9 @@
   "category": "armor",
   "classification": "feet",
   "ingredientFor": [
-   "steel-sabatons",
+   "012-putting-on-the-glitz",
    "can-be-used-for:",
-   "012-putting-on-the-glitz"
+   "steel-sabatons"
   ]
  },
  "kiefer-s-shoes": {
@@ -2198,9 +2198,9 @@
    "high-heels": 1
   },
   "ingredientFor": [
-   "highness-heels",
+   "012-putting-on-the-glitz",
    "can-be-used-for:",
-   "012-putting-on-the-glitz"
+   "highness-heels"
   ]
  },
  "templar-shoes": {

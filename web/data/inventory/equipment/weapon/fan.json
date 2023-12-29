@@ -425,8 +425,8 @@
    "green-orb": 1
   },
   "ingredientFor": [
-   "hypercritical-fan",
-   "dire-critical-fan"
+   "dire-critical-fan",
+   "hypercritical-fan"
   ]
  },
  "solar-fan": {
@@ -574,8 +574,8 @@
   "classification": "fan",
   "ingredientFor": [
    "cobra-fan",
-   "fowl-fan",
    "feline-fan",
+   "fowl-fan",
    "tortoiseshell-fan"
   ]
  },

@@ -266,11 +266,11 @@
   "category": "weapon",
   "classification": "whip",
   "ingredientFor": [
-   "spiked-steel-whip",
-   "dragontail-whip",
-   "demon-whip",
+   "012-putting-on-the-glitz",
    "can-be-used-for:",
-   "012-putting-on-the-glitz"
+   "demon-whip",
+   "dragontail-whip",
+   "spiked-steel-whip"
   ]
  },
  "leather-whip": {

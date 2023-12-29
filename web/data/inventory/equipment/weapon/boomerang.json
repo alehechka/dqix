@@ -22,8 +22,8 @@
    "silver-orb": 1
   },
   "ingredientFor": [
-   "stellarang",
-   "galaxarang"
+   "galaxarang",
+   "stellarang"
   ]
  },
  "banefire-boomerang": {
@@ -95,8 +95,8 @@
   "category": "weapon",
   "classification": "boomerang",
   "ingredientFor": [
-   "reinforced-boomerang",
-   "boomer-briefs"
+   "boomer-briefs",
+   "reinforced-boomerang"
   ]
  },
  "crucerang": {
@@ -188,8 +188,8 @@
   "category": "weapon",
   "classification": "boomerang",
   "ingredientFor": [
-   "icicle-dirk",
-   "cutting-edge-boomerang"
+   "cutting-edge-boomerang",
+   "icicle-dirk"
   ]
  },
  "erazor-wing-boomerang": {
@@ -294,8 +294,8 @@
   },
   "ingredientFor": [
    "blusterang",
-   "flametang-boomerang",
-   "blustery-bow"
+   "blustery-bow",
+   "flametang-boomerang"
   ]
  },
  "hexarang": {
@@ -422,8 +422,8 @@
   "category": "weapon",
   "classification": "boomerang",
   "ingredientFor": [
-   "vermillion-bird-fan",
-   "razer-wing-boomerang"
+   "razer-wing-boomerang",
+   "vermillion-bird-fan"
   ]
  },
  "reinforced-boomerang": {

@@ -339,8 +339,8 @@
   "category": "weapon",
   "classification": "claw",
   "ingredientFor": [
-   "steel-claws",
-   "sacred-claws"
+   "sacred-claws",
+   "steel-claws"
   ]
  },
  "kestrel-claws": {
@@ -364,8 +364,8 @@
    "crow-s-claws": 1
   },
   "ingredientFor": [
-   "kite-claws",
-   "eaglewing"
+   "eaglewing",
+   "kite-claws"
   ]
  },
  "king-cobra-claws": {

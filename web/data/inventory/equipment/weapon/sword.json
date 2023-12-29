@@ -353,8 +353,8 @@
   "category": "weapon",
   "classification": "sword",
   "ingredientFor": [
-   "steel-broadsword",
-   "platinum-sword"
+   "platinum-sword",
+   "steel-broadsword"
   ]
  },
  "liquid-metal-sword": {
@@ -491,8 +491,8 @@
    "stardust-sword": 1
   },
   "ingredientFor": [
-   "supernova-sword",
-   "hypernova-sword"
+   "hypernova-sword",
+   "supernova-sword"
   ]
  },
  "platinum-sword": {
@@ -545,9 +545,9 @@
   "category": "weapon",
   "classification": "sword",
   "ingredientFor": [
-   "fizzle-foil",
+   "012-putting-on-the-glitz",
    "can-be-used-for:",
-   "012-putting-on-the-glitz"
+   "fizzle-foil"
   ]
  },
  "rusty-sword": {

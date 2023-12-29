@@ -31,16 +31,16 @@
    "prayer-ring": 1
   },
   "ingredientFor": [
+   "blowy-bow",
+   "blusterang",
    "falcon-knife-earring",
-   "optimistick",
-   "kestrel-claws",
    "foehn-fan",
    "gale-force-fan",
    "gusterang",
-   "blusterang",
-   "blowy-bow",
+   "kestrel-claws",
    "mercury-s-bandana",
-   "meteorite-bracer"
+   "meteorite-bracer",
+   "optimistick"
   ]
  },
  "bow-tie": {
@@ -75,11 +75,11 @@
    "grubby-bandage": 1
   },
   "ingredientFor": [
-   "trailblazing-bandana",
-   "majestic-mantle",
-   "twinkling-tuxedo",
+   "012-putting-on-the-glitz",
    "can-be-used-for:",
-   "012-putting-on-the-glitz"
+   "majestic-mantle",
+   "trailblazing-bandana",
+   "twinkling-tuxedo"
   ]
  },
  "brainy-bracer": {
@@ -114,8 +114,8 @@
    "sorcerer-s-stone": 2
   },
   "ingredientFor": [
-   "scholar-s-circlet",
-   "canny-cap"
+   "canny-cap",
+   "scholar-s-circlet"
   ]
  },
  "bunny-tail": {
@@ -280,16 +280,16 @@
   "category": "accessories",
   "classification": "accessory",
   "ingredientFor": [
-   "dragontail-whip",
-   "xenlon-rod",
-   "cobra-fan",
    "azure-dragon-fan",
-   "dragon-shield",
-   "dragon-mail",
+   "cobra-fan",
    "dragon-dress",
+   "dragon-mail",
+   "dragon-shield",
    "dragon-top",
    "dragon-trousers",
-   "ruby-of-protection"
+   "dragontail-whip",
+   "ruby-of-protection",
+   "xenlon-rod"
   ]
  },
  "elfin-charm": {
@@ -364,8 +364,8 @@
    "poison-moth-knife": 1
   },
   "ingredientFor": [
-   "lunar-fan",
-   "full-moon-axe"
+   "full-moon-axe",
+   "lunar-fan"
   ]
  },
  "goddess-ring": {
@@ -402,8 +402,8 @@
    "sainted-soma": 1
   },
   "ingredientFor": [
-   "goddess-whip",
-   "goddess-shield"
+   "goddess-shield",
+   "goddess-whip"
   ]
  },
  "gold-bracer": {
@@ -434,13 +434,13 @@
   "category": "accessories",
   "classification": "accessory",
   "ingredientFor": [
-   "gold-platter",
-   "golden-tiara",
+   "brainy-bracer",
    "gold-circlet",
    "gold-mail",
-   "mighty-armlet",
-   "brainy-bracer",
+   "gold-platter",
+   "golden-tiara",
    "life-bracer",
+   "mighty-armlet",
    "spirit-bracer"
   ]
  },
@@ -472,19 +472,19 @@
   "category": "accessories",
   "classification": "accessory",
   "ingredientFor": [
-   "golden-tiara",
-   "gold-circlet",
-   "gold-mail",
-   "strength-ring",
-   "slime-earrings",
-   "prayer-ring",
-   "sober-ring",
+   "012-putting-on-the-glitz",
+   "can-be-used-for:",
    "contra-band",
    "full-moon-ring",
-   "rousing-ring",
+   "gold-circlet",
+   "gold-mail",
+   "golden-tiara",
+   "prayer-ring",
    "ring-of-clarity",
-   "can-be-used-for:",
-   "012-putting-on-the-glitz"
+   "rousing-ring",
+   "slime-earrings",
+   "sober-ring",
+   "strength-ring"
   ]
  },
  "gold-rosary": {
@@ -515,8 +515,8 @@
   "category": "accessories",
   "classification": "accessory",
   "ingredientFor": [
-   "holy-lance",
    "crucerang",
+   "holy-lance",
    "holy-talisman"
   ]
  },
@@ -555,10 +555,10 @@
   },
   "ingredientFor": [
    "celestial-spear",
-   "sacred-claws",
-   "white-knight-s-shield",
+   "elfin-charm",
    "holy-mail",
-   "elfin-charm"
+   "sacred-claws",
+   "white-knight-s-shield"
   ]
  },
  "legion-of-merit": {
@@ -621,11 +621,11 @@
    "life-ring": 2
   },
   "ingredientFor": [
-   "über-miracle-sword",
-   "soul-breaker",
-   "friendly-fan",
    "empowered-shield",
-   "sacrosanct-armour"
+   "friendly-fan",
+   "sacrosanct-armour",
+   "soul-breaker",
+   "über-miracle-sword"
   ]
  },
  "life-ring": {
@@ -661,8 +661,8 @@
    "resurrock": 3
   },
   "ingredientFor": [
-   "life-bracer",
-   "goddess-ring"
+   "goddess-ring",
+   "life-bracer"
   ]
  },
  "lifesaving-medal": {
@@ -727,8 +727,8 @@
    "saint-s-ashes": 1
   },
   "ingredientFor": [
-   "happy-hat",
    "elevating-shoes",
+   "happy-hat",
    "monarchic-mark",
    "reckless-necklace"
   ]
@@ -885,15 +885,15 @@
    "tough-guy-tattoo": 1
   },
   "ingredientFor": [
+   "012-putting-on-the-glitz",
+   "big-boss-shield",
+   "can-be-used-for:",
    "dragon-slayer",
    "gracos-s-trident",
    "killer-pillar",
-   "über-war-hammer",
-   "warlord-s-hammer",
-   "big-boss-shield",
    "minotaur-helm",
-   "can-be-used-for:",
-   "012-putting-on-the-glitz"
+   "warlord-s-hammer",
+   "über-war-hammer"
   ]
  },
  "monarchic-mark": {
@@ -929,14 +929,14 @@
    "ruby-of-protection": 1
   },
   "ingredientFor": [
-   "empress-s-whip",
    "beastmaster-claws",
+   "empress-s-whip",
+   "highness-heels",
    "kaiser-axe",
-   "spellward-circlet",
-   "princess-s-robe",
-   "prince-s-pea-coat",
    "marquess-s-mittens",
-   "highness-heels"
+   "prince-s-pea-coat",
+   "princess-s-robe",
+   "spellward-circlet"
   ]
  },
  "noscar": {
@@ -994,11 +994,11 @@
   "category": "accessories",
   "classification": "accessory",
   "ingredientFor": [
-   "shimmering-dress",
-   "rosary",
-   "malicite",
+   "012-putting-on-the-glitz",
    "can-be-used-for:",
-   "012-putting-on-the-glitz"
+   "malicite",
+   "rosary",
+   "shimmering-dress"
   ]
  },
  "prayer-ring": {
@@ -1035,10 +1035,10 @@
    "sage-s-elixir": 2
   },
   "ingredientFor": [
-   "mega-magical-hat",
    "agility-ring",
-   "spirit-bracer",
-   "life-ring"
+   "life-ring",
+   "mega-magical-hat",
+   "spirit-bracer"
   ]
  },
  "raging-ruby": {
@@ -1073,12 +1073,12 @@
    "strength-ring": 1
   },
   "ingredientFor": [
-   "warrior-s-sword",
-   "executioner-s-axe",
-   "dragon-shield",
-   "power-shield",
    "dragon-mail",
-   "monarchic-mark"
+   "dragon-shield",
+   "executioner-s-axe",
+   "monarchic-mark",
+   "power-shield",
+   "warrior-s-sword"
   ],
   "requiredFor": [
    "019-moving-house"
@@ -1255,12 +1255,12 @@
    "dragon-scale": 1
   },
   "ingredientFor": [
+   "monarchic-mark",
    "rune-staff",
-   "tempest-shield",
    "sacrosanct-armour",
    "safer-shoes",
    "safest-shoes",
-   "monarchic-mark"
+   "tempest-shield"
   ]
  },
  "skull-ring": {
@@ -1329,9 +1329,9 @@
    "slimedrop": 1
   },
   "ingredientFor": [
-   "falcon-knife-earring",
+   "012-putting-on-the-glitz",
    "can-be-used-for:",
-   "012-putting-on-the-glitz"
+   "falcon-knife-earring"
   ]
  },
  "sober-ring": {
@@ -1368,8 +1368,8 @@
    "sandstorm-spear": 1
   },
   "ingredientFor": [
-   "mirror-armour",
-   "catholicon-ring"
+   "catholicon-ring",
+   "mirror-armour"
   ]
  },
  "soldier-s-medal": {
@@ -1431,8 +1431,8 @@
    "skull-ring": 1
   },
   "ingredientFor": [
-   "hieroglyph-staff",
    "fizzle-proof-suit",
+   "hieroglyph-staff",
    "skull-ring"
   ]
  },
@@ -1464,10 +1464,10 @@
   "category": "accessories",
   "classification": "accessory",
   "ingredientFor": [
-   "thinking-cap",
-   "mega-magical-hat",
    "blessed-bottoms",
-   "brainy-bracer"
+   "brainy-bracer",
+   "mega-magical-hat",
+   "thinking-cap"
   ]
  },
  "spirit-bracer": {
@@ -1536,8 +1536,8 @@
    "gold-ring": 1
   },
   "ingredientFor": [
-   "raging-ruby",
-   "mighty-armlet"
+   "mighty-armlet",
+   "raging-ruby"
   ]
  },
  "terrible-tattoo": {
@@ -1567,13 +1567,13 @@
   "category": "accessories",
   "classification": "accessory",
   "ingredientFor": [
+   "archdemon-whip",
    "demon-spear",
    "demon-whip",
-   "archdemon-whip",
    "king-cobra-claws",
    "macabre-mantle",
-   "tough-guy-tattoo",
-   "malicite"
+   "malicite",
+   "tough-guy-tattoo"
   ]
  },
  "tough-guy-tattoo": {
@@ -1607,10 +1607,10 @@
    "terrible-tattoo": 1
   },
   "ingredientFor": [
-   "sidewinder",
-   "titan-s-hammer",
+   "mighty-armlet",
    "raging-bull-helm",
-   "mighty-armlet"
+   "sidewinder",
+   "titan-s-hammer"
   ]
  },
  "utility-belt": {
@@ -1676,8 +1676,8 @@
   "category": "accessories",
   "classification": "accessory",
   "requiredFor": [
-   "184-bleats-me",
-   "(first-time;-repeat)"
+   "(first-time;-repeat)",
+   "184-bleats-me"
   ]
  },
  "wear-with-all-award": {
