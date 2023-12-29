@@ -14,9 +14,9 @@ func ThingLink(id string, getter types.IGetThingFromID) templ.Component {
 }
 
 templ thingLink(thing types.Thing) {
-	<a data-not-found="true" href={ fn.Path(thing.GetPath()) }>{ thing.GetTitle() }</a>
+	@Link(thing.GetTitle(), fn.Path(thing.GetPath()), nil)
 }
 
 templ thingNotFoundLink(id string) {
-	<a class="text-gray-500" href={ fn.Path("not-found", id) }>{ id }</a>
+	@Link(id, fn.Path("not-found", id), templ.Attributes{"data-not-found": "true"})
 }
