@@ -23,6 +23,9 @@
    "deadly-nightblade": 1,
    "evencloth": 2,
    "poison-needle": 1
+  },
+  "droppedBy": {
+   "apeckalypse": "(1/128)"
   }
  },
  "batterfly-knife": {
@@ -445,6 +448,9 @@
    "coagulant": 2,
    "divine-dagger": 1,
    "manky-mud": 1
+  },
+  "droppedBy": {
+   "crabber-dabber-doo": "(1/64)"
   },
   "ingredientFor": [
    "batterfly-knife",

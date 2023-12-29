@@ -303,7 +303,10 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "wand"
+  "classification": "wand",
+  "droppedBy": {
+   "meowgician": "(1/16)"
+  }
  },
  "rune-staff": {
   "id": "rune-staff",
@@ -609,6 +612,9 @@
    "seashell": 3,
    "stolos--staff": 1
   },
+  "droppedBy": {
+   "python-priest": "(1/64)"
+  },
   "ingredientFor": [
    "tsunami-staff"
   ]
@@ -634,6 +640,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "wand",
+  "droppedBy": {
+   "magus": "(1/64)"
+  },
   "ingredientFor": [
    "staff-of-sentencing"
   ]

@@ -256,6 +256,9 @@
    "flurry-feather": 2,
    "war-fan": 1
   },
+  "droppedBy": {
+   "terrorhawk": "(1/64)"
+  },
   "ingredientFor": [
    "vermillion-bird-fan"
   ]
@@ -283,6 +286,9 @@
    "horse-manure": 9,
    "life-bracer": 1,
    "solar-fan": 1
+  },
+  "droppedBy": {
+   "godsteed": "(1/256)"
   }
  },
  "gale-force-fan": {

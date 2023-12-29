@@ -150,6 +150,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "shield",
+  "droppedBy": {
+   "night-knight": "(1/64)"
+  },
   "ingredientFor": [
    "ogre-shield"
   ]
@@ -346,6 +349,9 @@
    "lava-lump": 1,
    "magic-shield": 1,
    "resurrock": 1
+  },
+  "droppedBy": {
+   "hell-nino": "(1/128)"
   }
  },
  "gigasteel-shield": {
@@ -474,6 +480,9 @@
    "ice-crystal": 1,
    "magic-shield": 1,
    "resurrock": 1
+  },
+  "droppedBy": {
+   "brrearthenwarrior": "(1/256)"
   }
  },
  "iron-shield": {
@@ -593,6 +602,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "shield",
+  "droppedBy": {
+   "metal-slime-knight": "(1/64)"
+  },
   "ingredientFor": [
    "kitty-shield",
    "platinum-shield",
@@ -660,6 +672,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "shield",
+  "droppedBy": {
+   "grim-grinner": "(1/64)"
+  },
   "ingredientFor": [
    "012-putting-on-the-glitz",
    "can-be-used-for:",

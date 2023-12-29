@@ -24,7 +24,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "droppedBy": {
+   "dragonlord": "(lv. 4–8: 15%)"
+  }
  },
  "alena-s-hat": {
   "id": "alena-s-hat",
@@ -1085,6 +1088,9 @@
    "great-helm": 1,
    "malicite": 1
   },
+  "droppedBy": {
+   "hell-s-gatekeeper": "(1/64)"
+  },
   "ingredientFor": [
    "great-helm"
   ]
@@ -1379,6 +1385,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "head",
+  "droppedBy": {
+   "axolhotl": "(1/32)"
+  },
   "ingredientFor": [
    "steel-helmet"
   ]
@@ -1401,6 +1410,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "head",
+  "droppedBy": {
+   "deadcurion": "(1/64)"
+  },
   "ingredientFor": [
    "filigree-mask",
    "platinum-headgear"
@@ -1517,6 +1529,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "head",
+  "droppedBy": {
+   "bodkin-bowyer": "(1/32)"
+  },
   "ingredientFor": [
    "feathered-cap",
    "fur-hood",
@@ -2313,6 +2328,9 @@
    "leather-hat": 1,
    "magic-beast-horn": 1
   },
+  "droppedBy": {
+   "jinkster": "(1/64)"
+  },
   "ingredientFor": [
    "hunter-s-hat",
    "slood"
@@ -2741,6 +2759,9 @@
    "apollo-s-crown": 1,
    "malicite": 1
   },
+  "droppedBy": {
+   "blight-knight": "(1/64)"
+  },
   "ingredientFor": [
    "sun-crown"
   ]
@@ -2771,6 +2792,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "head",
+  "droppedBy": {
+   "king-cureslime": "(1/128)"
+  },
   "ingredientFor": [
    "012-putting-on-the-glitz",
    "can-be-used-for:",
@@ -3445,7 +3469,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "droppedBy": {
+   "dhoulmagus": "(lv. 9–15: 15%)"
+  }
  },
  "trodeface": {
   "id": "trodeface",
@@ -3552,7 +3579,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "droppedBy": {
+   "blight-knight": "(1/128)"
+  }
  },
  "warrior-s-helm": {
   "id": "warrior-s-helm",
@@ -3649,7 +3679,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "droppedBy": {
+   "boa-bishop": "(1/64)"
+  }
  },
  "wonder-helm": {
   "id": "wonder-helm",
@@ -3764,6 +3797,9 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "droppedBy": {
+   "dhoulmagus": "(lv. 57–68: 15%)"
+  }
  }
 }

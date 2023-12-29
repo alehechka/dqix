@@ -300,6 +300,9 @@
    "boomerang": 1,
    "boxer-shorts": 1
   },
+  "droppedBy": {
+   "toxic-zombie": "(1/64)"
+  },
   "ingredientFor": [
    "wonder-pants"
   ]
@@ -1177,6 +1180,9 @@
   "recipe": {
    "boxer-shorts": 1,
    "magic-beast-hide": 1
+  },
+  "droppedBy": {
+   "brownie": "(1/32)"
   },
   "ingredientFor": [
    "utility-belt"

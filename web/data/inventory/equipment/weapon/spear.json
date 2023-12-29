@@ -328,6 +328,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "spear",
+  "droppedBy": {
+   "zumeanie": "(1/128)"
+  },
   "ingredientFor": [
    "celestial-spear"
   ]
@@ -398,6 +401,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "spear",
+  "droppedBy": {
+   "stenchurion": "(1/128)"
+  },
   "ingredientFor": [
    "halberd"
   ]

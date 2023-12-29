@@ -977,7 +977,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "arms"
+  "classification": "arms",
+  "droppedBy": {
+   "hammer-horror": "(1/32)"
+  }
  },
  "iron-gauntlets": {
   "id": "iron-gauntlets",

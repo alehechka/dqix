@@ -122,6 +122,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "claw",
+  "droppedBy": {
+   "icikiller": "(1/64)"
+  },
   "ingredientFor": [
    "kestrel-claws"
   ]
@@ -143,6 +146,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "claw",
+  "droppedBy": {
+   "drakulord": "(1/64)"
+  },
   "ingredientFor": [
    "fire-claws"
   ]
@@ -326,6 +332,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "claw",
+  "droppedBy": {
+   "corrupt-carter": "(1/64)"
+  },
   "ingredientFor": [
    "hammer-handrills"
   ]
@@ -468,6 +477,9 @@
   "recipe": {
    "holy-talisman": 1,
    "iron-claws": 1
+  },
+  "droppedBy": {
+   "scarewolf": "(1/64)"
   }
  },
  "steel-claws": {

@@ -30,6 +30,9 @@
    "flurry-feather": 2,
    "prayer-ring": 1
   },
+  "droppedBy": {
+   "whirly-girly": "(1/32)"
+  },
   "ingredientFor": [
    "blowy-bow",
    "blusterang",
@@ -282,6 +285,9 @@
   "type": "equipment",
   "category": "accessories",
   "classification": "accessory",
+  "droppedBy": {
+   "rashaverak": "(1/8)"
+  },
   "ingredientFor": [
    "azure-dragon-fan",
    "cobra-fan",
@@ -477,6 +483,9 @@
   "type": "equipment",
   "category": "accessories",
   "classification": "accessory",
+  "droppedBy": {
+   "gold-golem": "(1/32)"
+  },
   "ingredientFor": [
    "012-putting-on-the-glitz",
    "can-be-used-for:",
@@ -520,6 +529,9 @@
   "type": "equipment",
   "category": "accessories",
   "classification": "accessory",
+  "droppedBy": {
+   "lesionnaire": "(1/16)"
+  },
   "ingredientFor": [
    "crucerang",
    "holy-lance",
@@ -1043,6 +1055,9 @@
    "gold-ring": 1,
    "sage-s-elixir": 2
   },
+  "droppedBy": {
+   "genie-sanguini": "(1/64)"
+  },
   "ingredientFor": [
    "agility-ring",
    "life-ring",
@@ -1080,6 +1095,9 @@
   "recipe": {
    "corundum": 1,
    "strength-ring": 1
+  },
+  "droppedBy": {
+   "brainy-badboon": "(1/32)"
   },
   "ingredientFor": [
    "dragon-mail",
@@ -1553,6 +1571,9 @@
    "aggressence": 1,
    "gold-ring": 1
   },
+  "droppedBy": {
+   "gigantes": "(1/64)"
+  },
   "ingredientFor": [
    "mighty-armlet",
    "raging-ruby"
@@ -1584,6 +1605,9 @@
   "type": "equipment",
   "category": "accessories",
   "classification": "accessory",
+  "droppedBy": {
+   "bloody-manguini": "(1/16)"
+  },
   "ingredientFor": [
    "archdemon-whip",
    "demon-spear",
@@ -1623,6 +1647,9 @@
   "recipe": {
    "aggressence": 1,
    "terrible-tattoo": 1
+  },
+  "droppedBy": {
+   "ghoul": "(1/64)"
   },
   "ingredientFor": [
    "mighty-armlet",

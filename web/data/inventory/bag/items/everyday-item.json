@@ -124,6 +124,9 @@
    "softwort": 1,
    "wakerobin": 1
   },
+  "droppedBy": {
+   "hammibal": "(1/32)"
+  },
   "ingredientFor": [
    "dragontail-whip",
    "erazor-wing-boomerang",
@@ -145,6 +148,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "chariot-chappie": "(1/32)"
+  },
   "ingredientFor": [
    "astral-plume",
    "perfect-panacea",
@@ -162,6 +168,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "bodkin-fletcher": "(1/8)"
+  },
   "ingredientFor": [
    "strong-antidote"
   ],
@@ -239,6 +248,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "mushroom-mage": "(1/8)"
+  },
   "ingredientFor": [
    "ace-of-clubs",
    "classy-clogs",
@@ -340,6 +352,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "cosmic-chimaera": "(1/8)"
+  },
   "ingredientFor": [
    "aurora-blade",
    "dancer-s-dress",
@@ -363,6 +378,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "dread-admiral": "(1/8)"
+  },
   "ingredientFor": [
    "batterfly-knife",
    "bow-tie",
@@ -415,6 +433,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "chimaera": "(1/8)"
+  },
   "canBeUsedFor": [
    "013-all-fired-up"
   ]
@@ -483,6 +504,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "betterfly": "(1/8)"
+  },
   "ingredientFor": [
    "batterfly-knife",
    "poison-moth-knife"
@@ -519,6 +543,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "bag-o--laughs": "(1/8)"
+  },
   "ingredientFor": [
    "mystifying-mixture"
   ],
@@ -537,6 +564,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "belisha-beakon": "(1/32)"
+  },
   "ingredientFor": [
    "flame-tang",
    "fowl-fan",
@@ -575,6 +605,9 @@
   "recipe": {
    "flintstone": 3,
    "iron-ore": 3
+  },
+  "droppedBy": {
+   "wishmaster": "(1/32)"
   },
   "ingredientFor": [
    "gracos-s-trident",
@@ -621,6 +654,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "salamarauder": "(1/16)"
+  },
   "ingredientFor": [
    "elfin-charm",
    "green-tights",
@@ -717,6 +753,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "ragged-reaper": "(1/16)"
+  },
   "ingredientFor": [
    "assassin-s-dagger",
    "dark-robe",
@@ -792,6 +831,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "mushroom-mage": "(1/8)"
+  },
   "ingredientFor": [
    "aggressence",
    "finessence"
@@ -811,6 +853,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "stone-golem": "(1/16)"
+  },
   "ingredientFor": [
    "densinium",
    "terra-tamper"
@@ -826,6 +871,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "weaken-beakon": "(1/16)"
+  },
   "ingredientFor": [
    "agility-ring",
    "astral-plume",
@@ -901,6 +949,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "stale-whale": "(1/16)"
+  },
   "ingredientFor": [
    "erdrick-s-armour",
    "erdrick-s-gauntlets",
@@ -921,7 +972,10 @@
   "sellPrice": 1000,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday-item",
+  "droppedBy": {
+   "gem-jamboree": "(1/16)"
+  }
  },
  "gleeban-groat": {
   "id": "gleeban-groat",
@@ -966,6 +1020,9 @@
    "ethereal-stone": 2,
    "sainted-soma": 3
   },
+  "droppedBy": {
+   "tyrannosaurus-wrecks": "(1/10)"
+  },
   "ingredientFor": [
    "goddess-ring",
    "golden-axe",
@@ -985,6 +1042,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "mummy": "(1/8)"
+  },
   "ingredientFor": [
    "bow-tie",
    "fizzle-proof-suit",
@@ -1025,6 +1085,9 @@
    "royal-soil": 1,
    "toad-oil": 1
   },
+  "droppedBy": {
+   "flamin--drayman": "(1/64)"
+  },
   "ingredientFor": [
    "gigaspike-whip",
    "gigasteel-armour",
@@ -1059,6 +1122,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "lost-soul": "(1/8)"
+  },
   "ingredientFor": [
    "aurora-blade",
    "divine-dagger",
@@ -1077,6 +1143,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "godsteed": "(1/8)"
+  },
   "ingredientFor": [
    "friendly-fan"
   ]
@@ -1092,6 +1161,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "freezing-fog": "(1/16)"
+  },
   "ingredientFor": [
    "avalanche-axe",
    "enchanted-stone",
@@ -1112,6 +1184,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "killing-machine": "(1/16)"
+  },
   "ingredientFor": [
    "chainmail-socks",
    "cutting-edge-boomerang",
@@ -1132,6 +1207,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "robo-robin": "(1/16)"
+  },
   "ingredientFor": [
    "densinium",
    "full-plate-armour",
@@ -1175,6 +1253,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "purrestidigitator": "(1/8)"
+  },
   "ingredientFor": [
    "cat-ears",
    "catty-shield",
@@ -1206,6 +1287,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "rampage": "(1/8)"
+  },
   "ingredientFor": [
    "blessed-bottoms",
    "cloak-of-concealment",
@@ -1233,6 +1317,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "bagma": "(1/16)"
+  },
   "ingredientFor": [
    "fire-blade",
    "fire-claws",
@@ -1303,6 +1390,9 @@
   "recipe": {
    "moonwort-bulb": 3
   },
+  "droppedBy": {
+   "prism-peacock": "(1/32)"
+  },
   "ingredientFor": [
    "full-moon-ring",
    "moon-axe",
@@ -1331,6 +1421,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "trigertaur": "(1/8)"
+  },
   "ingredientFor": [
    "fur-hood",
    "fur-poncho",
@@ -1355,6 +1448,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "swinoceros": "(1/8)"
+  },
   "ingredientFor": [
    "beastmaster-claws",
    "cutting-edge-boomerang",
@@ -1385,6 +1481,9 @@
    "nectar": 1,
    "royal-soil": 1
   },
+  "droppedBy": {
+   "jinkster": "(1/32)"
+  },
   "ingredientFor": [
    "lightning-staff",
    "rune-staff",
@@ -1412,6 +1511,9 @@
    "pink-pearl": 1,
    "terrible-tattoo": 2
   },
+  "droppedBy": {
+   "blood-mummy": "(1/128)"
+  },
   "ingredientFor": [
    "archdemon-whip",
    "demon-spear",
@@ -1434,6 +1536,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "walking-corpse": "(1/8)"
+  },
   "ingredientFor": [
    "mystifying-mixture",
    "poison-moth-knife",
@@ -1466,6 +1571,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "slime": "(1/8)"
+  },
   "ingredientFor": [
    "strong-antidote",
    "strong-medicine",
@@ -1487,7 +1595,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday-item",
+  "droppedBy": {
+   "pandora-s-box": "(1/8)"
+  }
  },
  "minstrel-s-manual": {
   "id": "minstrel-s-manual",
@@ -1512,6 +1623,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "mega-moai": "(1/32)"
+  },
   "ingredientFor": [
    "catoptric-armour",
    "mirror-armour",
@@ -1530,6 +1644,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "leafy-larrikin": "(1/8)"
+  },
   "ingredientFor": [
    "lunaria",
    "panacea",
@@ -1579,6 +1696,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "void-droid": "(1/32)"
+  },
   "ingredientFor": [
    "crown-of-clarity",
    "erazor-wing-boomerang",
@@ -1608,6 +1728,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "shivery-shrubbery": "(1/64)"
+  },
   "ingredientFor": [
    "ethereal-stone",
    "fancy-pants",
@@ -1653,6 +1776,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "greygnarl": "(1/20)"
+  },
   "ingredientFor": [
    "erdrick-s-armour",
    "erdrick-s-gauntlets",
@@ -1698,6 +1824,9 @@
    "moonwort-bulb": 1,
    "special-medicine": 1,
    "superior-medicine": 1
+  },
+  "droppedBy": {
+   "blastoad": "(1/64)"
   },
   "ingredientFor": [
    "perfect-panacea",
@@ -1751,6 +1880,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "drackal": "(1/128)"
+  },
   "ingredientFor": [
    "celestial-spear",
    "platinum-headgear",
@@ -1866,6 +1998,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "stone-guardian": "(1/256)"
+  },
   "ingredientFor": [
    "angel-s-bow",
    "angel-s-robe",
@@ -1905,6 +2040,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "handsome-crab": "(1/32)"
+  },
   "ingredientFor": [
    "flame-shield",
    "holy-talisman",
@@ -1926,6 +2064,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "rockbomb": "(1/8)"
+  },
   "ingredientFor": [
    "banefire-boomerang",
    "combusticlaws",
@@ -1947,6 +2088,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "mad-moai": "(1/16)"
+  },
   "ingredientFor": [
    "black-tortoise-fan",
    "elfin-elixir",
@@ -1983,6 +2127,9 @@
    "magic-water": 1,
    "nectar": 3,
    "royal-soil": 1
+  },
+  "droppedBy": {
+   "freezing-fog": "(1/64)"
   },
   "ingredientFor": [
    "blessed-bindings",
@@ -2029,6 +2176,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "seavern": "(1/32)"
+  },
   "ingredientFor": [
    "celestria-s-gown",
    "great-helm",
@@ -2075,6 +2225,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "spinchilla": "(1/16)"
+  },
   "ingredientFor": [
    "feline-fan",
    "hot-bikini-bottoms",
@@ -2152,7 +2305,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday-item",
+  "droppedBy": {
+   "metal-slime": "(1/256)"
+  }
  },
  "seed-of-magic": {
   "id": "seed-of-magic",
@@ -2209,7 +2365,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday-item",
+  "droppedBy": {
+   "brownie": "(1/256)"
+  }
  },
  "seed-of-therapeusis": {
   "id": "seed-of-therapeusis",
@@ -2265,6 +2424,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "ram-raider": "(1/16)"
+  },
   "ingredientFor": [
    "birdsong-nectar",
    "robe-of-sweet-dreams",
@@ -2286,6 +2448,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "slime-stack": "(1/8)"
+  },
   "ingredientFor": [
    "gooey-gear",
    "liquid-metal-armour",
@@ -2332,6 +2497,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "diethon": "(1/8)"
+  },
   "ingredientFor": [
    "cobra-fan",
    "large-scale-armour",
@@ -2355,6 +2523,9 @@
   "recipe": {
    "moonwort-bulb": 1,
    "strong-medicine": 1
+  },
+  "droppedBy": {
+   "man-o--war": "(1/32)"
   },
   "ingredientFor": [
    "aggressence"
@@ -2389,6 +2560,9 @@
   "classification": "everyday-item",
   "recipe": {
    "strong-medicine": 2
+  },
+  "droppedBy": {
+   "great-troll": "(1/32)"
   },
   "ingredientFor": [
    "panacea"
@@ -2436,6 +2610,9 @@
    "antidotal-herb": 1,
    "medicinal-herb": 1
   },
+  "droppedBy": {
+   "peckerel": "(1/16)"
+  },
   "ingredientFor": [
    "special-antidote"
   ]
@@ -2453,6 +2630,9 @@
   "classification": "everyday-item",
   "recipe": {
    "medicinal-herb": 2
+  },
+  "droppedBy": {
+   "zumeanie": "(1/16)"
   },
   "ingredientFor": [
    "softwort",
@@ -2503,6 +2683,9 @@
    "medicinal-herb": 1,
    "strong-medicine": 1
   },
+  "droppedBy": {
+   "treevil": "(1/16)"
+  },
   "ingredientFor": [
    "finessence",
    "panacea"
@@ -2531,6 +2714,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "widow-s-pique": "(1/8)"
+  },
   "ingredientFor": [
    "celestial-skein",
    "silk-buster"
@@ -2640,6 +2826,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "cumulus-rex": "(1/16)"
+  },
   "ingredientFor": [
    "azure-dragon-fan",
    "enchanted-stone",
@@ -2660,6 +2849,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "expload": "(1/8)"
+  },
   "ingredientFor": [
    "hephaestus--flame",
    "tricky-turban"
@@ -2676,6 +2868,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "wyrtle": "(1/8)"
+  },
   "ingredientFor": [
    "shell-shield",
    "tortoise-shell",
@@ -2723,6 +2918,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "drackyma": "(1/8)"
+  },
   "ingredientFor": [
    "demon-whip",
    "king-cobra-claws",
@@ -2803,6 +3001,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "greygnarl": "(100%)"
+  },
   "ingredientFor": [
    "elfin-elixir",
    "yggdrasil-dew"

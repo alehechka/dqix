@@ -709,6 +709,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "droppedBy": {
+   "sluggernaut": "(1/32)"
+  },
   "ingredientFor": [
    "cloak-of-concealment"
   ]
@@ -2503,6 +2506,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "droppedBy": {
+   "charmour": "(1/32)"
+  },
   "ingredientFor": [
    "dragon-mail",
    "enchanted-armour",
@@ -2536,6 +2542,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "droppedBy": {
+   "sorcerer": "(1/32)"
+  },
   "ingredientFor": [
    "enchanted-robes"
   ]
@@ -3811,6 +3820,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "droppedBy": {
+   "mean-spirit": "(1/16)"
+  },
   "ingredientFor": [
    "silk-bustier"
   ]
@@ -3867,6 +3879,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "droppedBy": {
+   "harmour": "(1/64)"
+  },
   "ingredientFor": [
    "gold-mail"
   ]
@@ -3992,7 +4007,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "droppedBy": {
+   "murdaw": "(lv. 9–15: 15%)"
+  }
  },
  "spangled-dress": {
   "id": "spangled-dress",

@@ -75,6 +75,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "sword",
+  "droppedBy": {
+   "axolhotl": "(1/64)"
+  },
   "ingredientFor": [
    "aurora-blade"
   ]
@@ -205,6 +208,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "sword",
+  "droppedBy": {
+   "slionheart": "(1/128)"
+  },
   "ingredientFor": [
    "über-falcon-blade"
   ]
@@ -367,6 +373,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "sword",
+  "droppedBy": {
+   "restless-armour": "(1/64)"
+  },
   "ingredientFor": [
    "platinum-sword",
    "steel-broadsword"
@@ -616,6 +625,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "sword",
+  "droppedBy": {
+   "earthenwarrior": "(1/64)"
+  },
   "ingredientFor": [
    "warrior-s-sword"
   ]
