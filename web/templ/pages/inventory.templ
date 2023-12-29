@@ -5,6 +5,8 @@ import "dqix/web/templ/components/base"
 import "dqix/web/templ/components/links"
 import "strings"
 import "dqix/web/templ/utilities"
+import "strconv"
+import "fmt"
 
 // Inventory Classifications
 
@@ -26,7 +28,7 @@ templ InventoryClassificationContent(class string, inventories []types.Inventory
 		<ul hx-boost="true" hx-target="#page-content" hx-swap="innerHTML">
 			for _, inventory := range inventories {
 				<li>
-					<a href={ fn.Path("inventory", inventory.Type, inventory.Category, inventory.Classification, inventory.ID) }>{ inventory.Title }</a>
+					@links.Link(inventory.Title, fn.Path(inventory.GetPath()), nil)
 				</li>
 			}
 		</ul>
@@ -49,15 +51,108 @@ templ InventoryContentWithSideNav(inventory types.Inventory, getter types.IGetTh
 
 templ InventoryContent(inventory types.Inventory, getter types.IGetThingFromID) {
 	<div>
-		<h1>{ inventory.Title }</h1>
-		if len(inventory.IngredientFor) > 0 {
-			<ul>
-				for _, id := range inventory.IngredientFor {
-					<li class="text-sm text-blue-600 [&>*]:data-[not-found=true]:text-gray-400">
-						@links.ThingLink(id, getter)
-					</li>
+		<h1 id="title" class="text-2xl font-bold">{ inventory.Title }</h1>
+		<hr/>
+		<p id="description" class="pt-4 pb-2">{ inventory.Description }</p>
+		if inventory.Statistics != (types.Statistics{}) {
+			<p id="statistics" class="py-2">
+				if inventory.Statistics.Attack > 0 {
+					<strong>Attack: </strong>{ strconv.Itoa(inventory.Statistics.Attack) }
+					<br/>
 				}
-			</ul>
+				if inventory.Statistics.Defense > 0 {
+					<strong>Defense: </strong>{ strconv.Itoa(inventory.Statistics.Defense) }
+					<br/>
+				}
+				if inventory.Statistics.BlockChance > 0 {
+					<strong>Block Chance: </strong>{ fmt.Sprintf("%.2f%%", inventory.Statistics.BlockChance) }
+					<br/>
+				}
+				if inventory.Statistics.Agility > 0 {
+					<strong>Agility: </strong>{ strconv.Itoa(inventory.Statistics.Agility) }
+					<br/>
+				}
+				if inventory.Statistics.EvasionChance > 0 {
+					<strong>Evasion Chance: </strong>{ fmt.Sprintf("%.2f%%", inventory.Statistics.EvasionChance) }
+					<br/>
+				}
+				if inventory.Statistics.MagicalMight > 0 {
+					<strong>Magical Might: </strong>{ strconv.Itoa(inventory.Statistics.MagicalMight) }
+					<br/>
+				}
+				if inventory.Statistics.MagicalMending > 0 {
+					<strong>Magical Mending: </strong>{ strconv.Itoa(inventory.Statistics.MagicalMending) }
+					<br/>
+				}
+				if inventory.Statistics.MPAbsorptionRate > 0 {
+					<strong>MP Absorption Rate: </strong>{ fmt.Sprintf("%.2f%%", inventory.Statistics.MPAbsorptionRate) }
+					<br/>
+				}
+				if inventory.Statistics.Deftness > 0 {
+					<strong>Deftness: </strong>{ strconv.Itoa(inventory.Statistics.Deftness) }
+					<br/>
+				}
+				if inventory.Statistics.Charm > 0 {
+					<strong>Charm: </strong>{ strconv.Itoa(inventory.Statistics.Charm) }
+					<br/>
+				}
+				if inventory.Statistics.Special != (types.Special{}) {
+					<strong>Special: </strong>
+					<br/>
+					if inventory.Statistics.Special.Effect != "" {
+						<em class="pl-2">Effect: </em> { inventory.Statistics.Special.Effect }
+						<br/>
+					}
+					if inventory.Statistics.Special.Usage != "" {
+						<em class="pl-2">Usage: </em> { inventory.Statistics.Special.Usage }
+						<br/>
+					}
+				}
+			</p>
+		}
+		<p id="information" class="py-2">
+			<strong>Rarity: </strong>{ fmt.Sprintf("%d/5", inventory.Rarity) }
+			<br/>
+			if inventory.BuyPrice > 0 {
+				<strong>Buy price: </strong>{ fmt.Sprintf("%d gold", inventory.BuyPrice) }
+				<br/>
+			}
+			if inventory.SellPrice > 0 {
+				<strong>Sell price: </strong>{ fmt.Sprintf("%d gold", inventory.SellPrice) }
+				<br/>
+			}
+			if len(inventory.Vocations) > 0 {
+				<strong>Used by: </strong>{ strings.Join(inventory.Vocations, ", ") }
+				<br/>
+			}
+			<strong>Classification: </strong>{ inventory.Classification }
+		</p>
+		if len(inventory.DroppedBy) > 0 {
+			<div id="dropped-by" class="py-2">
+				<strong>Dropped by:</strong>
+				<ul class="pl-2">
+					for monster, dropRate := range inventory.DroppedBy {
+						<li>
+							@links.ThingLink(monster, getter)
+							<span>
+								&nbsp;{ dropRate }
+							</span>
+						</li>
+					}
+				</ul>
+			</div>
+		}
+		if len(inventory.IngredientFor) > 0 {
+			<div id="alchemises" class="py-2">
+				<strong>Alchemises:</strong>
+				<ul class="pl-2">
+					for _, id := range inventory.IngredientFor {
+						<li>
+							@links.ThingLink(id, getter)
+						</li>
+					}
+				</ul>
+			</div>
 		}
 	</div>
 }
