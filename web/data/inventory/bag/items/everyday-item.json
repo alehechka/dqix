@@ -1720,9 +1720,10 @@
    "superior-medicine"
   ],
   "requiredFor": [
-   "005-herb-list",
-   "013-all-fired-up",
-   "can-be-used-for:"
+   "005-herb-list"
+  ],
+  "canBeUsedFor": [
+   "013-all-fired-up"
   ]
  },
  "mini-medal": {

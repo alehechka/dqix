@@ -200,5 +200,17 @@ templ InventoryContent(inventory types.Inventory, getter types.IGetThingFromID) 
 				</ul>
 			</div>
 		}
+		if len(inventory.CanBeUsedFor) > 0 {
+			<div id="can-be-used-for" class="py-2">
+				<strong>Can be used for:</strong>
+				<ul class="pl-8 list-disc">
+					for _, id := range inventory.CanBeUsedFor {
+						<li>
+							@links.ThingLink(id, getter)
+						</li>
+					}
+				</ul>
+			</div>
+		}
 	</div>
 }

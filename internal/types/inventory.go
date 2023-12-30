@@ -336,6 +336,9 @@ func (p PageContent) parseFromBase(inventory *Inventory) {
 				if id := TitleToID(p.Text[i]); id != "" {
 					inventory.RequiredFor = append(inventory.RequiredFor, id)
 				}
+				if i+1 < lastIndex && p.Text[i+1] == "Can be used for:" {
+					break
+				}
 			}
 			sort.Strings(inventory.RequiredFor)
 		case "Can be used for:":
