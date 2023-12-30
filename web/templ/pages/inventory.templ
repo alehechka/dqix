@@ -152,6 +152,18 @@ templ InventoryContent(inventory types.Inventory, getter types.IGetThingFromID) 
 				</ul>
 			</div>
 		}
+		if len(inventory.Recipe) > 0 {
+			<div id="recipe" class="py-2">
+				<strong>Recipe: </strong>
+				for index, ingredient := range inventory.RecipeSlice() {
+					if index > 0 {
+						<span>&nbsp;+ </span>
+					}
+					@links.ThingLink(ingredient.ID, getter)
+					<span>&times;{ strconv.Itoa(ingredient.Quantity) }</span>
+				}
+			</div>
+		}
 		if len(inventory.IngredientFor) > 0 {
 			<div id="alchemises" class="py-2">
 				<strong>Alchemises:</strong>

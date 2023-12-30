@@ -153,6 +153,18 @@ func (i Inventory) GetPath() string {
 	return "/" + path.Join("inventory", i.Type, i.Category, i.Classification, i.ID)
 }
 
+type Ingredient struct {
+	ID       string
+	Quantity int
+}
+
+func (i Inventory) RecipeSlice() (ingredients []Ingredient) {
+	for id, quantity := range i.Recipe {
+		ingredients = append(ingredients, Ingredient{ID: id, Quantity: quantity})
+	}
+	return
+}
+
 func (i Inventory) ToDataKey() DataKey {
 	return DataKey{
 		ID:             i.ID,
