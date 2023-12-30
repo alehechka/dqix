@@ -124,6 +124,9 @@
    "softwort": 1,
    "wakerobin": 1
   },
+  "locationsFound": [
+   "Rank 5 (E) blue chest in grotto (10%)"
+  ],
   "droppedBy": {
    "hammibal": "(1/32)"
   },
@@ -148,6 +151,16 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "locationsFound": [
+   "Porth Llaffan (item shop)",
+   "Dourbridge (item shop)",
+   "Bloomingdale (item shop)",
+   "Gleeba (item shop)",
+   "Batsureg (item shop)",
+   "Wormwood Creek (item shop)",
+   "Upover (item shop)",
+   "Rank 2 (H) blue chest in grotto (10%)"
+  ],
   "droppedBy": {
    "chariot-chappie": "(1/32)"
   },
@@ -168,6 +181,22 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "locationsFound": [
+   "Angel Falls (item shop)",
+   "Stornway (item shop)",
+   "Coffinwell (item shop)",
+   "Alltrades Abbey (item shop)",
+   "Port Llaffan (item shop)",
+   "Slurry Quay (item shop)",
+   "Dourbridge (item shop)",
+   "Bloomingdale (item shop)",
+   "Gleeba (item shop)",
+   "Batsureg (item shop)",
+   "Swinedimples Academy (item shop)",
+   "Wormwood Creek (item shop)",
+   "Upover (item shop)",
+   "Rank 1 (I) blue chest in grotto (8%)"
+  ],
   "droppedBy": {
    "bodkin-fletcher": "(1/8)"
   },
@@ -218,6 +247,10 @@
    "flurry-feather": 3,
    "fresh-water": 2
   },
+  "locationsFound": [
+   "Rank 6 (D) blue chest in grotto (10%)",
+   "Rank 9 (A) blue chest in grotto (10%)"
+  ],
   "ingredientFor": [
    "celestria-s-raiment",
    "mega-magical-mace",
@@ -433,6 +466,23 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "locationsFound": [
+   "Angel Falls (item shop)",
+   "Zere (item shop)",
+   "Stornway (item shop)",
+   "Coffinwell (item shop)",
+   "Alltrades Abbey (item shop)",
+   "Porth Llaffan (item shop)",
+   "Slurry Quay (item shop)",
+   "Dourbridge (item shop)",
+   "Bloomingdale (item shop)",
+   "Gleeba (item shop)",
+   "Batsureg (item shop)",
+   "Swinedimples Academy (item shop)",
+   "Wormwood Creek (item shop)",
+   "Upover (item shop)",
+   "Rank 1 (I) blue chest in grotto (10%)"
+  ],
   "droppedBy": {
    "chimaera": "(1/8)"
   },
@@ -477,6 +527,10 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "locationsFound": [
+   "Lonely Coast (item shop)",
+   "Red chest in Tower of Nod (L6)"
+  ],
   "ingredientFor": [
    "agate-of-evolution"
   ]
@@ -504,6 +558,11 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "locationsFound": [
+   "Batsureg (item shop)",
+   "Wormwood Creek (item shop)",
+   "Upover (item shop)"
+  ],
   "droppedBy": {
    "betterfly": "(1/8)"
   },
@@ -606,6 +665,10 @@
    "flintstone": 3,
    "iron-ore": 3
   },
+  "locationsFound": [
+   "Rank 6 (D) blue chest in grotto (6%)",
+   "Rank 7 (C) blue chest in grotto (10%)"
+  ],
   "droppedBy": {
    "wishmaster": "(1/32)"
   },
@@ -635,6 +698,9 @@
    "royal-soil": 3,
    "yggdrasil-leaf": 1
   },
+  "locationsFound": [
+   "Trade with Cap'n Max Meddlin' (after 80 cumulative)"
+  ],
   "droppedBy": {
    "cobra-cardinal": "(1/256)"
   },
@@ -680,6 +746,9 @@
    "mystifying-mixture": 1,
    "thunderball": 2
   },
+  "locationsFound": [
+   "Rank 8 (B) blue chest in grotto (13%)"
+  ],
   "droppedBy": {
    "larstastnaras": "(100%)"
   },
@@ -712,6 +781,9 @@
    "narspicious": 2,
    "perfect-panacea": 1
   },
+  "locationsFound": [
+   "Rank 9 (A) blue chest in grotto (10%)"
+  ],
   "droppedBy": {
    "gadrongo": "(100%)"
   },
@@ -740,7 +812,20 @@
   "buyPrice": 28,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday-item",
+  "locationsFound": [
+   "Stornway (item shop)",
+   "Coffinwell (item shop)",
+   "Porth Llaffan (item shop)",
+   "Slurry Quay (item shop)",
+   "Bloomingdale (item shop)",
+   "Gleeba (item shop)",
+   "Batsureg (item shop)",
+   "Wormwood Creek (item shop)",
+   "Upover (item shop)",
+   "Rank 1 (I) blue chest in grotto (10%)",
+   "Rank 10 (S) blue chest in grotto (10%)"
+  ]
  },
  "evencloth": {
   "id": "evencloth",
@@ -810,6 +895,9 @@
    "slipweed": 1,
    "superior-medicine": 1
   },
+  "locationsFound": [
+   "Rank 5 (E) blue chest in grotto (10%)"
+  ],
   "ingredientFor": [
    "dragon-dress",
    "dragon-top",
@@ -973,6 +1061,11 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "locationsFound": [
+   "Rank 8 (B) blue chest in grotto (15%)",
+   "Rank 9 (A) blue chest in grotto (10%)",
+   "Rank 10 (S) blue chest in grotto (10%)"
+  ],
   "droppedBy": {
    "gem-jamboree": "(1/16)"
   }
@@ -1085,6 +1178,10 @@
    "royal-soil": 1,
    "toad-oil": 1
   },
+  "locationsFound": [
+   "Rank 5 (E) blue chest in grotto (10%)",
+   "Rank 6 (D) blue chest in grotto (15%)"
+  ],
   "droppedBy": {
    "flamin--drayman": "(1/64)"
   },
@@ -1122,6 +1219,21 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "locationsFound": [
+   "Zere (item shop)",
+   "Stornway (item shop)",
+   "Coffinwell (item shop)",
+   "Port Llaffan (item shop)",
+   "Slurry Quay (item shop)",
+   "Dourbridge (item shop)",
+   "Bloomingdale (item shop)",
+   "Gleeba (item shop)",
+   "Batsureg (item shop)",
+   "Swinedimples academy (item shop)",
+   "Wormwood Creek (item shop)",
+   "Upover (item shop)",
+   "Rank 1 (I) blue chest in grotto (10%)"
+  ],
   "droppedBy": {
    "lost-soul": "(1/8)"
   },
@@ -1184,6 +1296,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "locationsFound": [
+   "Rank 2 (H) blue chest in grotto (10%)"
+  ],
   "droppedBy": {
    "killing-machine": "(1/16)"
   },
@@ -1287,6 +1402,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "locationsFound": [
+   "Batsureg (item shop)"
+  ],
   "droppedBy": {
    "rampage": "(1/8)"
   },
@@ -1352,6 +1470,9 @@
    "brighten-rock": 3,
    "evencloth": 3
   },
+  "locationsFound": [
+   "Rank 7 (C) blue chest in grotto (10%)"
+  ],
   "droppedBy": {
    "cosmic-chimaera": "(1/128)"
   },
@@ -1511,6 +1632,9 @@
    "pink-pearl": 1,
    "terrible-tattoo": 2
   },
+  "locationsFound": [
+   "Rank 4 (F) blue chest in grotto (1%)"
+  ],
   "droppedBy": {
    "blood-mummy": "(1/128)"
   },
@@ -1571,6 +1695,22 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "locationsFound": [
+   "Angel Falls (item shop)",
+   "Zere (item shop)",
+   "Stornway (item shop)",
+   "Coffinwell (item shop)",
+   "Alltrades Abbey (item shop)",
+   "Port Llaffan (item shop)",
+   "Slurry Quay (item shop)",
+   "Bloomingdale (item shop)",
+   "Gleeba (item shop)",
+   "Batsureg (item shop)",
+   "Swinedimples Academy (item shop)",
+   "Wormwood Creek (item shop)",
+   "Upover (item shop)",
+   "Rank 1 (I) blue chest in grotto (10%)"
+  ],
   "droppedBy": {
    "slime": "(1/8)"
   },
@@ -1644,6 +1784,20 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "locationsFound": [
+   "Zere (item shop)",
+   "Coffinwell (item shop)",
+   "Port Llaffan (item shop)",
+   "Slurry Quay (item shop)",
+   "Dourbridge (item shop)",
+   "Bloomingdale (item shop)",
+   "Gleeba (item shop)",
+   "Batsureg (item shop)",
+   "Swinedimples Academy (item shop)",
+   "Wormwood Creek (item shop)",
+   "Upover (item shop)",
+   "Rank 1 (I) blue chest in grotto (8%)"
+  ],
   "droppedBy": {
    "leafy-larrikin": "(1/8)"
   },
@@ -1673,6 +1827,9 @@
    "cowpat": 3,
    "manky-mud": 1
   },
+  "locationsFound": [
+   "Rank 6 (D) blue chest in grotto (15%)"
+  ],
   "droppedBy": {
    "mudraker": "(1/128)"
   },
@@ -1776,6 +1933,11 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "locationsFound": [
+   "Trade with Cap'n Max Meddlin' (after 80 cumulative)",
+   "Rank 9 (A) blue chest in grotto (8%)",
+   "Rank 10 (S) blue chest in grotto (5%)"
+  ],
   "droppedBy": {
    "greygnarl": "(1/20)"
   },
@@ -1825,6 +1987,9 @@
    "special-medicine": 1,
    "superior-medicine": 1
   },
+  "locationsFound": [
+   "Rank 5 (E) blue chest in grotto (15%)"
+  ],
   "droppedBy": {
    "blastoad": "(1/64)"
   },
@@ -1864,6 +2029,9 @@
    "panacea": 1,
    "wakerobin": 1
   },
+  "locationsFound": [
+   "Rank 7 (C) blue chest in grotto (6%)"
+  ],
   "ingredientFor": [
    "ethereal-stone"
   ]
@@ -1998,6 +2166,10 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "locationsFound": [
+   "Trade with Cap'n Max Meddlin' (after 80 cumulative)",
+   "Rank 10 (S) blue chest in grotto (10%)"
+  ],
   "droppedBy": {
    "stone-guardian": "(1/256)"
   },
@@ -2064,6 +2236,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "locationsFound": [
+   "Rank 2 (H) blue chest in grotto (8%)"
+  ],
   "droppedBy": {
    "rockbomb": "(1/8)"
   },
@@ -2128,6 +2303,12 @@
    "nectar": 3,
    "royal-soil": 1
   },
+  "locationsFound": [
+   "Rank 7 (C) blue chest in grotto (10%)",
+   "Rank 8 (B) blue chest in grotto (10%)",
+   "Rank 9 (A) blue chest in grotto (10%)",
+   "Rank 10 (S) blue chest in grotto (15%)"
+  ],
   "droppedBy": {
    "freezing-fog": "(1/64)"
   },
@@ -2176,6 +2357,10 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "locationsFound": [
+   "Trade with Cap'n Max Meddlin' (after 80 cumulative)",
+   "Red treasure chest in B1F of The Plumbed Depths (requires Ultimate Key)"
+  ],
   "droppedBy": {
    "seavern": "(1/32)"
   },
@@ -2206,6 +2391,9 @@
    "lucida-shard": 2,
    "sage-s-elixir": 2
   },
+  "locationsFound": [
+   "Rank 10 (S) blue chest in grotto (10%)"
+  ],
   "ingredientFor": [
    "agate-of-evolution",
    "divine-bustier",
@@ -2524,6 +2712,10 @@
    "moonwort-bulb": 1,
    "strong-medicine": 1
   },
+  "locationsFound": [
+   "Bloomingdale (item shop)",
+   "Surry Coast (southern-most point on the beach)"
+  ],
   "droppedBy": {
    "man-o--war": "(1/32)"
   },
@@ -2610,6 +2802,12 @@
    "antidotal-herb": 1,
    "medicinal-herb": 1
   },
+  "locationsFound": [
+   "Gleeba (item shop)",
+   "Wormwood Creek (item shop)",
+   "Upover (item shop)",
+   "Rank 2 (H) blue chest in grotto (10%)"
+  ],
   "droppedBy": {
    "peckerel": "(1/16)"
   },
@@ -2631,6 +2829,12 @@
   "recipe": {
    "medicinal-herb": 2
   },
+  "locationsFound": [
+   "Gleeba (item shop)",
+   "Batsureg (item shop)",
+   "Wormwood Creek (item shop)",
+   "Rank 1 (I) blue chest in grotto (8%)"
+  ],
   "droppedBy": {
    "zumeanie": "(1/16)"
   },
@@ -2683,6 +2887,10 @@
    "medicinal-herb": 1,
    "strong-medicine": 1
   },
+  "locationsFound": [
+   "Bloomingdale (item shop)",
+   "Rank 2 (H) blue chest in grotto (10%)"
+  ],
   "droppedBy": {
    "treevil": "(1/16)"
   },
@@ -2714,6 +2922,11 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "locationsFound": [
+   "Batsureg (item shop)",
+   "Wormwood Creek (item shop)",
+   "Upover (item shop)"
+  ],
   "droppedBy": {
    "widow-s-pique": "(1/8)"
   },

@@ -30,6 +30,9 @@
    "flurry-feather": 2,
    "prayer-ring": 1
   },
+  "locationsFound": [
+   "Rank 3 (G) blue chest in grotto (2%)"
+  ],
   "droppedBy": {
    "whirly-girly": "(1/32)"
   },
@@ -77,6 +80,11 @@
    "butterfly-wing": 2,
    "grubby-bandage": 1
   },
+  "locationsFound": [
+   "Slurry Quay (item shop)",
+   "Dourbridge (item shop)",
+   "Gleeba (item shop)"
+  ],
   "droppedBy": {
    "expload": "(1/64)"
   },
@@ -151,6 +159,11 @@
   "type": "equipment",
   "category": "accessories",
   "classification": "accessory",
+  "locationsFound": [
+   "Zere (item shop)",
+   "Porth Llaffan (item shop)",
+   "Rank 1 (I) blue chest in grotto (2%)"
+  ],
   "ingredientFor": [
    "bunny-ears",
    "ear-cosy"
@@ -442,6 +455,11 @@
   "type": "equipment",
   "category": "accessories",
   "classification": "accessory",
+  "locationsFound": [
+   "Porth Llaffan (item shop)",
+   "Dourbridge (item shop)",
+   "Rank 2 (H) blue chest in grotto (2%)"
+  ],
   "droppedBy": {
    "cannibox": "(1/128)"
   },
@@ -483,6 +501,12 @@
   "type": "equipment",
   "category": "accessories",
   "classification": "accessory",
+  "locationsFound": [
+   "Stornway (item shop)",
+   "Porth Llaffan (item shop)",
+   "Dourbridge (item shop)",
+   "Rank 2 (H) blue chest in grotto (2%)"
+  ],
   "droppedBy": {
    "gold-golem": "(1/32)"
   },
@@ -1011,6 +1035,10 @@
   "type": "equipment",
   "category": "accessories",
   "classification": "accessory",
+  "locationsFound": [
+   "Dourbridge (item shop)",
+   "Gleeba (item shop)"
+  ],
   "droppedBy": {
    "goodybag": "(1/64)"
   },
@@ -1055,6 +1083,9 @@
    "gold-ring": 1,
    "sage-s-elixir": 2
   },
+  "locationsFound": [
+   "Trade with Cap'n Max Meddlin' (after 80 cumulative)"
+  ],
   "droppedBy": {
    "genie-sanguini": "(1/64)"
   },
@@ -1141,6 +1172,9 @@
    "lucky-pendant": 1,
    "malicite": 1
   },
+  "locationsFound": [
+   "Rank 9 (A) blue chest in grotto (10%)"
+  ],
   "ingredientFor": [
    "lucky-pendant"
   ]
@@ -1323,6 +1357,9 @@
    "malicite": 1,
    "sorcerer-s-ring": 1
   },
+  "locationsFound": [
+   "Rank 6 (D) blue chest in grotto (1%)"
+  ],
   "droppedBy": {
    "aggrosculpture": "(1/256)"
   },
@@ -1361,6 +1398,10 @@
    "gold-ring": 1,
    "slimedrop": 1
   },
+  "locationsFound": [
+   "Port Llaffan (item shop)",
+   "Dourbridge (item shop)"
+  ],
   "droppedBy": {
    "slime-stack": "(1/32)"
   },
@@ -1499,6 +1540,9 @@
   "type": "equipment",
   "category": "accessories",
   "classification": "accessory",
+  "locationsFound": [
+   "Rank 4 (F) blue chest in grotto (2%)"
+  ],
   "ingredientFor": [
    "blessed-bottoms",
    "brainy-bracer",
@@ -1571,6 +1615,9 @@
    "aggressence": 1,
    "gold-ring": 1
   },
+  "locationsFound": [
+   "Rank 3 (G) blue chest in grotto (2%)"
+  ],
   "droppedBy": {
    "gigantes": "(1/64)"
   },

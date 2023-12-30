@@ -17,6 +17,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "claw",
+  "locationsFound": [
+   "Rank 8 (B) blue chest in grotto (1%)"
+  ],
   "droppedBy": {
    "vermil-lion": "(1/128)"
   },
@@ -71,6 +74,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "claw",
+  "locationsFound": [
+   "Stornway (weapon shop)"
+  ],
   "droppedBy": {
    "hammer-horror": "(1/128)"
   },
@@ -122,6 +128,10 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "claw",
+  "locationsFound": [
+   "Bloomingdale (weapon shop)",
+   "Gleeba (weapon shop)"
+  ],
   "droppedBy": {
    "icikiller": "(1/64)"
   },
@@ -146,6 +156,10 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "claw",
+  "locationsFound": [
+   "Wormwood Creek (weapon shop)",
+   "Upover (weapon shop)"
+  ],
   "droppedBy": {
    "drakulord": "(1/64)"
   },
@@ -175,6 +189,9 @@
    "dragovian-lord-claws": 1,
    "reset-stone": 1
   },
+  "locationsFound": [
+   "Rank 10 (S) blue chest in grotto (1%)"
+  ],
   "ingredientFor": [
    "dragovian-claws"
   ]
@@ -257,6 +274,9 @@
    "lava-lump": 3,
    "rockbomb-shard": 1
   },
+  "locationsFound": [
+   "Upover (weapon shop)"
+  ],
   "droppedBy": {
    "nemean": "(steal: 1/128; drop: 10%)"
   },
@@ -332,6 +352,11 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "claw",
+  "locationsFound": [
+   "Gleeba (weapon shop)",
+   "Batsureg (weapon shop)",
+   "Wormwood Creek (weapon shop)"
+  ],
   "droppedBy": {
    "corrupt-carter": "(1/64)"
   },
@@ -356,6 +381,10 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "claw",
+  "locationsFound": [
+   "Stornway (weapon shop)",
+   "Coffinwell (weapon shop)"
+  ],
   "droppedBy": {
    "bewarewolf": "(1/64)"
   },
@@ -451,6 +480,10 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "claw",
+  "locationsFound": [
+   "Coffinwell (weapon shop)",
+   "Alltrades Abbey (item shop)"
+  ],
   "droppedBy": {
    "riptide": "(1/64)"
   }
@@ -478,6 +511,10 @@
    "holy-talisman": 1,
    "iron-claws": 1
   },
+  "locationsFound": [
+   "Dourbridge (weapon/armour shop)",
+   "Bloomingdale (weapon shop)"
+  ],
   "droppedBy": {
    "scarewolf": "(1/64)"
   }
@@ -523,7 +560,10 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "claw"
+  "classification": "claw",
+  "locationsFound": [
+   "Stornway (weapon shop)"
+  ]
  },
  "xenlon-claws": {
   "id": "xenlon-claws",

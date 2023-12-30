@@ -130,7 +130,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "locationsFound": [
+   "Upover (armour shop)"
+  ]
  },
  "black-knickers": {
   "id": "black-knickers",
@@ -158,7 +161,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "locationsFound": [
+   "Swinedimples Academy (item shop)"
+  ]
  },
  "blessed-bottoms": {
   "id": "blessed-bottoms",
@@ -208,7 +214,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "locationsFound": [
+   "Dourbridge (weapon/armour shop)"
+  ]
  },
  "blue-knickers": {
   "id": "blue-knickers",
@@ -236,7 +245,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "locationsFound": [
+   "Zere (item shop)"
+  ]
  },
  "blue-skirt": {
   "id": "blue-skirt",
@@ -265,7 +277,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "locationsFound": [
+   "Batsureg (armour shop)"
+  ]
  },
  "boomer-briefs": {
   "id": "boomer-briefs",
@@ -300,6 +315,10 @@
    "boomerang": 1,
    "boxer-shorts": 1
   },
+  "locationsFound": [
+   "Porth Llaffan (weapon/armor shop)",
+   "Slurry Quay (item shop)"
+  ],
   "droppedBy": {
    "toxic-zombie": "(1/64)"
   },
@@ -334,6 +353,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "legs",
+  "locationsFound": [
+   "Angel Falls (item shop)"
+  ],
   "droppedBy": {
    "sacksquatch": "(1/64)"
   },
@@ -445,7 +467,10 @@
    "chain-mail": 2,
    "iron-nails": 2,
    "pop-socks": 1
-  }
+  },
+  "locationsFound": [
+   "Batsureg (armour shop)"
+  ]
  },
  "combat-trousers": {
   "id": "combat-trousers",
@@ -462,7 +487,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "locationsFound": [
+   "Stornway (armour shop)"
+  ]
  },
  "cor-blimey-trousers": {
   "id": "cor-blimey-trousers",
@@ -518,6 +546,10 @@
   "type": "equipment",
   "category": "armor",
   "classification": "legs",
+  "locationsFound": [
+   "Angel Falls (item shop)",
+   "Stornway (armour shop)"
+  ],
   "droppedBy": {
    "winkster": "(1/32)"
   }
@@ -549,6 +581,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "legs",
+  "locationsFound": [
+   "Dourbridge (secret shop)"
+  ],
   "ingredientFor": [
    "hot-bikini-bottoms"
   ]
@@ -579,7 +614,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "locationsFound": [
+   "Dourbridge (weapon/armour shop)"
+  ]
  },
  "dragon-trousers": {
   "id": "dragon-trousers",
@@ -604,6 +642,9 @@
    "finessence": 2,
    "tussler-s-trousers": 1
   },
+  "locationsFound": [
+   "Wormwood Creek (armour shop)"
+  ],
   "ingredientFor": [
    "tantric-trousers"
   ]
@@ -747,7 +788,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "locationsFound": [
+   "Batsureg (armour shop)"
+  ]
  },
  "fishnet-stockings": {
   "id": "fishnet-stockings",
@@ -776,6 +820,10 @@
   "type": "equipment",
   "category": "armor",
   "classification": "legs",
+  "locationsFound": [
+   "Slurry Quay (item shop)",
+   "Dourbridge (secret shop)"
+  ],
   "ingredientFor": [
    "stiletto-heels"
   ]
@@ -871,6 +919,9 @@
    "emerald-moss": 4,
    "pop-socks": 1
   },
+  "locationsFound": [
+   "Batsureg (armour shop)"
+  ],
   "ingredientFor": [
    "012-putting-on-the-glitz",
    "can-be-used-for:",
@@ -1088,6 +1139,10 @@
   "type": "equipment",
   "category": "armor",
   "classification": "legs",
+  "locationsFound": [
+   "Coffinwell (armour shop)",
+   "Alltrades Abbey (item shop)"
+  ],
   "ingredientFor": [
    "012-putting-on-the-glitz",
    "can-be-used-for:",
@@ -1148,7 +1203,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "locationsFound": [
+   "Wormwood Creek (armour shop)"
+  ]
  },
  "leather-kilt": {
   "id": "leather-kilt",
@@ -1181,6 +1239,10 @@
    "boxer-shorts": 1,
    "magic-beast-hide": 1
   },
+  "locationsFound": [
+   "Zere (item shop)",
+   "Coffinwell (armour shop)"
+  ],
   "droppedBy": {
    "brownie": "(1/32)"
   },
@@ -1206,6 +1268,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "legs",
+  "locationsFound": [
+   "Bloomingdale (armour shop)"
+  ],
   "ingredientFor": [
    "012-putting-on-the-glitz",
    "can-be-used-for:",
@@ -1241,7 +1306,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "locationsFound": [
+   "Swinedimples Academy (item shop)"
+  ]
  },
  "maya-s-bottoms": {
   "id": "maya-s-bottoms",
@@ -1343,7 +1411,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "locationsFound": [
+   "Gleeba (armour shop)"
+  ]
  },
  "pirate-pantaloons": {
   "id": "pirate-pantaloons",
@@ -1399,6 +1470,11 @@
   "type": "equipment",
   "category": "armor",
   "classification": "legs",
+  "locationsFound": [
+   "Porth Llaffan (weapon/armour shop)",
+   "Dourbridge (secret shop)",
+   "Rank 1 (I) blue chest in grotto (2%)"
+  ],
   "ingredientFor": [
    "chainmail-socks",
    "green-tights",
@@ -1433,7 +1509,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "locationsFound": [
+   "Coffinwell (armour shop)"
+  ]
  },
  "red-tights": {
   "id": "red-tights",
@@ -1468,6 +1547,9 @@
    "crimson-coral": 4,
    "pop-socks": 1
   },
+  "locationsFound": [
+   "Gleeba (armour shop)"
+  ],
   "droppedBy": {
    "belisha-beakon": "(1/128)"
   },
@@ -1532,7 +1614,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "locationsFound": [
+   "Upover (armour shop)"
+  ]
  },
  "sizzling-bikini-bottoms": {
   "id": "sizzling-bikini-bottoms",
@@ -1641,6 +1726,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "legs",
+  "locationsFound": [
+   "Bloomingdale (armour shop)"
+  ],
   "canBeUsedFor": [
    "012-putting-on-the-glitz"
   ]
@@ -1691,7 +1779,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "locationsFound": [
+   "Wormwood Creek (armour shop)"
+  ]
  },
  "springtime-skirt": {
   "id": "springtime-skirt",
@@ -1720,7 +1811,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "locationsFound": [
+   "Alltrades Abbey (item shop)"
+  ]
  },
  "steel-kneecaps": {
   "id": "steel-kneecaps",
@@ -1797,7 +1891,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "locationsFound": [
+   "Batsureg (armour shop)"
+  ]
  },
  "sturdy-slacks": {
   "id": "sturdy-slacks",
@@ -1828,6 +1925,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "legs",
+  "locationsFound": [
+   "Dourbridge (secret shop)"
+  ],
   "ingredientFor": [
    "impregnable-leggings"
   ]
@@ -1858,7 +1958,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "locationsFound": [
+   "Swinedimples Academy (item shop)"
+  ]
  },
  "swinedimples-slacks": {
   "id": "swinedimples-slacks",
@@ -1886,7 +1989,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "locationsFound": [
+   "Swinedimples Academy (item shop)"
+  ]
  },
  "swordsman-s-slacks": {
   "id": "swordsman-s-slacks",
@@ -1905,7 +2011,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "locationsFound": [
+   "Gleeba (armour shop)"
+  ]
  },
  "tantric-trousers": {
   "id": "tantric-trousers",
@@ -2009,7 +2118,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "locationsFound": [
+   "Rank 5 (E) blue chest in grotto (1%)"
+  ]
  },
  "tracky-bottoms": {
   "id": "tracky-bottoms",
@@ -2052,6 +2164,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "legs",
+  "locationsFound": [
+   "Stornway (armour shop)"
+  ],
   "ingredientFor": [
    "tracky-bottoms"
   ]
@@ -2108,7 +2223,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "locationsFound": [
+   "Rank 7 (C) blue chest in grotto (1%)"
+  ]
  },
  "trodain-trousers": {
   "id": "trodain-trousers",
@@ -2161,6 +2279,9 @@
    "magic-beast-hide": 2,
    "tracky-bottoms": 1
   },
+  "locationsFound": [
+   "Bloomingdale (armour shop)"
+  ],
   "ingredientFor": [
    "dragon-trousers"
   ]
@@ -2180,7 +2301,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "locationsFound": [
+   "Bloomingdale (armour shop)"
+  ]
  },
  "white-tights": {
   "id": "white-tights",
@@ -2215,6 +2339,9 @@
    "pop-socks": 1,
    "seashell": 4
   },
+  "locationsFound": [
+   "Swinedimples Academy (item shop)"
+  ],
   "droppedBy": {
    "nemean": "(steal only: 1/32)"
   },
@@ -2267,6 +2394,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "legs",
+  "locationsFound": [
+   "Gleeba (armour shop)"
+  ],
   "ingredientFor": [
    "blessed-bottoms"
   ]

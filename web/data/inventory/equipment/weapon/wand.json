@@ -55,6 +55,9 @@
    "brilliant-staff": 1,
    "reset-stone": 1
   },
+  "locationsFound": [
+   "Rank 10 (S) blue chest in grotto (1%)"
+  ],
   "ingredientFor": [
    "shining-staff"
   ]
@@ -110,7 +113,10 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "wand"
+  "classification": "wand",
+  "locationsFound": [
+   "Rank 5 (E) blue chest in grotto (1%)"
+  ]
  },
  "faerie-staff": {
   "id": "faerie-staff",
@@ -215,6 +221,10 @@
    "stolos--staff": 1,
    "thunderball": 3
   },
+  "locationsFound": [
+   "Gleeba (weapon shop)",
+   "Batsureg (weapon shop)"
+  ],
   "droppedBy": {
    "cumulus-rex": "(1/128)"
   },
@@ -245,6 +255,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "wand",
+  "locationsFound": [
+   "Upover (weapon shop)"
+  ],
   "ingredientFor": [
    "mega-magical-mace"
   ]
@@ -277,6 +290,9 @@
    "rockbomb-shard": 3,
    "stolos--staff": 1
   },
+  "locationsFound": [
+   "Swinedimples Academy (item shop)"
+  ],
   "droppedBy": {
    "live-lava": "(1/128)"
   }
@@ -304,6 +320,10 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "wand",
+  "locationsFound": [
+   "Stornway (weapon shop)",
+   "Coffinwell (weapon shop)"
+  ],
   "droppedBy": {
    "meowgician": "(1/16)"
   }
@@ -335,6 +355,9 @@
    "ruby-of-protection": 1,
    "stolos--staff": 1
   },
+  "locationsFound": [
+   "Wormwood Creek (weapon shop)"
+  ],
   "ingredientFor": [
    "hieroglyph-staff"
   ]
@@ -363,6 +386,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "wand",
+  "locationsFound": [
+   "Stornway (weapon shop)"
+  ],
   "ingredientFor": [
    "savant-s-staff"
   ]
@@ -516,6 +542,10 @@
    "magic-water": 1,
    "wizard-s-staff": 1
   },
+  "locationsFound": [
+   "Coffinwell (weapon shop)",
+   "Alltrades Abbey (item shop)"
+  ],
   "droppedBy": {
    "clawcerer": "(1/128)"
   },
@@ -546,6 +576,10 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "wand",
+  "locationsFound": [
+   "Dourbridge (weapon/armor shop)",
+   "Bloomingdale (weapon shop)"
+  ],
   "droppedBy": {
    "purrestidigitator": "(1/256)"
   },
@@ -612,6 +646,10 @@
    "seashell": 3,
    "stolos--staff": 1
   },
+  "locationsFound": [
+   "Bloomingdale (weapon shop)",
+   "Gleeba (weapon shop)"
+  ],
   "droppedBy": {
    "python-priest": "(1/64)"
   },
@@ -640,6 +678,10 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "wand",
+  "locationsFound": [
+   "Stornway (weapon shop)",
+   "Coffinwell (weapon shop)"
+  ],
   "droppedBy": {
    "magus": "(1/64)"
   },
@@ -668,6 +710,9 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "wand"
+  "classification": "wand",
+  "locationsFound": [
+   "Rank 8 (B) blue chest in grotto (1%)"
+  ]
  }
 }

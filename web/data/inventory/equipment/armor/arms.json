@@ -164,6 +164,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "arms",
+  "locationsFound": [
+   "Batsureg (armour shop)"
+  ],
   "ingredientFor": [
    "hotshot-bow"
   ]
@@ -220,7 +223,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "arms"
+  "classification": "arms",
+  "locationsFound": [
+   "Upover (armour shop)"
+  ]
  },
  "bianca-s-bracelets": {
   "id": "bianca-s-bracelets",
@@ -315,6 +321,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "arms",
+  "locationsFound": [
+   "Wormwood Creek (armour shop)"
+  ],
   "ingredientFor": [
    "blessed-bindings"
   ]
@@ -400,6 +409,10 @@
   "type": "equipment",
   "category": "armor",
   "classification": "arms",
+  "locationsFound": [
+   "Angel Falls (item shop)",
+   "Stornway (armour shop)"
+  ],
   "droppedBy": {
    "skeleton": "(1/32)"
   },
@@ -431,7 +444,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "arms"
+  "classification": "arms",
+  "locationsFound": [
+   "Stornway (armour shop)"
+  ]
  },
  "diana-gauntlets": {
   "id": "diana-gauntlets",
@@ -653,7 +669,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "arms"
+  "classification": "arms",
+  "locationsFound": [
+   "Batsureg (armour shop)"
+  ]
  },
  "fingerless-gauntlets": {
   "id": "fingerless-gauntlets",
@@ -670,7 +689,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "arms"
+  "classification": "arms",
+  "locationsFound": [
+   "Gleeba (armour shop)"
+  ]
  },
  "fingerless-gloves": {
   "id": "fingerless-gloves",
@@ -686,7 +708,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "arms"
+  "classification": "arms",
+  "locationsFound": [
+   "Rank 6 (D) blue chest in grotto (1%)"
+  ]
  },
  "gigasteel-gauntlets": {
   "id": "gigasteel-gauntlets",
@@ -730,7 +755,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "arms"
+  "classification": "arms",
+  "locationsFound": [
+   "Upover (armour shop)"
+  ]
  },
  "gloomy-gloves": {
   "id": "gloomy-gloves",
@@ -813,7 +841,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "arms"
+  "classification": "arms",
+  "locationsFound": [
+   "Gleeba (armour shop)"
+  ]
  },
  "gothan-wristbands": {
   "id": "gothan-wristbands",
@@ -978,6 +1009,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "arms",
+  "locationsFound": [
+   "Dourbridge (secret shop)"
+  ],
   "droppedBy": {
    "hammer-horror": "(1/32)"
   }
@@ -1004,6 +1038,10 @@
   "type": "equipment",
   "category": "armor",
   "classification": "arms",
+  "locationsFound": [
+   "Coffinwell (armour shop)",
+   "Porth Llaffan (weapon/armour shop)"
+  ],
   "droppedBy": {
    "wight-knight": "(100%)"
   },
@@ -1065,6 +1103,11 @@
   "type": "equipment",
   "category": "armor",
   "classification": "arms",
+  "locationsFound": [
+   "Zere (item shop)",
+   "Stornway (armour shop)",
+   "Coffinwell (armour shop)"
+  ],
   "droppedBy": {
    "bodkin-fletcher": "(1/64)"
   }
@@ -1099,7 +1142,10 @@
   "recipe": {
    "cotton-gloves": 1,
    "magic-beast-hide": 1
-  }
+  },
+  "locationsFound": [
+   "Coffinwell (armour shop)"
+  ]
  },
  "light-gauntlets": {
   "id": "light-gauntlets",
@@ -1122,6 +1168,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "arms",
+  "locationsFound": [
+   "Upover (armour shop)"
+  ],
   "ingredientFor": [
    "sturdy-gauntlets"
   ]
@@ -1153,6 +1202,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "arms",
+  "locationsFound": [
+   "Zere (item shop)"
+  ],
   "droppedBy": {
    "ragged-reaper": "(1/32)"
   }
@@ -1203,7 +1255,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "arms"
+  "classification": "arms",
+  "locationsFound": [
+   "Dourbridge (weapon/armour shop)"
+  ]
  },
  "magic-mittens": {
   "id": "magic-mittens",
@@ -1233,6 +1288,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "arms",
+  "locationsFound": [
+   "Gleeba (armour shop)"
+  ],
   "ingredientFor": [
    "012-putting-on-the-glitz",
    "can-be-used-for:",
@@ -1332,7 +1390,10 @@
    "mental-mittens": 1,
    "mercury-s-bandana": 1,
    "slipweed": 4
-  }
+  },
+  "locationsFound": [
+   "Rank 7 (C) blue chest in grotto (1%)"
+  ]
  },
  "maya-s-bracelets": {
   "id": "maya-s-bracelets",
@@ -1386,6 +1447,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "arms",
+  "locationsFound": [
+   "Upover (armour shop)"
+  ],
   "ingredientFor": [
    "012-putting-on-the-glitz",
    "can-be-used-for:",
@@ -1462,6 +1526,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "arms",
+  "locationsFound": [
+   "Wormwood Creek (armour shop)"
+  ],
   "ingredientFor": [
    "matador-s-gloves"
   ]
@@ -1516,6 +1583,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "arms",
+  "locationsFound": [
+   "Rank 9 (A) blue chest in grotto (1%)"
+  ],
   "ingredientFor": [
    "liquid-metal-slime-gloves"
   ]
@@ -1535,7 +1605,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "arms"
+  "classification": "arms",
+  "locationsFound": [
+   "Wormwood Creek (armour shop)"
+  ]
  },
  "midenhall-gloves": {
   "id": "midenhall-gloves",
@@ -1721,7 +1794,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "arms"
+  "classification": "arms",
+  "locationsFound": [
+   "Rank 6 (D) blue chest in grotto (1%)"
+  ]
  },
  "rubber-gloves": {
   "id": "rubber-gloves",
@@ -1751,7 +1827,11 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "arms"
+  "classification": "arms",
+  "locationsFound": [
+   "Porth Llaffan (weapon/armour shop)",
+   "Slurry Quay (item shop)"
+  ]
  },
  "rusty-gauntlets": {
   "id": "rusty-gauntlets",
@@ -1803,6 +1883,10 @@
   "type": "equipment",
   "category": "armor",
   "classification": "arms",
+  "locationsFound": [
+   "Slurry Quay (item shop)",
+   "Rank 1 (I) blue chest in grotto (2%)"
+  ],
   "droppedBy": {
    "giddy-gastropog": "(1/64)"
   },
@@ -2003,7 +2087,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "arms"
+  "classification": "arms",
+  "locationsFound": [
+   "Rank 6 (D) blue chest in grotto (1%)"
+  ]
  },
  "warrior-s-gloves": {
   "id": "warrior-s-gloves",
@@ -2021,7 +2108,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "arms"
+  "classification": "arms",
+  "locationsFound": [
+   "Bloomingdale (armour shop)"
+  ]
  },
  "wayfarer-s-gloves": {
   "id": "wayfarer-s-gloves",
@@ -2049,7 +2139,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "arms"
+  "classification": "arms",
+  "locationsFound": [
+   "Dourbridge (weapon/armour shop)"
+  ]
  },
  "zenithian-gauntlets": {
   "id": "zenithian-gauntlets",

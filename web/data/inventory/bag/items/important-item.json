@@ -834,7 +834,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important-item",
+  "locationsFound": [
+   "Reward for 4 mini medals (cumulative)"
+  ]
  },
  "tinny-tail-feather": {
   "id": "tinny-tail-feather",

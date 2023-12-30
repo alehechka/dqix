@@ -49,6 +49,10 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "sword",
+  "locationsFound": [
+   "Gleeba (weapon shop)",
+   "Batsureg (weapon shop)"
+  ],
   "droppedBy": {
    "mandrake-marauder": "(1/128)"
   }
@@ -75,6 +79,10 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "sword",
+  "locationsFound": [
+   "Dourbridge (weapon/armour shop)",
+   "Bloomingdale (weapon shop)"
+  ],
   "droppedBy": {
    "axolhotl": "(1/64)"
   },
@@ -102,6 +110,10 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "sword",
+  "locationsFound": [
+   "Angel Falls (item shop)",
+   "Stornway (weapon shop)"
+  ],
   "droppedBy": {
    "skeleton": "(1/128)"
   }
@@ -154,6 +166,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "sword",
+  "locationsFound": [
+   "Wormwood Creek (weapon shop)"
+  ],
   "droppedBy": {
    "mandrake-marshal": "(1/128)"
   },
@@ -208,6 +223,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "sword",
+  "locationsFound": [
+   "Stornway (weapon shop)"
+  ],
   "droppedBy": {
    "slionheart": "(1/128)"
   },
@@ -242,6 +260,9 @@
    "rockbomb-shard": 1,
    "valkyrie-sword": 1
   },
+  "locationsFound": [
+   "Upover (weapon shop)"
+  ],
   "droppedBy": {
    "scarlet-fever": "(1/128)"
   },
@@ -373,6 +394,10 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "sword",
+  "locationsFound": [
+   "Coffinwell (weapon shop)",
+   "Alltrades Abbey (item shop)"
+  ],
   "droppedBy": {
    "restless-armour": "(1/64)"
   },
@@ -459,6 +484,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "sword",
+  "locationsFound": [
+   "Rank 9 (A) blue chest in grotto (1%)"
+  ],
   "ingredientFor": [
    "liquid-metal-sword"
   ]
@@ -484,6 +512,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "sword",
+  "locationsFound": [
+   "Reward for 32 mini medals (cumulative)"
+  ],
   "droppedBy": {
    "shogum": "(1/20)"
   },
@@ -547,6 +578,10 @@
    "iron-broadsword": 1,
    "platinum-ore": 1
   },
+  "locationsFound": [
+   "Bloomingdale (weapon shop)",
+   "Gleeba (weapon shop)"
+  ],
   "droppedBy": {
    "skeleton-soldier": "(1/64)"
   },
@@ -574,6 +609,10 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "sword",
+  "locationsFound": [
+   "Stornway (weapon shop)",
+   "Coffinwell (weapon shop)"
+  ],
   "ingredientFor": [
    "012-putting-on-the-glitz",
    "can-be-used-for:",
@@ -601,6 +640,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "sword",
+  "locationsFound": [
+   "Red chest in Realm of the Mighty (L9)"
+  ],
   "ingredientFor": [
    "erdrick-s-sword"
   ]
@@ -625,6 +667,10 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "sword",
+  "locationsFound": [
+   "Angel Falls (item shop)",
+   "Stornway (weapon shop)"
+  ],
   "droppedBy": {
    "earthenwarrior": "(1/64)"
   },
@@ -657,6 +703,9 @@
    "reset-stone": 1,
    "supernova-sword": 1
   },
+  "locationsFound": [
+   "Rank 10 (S) blue chest in grotto (1%)"
+  ],
   "ingredientFor": [
    "nebula-sword"
   ]
@@ -737,6 +786,10 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "sword",
+  "locationsFound": [
+   "Batsureg (weapon shop)",
+   "Wormwood Creek (weapon shop)"
+  ],
   "droppedBy": {
    "prime-slime": "(1/64)"
   },

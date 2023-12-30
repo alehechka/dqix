@@ -228,7 +228,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "Batsureg (armour shop)"
+  ]
  },
  "bianca-s-braid": {
   "id": "bianca-s-braid",
@@ -382,7 +385,10 @@
   "recipe": {
    "bunny-tail": 2,
    "hairband": 1
-  }
+  },
+  "locationsFound": [
+   "Dourbridge (secret shop)"
+  ]
  },
  "cannock-helm": {
   "id": "cannock-helm",
@@ -433,7 +439,10 @@
   "recipe": {
    "brainy-bracer": 2,
    "feathered-cap": 1
-  }
+  },
+  "locationsFound": [
+   "Stornway (armour shop)"
+  ]
  },
  "carver-s-hair": {
   "id": "carver-s-hair",
@@ -495,6 +504,10 @@
    "hairband": 1,
    "kitty-litter": 2
   },
+  "locationsFound": [
+   "Dourbridge (secret shop)",
+   "Bloomingdale (armour shop)"
+  ],
   "requiredFor": [
    "016-help-meowt-here!"
   ]
@@ -515,7 +528,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "Wormwood Creek (armour shop)"
+  ]
  },
  "circlet": {
   "id": "circlet",
@@ -540,6 +556,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "head",
+  "locationsFound": [
+   "Bloomingdale (armour shop)"
+  ],
   "ingredientFor": [
    "gold-circlet",
    "malleable-mask"
@@ -614,6 +633,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "head",
+  "locationsFound": [
+   "Gleeba (armour shop)"
+  ],
   "ingredientFor": [
    "dread-dagger"
   ]
@@ -669,7 +691,10 @@
    "bunny-tail": 1,
    "fur-hood": 1,
    "lambswool": 1
-  }
+  },
+  "locationsFound": [
+   "Batsureg (armour shop)"
+  ]
  },
  "erdrick-s-helmet": {
   "id": "erdrick-s-helmet",
@@ -783,6 +808,9 @@
    "flurry-feather": 2,
    "hairband": 1
   },
+  "locationsFound": [
+   "Bloomingdale (armour shop)"
+  ],
   "ingredientFor": [
    "012-putting-on-the-glitz",
    "can-be-used-for:",
@@ -909,6 +937,9 @@
    "leather-hat": 1,
    "magic-beast-hide": 1
   },
+  "locationsFound": [
+   "Slurry Quay (item shop)"
+  ],
   "ingredientFor": [
    "ear-cosy"
   ]
@@ -1088,6 +1119,9 @@
    "great-helm": 1,
    "malicite": 1
   },
+  "locationsFound": [
+   "Rank 6 (D) blue chest in grotto (1%)"
+  ],
   "droppedBy": {
    "hell-s-gatekeeper": "(1/64)"
   },
@@ -1246,6 +1280,10 @@
   "type": "equipment",
   "category": "armor",
   "classification": "head",
+  "locationsFound": [
+   "Zere (item shop)",
+   "Coffinwell (armour shop)"
+  ],
   "droppedBy": {
    "teaky-mask": "(1/16)"
   }
@@ -1295,7 +1333,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "Wormwood Creek (armour shop)"
+  ]
  },
  "hocus-hat": {
   "id": "hocus-hat",
@@ -1315,7 +1356,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "Batsureg (armour shop)"
+  ]
  },
  "holy-hat": {
   "id": "holy-hat",
@@ -1335,7 +1379,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "Gleeba (armour shop)"
+  ]
  },
  "hunter-s-hat": {
   "id": "hunter-s-hat",
@@ -1358,6 +1405,9 @@
    "magic-beast-hide": 1,
    "pointy-hat": 1
   },
+  "locationsFound": [
+   "Batsureg (armour shop)"
+  ],
   "ingredientFor": [
    "hotshot-bow"
   ]
@@ -1385,6 +1435,11 @@
   "type": "equipment",
   "category": "armor",
   "classification": "head",
+  "locationsFound": [
+   "Alltrades Abbey (item shop)",
+   "Porth Llaffan (weapon/armour shop)",
+   "Dourbridge (weapon/armour shop)"
+  ],
   "droppedBy": {
    "axolhotl": "(1/32)"
   },
@@ -1410,6 +1465,10 @@
   "type": "equipment",
   "category": "armor",
   "classification": "head",
+  "locationsFound": [
+   "Bloomingdale (armour shop)",
+   "Rank 2 (H) blue chest in grotto (2%)"
+  ],
   "droppedBy": {
    "deadcurion": "(1/64)"
   },
@@ -1591,6 +1650,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "head",
+  "locationsFound": [
+   "Upover (armour shop)"
+  ],
   "ingredientFor": [
    "mega-magical-hat"
   ]
@@ -1642,6 +1704,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "head",
+  "locationsFound": [
+   "Batsureg (armour shop)"
+  ],
   "ingredientFor": [
    "mythril-coif"
   ]
@@ -1876,6 +1941,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "head",
+  "locationsFound": [
+   "Rank 9 (A) blue chest in grotto (1%)"
+  ],
   "ingredientFor": [
    "liquid-metal-helm"
   ]
@@ -1957,7 +2025,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "Stornway (armour shop)"
+  ]
  },
  "minotaur-helm": {
   "id": "minotaur-helm",
@@ -2113,7 +2184,10 @@
    "feather-headband": 1,
    "feathered-cap": 1,
    "magic-beast-hide": 3
-  }
+  },
+  "locationsFound": [
+   "Gleeba (armour shop)"
+  ]
  },
  "mythril-coif": {
   "id": "mythril-coif",
@@ -2159,7 +2233,10 @@
   "recipe": {
    "mythril-ore": 3,
    "platinum-headgear": 1
-  }
+  },
+  "locationsFound": [
+   "Upover (armour shop)"
+  ]
  },
  "nera-s-hair": {
   "id": "nera-s-hair",
@@ -2286,6 +2363,9 @@
    "iron-mask": 1,
    "platinum-ore": 1
   },
+  "locationsFound": [
+   "Gleeba (armour shop)"
+  ],
   "droppedBy": {
    "shogum": "(steal only)"
   },
@@ -2328,6 +2408,9 @@
    "leather-hat": 1,
    "magic-beast-horn": 1
   },
+  "locationsFound": [
+   "Slurry Quay (item shop)"
+  ],
   "droppedBy": {
    "jinkster": "(1/64)"
   },
@@ -2418,6 +2501,9 @@
    "magic-beast-horn": 2,
    "tough-guy-tattoo": 1
   },
+  "locationsFound": [
+   "Wormwood Creek (armour shop)"
+  ],
   "droppedBy": {
    "barbatos": "(1/128)"
   },
@@ -2469,7 +2555,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "Stornway (armour shop)"
+  ]
  },
  "red-afro": {
   "id": "red-afro",
@@ -2520,6 +2609,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "head",
+  "locationsFound": [
+   "Reward for 62 mini medals (cumulative)"
+  ],
   "ingredientFor": [
    "erdrick-s-helmet"
   ]
@@ -2698,6 +2790,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "head",
+  "locationsFound": [
+   "Porth Llaffan (weapon/armour shop)"
+  ],
   "ingredientFor": [
    "filigree-mask",
    "golden-tiara"
@@ -2759,6 +2854,9 @@
    "apollo-s-crown": 1,
    "malicite": 1
   },
+  "locationsFound": [
+   "Rank 7 (C) blue chest in grotto (1%)"
+  ],
   "droppedBy": {
    "blight-knight": "(1/64)"
   },
@@ -3026,7 +3124,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "Upover (armour shop)"
+  ]
  },
  "stellar-starflower": {
   "id": "stellar-starflower",
@@ -3236,6 +3337,9 @@
    "evencloth": 2,
    "turban": 1
   },
+  "locationsFound": [
+   "Dourbridge (weapon/armour shop)"
+  ],
   "droppedBy": {
    "raving-reaper": "(1/64)"
   }
@@ -3269,6 +3373,10 @@
    "sorcerer-s-stone": 3,
    "steel-helmet": 1
   },
+  "locationsFound": [
+   "Swinedimples Academy (item shop)",
+   "Wormwood Creek (armour shop)"
+  ],
   "droppedBy": {
    "darkonium-slime": "(1/128)"
   },
@@ -3304,7 +3412,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "Rank 5 (E) blue chest in grotto (1%)"
+  ]
  },
  "tip-top-topper": {
   "id": "tip-top-topper",
@@ -3352,7 +3463,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "Stornway (armour shop)"
+  ]
  },
  "torneko-s-cap": {
   "id": "torneko-s-cap",
@@ -3440,7 +3554,10 @@
    "snakeskin": 1,
    "toad-oil": 1,
    "turban": 1
-  }
+  },
+  "locationsFound": [
+   "Gleeba (armour shop)"
+  ]
  },
  "trodain-bandana": {
   "id": "trodain-bandana",
@@ -3529,6 +3646,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "head",
+  "locationsFound": [
+   "Coffinwell (armour shop)"
+  ],
   "droppedBy": {
    "mummy-boy": "(1/64)"
   },
@@ -3561,6 +3681,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "head",
+  "locationsFound": [
+   "Rank 7 (C) blue chest in grotto (2%)"
+  ],
   "ingredientFor": [
    "happy-hat"
   ]
@@ -3600,6 +3723,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "head",
+  "locationsFound": [
+   "Bloomingdale (armour shop)"
+  ],
   "ingredientFor": [
    "warrior-s-sword"
   ]
@@ -3743,7 +3869,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "Swinedimples (item shop)"
+  ]
  },
  "yangus-s-titfer": {
   "id": "yangus-s-titfer",

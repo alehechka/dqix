@@ -300,7 +300,16 @@ func (p PageContent) parseFromBase(inventory *Inventory) {
 				num, _ := strconv.Atoi(strings.Split(strings.TrimPrefix(p.Text[i+1], "x"), " ")[0])
 				inventory.Recipe[id] = num
 			}
-		case "Where to find:": // TODO
+		case "Where to find:":
+			for i++; i < lastIndex; i++ {
+				if strings.HasSuffix(p.Text[i], ")") {
+					locations := strings.Split(p.Text[i], ", ")
+					inventory.LocationsFound = append(inventory.LocationsFound, locations...)
+				} else {
+					i--
+					break
+				}
+			}
 		case "Dropped by:":
 			inventory.DroppedBy = make(map[string]string)
 			for i++; i < lastIndex; i++ {

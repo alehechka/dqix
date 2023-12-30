@@ -45,6 +45,9 @@
    "climaxe": 1,
    "reset-stone": 1
   },
+  "locationsFound": [
+   "Rank 10 (S) blue chest in grotto (1%)"
+  ],
   "ingredientFor": [
    "maxi-axe"
   ]
@@ -66,6 +69,11 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "axe",
+  "locationsFound": [
+   "Gleeba (weapon shop)",
+   "Batsureg (weapon shop)",
+   "Wormwood Creek (weapon shop)"
+  ],
   "ingredientFor": [
    "halberd",
    "moon-axe"
@@ -229,6 +237,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "axe",
+  "locationsFound": [
+   "Dourbridge (secret shop)"
+  ],
   "ingredientFor": [
    "executioner-s-axe"
   ]
@@ -250,6 +261,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "axe",
+  "locationsFound": [
+   "Dourbridge (secret shop)"
+  ],
   "ingredientFor": [
    "executioner-s-axe"
   ]
@@ -272,6 +286,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "axe",
+  "locationsFound": [
+   "Rank 8 (B) blue chest in grotto (1%)"
+  ],
   "droppedBy": {
    "au-1000": "(1/256)"
   }
@@ -300,6 +317,9 @@
    "icicle-dirk": 3,
    "kaiser-axe": 1
   },
+  "locationsFound": [
+   "Stornway (weapon shop)"
+  ],
   "ingredientFor": [
    "avalanche-axe"
   ]
@@ -321,6 +341,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "axe",
+  "locationsFound": [
+   "Porth Llaffan (weapon/armour shop)"
+  ],
   "ingredientFor": [
    "golden-axe",
    "steel-axe"
@@ -372,6 +395,9 @@
    "golden-axe": 1,
    "slime-crown": 1
   },
+  "locationsFound": [
+   "Upover (weapon shop)"
+  ],
   "ingredientFor": [
    "kaiser-axe",
    "king-s-coat"
@@ -429,6 +455,10 @@
    "lunaria": 1,
    "mystifying-mixture": 1
   },
+  "locationsFound": [
+   "Wormwood Creek (weapon shop)",
+   "Upover (weapon shop)"
+  ],
   "ingredientFor": [
    "full-moon-axe",
    "ring-of-clarity"

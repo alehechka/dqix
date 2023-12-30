@@ -16,7 +16,10 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "fan"
+  "classification": "fan",
+  "locationsFound": [
+   "Rank 8 (B) blue chest in grotto (1%)"
+  ]
  },
  "azure-dragon-fan": {
   "id": "azure-dragon-fan",
@@ -93,6 +96,9 @@
    "snakeskin": 2,
    "war-fan": 1
   },
+  "locationsFound": [
+   "Batsureg (weapon shop)"
+  ],
   "droppedBy": {
    "seavern": "(1/64)"
   },
@@ -122,6 +128,9 @@
    "hypercritical-fan": 1,
    "reset-stone": 1
   },
+  "locationsFound": [
+   "Rank 10 (S) blue chest in grotto (1%)"
+  ],
   "ingredientFor": [
    "overcritical-fan"
   ]
@@ -168,6 +177,10 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "fan",
+  "locationsFound": [
+   "Angel Falls (item shop)",
+   "Stornway (weapon shop)"
+  ],
   "droppedBy": {
    "mecha-mynah": "(1/64)"
   },
@@ -199,6 +212,9 @@
    "seashell": 2,
    "war-fan": 1
   },
+  "locationsFound": [
+   "Swinedimples Academy (item shop)"
+  ],
   "ingredientFor": [
    "white-tiger-fan"
   ]
@@ -228,6 +244,10 @@
    "feather-fan": 1,
    "flurry-feather": 1
   },
+  "locationsFound": [
+   "Dourbridge (weapon/armour shop)",
+   "Bloomingdale (weapon shop)"
+  ],
   "ingredientFor": [
    "gale-force-fan"
   ]
@@ -256,6 +276,9 @@
    "flurry-feather": 2,
    "war-fan": 1
   },
+  "locationsFound": [
+   "Gleeba (weapon shop)"
+  ],
   "droppedBy": {
    "terrorhawk": "(1/64)"
   },
@@ -287,6 +310,9 @@
    "life-bracer": 1,
    "solar-fan": 1
   },
+  "locationsFound": [
+   "Stornway (weapon shop)"
+  ],
   "droppedBy": {
    "godsteed": "(1/256)"
   }
@@ -384,6 +410,10 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "fan",
+  "locationsFound": [
+   "Stornway (weapon shop)",
+   "Coffinwell (weapon shop)"
+  ],
   "ingredientFor": [
    "steel-fan"
   ]
@@ -509,6 +539,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "fan",
+  "locationsFound": [
+   "Upover (weapon shop)"
+  ],
   "ingredientFor": [
    "lunar-fan"
   ]
@@ -537,6 +570,9 @@
    "tortoiseshell": 2,
    "war-fan": 1
   },
+  "locationsFound": [
+   "Bloomingdale (weapon shop)"
+  ],
   "ingredientFor": [
    "black-tortoise-fan"
   ]
@@ -584,6 +620,10 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "fan",
+  "locationsFound": [
+   "Coffinwell (weapon shop)",
+   "Alltrades Abbey (item shop)"
+  ],
   "ingredientFor": [
    "cobra-fan",
    "feline-fan",

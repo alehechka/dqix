@@ -16,7 +16,10 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "spear"
+  "classification": "spear",
+  "locationsFound": [
+   "Stornway (weapon shop)"
+  ]
  },
  "battle-fork": {
   "id": "battle-fork",
@@ -38,6 +41,10 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "spear",
+  "locationsFound": [
+   "Bloomingdale (weapon shop)",
+   "Gleeba (weapon shop)"
+  ],
   "droppedBy": {
    "deadcurion": "(1/128)"
   },
@@ -100,7 +107,10 @@
    "celestial-spear": 1,
    "malicite": 1,
    "terrible-tattoo": 3
-  }
+  },
+  "locationsFound": [
+   "Stornway (weapon shop)"
+  ]
  },
  "gigasteel-lance": {
   "id": "gigasteel-lance",
@@ -172,6 +182,9 @@
    "battle-axe": 1,
    "partisan": 1
   },
+  "locationsFound": [
+   "Wormwood Creek (weapon shop)"
+  ],
   "droppedBy": {
    "charmour": "(1/128)"
   }
@@ -194,7 +207,10 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "spear"
+  "classification": "spear",
+  "locationsFound": [
+   "Rank 8 (B) blue chest in grotto (1%)"
+  ]
  },
  "holy-lance": {
   "id": "holy-lance",
@@ -220,6 +236,10 @@
    "gold-rosary": 1,
    "iron-lance": 1
   },
+  "locationsFound": [
+   "Dourbridge (weapon/armour shop)",
+   "Bloomingdale (weapon shop)"
+  ],
   "droppedBy": {
    "trigertaur": "(1/128)"
   },
@@ -245,6 +265,10 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "spear",
+  "locationsFound": [
+   "Stornway (weapon shop)",
+   "Coffinwell (weapon shop)"
+  ],
   "droppedBy": {
    "chariot-chappie": "(1/64)"
   },
@@ -278,6 +302,9 @@
    "mythril-ore": 1,
    "thunderball": 3
   },
+  "locationsFound": [
+   "Upover (weapon shop)"
+  ],
   "ingredientFor": [
    "storm-spear"
   ]
@@ -328,6 +355,10 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "spear",
+  "locationsFound": [
+   "Coffinwell (weapon shop)",
+   "Alltrades Abbey (item shop)"
+  ],
   "droppedBy": {
    "zumeanie": "(1/128)"
   },
@@ -379,6 +410,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "spear",
+  "locationsFound": [
+   "Rank 9 (A) blue chest in grotto (1%)"
+  ],
   "ingredientFor": [
    "liquid-metal-spear"
   ]
@@ -401,6 +435,10 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "spear",
+  "locationsFound": [
+   "Batsureg (weapon shop)",
+   "Swinedimples Academy (item shop)"
+  ],
   "droppedBy": {
    "stenchurion": "(1/128)"
   },
@@ -431,6 +469,9 @@
    "reset-stone": 1,
    "split-pot-poker": 1
   },
+  "locationsFound": [
+   "Rank 10 (S) blue chest in grotto (1%)"
+  ],
   "ingredientFor": [
    "stud-poker"
   ]
@@ -484,6 +525,11 @@
    "holy-lance": 1,
    "kitty-litter": 2
   },
+  "locationsFound": [
+   "Gleeba (weapon shop)",
+   "Batsureg (weapon shop)",
+   "Wormwood Creek (weapon shop)"
+  ],
   "ingredientFor": [
    "sober-ring"
   ]

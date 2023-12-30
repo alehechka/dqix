@@ -55,6 +55,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "shield",
+  "locationsFound": [
+   "Dourbridge (secret shop)"
+  ],
   "droppedBy": {
    "freaky-tiki": "(1/128)"
   },
@@ -121,6 +124,10 @@
   "type": "equipment",
   "category": "armor",
   "classification": "shield",
+  "locationsFound": [
+   "Zere (item shop)",
+   "Coffinwell (armour shop)"
+  ],
   "droppedBy": {
    "leery-lout": "(1/128)"
   }
@@ -223,6 +230,10 @@
    "magic-shield": 1,
    "raging-ruby": 1
   },
+  "locationsFound": [
+   "Wormwood Creek (armor shop)",
+   "Upover (armor shop)"
+  ],
   "droppedBy": {
    "wonder-wyrtle": "(1/64)"
   }
@@ -350,6 +361,9 @@
    "magic-shield": 1,
    "resurrock": 1
   },
+  "locationsFound": [
+   "Batsureg (Armor shop)"
+  ],
   "droppedBy": {
    "hell-nino": "(1/128)"
   }
@@ -481,6 +495,9 @@
    "magic-shield": 1,
    "resurrock": 1
   },
+  "locationsFound": [
+   "Batsureg (Armor shop)"
+  ],
   "droppedBy": {
    "brrearthenwarrior": "(1/256)"
   }
@@ -510,6 +527,10 @@
   "type": "equipment",
   "category": "armor",
   "classification": "shield",
+  "locationsFound": [
+   "Alltrades Abbey (item shop)",
+   "Port Llaffan (weapon/armor shop)"
+  ],
   "droppedBy": {
    "salamarauder": "(1/64)"
   },
@@ -574,6 +595,10 @@
   "type": "equipment",
   "category": "armor",
   "classification": "shield",
+  "locationsFound": [
+   "Angel Falls (item shop)",
+   "Stornway (armour shop)"
+  ],
   "droppedBy": {
    "leery-lout": "(1/16)"
   }
@@ -602,6 +627,10 @@
   "type": "equipment",
   "category": "armor",
   "classification": "shield",
+  "locationsFound": [
+   "Dourbridge (weapon/armour shop)",
+   "Bloomingdale (armour shop)"
+  ],
   "droppedBy": {
    "metal-slime-knight": "(1/64)"
   },
@@ -672,6 +701,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "shield",
+  "locationsFound": [
+   "Gleeba (armour shop)"
+  ],
   "droppedBy": {
    "grim-grinner": "(1/64)"
   },
@@ -741,6 +773,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "shield",
+  "locationsFound": [
+   "Rank 9 (A) blue chest in grotto (1%)"
+  ],
   "ingredientFor": [
    "liquid-metal-shield"
   ]
@@ -833,6 +868,9 @@
    "light-shield": 1,
    "platinum-ore": 1
   },
+  "locationsFound": [
+   "Bloomingdale (armour shop)"
+  ],
   "canBeUsedFor": [
    "012-putting-on-the-glitz"
   ]
@@ -860,6 +898,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "shield",
+  "locationsFound": [
+   "Angel Falls (item shop)"
+  ],
   "droppedBy": {
    "wooper-trooper": "(1/16)"
   }
@@ -895,6 +936,10 @@
    "raging-ruby": 1,
    "warrior-s-shield": 1
   },
+  "locationsFound": [
+   "Dourbridge (secret shop)",
+   "Upover (armour shop)"
+  ],
   "ingredientFor": [
    "empowered-shield"
   ]
@@ -957,6 +1002,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "shield",
+  "locationsFound": [
+   "Rank 7 (C) blue chest in grotto (1%)"
+  ],
   "droppedBy": {
    "alarmour": "(1/256)"
   },
@@ -1045,6 +1093,10 @@
   "type": "equipment",
   "category": "armor",
   "classification": "shield",
+  "locationsFound": [
+   "Zere (item shop)",
+   "Stornway (armour shop)"
+  ],
   "droppedBy": {
    "earthenwarrior": "(1/32)"
   },
@@ -1080,7 +1132,10 @@
   "recipe": {
    "scale-shield": 1,
    "tortoiseshell": 1
-  }
+  },
+  "locationsFound": [
+   "Coffinwell (armour shop)"
+  ]
  },
  "silver-platter": {
   "id": "silver-platter",
@@ -1139,7 +1194,10 @@
    "mirrorstone": 3,
    "mythril-ore": 2,
    "white-knight-s-shield": 1
-  }
+  },
+  "locationsFound": [
+   "Stornway (armour shop)"
+  ]
  },
  "slime-shield": {
   "id": "slime-shield",
@@ -1163,7 +1221,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "shield"
+  "classification": "shield",
+  "locationsFound": [
+   "Rank 3 (G) blue chest in grotto (1%)"
+  ]
  },
  "soul-sucker": {
   "id": "soul-sucker",
@@ -1261,7 +1322,10 @@
    "flurry-feather": 3,
    "magic-shield": 1,
    "ruby-of-protection": 1
-  }
+  },
+  "locationsFound": [
+   "Upover (armor shop)"
+  ]
  },
  "warrior-s-shield": {
   "id": "warrior-s-shield",
@@ -1289,6 +1353,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "shield",
+  "locationsFound": [
+   "Wormwood Creek (armour shop)"
+  ],
   "ingredientFor": [
    "power-shield"
   ]

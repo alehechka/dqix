@@ -40,7 +40,11 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "stave"
+  "classification": "stave",
+  "locationsFound": [
+   "Stornway (weapon shop)",
+   "Coffinwell (weapon shop)"
+  ]
  },
  "catatonic-cosh": {
   "id": "catatonic-cosh",
@@ -110,6 +114,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "stave",
+  "locationsFound": [
+   "Stornway (weapon shop)"
+  ],
   "ingredientFor": [
    "xenlon-rod"
   ]
@@ -131,6 +138,10 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "stave",
+  "locationsFound": [
+   "Gleeba (weapon shop)",
+   "Batsureg (weapon shop)"
+  ],
   "ingredientFor": [
    "killer-pillar",
    "mistick"
@@ -175,6 +186,10 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "stave",
+  "locationsFound": [
+   "Dourbridge (weapon/armour shop)",
+   "Bloomingdale (weapon shop)"
+  ],
   "ingredientFor": [
    "steel-bar"
   ]
@@ -222,6 +237,9 @@
    "catatonic-cosh": 1,
    "reset-stone": 1
   },
+  "locationsFound": [
+   "Rank 10 (S) blue chest in grotto (1%)"
+  ],
   "ingredientFor": [
    "senseless-stick"
   ]
@@ -243,6 +261,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "stave",
+  "locationsFound": [
+   "Stornway (weapon shop)"
+  ],
   "ingredientFor": [
    "longbow"
   ]
@@ -271,6 +292,10 @@
    "flurry-feather": 3,
    "fresh-water": 3
   },
+  "locationsFound": [
+   "Wormwood Creek (weapon shop)",
+   "Upover (weapon shop)"
+  ],
   "droppedBy": {
    "cumulus-hex": "(1/32)"
   },
@@ -295,6 +320,10 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "stave",
+  "locationsFound": [
+   "Coffinwell (weapon shop)",
+   "Alltrades Abbey (item shop)"
+  ],
   "ingredientFor": [
    "pillar-of-strength"
   ]
@@ -367,7 +396,11 @@
   "recipe": {
    "oaken-pole": 3,
    "utility-belt": 1
-  }
+  },
+  "locationsFound": [
+   "Bloomingdale (weapon shop)",
+   "Gleeba (weapon shop)"
+  ]
  },
  "sadistick": {
   "id": "sadistick",
@@ -385,7 +418,10 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "stave"
+  "classification": "stave",
+  "locationsFound": [
+   "Upover (weapon shop)"
+  ]
  },
  "senseless-stick": {
   "id": "senseless-stick",
@@ -434,6 +470,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "stave",
+  "locationsFound": [
+   "Batsureg (weapon shop)"
+  ],
   "ingredientFor": [
    "rousing-ring",
    "slumber-stick"
