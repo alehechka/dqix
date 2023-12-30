@@ -138,6 +138,7 @@ type Inventory struct {
 	IngredientFor  []string          `json:"ingredientFor,omitempty"`  // ingredientFor represents the Inventory recipes that this Inventory is part of
 	RequiredFor    []string          `json:"requiredFor,omitempty"`
 	CanBeUsedFor   []string          `json:"canBeUsedFor,omitempty"`
+	ImageSrc       string            `json:"imageSrc,omitempty"`
 }
 
 func (i Inventory) GetID() string {
