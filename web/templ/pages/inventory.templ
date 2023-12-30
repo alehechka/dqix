@@ -164,5 +164,17 @@ templ InventoryContent(inventory types.Inventory, getter types.IGetThingFromID) 
 				</ul>
 			</div>
 		}
+		if len(inventory.RequiredFor) > 0 {
+			<div id="required-for" class="py-2">
+				<strong>Required for:</strong>
+				<ul class="pl-2">
+					for _, id := range inventory.RequiredFor {
+						<li>
+							@links.ThingLink(id, getter)
+						</li>
+					}
+				</ul>
+			</div>
+		}
 	</div>
 }
