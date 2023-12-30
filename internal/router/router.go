@@ -80,7 +80,12 @@ func (a *app) SetupRouter() *gin.Engine {
 
 		switch htmx.GetHxSwapTarget(ctx) {
 		case "page-content":
-			ctx.HTML(http.StatusOK, "", pages.InventoryContent(inventory, a.data.GetQuickThing))
+			if htmx.HasMatchingParentPath(ctx) {
+				ctx.HTML(http.StatusOK, "", pages.InventoryContent(inventory, a.data.GetQuickThing))
+			} else {
+				htmx.Retarget(ctx, "#sidenav-page-wrapper")
+				ctx.HTML(http.StatusOK, "", pages.InventoryContentWithSideNav(inventory, a.data.GetQuickThing))
+			}
 		case "sidenav-page-wrapper":
 			ctx.HTML(http.StatusOK, "", pages.InventoryContentWithSideNav(inventory, a.data.GetQuickThing))
 		default:
