@@ -120,7 +120,7 @@ templ InventoryContent(inventory types.Inventory, getter types.IGetThingFromID) 
 				}
 			</p>
 		}
-		<p id="information" class="py-2">
+		<p id="details" class="py-2">
 			<strong>Rarity: </strong>{ fmt.Sprintf("%d/5", inventory.Rarity) }
 			<br/>
 			if inventory.BuyPrice > 0 {
@@ -137,10 +137,22 @@ templ InventoryContent(inventory types.Inventory, getter types.IGetThingFromID) 
 			}
 			<strong>Classification: </strong>{ inventory.Classification }
 		</p>
+		if len(inventory.LocationsFound) > 0 {
+			<div id="locations-found" class="py-2">
+				<strong>Where to find:</strong>
+				<ul class="pl-8 list-disc">
+					for _, location := range inventory.LocationsFound {
+						<li>
+							{ location }
+						</li>
+					}
+				</ul>
+			</div>
+		}
 		if len(inventory.DroppedBy) > 0 {
 			<div id="dropped-by" class="py-2">
 				<strong>Dropped by:</strong>
-				<ul class="pl-2">
+				<ul class="pl-8 list-disc">
 					for monster, dropRate := range inventory.DroppedBy {
 						<li>
 							@links.ThingLink(monster, getter)
@@ -167,7 +179,7 @@ templ InventoryContent(inventory types.Inventory, getter types.IGetThingFromID) 
 		if len(inventory.IngredientFor) > 0 {
 			<div id="alchemises" class="py-2">
 				<strong>Alchemises:</strong>
-				<ul class="pl-2">
+				<ul class="pl-8 list-disc">
 					for _, id := range inventory.IngredientFor {
 						<li>
 							@links.ThingLink(id, getter)
@@ -179,7 +191,7 @@ templ InventoryContent(inventory types.Inventory, getter types.IGetThingFromID) 
 		if len(inventory.RequiredFor) > 0 {
 			<div id="required-for" class="py-2">
 				<strong>Required for:</strong>
-				<ul class="pl-2">
+				<ul class="pl-8 list-disc">
 					for _, id := range inventory.RequiredFor {
 						<li>
 							@links.ThingLink(id, getter)
