@@ -1,0 +1,11 @@
+package links
+
+templ Link(text string, href templ.SafeURL, attrs templ.Attributes) {
+	<a
+		href={ href }
+		class="text-blue-600 data-[not-found=true]:text-gray-400 underline"
+		{ attrs... }
+	>
+		{ text }
+	</a>
+}

@@ -50,6 +50,9 @@
    "aeon-s-bow": 1,
    "reset-stone": 1
   },
+  "locationsFound": [
+   "Rank 10 (S) blue chest in grotto (1%)"
+  ],
   "ingredientFor": [
    "archangel-s-bow"
   ]
@@ -77,7 +80,11 @@
    "agate-of-evolution": 1,
    "angel-s-bow": 1,
    "yellow-orb": 1
-  }
+  },
+  "ingredientFor": [
+   "aeon-s-bow",
+   "seraph-s-bow"
+  ]
  },
  "billowing-bow": {
   "id": "billowing-bow",
@@ -155,6 +162,10 @@
    "flurry-feather": 3,
    "potshot-bow": 1
   },
+  "locationsFound": [
+   "Wormwood Creek (Weapon shop)",
+   "Upover (Weapon shop)"
+  ],
   "ingredientFor": [
    "billowing-bow"
   ]
@@ -203,7 +214,10 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "bow"
+  "classification": "bow",
+  "locationsFound": [
+   "Dourbridge (secret shop)"
+  ]
  },
  "fuddle-bow": {
   "id": "fuddle-bow",
@@ -223,7 +237,10 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "bow"
+  "classification": "bow",
+  "locationsFound": [
+   "Rank 4 (F) blue chest in grotto (1%)"
+  ]
  },
  "great-bow": {
   "id": "great-bow",
@@ -243,6 +260,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "bow",
+  "locationsFound": [
+   "Upover (weapon shop)"
+  ],
   "ingredientFor": [
    "purblind-bow"
   ]
@@ -293,6 +313,12 @@
    "chain-whip": 1,
    "longbow": 1
   },
+  "locationsFound": [
+   "Batsureg (weapon shop)"
+  ],
+  "droppedBy": {
+   "hunter-mech": "(1/64)"
+  },
   "ingredientFor": [
    "crucerang"
   ]
@@ -317,7 +343,10 @@
   "recipe": {
    "laundry-pole": 1,
    "short-bow": 1
-  }
+  },
+  "ingredientFor": [
+   "hunter-s-bow"
+  ]
  },
  "odin-s-bow": {
   "id": "odin-s-bow",
@@ -339,7 +368,10 @@
   "recipe": {
    "oh-no-bow": 1,
    "saint-s-ashes": 3
-  }
+  },
+  "ingredientFor": [
+   "oh-no-bow"
+  ]
  },
  "oh-no-bow": {
   "id": "oh-no-bow",
@@ -362,6 +394,9 @@
    "malicite": 1,
    "odin-s-bow": 1
   },
+  "locationsFound": [
+   "Rank 6 (D) blue chest in grotto (1%)"
+  ],
   "ingredientFor": [
    "odin-s-bow"
   ]
@@ -386,9 +421,13 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "bow",
+  "locationsFound": [
+   "Batsureg (weapon shop)",
+   "Wormwood Creek (weapon shop)"
+  ],
   "ingredientFor": [
-   "hotshot-bow",
-   "blowy-bow"
+   "blowy-bow",
+   "hotshot-bow"
   ]
  },
  "purblind-bow": {
@@ -414,6 +453,9 @@
    "great-bow": 1,
    "mystifying-mixture": 1
   },
+  "locationsFound": [
+   "Stornway (weapon shop)"
+  ],
   "ingredientFor": [
    "blinding-bow"
   ]
@@ -461,6 +503,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "bow",
+  "locationsFound": [
+   "Porth Llaffan (weapon/armour shop)"
+  ],
   "ingredientFor": [
    "longbow"
   ]

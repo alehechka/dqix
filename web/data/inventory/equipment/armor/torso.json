@@ -56,7 +56,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "droppedBy": {
+   "dragonlord": "(lv. 9–15: 15%)"
+  }
  },
  "alena-s-dress": {
   "id": "alena-s-dress",
@@ -111,6 +114,9 @@
   "recipe": {
    "aeon-s-robe": 1,
    "reset-stone": 1
+  },
+  "droppedBy": {
+   "tyrannosaurus-wrecks": "(1/50)"
   },
   "ingredientFor": [
    "archangel-s-robe"
@@ -170,7 +176,11 @@
    "agate-of-evolution": 1,
    "angel-s-robe": 1,
    "yellow-orb": 1
-  }
+  },
+  "ingredientFor": [
+   "aeon-s-robe",
+   "seraph-s-robe"
+  ]
  },
  "ascetic-robe": {
   "id": "ascetic-robe",
@@ -190,6 +200,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "droppedBy": {
+   "wight-priest": "(1/128)"
+  },
   "ingredientFor": [
    "saintly-robe"
   ]
@@ -322,7 +335,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "droppedBy": {
+   "void-droid": "(1/128)"
+  }
  },
  "bronze-armour": {
   "id": "bronze-armour",
@@ -345,7 +361,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Coffinwell (armour shop)"
+  ]
  },
  "bunny-suit": {
   "id": "bunny-suit",
@@ -373,7 +392,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Dourbridge (secret shop)"
+  ]
  },
  "cannock-cloak": {
   "id": "cannock-cloak",
@@ -565,7 +587,10 @@
   "recipe": {
    "nightmare-gown": 1,
    "saint-s-ashes": 3
-  }
+  },
+  "ingredientFor": [
+   "celestria-s-raiment"
+  ]
  },
  "celestria-s-raiment": {
   "id": "celestria-s-raiment",
@@ -621,9 +646,16 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "locationsFound": [
+   "Stornway (armour shop)",
+   "Coffinwell (armour shop)"
+  ],
+  "droppedBy": {
+   "skeleton-soldier": "(1/32)"
+  },
   "ingredientFor": [
-   "holy-mail",
-   "chainmail-socks"
+   "chainmail-socks",
+   "holy-mail"
   ]
  },
  "cloak-of-concealment": {
@@ -687,6 +719,12 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "locationsFound": [
+   "Porth Llaffan (armour shop)"
+  ],
+  "droppedBy": {
+   "sluggernaut": "(1/32)"
+  },
   "ingredientFor": [
    "cloak-of-concealment"
   ]
@@ -706,7 +744,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Stornway (armour shop)"
+  ]
  },
  "combat-top": {
   "id": "combat-top",
@@ -723,7 +764,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Stornway (armour shop)"
+  ]
  },
  "dancer-s-costume": {
   "id": "dancer-s-costume",
@@ -752,6 +796,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "locationsFound": [
+   "Porth Llaffan (weapon/armour shop)"
+  ],
   "ingredientFor": [
    "dancer-s-dress"
   ]
@@ -809,6 +856,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "locationsFound": [
+   "Dourbridge (secret shop)"
+  ],
   "ingredientFor": [
    "hot-bikini-top"
   ]
@@ -843,6 +893,9 @@
    "divine-bustier": 1,
    "reset-stone": 1
   },
+  "locationsFound": [
+   "Rank 5 (E) blue chest in grotto (1%)"
+  ],
   "ingredientFor": [
    "silk-bustier"
   ]
@@ -876,9 +929,12 @@
    "slipweed": 3,
    "velvet-cape": 1
   },
+  "locationsFound": [
+   "Upover (armour shop)"
+  ],
   "ingredientFor": [
-   "phantom-mask",
-   "macabre-mantle"
+   "macabre-mantle",
+   "phantom-mask"
   ]
  },
  "debora-s-dress": {
@@ -939,7 +995,10 @@
    "sainted-soma": 3,
    "silk-bustier": 1,
    "slipweed": 7
-  }
+  },
+  "ingredientFor": [
+   "dangerous-bustier"
+  ]
  },
  "divine-dress": {
   "id": "divine-dress",
@@ -959,7 +1018,13 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Rank 7 (C) blue chest in grotto (1%)"
+  ],
+  "droppedBy": {
+   "vermil-lion": "(1/128)"
+  }
  },
  "dragon-dress": {
   "id": "dragon-dress",
@@ -980,7 +1045,10 @@
    "dragon-scale": 1,
    "finessence": 2,
    "strongsam": 1
-  }
+  },
+  "ingredientFor": [
+   "xenlon-robe"
+  ]
  },
  "dragon-mail": {
   "id": "dragon-mail",
@@ -1010,6 +1078,13 @@
    "dragon-scale": 2,
    "magic-armour": 1,
    "raging-ruby": 1
+  },
+  "locationsFound": [
+   "Wormwood Creek (armour shop)",
+   "Upover (armour shop)"
+  ],
+  "droppedBy": {
+   "claws": "(1/128)"
   }
  },
  "dragon-robe": {
@@ -1037,6 +1112,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "locationsFound": [
+   "Reward for 80 mini medals (cumulative)"
+  ],
   "ingredientFor": [
    "xenlon-robe"
   ]
@@ -1064,6 +1142,9 @@
    "finessence": 2,
    "tussler-s-top": 1
   },
+  "locationsFound": [
+   "Wormwood Creek (armour shop)"
+  ],
   "ingredientFor": [
    "xenlon-robe"
   ]
@@ -1190,7 +1271,10 @@
   "recipe": {
    "enchanted-stone": 1,
    "magic-armour": 1
-  }
+  },
+  "ingredientFor": [
+   "ethereal-armour"
+  ]
  },
  "enchanted-robes": {
   "id": "enchanted-robes",
@@ -1220,7 +1304,11 @@
   "recipe": {
    "enchanted-stone": 1,
    "magical-robes": 1
-  }
+  },
+  "ingredientFor": [
+   "ethereal-robes",
+   "flowing-dress"
+  ]
  },
  "erdrick-s-armour": {
   "id": "erdrick-s-armour",
@@ -1382,7 +1470,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Batsureg (armour shop)"
+  ]
  },
  "fencing-frock": {
   "id": "fencing-frock",
@@ -1401,7 +1492,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "droppedBy": {
+   "cannibelle": "(1/128)"
+  }
  },
  "fencing-jacket": {
   "id": "fencing-jacket",
@@ -1420,7 +1514,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "droppedBy": {
+   "excalipurr": "(steal only)"
+  }
  },
  "fizzle-proof-suit": {
   "id": "fizzle-proof-suit",
@@ -1444,7 +1541,10 @@
    "fizzle-retardant-suit": 1,
    "grubby-bandage": 3,
    "sorcerer-s-ring": 1
-  }
+  },
+  "ingredientFor": [
+   "sage-s-robe"
+  ]
  },
  "fizzle-retardant-blouse": {
   "id": "fizzle-retardant-blouse",
@@ -1463,7 +1563,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "droppedBy": {
+   "cobra-cardinal": "(1/128)"
+  }
  },
  "fizzle-retardant-suit": {
   "id": "fizzle-retardant-suit",
@@ -1483,6 +1586,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "droppedBy": {
+   "python-priest": "(1/128)"
+  },
   "ingredientFor": [
    "fizzle-proof-suit"
   ]
@@ -1568,6 +1674,13 @@
   "recipe": {
    "celestial-skein": 3,
    "enchanted-robes": 1
+  },
+  "locationsFound": [
+   "Wormwood Creek (armour shop)",
+   "Upover (armour shop)"
+  ],
+  "droppedBy": {
+   "cumulus-hex": "(1/64)"
   }
  },
  "full-plate-armour": {
@@ -1593,7 +1706,10 @@
    "iron-armour": 1,
    "iron-ore": 1,
    "royal-soil": 1
-  }
+  },
+  "ingredientFor": [
+   "gigasteel-armour"
+  ]
  },
  "fur-poncho": {
   "id": "fur-poncho",
@@ -1624,6 +1740,9 @@
   "recipe": {
    "leather-cape": 1,
    "magic-beast-hide": 3
+  },
+  "droppedBy": {
+   "great-gruffon": "(1/64)"
   },
   "ingredientFor": [
    "fur-vest"
@@ -1661,6 +1780,12 @@
   "recipe": {
    "fur-poncho": 1,
    "magic-beast-hide": 3
+  },
+  "locationsFound": [
+   "Batsureg (armour shop)"
+  ],
+  "droppedBy": {
+   "cyclops": "(1/128)"
   }
  },
  "garish-garb": {
@@ -1690,9 +1815,15 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "locationsFound": [
+   "Coffinwell (armour shop)"
+  ],
+  "droppedBy": {
+   "slugger": "(1/128)"
+  },
   "ingredientFor": [
-   "gooey-gear",
-   "flamenco-shirt"
+   "flamenco-shirt",
+   "gooey-gear"
   ]
  },
  "gigant-armour": {
@@ -1715,7 +1846,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Stornway (armour shop)"
+  ]
  },
  "gigasteel-armour": {
   "id": "gigasteel-armour",
@@ -1770,7 +1904,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Rank 4 (F) blue chest in grotto (1%)"
+  ]
  },
  "glorious-armour": {
   "id": "glorious-armour",
@@ -1798,7 +1935,11 @@
    "agate-of-evolution": 1,
    "red-orb": 1,
    "victorious-armour": 1
-  }
+  },
+  "ingredientFor": [
+   "legendary-armour",
+   "mythical-armour"
+  ]
  },
  "gold-mail": {
   "id": "gold-mail",
@@ -1826,7 +1967,10 @@
    "gold-bracer": 1,
    "gold-ring": 1,
    "silver-mail": 1
-  }
+  },
+  "ingredientFor": [
+   "platinum-mail"
+  ]
  },
  "gooey-gear": {
   "id": "gooey-gear",
@@ -1857,7 +2001,10 @@
   "recipe": {
    "garish-garb": 1,
    "slimedrop": 3
-  }
+  },
+  "requiredFor": [
+   "018-our-precious-precious"
+  ]
  },
  "gothan-robe": {
   "id": "gothan-robe",
@@ -1886,7 +2033,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "droppedBy": {
+   "nimzo": "(lv. 69–80: 15%; lv. 81–90: 20%; lv. 91–99: 25%)"
+  }
  },
  "gusto-garb": {
   "id": "gusto-garb",
@@ -1934,7 +2084,14 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Dourbridge (weapon/armour shop)",
+   "Bloomingdale (armour shop)"
+  ],
+  "droppedBy": {
+   "mandrake-major": "(1/128)"
+  }
  },
  "holy-femail": {
   "id": "holy-femail",
@@ -1949,7 +2106,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "droppedBy": {
+   "wishmaster": "(1/128)"
+  }
  },
  "holy-mail": {
   "id": "holy-mail",
@@ -1992,6 +2152,13 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "locationsFound": [
+   "Alltrades Abbey (item shop)",
+   "Porth Llaffan (weapon/armour shop)"
+  ],
+  "droppedBy": {
+   "restless-armour": "(1/128)"
+  },
   "ingredientFor": [
    "full-plate-armour"
   ]
@@ -2021,6 +2188,12 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "locationsFound": [
+   "Coffinwell (armour shop)"
+  ],
+  "droppedBy": {
+   "lesionnaire": "(1/64)"
+  },
   "ingredientFor": [
    "silver-cuirass",
    "tortoise-shell"
@@ -2051,7 +2224,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Dourbridge (secret shop)"
+  ]
  },
  "jessica-s-frock": {
   "id": "jessica-s-frock",
@@ -2106,7 +2282,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Reward for 18 mini medals (cumulative)"
+  ]
  },
  "king-s-coat": {
   "id": "king-s-coat",
@@ -2136,7 +2315,10 @@
    "king-axe": 1,
    "lambswool": 2,
    "prince-s-pea-coat": 1
-  }
+  },
+  "ingredientFor": [
+   "emperor-s-attire"
+  ]
  },
  "kiryl-s-clothes": {
   "id": "kiryl-s-clothes",
@@ -2220,7 +2402,11 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Angel Falls (item shop)",
+   "Stornway (armour shop)"
+  ]
  },
  "leather-cape": {
   "id": "leather-cape",
@@ -2249,6 +2435,12 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "locationsFound": [
+   "Zere (item shop)"
+  ],
+  "droppedBy": {
+   "bodkin-bowyer": "(1/64)"
+  },
   "ingredientFor": [
    "fur-poncho"
   ]
@@ -2280,7 +2472,11 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Zere (item shop)",
+   "Stornway (armour shop)"
+  ]
  },
  "legendary-armour": {
   "id": "legendary-armour",
@@ -2336,7 +2532,10 @@
    "metal-slime-armour": 1,
    "orichalcum": 1,
    "slimedrop": 6
-  }
+  },
+  "ingredientFor": [
+   "metal-king-armour"
+  ]
  },
  "macabre-mantle": {
   "id": "macabre-mantle",
@@ -2365,7 +2564,10 @@
    "dark-robe": 1,
    "terrible-tattoo": 3,
    "wing-of-bat": 4
-  }
+  },
+  "requiredFor": [
+   "022-mantle-à-la-mode"
+  ]
  },
  "magic-armour": {
   "id": "magic-armour",
@@ -2395,11 +2597,17 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "locationsFound": [
+   "Gleeba (armour shop)"
+  ],
+  "droppedBy": {
+   "charmour": "(1/32)"
+  },
   "ingredientFor": [
-   "enchanted-armour",
    "dragon-mail",
-   "spiked-armour",
-   "mirror-armour"
+   "enchanted-armour",
+   "mirror-armour",
+   "spiked-armour"
   ]
  },
  "magical-robes": {
@@ -2428,6 +2636,12 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "locationsFound": [
+   "Gleeba (armour shop)"
+  ],
+  "droppedBy": {
+   "sorcerer": "(1/32)"
+  },
   "ingredientFor": [
    "enchanted-robes"
   ]
@@ -2479,7 +2693,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Stornway (armour shop)"
+  ]
  },
  "majestic-mantle": {
   "id": "majestic-mantle",
@@ -2676,6 +2893,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "locationsFound": [
+   "Rank 9 (A) blue chest in grotto (1%)"
+  ],
   "ingredientFor": [
    "liquid-metal-armour"
   ]
@@ -2705,7 +2925,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "droppedBy": {
+   "malroth": "(lv. 9–15: 15%; lv. 81–90: 20%)"
+  }
  },
  "milly-s-clothes": {
   "id": "milly-s-clothes",
@@ -2763,6 +2986,9 @@
    "mirrorstone": 3,
    "sober-ring": 1
   },
+  "locationsFound": [
+   "Upover (armour shop)"
+  ],
   "ingredientFor": [
    "catoptric-armour"
   ]
@@ -2821,7 +3047,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Rank 5 (E) blue chest in grotto (1%)"
+  ]
  },
  "mythical-armour": {
   "id": "mythical-armour",
@@ -2903,6 +3132,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "locationsFound": [
+   "Red chest in Tower of Nod (L6)"
+  ],
   "ingredientFor": [
    "celestria-s-gown"
   ]
@@ -2923,7 +3155,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "droppedBy": {
+   "slugly-betsy": "(1/128)"
+  }
  },
  "pallium-regale": {
   "id": "pallium-regale",
@@ -2948,7 +3183,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "droppedBy": {
+   "slionheart": "(1/256)"
+  }
  },
  "patty-s-dirndl": {
   "id": "patty-s-dirndl",
@@ -3003,7 +3241,13 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Angel Falls (item shop)"
+  ],
+  "droppedBy": {
+   "bodkin-archer": "(1/16)"
+  }
  },
  "plain-dress": {
   "id": "plain-dress",
@@ -3031,7 +3275,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Dourbridge (weapon/armour shop)"
+  ]
  },
  "platinum-mail": {
   "id": "platinum-mail",
@@ -3059,7 +3306,10 @@
    "gold-mail": 1,
    "hephaestus--flame": 1,
    "platinum-ore": 1
-  }
+  },
+  "canBeUsedFor": [
+   "012-putting-on-the-glitz"
+  ]
  },
  "priestess-s-pinafore": {
   "id": "priestess-s-pinafore",
@@ -3078,7 +3328,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "droppedBy": {
+   "wight-king": "(1/128)"
+  }
  },
  "prince-s-pea-coat": {
   "id": "prince-s-pea-coat",
@@ -3172,7 +3425,10 @@
    "lambswool": 2,
    "monarch-s-mittens": 1,
    "princess-s-robe": 1
-  }
+  },
+  "ingredientFor": [
+   "empress-s-robe"
+  ]
  },
  "ragnar-s-armour": {
   "id": "ragnar-s-armour",
@@ -3232,6 +3488,10 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "locationsFound": [
+   "Alltrades Abbey (item shop)",
+   "Slurry Quay (item shop)"
+  ],
   "ingredientFor": [
    "robe-of-sweet-dreams"
   ]
@@ -3285,7 +3545,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "droppedBy": {
+   "widow-s-pique": "(1/128)"
+  }
  },
  "roguess-s-robes": {
   "id": "roguess-s-robes",
@@ -3301,7 +3564,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "droppedBy": {
+   "terror-troll": "(1/128)"
+  }
  },
  "rusty-armour": {
   "id": "rusty-armour",
@@ -3349,6 +3615,12 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "locationsFound": [
+   "Reward for 40 mini medals (cumulative)"
+  ],
+  "droppedBy": {
+   "sir-sanguinus": "(1/20)"
+  },
   "ingredientFor": [
    "sacrosanct-armour"
   ]
@@ -3427,7 +3699,10 @@
    "ascetic-robe": 1,
    "grubby-bandage": 3,
    "rosary": 1
-  }
+  },
+  "ingredientFor": [
+   "sage-s-robe"
+  ]
  },
  "santa-s-little-helper-suit": {
   "id": "santa-s-little-helper-suit",
@@ -3514,6 +3789,12 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "locationsFound": [
+   "Stornway (armour shop)"
+  ],
+  "droppedBy": {
+   "icikiller": "(1/16)"
+  },
   "ingredientFor": [
    "large-scale-armour"
   ]
@@ -3606,7 +3887,10 @@
    "brighten-rock": 3,
    "pink-pearl": 1,
    "spangled-dress": 1
-  }
+  },
+  "ingredientFor": [
+   "princess-s-robe"
+  ]
  },
  "shipmate-s-shirt": {
   "id": "shipmate-s-shirt",
@@ -3634,7 +3918,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Wormwood Creek (armour shop)"
+  ]
  },
  "silk-robe": {
   "id": "silk-robe",
@@ -3664,6 +3951,13 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "locationsFound": [
+   "Zere (item shop)",
+   "Stornway (armour shop)"
+  ],
+  "droppedBy": {
+   "mean-spirit": "(1/16)"
+  },
   "ingredientFor": [
    "silk-bustier"
   ]
@@ -3720,6 +4014,12 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "locationsFound": [
+   "Bloomingdale (armour shop)"
+  ],
+  "droppedBy": {
+   "harmour": "(1/64)"
+  },
   "ingredientFor": [
    "gold-mail"
   ]
@@ -3813,6 +4113,12 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "locationsFound": [
+   "Bloomingdale (armour shop)"
+  ],
+  "droppedBy": {
+   "dark-skeleton": "(1/128)"
+  },
   "ingredientFor": [
    "twinkling-tuxedo"
   ]
@@ -3842,7 +4148,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "droppedBy": {
+   "murdaw": "(lv. 9–15: 15%)"
+  }
  },
  "spangled-dress": {
   "id": "spangled-dress",
@@ -3871,10 +4180,16 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "locationsFound": [
+   "Bloomingdale (armour shop)"
+  ],
+  "droppedBy": {
+   "cannibelle": "(1/16)"
+  },
   "ingredientFor": [
-   "shimmering-dress",
+   "012-putting-on-the-glitz",
    "can-be-used-for:",
-   "012-putting-on-the-glitz"
+   "shimmering-dress"
   ]
  },
  "spiked-armour": {
@@ -3903,6 +4218,9 @@
    "magic-armour": 1,
    "magic-beast-horn": 2
   },
+  "droppedBy": {
+   "gloomy-gastropog": "(1/256)"
+  },
   "canBeUsedFor": [
    "012-putting-on-the-glitz"
   ]
@@ -3922,6 +4240,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "droppedBy": {
+   "elusid": "(steal only)"
+  },
   "ingredientFor": [
    "superstar-s-suit"
   ]
@@ -3980,7 +4301,11 @@
    "agate-of-evolution": 1,
    "blue-orb": 1,
    "tropotoga": 1
-  }
+  },
+  "ingredientFor": [
+   "exotoga",
+   "mesotoga"
+  ]
  },
  "strongsam": {
   "id": "strongsam",
@@ -3998,6 +4323,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "locationsFound": [
+   "Batsureg (armour shop)"
+  ],
   "ingredientFor": [
    "dragon-dress"
   ]
@@ -4028,7 +4356,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Gleeba (armour shop)"
+  ]
  },
  "superstar-s-suit": {
   "id": "superstar-s-suit",
@@ -4067,7 +4398,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "droppedBy": {
+   "wight-emperor": "(1/128)"
+  }
  },
  "swinedimples-blazer": {
   "id": "swinedimples-blazer",
@@ -4096,6 +4430,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "locationsFound": [
+   "Swinedimples Academy (item shop)"
+  ],
   "canBeUsedFor": [
    "012-putting-on-the-glitz"
   ]
@@ -4113,7 +4450,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "droppedBy": {
+   "excalipurr": "(1/120)"
+  }
  },
  "technicolour-tutu": {
   "id": "technicolour-tutu",
@@ -4178,6 +4518,12 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "locationsFound": [
+   "Stornway (armour shop)"
+  ],
+  "droppedBy": {
+   "prism-peacock": "(1/256)"
+  },
   "ingredientFor": [
    "technicolour-tutu"
   ]
@@ -4238,6 +4584,10 @@
    "iron-cuirass": 1,
    "tortoiseshell": 1
   },
+  "locationsFound": [
+   "Porth Llaffan (armour shop)",
+   "Slurry Quay (item shop)"
+  ],
   "ingredientFor": [
    "black-tortoise-fan",
    "tortoiseshell-armour"
@@ -4291,7 +4641,10 @@
   "recipe": {
    "finessence": 1,
    "training-top": 1
-  }
+  },
+  "ingredientFor": [
+   "tussler-s-top"
+  ]
  },
  "training-top": {
   "id": "training-top",
@@ -4310,6 +4663,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "locationsFound": [
+   "Stornway (armour shop)"
+  ],
   "ingredientFor": [
    "tracksuit-top"
   ]
@@ -4339,7 +4695,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "droppedBy": {
+   "rhapthorne": "(lv. 69–80: 15%; lv. 81–90: 20%; lv. 91–99: 25%)"
+  }
  },
  "trode-s-robes": {
   "id": "trode-s-robes",
@@ -4396,6 +4755,9 @@
    "mesotoga": 1,
    "reset-stone": 1
   },
+  "droppedBy": {
+   "atlas": "(1/50)"
+  },
   "ingredientFor": [
    "stratotoga"
   ]
@@ -4420,7 +4782,13 @@
    "finessence": 1,
    "magic-beast-hide": 2,
    "tracksuit-top": 1
-  }
+  },
+  "locationsFound": [
+   "Bloomingdale (armour shop)"
+  ],
+  "ingredientFor": [
+   "dragon-top"
+  ]
  },
  "twinkling-tuxedo": {
   "id": "twinkling-tuxedo",
@@ -4454,7 +4822,10 @@
    "bow-tie": 1,
    "brighten-rock": 3,
    "smart-suit": 1
-  }
+  },
+  "ingredientFor": [
+   "prince-s-pea-coat"
+  ]
  },
  "velvet-cape": {
   "id": "velvet-cape",
@@ -4478,9 +4849,12 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "locationsFound": [
+   "Gleeba (armour shop)"
+  ],
   "ingredientFor": [
-   "majestic-mantle",
-   "dark-robe"
+   "dark-robe",
+   "majestic-mantle"
   ]
  },
  "veteran-s-armour": {
@@ -4497,7 +4871,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Rank 7 (C) blue chest in grotto (1%)"
+  ]
  },
  "victorious-armour": {
   "id": "victorious-armour",
@@ -4525,6 +4902,9 @@
    "mythical-armour": 1,
    "reset-stone": 1
   },
+  "droppedBy": {
+   "excalipurr": "(1/50)"
+  },
   "ingredientFor": [
    "glorious-armour"
   ]
@@ -4543,7 +4923,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "droppedBy": {
+   "hammibal": "(1/20)"
+  }
  },
  "wayfarer-s-clothes": {
   "id": "wayfarer-s-clothes",
@@ -4571,7 +4954,11 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Angel Falls (item shop)",
+   "Stornway (armour shop)"
+  ]
  },
  "wedding-dress": {
   "id": "wedding-dress",
@@ -4630,6 +5017,10 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "locationsFound": [
+   "Coffinwell (armour shop)",
+   "Alltrades Abbey (item shop)"
+  ],
   "canBeUsedFor": [
    "012-putting-on-the-glitz"
   ]
@@ -4682,7 +5073,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Stornway (armour shop)"
+  ]
  },
  "wizard-s-robe": {
   "id": "wizard-s-robe",
@@ -4702,7 +5096,13 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Stornway (armour shop)"
+  ],
+  "droppedBy": {
+   "boa-bishop": "(1/256)"
+  }
  },
  "xenlon-robe": {
   "id": "xenlon-robe",
@@ -4787,7 +5187,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "droppedBy": {
+   "dhoulmagus": "(lv. 69–80: 15%; lv. 81–90: 20%; lv. 91–99: 25%)"
+  }
  },
  "zenithian-leotard": {
   "id": "zenithian-leotard",
@@ -4814,6 +5217,9 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "droppedBy": {
+   "estark": "(lv. 69–80: 15%; lv. 81–90: 20%; lv. 91–99: 25%)"
+  }
  }
 }

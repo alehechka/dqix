@@ -28,83 +28,83 @@
    "sainted-soma": 2
   },
   "ingredientFor": [
-   "nebula-sword",
-   "supernova-sword",
-   "hypernova-sword",
-   "stud-poker",
-   "split-pot-poker",
-   "red-hot-poker",
+   "aeon-s-bow",
+   "aeon-s-robe",
+   "apollo-s-crown",
+   "archangel-s-bow",
+   "archangel-s-robe",
+   "asterang",
+   "aurora-staff",
+   "autumn-shower-hat",
+   "avalanche-axe",
+   "basilic-boots",
+   "big-boss-shield",
+   "blessed-helm",
+   "boots-of-beatitude",
+   "brilliant-staff",
+   "catatonic-cosh",
+   "celestria-s-raiment",
+   "coma-cudgel",
    "darting-dagger",
    "dashing-dagger",
-   "dynamo-dagger",
-   "savant-s-staff",
-   "shining-staff",
-   "brilliant-staff",
-   "aurora-staff",
-   "goddess-whip",
-   "mega-gringham-whip",
-   "giga-gringham-whip",
-   "über-gringham-whip",
-   "senseless-stick",
-   "catatonic-cosh",
-   "coma-cudgel",
+   "devilry-drinker",
+   "diana-gauntlets",
+   "dire-critical-fan",
    "dragovian-claws",
    "dragovian-lord-claws",
-   "xenlon-claws",
-   "overcritical-fan",
-   "hypercritical-fan",
-   "dire-critical-fan",
-   "avalanche-axe",
-   "maxi-axe",
-   "galaxy-axe",
-   "titan-s-hammer",
+   "dynamo-dagger",
    "earthsplitter",
-   "moonmasher",
-   "starsmasher",
-   "asterang",
-   "stellarang",
-   "galaxarang",
-   "archangel-s-bow",
-   "aeon-s-bow",
-   "seraph-s-bow",
-   "big-boss-shield",
-   "psyche-swiper",
-   "devilry-drinker",
-   "soul-sucker",
-   "apollo-s-crown",
-   "blessed-helm",
-   "wonder-helm",
-   "heavenly-helm",
-   "spring-breeze-hat",
-   "summer-cloud-hat",
-   "autumn-shower-hat",
-   "winter-sky-hat",
-   "glorious-armour",
-   "mythical-armour",
-   "legendary-armour",
-   "stratotoga",
-   "mesotoga",
-   "exotoga",
-   "celestria-s-raiment",
-   "archangel-s-robe",
-   "aeon-s-robe",
-   "seraph-s-robe",
-   "diana-gauntlets",
-   "tempestes-gauntlets",
-   "sol-invictus-gauntlets",
-   "master-s-gloves",
-   "grandmaster-s-gloves",
-   "godly-gloves",
-   "immortal-trousers",
-   "eternity-trousers",
-   "infinity-trousers",
-   "basilic-boots",
    "emperor-s-boots",
-   "boots-of-beatitude",
-   "tricksie-boots",
+   "eternity-trousers",
+   "exotoga",
+   "galaxarang",
+   "galaxy-axe",
+   "giga-gringham-whip",
+   "glorious-armour",
+   "goddess-whip",
+   "godly-gloves",
+   "grandmaster-s-gloves",
+   "heavenly-helm",
+   "hypercritical-fan",
+   "hypernova-sword",
+   "immortal-trousers",
+   "infinity-trousers",
+   "legendary-armour",
+   "master-s-gloves",
+   "maxi-axe",
+   "mega-gringham-whip",
+   "mesotoga",
+   "moonmasher",
+   "mythical-armour",
+   "nebula-sword",
+   "overcritical-fan",
+   "psyche-swiper",
+   "red-hot-poker",
    "sagacious-sandals",
    "sapient-sandals",
-   "sentient-sandals"
+   "savant-s-staff",
+   "senseless-stick",
+   "sentient-sandals",
+   "seraph-s-bow",
+   "seraph-s-robe",
+   "shining-staff",
+   "sol-invictus-gauntlets",
+   "soul-sucker",
+   "split-pot-poker",
+   "spring-breeze-hat",
+   "starsmasher",
+   "stellarang",
+   "stratotoga",
+   "stud-poker",
+   "summer-cloud-hat",
+   "supernova-sword",
+   "tempestes-gauntlets",
+   "titan-s-hammer",
+   "tricksie-boots",
+   "winter-sky-hat",
+   "wonder-helm",
+   "xenlon-claws",
+   "über-gringham-whip"
   ]
  },
  "aggressence": {
@@ -124,14 +124,20 @@
    "softwort": 1,
    "wakerobin": 1
   },
+  "locationsFound": [
+   "Rank 5 (E) blue chest in grotto (10%)"
+  ],
+  "droppedBy": {
+   "hammibal": "(1/32)"
+  },
   "ingredientFor": [
    "dragontail-whip",
    "erazor-wing-boomerang",
-   "sturdy-gauntlets",
    "heavy-gauntlets",
-   "wonder-pants",
    "strength-ring",
-   "tough-guy-tattoo"
+   "sturdy-gauntlets",
+   "tough-guy-tattoo",
+   "wonder-pants"
   ]
  },
  "angel-bell": {
@@ -145,10 +151,23 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "locationsFound": [
+   "Porth Llaffan (item shop)",
+   "Dourbridge (item shop)",
+   "Bloomingdale (item shop)",
+   "Gleeba (item shop)",
+   "Batsureg (item shop)",
+   "Wormwood Creek (item shop)",
+   "Upover (item shop)",
+   "Rank 2 (H) blue chest in grotto (10%)"
+  ],
+  "droppedBy": {
+   "chariot-chappie": "(1/32)"
+  },
   "ingredientFor": [
-   "ring-of-clarity",
+   "astral-plume",
    "perfect-panacea",
-   "astral-plume"
+   "ring-of-clarity"
   ]
  },
  "antidotal-herb": {
@@ -162,6 +181,25 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "locationsFound": [
+   "Angel Falls (item shop)",
+   "Stornway (item shop)",
+   "Coffinwell (item shop)",
+   "Alltrades Abbey (item shop)",
+   "Port Llaffan (item shop)",
+   "Slurry Quay (item shop)",
+   "Dourbridge (item shop)",
+   "Bloomingdale (item shop)",
+   "Gleeba (item shop)",
+   "Batsureg (item shop)",
+   "Swinedimples Academy (item shop)",
+   "Wormwood Creek (item shop)",
+   "Upover (item shop)",
+   "Rank 1 (I) blue chest in grotto (8%)"
+  ],
+  "droppedBy": {
+   "bodkin-fletcher": "(1/8)"
+  },
   "ingredientFor": [
    "strong-antidote"
   ],
@@ -209,12 +247,16 @@
    "flurry-feather": 3,
    "fresh-water": 2
   },
+  "locationsFound": [
+   "Rank 6 (D) blue chest in grotto (10%)",
+   "Rank 9 (A) blue chest in grotto (10%)"
+  ],
   "ingredientFor": [
-   "mega-magical-mace",
-   "sizzling-bikini-top",
    "celestria-s-raiment",
+   "mega-magical-mace",
+   "sainted-soma",
    "sizzling-bikini-bottoms",
-   "sainted-soma"
+   "sizzling-bikini-top"
   ]
  },
  "basic-biscuits": {
@@ -239,12 +281,15 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "mushroom-mage": "(1/8)"
+  },
   "ingredientFor": [
    "ace-of-clubs",
-   "fancy-pants",
    "classy-clogs",
-   "sorceress-sandals",
-   "mystifying-mixture"
+   "fancy-pants",
+   "mystifying-mixture",
+   "sorceress-sandals"
   ],
   "requiredFor": [
    "017-you-shouldn-t-have...really",
@@ -268,6 +313,10 @@
    "nectar": 3,
    "sleeping-hibiscus": 5
   },
+  "ingredientFor": [
+   "gold-bar",
+   "sage-s-stone"
+  ],
   "requiredFor": [
    "025-warbling-wellard",
    "156-inn-search-of-an-inny"
@@ -307,19 +356,22 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "nimzo": "(lv. 1: 5%—lv. 91: 10%)"
+  },
   "ingredientFor": [
-   "shining-staff",
-   "brilliant-staff",
    "aurora-staff",
-   "senseless-stick",
+   "brilliant-staff",
    "catatonic-cosh",
    "coma-cudgel",
-   "stratotoga",
-   "mesotoga",
    "exotoga",
+   "mesotoga",
    "sagacious-sandals",
    "sapient-sandals",
-   "sentient-sandals"
+   "senseless-stick",
+   "sentient-sandals",
+   "shining-staff",
+   "stratotoga"
   ]
  },
  "brighten-rock": {
@@ -333,16 +385,19 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "cosmic-chimaera": "(1/8)"
+  },
   "ingredientFor": [
    "aurora-blade",
+   "dancer-s-dress",
+   "flamenco-shirt",
+   "lucida-shard",
    "magma-staff",
    "majestic-mantle",
-   "flamenco-shirt",
-   "dancer-s-dress",
-   "twinkling-tuxedo",
    "shimmering-dress",
    "technicolour-dreamcloth",
-   "lucida-shard"
+   "twinkling-tuxedo"
   ]
  },
  "butterfly-wing": {
@@ -356,11 +411,14 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "dread-admiral": "(1/8)"
+  },
   "ingredientFor": [
    "batterfly-knife",
+   "bow-tie",
    "dread-dagger",
-   "malleable-mask",
-   "bow-tie"
+   "malleable-mask"
   ],
   "requiredFor": [
    "146-hail-to-the-queen"
@@ -382,13 +440,16 @@
    "fresh-water": 3,
    "tangleweb": 5
   },
+  "droppedBy": {
+   "lleviathan": "(100%)"
+  },
   "ingredientFor": [
-   "tsunami-staff",
-   "optimistick",
    "billowing-bow",
    "blustery-bow",
    "flowing-dress",
-   "technicolour-dreamcloth"
+   "optimistick",
+   "technicolour-dreamcloth",
+   "tsunami-staff"
   ],
   "requiredFor": [
    "159-have-you-seen-charlene?"
@@ -405,6 +466,26 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "locationsFound": [
+   "Angel Falls (item shop)",
+   "Zere (item shop)",
+   "Stornway (item shop)",
+   "Coffinwell (item shop)",
+   "Alltrades Abbey (item shop)",
+   "Porth Llaffan (item shop)",
+   "Slurry Quay (item shop)",
+   "Dourbridge (item shop)",
+   "Bloomingdale (item shop)",
+   "Gleeba (item shop)",
+   "Batsureg (item shop)",
+   "Swinedimples Academy (item shop)",
+   "Wormwood Creek (item shop)",
+   "Upover (item shop)",
+   "Rank 1 (I) blue chest in grotto (10%)"
+  ],
+  "droppedBy": {
+   "chimaera": "(1/8)"
+  },
   "canBeUsedFor": [
    "013-all-fired-up"
   ]
@@ -446,6 +527,10 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "locationsFound": [
+   "Lonely Coast (item shop)",
+   "Red chest in Tower of Nod (L6)"
+  ],
   "ingredientFor": [
    "agate-of-evolution"
   ]
@@ -473,9 +558,17 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "locationsFound": [
+   "Batsureg (item shop)",
+   "Wormwood Creek (item shop)",
+   "Upover (item shop)"
+  ],
+  "droppedBy": {
+   "betterfly": "(1/8)"
+  },
   "ingredientFor": [
-   "poison-moth-knife",
-   "batterfly-knife"
+   "batterfly-knife",
+   "poison-moth-knife"
   ]
  },
  "corundum": {
@@ -490,6 +583,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "admirer": "(1/64)"
+  },
   "ingredientFor": [
    "raging-ruby",
    "ruby-of-protection"
@@ -506,6 +602,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "bag-o--laughs": "(1/8)"
+  },
   "ingredientFor": [
    "mystifying-mixture"
   ],
@@ -524,15 +623,18 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "belisha-beakon": "(1/32)"
+  },
   "ingredientFor": [
-   "trident",
    "flame-tang",
-   "watermaul-wand",
    "fowl-fan",
-   "solar-fan",
-   "hot-bikini-top",
    "hot-bikini-bottoms",
-   "red-tights"
+   "hot-bikini-top",
+   "red-tights",
+   "solar-fan",
+   "trident",
+   "watermaul-wand"
   ]
  },
  "crown-jewel": {
@@ -563,13 +665,20 @@
    "flintstone": 3,
    "iron-ore": 3
   },
+  "locationsFound": [
+   "Rank 6 (D) blue chest in grotto (6%)",
+   "Rank 7 (C) blue chest in grotto (10%)"
+  ],
+  "droppedBy": {
+   "wishmaster": "(1/32)"
+  },
   "ingredientFor": [
    "gracos-s-trident",
-   "terra-firmer",
+   "heavy-gauntlets",
+   "impregnable-leggings",
    "megaton-hammer",
    "ogre-shield",
-   "heavy-gauntlets",
-   "impregnable-leggings"
+   "terra-firmer"
   ]
  },
  "elfin-elixir": {
@@ -589,6 +698,12 @@
    "royal-soil": 3,
    "yggdrasil-leaf": 1
   },
+  "locationsFound": [
+   "Trade with Cap'n Max Meddlin' (after 80 cumulative)"
+  ],
+  "droppedBy": {
+   "cobra-cardinal": "(1/256)"
+  },
   "ingredientFor": [
    "elfin-charm",
    "yggdrasil-dew"
@@ -605,11 +720,14 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "salamarauder": "(1/16)"
+  },
   "ingredientFor": [
-   "tortoise-shell",
-   "tortoiseshell-armour",
+   "elfin-charm",
    "green-tights",
-   "elfin-charm"
+   "tortoise-shell",
+   "tortoiseshell-armour"
   ]
  },
  "enchanted-stone": {
@@ -628,16 +746,22 @@
    "mystifying-mixture": 1,
    "thunderball": 2
   },
+  "locationsFound": [
+   "Rank 8 (B) blue chest in grotto (13%)"
+  ],
+  "droppedBy": {
+   "larstastnaras": "(100%)"
+  },
   "ingredientFor": [
-   "tsunami-staff",
-   "kite-claws",
-   "gale-force-fan",
-   "purblind-bow",
-   "enchanted-shield",
    "enchanted-armour",
-   "enchanted-robes",
    "enchanted-gloves",
-   "ethereal-stone"
+   "enchanted-robes",
+   "enchanted-shield",
+   "ethereal-stone",
+   "gale-force-fan",
+   "kite-claws",
+   "purblind-bow",
+   "tsunami-staff"
   ]
  },
  "ethereal-stone": {
@@ -657,16 +781,22 @@
    "narspicious": 2,
    "perfect-panacea": 1
   },
+  "locationsFound": [
+   "Rank 9 (A) blue chest in grotto (10%)"
+  ],
+  "droppedBy": {
+   "gadrongo": "(100%)"
+  },
   "ingredientFor": [
-   "executioner-s-axe",
-   "terra-hammer",
+   "agate-of-evolution",
    "blinding-bow",
-   "ethereal-shield",
    "ethereal-armour",
-   "ethereal-robes",
    "ethereal-gloves",
+   "ethereal-robes",
+   "ethereal-shield",
+   "executioner-s-axe",
    "gold-bar",
-   "agate-of-evolution"
+   "terra-hammer"
   ],
   "requiredFor": [
    "151-pushy-peddler"
@@ -682,7 +812,20 @@
   "buyPrice": 28,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday-item",
+  "locationsFound": [
+   "Stornway (item shop)",
+   "Coffinwell (item shop)",
+   "Porth Llaffan (item shop)",
+   "Slurry Quay (item shop)",
+   "Bloomingdale (item shop)",
+   "Gleeba (item shop)",
+   "Batsureg (item shop)",
+   "Wormwood Creek (item shop)",
+   "Upover (item shop)",
+   "Rank 1 (I) blue chest in grotto (10%)",
+   "Rank 10 (S) blue chest in grotto (10%)"
+  ]
  },
  "evencloth": {
   "id": "evencloth",
@@ -695,14 +838,17 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "ragged-reaper": "(1/16)"
+  },
   "ingredientFor": [
    "assassin-s-dagger",
-   "tortoiseshell-fan",
-   "thief-s-turban",
    "dark-robe",
    "gloomy-gloves",
+   "lucida-shard",
    "murky-mittens",
-   "lucida-shard"
+   "thief-s-turban",
+   "tortoiseshell-fan"
   ],
   "requiredFor": [
    "009-labour-of-love"
@@ -749,14 +895,17 @@
    "slipweed": 1,
    "superior-medicine": 1
   },
+  "locationsFound": [
+   "Rank 5 (E) blue chest in grotto (10%)"
+  ],
   "ingredientFor": [
-   "tracksuit-top",
-   "tussler-s-top",
    "dragon-dress",
    "dragon-top",
-   "tracky-bottoms",
-   "tussler-s-trousers",
    "dragon-trousers",
+   "tracksuit-top",
+   "tracky-bottoms",
+   "tussler-s-top",
+   "tussler-s-trousers",
    "wu-shoes"
   ]
  },
@@ -770,9 +919,12 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "mushroom-mage": "(1/8)"
+  },
   "ingredientFor": [
-   "finessence",
-   "aggressence"
+   "aggressence",
+   "finessence"
   ],
   "requiredFor": [
    "017-you-shouldn-t-have...really"
@@ -789,9 +941,12 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "stone-golem": "(1/16)"
+  },
   "ingredientFor": [
-   "terra-tamper",
-   "densinium"
+   "densinium",
+   "terra-tamper"
   ]
  },
  "flurry-feather": {
@@ -804,20 +959,23 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "weaken-beakon": "(1/16)"
+  },
   "ingredientFor": [
-   "staff-of-sentencing",
-   "staff-of-divine-wrath",
-   "mistick",
+   "agility-ring",
+   "astral-plume",
+   "blowy-bow",
+   "eaglewing",
+   "feather-headband",
+   "feathered-cap",
    "foehn-fan",
    "fowl-fan",
-   "eaglewing",
    "gusterang",
-   "blowy-bow",
-   "tempest-shield",
-   "feathered-cap",
-   "feather-headband",
-   "agility-ring",
-   "astral-plume"
+   "mistick",
+   "staff-of-divine-wrath",
+   "staff-of-sentencing",
+   "tempest-shield"
   ]
  },
  "fresh-water": {
@@ -830,12 +988,15 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "cheeky-tiki": "(1/16)"
+  },
   "ingredientFor": [
-   "mistick",
-   "rosary",
-   "birdsong-nectar",
    "astral-plume",
-   "celestial-skein"
+   "birdsong-nectar",
+   "celestial-skein",
+   "mistick",
+   "rosary"
   ],
   "requiredFor": [
    "006-get-well-water"
@@ -876,13 +1037,16 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "stale-whale": "(1/16)"
+  },
   "ingredientFor": [
-   "erdrick-s-sword",
-   "sandstorm-spear",
-   "erdrick-s-shield",
-   "erdrick-s-helmet",
    "erdrick-s-armour",
-   "erdrick-s-gauntlets"
+   "erdrick-s-gauntlets",
+   "erdrick-s-helmet",
+   "erdrick-s-shield",
+   "erdrick-s-sword",
+   "sandstorm-spear"
   ]
  },
  "gleeban-gold-piece": {
@@ -896,7 +1060,15 @@
   "sellPrice": 1000,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday-item",
+  "locationsFound": [
+   "Rank 8 (B) blue chest in grotto (15%)",
+   "Rank 9 (A) blue chest in grotto (10%)",
+   "Rank 10 (S) blue chest in grotto (10%)"
+  ],
+  "droppedBy": {
+   "gem-jamboree": "(1/16)"
+  }
  },
  "gleeban-groat": {
   "id": "gleeban-groat",
@@ -941,12 +1113,15 @@
    "ethereal-stone": 2,
    "sainted-soma": 3
   },
+  "droppedBy": {
+   "tyrannosaurus-wrecks": "(1/10)"
+  },
   "ingredientFor": [
-   "storm-spear",
+   "goddess-ring",
    "golden-axe",
-   "spellward-circlet",
    "meteorite-bracer",
-   "goddess-ring"
+   "spellward-circlet",
+   "storm-spear"
   ]
  },
  "grubby-bandage": {
@@ -960,12 +1135,15 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "mummy": "(1/8)"
+  },
   "ingredientFor": [
-   "saintly-robe",
-   "fizzle-proof-suit",
    "bow-tie",
-   "utility-belt",
-   "technicolour-dreamcloth"
+   "fizzle-proof-suit",
+   "saintly-robe",
+   "technicolour-dreamcloth",
+   "utility-belt"
   ],
   "requiredFor": [
    "030-wrapper-s-delight"
@@ -1000,26 +1178,33 @@
    "royal-soil": 1,
    "toad-oil": 1
   },
+  "locationsFound": [
+   "Rank 5 (E) blue chest in grotto (10%)",
+   "Rank 6 (D) blue chest in grotto (15%)"
+  ],
+  "droppedBy": {
+   "flamin--drayman": "(1/64)"
+  },
   "ingredientFor": [
-   "gigasteel-broadsword",
-   "platinum-sword",
-   "gigasteel-lance",
    "gigaspike-whip",
-   "gigasteel-bar",
-   "orichalcudgel",
-   "gigasteel-claws",
-   "orichalcum-claws",
-   "gigasteel-fan",
-   "gigasteel-axe",
-   "gigasteel-shield",
-   "platinum-shield",
-   "gigasteel-helmet",
-   "platinum-headgear",
    "gigasteel-armour",
-   "platinum-mail",
+   "gigasteel-axe",
+   "gigasteel-bar",
+   "gigasteel-broadsword",
+   "gigasteel-claws",
+   "gigasteel-fan",
    "gigasteel-gauntlets",
+   "gigasteel-helmet",
    "gigasteel-kneecaps",
+   "gigasteel-lance",
    "gigasteel-sabatons",
+   "gigasteel-shield",
+   "orichalcudgel",
+   "orichalcum-claws",
+   "platinum-headgear",
+   "platinum-mail",
+   "platinum-shield",
+   "platinum-sword",
    "sunstone"
   ]
  },
@@ -1034,12 +1219,30 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "locationsFound": [
+   "Zere (item shop)",
+   "Stornway (item shop)",
+   "Coffinwell (item shop)",
+   "Port Llaffan (item shop)",
+   "Slurry Quay (item shop)",
+   "Dourbridge (item shop)",
+   "Bloomingdale (item shop)",
+   "Gleeba (item shop)",
+   "Batsureg (item shop)",
+   "Swinedimples academy (item shop)",
+   "Wormwood Creek (item shop)",
+   "Upover (item shop)",
+   "Rank 1 (I) blue chest in grotto (10%)"
+  ],
+  "droppedBy": {
+   "lost-soul": "(1/8)"
+  },
   "ingredientFor": [
    "aurora-blade",
    "divine-dagger",
-   "white-shield",
    "holy-talisman",
-   "magic-water"
+   "magic-water",
+   "white-shield"
   ]
  },
  "horse-manure": {
@@ -1052,6 +1255,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "godsteed": "(1/8)"
+  },
   "ingredientFor": [
    "friendly-fan"
   ]
@@ -1067,14 +1273,17 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "freezing-fog": "(1/16)"
+  },
   "ingredientFor": [
-   "icicle-dirk",
-   "fenrir-fang",
-   "white-tiger-fan",
-   "ice-axe",
    "avalanche-axe",
+   "enchanted-stone",
+   "fenrir-fang",
+   "ice-axe",
    "ice-shield",
-   "enchanted-stone"
+   "icicle-dirk",
+   "white-tiger-fan"
   ]
  },
  "iron-nails": {
@@ -1087,13 +1296,19 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "locationsFound": [
+   "Rank 2 (H) blue chest in grotto (10%)"
+  ],
+  "droppedBy": {
+   "killing-machine": "(1/16)"
+  },
   "ingredientFor": [
-   "hammer-handrills",
-   "reinforced-boomerang",
-   "cutting-edge-boomerang",
-   "spiked-armour",
    "chainmail-socks",
-   "payback-pumps"
+   "cutting-edge-boomerang",
+   "hammer-handrills",
+   "payback-pumps",
+   "reinforced-boomerang",
+   "spiked-armour"
   ]
  },
  "iron-ore": {
@@ -1107,36 +1322,39 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "robo-robin": "(1/16)"
+  },
   "ingredientFor": [
-   "steel-broadsword",
-   "gigasteel-broadsword",
-   "steel-lance",
-   "gigasteel-lance",
-   "spiked-steel-whip",
-   "gigaspike-whip",
-   "steel-bar",
-   "gigasteel-bar",
-   "steel-claws",
-   "gigasteel-claws",
-   "hammer-handrills",
-   "steel-fan",
-   "gigasteel-fan",
-   "steel-axe",
-   "gigasteel-axe",
-   "steel-shield",
-   "gigasteel-shield",
-   "steel-helmet",
-   "gigasteel-helmet",
+   "densinium",
    "full-plate-armour",
+   "gigaspike-whip",
    "gigasteel-armour",
-   "steel-gauntlets",
+   "gigasteel-axe",
+   "gigasteel-bar",
+   "gigasteel-broadsword",
+   "gigasteel-claws",
+   "gigasteel-fan",
    "gigasteel-gauntlets",
-   "sturdy-gauntlets",
-   "steel-kneecaps",
+   "gigasteel-helmet",
    "gigasteel-kneecaps",
-   "steel-sabatons",
+   "gigasteel-lance",
    "gigasteel-sabatons",
-   "densinium"
+   "gigasteel-shield",
+   "hammer-handrills",
+   "spiked-steel-whip",
+   "steel-axe",
+   "steel-bar",
+   "steel-broadsword",
+   "steel-claws",
+   "steel-fan",
+   "steel-gauntlets",
+   "steel-helmet",
+   "steel-kneecaps",
+   "steel-lance",
+   "steel-sabatons",
+   "steel-shield",
+   "sturdy-gauntlets"
   ]
  },
  "kitty-litter": {
@@ -1150,12 +1368,15 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "purrestidigitator": "(1/8)"
+  },
   "ingredientFor": [
-   "sandstorm-spear",
+   "cat-ears",
+   "catty-shield",
    "feline-fan",
    "kitty-shield",
-   "catty-shield",
-   "cat-ears"
+   "sandstorm-spear"
   ]
  },
  "knifing-know-how": {
@@ -1181,17 +1402,23 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "locationsFound": [
+   "Batsureg (item shop)"
+  ],
+  "droppedBy": {
+   "rampage": "(1/8)"
+  },
   "ingredientFor": [
+   "blessed-bottoms",
+   "cloak-of-concealment",
+   "ear-cosy",
+   "emperor-s-attire",
+   "empress-s-robe",
    "fur-hood",
    "hunter-s-hat",
-   "ear-cosy",
-   "cloak-of-concealment",
-   "robe-of-sweet-dreams",
-   "queen-s-robe",
-   "empress-s-robe",
    "king-s-coat",
-   "emperor-s-attire",
-   "blessed-bottoms"
+   "queen-s-robe",
+   "robe-of-sweet-dreams"
   ],
   "requiredFor": [
    "014-snug-as-a-thug"
@@ -1208,20 +1435,23 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "bagma": "(1/16)"
+  },
   "ingredientFor": [
-   "steel-broadsword",
    "fire-blade",
-   "steel-lance",
-   "spiked-steel-whip",
-   "steel-bar",
-   "steel-claws",
    "fire-claws",
-   "steel-fan",
-   "vermillion-bird-fan",
-   "steel-axe",
-   "flametang-boomerang",
    "flame-shield",
-   "hephaestus--flame"
+   "flametang-boomerang",
+   "hephaestus--flame",
+   "spiked-steel-whip",
+   "steel-axe",
+   "steel-bar",
+   "steel-broadsword",
+   "steel-claws",
+   "steel-fan",
+   "steel-lance",
+   "vermillion-bird-fan"
   ]
  },
  "lucida-shard": {
@@ -1240,14 +1470,20 @@
    "brighten-rock": 3,
    "evencloth": 3
   },
+  "locationsFound": [
+   "Rank 7 (C) blue chest in grotto (10%)"
+  ],
+  "droppedBy": {
+   "cosmic-chimaera": "(1/128)"
+  },
   "ingredientFor": [
-   "lunar-fan",
    "hexarang",
-   "star-circlet",
-   "superstar-s-suit",
+   "lunar-fan",
    "meteorite-bracer",
    "sainted-soma",
-   "sunstone"
+   "star-circlet",
+   "sunstone",
+   "superstar-s-suit"
   ]
  },
  "luminary-s-lore": {
@@ -1275,10 +1511,13 @@
   "recipe": {
    "moonwort-bulb": 3
   },
+  "droppedBy": {
+   "prism-peacock": "(1/32)"
+  },
   "ingredientFor": [
+   "full-moon-ring",
    "moon-axe",
-   "razer-wing-boomerang",
-   "full-moon-ring"
+   "razer-wing-boomerang"
   ]
  },
  "mage-s-manual": {
@@ -1303,17 +1542,20 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "trigertaur": "(1/8)"
+  },
   "ingredientFor": [
    "fur-hood",
-   "hunter-s-hat",
-   "musketeer-hat",
    "fur-poncho",
-   "tussler-s-top",
    "fur-vest",
+   "hobnail-boots",
+   "hunter-s-hat",
    "leather-gloves",
    "leather-kilt",
-   "tussler-s-trousers",
-   "hobnail-boots"
+   "musketeer-hat",
+   "tussler-s-top",
+   "tussler-s-trousers"
   ]
  },
  "magic-beast-horn": {
@@ -1327,18 +1569,21 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "swinoceros": "(1/8)"
+  },
   "ingredientFor": [
-   "poison-needle",
-   "fenrir-fang",
-   "serpentine-whip",
    "beastmaster-claws",
    "cutting-edge-boomerang",
-   "ogre-shield",
-   "raging-bull-helm",
+   "fenrir-fang",
    "minotaur-helm",
+   "ogre-shield",
+   "payback-pumps",
    "pointy-hat",
-   "spiked-armour",
-   "payback-pumps"
+   "poison-needle",
+   "raging-bull-helm",
+   "serpentine-whip",
+   "spiked-armour"
   ]
  },
  "magic-water": {
@@ -1357,11 +1602,14 @@
    "nectar": 1,
    "royal-soil": 1
   },
+  "droppedBy": {
+   "jinkster": "(1/32)"
+  },
   "ingredientFor": [
-   "staff-of-sentencing",
    "lightning-staff",
    "rune-staff",
-   "sage-s-elixir"
+   "sage-s-elixir",
+   "staff-of-sentencing"
   ],
   "requiredFor": [
    "008-don-t-cry-over-spilt-ink"
@@ -1384,15 +1632,21 @@
    "pink-pearl": 1,
    "terrible-tattoo": 2
   },
+  "locationsFound": [
+   "Rank 4 (F) blue chest in grotto (1%)"
+  ],
+  "droppedBy": {
+   "blood-mummy": "(1/128)"
+  },
   "ingredientFor": [
-   "demon-spear",
    "archdemon-whip",
-   "oh-no-bow",
+   "demon-spear",
    "hades--helm",
-   "skull-helm",
    "murky-mittens",
-   "skull-ring",
-   "reckless-necklace"
+   "oh-no-bow",
+   "reckless-necklace",
+   "skull-helm",
+   "skull-ring"
   ]
  },
  "manky-mud": {
@@ -1406,10 +1660,13 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "walking-corpse": "(1/8)"
+  },
   "ingredientFor": [
+   "mystifying-mixture",
    "poison-moth-knife",
-   "poison-needle",
-   "mystifying-mixture"
+   "poison-needle"
   ],
   "requiredFor": [
    "127-a-right-royal-nightmare"
@@ -1438,14 +1695,34 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "locationsFound": [
+   "Angel Falls (item shop)",
+   "Zere (item shop)",
+   "Stornway (item shop)",
+   "Coffinwell (item shop)",
+   "Alltrades Abbey (item shop)",
+   "Port Llaffan (item shop)",
+   "Slurry Quay (item shop)",
+   "Bloomingdale (item shop)",
+   "Gleeba (item shop)",
+   "Batsureg (item shop)",
+   "Swinedimples Academy (item shop)",
+   "Wormwood Creek (item shop)",
+   "Upover (item shop)",
+   "Rank 1 (I) blue chest in grotto (10%)"
+  ],
+  "droppedBy": {
+   "slime": "(1/8)"
+  },
   "ingredientFor": [
+   "strong-antidote",
    "strong-medicine",
-   "superior-medicine",
-   "strong-antidote"
+   "superior-medicine"
   ],
   "requiredFor": [
-   "005-herb-list",
-   "can-be-used-for:",
+   "005-herb-list"
+  ],
+  "canBeUsedFor": [
    "013-all-fired-up"
   ]
  },
@@ -1459,7 +1736,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday-item",
+  "droppedBy": {
+   "pandora-s-box": "(1/8)"
+  }
  },
  "minstrel-s-manual": {
   "id": "minstrel-s-manual",
@@ -1484,10 +1764,13 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "mega-moai": "(1/32)"
+  },
   "ingredientFor": [
-   "silver-shield",
-   "mirror-armour",
    "catoptric-armour",
+   "mirror-armour",
+   "silver-shield",
    "sunstone"
   ]
  },
@@ -1502,10 +1785,27 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "locationsFound": [
+   "Zere (item shop)",
+   "Coffinwell (item shop)",
+   "Port Llaffan (item shop)",
+   "Slurry Quay (item shop)",
+   "Dourbridge (item shop)",
+   "Bloomingdale (item shop)",
+   "Gleeba (item shop)",
+   "Batsureg (item shop)",
+   "Swinedimples Academy (item shop)",
+   "Wormwood Creek (item shop)",
+   "Upover (item shop)",
+   "Rank 1 (I) blue chest in grotto (8%)"
+  ],
+  "droppedBy": {
+   "leafy-larrikin": "(1/8)"
+  },
   "ingredientFor": [
-   "softwort",
    "lunaria",
-   "panacea"
+   "panacea",
+   "softwort"
   ],
   "requiredFor": [
    "005-herb-list"
@@ -1528,12 +1828,18 @@
    "cowpat": 3,
    "manky-mud": 1
   },
+  "locationsFound": [
+   "Rank 6 (D) blue chest in grotto (15%)"
+  ],
+  "droppedBy": {
+   "mudraker": "(1/128)"
+  },
   "ingredientFor": [
-   "moon-axe",
-   "full-moon-axe",
-   "purblind-bow",
    "blinding-bow",
-   "enchanted-stone"
+   "enchanted-stone",
+   "full-moon-axe",
+   "moon-axe",
+   "purblind-bow"
   ]
  },
  "mythril-ore": {
@@ -1548,19 +1854,22 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "void-droid": "(1/32)"
+  },
   "ingredientFor": [
-   "mega-magical-mace",
-   "fizzle-foil",
-   "lightning-lance",
+   "crown-of-clarity",
    "erazor-wing-boomerang",
+   "fizzle-foil",
    "hexarang",
-   "white-knight-s-shield",
-   "silver-shield",
+   "holy-mail",
+   "lightning-lance",
+   "mega-magical-mace",
    "mythril-coif",
    "mythril-helm",
-   "crown-of-clarity",
-   "holy-mail",
-   "safer-shoes"
+   "safer-shoes",
+   "silver-shield",
+   "white-knight-s-shield"
   ],
   "requiredFor": [
    "146-hail-to-the-queen"
@@ -1577,14 +1886,17 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "shivery-shrubbery": "(1/64)"
+  },
   "ingredientFor": [
+   "ethereal-stone",
+   "fancy-pants",
    "fizzle-foil",
-   "slumber-stick",
+   "malicite",
    "malleable-mask",
    "papillon-mask",
-   "fancy-pants",
-   "ethereal-stone",
-   "malicite"
+   "slumber-stick"
   ],
   "requiredFor": [
    "060-that-makes-scents"
@@ -1600,11 +1912,14 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "pink-sanguini": "(1/32)"
+  },
   "ingredientFor": [
    "birdsong-nectar",
+   "elfin-elixir",
    "magic-water",
-   "sage-s-elixir",
-   "elfin-elixir"
+   "sage-s-elixir"
   ]
  },
  "orichalcum": {
@@ -1619,34 +1934,42 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "locationsFound": [
+   "Trade with Cap'n Max Meddlin' (after 80 cumulative)",
+   "Rank 9 (A) blue chest in grotto (8%)",
+   "Rank 10 (S) blue chest in grotto (5%)"
+  ],
+  "droppedBy": {
+   "greygnarl": "(1/20)"
+  },
   "ingredientFor": [
-   "liquid-metal-sword",
-   "metal-king-sword",
+   "erdrick-s-armour",
+   "erdrick-s-gauntlets",
+   "erdrick-s-helmet",
+   "erdrick-s-shield",
    "erdrick-s-sword",
+   "goddess-shield",
+   "impregnable-leggings",
+   "liquid-metal-armour",
+   "liquid-metal-helm",
+   "liquid-metal-shield",
+   "liquid-metal-slime-boots",
+   "liquid-metal-slime-gloves",
+   "liquid-metal-sword",
    "liquid-slime-spear",
+   "megaton-hammer",
+   "metal-king-armour",
+   "metal-king-helm",
+   "metal-king-shield",
+   "metal-king-slime-boots",
+   "metal-king-slime-gloves",
    "metal-king-spear",
+   "metal-king-sword",
    "orichalcudgel",
    "orichalcum-claws",
-   "megaton-hammer",
-   "warlord-s-hammer",
-   "goddess-shield",
-   "liquid-metal-shield",
-   "metal-king-shield",
-   "erdrick-s-shield",
-   "liquid-metal-helm",
-   "metal-king-helm",
-   "erdrick-s-helmet",
-   "liquid-metal-armour",
-   "metal-king-armour",
-   "erdrick-s-armour",
-   "liquid-metal-slime-gloves",
-   "metal-king-slime-gloves",
-   "erdrick-s-gauntlets",
-   "impregnable-leggings",
-   "liquid-metal-slime-boots",
-   "metal-king-slime-boots",
    "safest-shoes",
-   "sage-s-stone"
+   "sage-s-stone",
+   "warlord-s-hammer"
   ]
  },
  "panacea": {
@@ -1665,10 +1988,16 @@
    "special-medicine": 1,
    "superior-medicine": 1
   },
+  "locationsFound": [
+   "Rank 5 (E) blue chest in grotto (15%)"
+  ],
+  "droppedBy": {
+   "blastoad": "(1/64)"
+  },
   "ingredientFor": [
+   "perfect-panacea",
    "power-shield",
-   "sober-ring",
-   "perfect-panacea"
+   "sober-ring"
   ],
   "requiredFor": [
    "004-pick-me-up-a-panacea"
@@ -1701,6 +2030,9 @@
    "panacea": 1,
    "wakerobin": 1
   },
+  "locationsFound": [
+   "Rank 7 (C) blue chest in grotto (6%)"
+  ],
   "ingredientFor": [
    "ethereal-stone"
   ]
@@ -1717,13 +2049,16 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "drackal": "(1/128)"
+  },
   "ingredientFor": [
-   "platinum-sword",
    "celestial-spear",
+   "platinum-headgear",
+   "platinum-mail",
    "platinum-platter",
    "platinum-shield",
-   "platinum-headgear",
-   "platinum-mail"
+   "platinum-sword"
   ]
  },
  "posh-biscuits": {
@@ -1761,19 +2096,22 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "nokturnus": "(lv. 26–40: 10%; lv. 91–99: 15%)"
+  },
   "ingredientFor": [
+   "blessed-helm",
+   "climaxe",
    "darting-dagger",
    "dashing-dagger",
    "dynamo-dagger",
-   "maxi-axe",
-   "climaxe",
+   "eternity-trousers",
    "galaxy-axe",
-   "blessed-helm",
-   "wonder-helm",
    "heavenly-helm",
    "immortal-trousers",
-   "eternity-trousers",
-   "infinity-trousers"
+   "infinity-trousers",
+   "maxi-axe",
+   "wonder-helm"
   ]
  },
  "ranger-s-revelations": {
@@ -1799,19 +2137,22 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "dragonlord": "(lv. 1: 5%—lv. 91: 10%)"
+  },
   "ingredientFor": [
-   "stud-poker",
-   "split-pot-poker",
-   "red-hot-poker",
+   "diana-gauntlets",
    "dragovian-claws",
    "dragovian-lord-claws",
-   "xenlon-claws",
    "glorious-armour",
-   "mythical-armour",
    "legendary-armour",
-   "diana-gauntlets",
+   "mythical-armour",
+   "red-hot-poker",
+   "sol-invictus-gauntlets",
+   "split-pot-poker",
+   "stud-poker",
    "tempestes-gauntlets",
-   "sol-invictus-gauntlets"
+   "xenlon-claws"
   ]
  },
  "reset-stone": {
@@ -1826,32 +2167,39 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "locationsFound": [
+   "Trade with Cap'n Max Meddlin' (after 80 cumulative)",
+   "Rank 10 (S) blue chest in grotto (10%)"
+  ],
+  "droppedBy": {
+   "stone-guardian": "(1/256)"
+  },
   "ingredientFor": [
-   "stardust-sword",
-   "poker",
-   "gladius",
-   "deft-dagger",
-   "bright-staff",
-   "gringham-whip",
-   "knockout-rod",
-   "dragonlord-claws",
-   "critical-fan",
-   "bad-axe",
-   "groundbreaker",
-   "pentarang",
-   "meteorang",
    "angel-s-bow",
-   "brain-drainer",
-   "hallowed-helm",
-   "victorious-armour",
-   "dangerous-bustier",
-   "tropotoga",
    "angel-s-robe",
-   "vesta-gauntlets",
    "apprentice-s-gloves",
-   "invincible-trousers",
+   "bad-axe",
+   "brain-drainer",
+   "bright-staff",
+   "critical-fan",
+   "dangerous-bustier",
+   "deft-dagger",
+   "dragonlord-claws",
+   "gladius",
+   "gringham-whip",
+   "groundbreaker",
+   "hallowed-helm",
    "hero-s-boots",
-   "sensible-sandals"
+   "invincible-trousers",
+   "knockout-rod",
+   "meteorang",
+   "pentarang",
+   "poker",
+   "sensible-sandals",
+   "stardust-sword",
+   "tropotoga",
+   "vesta-gauntlets",
+   "victorious-armour"
   ]
  },
  "resurrock": {
@@ -1865,10 +2213,13 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "handsome-crab": "(1/32)"
+  },
   "ingredientFor": [
    "flame-shield",
-   "ice-shield",
    "holy-talisman",
+   "ice-shield",
    "life-ring"
   ],
   "requiredFor": [
@@ -1886,14 +2237,20 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "locationsFound": [
+   "Rank 2 (H) blue chest in grotto (8%)"
+  ],
+  "droppedBy": {
+   "rockbomb": "(1/8)"
+  },
   "ingredientFor": [
-   "fire-blade",
-   "inferno-blade",
-   "magma-staff",
-   "fire-claws",
+   "banefire-boomerang",
    "combusticlaws",
+   "fire-blade",
+   "fire-claws",
    "flametang-boomerang",
-   "banefire-boomerang"
+   "inferno-blade",
+   "magma-staff"
   ]
  },
  "royal-soil": {
@@ -1907,21 +2264,24 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "mad-moai": "(1/16)"
+  },
   "ingredientFor": [
    "black-tortoise-fan",
-   "terra-tamper",
-   "terra-firmer",
-   "terra-hammer",
-   "steel-shield",
-   "steel-helmet",
+   "elfin-elixir",
    "full-plate-armour",
-   "steel-gauntlets",
-   "steel-kneecaps",
-   "steel-sabatons",
+   "hephaestus--flame",
    "magic-water",
    "sage-s-elixir",
-   "elfin-elixir",
-   "hephaestus--flame"
+   "steel-gauntlets",
+   "steel-helmet",
+   "steel-kneecaps",
+   "steel-sabatons",
+   "steel-shield",
+   "terra-firmer",
+   "terra-hammer",
+   "terra-tamper"
   ],
   "requiredFor": [
    "036-little-miss-bossy-boots"
@@ -1944,19 +2304,28 @@
    "nectar": 3,
    "royal-soil": 1
   },
+  "locationsFound": [
+   "Rank 7 (C) blue chest in grotto (10%)",
+   "Rank 8 (B) blue chest in grotto (10%)",
+   "Rank 9 (A) blue chest in grotto (10%)",
+   "Rank 10 (S) blue chest in grotto (15%)"
+  ],
+  "droppedBy": {
+   "freezing-fog": "(1/64)"
+  },
   "ingredientFor": [
-   "staff-of-divine-wrath",
-   "lightning-conductor",
+   "blessed-bindings",
+   "brahman-boots",
+   "cape-of-good-karma",
+   "guru-s-gloves",
    "hieroglyph-staff",
+   "lightning-conductor",
+   "prayer-ring",
+   "sainted-soma",
    "savant-s-staff",
    "scholar-s-circlet",
-   "cape-of-good-karma",
-   "blessed-bindings",
-   "guru-s-gloves",
-   "tantric-trousers",
-   "brahman-boots",
-   "prayer-ring",
-   "sainted-soma"
+   "staff-of-divine-wrath",
+   "tantric-trousers"
   ]
  },
  "sage-s-stone": {
@@ -1989,15 +2358,22 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "locationsFound": [
+   "Trade with Cap'n Max Meddlin' (after 80 cumulative)",
+   "Red treasure chest in B1F of The Plumbed Depths (requires Ultimate Key)"
+  ],
+  "droppedBy": {
+   "seavern": "(1/32)"
+  },
   "ingredientFor": [
-   "scourge-whip",
+   "celestria-s-gown",
+   "great-helm",
+   "lucky-pendant",
    "odin-s-bow",
    "saintess-shield",
-   "great-helm",
-   "sun-crown",
-   "celestria-s-gown",
+   "scourge-whip",
    "sorcerer-s-ring",
-   "lucky-pendant"
+   "sun-crown"
   ]
  },
  "sainted-soma": {
@@ -2016,12 +2392,15 @@
    "lucida-shard": 2,
    "sage-s-elixir": 2
   },
+  "locationsFound": [
+   "Rank 10 (S) blue chest in grotto (10%)"
+  ],
   "ingredientFor": [
-   "xenlon-rod",
+   "agate-of-evolution",
    "divine-bustier",
    "goddess-ring",
    "gold-bar",
-   "agate-of-evolution"
+   "xenlon-rod"
   ]
  },
  "seashell": {
@@ -2035,13 +2414,16 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "spinchilla": "(1/16)"
+  },
   "ingredientFor": [
+   "feline-fan",
+   "hot-bikini-bottoms",
+   "hot-bikini-top",
    "trident",
    "watermaul-wand",
-   "feline-fan",
    "white-shield",
-   "hot-bikini-top",
-   "hot-bikini-bottoms",
    "white-tights"
   ]
  },
@@ -2067,7 +2449,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday-item",
+  "droppedBy": {
+   "killing-machine": "(1/256)"
+  }
  },
  "seed-of-defence": {
   "id": "seed-of-defence",
@@ -2079,7 +2464,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday-item",
+  "droppedBy": {
+   "lethal-armour": "(1/256)"
+  }
  },
  "seed-of-deftness": {
   "id": "seed-of-deftness",
@@ -2091,7 +2479,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday-item",
+  "droppedBy": {
+   "white-trigertaur": "(1/256)"
+  }
  },
  "seed-of-life": {
   "id": "seed-of-life",
@@ -2103,7 +2494,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday-item",
+  "droppedBy": {
+   "metal-slime": "(1/256)"
+  }
  },
  "seed-of-magic": {
   "id": "seed-of-magic",
@@ -2115,7 +2509,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday-item",
+  "droppedBy": {
+   "sorcerer": "(1/256)"
+  }
  },
  "seed-of-skill": {
   "id": "seed-of-skill",
@@ -2127,7 +2524,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday-item",
+  "droppedBy": {
+   "platinum-king-jewel": "(1/256)"
+  }
  },
  "seed-of-sorcery": {
   "id": "seed-of-sorcery",
@@ -2139,7 +2539,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday-item",
+  "droppedBy": {
+   "cumulus-vex": "(1/256)"
+  }
  },
  "seed-of-strength": {
   "id": "seed-of-strength",
@@ -2151,7 +2554,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday-item",
+  "droppedBy": {
+   "brownie": "(1/256)"
+  }
  },
  "seed-of-therapeusis": {
   "id": "seed-of-therapeusis",
@@ -2163,7 +2569,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday-item",
+  "droppedBy": {
+   "wight-king": "(1/256)"
+  }
  },
  "silver-orb": {
   "id": "silver-orb",
@@ -2176,17 +2585,20 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "baramos": "(lv. 1: 5%—lv. 91: 10%)"
+  },
   "ingredientFor": [
-   "nebula-sword",
-   "supernova-sword",
-   "hypernova-sword",
    "asterang",
-   "stellarang",
    "galaxarang",
-   "master-s-gloves",
-   "grandmaster-s-gloves",
    "godly-gloves",
-   "sage-s-stone"
+   "grandmaster-s-gloves",
+   "hypernova-sword",
+   "master-s-gloves",
+   "nebula-sword",
+   "sage-s-stone",
+   "stellarang",
+   "supernova-sword"
   ]
  },
  "sleeping-hibiscus": {
@@ -2201,11 +2613,14 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "ram-raider": "(1/16)"
+  },
   "ingredientFor": [
-   "slumber-stick",
+   "birdsong-nectar",
    "robe-of-sweet-dreams",
-   "sorceress-sandals",
-   "birdsong-nectar"
+   "slumber-stick",
+   "sorceress-sandals"
   ],
   "requiredFor": [
    "146-hail-to-the-queen"
@@ -2222,17 +2637,20 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "slime-stack": "(1/8)"
+  },
   "ingredientFor": [
+   "gooey-gear",
+   "liquid-metal-armour",
+   "liquid-metal-helm",
+   "liquid-metal-shield",
+   "liquid-metal-slime-boots",
+   "liquid-metal-slime-gloves",
    "liquid-metal-sword",
    "liquid-slime-spear",
-   "liquid-metal-shield",
-   "liquid-metal-helm",
-   "slood",
-   "liquid-metal-armour",
-   "gooey-gear",
-   "liquid-metal-slime-gloves",
-   "liquid-metal-slime-boots",
-   "slime-earrings"
+   "slime-earrings",
+   "slood"
   ],
   "requiredFor": [
    "007-curious-crevice"
@@ -2249,12 +2667,12 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
-   "phantom-mask",
    "cloak-of-concealment",
    "dark-robe",
    "divine-bustier",
+   "finessence",
    "matador-s-gloves",
-   "finessence"
+   "phantom-mask"
   ]
  },
  "snakeskin": {
@@ -2268,13 +2686,16 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "diethon": "(1/8)"
+  },
   "ingredientFor": [
-   "snakeskin-whip",
+   "cobra-fan",
+   "large-scale-armour",
    "serpentine-whip",
    "sidewinder",
-   "cobra-fan",
-   "tricky-turban",
-   "large-scale-armour"
+   "snakeskin-whip",
+   "tricky-turban"
   ]
  },
  "softwort": {
@@ -2292,6 +2713,13 @@
    "moonwort-bulb": 1,
    "strong-medicine": 1
   },
+  "locationsFound": [
+   "Bloomingdale (item shop)",
+   "Surry Coast (southern-most point on the beach)"
+  ],
+  "droppedBy": {
+   "man-o--war": "(1/32)"
+  },
   "ingredientFor": [
    "aggressence"
   ]
@@ -2308,7 +2736,10 @@
   "classification": "everyday-item",
   "recipe": {
    "strong-antidote": 2
-  }
+  },
+  "ingredientFor": [
+   "contra-band"
+  ]
  },
  "special-medicine": {
   "id": "special-medicine",
@@ -2322,6 +2753,9 @@
   "classification": "everyday-item",
   "recipe": {
    "strong-medicine": 2
+  },
+  "droppedBy": {
+   "great-troll": "(1/32)"
   },
   "ingredientFor": [
    "panacea"
@@ -2369,6 +2803,15 @@
    "antidotal-herb": 1,
    "medicinal-herb": 1
   },
+  "locationsFound": [
+   "Gleeba (item shop)",
+   "Wormwood Creek (item shop)",
+   "Upover (item shop)",
+   "Rank 2 (H) blue chest in grotto (10%)"
+  ],
+  "droppedBy": {
+   "peckerel": "(1/16)"
+  },
   "ingredientFor": [
    "special-antidote"
   ]
@@ -2387,10 +2830,19 @@
   "recipe": {
    "medicinal-herb": 2
   },
+  "locationsFound": [
+   "Gleeba (item shop)",
+   "Batsureg (item shop)",
+   "Wormwood Creek (item shop)",
+   "Rank 1 (I) blue chest in grotto (8%)"
+  ],
+  "droppedBy": {
+   "zumeanie": "(1/16)"
+  },
   "ingredientFor": [
+   "softwort",
    "special-medicine",
-   "superior-medicine",
-   "softwort"
+   "superior-medicine"
   ]
  },
  "sunstone": {
@@ -2409,6 +2861,14 @@
    "lucida-shard": 2,
    "mirrorstone": 3
   },
+  "ingredientFor": [
+   "apollo-s-crown",
+   "banefire-boomerang",
+   "combusticlaws",
+   "flame-tang",
+   "inferno-blade",
+   "solar-fan"
+  ],
   "requiredFor": [
    "021-spud-she-like"
   ]
@@ -2428,9 +2888,16 @@
    "medicinal-herb": 1,
    "strong-medicine": 1
   },
+  "locationsFound": [
+   "Bloomingdale (item shop)",
+   "Rank 2 (H) blue chest in grotto (10%)"
+  ],
+  "droppedBy": {
+   "treevil": "(1/16)"
+  },
   "ingredientFor": [
-   "panacea",
-   "finessence"
+   "finessence",
+   "panacea"
   ]
  },
  "swordcraft-in-summary": {
@@ -2456,9 +2923,17 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "locationsFound": [
+   "Batsureg (item shop)",
+   "Wormwood Creek (item shop)",
+   "Upover (item shop)"
+  ],
+  "droppedBy": {
+   "widow-s-pique": "(1/8)"
+  },
   "ingredientFor": [
-   "silk-buster",
-   "celestial-skein"
+   "celestial-skein",
+   "silk-buster"
   ],
   "requiredFor": [
    "001-one-good-turn"
@@ -2483,11 +2958,11 @@
   },
   "ingredientFor": [
    "ballistick",
-   "flamenco-shirt",
    "dancer-s-dress",
-   "technicolour-tutu",
+   "flamenco-shirt",
+   "sizzling-bikini-bottoms",
    "sizzling-bikini-top",
-   "sizzling-bikini-bottoms"
+   "technicolour-tutu"
   ],
   "requiredFor": [
    "027-big-headed-bard"
@@ -2541,14 +3016,14 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
-   "crown-of-clarity",
-   "sage-s-robe",
-   "cape-of-good-karma",
    "blessed-bindings",
-   "guru-s-gloves",
-   "tantric-trousers",
    "brahman-boots",
-   "rosary"
+   "cape-of-good-karma",
+   "crown-of-clarity",
+   "guru-s-gloves",
+   "rosary",
+   "sage-s-robe",
+   "tantric-trousers"
   ],
   "requiredFor": [
    "060-that-makes-scents"
@@ -2565,13 +3040,16 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "cumulus-rex": "(1/16)"
+  },
   "ingredientFor": [
-   "lightning-lance",
-   "storm-spear",
-   "lightning-staff",
-   "lightning-conductor",
    "azure-dragon-fan",
-   "enchanted-stone"
+   "enchanted-stone",
+   "lightning-conductor",
+   "lightning-lance",
+   "lightning-staff",
+   "storm-spear"
   ]
  },
  "toad-oil": {
@@ -2585,9 +3063,12 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "expload": "(1/8)"
+  },
   "ingredientFor": [
-   "tricky-turban",
-   "hephaestus--flame"
+   "hephaestus--flame",
+   "tricky-turban"
   ]
  },
  "tortoiseshell": {
@@ -2601,11 +3082,14 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "wyrtle": "(1/8)"
+  },
   "ingredientFor": [
-   "tortoiseshell-fan",
    "shell-shield",
    "tortoise-shell",
-   "tortoiseshell-armour"
+   "tortoiseshell-armour",
+   "tortoiseshell-fan"
   ]
  },
  "wakerobin": {
@@ -2620,9 +3104,9 @@
   "category": "items",
   "classification": "everyday-item",
   "ingredientFor": [
-   "rousing-ring",
+   "aggressence",
    "perfect-panacea",
-   "aggressence"
+   "rousing-ring"
   ]
  },
  "wands-and-beyond": {
@@ -2648,6 +3132,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "drackyma": "(1/8)"
+  },
   "ingredientFor": [
    "demon-whip",
    "king-cobra-claws",
@@ -2680,19 +3167,22 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "murdaw": "(lv. 1: 5%—lv. 91: 10%)"
+  },
   "ingredientFor": [
-   "earthsplitter",
-   "moonmasher",
-   "starsmasher",
-   "archangel-s-bow",
    "aeon-s-bow",
-   "seraph-s-bow",
-   "archangel-s-robe",
    "aeon-s-robe",
-   "seraph-s-robe",
+   "archangel-s-bow",
+   "archangel-s-robe",
    "basilic-boots",
+   "boots-of-beatitude",
+   "earthsplitter",
    "emperor-s-boots",
-   "boots-of-beatitude"
+   "moonmasher",
+   "seraph-s-bow",
+   "seraph-s-robe",
+   "starsmasher"
   ]
  },
  "yggdrasil-dew": {
@@ -2709,6 +3199,9 @@
   "recipe": {
    "elfin-elixir": 1,
    "yggdrasil-leaf": 1
+  },
+  "droppedBy": {
+   "bomboulder": "(1/128)"
   }
  },
  "yggdrasil-leaf": {
@@ -2722,9 +3215,12 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday-item",
+  "droppedBy": {
+   "greygnarl": "(100%)"
+  },
   "ingredientFor": [
-   "yggdrasil-dew",
-   "elfin-elixir"
+   "elfin-elixir",
+   "yggdrasil-dew"
   ]
  }
 }

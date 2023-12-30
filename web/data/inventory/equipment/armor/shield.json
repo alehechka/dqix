@@ -55,6 +55,12 @@
   "type": "equipment",
   "category": "armor",
   "classification": "shield",
+  "locationsFound": [
+   "Dourbridge (secret shop)"
+  ],
+  "droppedBy": {
+   "freaky-tiki": "(1/128)"
+  },
   "ingredientFor": [
    "big-boss-shield"
   ]
@@ -89,6 +95,9 @@
    "devilry-drinker": 1,
    "reset-stone": 1
   },
+  "droppedBy": {
+   "sir-sanguinus": "(1/50)"
+  },
   "ingredientFor": [
    "psyche-swiper"
   ]
@@ -114,7 +123,14 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "shield"
+  "classification": "shield",
+  "locationsFound": [
+   "Zere (item shop)",
+   "Coffinwell (armour shop)"
+  ],
+  "droppedBy": {
+   "leery-lout": "(1/128)"
+  }
  },
  "dark-shield": {
   "id": "dark-shield",
@@ -141,6 +157,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "shield",
+  "droppedBy": {
+   "night-knight": "(1/64)"
+  },
   "ingredientFor": [
    "ogre-shield"
   ]
@@ -210,6 +229,13 @@
    "dragon-scale": 3,
    "magic-shield": 1,
    "raging-ruby": 1
+  },
+  "locationsFound": [
+   "Wormwood Creek (armor shop)",
+   "Upover (armor shop)"
+  ],
+  "droppedBy": {
+   "wonder-wyrtle": "(1/64)"
   }
  },
  "empowered-shield": {
@@ -334,6 +360,12 @@
    "lava-lump": 1,
    "magic-shield": 1,
    "resurrock": 1
+  },
+  "locationsFound": [
+   "Batsureg (Armor shop)"
+  ],
+  "droppedBy": {
+   "hell-nino": "(1/128)"
   }
  },
  "gigasteel-shield": {
@@ -425,8 +457,10 @@
    "gold-bracer": 1,
    "silver-platter": 1
   },
-  "canBeUsedFor": [
-   "012-putting-on-the-glitz"
+  "ingredientFor": [
+   "012-putting-on-the-glitz",
+   "can-be-used-for:",
+   "platinum-platter"
   ]
  },
  "ice-shield": {
@@ -460,6 +494,12 @@
    "ice-crystal": 1,
    "magic-shield": 1,
    "resurrock": 1
+  },
+  "locationsFound": [
+   "Batsureg (Armor shop)"
+  ],
+  "droppedBy": {
+   "brrearthenwarrior": "(1/256)"
   }
  },
  "iron-shield": {
@@ -487,10 +527,17 @@
   "type": "equipment",
   "category": "armor",
   "classification": "shield",
+  "locationsFound": [
+   "Alltrades Abbey (item shop)",
+   "Port Llaffan (weapon/armor shop)"
+  ],
+  "droppedBy": {
+   "salamarauder": "(1/64)"
+  },
   "ingredientFor": [
-   "steel-shield",
+   "012-putting-on-the-glitz",
    "can-be-used-for:",
-   "012-putting-on-the-glitz"
+   "steel-shield"
   ]
  },
  "kitty-shield": {
@@ -521,8 +568,8 @@
    "light-shield": 1
   },
   "ingredientFor": [
-   "white-tiger-fan",
-   "catty-shield"
+   "catty-shield",
+   "white-tiger-fan"
   ]
  },
  "leather-shield": {
@@ -547,7 +594,14 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "shield"
+  "classification": "shield",
+  "locationsFound": [
+   "Angel Falls (item shop)",
+   "Stornway (armour shop)"
+  ],
+  "droppedBy": {
+   "leery-lout": "(1/16)"
+  }
  },
  "light-shield": {
   "id": "light-shield",
@@ -573,10 +627,17 @@
   "type": "equipment",
   "category": "armor",
   "classification": "shield",
+  "locationsFound": [
+   "Dourbridge (weapon/armour shop)",
+   "Bloomingdale (armour shop)"
+  ],
+  "droppedBy": {
+   "metal-slime-knight": "(1/64)"
+  },
   "ingredientFor": [
    "kitty-shield",
-   "white-shield",
-   "platinum-shield"
+   "platinum-shield",
+   "white-shield"
   ]
  },
  "liquid-metal-shield": {
@@ -608,7 +669,10 @@
    "metal-slime-shield": 1,
    "orichalcum": 1,
    "slimedrop": 6
-  }
+  },
+  "ingredientFor": [
+   "metal-king-shield"
+  ]
  },
  "magic-shield": {
   "id": "magic-shield",
@@ -637,14 +701,20 @@
   "type": "equipment",
   "category": "armor",
   "classification": "shield",
+  "locationsFound": [
+   "Gleeba (armour shop)"
+  ],
+  "droppedBy": {
+   "grim-grinner": "(1/64)"
+  },
   "ingredientFor": [
+   "012-putting-on-the-glitz",
+   "can-be-used-for:",
+   "dragon-shield",
    "enchanted-shield",
    "flame-shield",
    "ice-shield",
-   "dragon-shield",
-   "tempest-shield",
-   "can-be-used-for:",
-   "012-putting-on-the-glitz"
+   "tempest-shield"
   ]
  },
  "metal-king-shield": {
@@ -703,6 +773,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "shield",
+  "locationsFound": [
+   "Rank 9 (A) blue chest in grotto (1%)"
+  ],
   "ingredientFor": [
    "liquid-metal-shield"
   ]
@@ -795,6 +868,9 @@
    "light-shield": 1,
    "platinum-ore": 1
   },
+  "locationsFound": [
+   "Bloomingdale (armour shop)"
+  ],
   "canBeUsedFor": [
    "012-putting-on-the-glitz"
   ]
@@ -821,7 +897,13 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "shield"
+  "classification": "shield",
+  "locationsFound": [
+   "Angel Falls (item shop)"
+  ],
+  "droppedBy": {
+   "wooper-trooper": "(1/16)"
+  }
  },
  "power-shield": {
   "id": "power-shield",
@@ -854,6 +936,10 @@
    "raging-ruby": 1,
    "warrior-s-shield": 1
   },
+  "locationsFound": [
+   "Dourbridge (secret shop)",
+   "Upover (armour shop)"
+  ],
   "ingredientFor": [
    "empowered-shield"
   ]
@@ -888,7 +974,11 @@
    "agate-of-evolution": 1,
    "brain-drainer": 1,
    "green-orb": 1
-  }
+  },
+  "ingredientFor": [
+   "devilry-drinker",
+   "soul-sucker"
+  ]
  },
  "ruinous-shield": {
   "id": "ruinous-shield",
@@ -912,6 +1002,12 @@
   "type": "equipment",
   "category": "armor",
   "classification": "shield",
+  "locationsFound": [
+   "Rank 7 (C) blue chest in grotto (1%)"
+  ],
+  "droppedBy": {
+   "alarmour": "(1/256)"
+  },
   "ingredientFor": [
    "saintess-shield"
   ]
@@ -968,7 +1064,10 @@
   "recipe": {
    "ruinous-shield": 1,
    "saint-s-ashes": 3
-  }
+  },
+  "ingredientFor": [
+   "goddess-shield"
+  ]
  },
  "scale-shield": {
   "id": "scale-shield",
@@ -994,9 +1093,16 @@
   "type": "equipment",
   "category": "armor",
   "classification": "shield",
+  "locationsFound": [
+   "Zere (item shop)",
+   "Stornway (armour shop)"
+  ],
+  "droppedBy": {
+   "earthenwarrior": "(1/32)"
+  },
   "ingredientFor": [
-   "shell-shield",
-   "large-scale-armour"
+   "large-scale-armour",
+   "shell-shield"
   ]
  },
  "shell-shield": {
@@ -1026,7 +1132,10 @@
   "recipe": {
    "scale-shield": 1,
    "tortoiseshell": 1
-  }
+  },
+  "locationsFound": [
+   "Coffinwell (armour shop)"
+  ]
  },
  "silver-platter": {
   "id": "silver-platter",
@@ -1052,8 +1161,8 @@
   "category": "armor",
   "classification": "shield",
   "ingredientFor": [
-   "gold-platter",
    "filigree-mask",
+   "gold-platter",
    "silver-cuirass"
   ]
  },
@@ -1085,7 +1194,10 @@
    "mirrorstone": 3,
    "mythril-ore": 2,
    "white-knight-s-shield": 1
-  }
+  },
+  "locationsFound": [
+   "Stornway (armour shop)"
+  ]
  },
  "slime-shield": {
   "id": "slime-shield",
@@ -1109,7 +1221,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "shield"
+  "classification": "shield",
+  "locationsFound": [
+   "Rank 3 (G) blue chest in grotto (1%)"
+  ]
  },
  "soul-sucker": {
   "id": "soul-sucker",
@@ -1172,7 +1287,10 @@
    "iron-ore": 1,
    "iron-shield": 1,
    "royal-soil": 1
-  }
+  },
+  "ingredientFor": [
+   "gigasteel-shield"
+  ]
  },
  "tempest-shield": {
   "id": "tempest-shield",
@@ -1204,7 +1322,10 @@
    "flurry-feather": 3,
    "magic-shield": 1,
    "ruby-of-protection": 1
-  }
+  },
+  "locationsFound": [
+   "Upover (armor shop)"
+  ]
  },
  "warrior-s-shield": {
   "id": "warrior-s-shield",
@@ -1232,6 +1353,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "shield",
+  "locationsFound": [
+   "Wormwood Creek (armour shop)"
+  ],
   "ingredientFor": [
    "power-shield"
   ]
@@ -1266,8 +1390,10 @@
    "mythril-ore": 1,
    "white-shield": 1
   },
-  "canBeUsedFor": [
-   "012-putting-on-the-glitz"
+  "ingredientFor": [
+   "012-putting-on-the-glitz",
+   "can-be-used-for:",
+   "silver-shield"
   ]
  },
  "white-shield": {

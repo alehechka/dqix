@@ -14,6 +14,20 @@ type DataKey struct {
 	Type           string
 	Category       string
 	Classification string
+	Title          string
+	Path           string
+}
+
+func (d DataKey) GetID() string {
+	return d.ID
+}
+
+func (d DataKey) GetTitle() string {
+	return d.Title
+}
+
+func (d DataKey) GetPath() string {
+	return d.Path
 }
 
 const (

@@ -16,6 +16,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "feet",
+  "locationsFound": [
+   "Bloomingdale (shoe shop)"
+  ],
   "canBeUsedFor": [
    "012-putting-on-the-glitz"
   ]
@@ -36,7 +39,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Batsureg (armour shop)"
+  ]
  },
  "alefgard-boots": {
   "id": "alefgard-boots",
@@ -63,7 +69,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "droppedBy": {
+   "dragonlord": "(lv. 1–3: 15%)"
+  }
  },
  "aliahan-boots": {
   "id": "aliahan-boots",
@@ -90,7 +99,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "droppedBy": {
+   "baramos": "(lv. 1–3: 20%; lv. 4–8: 25%)"
+  }
  },
  "aquila-s-boots": {
   "id": "aquila-s-boots",
@@ -162,7 +174,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Dourbridge (weapon/armour shop)"
+  ]
  },
  "bardic-boots": {
   "id": "bardic-boots",
@@ -179,7 +194,13 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Stornway (armour shop)"
+  ],
+  "droppedBy": {
+   "sluggerslaught": "(1/128)"
+  }
  },
  "basilic-boots": {
   "id": "basilic-boots",
@@ -207,7 +228,11 @@
    "agate-of-evolution": 1,
    "hero-s-boots": 1,
    "yellow-orb": 1
-  }
+  },
+  "ingredientFor": [
+   "boots-of-beatitude",
+   "emperor-s-boots"
+  ]
  },
  "bianca-s-boots": {
   "id": "bianca-s-boots",
@@ -278,7 +303,13 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Rank 6 (D) blue chest in grotto (1%)"
+  ],
+  "droppedBy": {
+   "grim-reaper": "(1/128)"
+  }
  },
  "boots-of-beatitude": {
   "id": "boots-of-beatitude",
@@ -568,6 +599,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "feet",
+  "locationsFound": [
+   "Stornway (armour shop)"
+  ],
   "ingredientFor": [
    "brahman-boots"
   ]
@@ -599,6 +633,13 @@
   "type": "equipment",
   "category": "armor",
   "classification": "feet",
+  "locationsFound": [
+   "Zere (item shop)",
+   "Coffinwell (armour shop)"
+  ],
+  "droppedBy": {
+   "beakon": "(1/32)"
+  },
   "ingredientFor": [
    "classy-clogs"
   ]
@@ -634,7 +675,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Bloomingdale (shoe shop)"
+  ]
  },
  "crimson-boots": {
   "id": "crimson-boots",
@@ -651,7 +695,13 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Stornway (armour shop)"
+  ],
+  "droppedBy": {
+   "sir-sanguinus": "(steal only)"
+  }
  },
  "depressing-shoes": {
   "id": "depressing-shoes",
@@ -679,6 +729,12 @@
   "type": "equipment",
   "category": "armor",
   "classification": "feet",
+  "locationsFound": [
+   "Rank 7 (C) blue chest in grotto (2%)"
+  ],
+  "droppedBy": {
+   "liquid-metal-slime": "(1/128)"
+  },
   "ingredientFor": [
    "elevating-shoes"
   ]
@@ -746,7 +802,10 @@
   "recipe": {
    "depressing-shoes": 1,
    "lucky-pendant": 1
-  }
+  },
+  "ingredientFor": [
+   "pixie-boots"
+  ]
  },
  "emperor-s-boots": {
   "id": "emperor-s-boots",
@@ -831,7 +890,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "droppedBy": {
+   "orgodemir": "(lv. 1–3: 15%; lv. 4–8: 20%; lv. 9–15: 25%)"
+  }
  },
  "femiscyran-footwear": {
   "id": "femiscyran-footwear",
@@ -848,7 +910,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Bloomingdale (shoe shop)"
+  ]
  },
  "frugal-footwear": {
   "id": "frugal-footwear",
@@ -866,7 +931,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Bloomingdale (shoe shop)"
+  ]
  },
  "galvanised-geta": {
   "id": "galvanised-geta",
@@ -895,6 +963,12 @@
   "type": "equipment",
   "category": "armor",
   "classification": "feet",
+  "locationsFound": [
+   "Slurry Quay (item shop)"
+  ],
+  "droppedBy": {
+   "sculptrice": "(1/64)"
+  },
   "canBeUsedFor": [
    "012-putting-on-the-glitz"
   ]
@@ -925,7 +999,10 @@
    "hephaestus--flame": 1,
    "iron-ore": 2,
    "steel-sabatons": 1
-  }
+  },
+  "canBeUsedFor": [
+   "012-putting-on-the-glitz"
+  ]
  },
  "gothan-gumboots": {
   "id": "gothan-gumboots",
@@ -952,7 +1029,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "droppedBy": {
+   "nimzo": "(lv. 41–56: 20%; lv. 57–68: 25%)"
+  }
  },
  "hero-s-boots": {
   "id": "hero-s-boots",
@@ -979,6 +1059,9 @@
   "recipe": {
    "emperor-s-boots": 1,
    "reset-stone": 1
+  },
+  "droppedBy": {
+   "trauminator": "(1/50)"
   },
   "ingredientFor": [
    "basilic-boots"
@@ -1039,6 +1122,13 @@
   "type": "equipment",
   "category": "armor",
   "classification": "feet",
+  "locationsFound": [
+   "Stornway (armour shop)",
+   "Dourbridge (secret shop)"
+  ],
+  "droppedBy": {
+   "morag": "(100%)"
+  },
   "ingredientFor": [
    "stiletto-heels"
   ]
@@ -1098,7 +1188,11 @@
   "recipe": {
    "monarchic-mark": 1,
    "stiletto-heels": 1
-  }
+  },
+  "ingredientFor": [
+   "empress-s-whip",
+   "monarch-s-mittens"
+  ]
  },
  "hiking-boots": {
   "id": "hiking-boots",
@@ -1116,7 +1210,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Upover (armour shop)"
+  ]
  },
  "hip-boots": {
   "id": "hip-boots",
@@ -1133,7 +1230,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Bloomingdale (shoe shop)"
+  ]
  },
  "hobnail-boots": {
   "id": "hobnail-boots",
@@ -1189,10 +1289,14 @@
   "type": "equipment",
   "category": "armor",
   "classification": "feet",
+  "locationsFound": [
+   "Coffinwell (armour shop)",
+   "Porth Llaffan (weapon/armour shop)"
+  ],
   "ingredientFor": [
-   "steel-sabatons",
+   "012-putting-on-the-glitz",
    "can-be-used-for:",
-   "012-putting-on-the-glitz"
+   "steel-sabatons"
   ]
  },
  "kiefer-s-shoes": {
@@ -1265,6 +1369,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "feet",
+  "locationsFound": [
+   "Bloomingdale (shoe shop)"
+  ],
   "ingredientFor": [
    "wu-shoes"
   ]
@@ -1296,6 +1403,10 @@
   "type": "equipment",
   "category": "armor",
   "classification": "feet",
+  "locationsFound": [
+   "Zere (item shop)",
+   "Coffinwell (armour shop)"
+  ],
   "ingredientFor": [
    "hobnail-boots"
   ]
@@ -1327,6 +1438,14 @@
   "type": "equipment",
   "category": "armor",
   "classification": "feet",
+  "locationsFound": [
+   "Angel Falls (item shop)",
+   "Stornway (armour shop)",
+   "Swinedimples Academy (item shop)"
+  ],
+  "droppedBy": {
+   "blinkster": "(1/32)"
+  },
   "canBeUsedFor": [
    "012-putting-on-the-glitz"
   ]
@@ -1356,7 +1475,10 @@
    "metal-slime-sollerets": 1,
    "orichalcum": 1,
    "slimedrop": 6
-  }
+  },
+  "ingredientFor": [
+   "metal-king-slime-boots"
+  ]
  },
  "maribel-s-shoes": {
   "id": "maribel-s-shoes",
@@ -1434,6 +1556,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "feet",
+  "locationsFound": [
+   "Rank 9 (A) blue chest in grotto (1%)"
+  ],
   "ingredientFor": [
    "liquid-metal-slime-boots"
   ],
@@ -1466,7 +1591,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "droppedBy": {
+   "malroth": "(lv. 1–3: 15%; lv. 41–56: 20%)"
+  }
  },
  "moonbrooke-shoes": {
   "id": "moonbrooke-shoes",
@@ -1544,7 +1672,10 @@
    "iron-nails": 2,
    "magic-beast-horn": 2,
    "steel-sabatons": 1
-  }
+  },
+  "locationsFound": [
+   "Wormwood Creek (armour shop)"
+  ]
  },
  "pixie-boots": {
   "id": "pixie-boots",
@@ -1578,7 +1709,13 @@
   "recipe": {
    "elevating-shoes": 1,
    "elfin-charm": 2
-  }
+  },
+  "locationsFound": [
+   "Trade with Cap'n Max Meddlin' (after 80 cumulative)"
+  ],
+  "ingredientFor": [
+   "tricksie-boots"
+  ]
  },
  "posh-pumps": {
   "id": "posh-pumps",
@@ -1631,7 +1768,10 @@
    "mythril-ore": 1,
    "ruby-of-protection": 1,
    "safety-shoes": 1
-  }
+  },
+  "ingredientFor": [
+   "safest-shoes"
+  ]
  },
  "safest-shoes": {
   "id": "safest-shoes",
@@ -1679,6 +1819,12 @@
   "type": "equipment",
   "category": "armor",
   "classification": "feet",
+  "locationsFound": [
+   "Wormwood Creek (armour shop)"
+  ],
+  "droppedBy": {
+   "gramarye-gruffon": "(1/64)"
+  },
   "ingredientFor": [
    "safer-shoes"
   ]
@@ -1712,7 +1858,11 @@
    "agate-of-evolution": 1,
    "blue-orb": 1,
    "sensible-sandals": 1
-  }
+  },
+  "ingredientFor": [
+   "sapient-sandals",
+   "sentient-sandals"
+  ]
  },
  "saintly-sollerets": {
   "id": "saintly-sollerets",
@@ -1729,7 +1879,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Bloomingdale (shoe shop)"
+  ]
  },
  "samhita-sandals": {
   "id": "samhita-sandals",
@@ -1784,7 +1937,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Angel Falls (item shop)"
+  ]
  },
  "sapient-sandals": {
   "id": "sapient-sandals",
@@ -1876,6 +2032,9 @@
    "reset-stone": 1,
    "sapient-sandals": 1
   },
+  "droppedBy": {
+   "elusid": "(1/50)"
+  },
   "ingredientFor": [
    "sagacious-sandals"
   ]
@@ -1927,7 +2086,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Stornway (armour shop)"
+  ]
  },
  "she-fu-shoes": {
   "id": "she-fu-shoes",
@@ -1946,7 +2108,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Upover (armour shop)"
+  ]
  },
  "she-mage-shoes": {
   "id": "she-mage-shoes",
@@ -1963,7 +2128,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Rank 7 (C) blue chest in grotto (1%)"
+  ]
  },
  "sheepskin-shoes": {
   "id": "sheepskin-shoes",
@@ -1981,7 +2149,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Bloomingdale (shoe shop)"
+  ]
  },
  "siren-sandals": {
   "id": "siren-sandals",
@@ -2000,6 +2171,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "feet",
+  "locationsFound": [
+   "Bloomingdale (shoe shop)"
+  ],
   "ingredientFor": [
    "sorceress-sandals"
   ]
@@ -2020,7 +2194,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Gleeba (armour shop)"
+  ]
  },
  "somnia-boots": {
   "id": "somnia-boots",
@@ -2047,7 +2224,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "droppedBy": {
+   "murdaw": "(lv. 1–3: 20%; lv. 4–8: 25%)"
+  }
  },
  "sorceress-sandals": {
   "id": "sorceress-sandals",
@@ -2086,7 +2266,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Rank 7 (C) blue chest in grotto (1%)"
+  ]
  },
  "starlet-sandals": {
   "id": "starlet-sandals",
@@ -2104,6 +2287,12 @@
   "type": "equipment",
   "category": "armor",
   "classification": "feet",
+  "locationsFound": [
+   "Bloomingdale (shoe shop)"
+  ],
+  "droppedBy": {
+   "sluggernaut": "(1/128)"
+  },
   "canBeUsedFor": [
    "012-putting-on-the-glitz"
   ]
@@ -2134,7 +2323,11 @@
    "iron-ore": 1,
    "iron-sabatons": 1,
    "royal-soil": 1
-  }
+  },
+  "ingredientFor": [
+   "gigasteel-sabatons",
+   "payback-pumps"
+  ]
  },
  "stiletto-heels": {
   "id": "stiletto-heels",
@@ -2167,9 +2360,9 @@
    "high-heels": 1
   },
   "ingredientFor": [
-   "highness-heels",
+   "012-putting-on-the-glitz",
    "can-be-used-for:",
-   "012-putting-on-the-glitz"
+   "highness-heels"
   ]
  },
  "templar-shoes": {
@@ -2224,7 +2417,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Rank 5 (E) blue chest in grotto (1%)"
+  ]
  },
  "torneko-s-sandals": {
   "id": "torneko-s-sandals",
@@ -2311,7 +2507,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "droppedBy": {
+   "dhoulmagus": "(lv. 1–3: 20%; lv. 4–8: 25%)"
+  }
  },
  "trode-s-treads": {
   "id": "trode-s-treads",
@@ -2381,7 +2580,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Rank 7 (C) blue chest in grotto (1%)"
+  ]
  },
  "warrior-s-boots": {
   "id": "warrior-s-boots",
@@ -2398,7 +2600,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Bloomingdale (shoe shop)"
+  ]
  },
  "wellington-boots": {
   "id": "wellington-boots",
@@ -2477,7 +2682,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Bloomingdale (shoe shop)"
+  ]
  },
  "wu-shoes": {
   "id": "wu-shoes",
@@ -2524,6 +2732,9 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "droppedBy": {
+   "psaro": "(lv. 1–3: 15%; lv. 4–8: 20%; lv. 9–15: 25%)"
+  }
  }
 }

@@ -23,6 +23,13 @@
    "deadly-nightblade": 1,
    "evencloth": 2,
    "poison-needle": 1
+  },
+  "locationsFound": [
+   "Gleeba (weapon shop)",
+   "Batsureg (weapon shop)"
+  ],
+  "droppedBy": {
+   "apeckalypse": "(1/128)"
   }
  },
  "batterfly-knife": {
@@ -48,7 +55,10 @@
    "butterfly-wing": 3,
    "coagulant": 3,
    "poison-moth-knife": 1
-  }
+  },
+  "ingredientFor": [
+   "dread-dagger"
+  ]
  },
  "bronze-knife": {
   "id": "bronze-knife",
@@ -68,6 +78,10 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "knife",
+  "locationsFound": [
+   "Stornway (weapon shop)",
+   "Coffinwell (weapon shop)"
+  ],
   "ingredientFor": [
    "divine-dagger"
   ]
@@ -95,7 +109,11 @@
    "agate-of-evolution": 1,
    "deft-dagger": 1,
    "purple-orb": 1
-  }
+  },
+  "ingredientFor": [
+   "dashing-dagger",
+   "dynamo-dagger"
+  ]
  },
  "dashing-dagger": {
   "id": "dashing-dagger",
@@ -143,9 +161,15 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "knife",
+  "locationsFound": [
+   "Bloomingdale (weapon shop)"
+  ],
+  "droppedBy": {
+   "handsome-crab": "(1/128)"
+  },
   "ingredientFor": [
-   "falcon-knife-earring",
-   "assassin-s-dagger"
+   "assassin-s-dagger",
+   "falcon-knife-earring"
   ]
  },
  "deft-dagger": {
@@ -171,6 +195,9 @@
    "dashing-dagger": 1,
    "reset-stone": 1
   },
+  "locationsFound": [
+   "Rank 10 (S) blue chest in grotto (1%)"
+  ],
   "ingredientFor": [
    "darting-dagger"
   ]
@@ -199,9 +226,13 @@
    "bronze-knife": 1,
    "holy-water": 3
   },
+  "locationsFound": [
+   "Stornway (weapon shop)",
+   "Coffinwell (weapon shop)"
+  ],
   "ingredientFor": [
-   "poison-moth-knife",
-   "icicle-dirk"
+   "icicle-dirk",
+   "poison-moth-knife"
   ]
  },
  "dread-dagger": {
@@ -225,7 +256,10 @@
    "batterfly-knife": 1,
    "butterfly-wing": 5,
    "disturbin--turban": 1
-  }
+  },
+  "ingredientFor": [
+   "papillon-mask"
+  ]
  },
  "dynamo-dagger": {
   "id": "dynamo-dagger",
@@ -276,7 +310,11 @@
    "agility-ring": 3,
    "deadly-nightblade": 1,
    "slime-earrings": 1
-  }
+  },
+  "locationsFound": [
+   "Bloomingdale (weapon shop)",
+   "Gleeba (weapon shop)"
+  ]
  },
  "fenrir-fang": {
   "id": "fenrir-fang",
@@ -326,7 +364,10 @@
    "crimson-coral": 3,
    "gladius": 1,
    "sunstone": 1
-  }
+  },
+  "ingredientFor": [
+   "gladius"
+  ]
  },
  "gladius": {
   "id": "gladius",
@@ -350,6 +391,9 @@
    "flame-tang": 1,
    "reset-stone": 1
   },
+  "locationsFound": [
+   "Stornway (weapon shop)"
+  ],
   "ingredientFor": [
    "flame-tang"
   ]
@@ -379,6 +423,12 @@
    "edged-boomerang": 1,
    "ice-crystal": 3
   },
+  "locationsFound": [
+   "Wormwood Creek (weapon shop)"
+  ],
+  "droppedBy": {
+   "uncommon-cold": "(1/128)"
+  },
   "ingredientFor": [
    "fenrir-fang",
    "ice-axe"
@@ -401,7 +451,10 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "knife"
+  "classification": "knife",
+  "locationsFound": [
+   "Stornway (weapon shop)"
+  ]
  },
  "poison-moth-knife": {
   "id": "poison-moth-knife",
@@ -426,6 +479,13 @@
    "coagulant": 2,
    "divine-dagger": 1,
    "manky-mud": 1
+  },
+  "locationsFound": [
+   "Coffinwell (weapon shop)",
+   "Alltrades Abbey (item shop)"
+  ],
+  "droppedBy": {
+   "crabber-dabber-doo": "(1/64)"
   },
   "ingredientFor": [
    "batterfly-knife",
@@ -457,6 +517,13 @@
    "magic-beast-horn": 1,
    "manky-mud": 3
   },
+  "locationsFound": [
+   "Dourbridge (weapon shop)",
+   "Bloomingdale (weapon shop)"
+  ],
+  "droppedBy": {
+   "peckerel": "(1/64)"
+  },
   "ingredientFor": [
    "assassin-s-dagger",
    "contra-band"
@@ -483,7 +550,10 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "knife"
+  "classification": "knife",
+  "locationsFound": [
+   "Rank 8 (B) blue chest in grotto (1%)"
+  ]
  },
  "soul-breaker": {
   "id": "soul-breaker",
@@ -530,6 +600,12 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "knife",
+  "locationsFound": [
+   "Upover (weapon shop)"
+  ],
+  "droppedBy": {
+   "fright-knight": "(1/64)"
+  },
   "ingredientFor": [
    "soul-breaker"
   ]

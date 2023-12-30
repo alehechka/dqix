@@ -18,6 +18,15 @@ type data struct {
 	dataMap      map[string]types.DataKey
 }
 
+func (d data) GetQuickThing(id string) (thing types.Thing) {
+	dataKey, ok := d.dataMap[id]
+	if !ok {
+		return nil
+	}
+
+	return dataKey
+}
+
 func (d data) GetThing(id string) (thing types.Thing) {
 	dataKey, ok := d.dataMap[id]
 	if !ok {

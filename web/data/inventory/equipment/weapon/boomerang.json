@@ -20,7 +20,11 @@
    "agate-of-evolution": 1,
    "meteorang": 1,
    "silver-orb": 1
-  }
+  },
+  "ingredientFor": [
+   "galaxarang",
+   "stellarang"
+  ]
  },
  "banefire-boomerang": {
   "id": "banefire-boomerang",
@@ -90,9 +94,12 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "boomerang",
+  "locationsFound": [
+   "Porth Llaffan (weapon/armor shop)"
+  ],
   "ingredientFor": [
-   "reinforced-boomerang",
-   "boomer-briefs"
+   "boomer-briefs",
+   "reinforced-boomerang"
   ]
  },
  "crucerang": {
@@ -117,7 +124,11 @@
    "gold-rosary": 1,
    "hunter-s-bow": 1,
    "reinforced-boomerang": 1
-  }
+  },
+  "locationsFound": [
+   "Gleeba (weapon shop)",
+   "Batsureg (weapon shop)"
+  ]
  },
  "cutting-edge-boomerang": {
   "id": "cutting-edge-boomerang",
@@ -183,9 +194,13 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "boomerang",
+  "locationsFound": [
+   "Bloomingdale (weapon shop)",
+   "Batsureg (weapon shop)"
+  ],
   "ingredientFor": [
-   "icicle-dirk",
-   "cutting-edge-boomerang"
+   "cutting-edge-boomerang",
+   "icicle-dirk"
   ]
  },
  "erazor-wing-boomerang": {
@@ -236,6 +251,9 @@
    "lava-lump": 3,
    "rockbomb-shard": 3
   },
+  "locationsFound": [
+   "Stornway (weapon shop)"
+  ],
   "ingredientFor": [
    "banefire-boomerang"
   ]
@@ -288,10 +306,13 @@
    "flurry-feather": 3,
    "swallowtail": 1
   },
+  "locationsFound": [
+   "Upover (weapon shop)"
+  ],
   "ingredientFor": [
    "blusterang",
-   "flametang-boomerang",
-   "blustery-bow"
+   "blustery-bow",
+   "flametang-boomerang"
   ]
  },
  "hexarang": {
@@ -317,7 +338,10 @@
    "lucida-shard": 3,
    "mythril-ore": 3,
    "pentarang": 1
-  }
+  },
+  "ingredientFor": [
+   "pentarang"
+  ]
  },
  "meteorang": {
   "id": "meteorang",
@@ -340,6 +364,9 @@
    "reset-stone": 1,
    "stellarang": 1
   },
+  "locationsFound": [
+   "Rank 10 (S) blue chest in grotto (1%)"
+  ],
   "ingredientFor": [
    "asterang"
   ]
@@ -367,6 +394,9 @@
    "hexarang": 1,
    "reset-stone": 1
   },
+  "locationsFound": [
+   "Rank 8 (B) blue chest in grotto (1%)"
+  ],
   "ingredientFor": [
    "hexarang"
   ]
@@ -391,7 +421,10 @@
   "recipe": {
    "lunaria": 3,
    "razor-wing-boomerang": 1
-  }
+  },
+  "ingredientFor": [
+   "erazor-wing-boomerang"
+  ]
  },
  "razor-wing-boomerang": {
   "id": "razor-wing-boomerang",
@@ -411,9 +444,13 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "boomerang",
+  "locationsFound": [
+   "Batsureg (weapon shop)",
+   "Wormwood Creek (weapon shop)"
+  ],
   "ingredientFor": [
-   "vermillion-bird-fan",
-   "razer-wing-boomerang"
+   "razer-wing-boomerang",
+   "vermillion-bird-fan"
   ]
  },
  "reinforced-boomerang": {
@@ -436,7 +473,10 @@
   "recipe": {
    "boomerang": 1,
    "iron-nails": 3
-  }
+  },
+  "ingredientFor": [
+   "crucerang"
+  ]
  },
  "stellarang": {
   "id": "stellarang",
@@ -482,6 +522,10 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "boomerang",
+  "locationsFound": [
+   "Wormwood Creek (weapon shop)",
+   "Upover (weapon shop)"
+  ],
   "ingredientFor": [
    "eaglewing",
    "gusterang"

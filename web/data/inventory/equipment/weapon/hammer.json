@@ -18,6 +18,9 @@
   "recipe": {
    "belle-cap": 3,
    "oaken-club": 1
+  },
+  "droppedBy": {
+   "gigantes": "(1/128)"
   }
  },
  "earthsplitter": {
@@ -40,7 +43,11 @@
    "agate-of-evolution": 1,
    "groundbreaker": 1,
    "yellow-orb": 1
-  }
+  },
+  "ingredientFor": [
+   "moonmasher",
+   "starsmasher"
+  ]
  },
  "giant-s-hammer": {
   "id": "giant-s-hammer",
@@ -61,6 +68,12 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "hammer",
+  "locationsFound": [
+   "Stornway (weapon shop)"
+  ],
+  "droppedBy": {
+   "atlas": "(1/20)"
+  },
   "ingredientFor": [
    "titan-s-hammer"
   ]
@@ -83,7 +96,11 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "hammer"
+  "classification": "hammer",
+  "locationsFound": [
+   "Wormwood Creek (weapon shop)",
+   "Upover (weapon shop)"
+  ]
  },
  "groundbreaker": {
   "id": "groundbreaker",
@@ -105,6 +122,9 @@
    "moonsmasher": 1,
    "reset-stone": 1
   },
+  "locationsFound": [
+   "Rank 10 (S) blue chest in grotto (1%)"
+  ],
   "ingredientFor": [
    "earthsplitter"
   ]
@@ -127,6 +147,12 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "hammer",
+  "locationsFound": [
+   "Rank 6 (D) blue chest in grotto (1%)"
+  ],
+  "droppedBy": {
+   "hell-s-gatekeeper": "(1/128)"
+  },
   "ingredientFor": [
    "megaton-hammer"
   ]
@@ -147,7 +173,13 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "hammer"
+  "classification": "hammer",
+  "locationsFound": [
+   "Dourbridge (secret shop)"
+  ],
+  "droppedBy": {
+   "great-troll": "(1/128)"
+  }
  },
  "megaton-hammer": {
   "id": "megaton-hammer",
@@ -170,6 +202,9 @@
    "hela-s-hammer": 1,
    "orichalcum": 3
   },
+  "locationsFound": [
+   "Rank 8 (B) blue chest in grotto (1%)"
+  ],
   "ingredientFor": [
    "warlord-s-hammer"
   ]
@@ -215,7 +250,10 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "hammer"
+  "classification": "hammer",
+  "locationsFound": [
+   "Porth Llaffan (weapon/armour shop)"
+  ]
  },
  "starsmasher": {
   "id": "starsmasher",
@@ -290,6 +328,9 @@
    "royal-soil": 3,
    "über-war-hammer": 1
   },
+  "locationsFound": [
+   "Upover (weapon shop)"
+  ],
   "ingredientFor": [
    "terra-firmer"
   ]
@@ -334,6 +375,11 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "hammer",
+  "locationsFound": [
+   "Gleeba (weapon shop)",
+   "Batsureg (weapon shop)",
+   "Wormwood Creek (weapon shop)"
+  ],
   "ingredientFor": [
    "über-war-hammer"
   ]
@@ -379,6 +425,9 @@
   "recipe": {
    "mighty-armlet": 1,
    "war-hammer": 1
-  }
+  },
+  "ingredientFor": [
+   "terra-tamper"
+  ]
  }
 }

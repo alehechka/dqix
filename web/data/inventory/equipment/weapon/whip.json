@@ -20,7 +20,10 @@
    "demon-whip": 1,
    "malicite": 1,
    "terrible-tattoo": 2
-  }
+  },
+  "ingredientFor": [
+   "scourge-whip"
+  ]
  },
  "battle-whip": {
   "id": "battle-whip",
@@ -39,7 +42,11 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "whip"
+  "classification": "whip",
+  "locationsFound": [
+   "Coffinwell (weapon shop)",
+   "Alltrades Abbey (item shop)"
+  ]
  },
  "chain-whip": {
   "id": "chain-whip",
@@ -59,6 +66,10 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "whip",
+  "locationsFound": [
+   "Bloomingdale (weapon shop)",
+   "Gleeba (weapon shop)"
+  ],
   "ingredientFor": [
    "hunter-s-bow"
   ]
@@ -84,6 +95,12 @@
    "iron-whip": 1,
    "terrible-tattoo": 1,
    "wing-of-bat": 3
+  },
+  "locationsFound": [
+   "Rank 6 (D) blue chest in grotto (1%)"
+  ],
+  "droppedBy": {
+   "alphyn": "(1/64)"
   },
   "ingredientFor": [
    "archdemon-whip"
@@ -111,6 +128,13 @@
    "aggressence": 1,
    "dragon-scale": 3,
    "iron-whip": 1
+  },
+  "locationsFound": [
+   "Wormwood Creek (weapon shop)",
+   "Upover (weapon shop)"
+  ],
+  "droppedBy": {
+   "equinox": "(steal: 1/128; drop: 10%)"
   }
  },
  "empress-s-whip": {
@@ -136,7 +160,10 @@
    "highness-heels": 1,
    "monarchic-mark": 1,
    "queen-s-whip": 1
-  }
+  },
+  "ingredientFor": [
+   "goddess-whip"
+  ]
  },
  "giga-gringham-whip": {
   "id": "giga-gringham-whip",
@@ -237,6 +264,9 @@
    "giga-gringham-whip": 1,
    "reset-stone": 1
   },
+  "locationsFound": [
+   "Rank 10 (S) blue chest in grotto (1%)"
+  ],
   "ingredientFor": [
    "mega-gringham-whip"
   ]
@@ -259,12 +289,16 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "whip",
+  "locationsFound": [
+   "Gleeba (weapon shop)",
+   "Batsureg (weapon shop)"
+  ],
   "ingredientFor": [
-   "spiked-steel-whip",
-   "dragontail-whip",
-   "demon-whip",
+   "012-putting-on-the-glitz",
    "can-be-used-for:",
-   "012-putting-on-the-glitz"
+   "demon-whip",
+   "dragontail-whip",
+   "spiked-steel-whip"
   ]
  },
  "leather-whip": {
@@ -285,6 +319,13 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "whip",
+  "locationsFound": [
+   "Angel Falls (item shop)",
+   "Stornway (weapon shop)"
+  ],
+  "droppedBy": {
+   "lunatick": "(1/32)"
+  },
   "ingredientFor": [
    "snakeskin-whip"
   ]
@@ -312,7 +353,11 @@
    "agate-of-evolution": 1,
    "green-orb": 1,
    "gringham-whip": 1
-  }
+  },
+  "ingredientFor": [
+   "giga-gringham-whip",
+   "über-gringham-whip"
+  ]
  },
  "queen-s-whip": {
   "id": "queen-s-whip",
@@ -334,6 +379,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "whip",
+  "locationsFound": [
+   "Stornway (weapon shop)"
+  ],
   "ingredientFor": [
    "empress-s-whip"
   ]
@@ -381,7 +429,10 @@
    "magic-beast-horn": 1,
    "snakeskin": 5,
    "snakeskin-whip": 1
-  }
+  },
+  "ingredientFor": [
+   "sidewinder"
+  ]
  },
  "sidewinder": {
   "id": "sidewinder",
@@ -427,6 +478,13 @@
   "recipe": {
    "leather-whip": 1,
    "snakeskin": 3
+  },
+  "locationsFound": [
+   "Dourbridge (weapon/armour shop)",
+   "Bloomingdale (weapon shop)"
+  ],
+  "droppedBy": {
+   "sail-serpent": "(1/128)"
   },
   "ingredientFor": [
    "serpentine-whip"
@@ -475,7 +533,14 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "whip"
+  "classification": "whip",
+  "locationsFound": [
+   "Stornway (weapon shop)",
+   "Coffinwell (weapon shop)"
+  ],
+  "droppedBy": {
+   "raving-lunatick": "(1/32)"
+  }
  },
  "wizardly-whip": {
   "id": "wizardly-whip",
@@ -493,7 +558,10 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "whip"
+  "classification": "whip",
+  "locationsFound": [
+   "Rank 8 (B) blue chest in grotto (1%)"
+  ]
  },
  "über-gringham-whip": {
   "id": "über-gringham-whip",

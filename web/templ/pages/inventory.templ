@@ -2,8 +2,10 @@ package pages
 
 import "dqix/internal/types"
 import "dqix/web/templ/components/base"
+import "dqix/web/templ/components/links"
 import "strings"
 import "dqix/web/templ/utilities"
+import "strconv"
 import "fmt"
 
 // Inventory Classifications
@@ -23,10 +25,13 @@ templ InventoryClassificationContentWithSideNav(class string, inventories []type
 templ InventoryClassificationContent(class string, inventories []types.Inventory) {
 	<div>
 		<h1 class="text-3xl font-bold">{ strings.Title(strings.ReplaceAll(class, "-", " ")) }</h1>
-		<ul hx-boost="true" hx-target="#page-content" hx-swap="innerHTML">
+		<ul hx-boost="true" hx-target="#page-content" hx-swap="innerHTML" class="[&>li]:flex [&>li]:items-center">
 			for _, inventory := range inventories {
 				<li>
-					<a href={ fn.Path("inventory", inventory.Type, inventory.Category, inventory.Classification, inventory.ID) }>{ inventory.Title }</a>
+					if inventory.ImageSrc != "" {
+						<img src={ inventory.ImageSrc } alt={ inventory.ID }/>
+					}
+					@links.Link(inventory.Title, fn.Path(inventory.GetPath()), nil)
 				</li>
 			}
 		</ul>
@@ -48,29 +53,164 @@ templ InventoryContentWithSideNav(inventory types.Inventory, getter types.IGetTh
 }
 
 templ InventoryContent(inventory types.Inventory, getter types.IGetThingFromID) {
-	<div>
-		<h1>{ inventory.Title }</h1>
-		if len(inventory.IngredientFor) > 0 {
-			<ul>
-				for _, id := range inventory.IngredientFor {
-					@thingListItem(id, getter)
+	<div hx-boost="true" hx-target="#page-content">
+		<div class="flex flex-row items-center">
+			if inventory.ImageSrc != "" {
+				<img src={ inventory.ImageSrc } alt={ inventory.ID }/>
+			}
+			<h1 id="title" class="text-3xl font-bold">
+				{ inventory.Title }
+			</h1>
+		</div>
+		<hr/>
+		<p id="description" class="pt-4 pb-2">{ inventory.Description }</p>
+		if inventory.Statistics != (types.Statistics{}) {
+			<p id="statistics" class="py-2">
+				if inventory.Statistics.Attack > 0 {
+					<strong>Attack: </strong>{ strconv.Itoa(inventory.Statistics.Attack) }
+					<br/>
 				}
-			</ul>
+				if inventory.Statistics.Defense > 0 {
+					<strong>Defense: </strong>{ strconv.Itoa(inventory.Statistics.Defense) }
+					<br/>
+				}
+				if inventory.Statistics.BlockChance > 0 {
+					<strong>Block Chance: </strong>{ fmt.Sprintf("%.2f%%", inventory.Statistics.BlockChance) }
+					<br/>
+				}
+				if inventory.Statistics.Agility > 0 {
+					<strong>Agility: </strong>{ strconv.Itoa(inventory.Statistics.Agility) }
+					<br/>
+				}
+				if inventory.Statistics.EvasionChance > 0 {
+					<strong>Evasion Chance: </strong>{ fmt.Sprintf("%.2f%%", inventory.Statistics.EvasionChance) }
+					<br/>
+				}
+				if inventory.Statistics.MagicalMight > 0 {
+					<strong>Magical Might: </strong>{ strconv.Itoa(inventory.Statistics.MagicalMight) }
+					<br/>
+				}
+				if inventory.Statistics.MagicalMending > 0 {
+					<strong>Magical Mending: </strong>{ strconv.Itoa(inventory.Statistics.MagicalMending) }
+					<br/>
+				}
+				if inventory.Statistics.MPAbsorptionRate > 0 {
+					<strong>MP Absorption Rate: </strong>{ fmt.Sprintf("%.2f%%", inventory.Statistics.MPAbsorptionRate) }
+					<br/>
+				}
+				if inventory.Statistics.Deftness > 0 {
+					<strong>Deftness: </strong>{ strconv.Itoa(inventory.Statistics.Deftness) }
+					<br/>
+				}
+				if inventory.Statistics.Charm > 0 {
+					<strong>Charm: </strong>{ strconv.Itoa(inventory.Statistics.Charm) }
+					<br/>
+				}
+				if inventory.Statistics.Special != (types.Special{}) {
+					<strong>Special: </strong>
+					<br/>
+					if inventory.Statistics.Special.Effect != "" {
+						<em class="pl-2">Effect: </em> { inventory.Statistics.Special.Effect }
+						<br/>
+					}
+					if inventory.Statistics.Special.Usage != "" {
+						<em class="pl-2">Usage: </em> { inventory.Statistics.Special.Usage }
+						<br/>
+					}
+				}
+			</p>
+		}
+		<p id="details" class="py-2">
+			<strong>Rarity: </strong>{ fmt.Sprintf("%d/5", inventory.Rarity) }
+			<br/>
+			if inventory.BuyPrice > 0 {
+				<strong>Buy price: </strong>{ fmt.Sprintf("%d gold", inventory.BuyPrice) }
+				<br/>
+			}
+			if inventory.SellPrice > 0 {
+				<strong>Sell price: </strong>{ fmt.Sprintf("%d gold", inventory.SellPrice) }
+				<br/>
+			}
+			if len(inventory.Vocations) > 0 {
+				<strong>Used by: </strong>{ strings.Join(inventory.Vocations, ", ") }
+				<br/>
+			}
+			<strong>Classification: </strong>{ inventory.Classification }
+		</p>
+		if len(inventory.LocationsFound) > 0 {
+			<div id="locations-found" class="py-2">
+				<strong>Where to find:</strong>
+				<ul class="pl-8 list-disc">
+					for _, location := range inventory.LocationsFound {
+						<li>
+							{ location }
+						</li>
+					}
+				</ul>
+			</div>
+		}
+		if len(inventory.DroppedBy) > 0 {
+			<div id="dropped-by" class="py-2">
+				<strong>Dropped by:</strong>
+				<ul class="pl-8 list-disc">
+					for monster, dropRate := range inventory.DroppedBy {
+						<li>
+							@links.ThingLink(monster, getter)
+							<span>
+								&nbsp;{ dropRate }
+							</span>
+						</li>
+					}
+				</ul>
+			</div>
+		}
+		if len(inventory.Recipe) > 0 {
+			<div id="recipe" class="py-2">
+				<strong>Recipe: </strong>
+				for index, ingredient := range inventory.RecipeSlice() {
+					if index > 0 {
+						<span>&nbsp;+ </span>
+					}
+					@links.ThingLink(ingredient.ID, getter)
+					<span>&times;{ strconv.Itoa(ingredient.Quantity) }</span>
+				}
+			</div>
+		}
+		if len(inventory.IngredientFor) > 0 {
+			<div id="alchemises" class="py-2">
+				<strong>Alchemises:</strong>
+				<ul class="pl-8 list-disc">
+					for _, id := range inventory.IngredientFor {
+						<li>
+							@links.ThingLink(id, getter)
+						</li>
+					}
+				</ul>
+			</div>
+		}
+		if len(inventory.RequiredFor) > 0 {
+			<div id="required-for" class="py-2">
+				<strong>Required for:</strong>
+				<ul class="pl-8 list-disc">
+					for _, id := range inventory.RequiredFor {
+						<li>
+							@links.ThingLink(id, getter)
+						</li>
+					}
+				</ul>
+			</div>
+		}
+		if len(inventory.CanBeUsedFor) > 0 {
+			<div id="can-be-used-for" class="py-2">
+				<strong>Can be used for:</strong>
+				<ul class="pl-8 list-disc">
+					for _, id := range inventory.CanBeUsedFor {
+						<li>
+							@links.ThingLink(id, getter)
+						</li>
+					}
+				</ul>
+			</div>
 		}
 	</div>
-}
-
-func thingListItem(id string, getter types.IGetThingFromID) templ.Component {
-	thing := getter(id)
-
-	if thing == nil {
-		fmt.Println("Found nil for: ", id)
-		return templ.NopComponent
-	}
-
-	return ThingListItem(thing)
-}
-
-templ ThingListItem(thing types.Thing) {
-	<li>{ thing.GetTitle() }</li>
 }

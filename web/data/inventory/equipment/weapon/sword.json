@@ -24,7 +24,10 @@
    "brighten-rock": 3,
    "cautery-sword": 1,
    "holy-water": 1
-  }
+  },
+  "canBeUsedFor": [
+   "012-putting-on-the-glitz"
+  ]
  },
  "bandit-blade": {
   "id": "bandit-blade",
@@ -45,7 +48,14 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "sword"
+  "classification": "sword",
+  "locationsFound": [
+   "Gleeba (weapon shop)",
+   "Batsureg (weapon shop)"
+  ],
+  "droppedBy": {
+   "mandrake-marauder": "(1/128)"
+  }
  },
  "cautery-sword": {
   "id": "cautery-sword",
@@ -69,6 +79,13 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "sword",
+  "locationsFound": [
+   "Dourbridge (weapon/armour shop)",
+   "Bloomingdale (weapon shop)"
+  ],
+  "droppedBy": {
+   "axolhotl": "(1/64)"
+  },
   "ingredientFor": [
    "aurora-blade"
   ]
@@ -92,7 +109,14 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "sword"
+  "classification": "sword",
+  "locationsFound": [
+   "Angel Falls (item shop)",
+   "Stornway (weapon shop)"
+  ],
+  "droppedBy": {
+   "skeleton": "(1/128)"
+  }
  },
  "dragon-slayer": {
   "id": "dragon-slayer",
@@ -142,6 +166,12 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "sword",
+  "locationsFound": [
+   "Wormwood Creek (weapon shop)"
+  ],
+  "droppedBy": {
+   "mandrake-marshal": "(1/128)"
+  },
   "ingredientFor": [
    "dragon-slayer"
   ]
@@ -193,6 +223,12 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "sword",
+  "locationsFound": [
+   "Stornway (weapon shop)"
+  ],
+  "droppedBy": {
+   "slionheart": "(1/128)"
+  },
   "ingredientFor": [
    "über-falcon-blade"
   ]
@@ -224,6 +260,12 @@
    "rockbomb-shard": 1,
    "valkyrie-sword": 1
   },
+  "locationsFound": [
+   "Upover (weapon shop)"
+  ],
+  "droppedBy": {
+   "scarlet-fever": "(1/128)"
+  },
   "ingredientFor": [
    "inferno-blade"
   ]
@@ -251,6 +293,9 @@
    "mythril-ore": 1,
    "narspicious": 3,
    "rapier": 1
+  },
+  "droppedBy": {
+   "goresby-purrvis": "(100%)"
   }
  },
  "gigasteel-broadsword": {
@@ -349,9 +394,16 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "sword",
+  "locationsFound": [
+   "Coffinwell (weapon shop)",
+   "Alltrades Abbey (item shop)"
+  ],
+  "droppedBy": {
+   "restless-armour": "(1/64)"
+  },
   "ingredientFor": [
-   "steel-broadsword",
-   "platinum-sword"
+   "platinum-sword",
+   "steel-broadsword"
   ]
  },
  "liquid-metal-sword": {
@@ -379,7 +431,10 @@
    "metal-slime-sword": 1,
    "orichalcum": 1,
    "slimedrop": 6
-  }
+  },
+  "ingredientFor": [
+   "metal-king-sword"
+  ]
  },
  "metal-king-sword": {
   "id": "metal-king-sword",
@@ -429,6 +484,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "sword",
+  "locationsFound": [
+   "Rank 9 (A) blue chest in grotto (1%)"
+  ],
   "ingredientFor": [
    "liquid-metal-sword"
   ]
@@ -454,6 +512,12 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "sword",
+  "locationsFound": [
+   "Reward for 32 mini medals (cumulative)"
+  ],
+  "droppedBy": {
+   "shogum": "(1/20)"
+  },
   "ingredientFor": [
    "über-miracle-sword"
   ]
@@ -483,7 +547,11 @@
    "agate-of-evolution": 1,
    "silver-orb": 1,
    "stardust-sword": 1
-  }
+  },
+  "ingredientFor": [
+   "hypernova-sword",
+   "supernova-sword"
+  ]
  },
  "platinum-sword": {
   "id": "platinum-sword",
@@ -510,6 +578,13 @@
    "iron-broadsword": 1,
    "platinum-ore": 1
   },
+  "locationsFound": [
+   "Bloomingdale (weapon shop)",
+   "Gleeba (weapon shop)"
+  ],
+  "droppedBy": {
+   "skeleton-soldier": "(1/64)"
+  },
   "canBeUsedFor": [
    "012-putting-on-the-glitz"
   ]
@@ -534,10 +609,14 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "sword",
+  "locationsFound": [
+   "Stornway (weapon shop)",
+   "Coffinwell (weapon shop)"
+  ],
   "ingredientFor": [
-   "fizzle-foil",
+   "012-putting-on-the-glitz",
    "can-be-used-for:",
-   "012-putting-on-the-glitz"
+   "fizzle-foil"
   ]
  },
  "rusty-sword": {
@@ -561,6 +640,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "sword",
+  "locationsFound": [
+   "Red chest in Realm of the Mighty (L9)"
+  ],
   "ingredientFor": [
    "erdrick-s-sword"
   ]
@@ -585,6 +667,13 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "sword",
+  "locationsFound": [
+   "Angel Falls (item shop)",
+   "Stornway (weapon shop)"
+  ],
+  "droppedBy": {
+   "earthenwarrior": "(1/64)"
+  },
   "ingredientFor": [
    "warrior-s-sword"
   ]
@@ -614,6 +703,9 @@
    "reset-stone": 1,
    "supernova-sword": 1
   },
+  "locationsFound": [
+   "Rank 10 (S) blue chest in grotto (1%)"
+  ],
   "ingredientFor": [
    "nebula-sword"
   ]
@@ -639,7 +731,10 @@
    "iron-broadsword": 1,
    "iron-ore": 1,
    "lava-lump": 1
-  }
+  },
+  "ingredientFor": [
+   "gigasteel-broadsword"
+  ]
  },
  "supernova-sword": {
   "id": "supernova-sword",
@@ -691,6 +786,13 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "sword",
+  "locationsFound": [
+   "Batsureg (weapon shop)",
+   "Wormwood Creek (weapon shop)"
+  ],
+  "droppedBy": {
+   "prime-slime": "(1/64)"
+  },
   "ingredientFor": [
    "fire-blade"
   ]
@@ -718,6 +820,9 @@
    "raging-ruby": 1,
    "soldier-s-sword": 1,
    "warrior-s-helm": 1
+  },
+  "droppedBy": {
+   "barriearthenwarrior": "(1/128)"
   }
  },
  "über-falcon-blade": {
@@ -770,6 +875,9 @@
   "recipe": {
    "life-bracer": 2,
    "miracle-sword": 1
-  }
+  },
+  "canBeUsedFor": [
+   "012-putting-on-the-glitz"
+  ]
  }
 }

@@ -55,6 +55,9 @@
    "brilliant-staff": 1,
    "reset-stone": 1
   },
+  "locationsFound": [
+   "Rank 10 (S) blue chest in grotto (1%)"
+  ],
   "ingredientFor": [
    "shining-staff"
   ]
@@ -110,7 +113,10 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "wand"
+  "classification": "wand",
+  "locationsFound": [
+   "Rank 5 (E) blue chest in grotto (1%)"
+  ]
  },
  "faerie-staff": {
   "id": "faerie-staff",
@@ -215,10 +221,17 @@
    "stolos--staff": 1,
    "thunderball": 3
   },
+  "locationsFound": [
+   "Gleeba (weapon shop)",
+   "Batsureg (weapon shop)"
+  ],
+  "droppedBy": {
+   "cumulus-rex": "(1/128)"
+  },
   "ingredientFor": [
-   "lightning-conductor",
+   "012-putting-on-the-glitz",
    "can-be-used-for:",
-   "012-putting-on-the-glitz"
+   "lightning-conductor"
   ]
  },
  "magical-mace": {
@@ -242,6 +255,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "wand",
+  "locationsFound": [
+   "Upover (weapon shop)"
+  ],
   "ingredientFor": [
    "mega-magical-mace"
   ]
@@ -273,6 +289,12 @@
    "brighten-rock": 3,
    "rockbomb-shard": 3,
    "stolos--staff": 1
+  },
+  "locationsFound": [
+   "Swinedimples Academy (item shop)"
+  ],
+  "droppedBy": {
+   "live-lava": "(1/128)"
   }
  },
  "oak-staff": {
@@ -297,7 +319,14 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "wand"
+  "classification": "wand",
+  "locationsFound": [
+   "Stornway (weapon shop)",
+   "Coffinwell (weapon shop)"
+  ],
+  "droppedBy": {
+   "meowgician": "(1/16)"
+  }
  },
  "rune-staff": {
   "id": "rune-staff",
@@ -326,6 +355,9 @@
    "ruby-of-protection": 1,
    "stolos--staff": 1
   },
+  "locationsFound": [
+   "Wormwood Creek (weapon shop)"
+  ],
   "ingredientFor": [
    "hieroglyph-staff"
   ]
@@ -354,6 +386,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "wand",
+  "locationsFound": [
+   "Stornway (weapon shop)"
+  ],
   "ingredientFor": [
    "savant-s-staff"
   ]
@@ -407,6 +442,9 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "wand",
+  "droppedBy": {
+   "king-godwyn": "(100%)"
+  },
   "canBeUsedFor": [
    "012-putting-on-the-glitz"
   ]
@@ -438,7 +476,11 @@
    "agate-of-evolution": 1,
    "blue-orb": 1,
    "bright-staff": 1
-  }
+  },
+  "ingredientFor": [
+   "aurora-staff",
+   "brilliant-staff"
+  ]
  },
  "staff-of-divine-wrath": {
   "id": "staff-of-divine-wrath",
@@ -466,7 +508,11 @@
    "flurry-feather": 3,
    "sage-s-elixir": 1,
    "staff-of-sentencing": 1
-  }
+  },
+  "ingredientFor": [
+   "billowing-bow",
+   "blusterang"
+  ]
  },
  "staff-of-sentencing": {
   "id": "staff-of-sentencing",
@@ -496,6 +542,13 @@
    "magic-water": 1,
    "wizard-s-staff": 1
   },
+  "locationsFound": [
+   "Coffinwell (weapon shop)",
+   "Alltrades Abbey (item shop)"
+  ],
+  "droppedBy": {
+   "clawcerer": "(1/128)"
+  },
   "ingredientFor": [
    "staff-of-divine-wrath"
   ]
@@ -523,11 +576,18 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "wand",
+  "locationsFound": [
+   "Dourbridge (weapon/armor shop)",
+   "Bloomingdale (weapon shop)"
+  ],
+  "droppedBy": {
+   "purrestidigitator": "(1/256)"
+  },
   "ingredientFor": [
-   "watermaul-wand",
    "lightning-staff",
    "magma-staff",
-   "rune-staff"
+   "rune-staff",
+   "watermaul-wand"
   ]
  },
  "tsunami-staff": {
@@ -586,6 +646,13 @@
    "seashell": 3,
    "stolos--staff": 1
   },
+  "locationsFound": [
+   "Bloomingdale (weapon shop)",
+   "Gleeba (weapon shop)"
+  ],
+  "droppedBy": {
+   "python-priest": "(1/64)"
+  },
   "ingredientFor": [
    "tsunami-staff"
   ]
@@ -611,6 +678,13 @@
   "type": "equipment",
   "category": "weapon",
   "classification": "wand",
+  "locationsFound": [
+   "Stornway (weapon shop)",
+   "Coffinwell (weapon shop)"
+  ],
+  "droppedBy": {
+   "magus": "(1/64)"
+  },
   "ingredientFor": [
    "staff-of-sentencing"
   ]
@@ -636,6 +710,9 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "wand"
+  "classification": "wand",
+  "locationsFound": [
+   "Rank 8 (B) blue chest in grotto (1%)"
+  ]
  }
 }

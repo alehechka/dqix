@@ -101,6 +101,11 @@ func (i InventoryMap) WriteJSON(basePath string) (err error) {
 	return
 }
 
+type Special struct {
+	Usage  string `json:"usage,omitempty"`
+	Effect string `json:"effect,omitempty"`
+}
+
 type Statistics struct {
 	Attack           int     `json:"attack,omitempty"`
 	Defense          int     `json:"defense,omitempty"`
@@ -112,30 +117,28 @@ type Statistics struct {
 	MPAbsorptionRate float64 `json:"mpAbsorptionRate,omitempty"`
 	Deftness         int     `json:"deftness,omitempty"`
 	Charm            int     `json:"charm,omitempty"`
-	Special          struct {
-		Usage  string `json:"usage,omitempty"`
-		Effect string `json:"effect,omitempty"`
-	} `json:"special,omitempty"`
+	Special          Special `json:"special,omitempty"`
 }
 
 type Inventory struct {
-	ID             string         `json:"id,omitempty"`
-	Title          string         `json:"title,omitempty"`
-	Description    string         `json:"description,omitempty"`
-	Statistics     Statistics     `json:"statistics,omitempty"`
-	Rarity         int            `json:"rarity,omitempty"`
-	BuyPrice       int            `json:"buyPrice,omitempty"`
-	SellPrice      int            `json:"sellPrice,omitempty"`
-	Vocations      []string       `json:"vocations,omitempty"`
-	Type           string         `json:"type,omitempty"` // Type can either be `item` or `equipment`
-	Category       string         `json:"category,omitempty"`
-	Classification string         `json:"classification,omitempty"`
-	Recipe         map[string]int `json:"recipe,omitempty"`         // Recipe is a map of ingredients used to alchemize the inventory where the keys are inventory IDs and the values are the number of that inventory needed
-	LocationsFound []string       `json:"locationsFound,omitempty"` // LocationsFound represents the locations the Inventory can be found
-	DroppedBy      map[string]int `json:"droppedBy,omitempty"`      // DroppedBy is a map of monsters that drop the inventory where the keys are monster IDs and the values are the denominator (x) in the fraction 1/x representing the drop chance
-	IngredientFor  []string       `json:"ingredientFor,omitempty"`  // ingredientFor represents the Inventory recipes that this Inventory is part of
-	RequiredFor    []string       `json:"requiredFor,omitempty"`
-	CanBeUsedFor   []string       `json:"canBeUsedFor,omitempty"`
+	ID             string            `json:"id,omitempty"`
+	Title          string            `json:"title,omitempty"`
+	Description    string            `json:"description,omitempty"`
+	Statistics     Statistics        `json:"statistics,omitempty"`
+	Rarity         int               `json:"rarity,omitempty"`
+	BuyPrice       int               `json:"buyPrice,omitempty"`
+	SellPrice      int               `json:"sellPrice,omitempty"`
+	Vocations      []string          `json:"vocations,omitempty"`
+	Type           string            `json:"type,omitempty"` // Type can either be `item` or `equipment`
+	Category       string            `json:"category,omitempty"`
+	Classification string            `json:"classification,omitempty"`
+	Recipe         map[string]int    `json:"recipe,omitempty"`         // Recipe is a map of ingredients used to alchemize the inventory where the keys are inventory IDs and the values are the number of that inventory needed
+	LocationsFound []string          `json:"locationsFound,omitempty"` // LocationsFound represents the locations the Inventory can be found
+	DroppedBy      map[string]string `json:"droppedBy,omitempty"`      // DroppedBy is a map of monsters that drop the inventory where the keys are monster IDs and the values are the denominator (x) in the fraction 1/x representing the drop chance
+	IngredientFor  []string          `json:"ingredientFor,omitempty"`  // ingredientFor represents the Inventory recipes that this Inventory is part of
+	RequiredFor    []string          `json:"requiredFor,omitempty"`
+	CanBeUsedFor   []string          `json:"canBeUsedFor,omitempty"`
+	ImageSrc       string            `json:"imageSrc,omitempty"`
 }
 
 func (i Inventory) GetID() string {
@@ -150,6 +153,18 @@ func (i Inventory) GetPath() string {
 	return "/" + path.Join("inventory", i.Type, i.Category, i.Classification, i.ID)
 }
 
+type Ingredient struct {
+	ID       string
+	Quantity int
+}
+
+func (i Inventory) RecipeSlice() (ingredients []Ingredient) {
+	for id, quantity := range i.Recipe {
+		ingredients = append(ingredients, Ingredient{ID: id, Quantity: quantity})
+	}
+	return
+}
+
 func (i Inventory) ToDataKey() DataKey {
 	return DataKey{
 		ID:             i.ID,
@@ -157,6 +172,8 @@ func (i Inventory) ToDataKey() DataKey {
 		Type:           i.Type,
 		Category:       i.Category,
 		Classification: i.Classification,
+		Title:          i.Title,
+		Path:           i.GetPath(),
 	}
 }
 
@@ -276,14 +293,34 @@ func (p PageContent) parseFromBase(inventory *Inventory) {
 			}
 			for i++; i < lastIndex; i += 2 {
 				if !strings.HasPrefix(p.Text[i+1], "x") {
+					i--
 					break
 				}
 				id := TitleToID(p.Text[i])
 				num, _ := strconv.Atoi(strings.Split(strings.TrimPrefix(p.Text[i+1], "x"), " ")[0])
 				inventory.Recipe[id] = num
 			}
-		case "Where to find:": // TODO
-		case "Dropped by:": // TODO
+		case "Where to find:":
+			for i++; i < lastIndex; i++ {
+				if strings.HasSuffix(p.Text[i], ")") {
+					locations := strings.Split(p.Text[i], ", ")
+					inventory.LocationsFound = append(inventory.LocationsFound, locations...)
+				} else {
+					i--
+					break
+				}
+			}
+		case "Dropped by:":
+			inventory.DroppedBy = make(map[string]string)
+			for i++; i < lastIndex; i++ {
+				if i+1 < lastIndex && strings.HasPrefix(p.Text[i+1], "(") && (strings.HasSuffix(p.Text[i+1], ")") || strings.HasSuffix(p.Text[i+1], "),")) {
+					key := TitleToID(p.Text[i])
+					inventory.DroppedBy[key] = strings.TrimSuffix(p.Text[i+1], ",")
+				} else {
+					i--
+					break
+				}
+			}
 		case "Alchemises:":
 			for i++; i < lastIndex; i++ {
 				if id := TitleToID(p.Text[i]); id != "" {
@@ -293,18 +330,24 @@ func (p PageContent) parseFromBase(inventory *Inventory) {
 					break
 				}
 			}
+			sort.Strings(inventory.IngredientFor)
 		case "Required for:":
 			for i++; i < lastIndex; i++ {
 				if id := TitleToID(p.Text[i]); id != "" {
 					inventory.RequiredFor = append(inventory.RequiredFor, id)
 				}
+				if i+1 < lastIndex && p.Text[i+1] == "Can be used for:" {
+					break
+				}
 			}
+			sort.Strings(inventory.RequiredFor)
 		case "Can be used for:":
 			for i++; i < lastIndex; i++ {
 				if id := TitleToID(p.Text[i]); id != "" {
 					inventory.CanBeUsedFor = append(inventory.CanBeUsedFor, id)
 				}
 			}
+			sort.Strings(inventory.CanBeUsedFor)
 		}
 	}
 }
