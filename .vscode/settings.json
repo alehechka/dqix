@@ -1,4 +1,14 @@
 {
   "cSpell.words": ["armamentalist", "Wikidot"],
-  "css.customData": [".vscode/tailwind.json"]
+  "css.customData": [".vscode/tailwind.json"],
+  "editor.formatOnSave": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "[templ]": {
+    "editor.defaultFormatter": "a-h.templ"
+  }
 }

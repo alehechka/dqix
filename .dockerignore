@@ -1,0 +1,10 @@
+/.git/
+/.github/
+/.vscode/
+/data
+.dockerignore
+.gitignore
+.nvmrc
+docker-compose.yaml
+Dockerfile
+README.md

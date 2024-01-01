@@ -4,6 +4,7 @@ const config = {
   tabWidth: 2,
   semi: true,
   singleQuote: true,
+  length: 80,
   plugins: ['prettier-plugin-tailwindcss'],
   overrides: [
     {
