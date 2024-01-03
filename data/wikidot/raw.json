@@ -32583,8 +32583,8 @@
       "/system:page-tags/tag/sword": "sword"
     }
   },
-  "/liquid-slime-spear": {
-    "Path": "liquid-slime-spear",
+  "/liquid-metal-spear": {
+    "Path": "liquid-metal-spear",
     "Text": [
       "Liquid Metal Spear",
       "A supreme spear packed with the power of liquid metal slimes.",
@@ -36025,7 +36025,7 @@
       "Classification:",
       "Spear",
       "How to make:",
-      "Liquid slime spear",
+      "Liquid Metal Spear",
       "x1 +",
       "Orichalcum",
       "x1 +",
@@ -36034,7 +36034,7 @@
       "spear"
     ],
     "Links": {
-      "/liquid-slime-spear": "Liquid slime spear",
+      "/liquid-metal-spear": "Liquid Metal Spear",
       "/orichalcum": "Orichalcum",
       "/slime-crown": "Slime crown",
       "/system:page-tags/tag/spear": "spear"
@@ -39513,7 +39513,7 @@
       "Liquid metal sword",
       "Metal king sword",
       "Erdrick's sword",
-      "Liquid slime spear",
+      "Liquid Metal Spear",
       "Metal king spear",
       "Orichalcudgel",
       "Orichalcum claws",
@@ -39557,7 +39557,7 @@
       "/liquid-metal-slime-boots": "Liquid metal slime boots",
       "/liquid-metal-slime-gloves": "Liquid metal slime gloves",
       "/liquid-metal-sword": "Liquid metal sword",
-      "/liquid-slime-spear": "Liquid slime spear",
+      "/liquid-metal-spear": "Liquid Metal Spear",
       "/megaton-hammer": "Megaton hammer",
       "/metal-king-armour": "Metal king armour",
       "/metal-king-helm": "Metal king helm",
@@ -48572,7 +48572,7 @@
       "(1/64)",
       "Alchemises:",
       "Liquid metal sword",
-      "Liquid slime spear",
+      "Liquid Metal Spear",
       "Liquid metal shield",
       "Liquid metal helm",
       "Slood",
@@ -48600,7 +48600,7 @@
       "/liquid-metal-slime-boots": "Liquid metal slime boots",
       "/liquid-metal-slime-gloves": "Liquid metal slime gloves",
       "/liquid-metal-sword": "Liquid metal sword",
-      "/liquid-slime-spear": "Liquid slime spear",
+      "/liquid-metal-spear": "Liquid Metal Spear",
       "/medislime": "Medislime",
       "/metal-medley": "Metal medley",
       "/she-slime": "She-slime",
@@ -55803,7 +55803,7 @@
       "Liquid Metal Slime Gloves",
       "Liquid Metal Spear",
       "Liquid Metal Sword",
-      "Liquid Slime Spear",
+      "Liquid Metal Spear",
       "List All Pages",
       "Litheness",
       "Little Key",
@@ -55839,7 +55839,7 @@
       "/liquid-metal-slime-gloves": "Liquid Metal Slime Gloves",
       "/liquid-metal-spear": "Liquid Metal Spear",
       "/liquid-metal-sword": "Liquid Metal Sword",
-      "/liquid-slime-spear": "Liquid Slime Spear",
+      "/liquid-metal-spear": "Liquid Metal Spear",
       "/litheness": "Litheness",
       "/little-key": "Little Key",
       "/live-lava": "Live Lava",

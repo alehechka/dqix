@@ -386,7 +386,7 @@
   "category": "weapon",
   "classification": "spear",
   "recipe": {
-   "liquid-slime-spear": 1,
+   "liquid-metal-spear": 1,
    "orichalcum": 1,
    "slime-crown": 1
   }
