@@ -26898,32 +26898,6 @@
     ],
     "Links": {}
   },
-  "/headman-s-axe": {
-    "Path": "headman-s-axe",
-    "Text": [
-      "Headman's Axe",
-      "An enormous axe of frankly fearsome force.",
-      "Attack:",
-      "98",
-      "Rarity:",
-      "2/5",
-      "Buy price:",
-      "28800 gold",
-      "Used by:",
-      "Gladiator, Ranger",
-      "Classification:",
-      "Axe",
-      "Where to find:",
-      "Dourbridge (secret shop)",
-      "Alchemises:",
-      "Executioner's axe",
-      "axe"
-    ],
-    "Links": {
-      "/executioner-s-axe": "Executioner's axe",
-      "/system:page-tags/tag/axe": "axe"
-    }
-  },
   "/headsman-s-axe": {
     "Path": "headsman-s-axe",
     "Text": [

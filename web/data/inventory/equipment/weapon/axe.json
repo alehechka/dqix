@@ -220,30 +220,6 @@
    "king-axe"
   ]
  },
- "headman-s-axe": {
-  "id": "headman-s-axe",
-  "title": "Headman's Axe",
-  "description": "An enormous axe of frankly fearsome force.",
-  "statistics": {
-   "agility": 98,
-   "special": {}
-  },
-  "rarity": 2,
-  "buyPrice": 28800,
-  "vocations": [
-   "gladiator",
-   "ranger"
-  ],
-  "type": "equipment",
-  "category": "weapon",
-  "classification": "axe",
-  "locationsFound": [
-   "Dourbridge (secret shop)"
-  ],
-  "ingredientFor": [
-   "executioner-s-axe"
-  ]
- },
  "headsman-s-axe": {
   "id": "headsman-s-axe",
   "title": "Headsman's Axe",
