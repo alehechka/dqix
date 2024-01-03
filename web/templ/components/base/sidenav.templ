@@ -64,7 +64,7 @@ templ SideNav(page string) {
 						@SideNavLink("Claws", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponClaw), page == types.ClassWeaponClaw)
 						@SideNavLink("Fans", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponFan), page == types.ClassWeaponFan)
 						@SideNavLink("Hammers", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponHammer), page == types.ClassWeaponHammer)
-						@SideNavLink("Knifes", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponKnife), page == types.ClassWeaponKnife)
+						@SideNavLink("Knives", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponKnife), page == types.ClassWeaponKnife)
 						@SideNavLink("Spears", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponSpear), page == types.ClassWeaponSpear)
 						@SideNavLink("Staves", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponStave), page == types.ClassWeaponStave)
 						@SideNavLink("Swords", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponSword), page == types.ClassWeaponSword)
@@ -72,6 +72,9 @@ templ SideNav(page string) {
 						@SideNavLink("Whips", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponWhip), page == types.ClassWeaponWhip)
 					</ul>
 				</details>
+			</li>
+			<li>
+				@SideNavLink("Accessories", fn.Path("inventory", "equipment", "accessories", types.ClassAccessory), page == types.ClassAccessory)
 			</li>
 		</ul>
 	</aside>

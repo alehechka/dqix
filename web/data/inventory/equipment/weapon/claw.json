@@ -463,6 +463,28 @@
    "kestrel-claws": 1
   }
  },
+ "orichalcum-claws": {
+  "id": "orichalcum-claws",
+  "title": "Orichalcum Claws",
+  "description": "Godly talons crafted from orichalcum.",
+  "statistics": {
+   "agility": 138,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "martial-artist",
+   "thief"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "claw",
+  "recipe": {
+   "combusticlaws": 1,
+   "hephaestus--flame": 2,
+   "orichalcum": 2
+  }
+ },
  "razor-claws": {
   "id": "razor-claws",
   "title": "Razor Claws",

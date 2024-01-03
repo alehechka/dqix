@@ -297,6 +297,32 @@
    "live-lava": "(1/128)"
   }
  },
+ "mega-magical-mace": {
+  "id": "mega-magical-mace",
+  "title": "Mega-Magical Mace",
+  "description": "A miraculous staff that sucks masses of MP from the enemy.",
+  "statistics": {
+   "agility": 65,
+   "mpAbsorptionRate": 9,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "priest",
+   "mage",
+   "paladin",
+   "armamentalist",
+   "sage"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "wand",
+  "recipe": {
+   "astral-plume": 1,
+   "magical-mace": 1,
+   "mythril-ore": 3
+  }
+ },
  "oak-staff": {
   "id": "oak-staff",
   "title": "Oak Staff",

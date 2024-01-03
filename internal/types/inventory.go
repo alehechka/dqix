@@ -138,7 +138,6 @@ type Inventory struct {
 	IngredientFor  []string          `json:"ingredientFor,omitempty"`  // ingredientFor represents the Inventory recipes that this Inventory is part of
 	RequiredFor    []string          `json:"requiredFor,omitempty"`
 	CanBeUsedFor   []string          `json:"canBeUsedFor,omitempty"`
-	ImageSrc       string            `json:"imageSrc,omitempty"`
 }
 
 func (i Inventory) GetID() string {
@@ -151,6 +150,10 @@ func (i Inventory) GetTitle() string {
 
 func (i Inventory) GetPath() string {
 	return "/" + path.Join("inventory", i.Type, i.Category, i.Classification, i.ID)
+}
+
+func (i Inventory) ImageSrc() string {
+	return "/" + path.Join("static", "gallery", i.GetPath()+".png")
 }
 
 type Ingredient struct {
