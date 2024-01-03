@@ -3,7 +3,7 @@
 IFS=$'\n'; set -f
 
 for f in $(find ./web/static/gallery -name '*.png'); do 
-    fileName=$(echo "$f" | tr '_' '-' | sed -e 's/-th//')
+    fileName=$(echo "$f" | tr '_' '-' | sed -e 's/-th.png/.png/')
     if [ $f != $fileName ]; then
         mv $f $fileName
     fi
