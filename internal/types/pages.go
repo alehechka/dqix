@@ -53,6 +53,8 @@ const (
 	ClassWeaponSword     string = "sword"
 	ClassWeaponWand      string = "wand"
 	ClassWeaponWhip      string = "whip"
+
+	ClassAccessory string = "accessory"
 )
 
 func IsWeapon(class string) bool {
