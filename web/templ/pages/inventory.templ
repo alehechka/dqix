@@ -28,9 +28,7 @@ templ InventoryClassificationContent(class string, inventories []types.Inventory
 		<ul hx-boost="true" hx-target="#page-content" hx-swap="innerHTML" class="[&>li]:flex [&>li]:items-center">
 			for _, inventory := range inventories {
 				<li>
-					if inventory.ImageSrc != "" {
-						<img src={ inventory.ImageSrc } alt={ inventory.ID }/>
-					}
+					<img src={ inventory.ImageSrc() } alt={ inventory.ID }/>
 					@links.Link(inventory.Title, fn.Path(inventory.GetPath()), nil)
 				</li>
 			}
@@ -55,9 +53,7 @@ templ InventoryContentWithSideNav(inventory types.Inventory, getter types.IGetTh
 templ InventoryContent(inventory types.Inventory, getter types.IGetThingFromID) {
 	<div hx-boost="true" hx-target="#page-content">
 		<div class="flex flex-row items-center">
-			if inventory.ImageSrc != "" {
-				<img src={ inventory.ImageSrc } alt={ inventory.ID }/>
-			}
+			<img src={ inventory.ImageSrc() } alt={ inventory.ID }/>
 			<h1 id="title" class="text-3xl font-bold">
 				{ inventory.Title }
 			</h1>
