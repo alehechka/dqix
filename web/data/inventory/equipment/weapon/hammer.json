@@ -234,6 +234,32 @@
    "groundbreaker"
   ]
  },
+ "oaken-club": {
+  "id": "oaken-club",
+  "title": "Oaken Club",
+  "description": "A brutally basic bludgeon built of sturdy oak.",
+  "statistics": {
+   "agility": 7,
+   "special": {}
+  },
+  "rarity": 1,
+  "vocations": [
+   "gladiator",
+   "paladin"
+  ],
+  "type": "equipment",
+  "category": "weapon",
+  "classification": "hammer",
+  "locationsFound": [
+   "Rank 1 (I) blue chest in grotto (5%)"
+  ],
+  "droppedBy": {
+   "troll": "(1/8)"
+  },
+  "ingredientFor": [
+   "ace-of-clubs"
+  ]
+ },
  "sledgehammer": {
   "id": "sledgehammer",
   "title": "Sledgehammer",

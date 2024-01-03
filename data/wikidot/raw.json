@@ -35509,7 +35509,8 @@
       "Astral plume",
       "x1 +",
       "Mythril ore",
-      "x3"
+      "x3",
+      "wand"
     ],
     "Links": {
       "/astral-plume": "Astral plume",
@@ -39127,7 +39128,8 @@
       "Hammerhood",
       "(1/64)",
       "Alchemises:",
-      "Ace of clubs"
+      "Ace of clubs",
+      "hammer"
     ],
     "Links": {
       "/ace-of-clubs": "Ace of clubs",
