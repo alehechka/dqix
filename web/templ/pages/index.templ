@@ -2,8 +2,8 @@ package pages
 
 import "dqix/web/templ/components/base"
 
-templ IndexPage() {
-	@base.Layout("Dragon Quest IX", "") {
+templ IndexPage(isDarkMode bool) {
+	@base.Layout("Dragon Quest IX", "", isDarkMode) {
 		@indexContent()
 	}
 }

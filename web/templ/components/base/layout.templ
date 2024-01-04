@@ -2,12 +2,18 @@ package base
 
 import "dqix/web/templ/components/icons"
 
-templ Layout(pageTitle string, page string) {
-	<html lang="en" class="h-full overflow-hidden">
+templ Layout(pageTitle string, page string, isDarkMode bool) {
+	<html
+		lang="en"
+		class="h-full overflow-hidden"
+		if isDarkMode {
+			data-mode="dark"
+		}
+	>
 		<head>
 			@Meta(pageTitle)
 		</head>
-		<body class="h-full overflow-hidden">
+		<body class="h-full overflow-hidden dark:text-gray-300">
 			@sidenavScriptUtils()
 			@Navbar()
 			@MainContentWithSidenav(page) {
@@ -33,7 +39,8 @@ templ MainContent() {
 				h-[calc(100%-var(--navbar-height))] 
 				overflow-auto bg-gray-50 
 				transition-[margin-right] duration-300
-				md:mr-[--sidenav-width]"
+				md:mr-[--sidenav-width]
+				dark:bg-zinc-900"
 	>
 		@ContentWrapper() {
 			{ children... }
@@ -48,9 +55,15 @@ templ ContentWrapper() {
 }
 
 templ Navbar() {
-	<header class="fixed top-0 z-50 flex h-[--navbar-height] w-full flex-row items-center border-b-[1px] border-gray-300 bg-white">
+	<header
+		class="fixed top-0 z-50 
+				h-[--navbar-height] w-full 
+				flex flex-row items-center 
+				border-b-[1px] border-gray-300 dark:border-none
+				bg-white dark:bg-zinc-800"
+	>
 		<a href="/">
-			<img src="/static/dqix_logo.webp" alt="Dragon Quest IX" class="h-[--navbar-height]"/>
+			<img src="/static/dqix_logo.webp" alt="Dragon Quest IX" class="h-[calc(var(--navbar-height)-0.5rem)]"/>
 		</a>
 		<button class="mr-4 ml-auto block md:hidden hover:bg-gray-200 rounded p-1" onclick={ toggleSidenav() }>
 			@icons.Hamburger(icons.WithSize("1.25rem"))

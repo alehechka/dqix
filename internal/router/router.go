@@ -1,6 +1,7 @@
 package router
 
 import (
+	gin_utils "dqix/pkg/gin"
 	"dqix/pkg/htmx"
 	"dqix/web/templ/pages"
 	"fmt"
@@ -38,7 +39,7 @@ func (a *app) SetupRouter() *gin.Engine {
 	a.StaticFiles(engine)
 
 	engine.GET("/", func(ctx *gin.Context) {
-		ctx.HTML(http.StatusOK, "", pages.IndexPage())
+		ctx.HTML(http.StatusOK, "", pages.IndexPage(gin_utils.IsDarkMode(ctx)))
 	})
 
 	engine.GET("/inventory")
@@ -62,7 +63,7 @@ func (a *app) SetupRouter() *gin.Engine {
 		case "sidenav-page-wrapper":
 			ctx.HTML(http.StatusOK, "", pages.InventoryClassificationContentWithSideNav(classification, inventories))
 		default:
-			ctx.HTML(http.StatusOK, "", pages.InventoryClassificationPage(classification, inventories))
+			ctx.HTML(http.StatusOK, "", pages.InventoryClassificationPage(classification, inventories, gin_utils.IsDarkMode(ctx)))
 		}
 	})
 	engine.GET("/inventory/:type/:category/:classification/:id", func(ctx *gin.Context) {
@@ -89,7 +90,7 @@ func (a *app) SetupRouter() *gin.Engine {
 		case "sidenav-page-wrapper":
 			ctx.HTML(http.StatusOK, "", pages.InventoryContentWithSideNav(inventory, a.data.GetQuickThing))
 		default:
-			ctx.HTML(http.StatusOK, "", pages.InventoryPage(inventory, a.data.GetQuickThing))
+			ctx.HTML(http.StatusOK, "", pages.InventoryPage(inventory, a.data.GetQuickThing, gin_utils.IsDarkMode(ctx)))
 		}
 	})
 
