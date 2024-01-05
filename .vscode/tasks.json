@@ -2,6 +2,14 @@
   "version": "2.0.0",
   "tasks": [
     {
+      "label": "compose",
+      "type": "shell",
+      "command": "docker compose up",
+      "presentation": {
+        "panel": "dedicated"
+      }
+    },
+    {
       "label": "start",
       "dependsOrder": "parallel",
       "dependsOn": ["templ", "css", "app"]
