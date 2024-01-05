@@ -27,7 +27,8 @@ FROM go-base as templ-builder
 WORKDIR /app
 
 COPY go.mod .
-RUN go install github.com/a-h/templ/cmd/templ@$(go list -m -f '{{ .Version }}' github.com/a-h/templ)
+COPY Makefile .
+RUN make install-templ
 
 COPY web/templ web/templ
 
