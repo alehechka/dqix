@@ -1,0 +1,13 @@
+# BASE IMAGES
+FROM golang:1.21 as go-base
+
+FROM go-base as templ-watcher
+
+WORKDIR /app
+
+COPY go.mod .
+COPY Makefile .
+
+RUN go install github.com/a-h/templ/cmd/templ@$(go list -m -f '{{ .Version }}' github.com/a-h/templ)
+
+CMD [ "make", "templ" ]

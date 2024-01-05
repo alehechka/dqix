@@ -1,0 +1,18 @@
+# BASE IMAGES
+FROM node:20.7.0-bullseye as node-base
+
+FROM node-base as css-watcher
+
+WORKDIR /app
+
+COPY package.json .
+COPY package-lock.json .
+
+RUN npm install --prefer-offline
+
+COPY Makefile .
+COPY tailwind.config.js .
+COPY web/templ web/templ
+COPY web/static web/static
+
+CMD [ "make", "css" ]
