@@ -16,7 +16,7 @@ services:
       dockerfile: .docker/Dockerfile.tailwindcss
     tty: true
     volumes:
-      - ./web:/app/web
+      - ./:/app
 
   gin-watcher:
     image: alehechka/dqix/gin-watcher
