@@ -1,8 +1,8 @@
 start:
-	gin run start
+	gin run start 
 
-build-static:
-	./scripts/build-static.sh
+install-templ:
+	go install github.com/a-h/templ/cmd/templ@$(shell go list -m -f '{{ .Version }}' github.com/a-h/templ)
 
 templ:
 	templ generate --watch --path=web/templ

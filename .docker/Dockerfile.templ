@@ -1,0 +1,13 @@
+# BASE IMAGES
+FROM golang:1.21 as go-base
+
+FROM go-base as templ-watcher
+
+WORKDIR /app
+
+COPY go.mod .
+COPY Makefile .
+
+RUN make install-templ
+
+CMD [ "make", "templ" ]

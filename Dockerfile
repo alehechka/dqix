@@ -26,7 +26,9 @@ FROM go-base as templ-builder
 
 WORKDIR /app
 
-RUN go install github.com/a-h/templ/cmd/templ@latest
+COPY go.mod .
+COPY Makefile .
+RUN make install-templ
 
 COPY web/templ web/templ
 
