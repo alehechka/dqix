@@ -10,13 +10,12 @@ templ SideNav(page string) {
 		hx-boost="true"
 		hx-target="#sidenav-page-wrapper"
 		hx-swap="outerHTML"
-		class="fixed -right-[--sidenav-width] md:right-0 top-16
+		class="fixed -right-[--sidenav-width] md:right-0 top-16 p-2
 				z-40 h-[calc(100%-var(--navbar-height))] w-[--sidenav-width]
-				border-l-[1px] border-gray-300 bg-white
-				py-2 transition-[right] duration-300 
-				aria-expanded:right-0 pr-2"
+				bg-gray-50 dark:bg-zinc-900
+				transition-[right] duration-300 aria-expanded:right-0"
 	>
-		<ul class="flex h-full flex-col gap-1 overflow-x-hidden">
+		<ul class="flex flex-col gap-1 overflow-x-hidden border-l-[1px] border-gray-300">
 			<li>
 				<details
 					class="pl-2"
@@ -25,7 +24,7 @@ templ SideNav(page string) {
 					}
 				>
 					<summary>Items</summary>
-					<ul class="flex h-full flex-col gap-1 overflow-x-hidden">
+					<ul class="flex flex-col gap-1 overflow-x-hidden">
 						@SideNavLink("Everyday", fn.Path("inventory", "bag", "items", types.ClassItemEveryday), page == types.ClassItemEveryday)
 						@SideNavLink("Important", fn.Path("inventory", "bag", "items", types.ClassItemImportant), page == types.ClassItemImportant)
 					</ul>
@@ -39,7 +38,7 @@ templ SideNav(page string) {
 					}
 				>
 					<summary>Armor</summary>
-					<ul class="flex h-full flex-col gap-1 overflow-x-hidden">
+					<ul class="flex flex-col gap-1 overflow-x-hidden">
 						@SideNavLink("Head", fn.Path("inventory", "equipment", "armor", types.ClassArmorHead), page == types.ClassArmorHead)
 						@SideNavLink("Torso", fn.Path("inventory", "equipment", "armor", types.ClassArmorTorso), page == types.ClassArmorTorso)
 						@SideNavLink("Shields", fn.Path("inventory", "equipment", "armor", types.ClassArmorShield), page == types.ClassArmorShield)
@@ -57,7 +56,7 @@ templ SideNav(page string) {
 					}
 				>
 					<summary>Weapons</summary>
-					<ul class="flex h-full flex-col gap-1 overflow-x-hidden">
+					<ul class="flex flex-col gap-1 overflow-x-hidden">
 						@SideNavLink("Axes", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponAxe), page == types.ClassWeaponAxe)
 						@SideNavLink("Boomerangs", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponBoomerang), page == types.ClassWeaponBoomerang)
 						@SideNavLink("Bows", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponBow), page == types.ClassWeaponBow)
@@ -87,11 +86,14 @@ templ SideNavLink(text string, href templ.SafeURL, isActive bool) {
 			if isActive {
 				aria-current="page"
 			}
-			class="flex flex-row items-center gap-2 
-					rounded p-2 text-gray-700 hover:bg-gray-200 
+			class="flex flex-row items-center gap-2 dark:text-gray-300
+					rounded p-2 text-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600
 					aria-[current='page']:bg-blue-100 aria-[current='page']:bg-opacity-70 
 					aria-[current='page']:text-blue-700 
-					hover:aria-[current='page']:bg-opacity-100"
+					hover:aria-[current='page']:bg-opacity-100
+					dark:aria-[current='page']:bg-gray-700 
+					dark:aria-[current='page']:text-yellow-400 
+					dark:hover:aria-[current='page']:bg-gray-600"
 		>
 			<span>{ text }</span>
 		</a>

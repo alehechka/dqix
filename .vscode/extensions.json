@@ -3,6 +3,7 @@
     "esbenp.prettier-vscode",
     "golang.go",
     "a-h.templ",
+    "bradlc.vscode-tailwindcss",
     "github.vscode-github-actions",
     "ms-azuretools.vscode-docker",
     "formulahendry.auto-rename-tag",
