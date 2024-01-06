@@ -11,10 +11,7 @@ script clientThemeToggle() {
 
 templ ThemeToggleButton(isDarkMode bool) {
 	<button class="hover:bg-gray-200 dark:hover:bg-gray-600 rounded p-1" onclick={ clientThemeToggle() }>
-		if isDarkMode {
-			@icons.Moon()
-		} else {
-			@icons.Sun()
-		}
+		@icons.Moon(icons.WithClass("hidden dark:block"))
+		@icons.Sun(icons.WithClass("block dark:hidden"))
 	</button>
 }
