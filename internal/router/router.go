@@ -41,6 +41,8 @@ func (a *app) SetupRouter() *gin.Engine {
 		ctx.HTML(http.StatusOK, "", pages.IndexPage(gin_utils.IsDarkMode(ctx)))
 	})
 
+	engine.GET("/change-theme", gin_utils.ToggleThemeHandler)
+
 	a.InventoryRoutes(engine)
 
 	return engine

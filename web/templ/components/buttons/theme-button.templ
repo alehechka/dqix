@@ -1,0 +1,22 @@
+package buttons
+
+import "dqix/web/templ/components/icons"
+
+script clientThemeToggle() {
+    const html = document.querySelector("html");
+    const newTheme = html.getAttribute("data-mode") === "dark" ? "light" : "dark";
+    html.setAttribute("data-mode", newTheme);
+    console.log(newTheme)
+}
+
+templ ThemeToggleButton(isDarkMode bool) {
+	<div id="theme-toggle-wrapper">
+		<button class="hover:bg-gray-200 dark:hover:bg-gray-600 rounded p-1" hx-get="/change-theme" hx-trigger="click" hx-target="#theme-toggle-wrapper" hx-swap="outerHTML" onclick={ clientThemeToggle() }>
+			if isDarkMode {
+				@icons.Moon()
+			} else {
+				@icons.Sun()
+			}
+		</button>
+	</div>
+}

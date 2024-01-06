@@ -1,6 +1,7 @@
 package base
 
 import "dqix/web/templ/components/icons"
+import "dqix/web/templ/components/buttons"
 
 templ Layout(pageTitle string, page string, isDarkMode bool) {
 	<html
@@ -15,7 +16,7 @@ templ Layout(pageTitle string, page string, isDarkMode bool) {
 		</head>
 		<body class="h-full overflow-hidden dark:text-gray-300">
 			@sidenavScriptUtils()
-			@Navbar()
+			@Navbar(isDarkMode)
 			@MainContentWithSidenav(page) {
 				{ children... }
 			}
@@ -54,19 +55,22 @@ templ ContentWrapper() {
 	</section>
 }
 
-templ Navbar() {
+templ Navbar(isDarkMode bool) {
 	<header
 		class="fixed top-0 z-50 
 				h-[--navbar-height] w-full 
-				flex flex-row items-center 
+				flex flex-row items-center justify-between
 				border-b-[1px] border-gray-300 dark:border-none
 				bg-white dark:bg-zinc-800"
 	>
 		<a href="/">
 			<img src="/static/dqix_logo.webp" alt="Dragon Quest IX" class="h-[calc(var(--navbar-height)-0.5rem)]"/>
 		</a>
-		<button class="mr-4 ml-auto block md:hidden hover:bg-gray-200 rounded p-1" onclick={ toggleSidenav() }>
-			@icons.Hamburger(icons.WithSize("1.25rem"))
-		</button>
+		<div class="flex flex-row gap-2 mr-4 items-center">
+			@buttons.ThemeToggleButton(isDarkMode)
+			<button class="block md:hidden hover:bg-gray-200 dark:hover:bg-gray-600 rounded p-1" onclick={ toggleSidenav() }>
+				@icons.Hamburger(icons.WithSize("1.25rem"))
+			</button>
+		</div>
 	</header>
 }
