@@ -3,7 +3,7 @@ module dqix
 go 1.21
 
 require (
-	github.com/a-h/templ v0.2.501
+	github.com/a-h/templ v0.2.513
 	github.com/gin-contrib/gzip v0.0.6
 	github.com/gin-gonic/gin v1.9.1
 	github.com/urfave/cli/v2 v2.26.0
