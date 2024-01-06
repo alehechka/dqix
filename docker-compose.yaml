@@ -1,11 +1,29 @@
 version: '3.8'
 
 services:
-  dqix:
-    image: alehechka/dqix
+  templ-watcher:
+    image: alehechka/dqix/templ-watcher
     build:
       context: .
-      dockerfile: Dockerfile
-    command: start
+      dockerfile: .docker/Dockerfile.templ
+    volumes:
+      - ./web/templ:/app/web/templ
+
+  tailwindcss-watcher:
+    image: alehechka/dqix/tailwindcss-watcher
+    build:
+      context: .
+      dockerfile: .docker/Dockerfile.tailwindcss
+    tty: true
+    volumes:
+      - ./:/app
+
+  gin-watcher:
+    image: alehechka/dqix/gin-watcher
+    build:
+      context: .
+      dockerfile: .docker/Dockerfile.gin
+    volumes:
+      - ./:/app
     ports:
-      - 8080:8080
+      - 3000:3000

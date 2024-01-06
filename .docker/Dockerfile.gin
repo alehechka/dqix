@@ -1,0 +1,15 @@
+# BASE IMAGES
+FROM golang:1.21 as go-base
+
+FROM go-base as go-builder
+
+WORKDIR /app
+
+COPY go.mod .
+COPY go.sum .
+
+RUN go mod download
+
+RUN go install github.com/codegangsta/gin@latest
+
+CMD [ "make", "start" ]
