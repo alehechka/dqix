@@ -12,6 +12,61 @@ import (
 
 type InventoryMap map[string]map[string]map[string]map[string]Inventory
 
+type InventorySlice []Inventory
+
+type HasInventoryStats struct {
+	HasAttack           bool
+	HasDefense          bool
+	HasBlockChance      bool
+	HasAgility          bool
+	HasEvasionChance    bool
+	HasMagicalMight     bool
+	HasMagicalMending   bool
+	HasMPAbsorptionRate bool
+	HasDeftness         bool
+	HasCharm            bool
+	HasSpecial          bool
+}
+
+func (i InventorySlice) GetHasInventoryStats() (stats HasInventoryStats) {
+	for _, inventory := range i {
+		if inventory.Statistics.Attack > 0 {
+			stats.HasAttack = true
+		}
+		if inventory.Statistics.Defense > 0 {
+			stats.HasDefense = true
+		}
+		if inventory.Statistics.BlockChance > 0 {
+			stats.HasBlockChance = true
+		}
+		if inventory.Statistics.Agility > 0 {
+			stats.HasAgility = true
+		}
+		if inventory.Statistics.EvasionChance > 0 {
+			stats.HasEvasionChance = true
+		}
+		if inventory.Statistics.MagicalMight > 0 {
+			stats.HasMagicalMight = true
+		}
+		if inventory.Statistics.MagicalMending > 0 {
+			stats.HasMagicalMending = true
+		}
+		if inventory.Statistics.MPAbsorptionRate > 0 {
+			stats.HasMPAbsorptionRate = true
+		}
+		if inventory.Statistics.Deftness > 0 {
+			stats.HasDeftness = true
+		}
+		if inventory.Statistics.Charm > 0 {
+			stats.HasCharm = true
+		}
+		if inventory.Statistics.Special.Effect != "" || inventory.Statistics.Special.Usage != "" {
+			stats.HasSpecial = true
+		}
+	}
+	return
+}
+
 func (i InventoryMap) AddInventory(inventory Inventory) {
 	if i == nil {
 		return
@@ -46,7 +101,7 @@ func (i InventoryMap) GetClassification(typeId string, category string, classifi
 	return categories[classification]
 }
 
-func (i InventoryMap) GetClassificationSlice(typeId string, category string, classification string) (classifications []Inventory) {
+func (i InventoryMap) GetClassificationSlice(typeId string, category string, classification string) (classifications InventorySlice) {
 	classes := i.GetClassification(typeId, category, classification)
 	if classes == nil {
 		return

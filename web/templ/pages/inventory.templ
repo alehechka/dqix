@@ -9,35 +9,177 @@ import "strconv"
 import "fmt"
 
 // Inventory Classifications
-
-templ InventoryClassificationPage(class string, inventories []types.Inventory, isDarkMode bool) {
+templ InventoryClassificationPage(class string, inventories types.InventorySlice, hasStats types.HasInventoryStats, displayMode string, isDarkMode bool) {
 	@base.Layout("DQIX | " + strings.Title(class), class, isDarkMode) {
-		@InventoryClassificationContent(class, inventories)
+		@InventoryClassificationContent(class, inventories, hasStats, displayMode)
 	}
 }
 
-templ InventoryClassificationContentWithSideNav(class string, inventories []types.Inventory) {
+templ InventoryClassificationContentWithSideNav(class string, inventories types.InventorySlice, hasStats types.HasInventoryStats, displayMode string) {
 	@base.MainContentWithSidenav(class) {
-		@InventoryClassificationContent(class, inventories)
+		@InventoryClassificationContent(class, inventories, hasStats, displayMode)
 	}
 }
 
-templ InventoryClassificationContent(class string, inventories []types.Inventory) {
+templ InventoryClassificationContent(class string, inventories types.InventorySlice, hasStats types.HasInventoryStats, displayMode string) {
 	<div>
 		<h1 class="text-3xl font-bold">{ strings.Title(strings.ReplaceAll(class, "-", " ")) }</h1>
-		<ul hx-boost="true" hx-target="#page-content" hx-swap="innerHTML" class="[&>li]:flex [&>li]:items-center">
-			for _, inventory := range inventories {
-				<li>
-					<img src={ inventory.ImageSrc() } alt={ inventory.ID }/>
-					@links.Link(inventory.Title, fn.Path(inventory.GetPath()), nil)
-				</li>
-			}
-		</ul>
+		if displayMode == "list" {
+			@InventoryClassificationList(inventories)
+		} else {
+			@InventoryClassificationTable(inventories, hasStats)
+		}
 	</div>
 }
 
-// Inventory
+templ InventoryClassificationTable(inventories types.InventorySlice, stats types.HasInventoryStats) {
+	<table role="table">
+		<thead role="rowgroup">
+			<tr role="row">
+				<th role="columnheader" id="image"></th>
+				<th role="columnheader" id="name">Name</th>
+				if stats.HasAttack {
+					<th role="columnheader" id="attack">Attack</th>
+				}
+				if stats.HasDefense {
+					<th role="columnheader" id="defense">Defense</th>
+				}
+				if stats.HasBlockChance {
+					<th role="columnheader" id="block-chance">Block</th>
+				}
+				if stats.HasAgility {
+					<th role="columnheader" id="agility">Agility</th>
+				}
+				if stats.HasEvasionChance {
+					<th role="columnheader" id="evasion-chance">Evasion</th>
+				}
+				if stats.HasMagicalMight {
+					<th role="columnheader" id="magical-might">Magical Might</th>
+				}
+				if stats.HasMagicalMending {
+					<th role="columnheader" id="Magical Mending">Magical Mending</th>
+				}
+				if stats.HasMPAbsorptionRate {
+					<th role="columnheader" id="mp-absorption-rate">MP Absorption</th>
+				}
+				if stats.HasDeftness {
+					<th role="columnheader" id="deftness">Deftness</th>
+				}
+				if stats.HasCharm {
+					<th role="columnheader" id="charm">Charm</th>
+				}
+				if stats.HasSpecial {
+					<th role="columnheader" id="special">Special</th>
+				}
+			</tr>
+		</thead>
+		<tbody role="rowgroup">
+			for _, inventory := range inventories {
+				<tr key={ inventory.ID } role="row">
+					<td role="cell" data-cell="image">
+						<img src={ inventory.ImageSrc() } alt={ inventory.ID }/>
+					</td>
+					<td role="cell" data-cell="name">
+						@links.Link(inventory.Title, fn.Path(inventory.GetPath()), nil)
+					</td>
+					if stats.HasAttack {
+						<td role="cell" data-cell="attack">
+							if inventory.Statistics.Attack > 0 {
+								{ strconv.Itoa(inventory.Statistics.Attack) }
+							}
+						</td>
+					}
+					if stats.HasDefense {
+						<td role="cell" data-cell="defense">
+							if inventory.Statistics.Defense > 0 {
+								{ strconv.Itoa(inventory.Statistics.Defense) }
+							}
+						</td>
+					}
+					if stats.HasBlockChance {
+						<td role="cell" data-cell="block-chance">
+							if inventory.Statistics.BlockChance > 0 {
+								{ fmt.Sprintf("%.2f%%", inventory.Statistics.BlockChance) }
+							}
+						</td>
+					}
+					if stats.HasAgility {
+						<td role="cell" data-cell="agility">
+							if inventory.Statistics.Agility > 0 {
+								{ strconv.Itoa(inventory.Statistics.Agility) }
+							}
+						</td>
+					}
+					if stats.HasEvasionChance {
+						<td role="cell" data-cell="evasion-chance">
+							if inventory.Statistics.EvasionChance > 0 {
+								{ fmt.Sprintf("%.2f%%", inventory.Statistics.EvasionChance) }
+							}
+						</td>
+					}
+					if stats.HasMagicalMight {
+						<td role="cell" data-cell="magical-might">
+							if inventory.Statistics.MagicalMight > 0 {
+								{ strconv.Itoa(inventory.Statistics.MagicalMight) }
+							}
+						</td>
+					}
+					if stats.HasMagicalMending {
+						<td role="cell" data-cell="magical-mending">
+							if inventory.Statistics.MagicalMending > 0 {
+								{ strconv.Itoa(inventory.Statistics.MagicalMending) }
+							}
+						</td>
+					}
+					if stats.HasMPAbsorptionRate {
+						<td role="cell" data-cell="mp-absorption-rate">
+							if inventory.Statistics.MPAbsorptionRate > 0 {
+								{ fmt.Sprintf("%.2f%%",inventory.Statistics.MPAbsorptionRate) }
+							}
+						</td>
+					}
+					if stats.HasDeftness {
+						<td role="cell" data-cell="deftness">
+							if inventory.Statistics.Deftness > 0 {
+								{ strconv.Itoa(inventory.Statistics.Deftness) }
+							}
+						</td>
+					}
+					if stats.HasCharm {
+						<td role="cell" data-cell="charm">
+							if inventory.Statistics.Charm > 0 {
+								{ strconv.Itoa(inventory.Statistics.Charm) }
+							}
+						</td>
+					}
+					if stats.HasSpecial {
+						<td role="cell" data-cell="special">
+							if inventory.Statistics.Special.Effect != "" {
+								<p><strong>Effect: </strong>{ inventory.Statistics.Special.Effect }</p>
+							}
+							if inventory.Statistics.Special.Usage != "" {
+								<p><strong>Use: </strong>{ inventory.Statistics.Special.Usage }</p>
+							}
+						</td>
+					}
+				</tr>
+			}
+		</tbody>
+	</table>
+}
 
+templ InventoryClassificationList(inventories types.InventorySlice) {
+	<ul hx-boost="true" hx-target="#page-content" hx-swap="innerHTML" class="[&>li]:flex [&>li]:items-center">
+		for _, inventory := range inventories {
+			<li>
+				<img src={ inventory.ImageSrc() } alt={ inventory.ID }/>
+				@links.Link(inventory.Title, fn.Path(inventory.GetPath()), nil)
+			</li>
+		}
+	</ul>
+}
+
+// Inventory
 templ InventoryPage(inventory types.Inventory, getter types.IGetThingFromID, isDarkMode bool) {
 	@base.Layout("DQIX | " + inventory.Title, inventory.Classification, isDarkMode) {
 		@InventoryContent(inventory, getter)

@@ -20,6 +20,8 @@ func (a *app) InventoryRoutes(engine *gin.Engine) {
 		category := ctx.Param("category")
 		classification := ctx.Param("classification")
 		inventories := a.data.inventoryMap.GetClassificationSlice(typeId, category, classification)
+		hasStats := inventories.GetHasInventoryStats()
+		displayMode := ctx.Query("display")
 
 		// TODO add some utility function that checks if the request Accept's JSON (and/or weighted with others)
 		if ctx.GetHeader("Accept") == "application/json" {
@@ -29,11 +31,11 @@ func (a *app) InventoryRoutes(engine *gin.Engine) {
 
 		switch htmx.GetHxSwapTarget(ctx) {
 		case "page-content":
-			ctx.HTML(http.StatusOK, "", pages.InventoryClassificationContent(classification, inventories))
+			ctx.HTML(http.StatusOK, "", pages.InventoryClassificationContent(classification, inventories, hasStats, displayMode))
 		case "sidenav-page-wrapper":
-			ctx.HTML(http.StatusOK, "", pages.InventoryClassificationContentWithSideNav(classification, inventories))
+			ctx.HTML(http.StatusOK, "", pages.InventoryClassificationContentWithSideNav(classification, inventories, hasStats, displayMode))
 		default:
-			ctx.HTML(http.StatusOK, "", pages.InventoryClassificationPage(classification, inventories, gin_utils.IsDarkMode(ctx)))
+			ctx.HTML(http.StatusOK, "", pages.InventoryClassificationPage(classification, inventories, hasStats, displayMode, gin_utils.IsDarkMode(ctx)))
 		}
 	})
 
