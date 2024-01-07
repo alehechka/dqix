@@ -1,0 +1,191 @@
+package pages
+
+import "dqix/internal/types"
+import "dqix/web/templ/components/base"
+import "dqix/web/templ/components/links"
+import "strings"
+import "dqix/web/templ/utilities"
+import "strconv"
+import "fmt"
+
+// Inventory Classifications
+type InventoryClassificationParams struct {
+	Classification string
+	Inventories    types.InventorySlice
+	Stats          types.HasInventoryStats
+	DisplayMode    string
+	IsDarkMode     bool
+}
+
+templ InventoryClassificationPage(params InventoryClassificationParams) {
+	@base.Layout("DQIX | " + strings.Title(params.Classification), params.Classification, params.IsDarkMode) {
+		@InventoryClassificationContent(params)
+	}
+}
+
+templ InventoryClassificationContentWithSideNav(params InventoryClassificationParams) {
+	@base.MainContentWithSidenav(params.Classification) {
+		@InventoryClassificationContent(params)
+	}
+}
+
+templ InventoryClassificationContent(params InventoryClassificationParams) {
+	<div>
+		<h1 class="text-3xl font-bold">{ strings.Title(strings.ReplaceAll(params.Classification, "-", " ")) }</h1>
+		if params.DisplayMode == "list" {
+			@InventoryClassificationList(params.Inventories)
+		} else {
+			@InventoryClassificationTable(params)
+		}
+	</div>
+}
+
+templ InventoryClassificationTable(params InventoryClassificationParams) {
+	<table role="table">
+		<thead role="rowgroup">
+			<tr role="row" class="[&>th]:text-left [&>th]:py-2 [&>th]:pr-4">
+				<th role="columnheader" id="image"></th>
+				<th role="columnheader" id="name">Name</th>
+				if params.Stats.HasAttack {
+					<th role="columnheader" id="attack">Attack</th>
+				}
+				if params.Stats.HasDefense {
+					<th role="columnheader" id="defense">Defense</th>
+				}
+				if params.Stats.HasBlockChance {
+					<th role="columnheader" id="block-chance">Block</th>
+				}
+				if params.Stats.HasAgility {
+					<th role="columnheader" id="agility">Agility</th>
+				}
+				if params.Stats.HasEvasionChance {
+					<th role="columnheader" id="evasion-chance">Evasion</th>
+				}
+				if params.Stats.HasMagicalMight {
+					<th role="columnheader" id="magical-might">Magical Might</th>
+				}
+				if params.Stats.HasMagicalMending {
+					<th role="columnheader" id="Magical Mending">Magical Mending</th>
+				}
+				if params.Stats.HasMPAbsorptionRate {
+					<th role="columnheader" id="mp-absorption-rate">MP Absorption</th>
+				}
+				if params.Stats.HasDeftness {
+					<th role="columnheader" id="deftness">Deftness</th>
+				}
+				if params.Stats.HasCharm {
+					<th role="columnheader" id="charm">Charm</th>
+				}
+				if params.Stats.HasSpecial {
+					<th role="columnheader" id="special">Special</th>
+				}
+			</tr>
+		</thead>
+		<tbody role="rowgroup" class="[&>tr:nth-child(odd)]:bg-gray-200" hx-boost="true" hx-target="#page-content" hx-swap="innerHTML">
+			for _, inventory := range params.Inventories {
+				<tr key={ inventory.ID } role="row" class="[&>td]:py-2 [&>td]:pr-4">
+					<td role="cell" data-cell="image" width="49px">
+						<img src={ inventory.ImageSrc() } alt={ inventory.ID }/>
+					</td>
+					<td role="cell" data-cell="name">
+						@links.Link(inventory.Title, fn.Path(inventory.GetPath()), nil)
+					</td>
+					if params.Stats.HasAttack {
+						<td role="cell" data-cell="attack" class="text-center">
+							if inventory.Statistics.Attack > 0 {
+								{ strconv.Itoa(inventory.Statistics.Attack) }
+							}
+						</td>
+					}
+					if params.Stats.HasDefense {
+						<td role="cell" data-cell="defense" class="text-center">
+							if inventory.Statistics.Defense > 0 {
+								{ strconv.Itoa(inventory.Statistics.Defense) }
+							}
+						</td>
+					}
+					if params.Stats.HasBlockChance {
+						<td role="cell" data-cell="block-chance" class="text-center">
+							if inventory.Statistics.BlockChance > 0 {
+								{ fmt.Sprintf("%.2f%%", inventory.Statistics.BlockChance) }
+							}
+						</td>
+					}
+					if params.Stats.HasAgility {
+						<td role="cell" data-cell="agility" class="text-center">
+							if inventory.Statistics.Agility > 0 {
+								{ strconv.Itoa(inventory.Statistics.Agility) }
+							}
+						</td>
+					}
+					if params.Stats.HasEvasionChance {
+						<td role="cell" data-cell="evasion-chance" class="text-center">
+							if inventory.Statistics.EvasionChance > 0 {
+								{ fmt.Sprintf("%.2f%%", inventory.Statistics.EvasionChance) }
+							}
+						</td>
+					}
+					if params.Stats.HasMagicalMight {
+						<td role="cell" data-cell="magical-might" class="text-center">
+							if inventory.Statistics.MagicalMight > 0 {
+								{ strconv.Itoa(inventory.Statistics.MagicalMight) }
+							}
+						</td>
+					}
+					if params.Stats.HasMagicalMending {
+						<td role="cell" data-cell="magical-mending" class="text-center">
+							if inventory.Statistics.MagicalMending > 0 {
+								{ strconv.Itoa(inventory.Statistics.MagicalMending) }
+							}
+						</td>
+					}
+					if params.Stats.HasMPAbsorptionRate {
+						<td role="cell" data-cell="mp-absorption-rate" class="text-center">
+							if inventory.Statistics.MPAbsorptionRate > 0 {
+								{ fmt.Sprintf("%.2f%%",inventory.Statistics.MPAbsorptionRate) }
+							}
+						</td>
+					}
+					if params.Stats.HasDeftness {
+						<td role="cell" data-cell="deftness" class="text-center">
+							if inventory.Statistics.Deftness > 0 {
+								{ strconv.Itoa(inventory.Statistics.Deftness) }
+							}
+						</td>
+					}
+					if params.Stats.HasCharm {
+						<td role="cell" data-cell="charm" class="text-center">
+							if inventory.Statistics.Charm > 0 {
+								{ strconv.Itoa(inventory.Statistics.Charm) }
+							}
+						</td>
+					}
+					if params.Stats.HasSpecial {
+						<td role="cell" data-cell="special">
+							if inventory.Statistics.Special.Effect != "" {
+								<p><strong>Effect: </strong>{ inventory.Statistics.Special.Effect }</p>
+							}
+							if inventory.Statistics.Special.Usage != "" {
+								<p><strong>Use: </strong>{ inventory.Statistics.Special.Usage }</p>
+							}
+							if inventory.Statistics.Special.Curse != "" {
+								<p><strong>Curse: </strong>{ inventory.Statistics.Special.Curse }</p>
+							}
+						</td>
+					}
+				</tr>
+			}
+		</tbody>
+	</table>
+}
+
+templ InventoryClassificationList(inventories types.InventorySlice) {
+	<ul hx-boost="true" hx-target="#page-content" hx-swap="innerHTML" class="[&>li]:flex [&>li]:items-center">
+		for _, inventory := range inventories {
+			<li>
+				<img src={ inventory.ImageSrc() } alt={ inventory.ID }/>
+				@links.Link(inventory.Title, fn.Path(inventory.GetPath()), nil)
+			</li>
+		}
+	</ul>
+}
