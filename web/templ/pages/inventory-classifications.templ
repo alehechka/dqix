@@ -81,7 +81,7 @@ templ InventoryClassificationTable(params InventoryClassificationParams) {
 				}
 			</tr>
 		</thead>
-		<tbody role="rowgroup" class="[&>tr:nth-child(odd)]:bg-gray-200" hx-boost="true" hx-target="#page-content" hx-swap="innerHTML">
+		<tbody role="rowgroup" class="[&>tr:nth-child(odd)]:bg-gray-200 dark:[&>tr:nth-child(odd)]:bg-zinc-800" hx-boost="true" hx-target="#page-content" hx-swap="innerHTML">
 			for _, inventory := range params.Inventories {
 				<tr key={ inventory.ID } role="row" class="[&>td]:py-2 [&>td]:pr-4">
 					<td role="cell" data-cell="image" width="49px">
