@@ -43,9 +43,9 @@ templ InventoryClassificationContent(params InventoryClassificationParams) {
 templ InventoryClassificationTable(params InventoryClassificationParams) {
 	<table role="table">
 		<thead role="rowgroup">
-			<tr role="row" class="[&>th]:text-left [&>th]:py-2 [&>th]:pr-4">
+			<tr role="row" class="[&>th]:py-2 [&>th]:pr-4">
 				<th role="columnheader" id="image"></th>
-				<th role="columnheader" id="name">Name</th>
+				<th role="columnheader" id="name" class="text-left">Name</th>
 				if params.Stats.HasAttack {
 					<th role="columnheader" id="attack">Attack</th>
 				}
@@ -77,7 +77,7 @@ templ InventoryClassificationTable(params InventoryClassificationParams) {
 					<th role="columnheader" id="charm">Charm</th>
 				}
 				if params.Stats.HasSpecial {
-					<th role="columnheader" id="special">Special</th>
+					<th role="columnheader" id="special" class="text-left">Special</th>
 				}
 			</tr>
 		</thead>
