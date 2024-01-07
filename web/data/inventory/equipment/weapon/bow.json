@@ -4,7 +4,7 @@
   "title": "Aeon's Bow",
   "description": "A blistering bow made by bolstering the archangel's bow.",
   "statistics": {
-   "agility": 166,
+   "attack": 166,
    "special": {
     "effect": "Deals 1.20x damage to Demon family"
    }
@@ -32,7 +32,7 @@
   "title": "Angel's Bow",
   "description": "A bow brimming with the holy power of heavenly messengers.",
   "statistics": {
-   "agility": 142,
+   "attack": 142,
    "special": {
     "effect": "Deals 1.20x damage to Demon family"
    }
@@ -62,7 +62,7 @@
   "title": "Archangel's Bow",
   "description": "A breathtaking bow made by bolstering the angel's bow.",
   "statistics": {
-   "agility": 154,
+   "attack": 154,
    "special": {
     "effect": "Deals 1.20x damage to Demon family"
    }
@@ -91,7 +91,7 @@
   "title": "Billowing Bow",
   "description": "A bow imbued with the power of a whirlwind.",
   "statistics": {
-   "agility": 88,
+   "attack": 88,
    "special": {
     "effect": "Deals Wind-elemental damage"
    }
@@ -119,7 +119,7 @@
   "title": "Blinding Bow",
   "description": "An enhanced edition of the purblind bow.",
   "statistics": {
-   "agility": 120,
+   "attack": 120,
    "special": {}
   },
   "rarity": 3,
@@ -142,7 +142,7 @@
   "title": "Blowy Bow",
   "description": "A bow imbued with the power of the wind.",
   "statistics": {
-   "agility": 77,
+   "attack": 77,
    "special": {
     "effect": "Deals Wind-elemental damage"
    }
@@ -175,7 +175,7 @@
   "title": "Blustery Bow",
   "description": "A bow imbued with the power of a tempest.",
   "statistics": {
-   "agility": 101,
+   "attack": 101,
    "special": {
     "effect": "Deals Wind-elemental damage"
    }
@@ -200,7 +200,7 @@
   "title": "Cheiron's Bow",
   "description": "A blessed bow that heals all allies if used as an item in battle.",
   "statistics": {
-   "agility": 92,
+   "attack": 92,
    "special": {
     "usage": "Recovers 30-40 HP of all allies"
    }
@@ -224,7 +224,7 @@
   "title": "Fuddle Bow",
   "description": "A discombobulating bow that befuddles the foes its arrows find.",
   "statistics": {
-   "agility": 64,
+   "attack": 64,
    "special": {
     "effect": "Chance to inflict confusion"
    }
@@ -247,7 +247,7 @@
   "title": "Great Bow",
   "description": "A big bow built to fire brawny bolts.",
   "statistics": {
-   "agility": 99,
+   "attack": 99,
    "special": {}
   },
   "rarity": 2,
@@ -272,7 +272,7 @@
   "title": "Hotshot Bow",
   "description": "A hunter's handbow that finds even faraway flying prey.",
   "statistics": {
-   "agility": 82,
+   "attack": 82,
    "special": {
     "effect": "Deals 1.20x damage to Bird family"
    }
@@ -297,7 +297,7 @@
   "title": "Hunter's Bow",
   "description": "A strong bow that deals a strong blow and is well-loved by warriors.",
   "statistics": {
-   "agility": 57,
+   "attack": 57,
    "special": {}
   },
   "rarity": 1,
@@ -328,7 +328,7 @@
   "title": "Longbow",
   "description": "A big bow that's a bit more of a chore to draw.",
   "statistics": {
-   "agility": 40,
+   "attack": 40,
    "special": {}
   },
   "rarity": 1,
@@ -353,7 +353,7 @@
   "title": "Odin's Bow",
   "description": "A bow among bows that boasts fantastic firepower.",
   "statistics": {
-   "agility": 130,
+   "attack": 130,
    "special": {}
   },
   "rarity": 3,
@@ -378,7 +378,7 @@
   "title": "Oh-No Bow",
   "description": "A baleful bow that, though pretty powerful, is cripplingly cursed.",
   "statistics": {
-   "agility": 130,
+   "attack": 130,
    "special": {}
   },
   "rarity": 3,
@@ -406,7 +406,7 @@
   "title": "Potshot Bow",
   "description": "A hunter's handbow used for downing downy prey.",
   "statistics": {
-   "agility": 70,
+   "attack": 70,
    "special": {
     "effect": "Deals 1.20x damage to Bird family"
    }
@@ -435,7 +435,7 @@
   "title": "Purblind Bow",
   "description": "A bewitched bow of brutal power.",
   "statistics": {
-   "agility": 110,
+   "attack": 110,
    "special": {}
   },
   "rarity": 2,
@@ -465,7 +465,7 @@
   "title": "Seraph's Bow",
   "description": "An unbeatable bow at the very peak of perfection.",
   "statistics": {
-   "agility": 178,
+   "attack": 178,
    "special": {
     "effect": "Deals 1.20x damage to Demon family"
    }
@@ -490,7 +490,7 @@
   "title": "Short Bow",
   "description": "A beginner's bow that's easy on the purse and the pectorals.",
   "statistics": {
-   "agility": 20,
+   "attack": 20,
    "special": {}
   },
   "rarity": 1,

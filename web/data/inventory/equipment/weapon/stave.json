@@ -4,7 +4,7 @@
   "title": "Ballistick",
   "description": "A stupendous staff that twirls like a tornado and hits like a hurricane.",
   "statistics": {
-   "agility": 104,
+   "attack": 104,
    "special": {
     "effect": "Deals Wind-elemental damage"
    }
@@ -29,7 +29,7 @@
   "title": "Carrying Pole",
   "description": "A sturdy stick for lugging heavy luggage.",
   "statistics": {
-   "agility": 15,
+   "attack": 15,
    "special": {}
   },
   "rarity": 1,
@@ -51,7 +51,7 @@
   "title": "Catatonic Cosh",
   "description": "An unsurpassed stick that solidifies itself to smack foes silly.",
   "statistics": {
-   "agility": 162,
+   "attack": 162,
    "special": {
     "effect": "Deals 1.20x damage to Elemental family"
    }
@@ -78,7 +78,7 @@
   "title": "Coma Cudgel",
   "description": "A supreme stick that solidifies itself to smack foes silly.",
   "statistics": {
-   "agility": 170,
+   "attack": 170,
    "special": {
     "effect": "Deals 1.20x damage to Elemental family"
    }
@@ -102,7 +102,7 @@
   "title": "Dragon Rod",
   "description": "A scary stick said to harbour the might of dragons.",
   "statistics": {
-   "agility": 113,
+   "attack": 113,
    "special": {}
   },
   "rarity": 2,
@@ -126,7 +126,7 @@
   "title": "Driller Pillar",
   "description": "A well-balanced weapon that packs one heck of a whack!",
   "statistics": {
-   "agility": 60,
+   "attack": 60,
    "special": {}
   },
   "rarity": 1,
@@ -152,7 +152,7 @@
   "title": "Gigasteel Bar",
   "description": "An even harder hitter than the steel bar.",
   "statistics": {
-   "agility": 62,
+   "attack": 62,
    "special": {}
   },
   "rarity": 1,
@@ -174,7 +174,7 @@
   "title": "Iron Bar",
   "description": "A metal rod that can really make those on its receiving end reel.",
   "statistics": {
-   "agility": 36,
+   "attack": 36,
    "special": {}
   },
   "rarity": 1,
@@ -199,7 +199,7 @@
   "title": "Killer Pillar",
   "description": "A cudgel commonly employed by competent combatants.",
   "statistics": {
-   "agility": 75,
+   "attack": 75,
    "special": {}
   },
   "rarity": 2,
@@ -220,7 +220,7 @@
   "title": "Knockout Rod",
   "description": "A supernatural stick that solidifies itself to smack foes silly.",
   "statistics": {
-   "agility": 142,
+   "attack": 142,
    "special": {
     "effect": "Deals 1.20x damage to Elemental family"
    }
@@ -249,7 +249,7 @@
   "title": "Laundry Pole",
   "description": "A long bamboo pole 'borrowed' from a boring old clothes horse.",
   "statistics": {
-   "agility": 5,
+   "attack": 5,
    "special": {}
   },
   "rarity": 1,
@@ -273,7 +273,7 @@
   "title": "Mistick",
   "description": "A strong staff that rains down blows like a sudden storm.",
   "statistics": {
-   "agility": 82,
+   "attack": 82,
    "special": {
     "effect": "Deals Wind-elemental damage"
    }
@@ -308,7 +308,7 @@
   "title": "Oaken Pole",
   "description": "A lengthy stick carved from the bough of a sturdy oak.",
   "statistics": {
-   "agility": 22,
+   "attack": 22,
    "special": {}
   },
   "rarity": 1,
@@ -333,7 +333,7 @@
   "title": "Optimistick",
   "description": "A stormy stick that hails down blows like it's monsoon season.",
   "statistics": {
-   "agility": 93,
+   "attack": 93,
    "special": {
     "effect": "Deals Wind-elemental damage"
    }
@@ -360,7 +360,7 @@
   "title": "Orichalcudgel",
   "description": "A stonking stick made of a super-rare substance.",
   "statistics": {
-   "agility": 133,
+   "attack": 133,
    "special": {}
   },
   "rarity": 3,
@@ -381,7 +381,7 @@
   "title": "Pillar of Strength",
   "description": "A quarterstaff of quite worrying width.",
   "statistics": {
-   "agility": 47,
+   "attack": 47,
    "special": {}
   },
   "rarity": 1,
@@ -407,7 +407,7 @@
   "title": "Sadistick",
   "description": "A beastly bludgeon with a spiky end.",
   "statistics": {
-   "agility": 90,
+   "attack": 90,
    "special": {}
   },
   "rarity": 2,
@@ -428,7 +428,7 @@
   "title": "Senseless Stick",
   "description": "A celebrated stick that solidifies itself to smack foes silly.",
   "statistics": {
-   "agility": 153,
+   "attack": 153,
    "special": {
     "effect": "Deals 1.20x damage to Elemental family"
    }
@@ -456,7 +456,7 @@
   "title": "Sleepy Stick",
   "description": "A curious cudgel that sometimes sends the enemy to sleep.",
   "statistics": {
-   "agility": 65,
+   "attack": 65,
    "special": {
     "effect": "Chance to inflict snooze"
    }
@@ -483,7 +483,7 @@
   "title": "Slumber Stick",
   "description": "A supernatural stick that sometimes sends the enemy to sleep.",
   "statistics": {
-   "agility": 85,
+   "attack": 85,
    "special": {
     "effect": "Chance to inflict snooze"
    }
@@ -507,7 +507,7 @@
   "title": "Steel Bar",
   "description": "A rock-solid rod made from strengthened steel.",
   "statistics": {
-   "agility": 49,
+   "attack": 49,
    "special": {}
   },
   "rarity": 1,

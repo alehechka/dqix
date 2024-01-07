@@ -4,7 +4,7 @@
   "title": "Aurora Blade",
   "description": "A wondrous weapon that flings flames if used as an item in battle.",
   "statistics": {
-   "agility": 70,
+   "attack": 70,
    "special": {
     "usage": "Deals 6-10 Fire damage to all enemies"
    }
@@ -34,7 +34,7 @@
   "title": "Bandit Blade",
   "description": "A sizeable sabre supremely suited to swindling sorts.",
   "statistics": {
-   "agility": 58,
+   "attack": 58,
    "special": {}
   },
   "rarity": 1,
@@ -62,7 +62,7 @@
   "title": "Cautery Sword",
   "description": "A sacred sword that flings flames if used as an item in battle.",
   "statistics": {
-   "agility": 42,
+   "attack": 42,
    "special": {
     "usage": "Deals 6-10 Fire damage to all enemies"
    }
@@ -95,7 +95,7 @@
   "title": "Copper Sword",
   "description": "A commonplace cutter made of copper.",
   "statistics": {
-   "agility": 7,
+   "attack": 7,
    "special": {}
   },
   "rarity": 1,
@@ -123,7 +123,7 @@
   "title": "Dragon Slayer",
   "description": "An even deadlier descendant of the dragonsbane.",
   "statistics": {
-   "agility": 88,
+   "attack": 88,
    "special": {
     "effect": "Deals 1.20x damage to Dragon family"
    }
@@ -149,7 +149,7 @@
   "title": "Dragonsbane",
   "description": "A mighty masher that's merciless even against the scales of dragons.",
   "statistics": {
-   "agility": 73,
+   "attack": 73,
    "special": {
     "effect": "Deals 1.20x damage to Dragon family"
    }
@@ -181,7 +181,7 @@
   "title": "Erdrick's Sword",
   "description": "A well-known weapon once wielded by a legendary lionheart.",
   "statistics": {
-   "agility": 158,
+   "attack": 158,
    "special": {}
   },
   "rarity": 4,
@@ -206,7 +206,7 @@
   "title": "Falcon Blade",
   "description": "A sword so fast, it can slice an enemy twice in a single strike.",
   "statistics": {
-   "agility": 12,
+   "attack": 12,
    "special": {
     "effect": "Attacks twice in one turn"
    }
@@ -238,7 +238,7 @@
   "title": "Fire Blade",
   "description": "A hot blade that spits forth flames if used as an item in battle.",
   "statistics": {
-   "agility": 83,
+   "attack": 83,
    "special": {
     "usage": "Deals 23-33 Fire damage to all enemies"
    }
@@ -275,7 +275,7 @@
   "title": "Fizzle Foil",
   "description": "A slender sword that would suit a seriously skilled soldier.",
   "statistics": {
-   "agility": 67,
+   "attack": 67,
    "special": {}
   },
   "rarity": 2,
@@ -303,7 +303,7 @@
   "title": "Gigasteel Broadsword",
   "description": "A refined steel blade of rip-roaring quality.",
   "statistics": {
-   "agility": 62,
+   "attack": 62,
    "special": {}
   },
   "rarity": 1,
@@ -328,7 +328,7 @@
   "title": "Hypernova Sword",
   "description": "An almighty blade that dulls the defence of the foes it fights.",
   "statistics": {
-   "agility": 180,
+   "attack": 180,
    "special": {
     "effect": "10% chance to decrease enemy defence a little"
    }
@@ -355,7 +355,7 @@
   "title": "Inferno Blade",
   "description": "A fiery blade that spits forth flames if used as an item in battle.",
   "statistics": {
-   "agility": 99,
+   "attack": 99,
    "special": {
     "usage": "Deals 23-33 Fire damage to all enemies"
    }
@@ -382,7 +382,7 @@
   "title": "Iron Broadsword",
   "description": "A regular, wrought iron sword.",
   "statistics": {
-   "agility": 27,
+   "attack": 27,
    "special": {}
   },
   "rarity": 1,
@@ -411,7 +411,7 @@
   "title": "Liquid Metal Sword",
   "description": "An extremely hard blade that carries incredible clout.",
   "statistics": {
-   "agility": 124,
+   "attack": 124,
    "special": {
     "effect": "Deals +1 damage to metal enemies"
    }
@@ -441,7 +441,7 @@
   "title": "Metal King Sword",
   "description": "An incredibly hard blade that carries incredible clout.",
   "statistics": {
-   "agility": 137,
+   "attack": 137,
    "special": {
     "effect": "Deals +1 damage to metal enemies"
    }
@@ -468,7 +468,7 @@
   "title": "Metal Slime Sword",
   "description": "A hard blade that carries incredible clout.",
   "statistics": {
-   "agility": 110,
+   "attack": 110,
    "special": {
     "effect": "Deals +1 damage to metal enemies"
    }
@@ -496,7 +496,7 @@
   "title": "Miracle Sword",
   "description": "A wonderful weapon that heals the holder's HP with every blow.",
   "statistics": {
-   "agility": 67,
+   "attack": 67,
    "special": {
     "effect": "Returns 25% of damage dealt as HP"
    }
@@ -527,7 +527,7 @@
   "title": "Nebula Sword",
   "description": "An unbelievable blade that dulls the defence of the foes it fights.",
   "statistics": {
-   "agility": 155,
+   "attack": 155,
    "special": {
     "effect": "10% chance to decrease enemy defence a little"
    }
@@ -558,7 +558,7 @@
   "title": "Platinum Sword",
   "description": "A heralded hacker made from hard platinum.",
   "statistics": {
-   "agility": 51,
+   "attack": 51,
    "special": {}
   },
   "rarity": 1,
@@ -594,7 +594,7 @@
   "title": "Rapier",
   "description": "A delightfully designed, slim-bladed sword.",
   "statistics": {
-   "agility": 19,
+   "attack": 19,
    "special": {}
   },
   "rarity": 1,
@@ -624,7 +624,7 @@
   "title": "Rusty Sword",
   "description": "A shabby and unshiny sword whose origins are obscure.",
   "statistics": {
-   "agility": 35,
+   "attack": 35,
    "special": {
     "effect": "25% chance to miss"
    }
@@ -652,7 +652,7 @@
   "title": "Soldier's Sword",
   "description": "A simple sword supplied to low-ranking castle custodians.",
   "statistics": {
-   "agility": 13,
+   "attack": 13,
    "special": {}
   },
   "rarity": 1,
@@ -683,7 +683,7 @@
   "title": "Stardust Sword",
   "description": "A legendary blade that dulls the defence of the foes it fights.",
   "statistics": {
-   "agility": 145,
+   "attack": 145,
    "special": {
     "effect": "10% chance to decrease enemy defence a little"
    }
@@ -715,7 +715,7 @@
   "title": "Steel Broadsword",
   "description": "A fully fledged fighting blade forged from steel.",
   "statistics": {
-   "agility": 45,
+   "attack": 45,
    "special": {}
   },
   "rarity": 1,
@@ -741,7 +741,7 @@
   "title": "Supernova Sword",
   "description": "An unbeatable blade that dulls the defence of the foes it fights.",
   "statistics": {
-   "agility": 168,
+   "attack": 168,
    "special": {
     "effect": "10% chance to decrease enemy defence a little"
    }
@@ -771,7 +771,7 @@
   "title": "Valkyrie Sword",
   "description": "A fine-edged blade wielded by famous female fighters.",
   "statistics": {
-   "agility": 64,
+   "attack": 64,
    "special": {}
   },
   "rarity": 1,
@@ -802,7 +802,7 @@
   "title": "Warrior's Sword",
   "description": "A biting blade favoured by battle-scarred brigands.",
   "statistics": {
-   "agility": 63,
+   "attack": 63,
    "special": {}
   },
   "rarity": 1,
@@ -830,7 +830,7 @@
   "title": "Über Falcon Blade",
   "description": "A fiercer form of the falcon blade.",
   "statistics": {
-   "agility": 26,
+   "attack": 26,
    "special": {
     "effect": "Attacks twice in one turn"
    }
@@ -856,7 +856,7 @@
   "title": "Über Miracle Sword",
   "description": "A more mighty model of the miracle sword.",
   "statistics": {
-   "agility": 93,
+   "attack": 93,
    "special": {
     "effect": "Returns 25% of damage dealt as HP"
    }

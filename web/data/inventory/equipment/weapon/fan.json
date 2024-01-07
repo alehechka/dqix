@@ -4,7 +4,7 @@
   "title": "Attribeauty",
   "description": "A fabled fan with tons of untold powers.",
   "statistics": {
-   "agility": 123,
+   "attack": 123,
    "special": {
     "effect": "Always goes first; unblockable; deals +1 damage to metal enemies; reduces enemy tension per hit"
    }
@@ -26,7 +26,7 @@
   "title": "Azure Dragon Fan",
   "description": "A thundery fan furnished with the mark of a mythical beast.",
   "statistics": {
-   "agility": 70,
+   "attack": 70,
    "special": {
     "effect": "Deals Lightning-elemental damage"
    }
@@ -51,7 +51,7 @@
   "title": "Black Tortoise Fan",
   "description": "An earthy fan furnished with the mark of a mythical beast.",
   "statistics": {
-   "agility": 64,
+   "attack": 64,
    "special": {
     "effect": "Deals Earth-elemental damage"
    }
@@ -76,7 +76,7 @@
   "title": "Cobra Fan",
   "description": "A fan that fosters the force of lightning.",
   "statistics": {
-   "agility": 56,
+   "attack": 56,
    "special": {
     "effect": "Deals Lightning-elemental damage"
    }
@@ -111,7 +111,7 @@
   "title": "Critical Fan",
   "description": "A fabled fan that ups the occurrence of coups de grâce.",
   "statistics": {
-   "agility": 130,
+   "attack": 130,
    "special": {
     "effect": "Increases Coup de Grâce rate by 6%"
    }
@@ -140,7 +140,7 @@
   "title": "Dire Critical Fan",
   "description": "An unfailing battle fan that ups the occurrence of coups de grâce.",
   "statistics": {
-   "agility": 164,
+   "attack": 164,
    "special": {
     "effect": "Increases Coup de Grâce rate by 10%"
    }
@@ -164,7 +164,7 @@
   "title": "Feather Fan",
   "description": "A flamboyant fan made from peacock feathers.",
   "statistics": {
-   "agility": 9,
+   "attack": 9,
    "special": {}
   },
   "rarity": 1,
@@ -193,7 +193,7 @@
   "title": "Feline Fan",
   "description": "A fan that fosters the force of ice.",
   "statistics": {
-   "agility": 54,
+   "attack": 54,
    "special": {
     "effect": "Deals Ice-elemental damage"
    }
@@ -224,7 +224,7 @@
   "title": "Foehn Fan",
   "description": "A fan that fires air at foes if used as an item in battle.",
   "statistics": {
-   "agility": 40,
+   "attack": 40,
    "special": {
     "usage": "Deals 8-24 Wind damage to enemy group"
    }
@@ -257,7 +257,7 @@
   "title": "Fowl Fan",
   "description": "A fan that fosters the force of fire.",
   "statistics": {
-   "agility": 52,
+   "attack": 52,
    "special": {
     "effect": "Deals Fire-elemental damage"
    }
@@ -291,7 +291,7 @@
   "title": "Friendly Fan",
   "description": "A fan that can fix a friend's wounds if used as an item in battle.",
   "statistics": {
-   "agility": 112,
+   "attack": 112,
    "special": {
     "usage": "Recovers 75-90 HP of one ally"
    }
@@ -322,7 +322,7 @@
   "title": "Gale Force Fan",
   "description": "A fan that whips a wild whirlwind at foes if used as an item in battle.",
   "statistics": {
-   "agility": 62,
+   "attack": 62,
    "special": {
     "usage": "Deals 8-24 Wind damage to enemy group"
    }
@@ -347,7 +347,7 @@
   "title": "Gigasteel Fan",
   "description": "A ferocious fan with slats made of strengthened steel.",
   "statistics": {
-   "agility": 45,
+   "attack": 45,
    "special": {}
   },
   "rarity": 1,
@@ -370,7 +370,7 @@
   "title": "Hypercritical Fan",
   "description": "An unbeatable battle fan that ups the occurrence of coups de grâce.",
   "statistics": {
-   "agility": 152,
+   "attack": 152,
    "special": {
     "effect": "Increases Coup de Grâce rate by 8%"
    }
@@ -397,7 +397,7 @@
   "title": "Iron Fan",
   "description": "An inflexible fan, heavy due to having slats made of metal.",
   "statistics": {
-   "agility": 14,
+   "attack": 14,
    "special": {}
   },
   "rarity": 1,
@@ -423,7 +423,7 @@
   "title": "Lunar Fan",
   "description": "A magnificent fan made more so by a mystical moonscape.",
   "statistics": {
-   "agility": 88,
+   "attack": 88,
    "special": {}
   },
   "rarity": 2,
@@ -448,7 +448,7 @@
   "title": "Overcritical Fan",
   "description": "A mighty fan that ups the occurrence of coups de grâce.",
   "statistics": {
-   "agility": 142,
+   "attack": 142,
    "special": {
     "effect": "Increases Coup de Grâce rate by 7%"
    }
@@ -476,7 +476,7 @@
   "title": "Solar Fan",
   "description": "A sainted, painted fan inscribed with a sumptuous sunny scene.",
   "statistics": {
-   "agility": 100,
+   "attack": 100,
    "special": {}
   },
   "rarity": 3,
@@ -501,7 +501,7 @@
   "title": "Steel Fan",
   "description": "A strong fan with slats made of steel.",
   "statistics": {
-   "agility": 30,
+   "attack": 30,
    "special": {}
   },
   "rarity": 1,
@@ -527,7 +527,7 @@
   "title": "Stellar Fan",
   "description": "An exquisite fan resplendent with a sweeping starscape.",
   "statistics": {
-   "agility": 77,
+   "attack": 77,
    "special": {}
   },
   "rarity": 1,
@@ -551,7 +551,7 @@
   "title": "Tortoiseshell Fan",
   "description": "A fan that fosters the force of the earth.",
   "statistics": {
-   "agility": 50,
+   "attack": 50,
    "special": {
     "effect": "Deals Earth-elemental damage"
    }
@@ -582,7 +582,7 @@
   "title": "Vermillion Bird Fan",
   "description": "A fiery fan furnished with the mark of a mythical beast.",
   "statistics": {
-   "agility": 66,
+   "attack": 66,
    "special": {
     "effect": "Deals Fire-elemental damage"
    }
@@ -607,7 +607,7 @@
   "title": "War Fan",
   "description": "A fighter's fan, created for combat.",
   "statistics": {
-   "agility": 24,
+   "attack": 24,
    "special": {}
   },
   "rarity": 1,
@@ -636,7 +636,7 @@
   "title": "White Bouquet",
   "description": "The beautiful bunch of flowers borne proudly by every bride.",
   "statistics": {
-   "agility": 92,
+   "attack": 92,
    "special": {}
   },
   "rarity": 3,
@@ -654,7 +654,7 @@
   "title": "White Tiger Fan",
   "description": "A watery fan furnished with the mark of a mythical beast.",
   "statistics": {
-   "agility": 68,
+   "attack": 68,
    "special": {
     "effect": "Deals Ice-elemental damage"
    }

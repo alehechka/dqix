@@ -229,7 +229,7 @@ func (p PageContent) parseFromBase(inventory *Inventory) {
 		// Statistics
 		case "Attack:":
 			i++
-			inventory.Statistics.Agility, _ = strconv.Atoi(p.Text[i])
+			inventory.Statistics.Attack, _ = strconv.Atoi(p.Text[i])
 		case "Defence:":
 			i++
 			inventory.Statistics.Defense, _ = strconv.Atoi(p.Text[i])

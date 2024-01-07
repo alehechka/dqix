@@ -4,7 +4,7 @@
   "title": "Avalanche Axe",
   "description": "An impressive ice-based axe with an interesting shape.",
   "statistics": {
-   "agility": 126,
+   "attack": 126,
    "special": {
     "effect": "Deals Ice-elemental damage"
    }
@@ -28,7 +28,7 @@
   "title": "Bad Axe",
   "description": "A tip-top tomahawk that takes tension from its target.",
   "statistics": {
-   "agility": 146,
+   "attack": 146,
    "special": {
     "effect": "Reduces enemy tension per hit"
    }
@@ -57,7 +57,7 @@
   "title": "Battle Axe",
   "description": "A huge hacker created exclusively for combat.",
   "statistics": {
-   "agility": 52,
+   "attack": 52,
    "special": {}
   },
   "rarity": 1,
@@ -84,7 +84,7 @@
   "title": "Climaxe",
   "description": "An unchallenged chopper that takes tension from its target.",
   "statistics": {
-   "agility": 168,
+   "attack": 168,
    "special": {
     "effect": "Reduces enemy tension per hit"
    }
@@ -131,7 +131,7 @@
   "title": "Full Moon Axe",
   "description": "A sharpened reshaping of the moon axe.",
   "statistics": {
-   "agility": 82,
+   "attack": 82,
    "special": {
     "effect": "Chance to inflict confusion"
    }
@@ -155,7 +155,7 @@
   "title": "Galaxy Axe",
   "description": "An almighty cosmic cleaver that takes tension from its target.",
   "statistics": {
-   "agility": 178,
+   "attack": 178,
    "special": {
     "effect": "Reduces enemy tension per hit"
    }
@@ -179,7 +179,7 @@
   "title": "Gigasteel Axe",
   "description": "A horrendously heavy hacker made by souping up a steel axe.",
   "statistics": {
-   "agility": 68,
+   "attack": 68,
    "special": {}
   },
   "rarity": 1,
@@ -201,7 +201,7 @@
   "title": "Golden Axe",
   "description": "A battle-axe with a blunt edge made from malleable metal.",
   "statistics": {
-   "agility": 26,
+   "attack": 26,
    "special": {}
   },
   "rarity": 1,
@@ -225,7 +225,7 @@
   "title": "Headsman's Axe",
   "description": "An enormous axe of frankly fearsome force.",
   "statistics": {
-   "agility": 98,
+   "attack": 98,
    "special": {}
   },
   "rarity": 2,
@@ -249,7 +249,7 @@
   "title": "Heavy Hatchet",
   "description": "A heinous hatchet that can hew through any material monster.",
   "statistics": {
-   "agility": 134,
+   "attack": 134,
    "special": {
     "effect": "Deals 1.20x damage to Material family"
    }
@@ -274,7 +274,7 @@
   "title": "Ice Axe",
   "description": "An ice-based axe with an interesting shape.",
   "statistics": {
-   "agility": 108,
+   "attack": 108,
    "special": {
     "effect": "Deals Ice-elemental damage"
    }
@@ -305,7 +305,7 @@
   "title": "Iron Axe",
   "description": "A meaty metal axe.",
   "statistics": {
-   "agility": 30,
+   "attack": 30,
    "special": {}
   },
   "rarity": 1,
@@ -330,7 +330,7 @@
   "title": "Kaiser Axe",
   "description": "A cracking cleaver, even more imperial than the king axe.",
   "statistics": {
-   "agility": 92,
+   "attack": 92,
    "special": {}
   },
   "rarity": 3,
@@ -355,7 +355,7 @@
   "title": "King Axe",
   "description": "A splendid splitter sporting runes that harbour great magic.",
   "statistics": {
-   "agility": 78,
+   "attack": 78,
    "special": {}
   },
   "rarity": 2,
@@ -384,7 +384,7 @@
   "title": "Maxi Axe",
   "description": "A mighty massacrer that takes tension from its target.",
   "statistics": {
-   "agility": 157,
+   "attack": 157,
    "special": {
     "effect": "Reduces enemy tension per hit"
    }
@@ -412,7 +412,7 @@
   "title": "Moon Axe",
   "description": "A mysterious axe that may make those it minces a mite confused.",
   "statistics": {
-   "agility": 65,
+   "attack": 65,
    "special": {
     "effect": "Chance to inflict confusion"
    }
@@ -445,7 +445,7 @@
   "title": "Pro's Axe",
   "description": "A large axe loved by lumber-jacks that can fell any plantlike foe.",
   "statistics": {
-   "agility": 87,
+   "attack": 87,
    "special": {
     "effect": "Deals 1.20x damage to Plant family"
    }
@@ -467,7 +467,7 @@
   "title": "Steel Axe",
   "description": "A sizeable, strong and somewhat weighty steel axe.",
   "statistics": {
-   "agility": 47,
+   "attack": 47,
    "special": {}
   },
   "rarity": 1,
