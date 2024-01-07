@@ -1148,7 +1148,9 @@
   "description": "Unnatural necklace with an ominous odour about it.",
   "statistics": {
    "defense": 6,
-   "special": {}
+   "special": {
+    "curse": "Chance to miss a turn"
+   }
   },
   "rarity": 2,
   "vocations": [
@@ -1333,7 +1335,9 @@
   "description": "An unpleasant piece of jewellery with an ominous odour about it.",
   "statistics": {
    "defense": 6,
-   "special": {}
+   "special": {
+    "curse": "Chance to miss a turn"
+   }
   },
   "rarity": 2,
   "vocations": [
@@ -1632,7 +1636,9 @@
   "description": "A satanic stick-on design with an ominous odour about it.",
   "statistics": {
    "agility": 8,
-   "special": {}
+   "special": {
+    "curse": "Takes +20% damage from all elements; increases 50% infliction rates of Dazzle, Snooze, Fuddle, Poison, and Paralysis"
+   }
   },
   "rarity": 1,
   "vocations": [

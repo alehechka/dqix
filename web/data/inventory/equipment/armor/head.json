@@ -1104,7 +1104,9 @@
   "description": "A horned hat with a fiendish face that begets misfortune.",
   "statistics": {
    "defense": 22,
-   "special": {}
+   "special": {
+    "curse": "Chance not to attack"
+   }
   },
   "rarity": 2,
   "vocations": [
@@ -2834,7 +2836,9 @@
   "description": "A blood-curdling cap for the cranium that curses the curious.",
   "statistics": {
    "defense": 32,
-   "special": {}
+   "special": {
+    "curse": "Chance not to attack"
+   }
   },
   "rarity": 2,
   "vocations": [

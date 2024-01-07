@@ -160,6 +160,9 @@ templ InventoryClassificationTable(inventories types.InventorySlice, stats types
 							if inventory.Statistics.Special.Usage != "" {
 								<p><strong>Use: </strong>{ inventory.Statistics.Special.Usage }</p>
 							}
+							if inventory.Statistics.Special.Curse != "" {
+								<p><strong>Curse: </strong>{ inventory.Statistics.Special.Curse }</p>
+							}
 						</td>
 					}
 				</tr>
@@ -253,6 +256,10 @@ templ InventoryContent(inventory types.Inventory, getter types.IGetThingFromID) 
 					}
 					if inventory.Statistics.Special.Usage != "" {
 						<em class="pl-2">Usage: </em> { inventory.Statistics.Special.Usage }
+						<br/>
+					}
+					if inventory.Statistics.Special.Curse != "" {
+						<em class="pl-2">Curse: </em> { inventory.Statistics.Special.Curse }
 						<br/>
 					}
 				}

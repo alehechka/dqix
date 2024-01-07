@@ -379,7 +379,9 @@
   "description": "A baleful bow that, though pretty powerful, is cripplingly cursed.",
   "statistics": {
    "attack": 130,
-   "special": {}
+   "special": {
+    "curse": "Chance to miss a turn"
+   }
   },
   "rarity": 3,
   "vocations": [

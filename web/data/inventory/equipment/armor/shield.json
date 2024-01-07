@@ -986,7 +986,9 @@
   "description": "A sinister shield that emanates an eerie aura.",
   "statistics": {
    "blockChance": 6.5,
-   "special": {}
+   "special": {
+    "curse": "Takes +50% damage from Fire, Ice, Wind, Lightning, and Dark"
+   }
   },
   "rarity": 2,
   "vocations": [

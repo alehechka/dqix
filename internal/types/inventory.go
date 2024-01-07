@@ -60,7 +60,7 @@ func (i InventorySlice) GetHasInventoryStats() (stats HasInventoryStats) {
 		if inventory.Statistics.Charm > 0 {
 			stats.HasCharm = true
 		}
-		if inventory.Statistics.Special.Effect != "" || inventory.Statistics.Special.Usage != "" {
+		if inventory.Statistics.Special.Effect != "" || inventory.Statistics.Special.Usage != "" || inventory.Statistics.Special.Curse != "" {
 			stats.HasSpecial = true
 		}
 	}
@@ -159,6 +159,7 @@ func (i InventoryMap) WriteJSON(basePath string) (err error) {
 type Special struct {
 	Usage  string `json:"usage,omitempty"`
 	Effect string `json:"effect,omitempty"`
+	Curse  string `json:"curse,omitempty"`
 }
 
 type Statistics struct {
@@ -312,6 +313,9 @@ func (p PageContent) parseFromBase(inventory *Inventory) {
 		case "Charm:":
 			i++
 			inventory.Statistics.Charm, _ = strconv.Atoi(p.Text[i])
+		case "Cursed:":
+			i++
+			inventory.Statistics.Special.Curse = p.Text[i]
 		case "Special:":
 			stop := i + 2
 			for i++; i <= stop; i++ {

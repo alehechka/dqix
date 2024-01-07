@@ -5,7 +5,9 @@
   "description": "A woeful whip that whiffs worryingly of wickedness.",
   "statistics": {
    "attack": 86,
-   "special": {}
+   "special": {
+    "curse": "Chance to miss a turn"
+   }
   },
   "rarity": 2,
   "vocations": [
@@ -80,7 +82,9 @@
   "description": "A warped whip that whiffs worryingly of wickedness.",
   "statistics": {
    "attack": 72,
-   "special": {}
+   "special": {
+    "curse": "Chance to miss a turn"
+   }
   },
   "rarity": 1,
   "vocations": [
