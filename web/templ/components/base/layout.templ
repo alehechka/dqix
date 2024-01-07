@@ -1,23 +1,28 @@
 package base
 
-import "dqix/web/templ/components/icons"
 import "dqix/web/templ/components/buttons"
 
-templ Layout(pageTitle string, page string, isDarkMode bool) {
+type LayoutParams struct {
+	PageTitle  string
+	Page       string
+	IsDarkMode bool
+	CSSVersion string
+}
+
+templ Layout(params LayoutParams) {
 	<html
 		lang="en"
 		class="h-full overflow-hidden"
-		if isDarkMode {
+		if params.IsDarkMode {
 			data-mode="dark"
 		}
 	>
 		<head>
-			@Meta(pageTitle)
+			@Meta(params.PageTitle, params.CSSVersion)
 		</head>
 		<body class="h-full overflow-hidden dark:text-gray-300">
-			@sidenavScriptUtils()
-			@Navbar(isDarkMode)
-			@MainContentWithSidenav(page) {
+			@Navbar(params.IsDarkMode)
+			@MainContentWithSidenav(params.Page) {
 				{ children... }
 			}
 		</body>
@@ -68,9 +73,7 @@ templ Navbar(isDarkMode bool) {
 		</a>
 		<div class="flex flex-row gap-2 mr-4 items-center">
 			@buttons.ThemeToggleButton(isDarkMode)
-			<button class="block md:hidden hover:bg-gray-200 dark:hover:bg-gray-600 rounded p-1" onclick={ toggleSidenav() }>
-				@icons.Hamburger(icons.WithSize("1.25rem"))
-			</button>
+			@buttons.SidenavToggleButton()
 		</div>
 	</header>
 }

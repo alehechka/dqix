@@ -9,8 +9,9 @@ import (
 )
 
 type app struct {
-	dataPath string
-	data     data
+	dataPath   string
+	data       data
+	cssVersion string
 }
 
 type data struct {
@@ -118,4 +119,16 @@ func (a *app) loadInventory(basePath string) error {
 
 		return nil
 	})
+}
+
+type cssVersionOption struct {
+	cssVersion string
+}
+
+func WithCSSVersion(cssVersion string) RouterOption {
+	return &cssVersionOption{cssVersion: cssVersion}
+}
+
+func (o cssVersionOption) apply(a *app) {
+	a.cssVersion = o.cssVersion
 }

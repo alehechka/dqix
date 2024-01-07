@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build:css:dev": "tailwindcss -i web/static/input.css -o web/static/output.dev.css",
-    "build:css": "NODE_ENV=production tailwindcss -i web/static/input.css -o web/static/output.css --minify",
-    "watch:css": "NODE_ENV=production tailwindcss -i web/static/input.css -o web/static/output.css --minify --watch",
+    "build:css": "NODE_ENV=production tailwindcss -i web/static/input.css -o web/static/output.$VERSION.css --minify",
+    "watch:css": "NODE_ENV=production tailwindcss -i web/static/input.css -o web/static/output.dev.css --minify --watch",
     "pretty": "prettier . --write"
   },
   "repository": {
