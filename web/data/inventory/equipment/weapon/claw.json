@@ -4,7 +4,7 @@
   "title": "Beast Claws",
   "description": "Razor-sharp rippers resembling those of a mythical magical beast.",
   "statistics": {
-   "agility": 114,
+   "attack": 114,
    "special": {
     "effect": "Deals 1.20x damage to Beast family"
    }
@@ -32,7 +32,7 @@
   "title": "Beastmaster Claws",
   "description": "Sharp shredders said to resemble those of the king of beasts.",
   "statistics": {
-   "agility": 125,
+   "attack": 125,
    "special": {
     "effect": "Deals 1.20x damage to Beast family"
    }
@@ -60,7 +60,7 @@
   "title": "Cobra Claws",
   "description": "Large toxic talons, hooked like those of a hellish demon.",
   "statistics": {
-   "agility": 93,
+   "attack": 93,
    "special": {
     "effect": "Chance to inflict envenomation"
    }
@@ -89,7 +89,7 @@
   "title": "Combusticlaws",
   "description": "Terrifying toughened talons made from fire claws.",
   "statistics": {
-   "agility": 99,
+   "attack": 99,
    "special": {
     "usage": "Deals 23-33 Fire damage to all enemies"
    }
@@ -116,6 +116,7 @@
   "title": "Crow's Claws",
   "description": "Talons that tear through their target swift as a swooping bird.",
   "statistics": {
+   "attack": 51,
    "agility": 10,
    "special": {}
   },
@@ -144,7 +145,7 @@
   "title": "Dragon Claws",
   "description": "Rock-hard, razor-sharp rippers like the talons of a dragon.",
   "statistics": {
-   "agility": 78,
+   "attack": 78,
    "special": {}
   },
   "rarity": 1,
@@ -172,7 +173,7 @@
   "title": "Dragonlord Claws",
   "description": "Claws that can carve up dragon scales as easily as cutting cake.",
   "statistics": {
-   "agility": 143,
+   "attack": 143,
    "special": {
     "effect": "Deals 1.20x damage to Dragon family"
    }
@@ -201,7 +202,7 @@
   "title": "Dragovian Claws",
   "description": "Claws that whip through dragon scales as if they were water.",
   "statistics": {
-   "agility": 153,
+   "attack": 153,
    "special": {
     "effect": "Deals 1.20x damage to Dragon family"
    }
@@ -229,7 +230,7 @@
   "title": "Dragovian Lord Claws",
   "description": "Claws that cut dragon scales as quickly as waving goodbye.",
   "statistics": {
-   "agility": 163,
+   "attack": 163,
    "special": {
     "effect": "Deals 1.20x damage to Dragon family"
    }
@@ -256,7 +257,7 @@
   "title": "Fire Claws",
   "description": "Claws that fling forth fire if used as an item in battle.",
   "statistics": {
-   "agility": 88,
+   "attack": 88,
    "special": {
     "usage": "Deals 23-33 Fire damage to all enemies"
    }
@@ -289,7 +290,7 @@
   "title": "Gigasteel Claws",
   "description": "Super sharp metal scratchers forged from shrewdly selected steel.",
   "statistics": {
-   "agility": 47,
+   "attack": 47,
    "special": {}
   },
   "rarity": 1,
@@ -311,7 +312,7 @@
   "title": "Hammer Handrills",
   "description": "Heavy-duty drill-like devices that can cut holes through steel.",
   "statistics": {
-   "agility": 83,
+   "attack": 83,
    "special": {
     "effect": "Deals 1.20x damage to Machine family"
    }
@@ -338,7 +339,7 @@
   "title": "Handrills",
   "description": "Drill-like devices that can sink holes into steel.",
   "statistics": {
-   "agility": 61,
+   "attack": 61,
    "special": {
     "effect": "Deals 1.20x damage to Machine family"
    }
@@ -369,7 +370,7 @@
   "title": "Iron Claws",
   "description": "Metal menaces worn by many warriors.",
   "statistics": {
-   "agility": 17,
+   "attack": 17,
    "special": {}
   },
   "rarity": 1,
@@ -398,6 +399,7 @@
   "title": "Kestrel Claws",
   "description": "Talons that tear through their target like a hungry hawk.",
   "statistics": {
+   "attack": 63,
    "agility": 15,
    "special": {}
   },
@@ -423,7 +425,7 @@
   "title": "King Cobra Claws",
   "description": "Enormous toxic talons, hooked like those of a hellish demon.",
   "statistics": {
-   "agility": 106,
+   "attack": 106,
    "special": {
     "effect": "Chance to inflict envenomation"
    }
@@ -447,6 +449,7 @@
   "title": "Kite Claws",
   "description": "Talons that tear through their target like a crazed kite.",
   "statistics": {
+   "attack": 72,
    "agility": 20,
    "special": {}
   },
@@ -468,7 +471,7 @@
   "title": "Orichalcum Claws",
   "description": "Godly talons crafted from orichalcum.",
   "statistics": {
-   "agility": 138,
+   "attack": 138,
    "special": {}
   },
   "rarity": 3,
@@ -490,7 +493,7 @@
   "title": "Razor Claws",
   "description": "Hooked claws full of exotic foreign fascination.",
   "statistics": {
-   "agility": 28,
+   "attack": 28,
    "special": {}
   },
   "rarity": 1,
@@ -515,7 +518,7 @@
   "title": "Sacred Claws",
   "description": "Consecrated claws capable of cutting even formless foes.",
   "statistics": {
-   "agility": 43,
+   "attack": 43,
    "special": {
     "effect": "Deals 1.20x damage to Elemental family"
    }
@@ -546,7 +549,7 @@
   "title": "Steel Claws",
   "description": "Tough talons made from strengthened steel.",
   "statistics": {
-   "agility": 31,
+   "attack": 31,
    "special": {}
   },
   "rarity": 1,
@@ -571,7 +574,7 @@
   "title": "Stone Claws",
   "description": "Super-simple scratchers made from sharpened stones.",
   "statistics": {
-   "agility": 15,
+   "attack": 15,
    "special": {}
   },
   "rarity": 1,
@@ -592,7 +595,7 @@
   "title": "Xenlon Claws",
   "description": "The claws to end all claws. Destroy dragons with the flick of a wrist.",
   "statistics": {
-   "agility": 173,
+   "attack": 173,
    "special": {
     "effect": "Deals 1.20x damage to Dragon family"
    }

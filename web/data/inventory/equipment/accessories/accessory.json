@@ -899,7 +899,7 @@
   "title": "Mighty Armlet",
   "description": "An accessory that accentuates attack power when worn.",
   "statistics": {
-   "agility": 12,
+   "attack": 12,
    "special": {}
   },
   "rarity": 2,
@@ -1101,7 +1101,7 @@
   "title": "Raging Ruby",
   "description": "A jewel that jacks up attack power when worn.",
   "statistics": {
-   "agility": 9,
+   "attack": 9,
    "special": {}
   },
   "rarity": 1,
@@ -1148,7 +1148,9 @@
   "description": "Unnatural necklace with an ominous odour about it.",
   "statistics": {
    "defense": 6,
-   "special": {}
+   "special": {
+    "curse": "Chance to miss a turn"
+   }
   },
   "rarity": 2,
   "vocations": [
@@ -1333,7 +1335,9 @@
   "description": "An unpleasant piece of jewellery with an ominous odour about it.",
   "statistics": {
    "defense": 6,
-   "special": {}
+   "special": {
+    "curse": "Chance to miss a turn"
+   }
   },
   "rarity": 2,
   "vocations": [
@@ -1454,8 +1458,8 @@
   "title": "Soldier's Medal",
   "description": "A warrior's award that ups its wearer's attack power.",
   "statistics": {
+   "attack": 20,
    "defense": 3,
-   "agility": 20,
    "special": {}
   },
   "rarity": 4,
@@ -1590,7 +1594,7 @@
   "title": "Strength Ring",
   "description": "A band that bolsters brawn when worn.",
   "statistics": {
-   "agility": 4,
+   "attack": 4,
    "special": {}
   },
   "rarity": 1,
@@ -1632,7 +1636,9 @@
   "description": "A satanic stick-on design with an ominous odour about it.",
   "statistics": {
    "agility": 8,
-   "special": {}
+   "special": {
+    "curse": "Takes +20% damage from all elements; increases 50% infliction rates of Dazzle, Snooze, Fuddle, Poison, and Paralysis"
+   }
   },
   "rarity": 1,
   "vocations": [
@@ -1670,7 +1676,7 @@
   "title": "Tough Guy Tattoo",
   "description": "A mark that magnifies muscle and musters fighting might.",
   "statistics": {
-   "agility": 6,
+   "attack": 6,
    "special": {}
   },
   "rarity": 1,

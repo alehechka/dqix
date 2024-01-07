@@ -269,6 +269,41 @@
    "power-shield": 1
   }
  },
+ "enchanted-shield": {
+  "id": "enchanted-shield",
+  "title": "Enchanted Shield",
+  "description": "A mystical shield that stands strong against offensive spells.",
+  "statistics": {
+   "defense": 20,
+   "blockChance": 3,
+   "magicalMight": 10,
+   "magicalMending": 10,
+   "special": {
+    "effect": "Resists 7% damage from Fire, Ice, Wind, Lightning, and Dark"
+   }
+  },
+  "rarity": 1,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "shield",
+  "recipe": {
+   "enchanted-stone": 1,
+   "magic-shield": 1
+  },
+  "ingredientFor": [
+   "ethereal-shield"
+  ]
+ },
  "erdrick-s-shield": {
   "id": "erdrick-s-shield",
   "title": "Erdrick's Shield",
@@ -986,7 +1021,9 @@
   "description": "A sinister shield that emanates an eerie aura.",
   "statistics": {
    "blockChance": 6.5,
-   "special": {}
+   "special": {
+    "curse": "Takes +50% damage from Fire, Ice, Wind, Lightning, and Dark"
+   }
   },
   "rarity": 2,
   "vocations": [

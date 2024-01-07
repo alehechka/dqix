@@ -27,13 +27,21 @@ func (a *app) InventoryRoutes(engine *gin.Engine) {
 			return
 		}
 
+		params := pages.InventoryClassificationParams{
+			Classification: classification,
+			Inventories:    inventories,
+			Stats:          inventories.GetHasInventoryStats(),
+			DisplayMode:    ctx.Query("display"),
+			IsDarkMode:     gin_utils.IsDarkMode(ctx),
+		}
+
 		switch htmx.GetHxSwapTarget(ctx) {
 		case "page-content":
-			ctx.HTML(http.StatusOK, "", pages.InventoryClassificationContent(classification, inventories))
+			ctx.HTML(http.StatusOK, "", pages.InventoryClassificationContent(params))
 		case "sidenav-page-wrapper":
-			ctx.HTML(http.StatusOK, "", pages.InventoryClassificationContentWithSideNav(classification, inventories))
+			ctx.HTML(http.StatusOK, "", pages.InventoryClassificationContentWithSideNav(params))
 		default:
-			ctx.HTML(http.StatusOK, "", pages.InventoryClassificationPage(classification, inventories, gin_utils.IsDarkMode(ctx)))
+			ctx.HTML(http.StatusOK, "", pages.InventoryClassificationPage(params))
 		}
 	})
 

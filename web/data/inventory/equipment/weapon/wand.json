@@ -4,7 +4,7 @@
   "title": "Aurora Staff",
   "description": "An unsurpassed staff that stamps out magical effects when used as an item in battle.",
   "statistics": {
-   "agility": 98,
+   "attack": 98,
    "magicalMending": 18,
    "mpAbsorptionRate": 10,
    "special": {
@@ -33,7 +33,7 @@
   "title": "Bright Staff",
   "description": "A radiant staff that stamps out magical effects when used as an item in battle.",
   "statistics": {
-   "agility": 85,
+   "attack": 85,
    "magicalMending": 8,
    "mpAbsorptionRate": 8.5,
    "special": {
@@ -67,7 +67,7 @@
   "title": "Brilliant Staff",
   "description": "A divine staff that stamps out magical effects when used as an item in battle.",
   "statistics": {
-   "agility": 94,
+   "attack": 94,
    "magicalMending": 15,
    "mpAbsorptionRate": 9.5,
    "special": {
@@ -99,7 +99,7 @@
   "title": "Brouhaha Boomstick",
   "description": "A weird wand with a somewhat flute-like form.",
   "statistics": {
-   "agility": 50,
+   "attack": 50,
    "mpAbsorptionRate": 7,
    "special": {}
   },
@@ -123,7 +123,7 @@
   "title": "Faerie Staff",
   "description": "A strange staff that once sealed away some faerie sisters.",
   "statistics": {
-   "agility": 5,
+   "attack": 5,
    "mpAbsorptionRate": 1,
    "special": {}
   },
@@ -144,7 +144,7 @@
   "title": "Hieroglyph Staff",
   "description": "A stick that seriously steps up magical might.",
   "statistics": {
-   "agility": 54,
+   "attack": 54,
    "magicalMight": 15,
    "mpAbsorptionRate": 7.5,
    "special": {}
@@ -170,7 +170,7 @@
   "title": "Lightning Conductor",
   "description": "A staff that throws thunderbolts if used as an item in battle.",
   "statistics": {
-   "agility": 40,
+   "attack": 40,
    "mpAbsorptionRate": 4.5,
    "special": {
     "usage": "Deals 17-27 Lightning damage to enemy group"
@@ -198,7 +198,7 @@
   "title": "Lightning Staff",
   "description": "A staff that summons savage lightning if used as an item in battle.",
   "statistics": {
-   "agility": 28,
+   "attack": 28,
    "mpAbsorptionRate": 3.5,
    "special": {
     "usage": "Deals 17-27 Lightning damage to enemy group"
@@ -239,7 +239,7 @@
   "title": "Magical Mace",
   "description": "A magical staff that sucks masses of MP from the enemy.",
   "statistics": {
-   "agility": 57,
+   "attack": 57,
    "mpAbsorptionRate": 8,
    "special": {}
   },
@@ -267,7 +267,7 @@
   "title": "Magma Staff",
   "description": "A staff that lobs lava if used as an item in battle.",
   "statistics": {
-   "agility": 35,
+   "attack": 35,
    "mpAbsorptionRate": 4,
    "special": {
     "usage": "Deals 20-30 Lightning damage to enemy group"
@@ -302,7 +302,7 @@
   "title": "Mega-Magical Mace",
   "description": "A miraculous staff that sucks masses of MP from the enemy.",
   "statistics": {
-   "agility": 65,
+   "attack": 65,
    "mpAbsorptionRate": 9,
    "special": {}
   },
@@ -328,7 +328,7 @@
   "title": "Oak Staff",
   "description": "A staff whittled from the wood of an old oak tree.",
   "statistics": {
-   "agility": 3,
+   "attack": 3,
    "mpAbsorptionRate": 1,
    "special": {
     "usage": "Deals 12-16 Ice damage to one enemy"
@@ -359,7 +359,7 @@
   "title": "Rune Staff",
   "description": "A stick that steps up magical might.",
   "statistics": {
-   "agility": 45,
+   "attack": 45,
    "magicalMight": 8,
    "mpAbsorptionRate": 6.5,
    "special": {}
@@ -393,7 +393,7 @@
   "title": "Sage's Staff",
   "description": "Protects an ally from breath attacks if used as an item in battle.",
   "statistics": {
-   "agility": 73,
+   "attack": 73,
    "magicalMight": 12,
    "mpAbsorptionRate": 8,
    "special": {
@@ -424,7 +424,7 @@
   "title": "Savant's Staff",
   "description": "A souped-up sort of sage's staff, with mightier magic.",
   "statistics": {
-   "agility": 80,
+   "attack": 80,
    "magicalMight": 20,
    "mpAbsorptionRate": 8.5,
    "special": {
@@ -453,7 +453,7 @@
   "title": "Sceptre of Gitt",
   "description": "Hereditary heirloom of the heinous heads of the Gittish Empire.",
   "statistics": {
-   "agility": 70,
+   "attack": 70,
    "mpAbsorptionRate": 7.5,
    "special": {}
   },
@@ -480,7 +480,7 @@
   "title": "Shining Staff",
   "description": "A holy staff that stamps out magical effects when used as an item in battle.",
   "statistics": {
-   "agility": 90,
+   "attack": 90,
    "magicalMending": 12,
    "mpAbsorptionRate": 9,
    "special": {
@@ -513,7 +513,7 @@
   "title": "Staff of Divine Wrath",
   "description": "A stick that whips foes with wild winds if used as an item in battle.",
   "statistics": {
-   "agility": 20,
+   "attack": 20,
    "mpAbsorptionRate": 2.5,
    "special": {
     "usage": "Deals 8-24 Wind damage to enemy group"
@@ -545,7 +545,7 @@
   "title": "Staff of Sentencing",
   "description": "A wand that whisks up whirling winds when used as an item in battle.",
   "statistics": {
-   "agility": 11,
+   "attack": 11,
    "mpAbsorptionRate": 2,
    "special": {
     "usage": "Deals 8-24 Wind damage to enemy group"
@@ -584,7 +584,7 @@
   "title": "Stolos' Staff",
   "description": "A staff that stops your party's paralysis if used as an item in battle.",
   "statistics": {
-   "agility": 18,
+   "attack": 18,
    "mpAbsorptionRate": 2.5,
    "special": {
     "usage": "Tingle"
@@ -621,7 +621,7 @@
   "title": "Tsunami Staff",
   "description": "A rod of the ocean gods that smacks seaborne foes with fierce force.",
   "statistics": {
-   "agility": 36,
+   "attack": 36,
    "mpAbsorptionRate": 5.5,
    "special": {
     "effect": "Deals 1.20x damage to Aquatic family"
@@ -649,7 +649,7 @@
   "title": "Watermaul Wand",
   "description": "A staff swirling with the strength of the sea. Feared by fishy foes.",
   "statistics": {
-   "agility": 25,
+   "attack": 25,
    "mpAbsorptionRate": 5,
    "special": {
     "effect": "Deals 1.20x damage to Aquatic family"
@@ -688,7 +688,7 @@
   "title": "Wizard's Staff",
   "description": "A staff that throws fire at foes if used as an item in battle.",
   "statistics": {
-   "agility": 7,
+   "attack": 7,
    "mpAbsorptionRate": 1.5,
    "special": {}
   },
@@ -720,7 +720,7 @@
   "title": "Wyrmwand",
   "description": "A wand that fries foes with dragonfire if used as an item in battle.",
   "statistics": {
-   "agility": 88,
+   "attack": 88,
    "mpAbsorptionRate": 7.5,
    "special": {
     "usage": "Deals 23-33 Fire damage to all enemies"

@@ -3117,7 +3117,9 @@
   "description": "A deadly dressing-gown that dulls defence against many disorders.",
   "statistics": {
    "defense": 27,
-   "special": {}
+   "special": {
+    "curse": "Increases 80% infliction rates of Dazzle, Snooze, Whack, Fuddle, and Paralysis"
+   }
   },
   "rarity": 2,
   "vocations": [

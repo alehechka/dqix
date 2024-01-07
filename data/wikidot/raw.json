@@ -19300,7 +19300,8 @@
       "Enchanted stone",
       "x1",
       "Alchemises:",
-      "Ethereal shield"
+      "Ethereal shield",
+      "shield"
     ],
     "Links": {
       "/enchanted-stone": "Enchanted stone",

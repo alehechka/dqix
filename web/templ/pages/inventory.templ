@@ -4,40 +4,10 @@ import "dqix/internal/types"
 import "dqix/web/templ/components/base"
 import "dqix/web/templ/components/links"
 import "strings"
-import "dqix/web/templ/utilities"
 import "strconv"
 import "fmt"
 
-// Inventory Classifications
-
-templ InventoryClassificationPage(class string, inventories []types.Inventory, isDarkMode bool) {
-	@base.Layout("DQIX | " + strings.Title(class), class, isDarkMode) {
-		@InventoryClassificationContent(class, inventories)
-	}
-}
-
-templ InventoryClassificationContentWithSideNav(class string, inventories []types.Inventory) {
-	@base.MainContentWithSidenav(class) {
-		@InventoryClassificationContent(class, inventories)
-	}
-}
-
-templ InventoryClassificationContent(class string, inventories []types.Inventory) {
-	<div>
-		<h1 class="text-3xl font-bold">{ strings.Title(strings.ReplaceAll(class, "-", " ")) }</h1>
-		<ul hx-boost="true" hx-target="#page-content" hx-swap="innerHTML" class="[&>li]:flex [&>li]:items-center">
-			for _, inventory := range inventories {
-				<li>
-					<img src={ inventory.ImageSrc() } alt={ inventory.ID }/>
-					@links.Link(inventory.Title, fn.Path(inventory.GetPath()), nil)
-				</li>
-			}
-		</ul>
-	</div>
-}
-
 // Inventory
-
 templ InventoryPage(inventory types.Inventory, getter types.IGetThingFromID, isDarkMode bool) {
 	@base.Layout("DQIX | " + inventory.Title, inventory.Classification, isDarkMode) {
 		@InventoryContent(inventory, getter)
@@ -111,6 +81,10 @@ templ InventoryContent(inventory types.Inventory, getter types.IGetThingFromID) 
 					}
 					if inventory.Statistics.Special.Usage != "" {
 						<em class="pl-2">Usage: </em> { inventory.Statistics.Special.Usage }
+						<br/>
+					}
+					if inventory.Statistics.Special.Curse != "" {
+						<em class="pl-2">Curse: </em> { inventory.Statistics.Special.Curse }
 						<br/>
 					}
 				}

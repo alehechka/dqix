@@ -4,7 +4,7 @@
   "title": "Asterang",
   "description": "A rip-roaring 'rang that flattens foes like an avalanche of asteroids.",
   "statistics": {
-   "agility": 120,
+   "attack": 120,
    "special": {}
   },
   "rarity": 4,
@@ -31,7 +31,7 @@
   "title": "Banefire Boomerang",
   "description": "A boomerang blessed with the power of billowing flames.",
   "statistics": {
-   "agility": 80,
+   "attack": 80,
    "special": {
     "effect": "Deals Fire-elemental damage"
    }
@@ -56,7 +56,7 @@
   "title": "Blusterang",
   "description": "A throwing stick so staggeringly strong, it can whip up a whirlwind.",
   "statistics": {
-   "agility": 75,
+   "attack": 75,
    "special": {
     "effect": "Deals Wind-elemental damage"
    }
@@ -81,7 +81,7 @@
   "title": "Boomerang",
   "description": "A thrown weapon that can strike all enemies with a single sling.",
   "statistics": {
-   "agility": 13,
+   "attack": 13,
    "special": {}
   },
   "rarity": 1,
@@ -107,7 +107,7 @@
   "title": "Crucerang",
   "description": "A dream 'rang that's a doddle to dispatch and deals decent damage.",
   "statistics": {
-   "agility": 30,
+   "attack": 30,
    "special": {}
   },
   "rarity": 1,
@@ -135,7 +135,7 @@
   "title": "Cutting-Edge Boomerang",
   "description": "A metal boomerang of shocking sharpness.",
   "statistics": {
-   "agility": 35,
+   "attack": 35,
    "special": {}
   },
   "rarity": 1,
@@ -158,7 +158,7 @@
   "title": "Eaglewing",
   "description": "A kylie whose construction is modelled on the king of hawks.",
   "statistics": {
-   "agility": 65,
+   "attack": 65,
    "special": {}
   },
   "rarity": 2,
@@ -181,7 +181,7 @@
   "title": "Edged Boomerang",
   "description": "A metal boomerang with a bladed bite.",
   "statistics": {
-   "agility": 22,
+   "attack": 22,
    "special": {}
   },
   "rarity": 1,
@@ -208,7 +208,7 @@
   "title": "Erazor-Wing Boomerang",
   "description": "An uncommonly keen kylie that carves the way to conquest.",
   "statistics": {
-   "agility": 58,
+   "attack": 58,
    "special": {}
   },
   "rarity": 2,
@@ -231,7 +231,7 @@
   "title": "Flametang Boomerang",
   "description": "A boomerang bearing a fiery force.",
   "statistics": {
-   "agility": 71,
+   "attack": 71,
    "special": {
     "effect": "Deals Fire-elemental damage"
    }
@@ -263,7 +263,7 @@
   "title": "Galaxarang",
   "description": "A rip-roaring 'rang glorified for its galaxy-gashing get-up-and-go.",
   "statistics": {
-   "agility": 138,
+   "attack": 138,
    "special": {}
   },
   "rarity": 5,
@@ -286,7 +286,7 @@
   "title": "Gusterang",
   "description": "A throwing stick suffused with the strength of the wind.",
   "statistics": {
-   "agility": 61,
+   "attack": 61,
    "special": {
     "effect": "Deals Wind-elemental damage"
    }
@@ -320,7 +320,7 @@
   "title": "Hexarang",
   "description": "A curious kylie that's a pinch more powerful than the pentarang.",
   "statistics": {
-   "agility": 101,
+   "attack": 101,
    "special": {
     "effect": "Deals 1.20x damage to Demon family"
    }
@@ -348,7 +348,7 @@
   "title": "Meteorang",
   "description": "A rip-roaring 'rang that flattens foes like a meteorite.",
   "statistics": {
-   "agility": 111,
+   "attack": 111,
    "special": {}
   },
   "rarity": 4,
@@ -376,7 +376,7 @@
   "title": "Pentarang",
   "description": "A boomerang blessed with the power of billowing flames.",
   "statistics": {
-   "agility": 89,
+   "attack": 89,
    "special": {
     "effect": "Deals 1.20x damage to Demon family"
    }
@@ -406,7 +406,7 @@
   "title": "Razer-Wing Boomerang",
   "description": "A razor-sharp 'rang renowned for razing the rabble to the ground.",
   "statistics": {
-   "agility": 50,
+   "attack": 50,
    "special": {}
   },
   "rarity": 1,
@@ -431,7 +431,7 @@
   "title": "Razor-Wing Boomerang",
   "description": "A steel-bladed boomerang with an acute edge.",
   "statistics": {
-   "agility": 38,
+   "attack": 38,
    "special": {}
   },
   "rarity": 1,
@@ -458,7 +458,7 @@
   "title": "Reinforced Boomerang",
   "description": "A slightly superior version of the basic boomerang.",
   "statistics": {
-   "agility": 26,
+   "attack": 26,
    "special": {}
   },
   "rarity": 1,
@@ -483,7 +483,7 @@
   "title": "Stellarang",
   "description": "A rip-roaring 'rang that ploughs through its prey like a supernova.",
   "statistics": {
-   "agility": 129,
+   "attack": 129,
    "special": {}
   },
   "rarity": 4,
@@ -509,7 +509,7 @@
   "title": "Swallowtail",
   "description": "A boomerang based on a picture of a pair of soaring swallows.",
   "statistics": {
-   "agility": 48,
+   "attack": 48,
    "special": {}
   },
   "rarity": 1,

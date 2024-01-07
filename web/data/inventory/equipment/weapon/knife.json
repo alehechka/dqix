@@ -4,7 +4,7 @@
   "title": "Assassin's Dagger",
   "description": "A killer cutter that in the right hands can fell a foe in a single strike.",
   "statistics": {
-   "agility": 54,
+   "attack": 54,
    "special": {
     "effect": "Chance to inflict instant death"
    }
@@ -37,7 +37,7 @@
   "title": "Batterfly Knife",
   "description": "A keen knife that paralyses its prey part of the time.",
   "statistics": {
-   "agility": 38,
+   "attack": 38,
    "special": {
     "effect": "Deals 1.20x damage to Bug family"
    }
@@ -65,7 +65,7 @@
   "title": "Bronze Knife",
   "description": "A nifty knife made of a softish alloy.",
   "statistics": {
-   "agility": 10,
+   "attack": 10,
    "special": {}
   },
   "rarity": 1,
@@ -91,7 +91,7 @@
   "title": "Darting Dagger",
   "description": "A legendary knife that imparts unbeatable briskness.",
   "statistics": {
-   "agility": 140,
+   "attack": 140,
    "special": {
     "effect": "Normal attacks always go first"
    }
@@ -120,7 +120,7 @@
   "title": "Dashing Dagger",
   "description": "A mighty knife that imparts unbeatable briskness.",
   "statistics": {
-   "agility": 148,
+   "attack": 148,
    "special": {
     "effect": "Normal attacks always go first"
    }
@@ -148,7 +148,7 @@
   "title": "Deadly Nightblade",
   "description": "A nefarious knife for nimble-fingered ne'er-do-wells.",
   "statistics": {
-   "agility": 42,
+   "attack": 42,
    "special": {}
   },
   "rarity": 1,
@@ -177,7 +177,7 @@
   "title": "Deft Dagger",
   "description": "A mysterious knife that imparts unbeatable briskness.",
   "statistics": {
-   "agility": 132,
+   "attack": 132,
    "special": {
     "effect": "Normal attacks always go first"
    }
@@ -207,7 +207,7 @@
   "title": "Divine Dagger",
   "description": "A bitsy blade bathed in holy light that zealously zaps zombies.",
   "statistics": {
-   "agility": 18,
+   "attack": 18,
    "special": {
     "effect": "Deals 1.20x damage to Zombie family"
    }
@@ -240,7 +240,7 @@
   "title": "Dread Dagger",
   "description": "An unnerving knife that paralyses its prey part of the time.",
   "statistics": {
-   "agility": 57,
+   "attack": 57,
    "special": {}
   },
   "rarity": 2,
@@ -266,7 +266,7 @@
   "title": "Dynamo Dagger",
   "description": "A matchless knife that imparts unbeatable briskness.",
   "statistics": {
-   "agility": 155,
+   "attack": 155,
    "special": {
     "effect": "Normal attacks always go first"
    }
@@ -291,7 +291,7 @@
   "title": "Falcon Knife Earring",
   "description": "A divine earring that delivers a double attack.",
   "statistics": {
-   "agility": 1,
+   "attack": 1,
    "special": {
     "effect": "Attacks twice in one turn"
    }
@@ -321,7 +321,7 @@
   "title": "Fenrir Fang",
   "description": "A snowy stabber that emits icicles if used as an item in battle.",
   "statistics": {
-   "agility": 80,
+   "attack": 80,
    "special": {
     "usage": "Deals 25-35 Ice damage to all enemies"
    }
@@ -346,7 +346,7 @@
   "title": "Flame Tang",
   "description": "A fiery dagger for a triumphant trouper.",
   "statistics": {
-   "agility": 122,
+   "attack": 122,
    "special": {
     "effect": "Deals Fire-elemental damage"
    }
@@ -374,7 +374,7 @@
   "title": "Gladius",
   "description": "A famed dagger for a heralded hero.",
   "statistics": {
-   "agility": 102,
+   "attack": 102,
    "special": {}
   },
   "rarity": 2,
@@ -403,7 +403,7 @@
   "title": "Icicle Dirk",
   "description": "A nippy knife that emits icicles if used as an item in battle.",
   "statistics": {
-   "agility": 62,
+   "attack": 62,
    "special": {
     "usage": "Deals 25-35 Ice damage to all enemies"
    }
@@ -439,7 +439,7 @@
   "title": "Paring Knife",
   "description": "A gnat of a knife that might be used for chopping up veggies.",
   "statistics": {
-   "agility": 4,
+   "attack": 4,
    "special": {}
   },
   "rarity": 1,
@@ -461,7 +461,7 @@
   "title": "Poison Moth Knife",
   "description": "A knife that's known to paralyse its prey part of the time.",
   "statistics": {
-   "agility": 25,
+   "attack": 25,
    "special": {
     "effect": "Chance to inflict paralysis"
    }
@@ -497,7 +497,7 @@
   "title": "Poison Needle",
   "description": "A prickly pin that can fell a foe with a single stab if correctly aimed.",
   "statistics": {
-   "agility": 1,
+   "attack": 1,
    "special": {
     "effect": "Chance to inflict instant death; normal attacks cannot be blocked and always deal 1 damage"
    }
@@ -537,7 +537,7 @@
   "title": "Pruning Knife",
   "description": "A magical blade that can cause critical damage if it hits the spot.",
   "statistics": {
-   "agility": 114,
+   "attack": 114,
    "special": {
     "effect": "Chance to inflict instant death"
    }
@@ -560,7 +560,7 @@
   "title": "Soul Breaker",
   "description": "A sinister serrated blade that weakens enemies' weapons.",
   "statistics": {
-   "agility": 87,
+   "attack": 87,
    "special": {
     "effect": "Chance to lower enemy attack a little"
    }
@@ -585,7 +585,7 @@
   "title": "Sword Breaker",
   "description": "A stout, serrated blade that weakens enemies' weapons.",
   "statistics": {
-   "agility": 74,
+   "attack": 74,
    "special": {
     "effect": "Chance to lower enemy attack a little"
    }

@@ -4,7 +4,7 @@
   "title": "Ace of Clubs",
   "description": "A colossal cudgel, reportedly once wielded by giants.",
   "statistics": {
-   "agility": 35,
+   "attack": 35,
    "special": {}
   },
   "rarity": 1,
@@ -28,7 +28,7 @@
   "title": "Earthsplitter",
   "description": "A pounder of prodigious power that could crack continents in two",
   "statistics": {
-   "agility": 160,
+   "attack": 160,
    "special": {}
   },
   "rarity": 4,
@@ -54,7 +54,7 @@
   "title": "Giant's Hammer",
   "description": "A big basher that mashes monsters of material make-up.",
   "statistics": {
-   "agility": 109,
+   "attack": 109,
    "special": {
     "effect": "Deals 1.20x damage to Material family"
    }
@@ -83,7 +83,7 @@
   "title": "Giant Wrench",
   "description": "A sizeable spanner that can sock it to monsters of the machine family.",
   "statistics": {
-   "agility": 64,
+   "attack": 64,
    "special": {
     "effect": "Deals 1.20x damage to Machine family"
    }
@@ -107,7 +107,7 @@
   "title": "Groundbreaker",
   "description": "A pounder of imposing power that may rend the very ground asunder.",
   "statistics": {
-   "agility": 151,
+   "attack": 151,
    "special": {}
   },
   "rarity": 4,
@@ -134,7 +134,7 @@
   "title": "Hela's Hammer",
   "description": "A tricky tool to tame, but one that can finish foes in one fell swoop.",
   "statistics": {
-   "agility": 132,
+   "attack": 132,
    "special": {
     "effect": "25% chance to miss"
    }
@@ -162,7 +162,7 @@
   "title": "Marauder's Maul",
   "description": "A favourite of foul demons, it has dazzling destructive clout.",
   "statistics": {
-   "agility": 93,
+   "attack": 93,
    "special": {}
   },
   "rarity": 2,
@@ -186,7 +186,7 @@
   "title": "Megaton Hammer",
   "description": "A huge hammer that weighs heavy on the heads of those it hits.",
   "statistics": {
-   "agility": 132,
+   "attack": 132,
    "special": {}
   },
   "rarity": 3,
@@ -214,7 +214,7 @@
   "title": "Moonmasher",
   "description": "A pounder of stupendous power that could crush the moon.",
   "statistics": {
-   "agility": 169,
+   "attack": 169,
    "special": {}
   },
   "rarity": 4,
@@ -239,7 +239,7 @@
   "title": "Oaken Club",
   "description": "A brutally basic bludgeon built of sturdy oak.",
   "statistics": {
-   "agility": 7,
+   "attack": 7,
    "special": {}
   },
   "rarity": 1,
@@ -265,7 +265,7 @@
   "title": "Sledgehammer",
   "description": "A heavyweight hammer with a head of iron.",
   "statistics": {
-   "agility": 28,
+   "attack": 28,
    "special": {}
   },
   "rarity": 1,
@@ -286,7 +286,7 @@
   "title": "Starsmasher",
   "description": "A pounder of peerless power, whose cosmic clout could crack a star.",
   "statistics": {
-   "agility": 179,
+   "attack": 179,
    "special": {}
   },
   "rarity": 5,
@@ -308,7 +308,7 @@
   "title": "Terra Firmer",
   "description": "An even more ruinous version of the terra tamper.",
   "statistics": {
-   "agility": 87,
+   "attack": 87,
    "special": {
     "effect": "Deals Earth-elemental damage"
    }
@@ -335,7 +335,7 @@
   "title": "Terra Tamper",
   "description": "A powerful pounder that harbours the essence of the earth's energy.",
   "statistics": {
-   "agility": 75,
+   "attack": 75,
    "special": {
     "effect": "Deals Earth-elemental damage"
    }
@@ -366,7 +366,7 @@
   "title": "Titan's Hammer",
   "description": "A huge hammer that easily erases monsters of material make-up.",
   "statistics": {
-   "agility": 118,
+   "attack": 118,
    "special": {
     "effect": "Deals 1.20x damage to Material family"
    }
@@ -390,7 +390,7 @@
   "title": "War Hammer",
   "description": "A steel-headed hammer manufactured for melees!",
   "statistics": {
-   "agility": 55,
+   "attack": 55,
    "special": {}
   },
   "rarity": 1,
@@ -415,7 +415,7 @@
   "title": "Warlord's Hammer",
   "description": "A mammoth mallet that weighs heavy on the heads of those it hits.",
   "statistics": {
-   "agility": 140,
+   "attack": 140,
    "special": {}
   },
   "rarity": 4,
@@ -437,7 +437,7 @@
   "title": "Über War Hammer",
   "description": "An even more formidable form of the war hammer.",
   "statistics": {
-   "agility": 70,
+   "attack": 70,
    "special": {}
   },
   "rarity": 1,

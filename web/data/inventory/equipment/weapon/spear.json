@@ -4,7 +4,7 @@
   "title": "Bamboo Lance",
   "description": "A simple spear fashioned from fresh bamboo.",
   "statistics": {
-   "agility": 6,
+   "attack": 6,
    "special": {}
   },
   "rarity": 1,
@@ -26,7 +26,7 @@
   "title": "Battle Fork",
   "description": "A fair-sized fork that makes short work of aquatic enemies.",
   "statistics": {
-   "agility": 45,
+   "attack": 45,
    "special": {
     "effect": "Deals 1.20x damage to Aquatic family"
    }
@@ -57,7 +57,7 @@
   "title": "Celestial Spear",
   "description": "A super-sized spear suffused with a sacred light that zaps zombies.",
   "statistics": {
-   "agility": 70,
+   "attack": 70,
    "special": {
     "effect": "Deals 1.20x damage to Zombie family"
    }
@@ -88,7 +88,7 @@
   "title": "Demon Spear",
   "description": "A spear that can floor a foe with a single well-sighted strike.",
   "statistics": {
-   "agility": 93,
+   "attack": 93,
    "special": {
     "effect": "Chance to inflict instant death"
    }
@@ -117,7 +117,7 @@
   "title": "Gigasteel Lance",
   "description": "A souped-up steel lance with superior penetrative potential.",
   "statistics": {
-   "agility": 50,
+   "attack": 50,
    "special": {}
   },
   "rarity": 1,
@@ -140,7 +140,7 @@
   "title": "Gracos's Trident",
   "description": "A spear said to once have been used by an emperor of the ocean.",
   "statistics": {
-   "agility": 88,
+   "attack": 88,
    "special": {
     "effect": "Deals 1.20x damage to Aquatic family"
    }
@@ -165,7 +165,7 @@
   "title": "Halberd",
   "description": "A whopper of a weapon with elements of both a spear and a battle-axe.",
   "statistics": {
-   "agility": 75,
+   "attack": 75,
    "special": {}
   },
   "rarity": 1,
@@ -194,7 +194,7 @@
   "title": "Hero Spear",
   "description": "A spear that serves to restore its bearer's HP with every strike.",
   "statistics": {
-   "agility": 107,
+   "attack": 107,
    "special": {
     "effect": "Returns 25% of damage dealt as HP"
    }
@@ -217,7 +217,7 @@
   "title": "Holy Lance",
   "description": "A holy lance blessed by the Almighty that zealously zaps zombies.",
   "statistics": {
-   "agility": 39,
+   "attack": 39,
    "special": {
     "effect": "Deals 1.20x damage to Zombie family"
    }
@@ -252,7 +252,7 @@
   "title": "Iron Lance",
   "description": "A spear made of iron for everyday action.",
   "statistics": {
-   "agility": 17,
+   "attack": 17,
    "special": {}
   },
   "rarity": 1,
@@ -282,7 +282,7 @@
   "title": "Lightning Lance",
   "description": "A magical spear within which lingers the power of lightning.",
   "statistics": {
-   "agility": 85,
+   "attack": 85,
    "special": {
     "effect": "Deals Lightning-elemental damage"
    }
@@ -314,7 +314,7 @@
   "title": "Liquid Metal Spear",
   "description": "A supreme spear packed with the power of liquid metal slimes.",
   "statistics": {
-   "agility": 125,
+   "attack": 125,
    "special": {
     "effect": "Deals +1 damage to metal enemies"
    }
@@ -342,7 +342,7 @@
   "title": "Long Spear",
   "description": "A long and leaden javelin.",
   "statistics": {
-   "agility": 29,
+   "attack": 29,
    "special": {}
   },
   "rarity": 1,
@@ -371,7 +371,7 @@
   "title": "Metal King Spear",
   "description": "A supreme spear packed with the power of metal king slimes.",
   "statistics": {
-   "agility": 136,
+   "attack": 136,
    "special": {
     "effect": "Deals +1 damage to metal enemies"
    }
@@ -396,7 +396,7 @@
   "title": "Metal Slime Spear",
   "description": "A supreme spear packed with the power of metal slimes.",
   "statistics": {
-   "agility": 115,
+   "attack": 115,
    "special": {
     "effect": "Deals +1 damage to metal enemies"
    }
@@ -422,7 +422,7 @@
   "title": "Partisan",
   "description": "A sizeable spear with blades stemming from the sides of the spike.",
   "statistics": {
-   "agility": 61,
+   "attack": 61,
    "special": {}
   },
   "rarity": 1,
@@ -451,7 +451,7 @@
   "title": "Poker",
   "description": "A lavish lance that can shoot through any shield.",
   "statistics": {
-   "agility": 144,
+   "attack": 144,
    "special": {
     "effect": "Normal attacks cannot be blocked"
    }
@@ -481,7 +481,7 @@
   "title": "Red-Hot Poker",
   "description": "An unrivalled lance that can shoot through any shield.",
   "statistics": {
-   "agility": 176,
+   "attack": 176,
    "special": {
     "effect": "Normal attacks cannot be blocked"
    }
@@ -506,7 +506,7 @@
   "title": "Sandstorm Spear",
   "description": "A spear that sends sand to blind baddies if used as an item in battle.",
   "statistics": {
-   "agility": 54,
+   "attack": 54,
    "special": {
     "usage": "Dazzle"
    }
@@ -539,7 +539,7 @@
   "title": "Split-Pot Poker",
   "description": "A lethal lance that can shoot through any shield.",
   "statistics": {
-   "agility": 166,
+   "attack": 166,
    "special": {
     "effect": "Normal attacks cannot be blocked"
    }
@@ -567,7 +567,7 @@
   "title": "Steel Lance",
   "description": "A basic spear with a steel spike.",
   "statistics": {
-   "agility": 33,
+   "attack": 33,
    "special": {}
   },
   "rarity": 1,
@@ -593,7 +593,7 @@
   "title": "Storm Spear",
   "description": "A spear said to have served a god of thunder in bygone days.",
   "statistics": {
-   "agility": 97,
+   "attack": 97,
    "special": {
     "effect": "Deals Lighting-elemental damage"
    }
@@ -618,7 +618,7 @@
   "title": "Stud Poker",
   "description": "An alarming lance that can shoot through any shield.",
   "statistics": {
-   "agility": 155,
+   "attack": 155,
    "special": {
     "effect": "Normal attacks cannot be blocked"
    }
@@ -647,7 +647,7 @@
   "title": "Trident",
   "description": "A three-pronged fork that facilitates the filleting of fishy foes.",
   "statistics": {
-   "agility": 65,
+   "attack": 65,
    "special": {
     "effect": "Deals 1.20x damage to Aquatic family"
    }
