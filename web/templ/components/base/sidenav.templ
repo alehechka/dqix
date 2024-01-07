@@ -25,8 +25,8 @@ templ SideNav(page string) {
 				>
 					<summary>Items</summary>
 					<ul class="flex flex-col gap-1 overflow-x-hidden">
-						@SideNavLink("Everyday", fn.Path("inventory", "bag", "items", types.ClassItemEveryday), page == types.ClassItemEveryday)
-						@SideNavLink("Important", fn.Path("inventory", "bag", "items", types.ClassItemImportant), page == types.ClassItemImportant)
+						@sideNavLink("Everyday", fn.Path("inventory", "bag", "items", types.ClassItemEveryday), page == types.ClassItemEveryday)
+						@sideNavLink("Important", fn.Path("inventory", "bag", "items", types.ClassItemImportant), page == types.ClassItemImportant)
 					</ul>
 				</details>
 			</li>
@@ -39,12 +39,12 @@ templ SideNav(page string) {
 				>
 					<summary>Armor</summary>
 					<ul class="flex flex-col gap-1 overflow-x-hidden">
-						@SideNavLink("Head", fn.Path("inventory", "equipment", "armor", types.ClassArmorHead), page == types.ClassArmorHead)
-						@SideNavLink("Torso", fn.Path("inventory", "equipment", "armor", types.ClassArmorTorso), page == types.ClassArmorTorso)
-						@SideNavLink("Shields", fn.Path("inventory", "equipment", "armor", types.ClassArmorShield), page == types.ClassArmorShield)
-						@SideNavLink("Arms", fn.Path("inventory", "equipment", "armor", types.ClassArmorArms), page == types.ClassArmorArms)
-						@SideNavLink("Legs", fn.Path("inventory", "equipment", "armor", types.ClassArmorLegs), page == types.ClassArmorLegs)
-						@SideNavLink("Feet", fn.Path("inventory", "equipment", "armor", types.ClassArmorFeet), page == types.ClassArmorFeet)
+						@sideNavLink("Head", fn.Path("inventory", "equipment", "armor", types.ClassArmorHead), page == types.ClassArmorHead)
+						@sideNavLink("Torso", fn.Path("inventory", "equipment", "armor", types.ClassArmorTorso), page == types.ClassArmorTorso)
+						@sideNavLink("Shields", fn.Path("inventory", "equipment", "armor", types.ClassArmorShield), page == types.ClassArmorShield)
+						@sideNavLink("Arms", fn.Path("inventory", "equipment", "armor", types.ClassArmorArms), page == types.ClassArmorArms)
+						@sideNavLink("Legs", fn.Path("inventory", "equipment", "armor", types.ClassArmorLegs), page == types.ClassArmorLegs)
+						@sideNavLink("Feet", fn.Path("inventory", "equipment", "armor", types.ClassArmorFeet), page == types.ClassArmorFeet)
 					</ul>
 				</details>
 			</li>
@@ -57,29 +57,29 @@ templ SideNav(page string) {
 				>
 					<summary>Weapons</summary>
 					<ul class="flex flex-col gap-1 overflow-x-hidden">
-						@SideNavLink("Axes", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponAxe), page == types.ClassWeaponAxe)
-						@SideNavLink("Boomerangs", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponBoomerang), page == types.ClassWeaponBoomerang)
-						@SideNavLink("Bows", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponBow), page == types.ClassWeaponBow)
-						@SideNavLink("Claws", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponClaw), page == types.ClassWeaponClaw)
-						@SideNavLink("Fans", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponFan), page == types.ClassWeaponFan)
-						@SideNavLink("Hammers", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponHammer), page == types.ClassWeaponHammer)
-						@SideNavLink("Knives", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponKnife), page == types.ClassWeaponKnife)
-						@SideNavLink("Spears", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponSpear), page == types.ClassWeaponSpear)
-						@SideNavLink("Staves", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponStave), page == types.ClassWeaponStave)
-						@SideNavLink("Swords", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponSword), page == types.ClassWeaponSword)
-						@SideNavLink("Wands", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponWand), page == types.ClassWeaponWand)
-						@SideNavLink("Whips", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponWhip), page == types.ClassWeaponWhip)
+						@sideNavLink("Axes", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponAxe), page == types.ClassWeaponAxe)
+						@sideNavLink("Boomerangs", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponBoomerang), page == types.ClassWeaponBoomerang)
+						@sideNavLink("Bows", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponBow), page == types.ClassWeaponBow)
+						@sideNavLink("Claws", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponClaw), page == types.ClassWeaponClaw)
+						@sideNavLink("Fans", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponFan), page == types.ClassWeaponFan)
+						@sideNavLink("Hammers", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponHammer), page == types.ClassWeaponHammer)
+						@sideNavLink("Knives", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponKnife), page == types.ClassWeaponKnife)
+						@sideNavLink("Spears", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponSpear), page == types.ClassWeaponSpear)
+						@sideNavLink("Staves", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponStave), page == types.ClassWeaponStave)
+						@sideNavLink("Swords", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponSword), page == types.ClassWeaponSword)
+						@sideNavLink("Wands", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponWand), page == types.ClassWeaponWand)
+						@sideNavLink("Whips", fn.Path("inventory", "equipment", "weapon", types.ClassWeaponWhip), page == types.ClassWeaponWhip)
 					</ul>
 				</details>
 			</li>
 			<li>
-				@SideNavLink("Accessories", fn.Path("inventory", "equipment", "accessories", types.ClassAccessory), page == types.ClassAccessory)
+				@sideNavLink("Accessories", fn.Path("inventory", "equipment", "accessories", types.ClassAccessory), page == types.ClassAccessory)
 			</li>
 		</ul>
 	</aside>
 }
 
-templ SideNavLink(text string, href templ.SafeURL, isActive bool) {
+templ sideNavLink(text string, href templ.SafeURL, isActive bool) {
 	<li>
 		<a
 			href={ href }
@@ -114,9 +114,4 @@ script sidenavScriptUtils() {
 	}
 
 	sm.addEventListener('change', closeSidenav);
-}
-
-script toggleSidenav() {
-	var x = document.getElementById('sidenav').getAttribute('aria-expanded') === 'true' ? 'false' : 'true';
-  	document.getElementById('sidenav').setAttribute('aria-expanded', x);
 }

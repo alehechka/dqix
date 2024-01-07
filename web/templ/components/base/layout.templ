@@ -1,6 +1,5 @@
 package base
 
-import "dqix/web/templ/components/icons"
 import "dqix/web/templ/components/buttons"
 
 type LayoutParams struct {
@@ -22,7 +21,6 @@ templ Layout(params LayoutParams) {
 			@Meta(params.PageTitle, params.CSSVersion)
 		</head>
 		<body class="h-full overflow-hidden dark:text-gray-300">
-			@sidenavScriptUtils()
 			@Navbar(params.IsDarkMode)
 			@MainContentWithSidenav(params.Page) {
 				{ children... }
@@ -75,9 +73,7 @@ templ Navbar(isDarkMode bool) {
 		</a>
 		<div class="flex flex-row gap-2 mr-4 items-center">
 			@buttons.ThemeToggleButton(isDarkMode)
-			<button class="block md:hidden hover:bg-gray-200 dark:hover:bg-gray-600 rounded p-1" onclick={ toggleSidenav() }>
-				@icons.Hamburger(icons.WithSize("1.25rem"))
-			</button>
+			@buttons.SidenavToggleButton()
 		</div>
 	</header>
 }

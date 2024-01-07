@@ -1,0 +1,16 @@
+package buttons
+
+import "dqix/web/templ/components/icons"
+
+script toggleSidenav() {
+	var x = document.getElementById('sidenav').getAttribute('aria-expanded') === 'true' ? 'false' : 'true';
+  	document.getElementById('sidenav').setAttribute('aria-expanded', x);
+}
+
+templ SidenavToggleButton() {
+	<div id="sidenav-toggle-wrapper">
+		<button class="block md:hidden hover:bg-gray-200 dark:hover:bg-gray-600 rounded p-1" onclick={ toggleSidenav() }>
+			@icons.Hamburger(icons.WithSize("1.25rem"))
+		</button>
+	</div>
+}
