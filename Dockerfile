@@ -18,7 +18,8 @@ COPY tailwind.config.js .
 COPY web/templ web/templ
 COPY web/static web/static
 
-RUN npm run build:css
+ARG RELEASE_VERSION=latest
+RUN VERSION=${RELEASE_VERSION} npm run build:css
 
 # GENERATE TEMPL
 

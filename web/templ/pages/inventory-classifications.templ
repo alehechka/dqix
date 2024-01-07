@@ -14,11 +14,11 @@ type InventoryClassificationParams struct {
 	Inventories    types.InventorySlice
 	Stats          types.HasInventoryStats
 	DisplayMode    string
-	IsDarkMode     bool
+	LayoutParams   base.LayoutParams
 }
 
 templ InventoryClassificationPage(params InventoryClassificationParams) {
-	@base.Layout("DQIX | " + strings.Title(params.Classification), params.Classification, params.IsDarkMode) {
+	@base.Layout(params.LayoutParams) {
 		@InventoryClassificationContent(params)
 	}
 }

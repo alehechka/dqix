@@ -3,8 +3,10 @@ package router
 import (
 	gin_utils "dqix/pkg/gin"
 	"dqix/pkg/htmx"
+	"dqix/web/templ/components/base"
 	"dqix/web/templ/pages"
 	"net/http"
+	"strings"
 
 	"github.com/gin-gonic/gin"
 )
@@ -32,7 +34,12 @@ func (a *app) InventoryRoutes(engine *gin.Engine) {
 			Inventories:    inventories,
 			Stats:          inventories.GetHasInventoryStats(),
 			DisplayMode:    ctx.Query("display"),
-			IsDarkMode:     gin_utils.IsDarkMode(ctx),
+			LayoutParams: base.LayoutParams{
+				PageTitle:  "DQIX | " + strings.Title(classification),
+				Page:       classification,
+				IsDarkMode: gin_utils.IsDarkMode(ctx),
+				CSSVersion: a.cssVersion,
+			},
 		}
 
 		switch htmx.GetHxSwapTarget(ctx) {
@@ -58,18 +65,29 @@ func (a *app) InventoryRoutes(engine *gin.Engine) {
 			return
 		}
 
+		params := pages.InventoryParams{
+			Inventory: inventory,
+			Getter:    a.data.GetQuickThing,
+			LayoutParams: base.LayoutParams{
+				PageTitle:  "DQIX | " + inventory.Title,
+				Page:       inventory.Classification,
+				IsDarkMode: gin_utils.IsDarkMode(ctx),
+				CSSVersion: a.cssVersion,
+			},
+		}
+
 		switch htmx.GetHxSwapTarget(ctx) {
 		case "page-content":
 			if htmx.HasMatchingParentPath(ctx) {
-				ctx.HTML(http.StatusOK, "", pages.InventoryContent(inventory, a.data.GetQuickThing))
+				ctx.HTML(http.StatusOK, "", pages.InventoryContent(params))
 			} else {
 				htmx.Retarget(ctx, "#sidenav-page-wrapper")
-				ctx.HTML(http.StatusOK, "", pages.InventoryContentWithSideNav(inventory, a.data.GetQuickThing))
+				ctx.HTML(http.StatusOK, "", pages.InventoryContentWithSideNav(params))
 			}
 		case "sidenav-page-wrapper":
-			ctx.HTML(http.StatusOK, "", pages.InventoryContentWithSideNav(inventory, a.data.GetQuickThing))
+			ctx.HTML(http.StatusOK, "", pages.InventoryContentWithSideNav(params))
 		default:
-			ctx.HTML(http.StatusOK, "", pages.InventoryPage(inventory, a.data.GetQuickThing, gin_utils.IsDarkMode(ctx)))
+			ctx.HTML(http.StatusOK, "", pages.InventoryPage(params))
 		}
 	})
 }

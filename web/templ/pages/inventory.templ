@@ -8,110 +8,117 @@ import "strconv"
 import "fmt"
 
 // Inventory
-templ InventoryPage(inventory types.Inventory, getter types.IGetThingFromID, isDarkMode bool) {
-	@base.Layout("DQIX | " + inventory.Title, inventory.Classification, isDarkMode) {
-		@InventoryContent(inventory, getter)
+
+type InventoryParams struct {
+	Inventory    types.Inventory
+	Getter       types.IGetThingFromID
+	LayoutParams base.LayoutParams
+}
+
+templ InventoryPage(params InventoryParams) {
+	@base.Layout(params.LayoutParams) {
+		@InventoryContent(params)
 	}
 }
 
-templ InventoryContentWithSideNav(inventory types.Inventory, getter types.IGetThingFromID) {
-	@base.MainContentWithSidenav(inventory.Classification) {
-		@InventoryContent(inventory, getter)
+templ InventoryContentWithSideNav(params InventoryParams) {
+	@base.MainContentWithSidenav(params.Inventory.Classification) {
+		@InventoryContent(params)
 	}
 }
 
-templ InventoryContent(inventory types.Inventory, getter types.IGetThingFromID) {
+templ InventoryContent(params InventoryParams) {
 	<div hx-boost="true" hx-target="#page-content">
 		<div class="flex flex-row items-center">
-			<img src={ inventory.ImageSrc() } alt={ inventory.ID }/>
+			<img src={ params.Inventory.ImageSrc() } alt={ params.Inventory.ID }/>
 			<h1 id="title" class="text-3xl font-bold">
-				{ inventory.Title }
+				{ params.Inventory.Title }
 			</h1>
 		</div>
 		<hr/>
-		<p id="description" class="pt-4 pb-2">{ inventory.Description }</p>
-		if inventory.Statistics != (types.Statistics{}) {
+		<p id="description" class="pt-4 pb-2">{ params.Inventory.Description }</p>
+		if params.Inventory.Statistics != (types.Statistics{}) {
 			<p id="statistics" class="py-2">
-				if inventory.Statistics.Attack > 0 {
-					<strong>Attack: </strong>{ strconv.Itoa(inventory.Statistics.Attack) }
+				if params.Inventory.Statistics.Attack > 0 {
+					<strong>Attack: </strong>{ strconv.Itoa(params.Inventory.Statistics.Attack) }
 					<br/>
 				}
-				if inventory.Statistics.Defense > 0 {
-					<strong>Defense: </strong>{ strconv.Itoa(inventory.Statistics.Defense) }
+				if params.Inventory.Statistics.Defense > 0 {
+					<strong>Defense: </strong>{ strconv.Itoa(params.Inventory.Statistics.Defense) }
 					<br/>
 				}
-				if inventory.Statistics.BlockChance > 0 {
-					<strong>Block Chance: </strong>{ fmt.Sprintf("%.2f%%", inventory.Statistics.BlockChance) }
+				if params.Inventory.Statistics.BlockChance > 0 {
+					<strong>Block Chance: </strong>{ fmt.Sprintf("%.2f%%", params.Inventory.Statistics.BlockChance) }
 					<br/>
 				}
-				if inventory.Statistics.Agility > 0 {
-					<strong>Agility: </strong>{ strconv.Itoa(inventory.Statistics.Agility) }
+				if params.Inventory.Statistics.Agility > 0 {
+					<strong>Agility: </strong>{ strconv.Itoa(params.Inventory.Statistics.Agility) }
 					<br/>
 				}
-				if inventory.Statistics.EvasionChance > 0 {
-					<strong>Evasion Chance: </strong>{ fmt.Sprintf("%.2f%%", inventory.Statistics.EvasionChance) }
+				if params.Inventory.Statistics.EvasionChance > 0 {
+					<strong>Evasion Chance: </strong>{ fmt.Sprintf("%.2f%%", params.Inventory.Statistics.EvasionChance) }
 					<br/>
 				}
-				if inventory.Statistics.MagicalMight > 0 {
-					<strong>Magical Might: </strong>{ strconv.Itoa(inventory.Statistics.MagicalMight) }
+				if params.Inventory.Statistics.MagicalMight > 0 {
+					<strong>Magical Might: </strong>{ strconv.Itoa(params.Inventory.Statistics.MagicalMight) }
 					<br/>
 				}
-				if inventory.Statistics.MagicalMending > 0 {
-					<strong>Magical Mending: </strong>{ strconv.Itoa(inventory.Statistics.MagicalMending) }
+				if params.Inventory.Statistics.MagicalMending > 0 {
+					<strong>Magical Mending: </strong>{ strconv.Itoa(params.Inventory.Statistics.MagicalMending) }
 					<br/>
 				}
-				if inventory.Statistics.MPAbsorptionRate > 0 {
-					<strong>MP Absorption Rate: </strong>{ fmt.Sprintf("%.2f%%", inventory.Statistics.MPAbsorptionRate) }
+				if params.Inventory.Statistics.MPAbsorptionRate > 0 {
+					<strong>MP Absorption Rate: </strong>{ fmt.Sprintf("%.2f%%", params.Inventory.Statistics.MPAbsorptionRate) }
 					<br/>
 				}
-				if inventory.Statistics.Deftness > 0 {
-					<strong>Deftness: </strong>{ strconv.Itoa(inventory.Statistics.Deftness) }
+				if params.Inventory.Statistics.Deftness > 0 {
+					<strong>Deftness: </strong>{ strconv.Itoa(params.Inventory.Statistics.Deftness) }
 					<br/>
 				}
-				if inventory.Statistics.Charm > 0 {
-					<strong>Charm: </strong>{ strconv.Itoa(inventory.Statistics.Charm) }
+				if params.Inventory.Statistics.Charm > 0 {
+					<strong>Charm: </strong>{ strconv.Itoa(params.Inventory.Statistics.Charm) }
 					<br/>
 				}
-				if inventory.Statistics.Special != (types.Special{}) {
+				if params.Inventory.Statistics.Special != (types.Special{}) {
 					<strong>Special: </strong>
 					<br/>
-					if inventory.Statistics.Special.Effect != "" {
-						<em class="pl-2">Effect: </em> { inventory.Statistics.Special.Effect }
+					if params.Inventory.Statistics.Special.Effect != "" {
+						<em class="pl-2">Effect: </em> { params.Inventory.Statistics.Special.Effect }
 						<br/>
 					}
-					if inventory.Statistics.Special.Usage != "" {
-						<em class="pl-2">Usage: </em> { inventory.Statistics.Special.Usage }
+					if params.Inventory.Statistics.Special.Usage != "" {
+						<em class="pl-2">Usage: </em> { params.Inventory.Statistics.Special.Usage }
 						<br/>
 					}
-					if inventory.Statistics.Special.Curse != "" {
-						<em class="pl-2">Curse: </em> { inventory.Statistics.Special.Curse }
+					if params.Inventory.Statistics.Special.Curse != "" {
+						<em class="pl-2">Curse: </em> { params.Inventory.Statistics.Special.Curse }
 						<br/>
 					}
 				}
 			</p>
 		}
 		<p id="details" class="py-2">
-			<strong>Rarity: </strong>{ fmt.Sprintf("%d/5", inventory.Rarity) }
+			<strong>Rarity: </strong>{ fmt.Sprintf("%d/5", params.Inventory.Rarity) }
 			<br/>
-			if inventory.BuyPrice > 0 {
-				<strong>Buy price: </strong>{ fmt.Sprintf("%d gold", inventory.BuyPrice) }
+			if params.Inventory.BuyPrice > 0 {
+				<strong>Buy price: </strong>{ fmt.Sprintf("%d gold", params.Inventory.BuyPrice) }
 				<br/>
 			}
-			if inventory.SellPrice > 0 {
-				<strong>Sell price: </strong>{ fmt.Sprintf("%d gold", inventory.SellPrice) }
+			if params.Inventory.SellPrice > 0 {
+				<strong>Sell price: </strong>{ fmt.Sprintf("%d gold", params.Inventory.SellPrice) }
 				<br/>
 			}
-			if len(inventory.Vocations) > 0 {
-				<strong>Used by: </strong>{ strings.Join(inventory.Vocations, ", ") }
+			if len(params.Inventory.Vocations) > 0 {
+				<strong>Used by: </strong>{ strings.Join(params.Inventory.Vocations, ", ") }
 				<br/>
 			}
-			<strong>Classification: </strong>{ inventory.Classification }
+			<strong>Classification: </strong>{ params.Inventory.Classification }
 		</p>
-		if len(inventory.LocationsFound) > 0 {
+		if len(params.Inventory.LocationsFound) > 0 {
 			<div id="locations-found" class="py-2">
 				<strong>Where to find:</strong>
 				<ul class="pl-8 list-disc">
-					for _, location := range inventory.LocationsFound {
+					for _, location := range params.Inventory.LocationsFound {
 						<li>
 							{ location }
 						</li>
@@ -119,13 +126,13 @@ templ InventoryContent(inventory types.Inventory, getter types.IGetThingFromID) 
 				</ul>
 			</div>
 		}
-		if len(inventory.DroppedBy) > 0 {
+		if len(params.Inventory.DroppedBy) > 0 {
 			<div id="dropped-by" class="py-2">
 				<strong>Dropped by:</strong>
 				<ul class="pl-8 list-disc">
-					for monster, dropRate := range inventory.DroppedBy {
+					for monster, dropRate := range params.Inventory.DroppedBy {
 						<li>
-							@links.ThingLink(monster, getter)
+							@links.ThingLink(monster, params.Getter)
 							<span>
 								&nbsp;{ dropRate }
 							</span>
@@ -134,49 +141,49 @@ templ InventoryContent(inventory types.Inventory, getter types.IGetThingFromID) 
 				</ul>
 			</div>
 		}
-		if len(inventory.Recipe) > 0 {
+		if len(params.Inventory.Recipe) > 0 {
 			<div id="recipe" class="py-2">
 				<strong>Recipe: </strong>
-				for index, ingredient := range inventory.RecipeSlice() {
+				for index, ingredient := range params.Inventory.RecipeSlice() {
 					if index > 0 {
 						<span>&nbsp;+ </span>
 					}
-					@links.ThingLink(ingredient.ID, getter)
+					@links.ThingLink(ingredient.ID, params.Getter)
 					<span>&times;{ strconv.Itoa(ingredient.Quantity) }</span>
 				}
 			</div>
 		}
-		if len(inventory.IngredientFor) > 0 {
+		if len(params.Inventory.IngredientFor) > 0 {
 			<div id="alchemises" class="py-2">
 				<strong>Alchemises:</strong>
 				<ul class="pl-8 list-disc">
-					for _, id := range inventory.IngredientFor {
+					for _, id := range params.Inventory.IngredientFor {
 						<li>
-							@links.ThingLink(id, getter)
+							@links.ThingLink(id, params.Getter)
 						</li>
 					}
 				</ul>
 			</div>
 		}
-		if len(inventory.RequiredFor) > 0 {
+		if len(params.Inventory.RequiredFor) > 0 {
 			<div id="required-for" class="py-2">
 				<strong>Required for:</strong>
 				<ul class="pl-8 list-disc">
-					for _, id := range inventory.RequiredFor {
+					for _, id := range params.Inventory.RequiredFor {
 						<li>
-							@links.ThingLink(id, getter)
+							@links.ThingLink(id, params.Getter)
 						</li>
 					}
 				</ul>
 			</div>
 		}
-		if len(inventory.CanBeUsedFor) > 0 {
+		if len(params.Inventory.CanBeUsedFor) > 0 {
 			<div id="can-be-used-for" class="py-2">
 				<strong>Can be used for:</strong>
 				<ul class="pl-8 list-disc">
-					for _, id := range inventory.CanBeUsedFor {
+					for _, id := range params.Inventory.CanBeUsedFor {
 						<li>
-							@links.ThingLink(id, getter)
+							@links.ThingLink(id, params.Getter)
 						</li>
 					}
 				</ul>
