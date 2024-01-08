@@ -1,6 +1,7 @@
 package router
 
 import (
+	"dqix/internal/types"
 	gin_utils "dqix/pkg/gin"
 	"dqix/pkg/htmx"
 	"dqix/web/templ/components/base"
@@ -34,6 +35,7 @@ func (a *app) InventoryRoutes(engine *gin.Engine) {
 			Inventories:    inventories,
 			Stats:          inventories.GetHasInventoryStats(),
 			DisplayMode:    ctx.Query("display"),
+			SortPathGetter: types.PrepareSortPath(*ctx.Request.URL),
 			LayoutParams: base.LayoutParams{
 				PageTitle:  "DQIX | " + strings.Title(classification),
 				Page:       classification,

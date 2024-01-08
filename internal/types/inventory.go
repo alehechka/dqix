@@ -103,33 +103,8 @@ func (i InventoryMap) GetClassification(typeId string, category string, classifi
 	return categories[classification]
 }
 
-type SortOrder string
-
-const (
-	SortOrderAsc  SortOrder = "asc"
-	SortOrderDesc SortOrder = "desc"
-)
-
-type Sort struct {
-	Field string
-	Order SortOrder
-}
-
-func InventorySortingFunc(sortQuery string) func(a, b Inventory) int {
-	parts := strings.Split(sortQuery, ",")
-
-	sorts := make([]Sort, 0)
-	for _, part := range parts {
-		order := SortOrderAsc
-		trimmed := strings.TrimPrefix(part, "-")
-		if len(trimmed) < len(part) {
-			order = SortOrderDesc
-		}
-		sorts = append(sorts, Sort{Field: trimmed, Order: order})
-	}
-
-	var sortingFunc func(a, b Inventory) int
-	sortingFunc = func(a, b Inventory) int {
+func InventorySortingFunc(sorts Sorts) func(a, b Inventory) int {
+	return func(a, b Inventory) int {
 		for _, sort := range sorts {
 			var comp int
 			switch sort.Field {
@@ -169,11 +144,9 @@ func InventorySortingFunc(sortQuery string) func(a, b Inventory) int {
 		}
 		return 0
 	}
-
-	return sortingFunc
 }
 
-func (i InventoryMap) GetClassificationSlice(typeId string, category string, classification string, sortingQuery string) (classifications InventorySlice) {
+func (i InventoryMap) GetClassificationSlice(typeId string, category string, classification string, sortQuery string) (classifications InventorySlice) {
 	classes := i.GetClassification(typeId, category, classification)
 	if classes == nil {
 		return
@@ -183,7 +156,8 @@ func (i InventoryMap) GetClassificationSlice(typeId string, category string, cla
 		classifications = append(classifications, classes[k])
 	}
 
-	slices.SortFunc(classifications, InventorySortingFunc(sortingQuery+",title"))
+	sorts := ParseSortingQuery(sortQuery + ",title")
+	slices.SortFunc(classifications, InventorySortingFunc(sorts))
 
 	return
 }

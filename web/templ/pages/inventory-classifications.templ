@@ -15,6 +15,7 @@ type InventoryClassificationParams struct {
 	Stats          types.HasInventoryStats
 	DisplayMode    string
 	LayoutParams   base.LayoutParams
+	SortPathGetter func(sortField string) templ.SafeURL
 }
 
 templ InventoryClassificationPage(params InventoryClassificationParams) {
@@ -45,36 +46,36 @@ templ InventoryClassificationTable(params InventoryClassificationParams) {
 		<thead role="rowgroup">
 			<tr role="row" class="[&>th]:py-2 [&>th]:pr-4 [&>th:not(.text-left)]:pl-4">
 				<th role="columnheader" id="image"></th>
-				<th role="columnheader" id="name" class="text-left">Name</th>
+				<th role="columnheader" id="name" class="text-left"><a href={ params.SortPathGetter("name") }>Name</a></th>
 				if params.Stats.HasAttack {
-					<th role="columnheader" id="attack">Attack</th>
+					<th role="columnheader" id="attack"><a href={ params.SortPathGetter("attack") }>Attack</a></th>
 				}
 				if params.Stats.HasDefense {
-					<th role="columnheader" id="defense">Defense</th>
+					<th role="columnheader" id="defense"><a href={ params.SortPathGetter("defense") }>Defense</a></th>
 				}
 				if params.Stats.HasBlockChance {
-					<th role="columnheader" id="block-chance">Block</th>
+					<th role="columnheader" id="block-chance"><a href={ params.SortPathGetter("block-chance") }>Block</a></th>
 				}
 				if params.Stats.HasAgility {
-					<th role="columnheader" id="agility">Agility</th>
+					<th role="columnheader" id="agility"><a href={ params.SortPathGetter("agility") }>Agility</a></th>
 				}
 				if params.Stats.HasEvasionChance {
-					<th role="columnheader" id="evasion-chance">Evasion</th>
+					<th role="columnheader" id="evasion-chance"><a href={ params.SortPathGetter("evasion-chance") }>Evasion</a></th>
 				}
 				if params.Stats.HasMagicalMight {
-					<th role="columnheader" id="magical-might">Magical Might</th>
+					<th role="columnheader" id="magical-might"><a href={ params.SortPathGetter("magical-might") }>Magical Might</a></th>
 				}
 				if params.Stats.HasMagicalMending {
-					<th role="columnheader" id="Magical Mending">Magical Mending</th>
+					<th role="columnheader" id="magical-mending"><a href={ params.SortPathGetter("magical-mending") }>Magical Mending</a></th>
 				}
 				if params.Stats.HasMPAbsorptionRate {
-					<th role="columnheader" id="mp-absorption-rate">MP Absorption</th>
+					<th role="columnheader" id="mp-absorption-rate"><a href={ params.SortPathGetter("mp-absorption-rate") }>MP Absorption</a></th>
 				}
 				if params.Stats.HasDeftness {
-					<th role="columnheader" id="deftness">Deftness</th>
+					<th role="columnheader" id="deftness"><a href={ params.SortPathGetter("deftness") }>Deftness</a></th>
 				}
 				if params.Stats.HasCharm {
-					<th role="columnheader" id="charm">Charm</th>
+					<th role="columnheader" id="charm"><a href={ params.SortPathGetter("charm") }>Charm</a></th>
 				}
 				if params.Stats.HasSpecial {
 					<th role="columnheader" id="special" class="text-left">Special</th>
