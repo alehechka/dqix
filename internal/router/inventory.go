@@ -21,7 +21,7 @@ func (a *app) InventoryRoutes(engine *gin.Engine) {
 		typeId := ctx.Param("type")
 		category := ctx.Param("category")
 		classification := ctx.Param("classification")
-		inventories := a.data.inventoryMap.GetClassificationSlice(typeId, category, classification)
+		inventories := a.data.inventoryMap.GetClassificationSlice(typeId, category, classification, ctx.Query("sort"))
 
 		// TODO add some utility function that checks if the request Accept's JSON (and/or weighted with others)
 		if ctx.GetHeader("Accept") == "application/json" {
