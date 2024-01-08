@@ -35,7 +35,7 @@ func (a *app) InventoryRoutes(engine *gin.Engine) {
 			Inventories:     inventories,
 			Stats:           inventories.GetHasInventoryStats(),
 			DisplayMode:     ctx.Query("display"),
-			SortPathGetter:  types.PrepareSortPath(*ctx.Request.URL),
+			SortPathGetter:  types.PrepareSimpleSortPath(*ctx.Request.URL),
 			SortOrderGetter: types.GetSortOrder(ctx.Request.URL),
 			LayoutParams: base.LayoutParams{
 				PageTitle:  "DQIX | " + strings.Title(classification),
