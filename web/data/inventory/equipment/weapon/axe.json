@@ -109,10 +109,12 @@
  "executioner-s-axe": {
   "id": "executioner-s-axe",
   "title": "Executioner's Axe",
-  "description": "Attack:",
+  "description": "A revolutionary rustproof refinement of the headsman's axe.",
   "statistics": {
+   "attack": 115,
    "special": {}
   },
+  "rarity": 2,
   "vocations": [
    "gladiator",
    "ranger"

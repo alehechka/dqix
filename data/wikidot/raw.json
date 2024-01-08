@@ -20295,8 +20295,11 @@
     "Path": "executioner-s-axe",
     "Text": [
       "Executioner's Axe",
+      "A revolutionary rustproof refinement of the headsman's axe.",
       "Attack:",
       "115",
+      "Rarity:",
+      "2/5",
       "Used by:",
       "Gladiator, Ranger",
       "Classification:",
@@ -68204,8 +68207,11 @@
     "Path": "xenlon-rod",
     "Text": [
       "Xenlon Rod",
+      "A spine-chilling stick said to harbour the might of a dragon deity.",
       "Attack:",
       "121",
+      "Rarity:",
+      "3/5",
       "Used by:",
       "Priest, Martial Artist",
       "Classification:",

@@ -530,10 +530,12 @@
  "xenlon-rod": {
   "id": "xenlon-rod",
   "title": "Xenlon Rod",
-  "description": "Attack:",
+  "description": "A spine-chilling stick said to harbour the might of a dragon deity.",
   "statistics": {
+   "attack": 121,
    "special": {}
   },
+  "rarity": 3,
   "vocations": [
    "priest",
    "martial-artist"
