@@ -11,8 +11,8 @@ type SortOrder string
 
 const (
 	SortOrderNone SortOrder = ""
-	SortOrderAsc  SortOrder = "asc"
-	SortOrderDesc SortOrder = "desc"
+	SortOrderAsc  SortOrder = "ascending"
+	SortOrderDesc SortOrder = "descending"
 )
 
 type Sort struct {
@@ -52,6 +52,8 @@ func (s Sort) String() string {
 
 type Sorts []Sort
 
+type SortMap map[string]SortOrder
+
 func (s Sorts) Get(field string) Sort {
 	for _, sort := range s {
 		if field == sort.Field {
@@ -60,6 +62,16 @@ func (s Sorts) Get(field string) Sort {
 	}
 
 	return Sort{Field: field}
+}
+
+func (s Sorts) ToMap() SortMap {
+	sortMap := make(SortMap)
+
+	for _, sort := range s {
+		sortMap[sort.Field] = sort.Order
+	}
+
+	return sortMap
 }
 
 func (s Sorts) Set(newSort Sort) Sorts {
@@ -130,5 +142,16 @@ func PrepareSortPath(uri url.URL) func(sortField string) templ.SafeURL {
 		uri.RawQuery = query.Encode()
 
 		return templ.SafeURL(uri.String())
+	}
+}
+
+func GetSortOrder(uri *url.URL) func(sortField string) string {
+	sortQuery := uri.Query().Get("sort")
+
+	sortMap := ParseSortingQuery(sortQuery).ToMap()
+
+	return func(sortField string) string {
+		order, _ := sortMap[sortField]
+		return string(order)
 	}
 }

@@ -31,11 +31,12 @@ func (a *app) InventoryRoutes(engine *gin.Engine) {
 		}
 
 		params := pages.InventoryClassificationParams{
-			Classification: classification,
-			Inventories:    inventories,
-			Stats:          inventories.GetHasInventoryStats(),
-			DisplayMode:    ctx.Query("display"),
-			SortPathGetter: types.PrepareSortPath(*ctx.Request.URL),
+			Classification:  classification,
+			Inventories:     inventories,
+			Stats:           inventories.GetHasInventoryStats(),
+			DisplayMode:     ctx.Query("display"),
+			SortPathGetter:  types.PrepareSortPath(*ctx.Request.URL),
+			SortOrderGetter: types.GetSortOrder(ctx.Request.URL),
 			LayoutParams: base.LayoutParams{
 				PageTitle:  "DQIX | " + strings.Title(classification),
 				Page:       classification,
