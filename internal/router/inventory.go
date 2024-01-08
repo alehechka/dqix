@@ -45,6 +45,8 @@ func (a *app) InventoryRoutes(engine *gin.Engine) {
 		}
 
 		switch htmx.GetHxSwapTarget(ctx) {
+		case "inventory-table":
+			ctx.HTML(http.StatusOK, "", pages.InventoryClassificationTable(params))
 		case "page-content":
 			ctx.HTML(http.StatusOK, "", pages.InventoryClassificationContent(params))
 		case "sidenav-page-wrapper":

@@ -42,8 +42,8 @@ templ InventoryClassificationContent(params InventoryClassificationParams) {
 }
 
 templ InventoryClassificationTable(params InventoryClassificationParams) {
-	<table role="table">
-		<thead role="rowgroup">
+	<table role="table" id="inventory-table">
+		<thead role="rowgroup" hx-boost="true" hx-target="#inventory-table" hx-swap="outerHTML">
 			<tr role="row" class="[&>th]:py-2 [&>th]:pr-4 [&>th:not(.text-left)]:pl-4">
 				<th role="columnheader" id="image"></th>
 				<th role="columnheader" id="name" class="text-left"><a href={ params.SortPathGetter("name") }>Name</a></th>
