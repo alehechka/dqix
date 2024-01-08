@@ -10,11 +10,13 @@ import "fmt"
 
 // Inventory Classifications
 type InventoryClassificationParams struct {
-	Classification string
-	Inventories    types.InventorySlice
-	Stats          types.HasInventoryStats
-	DisplayMode    string
-	LayoutParams   base.LayoutParams
+	Classification  string
+	Inventories     types.InventorySlice
+	Stats           types.HasInventoryStats
+	DisplayMode     string
+	LayoutParams    base.LayoutParams
+	SortPathGetter  func(sortField string) templ.SafeURL
+	SortOrderGetter func(sortField string) string
 }
 
 templ InventoryClassificationPage(params InventoryClassificationParams) {
@@ -30,51 +32,49 @@ templ InventoryClassificationContentWithSideNav(params InventoryClassificationPa
 }
 
 templ InventoryClassificationContent(params InventoryClassificationParams) {
-	<div>
-		<h1 class="text-3xl font-bold">{ strings.Title(strings.ReplaceAll(params.Classification, "-", " ")) }</h1>
-		if params.DisplayMode == "list" {
-			@InventoryClassificationList(params.Inventories)
-		} else {
-			@InventoryClassificationTable(params)
-		}
-	</div>
+	<h1 class="text-3xl font-bold">{ strings.Title(strings.ReplaceAll(params.Classification, "-", " ")) }</h1>
+	if params.DisplayMode == "list" {
+		@InventoryClassificationList(params.Inventories)
+	} else {
+		@InventoryClassificationTable(params)
+	}
 }
 
 templ InventoryClassificationTable(params InventoryClassificationParams) {
-	<table role="table">
-		<thead role="rowgroup">
-			<tr role="row" class="[&>th]:py-2 [&>th]:pr-4">
+	<table role="table" id="inventory-table">
+		<thead role="rowgroup" hx-boost="true" hx-target="#inventory-table" hx-swap="outerHTML">
+			<tr role="row" class="[&>th]:py-2 [&>th]:pr-4 [&>th:not(.text-left)]:pl-4">
 				<th role="columnheader" id="image"></th>
-				<th role="columnheader" id="name" class="text-left">Name</th>
+				@SortableColumnHeaderLeft(params, "name", "Name")
 				if params.Stats.HasAttack {
-					<th role="columnheader" id="attack">Attack</th>
+					@SortableColumnHeader(params, "attack", "Attack")
 				}
 				if params.Stats.HasDefense {
-					<th role="columnheader" id="defense">Defense</th>
+					@SortableColumnHeader(params, "defense", "Defense")
 				}
 				if params.Stats.HasBlockChance {
-					<th role="columnheader" id="block-chance">Block</th>
+					@SortableColumnHeader(params, "block-chance", "Block")
 				}
 				if params.Stats.HasAgility {
-					<th role="columnheader" id="agility">Agility</th>
+					@SortableColumnHeader(params, "agility", "Agility")
 				}
 				if params.Stats.HasEvasionChance {
-					<th role="columnheader" id="evasion-chance">Evasion</th>
+					@SortableColumnHeader(params, "evasion-chance", "Evasion")
 				}
 				if params.Stats.HasMagicalMight {
-					<th role="columnheader" id="magical-might">Magical Might</th>
+					@SortableColumnHeader(params, "magical-might", "Might")
 				}
 				if params.Stats.HasMagicalMending {
-					<th role="columnheader" id="Magical Mending">Magical Mending</th>
+					@SortableColumnHeader(params, "magical-mending", "Mending")
 				}
 				if params.Stats.HasMPAbsorptionRate {
-					<th role="columnheader" id="mp-absorption-rate">MP Absorption</th>
+					@SortableColumnHeader(params, "mp-absorption-rate", "MP Absorption")
 				}
 				if params.Stats.HasDeftness {
-					<th role="columnheader" id="deftness">Deftness</th>
+					@SortableColumnHeader(params, "deftness", "Deftness")
 				}
 				if params.Stats.HasCharm {
-					<th role="columnheader" id="charm">Charm</th>
+					@SortableColumnHeader(params, "charm", "Charm")
 				}
 				if params.Stats.HasSpecial {
 					<th role="columnheader" id="special" class="text-left">Special</th>
@@ -83,7 +83,7 @@ templ InventoryClassificationTable(params InventoryClassificationParams) {
 		</thead>
 		<tbody role="rowgroup" class="[&>tr:nth-child(odd)]:bg-gray-200 dark:[&>tr:nth-child(odd)]:bg-zinc-800" hx-boost="true" hx-target="#page-content" hx-swap="innerHTML">
 			for _, inventory := range params.Inventories {
-				<tr key={ inventory.ID } role="row" class="[&>td]:py-2 [&>td]:pr-4">
+				<tr key={ inventory.ID } role="row" class="[&>td]:py-2 [&>td]:pr-4 [&>td:is(.text-center)]:pl-4">
 					<td role="cell" data-cell="image" width="49px">
 						<img src={ inventory.ImageSrc() } alt={ inventory.ID }/>
 					</td>
@@ -177,6 +177,38 @@ templ InventoryClassificationTable(params InventoryClassificationParams) {
 			}
 		</tbody>
 	</table>
+}
+
+func SortableColumnHeaderLeft(params InventoryClassificationParams, id string, label string) templ.Component {
+	return sortableColumnHeader(params, id, label, templ.Attributes{"class": "group relative text-left"})
+}
+
+func SortableColumnHeader(params InventoryClassificationParams, id string, label string) templ.Component {
+	return sortableColumnHeader(params, id, label, templ.Attributes{"class": "group relative"})
+}
+
+templ sortableColumnHeader(params InventoryClassificationParams, id string, label string, attrs templ.Attributes) {
+	<th
+		role="columnheader"
+		id={ id }
+		if order := params.SortOrderGetter(id); order != "" {
+			aria-sort={ order }
+		}
+		{ attrs... }
+	>
+		@SortableColumnHeaderLink(params, id, label)
+	</th>
+}
+
+templ SortableColumnHeaderLink(params InventoryClassificationParams, id string, label string) {
+	<a
+		href={ params.SortPathGetter(id) }
+		class="after:hidden group-aria-[sort=descending]:after:inline group-aria-[sort=ascending]:after:inline 
+				after:content-[url(/static/icons/chevron-down.svg)] 
+				after:absolute group-aria-[sort=descending]:after:rotate-180 after:top-[33%]"
+	>
+		{ label }
+	</a>
 }
 
 templ InventoryClassificationList(inventories types.InventorySlice) {

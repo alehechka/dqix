@@ -1,6 +1,7 @@
 package router
 
 import (
+	"dqix/internal/types"
 	gin_utils "dqix/pkg/gin"
 	"dqix/pkg/htmx"
 	"dqix/web/templ/components/base"
@@ -21,7 +22,7 @@ func (a *app) InventoryRoutes(engine *gin.Engine) {
 		typeId := ctx.Param("type")
 		category := ctx.Param("category")
 		classification := ctx.Param("classification")
-		inventories := a.data.inventoryMap.GetClassificationSlice(typeId, category, classification)
+		inventories := a.data.inventoryMap.GetClassificationSlice(typeId, category, classification, ctx.Query("sort"))
 
 		// TODO add some utility function that checks if the request Accept's JSON (and/or weighted with others)
 		if ctx.GetHeader("Accept") == "application/json" {
@@ -30,10 +31,12 @@ func (a *app) InventoryRoutes(engine *gin.Engine) {
 		}
 
 		params := pages.InventoryClassificationParams{
-			Classification: classification,
-			Inventories:    inventories,
-			Stats:          inventories.GetHasInventoryStats(),
-			DisplayMode:    ctx.Query("display"),
+			Classification:  classification,
+			Inventories:     inventories,
+			Stats:           inventories.GetHasInventoryStats(),
+			DisplayMode:     ctx.Query("display"),
+			SortPathGetter:  types.PrepareSortPath(*ctx.Request.URL),
+			SortOrderGetter: types.GetSortOrder(ctx.Request.URL),
 			LayoutParams: base.LayoutParams{
 				PageTitle:  "DQIX | " + strings.Title(classification),
 				Page:       classification,
@@ -43,6 +46,8 @@ func (a *app) InventoryRoutes(engine *gin.Engine) {
 		}
 
 		switch htmx.GetHxSwapTarget(ctx) {
+		case "inventory-table":
+			ctx.HTML(http.StatusOK, "", pages.InventoryClassificationTable(params))
 		case "page-content":
 			ctx.HTML(http.StatusOK, "", pages.InventoryClassificationContent(params))
 		case "sidenav-page-wrapper":

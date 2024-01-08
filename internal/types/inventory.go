@@ -1,10 +1,12 @@
 package types
 
 import (
+	"cmp"
 	"encoding/json"
 	"os"
 	"path"
 	"path/filepath"
+	"slices"
 	"sort"
 	"strconv"
 	"strings"
@@ -101,21 +103,62 @@ func (i InventoryMap) GetClassification(typeId string, category string, classifi
 	return categories[classification]
 }
 
-func (i InventoryMap) GetClassificationSlice(typeId string, category string, classification string) (classifications InventorySlice) {
+func InventorySortingFunc(sorts Sorts) func(a, b Inventory) int {
+	return func(a, b Inventory) int {
+		for _, sort := range sorts {
+			var comp int
+			switch sort.Field {
+			case "title", "name":
+				comp = cmp.Compare(a.Title, b.Title)
+			case "attack":
+				comp = cmp.Compare(a.Statistics.Attack, b.Statistics.Attack)
+			case "defense":
+				comp = cmp.Compare(a.Statistics.Defense, b.Statistics.Defense)
+			case "block", "block-chance", "blockChance":
+				comp = cmp.Compare(a.Statistics.BlockChance, b.Statistics.BlockChance)
+			case "agility":
+				comp = cmp.Compare(a.Statistics.Agility, b.Statistics.Agility)
+			case "evasion", "evasion-chance", "evasionChance":
+				comp = cmp.Compare(a.Statistics.EvasionChance, b.Statistics.EvasionChance)
+			case "magical-might", "magicalMight":
+				comp = cmp.Compare(a.Statistics.MagicalMight, b.Statistics.MagicalMight)
+			case "magical-mending", "magicalMending":
+				comp = cmp.Compare(a.Statistics.MagicalMending, b.Statistics.MagicalMending)
+			case "mp-absorption-rate", "mp-absorption", "mpAbsorptionRate", "mpAbsorption":
+				comp = cmp.Compare(a.Statistics.MPAbsorptionRate, b.Statistics.MPAbsorptionRate)
+			case "deftness":
+				comp = cmp.Compare(a.Statistics.Deftness, b.Statistics.Deftness)
+			case "charm":
+				comp = cmp.Compare(a.Statistics.Charm, b.Statistics.Charm)
+			}
+
+			if comp == 0 {
+				continue
+			}
+			if sort.Order == SortOrderAsc {
+				return comp
+			}
+			if sort.Order == SortOrderDesc {
+				return 0 - comp
+			}
+		}
+		return 0
+	}
+}
+
+func (i InventoryMap) GetClassificationSlice(typeId string, category string, classification string, sortQuery string) (classifications InventorySlice) {
 	classes := i.GetClassification(typeId, category, classification)
 	if classes == nil {
 		return
 	}
 
-	keys := make([]string, 0, len(classes))
 	for k := range classes {
-		keys = append(keys, k)
-	}
-	sort.Strings(keys)
-
-	for _, k := range keys {
 		classifications = append(classifications, classes[k])
 	}
+
+	sorts := ParseSortingQuery(sortQuery + ",title")
+	slices.SortFunc(classifications, InventorySortingFunc(sorts))
+
 	return
 }
 
