@@ -43,7 +43,7 @@ templ InventoryClassificationContent(params InventoryClassificationParams) {
 templ InventoryClassificationTable(params InventoryClassificationParams) {
 	<table role="table">
 		<thead role="rowgroup">
-			<tr role="row" class="[&>th]:py-2 [&>th]:pr-4">
+			<tr role="row" class="[&>th]:py-2 [&>th]:pr-4 [&>th:not(.text-left)]:pl-4">
 				<th role="columnheader" id="image"></th>
 				<th role="columnheader" id="name" class="text-left">Name</th>
 				if params.Stats.HasAttack {
@@ -83,7 +83,7 @@ templ InventoryClassificationTable(params InventoryClassificationParams) {
 		</thead>
 		<tbody role="rowgroup" class="[&>tr:nth-child(odd)]:bg-gray-200 dark:[&>tr:nth-child(odd)]:bg-zinc-800" hx-boost="true" hx-target="#page-content" hx-swap="innerHTML">
 			for _, inventory := range params.Inventories {
-				<tr key={ inventory.ID } role="row" class="[&>td]:py-2 [&>td]:pr-4">
+				<tr key={ inventory.ID } role="row" class="[&>td]:py-2 [&>td]:pr-4 [&>td:is(.text-center)]:pl-4">
 					<td role="cell" data-cell="image" width="49px">
 						<img src={ inventory.ImageSrc() } alt={ inventory.ID }/>
 					</td>
