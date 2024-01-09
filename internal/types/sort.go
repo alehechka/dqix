@@ -145,6 +145,26 @@ func PrepareSortPath(uri url.URL) func(sortField string) templ.SafeURL {
 	}
 }
 
+func PrepareSimpleSortPath(uri url.URL) func(sortField string) templ.SafeURL {
+	query := uri.Query()
+	sortQuery := query.Get("sort")
+
+	sorts := ParseSortingQuery(sortQuery)
+
+	return func(sortField string) templ.SafeURL {
+		sort := sorts.Get(sortField)
+		sort.SetNextSortOrder()
+
+		newSorts := Sorts{sort}
+
+		query.Set("sort", newSorts.String())
+
+		uri.RawQuery = query.Encode()
+
+		return templ.SafeURL(uri.String())
+	}
+}
+
 func GetSortOrder(uri *url.URL) func(sortField string) string {
 	sortQuery := uri.Query().Get("sort")
 
