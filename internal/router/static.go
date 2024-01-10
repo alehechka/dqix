@@ -2,6 +2,7 @@ package router
 
 import (
 	"fmt"
+	"os"
 	"strings"
 
 	"github.com/gin-gonic/gin"
@@ -9,6 +10,10 @@ import (
 
 func (a *app) StaticFiles(engine *gin.Engine) {
 	static := engine.Group("/static", func(ctx *gin.Context) {
+		if _, err := os.Stat("./web" + ctx.Request.URL.Path); err != nil {
+			return
+		}
+
 		visibility := "private"
 		maxAge := 86_400 // 1 day
 
