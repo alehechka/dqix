@@ -66,3 +66,7 @@ func HasMatchingParentPath(ctx *gin.Context) bool {
 func SetTitle(ctx *gin.Context, title string) {
 	ctx.Header(ResponseHeaderTitle, title)
 }
+
+func SetIcon(ctx *gin.Context, iconHref string) {
+	ctx.Header(ResponseHeaderIcon, iconHref)
+}

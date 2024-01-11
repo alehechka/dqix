@@ -74,6 +74,7 @@ func (a *app) InventoryRoutes(engine *gin.Engine) {
 
 		pageTitle := "DQIX | " + inventory.Title
 		htmx.SetTitle(ctx, pageTitle)
+		htmx.SetIcon(ctx, inventory.ImageSrc())
 		params := pages.InventoryParams{
 			Inventory: inventory,
 			Getter:    a.data.GetQuickThing,
