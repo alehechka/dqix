@@ -30,6 +30,8 @@ func (a *app) InventoryRoutes(engine *gin.Engine) {
 			return
 		}
 
+		pageTitle := "DQIX | " + strings.Title(classification)
+		ctx.Header(htmx.ResponseHeaderTitle, pageTitle)
 		params := pages.InventoryClassificationParams{
 			Classification:  classification,
 			Inventories:     inventories,
@@ -38,7 +40,7 @@ func (a *app) InventoryRoutes(engine *gin.Engine) {
 			SortPathGetter:  types.PrepareSimpleSortPath(*ctx.Request.URL),
 			SortOrderGetter: types.GetSortOrder(ctx.Request.URL),
 			LayoutParams: base.LayoutParams{
-				PageTitle:  "DQIX | " + strings.Title(classification),
+				PageTitle:  pageTitle,
 				Page:       classification,
 				IsDarkMode: gin_utils.IsDarkMode(ctx),
 				CSSVersion: a.cssVersion,
@@ -70,11 +72,13 @@ func (a *app) InventoryRoutes(engine *gin.Engine) {
 			return
 		}
 
+		pageTitle := "DQIX | " + inventory.Title
+		ctx.Header(htmx.ResponseHeaderTitle, pageTitle)
 		params := pages.InventoryParams{
 			Inventory: inventory,
 			Getter:    a.data.GetQuickThing,
 			LayoutParams: base.LayoutParams{
-				PageTitle:  "DQIX | " + inventory.Title,
+				PageTitle:  pageTitle,
 				Page:       inventory.Classification,
 				IsDarkMode: gin_utils.IsDarkMode(ctx),
 				CSSVersion: a.cssVersion,

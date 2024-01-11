@@ -47,3 +47,9 @@ const (
 	// ResponseHeaderTriggerAfterSwap allows you to trigger client side events, see the documentation for more info: https://htmx.org/headers/hx-trigger/
 	ResponseHeaderTriggerAfterSwap string = "Hx-Trigger-After-Swap"
 )
+
+// htmx custom extension headers
+const (
+	// ResponseHeaderTitle is associated with a custom htmx extension, "title-header", that intercepts this response header and updates the document's title to the new value when present.
+	ResponseHeaderTitle string = "Hx-Title"
+)
