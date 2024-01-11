@@ -32,6 +32,7 @@ func (a *app) InventoryRoutes(engine *gin.Engine) {
 
 		pageTitle := "DQIX | " + strings.Title(classification)
 		htmx.SetTitle(ctx, pageTitle)
+		htmx.SetIcon(ctx, "/static/favicon.ico")
 		params := pages.InventoryClassificationParams{
 			Classification:  classification,
 			Inventories:     inventories,
