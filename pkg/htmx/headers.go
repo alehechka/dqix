@@ -52,4 +52,6 @@ const (
 const (
 	// ResponseHeaderTitle is associated with a custom htmx extension, "title-header", that intercepts this response header and updates the document's title to the new value when present.
 	ResponseHeaderTitle string = "Hx-Title"
+	// ResponseHeaderIcon is associated with a custom htmx extension, "icon-header", that intercepts this response header and updates the document's icon link element when present.
+	ResponseHeaderIcon string = "Hx-Icon"
 )
