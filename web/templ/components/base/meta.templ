@@ -12,8 +12,9 @@ templ Meta(pageTitle string, cssVersion string) {
 		name="description"
 		content="Imp is focused on building the premier small, business Inventory Management Product."
 	/>
-	<script defer src="https://unpkg.com/htmx.org@1.9.10" integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC" crossorigin="anonymous"></script>
-	<script defer src="https://unpkg.com/htmx.org@1.9.10/dist/ext/loading-states.js" integrity="sha384-v04dReCP6N+wBCc+JjDUHyvkWJPO5jyzXxNdZHF/HZVyMXhh2USfi3UvCfiPwmmB" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/htmx.org@1.9.10" integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC" crossorigin="anonymous"></script>
+	// <script defer src="https://unpkg.com/htmx.org@1.9.10/dist/ext/loading-states.js" integrity="sha384-v04dReCP6N+wBCc+JjDUHyvkWJPO5jyzXxNdZHF/HZVyMXhh2USfi3UvCfiPwmmB" crossorigin="anonymous"></script>
+	@HtmxExtensionTitleHeader()
 	@sidenavScriptUtils()
 	<link rel="icon" type="image/x-icon" href="/static/favicon.ico"/>
 	<link rel="stylesheet" href={ fmt.Sprintf("/static/output.%s.css", cssVersion) }/>
