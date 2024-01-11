@@ -1,7 +1,7 @@
-package base
+package htmx
 
-script HtmxExtensionTitleHeader() {
-    htmx.defineExtension('title-header', {
+script TitleHeader() {
+  htmx.defineExtension('title-header', {
     onEvent : function(name, evt) {
         if (name !== "htmx:afterRequest") return;
         const hxTitle = evt.detail.xhr.getResponseHeader("Hx-Title");
