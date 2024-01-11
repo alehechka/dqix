@@ -62,3 +62,7 @@ func HasMatchingParentPath(ctx *gin.Context) bool {
 	fmt.Println(shortCurrent, shortRequest)
 	return shortCurrent == shortRequest
 }
+
+func SetTitle(ctx *gin.Context, title string) {
+	ctx.Header(ResponseHeaderTitle, title)
+}

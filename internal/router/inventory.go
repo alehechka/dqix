@@ -31,7 +31,7 @@ func (a *app) InventoryRoutes(engine *gin.Engine) {
 		}
 
 		pageTitle := "DQIX | " + strings.Title(classification)
-		ctx.Header(htmx.ResponseHeaderTitle, pageTitle)
+		htmx.SetTitle(ctx, pageTitle)
 		params := pages.InventoryClassificationParams{
 			Classification:  classification,
 			Inventories:     inventories,
@@ -73,7 +73,7 @@ func (a *app) InventoryRoutes(engine *gin.Engine) {
 		}
 
 		pageTitle := "DQIX | " + inventory.Title
-		ctx.Header(htmx.ResponseHeaderTitle, pageTitle)
+		htmx.SetTitle(ctx, pageTitle)
 		params := pages.InventoryParams{
 			Inventory: inventory,
 			Getter:    a.data.GetQuickThing,
