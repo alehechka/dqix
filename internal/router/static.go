@@ -2,6 +2,8 @@ package router
 
 import (
 	"fmt"
+	"net/http"
+	"os"
 	"strings"
 
 	"github.com/gin-gonic/gin"
@@ -9,6 +11,11 @@ import (
 
 func (a *app) StaticFiles(engine *gin.Engine) {
 	static := engine.Group("/static", func(ctx *gin.Context) {
+		if _, err := os.Stat("./web" + ctx.Request.URL.Path); err != nil {
+			ctx.AbortWithError(http.StatusNotFound, err)
+			return
+		}
+
 		visibility := "private"
 		maxAge := 86_400 // 1 day
 

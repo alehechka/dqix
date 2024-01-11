@@ -182,6 +182,18 @@
   "category": "items",
   "classification": "important-item"
  },
+ "crown-jewel": {
+  "id": "crown-jewel",
+  "title": "Crown Jewel",
+  "description": "A giant gem that gleams gloriously.",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 1,
+  "type": "bag",
+  "category": "items",
+  "classification": "important-item"
+ },
  "crumpled-note": {
   "id": "crumpled-note",
   "title": "Crumpled Note",
@@ -297,6 +309,18 @@
   "id": "freezing-feather",
   "title": "Freezing Feather",
   "description": "A polar plume that chucks out one heck of a chill.",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 1,
+  "type": "bag",
+  "category": "items",
+  "classification": "important-item"
+ },
+ "fygg": {
+  "id": "fygg",
+  "title": "Fygg",
+  "description": "A golden fruit of the Great World Tree, Yggdrasil.",
   "statistics": {
    "special": {}
   },
@@ -947,9 +971,9 @@
   "category": "items",
   "classification": "important-item"
  },
- "wobby-jelly": {
-  "id": "wobby-jelly",
-  "title": "Wobby Jelly",
+ "wobbly-jelly": {
+  "id": "wobbly-jelly",
+  "title": "Wobbly Jelly",
   "description": "A gooey gunk that's tricky to take hold of.",
   "statistics": {
    "special": {}

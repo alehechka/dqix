@@ -2073,6 +2073,37 @@
    "utility-belt"
   ]
  },
+ "vesta-gauntlets": {
+  "id": "vesta-gauntlets",
+  "title": "Vesta Gauntlets",
+  "description": "Fiery fist protectors with unparalleled defensive potential.",
+  "statistics": {
+   "defense": 24,
+   "special": {}
+  },
+  "rarity": 4,
+  "vocations": [
+   "warrior",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "arms",
+  "recipe": {
+   "reset-stone": 1,
+   "tempestes-gauntlets": 1
+  },
+  "droppedBy": {
+   "equinox": "(drop only: 2%)"
+  },
+  "ingredientFor": [
+   "diana-gauntlets"
+  ]
+ },
  "veteran-s-gloves": {
   "id": "veteran-s-gloves",
   "title": "Veteran's Gloves",

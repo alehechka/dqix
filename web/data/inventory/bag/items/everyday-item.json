@@ -637,18 +637,6 @@
    "watermaul-wand"
   ]
  },
- "crown-jewel": {
-  "id": "crown-jewel",
-  "title": "Crown Jewel",
-  "description": "A giant gem that gleams gloriously.",
-  "statistics": {
-   "special": {}
-  },
-  "rarity": 1,
-  "type": "bag",
-  "category": "items",
-  "classification": "everyday-item"
- },
  "densinium": {
   "id": "densinium",
   "title": "Densinium",
@@ -1010,18 +998,6 @@
    "special": {}
   },
   "rarity": 3,
-  "type": "bag",
-  "category": "items",
-  "classification": "everyday-item"
- },
- "fygg": {
-  "id": "fygg",
-  "title": "Fygg",
-  "description": "A golden fruit of the Great World Tree, Yggdrasil.",
-  "statistics": {
-   "special": {}
-  },
-  "rarity": 1,
   "type": "bag",
   "category": "items",
   "classification": "everyday-item"

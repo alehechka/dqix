@@ -15247,7 +15247,7 @@
       "Where to find:",
       "Obtained during quest",
       "161 Here With Nod's Tear",
-      "item"
+      "important-item"
     ],
     "Links": {
       "/161-here-with-nod-s-tear": "161 Here With Nod's Tear",
@@ -22976,7 +22976,7 @@
       "Important Item",
       "Where to find:",
       "Obtained during story events",
-      "item"
+      "important-item"
     ],
     "Links": {
       "/system:page-tags/tag/item": "item"
@@ -36702,7 +36702,8 @@
       "Feet",
       "Where to find:",
       "Received from Milly at Quester's Rest after completing quest",
-      "157 Inn for a Penny, Inn for an Inny"
+      "157 Inn for a Penny, Inn for an Inny",
+      "feet"
     ],
     "Links": {
       "/157-inn-for-a-penny-inn-for-an-inny": "157 Inn for a Penny, Inn for an Inny"
@@ -38597,7 +38598,8 @@
       "Classification:",
       "Feet",
       "Where to find:",
-      "Received from Bianca at Quester's Rest when hero is Luminary"
+      "Received from Bianca at Quester's Rest when hero is Luminary",
+      "feet"
     ],
     "Links": {}
   },
@@ -62722,10 +62724,10 @@
       "/system:page-tags/tag/legs": "legs"
     }
   },
-  "/templar-shoes": {
-    "Path": "templar-shoes",
+  "/templar-boots": {
+    "Path": "templar-boots",
     "Text": [
-      "Templar Shoes",
+      "Templar Boots",
       "Boots worn by knights of the Church like the amorous Angelo.",
       "Defence:",
       "12",
@@ -65685,7 +65687,8 @@
       "Equinox",
       "(drop only: 2%)",
       "Alchemises:",
-      "Diana gauntlets"
+      "Diana gauntlets",
+      "arms"
     ],
     "Links": {
       "/diana-gauntlets": "Diana gauntlets",
@@ -67652,10 +67655,10 @@
       "/system:page-tags/tag/whip": "whip"
     }
   },
-  "/wobby-jelly": {
-    "Path": "wobby-jelly",
+  "/wobbly-jelly": {
+    "Path": "wobbly-jelly",
     "Text": [
-      "Wobby Jelly",
+      "Wobbly Jelly",
       "A gooey gunk that's tricky to take hold of.",
       "Rarity:",
       "1/5",
