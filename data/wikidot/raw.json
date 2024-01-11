@@ -36702,7 +36702,8 @@
       "Feet",
       "Where to find:",
       "Received from Milly at Quester's Rest after completing quest",
-      "157 Inn for a Penny, Inn for an Inny"
+      "157 Inn for a Penny, Inn for an Inny",
+      "feet"
     ],
     "Links": {
       "/157-inn-for-a-penny-inn-for-an-inny": "157 Inn for a Penny, Inn for an Inny"
@@ -38597,7 +38598,8 @@
       "Classification:",
       "Feet",
       "Where to find:",
-      "Received from Bianca at Quester's Rest when hero is Luminary"
+      "Received from Bianca at Quester's Rest when hero is Luminary",
+      "feet"
     ],
     "Links": {}
   },
@@ -62722,10 +62724,10 @@
       "/system:page-tags/tag/legs": "legs"
     }
   },
-  "/templar-shoes": {
-    "Path": "templar-shoes",
+  "/templar-boots": {
+    "Path": "templar-boots",
     "Text": [
-      "Templar Shoes",
+      "Templar Boots",
       "Boots worn by knights of the Church like the amorous Angelo.",
       "Defence:",
       "12",
