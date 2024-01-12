@@ -41,7 +41,7 @@ const (
 	ClassArmorLegs   string = "legs"
 	ClassArmorFeet   string = "feet"
 
-	ClassWeaponAxe       string = "axe"
+	ClassWeaponAxe       string = "axes"
 	ClassWeaponBoomerang string = "boomerang"
 	ClassWeaponBow       string = "bow"
 	ClassWeaponClaw      string = "claw"
@@ -54,7 +54,7 @@ const (
 	ClassWeaponWand      string = "wand"
 	ClassWeaponWhip      string = "whip"
 
-	ClassAccessory string = "accessory"
+	ClassAccessories string = "accessories"
 )
 
 func IsWeapon(class string) bool {

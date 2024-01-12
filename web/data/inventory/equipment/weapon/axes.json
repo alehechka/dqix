@@ -16,7 +16,7 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "axe",
+  "classification": "axes",
   "recipe": {
    "agate-of-evolution": 1,
    "ice-axe": 1,
@@ -40,7 +40,7 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "axe",
+  "classification": "axes",
   "recipe": {
    "climaxe": 1,
    "reset-stone": 1
@@ -68,7 +68,7 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "axe",
+  "classification": "axes",
   "locationsFound": [
    "Gleeba (weapon shop)",
    "Batsureg (weapon shop)",
@@ -96,7 +96,7 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "axe",
+  "classification": "axes",
   "recipe": {
    "agate-of-evolution": 3,
    "maxi-axe": 1,
@@ -121,7 +121,7 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "axe",
+  "classification": "axes",
   "recipe": {
    "ethereal-stone": 2,
    "headsman-s-axe": 1,
@@ -145,7 +145,7 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "axe",
+  "classification": "axes",
   "recipe": {
    "full-moon-ring": 1,
    "moon-axe": 1,
@@ -169,7 +169,7 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "axe",
+  "classification": "axes",
   "recipe": {
    "agate-of-evolution": 3,
    "maxi-axe": 1,
@@ -191,7 +191,7 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "axe",
+  "classification": "axes",
   "recipe": {
    "hephaestus--flame": 1,
    "iron-ore": 2,
@@ -213,7 +213,7 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "axe",
+  "classification": "axes",
   "recipe": {
    "gold-bar": 1,
    "iron-axe": 1
@@ -238,7 +238,7 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "axe",
+  "classification": "axes",
   "locationsFound": [
    "Dourbridge (secret shop)"
   ],
@@ -263,7 +263,7 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "axe",
+  "classification": "axes",
   "locationsFound": [
    "Rank 8 (B) blue chest in grotto (1%)"
   ],
@@ -289,7 +289,7 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "axe",
+  "classification": "axes",
   "recipe": {
    "ice-crystal": 3,
    "icicle-dirk": 3,
@@ -318,7 +318,7 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "axe",
+  "classification": "axes",
   "locationsFound": [
    "Porth Llaffan (weapon/armour shop)"
   ],
@@ -342,7 +342,7 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "axe",
+  "classification": "axes",
   "recipe": {
    "king-axe": 1,
    "monarchic-mark": 1,
@@ -368,7 +368,7 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "axe",
+  "classification": "axes",
   "recipe": {
    "golden-axe": 1,
    "slime-crown": 1
@@ -398,7 +398,7 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "axe",
+  "classification": "axes",
   "recipe": {
    "agate-of-evolution": 1,
    "bad-axe": 1,
@@ -427,7 +427,7 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "axe",
+  "classification": "axes",
   "recipe": {
    "battle-axe": 1,
    "lunaria": 1,
@@ -459,7 +459,7 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "axe",
+  "classification": "axes",
   "droppedBy": {
    "trauminator": "(1/20)"
   }
@@ -479,7 +479,7 @@
   ],
   "type": "equipment",
   "category": "weapon",
-  "classification": "axe",
+  "classification": "axes",
   "recipe": {
    "iron-axe": 1,
    "iron-ore": 1,

@@ -37,14 +37,12 @@ func (p WikidotParser) Parse() (err error) {
 		}
 
 		switch page.Text[len(page.Text)-1] {
-		case "axe", "boomerang", "bow", "claw", "fan", "hammer", "knife", "spear", "stave", "sword", "wand", "whip":
+		case "axes", "boomerang", "bow", "claw", "fan", "hammer", "knife", "spear", "stave", "sword", "wand", "whip":
 			p.inventoryMap.AddInventory(page.ParseAsWeapon())
 		case "important-item", "item":
 			p.inventoryMap.AddInventory(page.ParseAsItem())
-		case "arms", "head", "feet", "legs", "shield", "torso":
+		case "arms", "head", "feet", "legs", "shield", "torso", "accessories":
 			p.inventoryMap.AddInventory(page.ParseAsArmor())
-		case "accessory":
-			p.inventoryMap.AddInventory(page.ParseAsAccessory())
 		}
 	}
 

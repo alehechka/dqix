@@ -295,14 +295,6 @@ func (p PageContent) ParseAsArmor() (inventory Inventory) {
 	return
 }
 
-func (p PageContent) ParseAsAccessory() (inventory Inventory) {
-	inventory.Type = "equipment"
-	inventory.Category = "accessories"
-
-	p.parseFromBase(&inventory)
-	return
-}
-
 func (p PageContent) ParseAsItem() (inventory Inventory) {
 	inventory.Type = "bag"
 	inventory.Category = "items"

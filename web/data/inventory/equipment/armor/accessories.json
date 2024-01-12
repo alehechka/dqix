@@ -24,8 +24,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory",
+  "category": "armor",
+  "classification": "accessories",
   "recipe": {
    "flurry-feather": 2,
    "prayer-ring": 1
@@ -74,8 +74,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory",
+  "category": "armor",
+  "classification": "accessories",
   "recipe": {
    "butterfly-wing": 2,
    "grubby-bandage": 1
@@ -121,8 +121,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory",
+  "category": "armor",
+  "classification": "accessories",
   "recipe": {
    "gold-bracer": 1,
    "sorcerer-s-stone": 2
@@ -157,8 +157,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory",
+  "category": "armor",
+  "classification": "accessories",
   "locationsFound": [
    "Zere (item shop)",
    "Porth Llaffan (item shop)",
@@ -195,8 +195,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory",
+  "category": "armor",
+  "classification": "accessories",
   "recipe": {
    "contra-band": 1,
    "rousing-ring": 1,
@@ -232,8 +232,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory"
+  "category": "armor",
+  "classification": "accessories"
  },
  "contra-band": {
   "id": "contra-band",
@@ -261,8 +261,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory",
+  "category": "armor",
+  "classification": "accessories",
   "recipe": {
    "gold-ring": 1,
    "poison-needle": 1,
@@ -296,8 +296,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory",
+  "category": "armor",
+  "classification": "accessories",
   "droppedBy": {
    "rashaverak": "(1/8)"
   },
@@ -340,8 +340,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory",
+  "category": "armor",
+  "classification": "accessories",
   "recipe": {
    "elfin-elixir": 1,
    "emerald-moss": 3,
@@ -378,8 +378,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory",
+  "category": "armor",
+  "classification": "accessories",
   "recipe": {
    "gold-ring": 1,
    "lunaria": 1,
@@ -416,8 +416,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory",
+  "category": "armor",
+  "classification": "accessories",
   "recipe": {
    "gold-bar": 1,
    "life-ring": 1,
@@ -453,8 +453,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory",
+  "category": "armor",
+  "classification": "accessories",
   "locationsFound": [
    "Porth Llaffan (item shop)",
    "Dourbridge (item shop)",
@@ -499,8 +499,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory",
+  "category": "armor",
+  "classification": "accessories",
   "locationsFound": [
    "Stornway (item shop)",
    "Porth Llaffan (item shop)",
@@ -551,8 +551,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory",
+  "category": "armor",
+  "classification": "accessories",
   "droppedBy": {
    "lesionnaire": "(1/16)"
   },
@@ -588,8 +588,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory",
+  "category": "armor",
+  "classification": "accessories",
   "recipe": {
    "gold-rosary": 1,
    "holy-water": 5,
@@ -627,8 +627,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory"
+  "category": "armor",
+  "classification": "accessories"
  },
  "life-bracer": {
   "id": "life-bracer",
@@ -656,8 +656,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory",
+  "category": "armor",
+  "classification": "accessories",
   "recipe": {
    "gold-bracer": 1,
    "life-ring": 2
@@ -696,8 +696,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory",
+  "category": "armor",
+  "classification": "accessories",
   "recipe": {
    "prayer-ring": 1,
    "resurrock": 3
@@ -732,8 +732,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory"
+  "category": "armor",
+  "classification": "accessories"
  },
  "lucky-pendant": {
   "id": "lucky-pendant",
@@ -762,8 +762,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory",
+  "category": "armor",
+  "classification": "accessories",
   "recipe": {
    "reckless-necklace": 1,
    "saint-s-ashes": 1
@@ -800,8 +800,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory"
+  "category": "armor",
+  "classification": "accessories"
  },
  "medal-of-freedom": {
   "id": "medal-of-freedom",
@@ -828,8 +828,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory"
+  "category": "armor",
+  "classification": "accessories"
  },
  "mercury-prize": {
   "id": "mercury-prize",
@@ -856,8 +856,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory"
+  "category": "armor",
+  "classification": "accessories"
  },
  "meteorite-bracer": {
   "id": "meteorite-bracer",
@@ -883,8 +883,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory",
+  "category": "armor",
+  "classification": "accessories",
   "recipe": {
    "agility-ring": 2,
    "gold-bar": 1,
@@ -919,8 +919,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory",
+  "category": "armor",
+  "classification": "accessories",
   "recipe": {
    "gold-bracer": 1,
    "strength-ring": 1,
@@ -963,8 +963,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory",
+  "category": "armor",
+  "classification": "accessories",
   "recipe": {
    "lucky-pendant": 1,
    "raging-ruby": 1,
@@ -1005,8 +1005,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory"
+  "category": "armor",
+  "classification": "accessories"
  },
  "pink-pearl": {
   "id": "pink-pearl",
@@ -1033,8 +1033,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory",
+  "category": "armor",
+  "classification": "accessories",
   "locationsFound": [
    "Dourbridge (item shop)",
    "Gleeba (item shop)"
@@ -1077,8 +1077,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory",
+  "category": "armor",
+  "classification": "accessories",
   "recipe": {
    "gold-ring": 1,
    "sage-s-elixir": 2
@@ -1121,8 +1121,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory",
+  "category": "armor",
+  "classification": "accessories",
   "recipe": {
    "corundum": 1,
    "strength-ring": 1
@@ -1168,8 +1168,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory",
+  "category": "armor",
+  "classification": "accessories",
   "recipe": {
    "lucky-pendant": 1,
    "malicite": 1
@@ -1207,8 +1207,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory",
+  "category": "armor",
+  "classification": "accessories",
   "recipe": {
    "angel-bell": 3,
    "gold-ring": 1,
@@ -1239,8 +1239,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory",
+  "category": "armor",
+  "classification": "accessories",
   "recipe": {
    "fresh-water": 3,
    "pink-pearl": 1,
@@ -1276,8 +1276,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory",
+  "category": "armor",
+  "classification": "accessories",
   "recipe": {
    "gold-ring": 1,
    "sleepy-stick": 1,
@@ -1311,8 +1311,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory",
+  "category": "armor",
+  "classification": "accessories",
   "recipe": {
    "corundum": 1,
    "dragon-scale": 1
@@ -1355,8 +1355,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory",
+  "category": "armor",
+  "classification": "accessories",
   "recipe": {
    "malicite": 1,
    "sorcerer-s-ring": 1
@@ -1396,8 +1396,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory",
+  "category": "armor",
+  "classification": "accessories",
   "recipe": {
    "gold-ring": 1,
    "slimedrop": 1
@@ -1441,8 +1441,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory",
+  "category": "armor",
+  "classification": "accessories",
   "recipe": {
    "gold-ring": 1,
    "panacea": 1,
@@ -1478,8 +1478,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory"
+  "category": "armor",
+  "classification": "accessories"
  },
  "sorcerer-s-ring": {
   "id": "sorcerer-s-ring",
@@ -1505,8 +1505,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory",
+  "category": "armor",
+  "classification": "accessories",
   "recipe": {
    "saint-s-ashes": 1,
    "skull-ring": 1
@@ -1542,8 +1542,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory",
+  "category": "armor",
+  "classification": "accessories",
   "locationsFound": [
    "Rank 4 (F) blue chest in grotto (2%)"
   ],
@@ -1578,8 +1578,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory",
+  "category": "armor",
+  "classification": "accessories",
   "recipe": {
    "elfin-charm": 1,
    "gold-bracer": 1,
@@ -1613,8 +1613,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory",
+  "category": "armor",
+  "classification": "accessories",
   "recipe": {
    "aggressence": 1,
    "gold-ring": 1
@@ -1656,8 +1656,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory",
+  "category": "armor",
+  "classification": "accessories",
   "droppedBy": {
    "bloody-manguini": "(1/16)"
   },
@@ -1695,8 +1695,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory",
+  "category": "armor",
+  "classification": "accessories",
   "recipe": {
    "aggressence": 1,
    "terrible-tattoo": 1
@@ -1735,8 +1735,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory",
+  "category": "armor",
+  "classification": "accessories",
   "recipe": {
    "grubby-bandage": 1,
    "leather-kilt": 1,
@@ -1771,8 +1771,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory",
+  "category": "armor",
+  "classification": "accessories",
   "requiredFor": [
    "(first-time;-repeat)",
    "184-bleats-me"
@@ -1804,7 +1804,7 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "accessories",
-  "classification": "accessory"
+  "category": "armor",
+  "classification": "accessories"
  }
 }
