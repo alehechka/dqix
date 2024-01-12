@@ -4993,7 +4993,7 @@
       "Dropped by:",
       "Gigantes",
       "(1/128)",
-      "hammer"
+      "hammers"
     ],
     "Links": {
       "/132-tree-hugging-titan": "132 Tree-Hugging Titan",
@@ -5105,7 +5105,7 @@
       "Reward for quest",
       "080 'Achet Job",
       "(one-time)",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/080-achet-job": "080 'Achet Job",
@@ -5140,7 +5140,7 @@
       "Seraph's bow",
       "Alchemises:",
       "Angel's bow",
-      "bow"
+      "bows"
     ],
     "Links": {
       "/agate-of-evolution": "Agate of evolution",
@@ -5291,7 +5291,7 @@
       "Sagacious sandals",
       "Sapient sandals",
       "Sentient sandals",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/178-from-rust-to-riches": "178 From Rust to Riches",
@@ -5411,7 +5411,7 @@
       "Wonder pants",
       "Strength ring",
       "Tough guy tattoo",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/dragontail-whip": "Dragontail whip",
@@ -6660,7 +6660,7 @@
       "Perfect panacea",
       ",",
       "Astral plume",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/astral-plume": "Astral plume",
@@ -6757,7 +6757,7 @@
       "Rank 10 (S) blue chest in grotto (1%)",
       "Alchemises:",
       "Archangel's bow",
-      "bow"
+      "bows"
     ],
     "Links": {
       "/aeon-s-bow": "Aeon's bow",
@@ -6819,7 +6819,7 @@
       "006 Get Well Water",
       "Required for:",
       "006 Get Well Water",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/006-get-well-water": "006 Get Well Water",
@@ -6876,7 +6876,7 @@
       "Strong antidote",
       "Required for:",
       "005 Herb'list",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/005-herb-list": "005 Herb'list",
@@ -7135,7 +7135,7 @@
       "Aeon's bow",
       ",",
       "Seraph's bow",
-      "bow"
+      "bows"
     ],
     "Links": {
       "/aeon-s-bow": "Aeon's bow",
@@ -7211,7 +7211,7 @@
       "x1",
       "Alchemises:",
       "Scourge whip",
-      "whip"
+      "whips"
     ],
     "Links": {
       "/demon-whip": "Demon whip",
@@ -7262,7 +7262,7 @@
       "Reward for quest",
       "084 Beauty and Beyond",
       "(one-time)",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/084-beauty-and-beyond": "084 Beauty and Beyond",
@@ -7366,7 +7366,7 @@
       "Reward for quest",
       "111 The Fource...Forever",
       "(one-time)",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/111-the-fource-forever": "111 The Fource...Forever",
@@ -7525,7 +7525,7 @@
       "(1/128),",
       "Raving reaper",
       "(1/128)",
-      "knife"
+      "knives"
     ],
     "Links": {
       "/apeckalypse": "Apeckalypse",
@@ -7580,7 +7580,7 @@
       "Stellarang",
       ",",
       "Galaxarang",
-      "boomerang"
+      "boomerangs"
     ],
     "Links": {
       "/agate-of-evolution": "Agate of evolution",
@@ -7619,7 +7619,7 @@
       "Celestria's raiment",
       "Sizzling bikini bottoms",
       "Sainted soma",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/121-a-cloudless-skye": "121 A Cloudless Skye",
@@ -7729,7 +7729,7 @@
       "Fan",
       "Where to find:",
       "Rank 8 (B) blue chest in grotto (1%)",
-      "fan"
+      "fans"
     ],
     "Links": {
       "/system:page-tags/tag/fan": "fan"
@@ -7814,7 +7814,7 @@
       "x1",
       "Can be used for:",
       "012 Putting on the Glitz",
-      "sword"
+      "swords"
     ],
     "Links": {
       "/012-putting-on-the-glitz": "012 Putting on the Glitz",
@@ -7855,7 +7855,7 @@
       "Magical Might-based (300–999), 10%–40% chance; fails:",
       "Brilliant staff",
       "alchemiracle",
-      "wand"
+      "wands"
     ],
     "Links": {
       "/agate-of-evolution": "Agate of evolution",
@@ -8030,7 +8030,7 @@
       "x3 +",
       "Dragon scale",
       "x2",
-      "fan"
+      "fans"
     ],
     "Links": {
       "/cobra-fan": "Cobra fan",
@@ -8061,7 +8061,7 @@
       "Where to find:",
       "Obtained during quest",
       "069 You Scratch My Back",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/069-you-scratch-my-back": "069 You Scratch My Back",
@@ -8338,7 +8338,7 @@
       "x1 +",
       "Mercury's bandana",
       "x1",
-      "stave"
+      "staves"
     ],
     "Links": {
       "/mercury-s-bandana": "Mercury's bandana",
@@ -8364,7 +8364,7 @@
       "Spear",
       "Where to find:",
       "Stornway (weapon shop)",
-      "spear"
+      "spears"
     ],
     "Links": {
       "/system:page-tags/tag/spear": "spear"
@@ -8418,7 +8418,7 @@
       "Dropped by:",
       "Mandrake marauder",
       "(1/128)",
-      "sword"
+      "swords"
     ],
     "Links": {
       "/mandrake-marauder": "Mandrake marauder",
@@ -8472,7 +8472,7 @@
       "x1 +",
       "Rockbomb shard",
       "x3",
-      "boomerang"
+      "boomerangs"
     ],
     "Links": {
       "/flametang-boomerang": "Flametang boomerang",
@@ -8682,7 +8682,7 @@
       "Where to find:",
       "DQVC shop",
       "dqvc",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/system:page-tags/tag/dqvc": "dqvc",
@@ -8701,7 +8701,7 @@
       "Where to find:",
       "Obtained during quest",
       "086 Brave the Caves",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/086-brave-the-caves": "086 Brave the Caves",
@@ -8945,7 +8945,7 @@
       "x3",
       "Alchemises:",
       "Dread dagger",
-      "knife"
+      "knives"
     ],
     "Links": {
       "/butterfly-wing": "Butterfly wing",
@@ -9057,7 +9057,7 @@
       "(1/128)",
       "Alchemises:",
       "Trident",
-      "spear"
+      "spears"
     ],
     "Links": {
       "/deadcurion": "Deadcurion",
@@ -9082,7 +9082,7 @@
       "Whip",
       "Where to find:",
       "Coffinwell (weapon shop), Alltrades Abbey (item shop)",
-      "whip"
+      "whips"
     ],
     "Links": {
       "/system:page-tags/tag/whip": "whip"
@@ -9167,7 +9167,7 @@
       "Where to find:",
       "Obtained during quest",
       "044 A Climber for a Climber",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/044-a-climber-for-a-climber": "044 A Climber for a Climber",
@@ -9196,7 +9196,7 @@
       "(1/128)",
       "Alchemises:",
       "Beastmaster claws",
-      "claw"
+      "claws"
     ],
     "Links": {
       "/beastmaster-claws": "Beastmaster claws",
@@ -9326,7 +9326,7 @@
       "x9",
       "Required for:",
       "144 Claws for Thought",
-      "claw"
+      "claws"
     ],
     "Links": {
       "/144-claws-for-thought": "144 Claws for Thought",
@@ -9390,7 +9390,7 @@
       "Required for:",
       "017 You Shouldn't Have...Really",
       "037 Funghi For a Fun Guy",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/017-you-shouldn-t-have-really": "017 You Shouldn't Have...Really",
@@ -9426,7 +9426,7 @@
       "Important Item",
       "Where to find:",
       "Obtained during story events",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/system:page-tags/tag/important-item": "important-item"
@@ -9476,7 +9476,7 @@
       "Where to find:",
       "Obtained during quest",
       "086 Brave the Caves",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/086-brave-the-caves": "086 Brave the Caves",
@@ -9759,7 +9759,7 @@
       "(one-time)",
       "Alchemises:",
       "Blustery bow",
-      "bow"
+      "bows"
     ],
     "Links": {
       "/083-beautiful-bowginnings": "083 Beautiful Bowginnings",
@@ -9858,7 +9858,7 @@
       "Required for:",
       "025 Warbling Wellard",
       "156 Inn Search of an Inny",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/025-warbling-wellard": "025 Warbling Wellard",
@@ -9882,7 +9882,7 @@
       "Item",
       "Where to find:",
       "Gifted from special guests at Quester's Rest on player's birthday",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/system:page-tags/tag/item": "item"
@@ -9933,7 +9933,7 @@
       "x3 +",
       "Tortoise shell",
       "x1",
-      "fan"
+      "fans"
     ],
     "Links": {
       "/royal-soil": "Royal soil",
@@ -10197,7 +10197,7 @@
       "x2 +",
       "Ethereal stone",
       "x3",
-      "bow"
+      "bows"
     ],
     "Links": {
       "/ethereal-stone": "Ethereal stone",
@@ -10263,7 +10263,7 @@
       "Where to find:",
       "DQVC shop",
       "dqvc",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/system:page-tags/tag/dqvc": "dqvc",
@@ -10469,7 +10469,7 @@
       "Where to find:",
       "Obtained during quest",
       "064 Turn in Your Badges",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/064-turn-in-your-badges": "064 Turn in Your Badges",
@@ -10504,7 +10504,7 @@
       "Wormwood Creek (Weapon shop), Upover (Weapon shop)",
       "Alchemises:",
       "Billowing bow",
-      "bow"
+      "bows"
     ],
     "Links": {
       "/agility-ring": "Agility ring",
@@ -10593,7 +10593,7 @@
       "Sagacious sandals",
       "Sapient sandals",
       "Sentient sandals",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/180-wrecking-wrecks": "180 Wrecking Wrecks",
@@ -10672,7 +10672,7 @@
       "x1 +",
       "Agility ring",
       "x2",
-      "boomerang"
+      "boomerangs"
     ],
     "Links": {
       "/agility-ring": "Agility ring",
@@ -10703,7 +10703,7 @@
       "x1 +",
       "Celestial skein",
       "x3",
-      "bow"
+      "bows"
     ],
     "Links": {
       "/billowing-bow": "Billowing bow",
@@ -10907,7 +10907,7 @@
       "Important Item",
       "Where to find:",
       "Obtained during story events",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/system:page-tags/tag/important-item": "important-item"
@@ -10958,7 +10958,7 @@
       "Where to find:",
       "Obtained during quest",
       "177 Tones of the Bones",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/177-tones-of-the-bones": "177 Tones of the Bones",
@@ -10977,7 +10977,7 @@
       "Where to find:",
       "Obtained during quest",
       "086 Brave the Caves",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/086-brave-the-caves": "086 Brave the Caves",
@@ -11081,7 +11081,7 @@
       "Reinforced boomerang",
       ",",
       "Boomer briefs",
-      "boomerang"
+      "boomerangs"
     ],
     "Links": {
       "/boomer-briefs": "Boomer briefs",
@@ -11711,7 +11711,7 @@
       "Rank 10 (S) blue chest in grotto (1%)",
       "Alchemises:",
       "Shining staff",
-      "wand"
+      "wands"
     ],
     "Links": {
       "/brilliant-staff": "Brilliant staff",
@@ -11754,7 +11754,7 @@
       "Shimmering dress",
       "Technicolour dreamcloth",
       "Lucida shard",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/142-prayermongering": "142 Prayermongering",
@@ -11832,7 +11832,7 @@
       "Aurora staff",
       "Alchemises:",
       "Bright staff",
-      "wand"
+      "wands"
     ],
     "Links": {
       "/agate-of-evolution": "Agate of evolution",
@@ -11856,7 +11856,7 @@
       "Where to find:",
       "Obtained during quest",
       "067 Nab the Knife-Nicker",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/067-nab-the-knife-nicker": "067 Nab the Knife-Nicker",
@@ -11905,7 +11905,7 @@
       "Stornway (weapon shop), Coffinwell (weapon shop)",
       "Alchemises:",
       "Divine dagger",
-      "knife"
+      "knives"
     ],
     "Links": {
       "/divine-dagger": "Divine dagger",
@@ -11961,7 +11961,7 @@
       "Reward for quest",
       "069 You Scratch My Back",
       "(one-time)",
-      "wand"
+      "wands"
     ],
     "Links": {
       "/069-you-scratch-my-back": "069 You Scratch My Back",
@@ -11988,7 +11988,7 @@
       "Reward for quest",
       "069 You Scratch My Back",
       "(one-time)",
-      "wand"
+      "wands"
     ],
     "Links": {
       "/069-you-scratch-my-back": "069 You Scratch My Back",
@@ -12403,7 +12403,7 @@
       "Bow tie",
       "Required for:",
       "146 Hail to the Queen",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/146-hail-to-the-queen": "146 Hail to the Queen",
@@ -12734,7 +12734,7 @@
       "Stave",
       "Where to find:",
       "Stornway (weapon shop), Coffinwell (weapon shop)",
-      "stave"
+      "staves"
     ],
     "Links": {
       "/system:page-tags/tag/stave": "stave"
@@ -12932,7 +12932,7 @@
       "Coma cudgel",
       "Alchemises:",
       "Knockout rod",
-      "stave"
+      "staves"
     ],
     "Links": {
       "/agate-of-evolution": "Agate of evolution",
@@ -13061,7 +13061,7 @@
       "Where to find:",
       "Obtained during quest",
       "074 Mr Whippy's Wish",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/074-mr-whippy-s-wish": "074 Mr Whippy's Wish",
@@ -13097,7 +13097,7 @@
       "(1/64)",
       "Alchemises:",
       "Aurora blade",
-      "sword"
+      "swords"
     ],
     "Links": {
       "/aurora-blade": "Aurora blade",
@@ -13184,7 +13184,7 @@
       "Technicolour dreamcloth",
       "Required for:",
       "159 Have You Seen Charlene?",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/159-have-you-seen-charlene": "159 Have You Seen Charlene?",
@@ -13228,7 +13228,7 @@
       "Demon spear",
       "Can be used for:",
       "012 Putting on the Glitz",
-      "spear"
+      "spears"
     ],
     "Links": {
       "/012-putting-on-the-glitz": "012 Putting on the Glitz",
@@ -13400,7 +13400,7 @@
       "Bloomingdale (weapon shop), Gleeba (weapon shop)",
       "Alchemises:",
       "Hunter's bow",
-      "whip"
+      "whips"
     ],
     "Links": {
       "/hunter-s-bow": "Hunter's bow",
@@ -13530,7 +13530,7 @@
       "Where to find:",
       "Obtained during quest",
       "126 Puff-Puff Performance",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/126-puff-puff-performance": "126 Puff-Puff Performance",
@@ -13557,7 +13557,7 @@
       "Bow",
       "Where to find:",
       "Dourbridge (secret shop)",
-      "bow"
+      "bows"
     ],
     "Links": {
       "/system:page-tags/tag/bow": "bow"
@@ -13646,7 +13646,7 @@
       "(1/64)",
       "Can be used for:",
       "013 All Fired Up",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/013-all-fired-up": "013 All Fired Up",
@@ -13674,7 +13674,7 @@
       "Where to find:",
       "DQVC shop",
       "dqvc",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/system:page-tags/tag/dqvc": "dqvc",
@@ -13695,7 +13695,7 @@
       "Where to find:",
       "DQVC shop",
       "dqvc",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/system:page-tags/tag/dqvc": "dqvc",
@@ -13723,7 +13723,7 @@
       "(first-time)",
       "Alchemises:",
       "Agate of evolution",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/173-plum-duffer": "173 Plum Duffer",
@@ -13927,7 +13927,7 @@
       "Reward for quest",
       "066 Operation Multithrust",
       "(one-time)",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/066-operation-multithrust": "066 Operation Multithrust",
@@ -14128,7 +14128,7 @@
       "Where to find:",
       "Obtained during quest",
       "121 A Cloudless Skye",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/121-a-cloudless-skye": "121 A Cloudless Skye",
@@ -14163,7 +14163,7 @@
       "Poison moth knife",
       ",",
       "Batterfly knife",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/batterfly-knife": "Batterfly knife",
@@ -14230,7 +14230,7 @@
       "(1/128)",
       "Alchemises:",
       "King cobra claws",
-      "claw"
+      "claws"
     ],
     "Links": {
       "/hammer-horror": "Hammer horror",
@@ -14269,7 +14269,7 @@
       "(1/64)",
       "Alchemises:",
       "Azure Dragon fan",
-      "fan"
+      "fans"
     ],
     "Links": {
       "/azure-dragon-fan": "Azure Dragon fan",
@@ -14397,7 +14397,7 @@
       "Where to find:",
       "Obtained during quest",
       "064 Turn in Your Badges",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/064-turn-in-your-badges": "064 Turn in Your Badges",
@@ -14430,7 +14430,7 @@
       "Magical Mending-based (300–999), 10%–40% chance; fails:",
       "Catatonic cosh",
       "alchemiracle",
-      "stave"
+      "staves"
     ],
     "Links": {
       "/agate-of-evolution": "Agate of evolution",
@@ -14583,7 +14583,7 @@
       "x3",
       "Alchemises:",
       "Orichalcum claws",
-      "claw"
+      "claws"
     ],
     "Links": {
       "/fire-claws": "Fire claws",
@@ -14662,7 +14662,7 @@
       "Dropped by:",
       "Skeleton",
       "(1/128)",
-      "sword"
+      "swords"
     ],
     "Links": {
       "/skeleton": "Skeleton",
@@ -14735,7 +14735,7 @@
       "Raging ruby",
       ",",
       "Ruby of protection",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/admirer": "Admirer",
@@ -14942,7 +14942,7 @@
       "Mystifying mixture",
       "Required for:",
       "052 Tall Order Cook",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/052-tall-order-cook": "052 Tall Order Cook",
@@ -15086,7 +15086,7 @@
       "Hot bikini top",
       "Hot bikini bottoms",
       "Red tights",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/belisha-beakon": "Belisha beakon",
@@ -15181,7 +15181,7 @@
       "Rank 10 (S) blue chest in grotto (1%)",
       "Alchemises:",
       "Overcritical fan",
-      "fan"
+      "fans"
     ],
     "Links": {
       "/hypercritical-fan": "Hypercritical fan",
@@ -15226,7 +15226,7 @@
       "(1/128)",
       "Alchemises:",
       "Kestrel claws",
-      "claw"
+      "claws"
     ],
     "Links": {
       "/icikiller": "Icikiller",
@@ -15247,7 +15247,7 @@
       "Where to find:",
       "Obtained during quest",
       "161 Here With Nod's Tear",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/161-here-with-nod-s-tear": "161 Here With Nod's Tear",
@@ -15316,7 +15316,7 @@
       "x1",
       "Where to find:",
       "Gleeba (weapon shop), Batsureg (weapon shop)",
-      "boomerang"
+      "boomerangs"
     ],
     "Links": {
       "/gold-rosary": "Gold rosary",
@@ -15442,7 +15442,7 @@
       "023 Research Assistant",
       "Required for:",
       "023 Research Assistant",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/023-research-assistant": "023 Research Assistant",
@@ -15639,7 +15639,7 @@
       "x3 +",
       "Iron nails",
       "x3",
-      "boomerang"
+      "boomerangs"
     ],
     "Links": {
       "/edged-boomerang": "Edged boomerang",
@@ -16068,7 +16068,7 @@
       "Dashing dagger",
       ",",
       "Dynamo dagger",
-      "knife"
+      "knives"
     ],
     "Links": {
       "/agate-of-evolution": "Agate of evolution",
@@ -16106,7 +16106,7 @@
       "Dynamo dagger",
       "Alchemises:",
       "Deft dagger",
-      "knife"
+      "knives"
     ],
     "Links": {
       "/agate-of-evolution": "Agate of evolution",
@@ -16148,7 +16148,7 @@
       "Where to find:",
       "Obtained during quest",
       "050 Confession of Cin's",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/050-confession-of-cin-s": "050 Confession of Cin's",
@@ -16203,7 +16203,7 @@
       "Falcon knife earring",
       ",",
       "Assassin's dagger",
-      "knife"
+      "knives"
     ],
     "Links": {
       "/assassin-s-dagger": "Assassin's dagger",
@@ -16336,7 +16336,7 @@
       "Rank 10 (S) blue chest in grotto (1%)",
       "Alchemises:",
       "Darting dagger",
-      "knife"
+      "knives"
     ],
     "Links": {
       "/darting-dagger": "Darting dagger",
@@ -16459,7 +16459,7 @@
       "x1",
       "Where to find:",
       "Stornway (weapon shop)",
-      "spear"
+      "spears"
     ],
     "Links": {
       "/celestial-spear": "Celestial spear",
@@ -16497,7 +16497,7 @@
       "(1/64)",
       "Alchemises:",
       "Archdemon whip",
-      "whip"
+      "whips"
     ],
     "Links": {
       "/alphyn": "Alphyn",
@@ -16564,7 +16564,7 @@
       "Ogre shield",
       "Heavy gauntlets",
       "Impregnable leggings",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/drakulard": "Drakulard",
@@ -16831,7 +16831,7 @@
       "Charm-based (300–999), 10%–40% chance; fails:",
       "Hypercritical fan",
       "alchemiracle",
-      "fan"
+      "fans"
     ],
     "Links": {
       "/agate-of-evolution": "Agate of evolution",
@@ -16854,7 +16854,7 @@
       "Where to find:",
       "Obtained during quest",
       "168 Potty About Pots",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/168-potty-about-pots": "168 Potty About Pots",
@@ -16969,7 +16969,7 @@
       "Poison moth knife",
       ",",
       "Icicle dirk",
-      "knife"
+      "knives"
     ],
     "Links": {
       "/bronze-knife": "Bronze knife",
@@ -17349,7 +17349,7 @@
       "(1/128)",
       "Alchemises:",
       "Fire claws",
-      "claw"
+      "claws"
     ],
     "Links": {
       "/drakulord": "Drakulord",
@@ -17526,7 +17526,7 @@
       "Stornway (weapon shop)",
       "Alchemises:",
       "Xenlon rod",
-      "stave"
+      "staves"
     ],
     "Links": {
       "/system:page-tags/tag/stave": "stave",
@@ -17545,7 +17545,7 @@
       "Where to find:",
       "Obtained during quest",
       "161 Here With Nod's Tear",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/161-here-with-nod-s-tear": "161 Here With Nod's Tear",
@@ -17716,7 +17716,7 @@
       "x1 +",
       "Mighty armlet",
       "x1",
-      "sword"
+      "swords"
     ],
     "Links": {
       "/dragonsbane": "Dragonsbane",
@@ -18040,7 +18040,7 @@
       "Rank 10 (S) blue chest in grotto (1%)",
       "Alchemises:",
       "Dragovian claws",
-      "claw"
+      "claws"
     ],
     "Links": {
       "/dragovian-claws": "Dragovian claws",
@@ -18073,7 +18073,7 @@
       "(1/128)",
       "Alchemises:",
       "Dragon slayer",
-      "sword"
+      "swords"
     ],
     "Links": {
       "/dragon-slayer": "Dragon slayer",
@@ -18108,7 +18108,7 @@
       "Dropped by:",
       "Equinox",
       "(steal: 1/128; drop: 10%)",
-      "whip"
+      "whips"
     ],
     "Links": {
       "/aggressence": "Aggressence",
@@ -18144,7 +18144,7 @@
       "Dragovian lord claws",
       ",",
       "Xenlon claws",
-      "claw"
+      "claws"
     ],
     "Links": {
       "/agate-of-evolution": "Agate of evolution",
@@ -18182,7 +18182,7 @@
       "Xenlon claws",
       "Alchemises:",
       "Dragonlord claws",
-      "claw"
+      "claws"
     ],
     "Links": {
       "/agate-of-evolution": "Agate of evolution",
@@ -18288,7 +18288,7 @@
       "Where to find:",
       "Obtained during quest",
       "171 I Would Do Anyfang for Love",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/171-i-would-do-anyfang-for-love": "171 I Would Do Anyfang for Love",
@@ -18367,7 +18367,7 @@
       "x5",
       "Alchemises:",
       "Papillon mask",
-      "knife"
+      "knives"
     ],
     "Links": {
       "/batterfly-knife": "Batterfly knife",
@@ -18438,7 +18438,7 @@
       "Killer pillar",
       ",",
       "Mistick",
-      "stave"
+      "staves"
     ],
     "Links": {
       "/killer-pillar": "Killer pillar",
@@ -18459,7 +18459,7 @@
       "Reward for quest",
       "147 License to Drive",
       "(one-time)",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/147-license-to-drive": "147 License to Drive",
@@ -18477,7 +18477,7 @@
       "Important Item",
       "Where to find:",
       "Obtained during story events",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/system:page-tags/tag/important-item": "important-item"
@@ -18495,7 +18495,7 @@
       "Where to find:",
       "Obtained during quest",
       "028 Desert Foxes",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/028-desert-foxes": "028 Desert Foxes",
@@ -18528,7 +18528,7 @@
       "Deftness-based (300–999), 10%–40% chance; fails:",
       "Dashing dagger",
       "alchemiracle",
-      "knife"
+      "knives"
     ],
     "Links": {
       "/agate-of-evolution": "Agate of evolution",
@@ -18563,7 +18563,7 @@
       "Reward for quest",
       "085 Comeback Kid",
       "(one-time)",
-      "boomerang"
+      "boomerangs"
     ],
     "Links": {
       "/085-comeback-kid": "085 Comeback Kid",
@@ -18656,7 +18656,7 @@
       "Moonmasher",
       ",",
       "Starsmasher",
-      "hammer"
+      "hammers"
     ],
     "Links": {
       "/agate-of-evolution": "Agate of evolution",
@@ -18688,7 +18688,7 @@
       "Icicle dirk",
       ",",
       "Cutting-edge boomerang",
-      "boomerang"
+      "boomerangs"
     ],
     "Links": {
       "/cutting-edge-boomerang": "Cutting-edge boomerang",
@@ -18903,7 +18903,7 @@
       "Elfin charm",
       ",",
       "Yggdrasil dew",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/038-muffled-admiration": "038 Muffled Admiration",
@@ -18974,7 +18974,7 @@
       "Tortoiseshell armour",
       "Green tights",
       "Elfin charm",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/elfin-charm": "Elfin charm",
@@ -19152,7 +19152,7 @@
       "x1",
       "Alchemises:",
       "Goddess whip",
-      "whip"
+      "whips"
     ],
     "Links": {
       "/goddess-whip": "Goddess whip",
@@ -19343,7 +19343,7 @@
       "Enchanted robes",
       "Enchanted gloves",
       "Ethereal stone",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/060-that-makes-scents": "060 That Makes Scents",
@@ -19401,7 +19401,7 @@
       "Where to find:",
       "Obtained during quest",
       "141 Coffinwell Conundrum",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/141-coffinwell-conundrum": "141 Coffinwell Conundrum",
@@ -19507,7 +19507,7 @@
       "x3 +",
       "Mythril ore",
       "x1",
-      "boomerang"
+      "boomerangs"
     ],
     "Links": {
       "/aggressence": "Aggressence",
@@ -19660,7 +19660,7 @@
       "x9 +",
       "Orichalcum",
       "x1",
-      "sword"
+      "swords"
     ],
     "Links": {
       "/glass-frit": "Glass frit",
@@ -20137,7 +20137,7 @@
       "Agate of evolution",
       "Required for:",
       "151 Pushy Peddler",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/051-a-martyr-to-his-ma": "051 A Martyr to His Ma",
@@ -20183,7 +20183,7 @@
       "Stornway (item shop), Coffinwell (item shop), Porth Llaffan (item shop), Slurry Quay (item shop), Bloomingdale (item shop), Gleeba (item shop), Batsureg (item shop), Wormwood Creek (item shop), Upover (item shop)",
       "Rank 1 (I) blue chest in grotto (10%)",
       "Rank 10 (S) blue chest in grotto (10%)",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/system:page-tags/tag/item": "item"
@@ -20220,7 +20220,7 @@
       "Lucida shard",
       "Required for:",
       "009 Labour of Love",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/009-labour-of-love": "009 Labour of Love",
@@ -20411,7 +20411,7 @@
       "Where to find:",
       "Received during quest",
       "095 Free the Faerie Two",
-      "wand"
+      "wands"
     ],
     "Links": {
       "/095-free-the-faerie-two": "095 Free the Faerie Two",
@@ -20477,7 +20477,7 @@
       "(1/128)",
       "Alchemises:",
       "Über falcon blade",
-      "sword"
+      "swords"
     ],
     "Links": {
       "/prime-slime": "Prime slime",
@@ -20512,7 +20512,7 @@
       "x3",
       "Where to find:",
       "Bloomingdale (weapon shop), Gleeba (weapon shop)",
-      "knife"
+      "knives"
     ],
     "Links": {
       "/agility-ring": "Agility ring",
@@ -20672,7 +20672,7 @@
       "Reward for quest",
       "090 One Latht Tetht",
       "(one-time)",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/090-one-latht-tetht": "090 One Latht Tetht",
@@ -20702,7 +20702,7 @@
       "(1/64)",
       "Alchemises:",
       "Foehn fan",
-      "fan"
+      "fans"
     ],
     "Links": {
       "/foehn-fan": "Foehn fan",
@@ -20828,7 +20828,7 @@
       "Swinedimples Academy (item shop)",
       "Alchemises:",
       "White Tiger fan",
-      "fan"
+      "fans"
     ],
     "Links": {
       "/kitty-litter": "Kitty litter",
@@ -21086,7 +21086,7 @@
       "x5 +",
       "Magic beast horn",
       "x3",
-      "knife"
+      "knives"
     ],
     "Links": {
       "/ice-crystal": "Ice crystal",
@@ -21109,7 +21109,7 @@
       "Where to find:",
       "DQVC shop",
       "dqvc",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/system:page-tags/tag/dqvc": "dqvc",
@@ -21177,7 +21177,7 @@
       "Tussler's trousers",
       "Dragon trousers",
       "Wu shoes",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/037-funghi-for-a-fun-guy": "037 Funghi for a Fun Guy",
@@ -21275,7 +21275,7 @@
       "(1/128)",
       "Alchemises:",
       "Inferno blade",
-      "sword"
+      "swords"
     ],
     "Links": {
       "/inferno-blade": "Inferno blade",
@@ -21316,7 +21316,7 @@
       "(steal: 1/128; drop: 10%)",
       "Alchemises:",
       "Combusticlaws",
-      "claw"
+      "claws"
     ],
     "Links": {
       "/combusticlaws": "Combusticlaws",
@@ -21527,7 +21527,7 @@
       "Aggressence",
       "Required for:",
       "017 You Shouldn't Have...Really",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/017-you-shouldn-t-have-really": "017 You Shouldn't Have...Really",
@@ -21571,7 +21571,7 @@
       "Dropped by:",
       "Goresby-Purrvis",
       "(100%)",
-      "sword"
+      "swords"
     ],
     "Links": {
       "/goresby-purrvis": "Goresby-Purrvis",
@@ -21784,7 +21784,7 @@
       "x3",
       "Alchemises:",
       "Gladius",
-      "knife"
+      "knives"
     ],
     "Links": {
       "/crimson-coral": "Crimson coral",
@@ -21858,7 +21858,7 @@
       "Stornway (weapon shop)",
       "Alchemises:",
       "Banefire boomerang",
-      "boomerang"
+      "boomerangs"
     ],
     "Links": {
       "/banefire-boomerang": "Banefire boomerang",
@@ -21993,7 +21993,7 @@
       "Alchemises:",
       "Terra tamper",
       "Densinium",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/densinium": "Densinium",
@@ -22096,7 +22096,7 @@
       "Feather headband",
       "Agility ring",
       "Astral plume",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/agility-ring": "Agility ring",
@@ -22225,7 +22225,7 @@
       "Dourbridge (weapon/armour shop), Bloomingdale (weapon shop)",
       "Alchemises:",
       "Gale force fan",
-      "fan"
+      "fans"
     ],
     "Links": {
       "/agility-ring": "Agility ring",
@@ -22311,7 +22311,7 @@
       "(1/64)",
       "Alchemises:",
       "Vermillion Bird fan",
-      "fan"
+      "fans"
     ],
     "Links": {
       "/bird-of-terrordise": "Bird of terrordise",
@@ -22398,7 +22398,7 @@
       "Where to find:",
       "Obtained during quest",
       "077 Cool-Fanned Kook",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/077-cool-fanned-kook": "077 Cool-Fanned Kook",
@@ -22448,7 +22448,7 @@
       "Celestial skein",
       "Required for:",
       "006 Get Well Water",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/006-get-well-water": "006 Get Well Water",
@@ -22510,7 +22510,7 @@
       "(1/256),",
       "Tantamount",
       "(1/256)",
-      "fan"
+      "fans"
     ],
     "Links": {
       "/godsteed": "Godsteed",
@@ -22629,7 +22629,7 @@
       "Bow",
       "Where to find:",
       "Rank 4 (F) blue chest in grotto (1%)",
-      "bow"
+      "bows"
     ],
     "Links": {
       "/system:page-tags/tag/bow": "bow"
@@ -22957,7 +22957,7 @@
       "Reward for quest",
       "078 Oh, the Indignity",
       "(one-time)",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/078-oh-the-indignity": "078 Oh, the Indignity",
@@ -22976,7 +22976,7 @@
       "Important Item",
       "Where to find:",
       "Obtained during story events",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/system:page-tags/tag/item": "item"
@@ -23024,7 +23024,7 @@
       "Agility-based (300–999), 10%–40% chance; fails:",
       "Stellarang",
       "alchemiracle",
-      "boomerang"
+      "boomerangs"
     ],
     "Links": {
       "/agate-of-evolution": "Agate of evolution",
@@ -23095,7 +23095,7 @@
       "x1 +",
       "Agility ring",
       "x1",
-      "fan"
+      "fans"
     ],
     "Links": {
       "/agility-ring": "Agility ring",
@@ -23345,7 +23345,7 @@
       "Where to find:",
       "Obtained during quest",
       "038 Muffled Admiration",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/038-muffled-admiration": "038 Muffled Admiration",
@@ -23419,7 +23419,7 @@
       "(1/20)",
       "Alchemises:",
       "Titan's hammer",
-      "hammer"
+      "hammers"
     ],
     "Links": {
       "/atlas": "Atlas",
@@ -23446,7 +23446,7 @@
       "Hammer",
       "Where to find:",
       "Wormwood Creek (weapon shop), Upover (weapon shop)",
-      "hammer"
+      "hammers"
     ],
     "Links": {
       "/system:page-tags/tag/hammer": "hammer"
@@ -23503,7 +23503,7 @@
       "Über Gringham whip",
       "Alchemises:",
       "Gringham whip",
-      "whip"
+      "whips"
     ],
     "Links": {
       "/agate-of-evolution": "Agate of evolution",
@@ -23600,7 +23600,7 @@
       "x2 +",
       "Hephaestus' flame",
       "x1",
-      "whip"
+      "whips"
     ],
     "Links": {
       "/hephaestus-flame": "Hephaestus' flame",
@@ -23687,7 +23687,7 @@
       "x2 +",
       "Hephaestus' flame",
       "x1",
-      "stave"
+      "staves"
     ],
     "Links": {
       "/hephaestus-flame": "Hephaestus' flame",
@@ -23716,7 +23716,7 @@
       "x2 +",
       "Hephaestus' flame",
       "x1",
-      "sword"
+      "swords"
     ],
     "Links": {
       "/hephaestus-flame": "Hephaestus' flame",
@@ -23745,7 +23745,7 @@
       "x2 +",
       "Hephaestus' flame",
       "x1",
-      "claw"
+      "claws"
     ],
     "Links": {
       "/hephaestus-flame": "Hephaestus' flame",
@@ -23774,7 +23774,7 @@
       "x2 +",
       "Hephaestus' flame",
       "x1",
-      "fan"
+      "fans"
     ],
     "Links": {
       "/hephaestus-flame": "Hephaestus' flame",
@@ -23896,7 +23896,7 @@
       "x2 +",
       "Hephaestus' flame",
       "x1",
-      "spear"
+      "spears"
     ],
     "Links": {
       "/hephaestus-flame": "Hephaestus' flame",
@@ -23991,7 +23991,7 @@
       "Important Item",
       "Where to find:",
       "Obtained during story events",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/system:page-tags/tag/important-item": "important-item"
@@ -24062,7 +24062,7 @@
       "Stornway (weapon shop)",
       "Alchemises:",
       "Flame tang",
-      "knife"
+      "knives"
     ],
     "Links": {
       "/flame-tang": "Flame tang",
@@ -24099,7 +24099,7 @@
       "Erdrick's helmet",
       "Erdrick's armour",
       "Erdrick's gauntlets",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/cyclown": "Cyclown",
@@ -24234,7 +24234,7 @@
       "Where to find:",
       "Obtained during quest",
       "064 Turn in Your Badges",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/064-turn-in-your-badges": "064 Turn in Your Badges",
@@ -24267,7 +24267,7 @@
       "(1/16),",
       "Gold golem",
       "(1/256)",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/025-warbling-wellard": "025 Warbling Wellard",
@@ -24296,7 +24296,7 @@
       "Reward for quest",
       "005 Herb'list",
       "(one-time)",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/005-herb-list": "005 Herb'list",
@@ -24325,7 +24325,7 @@
       "Reward for quest",
       "048 A Task for a Cask",
       "(repeat)",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/004-pick-me-up-a-panacea": "004 Pick Me Up a Panacea",
@@ -24580,7 +24580,7 @@
       "x1 +",
       "Agate of evolution",
       "x1",
-      "whip"
+      "whips"
     ],
     "Links": {
       "/agate-of-evolution": "Agate of evolution",
@@ -24691,7 +24691,7 @@
       "Spellward circlet",
       "Meteorite bracer",
       "Goddess ring",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/161-here-with-nod-s-tear": "161 Here With Nod's Tear",
@@ -25093,7 +25093,7 @@
       "Where to find:",
       "Obtained during quest",
       "041 Style Gooru",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/041-style-gooru": "041 Style Gooru",
@@ -25342,7 +25342,7 @@
       "x1 +",
       "Densinium",
       "x2",
-      "spear"
+      "spears"
     ],
     "Links": {
       "/densinium": "Densinium",
@@ -25373,7 +25373,7 @@
       "x1 +",
       "Densinium",
       "x2",
-      "spear"
+      "spears"
     ],
     "Links": {
       "/densinium": "Densinium",
@@ -25500,7 +25500,7 @@
       "Where to find:",
       "Obtained during quest",
       "142 Prayermongering",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/142-prayermongering": "142 Prayermongering",
@@ -25526,7 +25526,7 @@
       "Upover (weapon shop)",
       "Alchemises:",
       "Purblind bow",
-      "bow"
+      "bows"
     ],
     "Links": {
       "/purblind-bow": "Purblind bow",
@@ -25910,7 +25910,7 @@
       "Rank 10 (S) blue chest in grotto (1%)",
       "Alchemises:",
       "Mega Gringham whip",
-      "whip"
+      "whips"
     ],
     "Links": {
       "/giga-gringham-whip": "Giga Gringham whip",
@@ -25951,7 +25951,7 @@
       "Rank 10 (S) blue chest in grotto (1%)",
       "Alchemises:",
       "Earthsplitter",
-      "hammer"
+      "hammers"
     ],
     "Links": {
       "/earthsplitter": "Earthsplitter",
@@ -26008,7 +26008,7 @@
       "Technicolour dreamcloth",
       "Required for:",
       "030 Wrapper's Delight",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/030-wrapper-s-delight": "030 Wrapper's Delight",
@@ -26056,7 +26056,7 @@
       "Where to find:",
       "Obtained during quest",
       "179 Pants Macabre",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/179-pants-macabre": "179 Pants Macabre",
@@ -26130,7 +26130,7 @@
       "Where to find:",
       "Obtained during quest",
       "139 Has Sellma Sold Out?",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/139-has-sellma-sold-out": "139 Has Sellma Sold Out?",
@@ -26226,7 +26226,7 @@
       "Flametang boomerang",
       ",",
       "Blustery bow",
-      "boomerang"
+      "boomerangs"
     ],
     "Links": {
       "/agility-ring": "Agility ring",
@@ -26403,7 +26403,7 @@
       "Dropped by:",
       "Charmour",
       "(1/128)",
-      "spear"
+      "spears"
     ],
     "Links": {
       "/065-operation-mercury": "065 Operation Mercury",
@@ -26515,7 +26515,7 @@
       "x1",
       "Required for:",
       "011 The Not-So-Great Escape",
-      "claw"
+      "claws"
     ],
     "Links": {
       "/011-the-not-so-great-escape": "011 The Not-So-Great Escape",
@@ -26592,7 +26592,7 @@
       "Where to find:",
       "Obtained during quest",
       "073 Whipping Boy's Wish",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/073-whipping-boy-s-wish": "073 Whipping Boy's Wish",
@@ -26729,7 +26729,7 @@
       "(steal only)",
       "Alchemises:",
       "Hammer handrills",
-      "claw"
+      "claws"
     ],
     "Links": {
       "/corrupt-carter": "Corrupt carter",
@@ -26818,7 +26818,7 @@
       "Reward for quest",
       "082 To Shell and Back",
       "(one-time)",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/082-to-shell-and-back": "082 To Shell and Back",
@@ -27018,7 +27018,7 @@
       "Where to find:",
       "Obtained during quest",
       "152 Marey Questmas",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/152-marey-questmas": "152 Marey Questmas",
@@ -27167,7 +27167,7 @@
       "(1/128)",
       "Alchemises:",
       "Megaton hammer",
-      "hammer"
+      "hammers"
     ],
     "Links": {
       "/168-potty-about-pots": "168 Potty About Pots",
@@ -27282,7 +27282,7 @@
       "Gigasteel kneecaps",
       "Gigasteel sabatons",
       "Sunstone",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/168-potty-about-pots": "168 Potty About Pots",
@@ -27395,7 +27395,7 @@
       "Reward for quest",
       "174 Agates Ain't Great...Are They?",
       "(one-time)",
-      "spear"
+      "spears"
     ],
     "Links": {
       "/174-agates-ain-t-great-are-they": "174 Agates Ain't Great...Are They?",
@@ -27444,7 +27444,7 @@
       "x3",
       "Alchemises:",
       "Pentarang",
-      "boomerang"
+      "boomerangs"
     ],
     "Links": {
       "/lucida-shard": "Lucida shard",
@@ -27465,7 +27465,7 @@
       "Where to find:",
       "Obtained during quest",
       "061 Mager Migraine",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/061-mager-migraine": "061 Mager Migraine",
@@ -27494,7 +27494,7 @@
       "x1 +",
       "Sage's elixir",
       "x3",
-      "wand"
+      "wands"
     ],
     "Links": {
       "/rune-staff": "Rune staff",
@@ -27728,7 +27728,7 @@
       "Where to find:",
       "Obtained during quest",
       "031 Feathers for a Fan",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/031-feathers-for-a-fan": "031 Feathers for a Fan",
@@ -27854,7 +27854,7 @@
       "(1/128)",
       "Alchemises:",
       "Sandstorm spear",
-      "spear"
+      "spears"
     ],
     "Links": {
       "/gold-rosary": "Gold rosary",
@@ -27969,7 +27969,7 @@
       "White shield",
       "Holy talisman",
       "Magic water",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/aurora-blade": "Aurora blade",
@@ -28048,7 +28048,7 @@
       "(1/8)",
       "Alchemises:",
       "Friendly fan",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/friendly-fan": "Friendly fan",
@@ -28157,7 +28157,7 @@
       "x1 +",
       "Archer's armguard",
       "x1",
-      "bow"
+      "bows"
     ],
     "Links": {
       "/archer-s-armguard": "Archer's armguard",
@@ -28283,7 +28283,7 @@
       "(1/64)",
       "Alchemises:",
       "Crucerang",
-      "bow"
+      "bows"
     ],
     "Links": {
       "/chain-whip": "Chain whip",
@@ -28366,7 +28366,7 @@
       "Dire critical fan",
       "Alchemises:",
       "Critical fan",
-      "fan"
+      "fans"
     ],
     "Links": {
       "/agate-of-evolution": "Agate of evolution",
@@ -28403,7 +28403,7 @@
       "Strength-based (300–999), 10%–40% chance; fails:",
       "Supernova sword",
       "alchemiracle",
-      "sword"
+      "swords"
     ],
     "Links": {
       "/agate-of-evolution": "Agate of Evolution",
@@ -28492,7 +28492,7 @@
       "Avalanche axe",
       "Ice Shield",
       "Enchanted stone",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/avalanche-axe": "Avalanche axe",
@@ -28592,7 +28592,7 @@
       "Fenrir fang",
       ",",
       "Ice axe",
-      "knife"
+      "knives"
     ],
     "Links": {
       "/067-nab-the-knife-nicker": "067 Nab the Knife-Nicker",
@@ -28781,7 +28781,7 @@
       "x1 +",
       "Rockbomb shard",
       "x3",
-      "sword"
+      "swords"
     ],
     "Links": {
       "/fire-blade": "Fire blade",
@@ -28842,7 +28842,7 @@
       "Important Item",
       "Where to find:",
       "Obtained during story events",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/system:page-tags/tag/important-item": "important-item"
@@ -28975,7 +28975,7 @@
       "Dourbridge (weapon/armour shop), Bloomingdale (weapon shop)",
       "Alchemises:",
       "Steel bar",
-      "stave"
+      "staves"
     ],
     "Links": {
       "/steel-bar": "Steel bar",
@@ -29010,7 +29010,7 @@
       "Steel broadsword",
       ",",
       "Platinum sword",
-      "sword"
+      "swords"
     ],
     "Links": {
       "/gum-shield": "Gum shield",
@@ -29045,7 +29045,7 @@
       "Steel claws",
       ",",
       "Sacred claws",
-      "claw"
+      "claws"
     ],
     "Links": {
       "/bewarewolf": "Bewarewolf",
@@ -29106,7 +29106,7 @@
       "Stornway (weapon shop), Coffinwell (weapon shop)",
       "Alchemises:",
       "Steel fan",
-      "fan"
+      "fans"
     ],
     "Links": {
       "/steel-fan": "Steel fan",
@@ -29229,7 +29229,7 @@
       "Steel lance",
       ",",
       "Holy lance",
-      "spear"
+      "spears"
     ],
     "Links": {
       "/chariot-chappie": "Chariot chappie",
@@ -29303,7 +29303,7 @@
       "Spiked armour",
       "Chainmail socks",
       "Payback pumps",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/chainmail-socks": "Chainmail socks",
@@ -29371,7 +29371,7 @@
       "Steel sabatons",
       "Gigasteel sabatons",
       "Densinium",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/bad-karmour": "Bad karmour",
@@ -29501,7 +29501,7 @@
       "Demon whip",
       "Can be used for:",
       "012 Putting on the Glitz",
-      "whip"
+      "whips"
     ],
     "Links": {
       "/012-putting-on-the-glitz": "012 Putting on the Glitz",
@@ -30184,7 +30184,7 @@
       "Where to find:",
       "Obtained during quest",
       "167 Who's a Pretty Boy?",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/167-who-s-a-pretty-boy": "167 Who's a Pretty Boy?",
@@ -30408,7 +30408,7 @@
       "Important Item",
       "Where to find:",
       "Obtained during story events",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/system:page-tags/tag/important-item": "important-item"
@@ -30472,7 +30472,7 @@
       "Kite claws",
       ",",
       "Eaglewing",
-      "claw"
+      "claws"
     ],
     "Links": {
       "/075-rake-a-tail-feather": "075 Rake a Tail Feather",
@@ -30609,7 +30609,7 @@
       "Reward for quest",
       "071 Staunch the Stench",
       "(one-time)",
-      "stave"
+      "staves"
     ],
     "Links": {
       "/071-staunch-the-stench": "071 Staunch the Stench",
@@ -30722,7 +30722,7 @@
       "x4 +",
       "Wing of bat",
       "x4",
-      "claw"
+      "claws"
     ],
     "Links": {
       "/cobra-claws": "Cobra claws",
@@ -31004,7 +31004,7 @@
       "x1 +",
       "Enchanted stone",
       "x2",
-      "claw"
+      "claws"
     ],
     "Links": {
       "/enchanted-stone": "Enchanted stone",
@@ -31041,7 +31041,7 @@
       "Kitty shield",
       "Catty shield",
       "Cat ears",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/cat-ears": "Cat ears",
@@ -31143,7 +31143,7 @@
       "Reward for quest",
       "068 Spice Up Your Knife",
       "(one-time)",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/068-spice-up-your-knife": "068 Spice Up Your Knife",
@@ -31175,7 +31175,7 @@
       "Rank 10 (S) blue chest in grotto (1%)",
       "Alchemises:",
       "Senseless stick",
-      "stave"
+      "staves"
     ],
     "Links": {
       "/catatonic-cosh": "Catatonic cosh",
@@ -31279,7 +31279,7 @@
       "Blessed bottoms",
       "Required for:",
       "014 Snug as a Thug",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/014-snug-as-a-thug": "014 Snug as a Thug",
@@ -31342,7 +31342,7 @@
       "Where to find:",
       "Obtained during quest",
       "062 Brian's Dyin' Wish",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/062-brian-s-dyin-wish": "062 Brian's Dyin' Wish",
@@ -31394,7 +31394,7 @@
       "Stornway (weapon shop)",
       "Alchemises:",
       "Longbow",
-      "stave"
+      "staves"
     ],
     "Links": {
       "/longbow": "Longbow",
@@ -31444,7 +31444,7 @@
       "Flametang boomerang",
       "Flame shield",
       "Hephaestus' flame",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/admirer": "Admirer",
@@ -31815,7 +31815,7 @@
       "(1/32)",
       "Alchemises:",
       "Snakeskin whip",
-      "whip"
+      "whips"
     ],
     "Links": {
       "/lunatick": "Lunatick",
@@ -32168,7 +32168,7 @@
       "x 5 +",
       "Sage's elixir",
       "x1",
-      "wand"
+      "wands"
     ],
     "Links": {
       "/lightning-staff": "Lightning staff",
@@ -32205,7 +32205,7 @@
       "Upover (weapon shop)",
       "Alchemises:",
       "Storm spear",
-      "spear"
+      "spears"
     ],
     "Links": {
       "/celestial-spear": "Celestial spear",
@@ -32251,7 +32251,7 @@
       "Lightning conductor",
       "Can be used for:",
       "012 Putting on the Glitz",
-      "wand"
+      "wands"
     ],
     "Links": {
       "/012-putting-on-the-glitz": "012 Putting on the Glitz",
@@ -32517,7 +32517,7 @@
       "x6",
       "Alchemises:",
       "Metal king spear",
-      "spear"
+      "spears"
     ],
     "Links": {
       "/metal-king-spear": "Metal king spear",
@@ -32551,7 +32551,7 @@
       "x6",
       "Alchemises:",
       "Metal king sword",
-      "sword"
+      "swords"
     ],
     "Links": {
       "/metal-king-sword": "Metal king sword",
@@ -32585,7 +32585,7 @@
       "x6",
       "Alchemises:",
       "Metal king spear",
-      "spear"
+      "spears"
     ],
     "Links": {
       "/metal-king-spear": "Metal king spear",
@@ -32640,7 +32640,7 @@
       "Where to find:",
       "Obtained during quest",
       "129 A Spot of Book-Keyping",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/129-a-spot-of-book-keyping": "129 A Spot of Book-Keyping",
@@ -32761,7 +32761,7 @@
       "(1/128)",
       "Alchemises:",
       "Celestial spear",
-      "spear"
+      "spears"
     ],
     "Links": {
       "/celestial-spear": "Celestial spear",
@@ -32790,7 +32790,7 @@
       "x1",
       "Alchemises:",
       "Hunter's bow",
-      "bow"
+      "bows"
     ],
     "Links": {
       "/hunter-s-bow": "Hunter's bow",
@@ -32883,7 +32883,7 @@
       "Meteorite bracer",
       "Sainted soma",
       "Sunstone",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/061-mager-migraine": "061 Mager Migraine",
@@ -32963,7 +32963,7 @@
       "Reward for quest",
       "120 Your Time to Shine",
       "(one-time)",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/120-your-time-to-shine": "120 Your Time to Shine",
@@ -32983,7 +32983,7 @@
       "Where to find:",
       "Obtained during quest",
       "100 Busted",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/100-busted": "100 Busted",
@@ -33016,7 +33016,7 @@
       "(one-time; optional)",
       "Alchemises:",
       "Solar fan",
-      "fan"
+      "fans"
     ],
     "Links": {
       "/022-mantle-a-la-mode": "022 Mantle a La Mode",
@@ -33050,7 +33050,7 @@
       "Razer-wing boomerang",
       ",",
       "Full moon ring",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/boogie-manguini": "Boogie manguini",
@@ -33308,7 +33308,7 @@
       "Reward for quest",
       "096 Faerie Nearly There",
       "(one-time)",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/096-faerie-nearly-there": "096 Faerie Nearly There",
@@ -33455,7 +33455,7 @@
       "Leather kilt",
       "Tussler's trousers",
       "Hobnail boots",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/badboon": "Badboon",
@@ -33537,7 +33537,7 @@
       "Pointy hat",
       "Spiked armour",
       "Payback pumps",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/037-funghi-for-a-fun-guy": "037 Funghi for a Fun Guy",
@@ -33575,7 +33575,7 @@
       "Important Item",
       "Where to find:",
       "Red chest in Mirage Mahal - L3",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/system:page-tags/tag/important-item": "important-item"
@@ -33732,7 +33732,7 @@
       "Sage's elixir",
       "Required for:",
       "008 Don't Cry Over Spilt Ink",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/008-don-t-cry-over-spilt-ink": "008 Don't Cry Over Spilt Ink",
@@ -33807,7 +33807,7 @@
       "Upover (weapon shop)",
       "Alchemises:",
       "Mega-magical mace",
-      "wand"
+      "wands"
     ],
     "Links": {
       "/mega-magical-mace": "Mega-magical mace",
@@ -33932,7 +33932,7 @@
       "Dropped by:",
       "Live lava",
       "(1/128)",
-      "wand"
+      "wands"
     ],
     "Links": {
       "/brighten-rock": "Brighten rock",
@@ -33975,7 +33975,7 @@
       "Where to find:",
       "Obtained during quest",
       "053 Magmalice Mania",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/053-magmalice-mania": "053 Magmalice Mania",
@@ -34220,7 +34220,7 @@
       "Murky mittens",
       "Skull ring",
       "Reckless necklace",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/183-poison-needle-1-ow-1": "183 Poison Needle 1 Ow 1",
@@ -34403,7 +34403,7 @@
       "Where to find:",
       "Obtained during quest",
       "079 Bring Oi Back Me Axe",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/079-bring-oi-back-me-axe": "079 Bring Oi Back Me Axe",
@@ -34554,7 +34554,7 @@
       "Mystifying mixture",
       "Required for:",
       "127 A Right Royal Nightmare",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/127-a-right-royal-nightmare": "127 A Right Royal Nightmare",
@@ -34590,7 +34590,7 @@
       "Dropped by:",
       "Great troll",
       "(1/128)",
-      "hammer"
+      "hammers"
     ],
     "Links": {
       "/great-troll": "Great troll",
@@ -34723,7 +34723,7 @@
       "Reward for quest",
       "098 Slowly, Slowly, Critty Golem",
       "(one-time)",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/098-slowly-slowly-critty-golem": "098 Slowly, Slowly, Critty Golem",
@@ -35279,7 +35279,7 @@
       "005 Herb'list",
       "Can be used for:",
       "013 All Fired Up",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/005-herb-list": "005 Herb'list",
@@ -35426,7 +35426,7 @@
       "Giga Gringham whip",
       ",",
       "Über Gringham whip",
-      "whip"
+      "whips"
     ],
     "Links": {
       "/agate-of-evolution": "Agate of evolution",
@@ -35488,7 +35488,7 @@
       "x1 +",
       "Mythril ore",
       "x3",
-      "wand"
+      "wands"
     ],
     "Links": {
       "/astral-plume": "Astral plume",
@@ -35529,7 +35529,7 @@
       "Where to find:",
       "Obtained during quest",
       "054 Moai Memorabilia",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/054-moai-memorabilia": "054 Moai Memorabilia",
@@ -35560,7 +35560,7 @@
       "Rank 8 (B) blue chest in grotto (1%)",
       "Alchemises:",
       "Warlord's hammer",
-      "hammer"
+      "hammers"
     ],
     "Links": {
       "/densinium": "Densinium",
@@ -35582,7 +35582,7 @@
       "Where to find:",
       "Obtained during quest",
       "056 Nicholas's Necklace",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/056-nicholas-s-necklace": "056 Nicholas's Necklace",
@@ -36010,7 +36010,7 @@
       "x1 +",
       "Slime crown",
       "x1",
-      "spear"
+      "spears"
     ],
     "Links": {
       "/liquid-metal-spear": "Liquid Metal Spear",
@@ -36041,7 +36041,7 @@
       "x1 +",
       "Slime crown",
       "x1",
-      "sword"
+      "swords"
     ],
     "Links": {
       "/liquid-metal-sword": "Liquid metal sword",
@@ -36288,7 +36288,7 @@
       "Rank 9 (A) blue chest in grotto (1%)",
       "Alchemises:",
       "Liquid metal spear",
-      "spear"
+      "spears"
     ],
     "Links": {
       "/liquid-metal-spear": "Liquid metal spear",
@@ -36317,7 +36317,7 @@
       "(first-time)",
       "Alchemises:",
       "Liquid metal sword",
-      "sword"
+      "swords"
     ],
     "Links": {
       "/165-shame-on-goo": "165 Shame on Goo",
@@ -36380,7 +36380,7 @@
       "Rank 10 (S) blue chest in grotto (1%)",
       "Alchemises:",
       "Asterang",
-      "boomerang"
+      "boomerangs"
     ],
     "Links": {
       "/asterang": "Asterang",
@@ -36807,7 +36807,7 @@
       "(1/16),",
       "Mimic",
       "(1/16), all legacy bosses (100%)",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/026-doug-and-the-sluggers": "026 Doug and the Sluggers",
@@ -36958,7 +36958,7 @@
       "Reward for quest",
       "102 Prat's the Way to Do It!",
       "(one-time)",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/102-prat-s-the-way-to-do-it": "102 Prat's the Way to Do It!",
@@ -37008,7 +37008,7 @@
       "(1/20)",
       "Alchemises:",
       "Über miracle sword",
-      "sword"
+      "swords"
     ],
     "Links": {
       "/shogum": "Shogum",
@@ -37066,7 +37066,7 @@
       "Where to find:",
       "Obtained during quest",
       "071 Staunch the Stench",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/071-staunch-the-stench": "071 Staunch the Stench",
@@ -37097,7 +37097,7 @@
       "Mirror armour",
       "Catoptric armour",
       "Sunstone",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/alphyn": "Alphyn",
@@ -37150,7 +37150,7 @@
       "(1/32)",
       "Alchemises:",
       "Optimistick",
-      "stave"
+      "staves"
     ],
     "Links": {
       "/cumulus-hex": "Cumulus hex",
@@ -37227,7 +37227,7 @@
       "Where to find:",
       "Obtained during quest",
       "070 Look, Back in Anger",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/070-look-back-in-anger": "070 Look, Back in Anger",
@@ -37523,7 +37523,7 @@
       "Starsmasher",
       "Alchemises:",
       "Groundbreaker",
-      "hammer"
+      "hammers"
     ],
     "Links": {
       "/agate-of-evolution": "Agate of evolution",
@@ -37579,7 +37579,7 @@
       "Panacea",
       "Required for:",
       "005 Herb'list",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/005-herb-list": "005 Herb'list",
@@ -38149,7 +38149,7 @@
       "Purblind bow",
       "Blinding bow",
       "Enchanted stone",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/038-muffled-admiration": "038 Muffled Admiration",
@@ -38302,7 +38302,7 @@
       "Safer shoes",
       "Required for:",
       "146 Hail to the Queen",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/146-hail-to-the-queen": "146 Hail to the Queen",
@@ -38358,7 +38358,7 @@
       "Malicite",
       "Required for:",
       "060 That Makes Scents",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/060-that-makes-scents": "060 That Makes Scents",
@@ -38455,7 +38455,7 @@
       "Supernova sword",
       ",",
       "Hypernova sword",
-      "sword"
+      "swords"
     ],
     "Links": {
       "/agate-of-evolution": "Agate of evolution",
@@ -38489,7 +38489,7 @@
       "Magic water",
       "Sage's elixir",
       "Elfin elixir",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/041-style-gooru": "041 Style Gooru",
@@ -38760,7 +38760,7 @@
       "Where to find:",
       "Obtained during quest",
       "127 A Right Royal Nightmare",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/127-a-right-royal-nightmare": "127 A Right Royal Nightmare",
@@ -38868,7 +38868,7 @@
       "Where to find:",
       "Obtained during quest",
       "162 Do Nod Disturb",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/162-do-nod-disturb": "162 Do Nod Disturb",
@@ -39075,7 +39075,7 @@
       "(1/16),",
       "Winkster",
       "(1/64)",
-      "wand"
+      "wands"
     ],
     "Links": {
       "/meowgician": "Meowgician",
@@ -39109,7 +39109,7 @@
       "(1/64)",
       "Alchemises:",
       "Ace of clubs",
-      "hammer"
+      "hammers"
     ],
     "Links": {
       "/ace-of-clubs": "Ace of clubs",
@@ -39138,7 +39138,7 @@
       "Coffinwell (weapon shop), Alltrades Abbey (item shop)",
       "Alchemises:",
       "Pillar of strength",
-      "stave"
+      "staves"
     ],
     "Links": {
       "/pillar-of-strength": "Pillar of strength",
@@ -39187,7 +39187,7 @@
       "x3",
       "Alchemises:",
       "Oh-no bow",
-      "bow"
+      "bows"
     ],
     "Links": {
       "/oh-no-bow": "Oh-no bow",
@@ -39250,7 +39250,7 @@
       "Rank 6 (D) blue chest in grotto (1%)",
       "Alchemises:",
       "Odin's bow",
-      "bow"
+      "bows"
     ],
     "Links": {
       "/malicite": "Malicite",
@@ -39270,7 +39270,7 @@
       "Where to find:",
       "Obtained during quest",
       "130 Exhume the Heirloom",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/130-exhume-the-heirloom": "130 Exhume the Heirloom",
@@ -39321,7 +39321,7 @@
       "x1",
       "Alchemises:",
       "Ballistick",
-      "stave"
+      "staves"
     ],
     "Links": {
       "/agility-ring": "Agility ring",
@@ -39455,7 +39455,7 @@
       "x3 +",
       "Hephaestus' flame",
       "x3",
-      "stave"
+      "staves"
     ],
     "Links": {
       "/hephaestus-flame": "Hephaestus' flame",
@@ -39519,7 +39519,7 @@
       "Metal king slime boots",
       "Safest shoes",
       "Sage's stone",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/144-claws-for-thought": "144 Claws for Thought",
@@ -39577,7 +39577,7 @@
       "x2 +",
       "Hephaestus' flame",
       "x2",
-      "claw"
+      "claws"
     ],
     "Links": {
       "/combusticlaws": "Combusticlaws",
@@ -39611,7 +39611,7 @@
       "Hypercritical fan",
       ",",
       "Dire critical fan",
-      "fan"
+      "fans"
     ],
     "Links": {
       "/agate-of-evolution": "Agate of evolution",
@@ -39634,7 +39634,7 @@
       "Where to find:",
       "Obtained during quest",
       "051 A Martyr to His Ma",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/051-a-martyr-to-his-ma": "051 A Martyr to His Ma",
@@ -39655,7 +39655,7 @@
       "017 You Shouldn't Have...Really",
       "Required for:",
       "017 You Shouldn't Have…Really",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/017-you-shouldn-t-have-really": "017 You Shouldn't Have...Really",
@@ -39824,7 +39824,7 @@
       "Perfect panacea",
       "Required for:",
       "004 Pick Me Up a Panacea",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/004-pick-me-up-a-panacea": "004 Pick Me Up a Panacea",
@@ -39953,7 +39953,7 @@
       "Knife",
       "Where to find:",
       "Stornway (weapon shop)",
-      "knife"
+      "knives"
     ],
     "Links": {
       "/system:page-tags/tag/knife": "knife"
@@ -39983,7 +39983,7 @@
       "(1/128)",
       "Alchemises:",
       "Halberd",
-      "spear"
+      "spears"
     ],
     "Links": {
       "/halberd": "Halberd",
@@ -40016,7 +40016,7 @@
       "Reward for quest",
       "155 Christinamas Cake",
       "(one-time)",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/155-christinamas-cake": "155 Christinamas Cake",
@@ -40180,7 +40180,7 @@
       "Rank 8 (B) blue chest in grotto (1%)",
       "Alchemises:",
       "Hexarang",
-      "boomerang"
+      "boomerangs"
     ],
     "Links": {
       "/hexarang": "Hexarang",
@@ -40208,7 +40208,7 @@
       "Rank 7 (C) blue chest in grotto (6%)",
       "Alchemises:",
       "Ethereal stone",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/angel-bell": "Angel bell",
@@ -40285,7 +40285,7 @@
       "x1",
       "Where to find:",
       "Bloomingdale (weapon shop), Gleeba (weapon shop)",
-      "stave"
+      "staves"
     ],
     "Links": {
       "/oaken-pole": "Oaken pole",
@@ -40377,7 +40377,7 @@
       "Where to find:",
       "Obtained during quest",
       "038 Muffled Admiration",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/038-muffled-admiration": "038 Muffled Admiration",
@@ -40656,7 +40656,7 @@
       "Platinum shield",
       "Platinum headgear",
       "Platinum mail",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/028-desert-foxes": "028 Desert Foxes",
@@ -40684,7 +40684,7 @@
       "Where to find:",
       "Obtained during quest",
       "128 P-P-Pick Up a Pickaxe",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/128-p-p-pick-up-a-pickaxe": "128 P-P-Pick Up a Pickaxe",
@@ -40788,7 +40788,7 @@
       "(1/64)",
       "Can be used for:",
       "012 Putting on the Glitz",
-      "sword"
+      "swords"
     ],
     "Links": {
       "/012-putting-on-the-glitz": "012 Putting on the Glitz",
@@ -40811,7 +40811,7 @@
       "Where to find:",
       "Obtained during quest",
       "173 Plum Duffer",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/173-plum-duffer": "173 Plum Duffer",
@@ -40910,7 +40910,7 @@
       "Batterfly knife",
       ",",
       "Full moon ring",
-      "knife"
+      "knives"
     ],
     "Links": {
       "/batterfly-knife": "Batterfly knife",
@@ -40958,7 +40958,7 @@
       "Contra band",
       "Required for:",
       "183 Poison Needle 1 Ow 1",
-      "knife"
+      "knives"
     ],
     "Links": {
       "/183-poison-needle-1-ow-1": "183 Poison Needle 1 Ow 1",
@@ -40994,7 +40994,7 @@
       "Rank 10 (S) blue chest in grotto (1%)",
       "Alchemises:",
       "Stud poker",
-      "spear"
+      "spears"
     ],
     "Links": {
       "/reset-stone": "Reset stone",
@@ -41193,7 +41193,7 @@
       "Where to find:",
       "DQVC shop",
       "dqvc",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/system:page-tags/tag/dqvc": "dqvc",
@@ -41271,7 +41271,7 @@
       "Hotshot bow",
       ",",
       "Blowy bow",
-      "bow"
+      "bows"
     ],
     "Links": {
       "/blowy-bow": "Blowy bow",
@@ -41379,7 +41379,7 @@
       "Where to find:",
       "Obtained during quest",
       "163 When a Star Wishes Upon You",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/163-when-a-star-wishes-upon-you": "163 When a Star Wishes Upon You",
@@ -41565,7 +41565,7 @@
       "Reward for quest",
       "094 Nurtural Selection",
       "(one-time)",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/094-nurtural-selection": "094 Nurtural Selection",
@@ -41821,7 +41821,7 @@
       "Reward from quest",
       "183 Poison Needle 1 Ow 1",
       "(first-time; repeat)",
-      "knife"
+      "knives"
     ],
     "Links": {
       "/183-poison-needle-1-ow-1": "183 Poison Needle 1 Ow 1",
@@ -42015,7 +42015,7 @@
       "Stornway (weapon shop)",
       "Alchemises:",
       "Blinding bow",
-      "bow"
+      "bows"
     ],
     "Links": {
       "/blinding-bow": "Blinding bow",
@@ -42058,7 +42058,7 @@
       "Immortal trousers",
       "Eternity trousers",
       "Infinity trousers",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/182-an-immaculate-conception": "182 An Immaculate Conception",
@@ -42142,7 +42142,7 @@
       "Important Item",
       "Where to find:",
       "Obtained during story events",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/system:page-tags/tag/important-item": "important-item"
@@ -42207,7 +42207,7 @@
       "Stornway (weapon shop)",
       "Alchemises:",
       "Empress's whip",
-      "whip"
+      "whips"
     ],
     "Links": {
       "/empress-s-whip": "Empress's whip",
@@ -43031,7 +43031,7 @@
       "Reward for quest",
       "114 One-Turn Wonder",
       "(one-time)",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/114-one-turn-wonder": "114 One-Turn Wonder",
@@ -43050,7 +43050,7 @@
       "Where to find:",
       "Obtained during quest",
       "176 Well Forgetful",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/176-well-forgetful": "176 Well Forgetful",
@@ -43078,7 +43078,7 @@
       "Fizzle foil",
       "Can be used for:",
       "012 Putting on the Glitz",
-      "sword"
+      "swords"
     ],
     "Links": {
       "/012-putting-on-the-glitz": "012 Putting on the Glitz",
@@ -43200,7 +43200,7 @@
       "x3",
       "Alchemises:",
       "Erazor-wing-boomerang",
-      "boomerang"
+      "boomerangs"
     ],
     "Links": {
       "/erazor-wing-boomerang": "Erazor-wing-boomerang",
@@ -43229,7 +43229,7 @@
       "Dropped by:",
       "Riptide",
       "(1/64)",
-      "claw"
+      "claws"
     ],
     "Links": {
       "/riptide": "Riptide",
@@ -43257,7 +43257,7 @@
       "Vermillion Bird fan",
       ",",
       "Razer-wing boomerang",
-      "boomerang"
+      "boomerangs"
     ],
     "Links": {
       "/razer-wing-boomerang": "Razer-wing boomerang",
@@ -43373,7 +43373,7 @@
       "Magical Mending-based (300–999), 10%–40% chance; fails:",
       "Split-pot poker",
       "alchemiracle",
-      "spear"
+      "spears"
     ],
     "Links": {
       "/agate-of-evolution": "Agate of evolution",
@@ -43417,7 +43417,7 @@
       "Diana gauntlets",
       "Tempestes gauntlets",
       "Sol Invictus gauntlets",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/166-research-and-destroy": "166 Research and Destroy",
@@ -43527,7 +43527,7 @@
       "x3",
       "Alchemises:",
       "Crucerang",
-      "boomerang"
+      "boomerangs"
     ],
     "Links": {
       "/boomerang": "Boomerang",
@@ -43584,7 +43584,7 @@
       "Invincible trousers",
       "Hero's boots",
       "Sensible sandals",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/173-plum-duffer": "173 Plum Duffer",
@@ -43686,7 +43686,7 @@
       "Life ring",
       "Required for:",
       "049 Rock On",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/049-rock-on": "049 Rock On",
@@ -44031,7 +44031,7 @@
       "Combusticlaws",
       "Flametang boomerang",
       "Banefire boomerang",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/055-mummy-s-little-hero": "055 Mummy's Little Hero",
@@ -44228,7 +44228,7 @@
       "Where to find:",
       "Obtained during quest",
       "143 Thingy, King of, er...",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/143-thingy-king-of-er": "143 Thingy, King of, er...",
@@ -44277,7 +44277,7 @@
       "Hephaestus' flame",
       "Required for:",
       "036 Little Miss Bossy Boots",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/036-little-miss-bossy-boots": "036 Little Miss Bossy Boots",
@@ -44471,7 +44471,7 @@
       "Wormwood Creek (weapon shop)",
       "Alchemises:",
       "Hieroglyph staff",
-      "wand"
+      "wands"
     ],
     "Links": {
       "/hieroglyph-staff": "Hieroglyph staff",
@@ -44606,7 +44606,7 @@
       "Red chest in Realm of the Mighty (L9)",
       "Alchemises:",
       "Erdrick's sword",
-      "sword"
+      "swords"
     ],
     "Links": {
       "/erdrick-s-sword": "Erdrick's sword",
@@ -44740,7 +44740,7 @@
       "(1/64),",
       "Claws",
       "(1/64)",
-      "claw"
+      "claws"
     ],
     "Links": {
       "/claws": "Claws",
@@ -44796,7 +44796,7 @@
       "Stave",
       "Where to find:",
       "Upover (weapon shop)",
-      "stave"
+      "staves"
     ],
     "Links": {
       "/system:page-tags/tag/stave": "stave"
@@ -45004,7 +45004,7 @@
       "Brahman boots",
       "Prayer ring",
       "Sainted soma",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/050-confession-of-cin-s": "050 Confession of Cin's",
@@ -45117,7 +45117,7 @@
       "Stornway (weapon shop)",
       "Alchemises:",
       "Savant's staff",
-      "wand"
+      "wands"
     ],
     "Links": {
       "/insulate": "Insulate",
@@ -45141,7 +45141,7 @@
       "x3 +",
       "Silver orb",
       "x1",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/birdsong-nectar": "Birdsong nectar",
@@ -45215,7 +45215,7 @@
       "Celestria's gown",
       "Sorcerer's ring",
       "Lucky pendant",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/021-spud-she-like": "021 Spud-She-Like",
@@ -45258,7 +45258,7 @@
       "Goddess ring",
       "Gold bar",
       "Agate of evolution",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/agate-of-evolution": "Agate of evolution",
@@ -45468,7 +45468,7 @@
       "Gleeba (weapon shop), Batsureg (weapon shop), Wormwood Creek (weapon shop)",
       "Alchemises:",
       "Sober ring",
-      "spear"
+      "spears"
     ],
     "Links": {
       "/dazzle": "Dazzle",
@@ -45680,7 +45680,7 @@
       "x1 +",
       "Sage's elixir",
       "x3",
-      "wand"
+      "wands"
     ],
     "Links": {
       "/agate-of-evolution": "Agate of evolution",
@@ -45818,7 +45818,7 @@
       "(100%)",
       "Can be used for:",
       "012 Putting on the Glitz",
-      "wand"
+      "wands"
     ],
     "Links": {
       "/012-putting-on-the-glitz": "012 Putting on the Glitz",
@@ -45897,7 +45897,7 @@
       "x1 +",
       "Saint's ashes",
       "x1",
-      "whip"
+      "whips"
     ],
     "Links": {
       "/archdemon-whip": "Archdemon whip",
@@ -46066,7 +46066,7 @@
       "Hot bikini top",
       "Hot bikini bottoms",
       "White tights",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/crabber-dabber-doo": "Crabber dabber doo",
@@ -46116,7 +46116,7 @@
       "Reward for quest",
       "088 Buckler's Buckler",
       "(one-time)",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/088-buckler-s-buckler": "088 Buckler's Buckler",
@@ -46142,7 +46142,7 @@
       "Dropped by:",
       "Killing machine",
       "(1/256)",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/041-style-gooru": "041 Style Gooru",
@@ -46173,7 +46173,7 @@
       "Dropped by:",
       "Lethal armour",
       "(1/256)",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/024-battering-batterflies": "024 Battering Batterflies",
@@ -46199,7 +46199,7 @@
       "Dropped by:",
       "White trigertaur",
       "(1/256)",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/022-mantle-a-la-mode": "022 Mantle à La Mode",
@@ -46228,7 +46228,7 @@
       "(1/256),",
       "Moosifer",
       "(1/256)",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/006-get-well-water": "006 Get Well Water",
@@ -46257,7 +46257,7 @@
       "Dropped by:",
       "Sorcerer",
       "(1/256)",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/008-don-t-cry-over-spilt-ink": "008 Don't Cry Over Spilt Ink",
@@ -46282,7 +46282,7 @@
       "Dropped by:",
       "Platinum king jewel",
       "(1/256)",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/018-our-precious-precious": "018 Our Precious Precious",
@@ -46305,7 +46305,7 @@
       "Where to find:",
       "One time reward of three from quest",
       "023 Research Assistant",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/023-research-assistant": "023 Research Assistant",
@@ -46331,7 +46331,7 @@
       "(1/256),",
       "Troll",
       "(1/256)",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/007-curious-crevice": "007 Curious Crevice",
@@ -46356,7 +46356,7 @@
       "Dropped by:",
       "Wight king",
       "(1/256)",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/050-confession-of-cin-s": "050 Confession of Cin's",
@@ -46423,7 +46423,7 @@
       "Catatonic cosh",
       ",",
       "Coma cudgel",
-      "stave"
+      "staves"
     ],
     "Links": {
       "/agate-of-evolution": "Agate of evolution",
@@ -46536,7 +46536,7 @@
       "Deftness-based (300–999), 10%–40% chance; fails:",
       "Aeon's bow",
       "alchemiracle",
-      "bow"
+      "bows"
     ],
     "Links": {
       "/aeon-s-bow": "Aeon's bow",
@@ -46599,7 +46599,7 @@
       "Important Item",
       "Where to find:",
       "Obtained during story events",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/system:page-tags/tag/important-item": "important-item"
@@ -46637,7 +46637,7 @@
       "x1",
       "Alchemises:",
       "Sidewinder",
-      "whip"
+      "whips"
     ],
     "Links": {
       "/magic-beast-horn": "Magic beast horn",
@@ -46996,7 +46996,7 @@
       "Brilliant staff",
       ",",
       "Aurora staff",
-      "wand"
+      "wands"
     ],
     "Links": {
       "/agate-of-evolution": "Agate of evolution",
@@ -47168,7 +47168,7 @@
       "Porth Llaffan (weapon/armour shop)",
       "Alchemises:",
       "Longbow",
-      "bow"
+      "bows"
     ],
     "Links": {
       "/longbow": "Longbow",
@@ -47222,7 +47222,7 @@
       "x6 +",
       "Tough guy tattoo",
       "x1",
-      "whip"
+      "whips"
     ],
     "Links": {
       "/serpentine-whip": "Serpentine whip",
@@ -47459,7 +47459,7 @@
       "Grandmaster's gloves",
       "Godly gloves",
       "Sage's stone",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/153-not-so-jolly-roger": "153 Not-So-Jolly Roger",
@@ -47995,7 +47995,7 @@
       "Hammer",
       "Where to find:",
       "Porth Llaffan (weapon/armour shop)",
-      "hammer"
+      "hammers"
     ],
     "Links": {
       "/system:page-tags/tag/hammer": "hammer"
@@ -48034,7 +48034,7 @@
       "Birdsong nectar",
       "Required for:",
       "146 Hail to the Queen",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/001-one-good-turn": "001 One Good Turn",
@@ -48073,7 +48073,7 @@
       "Slumber stick",
       ",",
       "Rousing ring",
-      "stave"
+      "staves"
     ],
     "Links": {
       "/rousing-ring": "Rousing ring",
@@ -48566,7 +48566,7 @@
       "Slime earrings",
       "Required for:",
       "007 Curious Crevice",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/007-curious-crevice": "007 Curious Crevice",
@@ -48636,7 +48636,7 @@
       "Divine bustier",
       "Matador's gloves",
       "Finessence",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/cloak-of-concealment": "Cloak of concealment",
@@ -48792,7 +48792,7 @@
       "x3 +",
       "Narspicious",
       "x1",
-      "stave"
+      "staves"
     ],
     "Links": {
       "/narspicious": "Narspicious",
@@ -48906,7 +48906,7 @@
       "Cobra fan",
       "Tricky turban",
       "Large-scale armour",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/026-doug-and-the-sluggers": "026 Doug and the Sluggers",
@@ -48949,7 +48949,7 @@
       "(1/128)",
       "Alchemises:",
       "Serpentine whip",
-      "whip"
+      "whips"
     ],
     "Links": {
       "/leather-whip": "Leather whip",
@@ -49039,7 +49039,7 @@
       "Where to find:",
       "Obtained during quest",
       "064 Turn in Your Badges",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/064-turn-in-your-badges": "064 Turn in Your Badges",
@@ -49120,7 +49120,7 @@
       "(1/64)",
       "Alchemises:",
       "Aggressence",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/aggressence": "Aggressence",
@@ -49189,7 +49189,7 @@
       "x3",
       "Alchemises:",
       "Friendly fan",
-      "fan"
+      "fans"
     ],
     "Links": {
       "/crimson-coral": "Crimson coral",
@@ -49256,7 +49256,7 @@
       "(1/64)",
       "Alchemises:",
       "Warrior's sword",
-      "sword"
+      "swords"
     ],
     "Links": {
       "/earthenwarrior": "Earthenwarrior",
@@ -49606,7 +49606,7 @@
       "x1 +",
       "Spirit bracer",
       "x1",
-      "knife"
+      "knives"
     ],
     "Links": {
       "/life-bracer": "Life bracer",
@@ -49737,7 +49737,7 @@
       "x2",
       "Alchemises:",
       "Contra band",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/contra-band": "Contra band",
@@ -49766,7 +49766,7 @@
       "Panacea",
       "Required for:",
       "015 Collapsus's Call",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/015-collapsus-s-call": "015 Collapsus's Call",
@@ -49974,7 +49974,7 @@
       "(one-time)",
       "Alchemises:",
       "Gigaspike whip",
-      "whip"
+      "whips"
     ],
     "Links": {
       "/073-whipping-boy-s-wish": "073 Whipping Boy's Wish",
@@ -50157,7 +50157,7 @@
       "Red-hot poker",
       "Alchemises:",
       "Poker",
-      "spear"
+      "spears"
     ],
     "Links": {
       "/agate-of-evolution": "Agate of evolution",
@@ -50279,7 +50279,7 @@
       "Blusterang",
       ",",
       "Billowing bow",
-      "wand"
+      "wands"
     ],
     "Links": {
       "/billowing-bow": "Billowing bow",
@@ -50324,7 +50324,7 @@
       "(1/128)",
       "Alchemises:",
       "Staff of divine wrath",
-      "wand"
+      "wands"
     ],
     "Links": {
       "/clawcerer": "Clawcerer",
@@ -50347,7 +50347,7 @@
       "Where to find:",
       "Obtained during quest",
       "072 Jump for Joy",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/072-jump-for-joy": "072 Jump for Joy",
@@ -50401,7 +50401,7 @@
       "Reward for quest",
       "072 Jump for Joy",
       "(one-time)",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/072-jump-for-joy": "072 Jump for Joy",
@@ -50443,7 +50443,7 @@
       "Where to find:",
       "Obtained during quest",
       "147 Licensed to Drive",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/147-licensed-to-drive": "147 Licensed to Drive",
@@ -50547,7 +50547,7 @@
       "Rank 10 (S) blue chest in grotto (1%)",
       "Alchemises:",
       "Nebula sword",
-      "sword"
+      "swords"
     ],
     "Links": {
       "/nebula-sword": "Nebula sword",
@@ -50610,7 +50610,7 @@
       "Resilence-based (300–999), 10%–40% chance; fails:",
       "Moonmasher",
       "alchemiracle",
-      "hammer"
+      "hammers"
     ],
     "Links": {
       "/agate-of-evolution": "Agate of evolution",
@@ -50701,7 +50701,7 @@
       "x1",
       "Alchemises:",
       "Gigasteel bar",
-      "stave"
+      "staves"
     ],
     "Links": {
       "/gigasteel-bar": "Gigasteel bar",
@@ -50733,7 +50733,7 @@
       "x1",
       "Alchemises:",
       "Gigasteel broadsword",
-      "sword"
+      "swords"
     ],
     "Links": {
       "/gigasteel-broadsword": "Gigasteel broadsword",
@@ -50765,7 +50765,7 @@
       "x1",
       "Alchemises:",
       "Gigasteel claws",
-      "claw"
+      "claws"
     ],
     "Links": {
       "/gigasteel-claws": "Gigasteel claws",
@@ -50797,7 +50797,7 @@
       "x1",
       "Alchemises:",
       "Gigasteel fan",
-      "fan"
+      "fans"
     ],
     "Links": {
       "/gigasteel-fan": "Gigasteel fan",
@@ -50928,7 +50928,7 @@
       "x1",
       "Alchemises:",
       "Gigasteel lance",
-      "spear"
+      "spears"
     ],
     "Links": {
       "/gigasteel-lance": "Gigasteel lance",
@@ -51053,7 +51053,7 @@
       "Upover (weapon shop)",
       "Alchemises:",
       "Lunar fan",
-      "fan"
+      "fans"
     ],
     "Links": {
       "/lunar-fan": "Lunar fan",
@@ -51072,7 +51072,7 @@
       "Where to find:",
       "Obtained during quest",
       "148 Flaptricide",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/148-flaptricide": "148 Flaptricide",
@@ -51180,7 +51180,7 @@
       "Galaxarang",
       "Alchemises:",
       "Meteorang",
-      "boomerang"
+      "boomerangs"
     ],
     "Links": {
       "/agate-of-evolution": "Agate of evolution",
@@ -51253,7 +51253,7 @@
       "Reward for quest",
       "039 Follow That Fish",
       "(one-time)",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/039-follow-that-fish": "039 Follow That Fish",
@@ -51327,7 +51327,7 @@
       "Lightning staff",
       "Magma staff",
       "Rune staff",
-      "wand"
+      "wands"
     ],
     "Links": {
       "/lightning-staff": "Lightning staff",
@@ -51366,7 +51366,7 @@
       "Claw",
       "Where to find:",
       "Stornway (weapon shop)",
-      "claw"
+      "claws"
     ],
     "Links": {
       "/system:page-tags/tag/claw": "claw"
@@ -51444,7 +51444,7 @@
       "x5 +",
       "Gold bar",
       "x1",
-      "spear"
+      "spears"
     ],
     "Links": {
       "/gold-bar": "Gold bar",
@@ -51729,7 +51729,7 @@
       "(1/64)",
       "Alchemises:",
       "Special antidote",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/antidotal-herb": "Antidotal herb",
@@ -51779,7 +51779,7 @@
       "Superior medicine",
       ",",
       "Softwort",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/badboon": "Badboon",
@@ -51848,7 +51848,7 @@
       "Split-pot poker",
       ",",
       "Red-hot poker",
-      "spear"
+      "spears"
     ],
     "Links": {
       "/agate-of-evolution": "Agate of evolution",
@@ -52054,7 +52054,7 @@
       "Apollo's crown",
       "Required for:",
       "021 Spud-She-Like",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/021-spud-she-like": "021 Spud-She-Like",
@@ -52100,7 +52100,7 @@
       "Panacea",
       ",",
       "Finessence",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/bud-brother": "Bud brother",
@@ -52170,7 +52170,7 @@
       "Hypernova sword",
       "Alchemises:",
       "Stardust sword",
-      "sword"
+      "swords"
     ],
     "Links": {
       "/agate-of-evolution": "Agate of evolution",
@@ -52255,7 +52255,7 @@
       "Eaglewing",
       ",",
       "Gusterang",
-      "boomerang"
+      "boomerangs"
     ],
     "Links": {
       "/eaglewing": "Eaglewing",
@@ -52484,7 +52484,7 @@
       "(1/64)",
       "Alchemises:",
       "Soul breaker",
-      "knife"
+      "knives"
     ],
     "Links": {
       "/fright-knight": "Fright knight",
@@ -52540,7 +52540,7 @@
       "Reward for quest",
       "064 Turn in Your Badges",
       "(one-time)",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/064-turn-in-your-badges": "064 Turn in Your Badges",
@@ -59505,7 +59505,7 @@
     "Path": "system:page-tags/tag/boomerang",
     "Text": [
       "List of pages tagged with",
-      "boomerang",
+      "boomerangs",
       ":",
       "Asterang",
       "Banefire Boomerang",
@@ -59555,7 +59555,7 @@
     "Path": "system:page-tags/tag/bow",
     "Text": [
       "List of pages tagged with",
-      "bow",
+      "bows",
       ":",
       "Aeon's Bow",
       "Angel's Bow",
@@ -59603,7 +59603,7 @@
     "Path": "system:page-tags/tag/claw",
     "Text": [
       "List of pages tagged with",
-      "claw",
+      "claws",
       ":",
       "Beast Claws",
       "Beastmaster Claws",
@@ -59873,7 +59873,7 @@
     "Path": "system:page-tags/tag/fan",
     "Text": [
       "List of pages tagged with",
-      "fan",
+      "fans",
       ":",
       "Attribeauty",
       "Azure Dragon Fan",
@@ -60141,7 +60141,7 @@
     "Path": "system:page-tags/tag/hammer",
     "Text": [
       "List of pages tagged with",
-      "hammer",
+      "hammers",
       ":",
       "Ace of Clubs",
       "Earthsplitter",
@@ -60459,7 +60459,7 @@
     "Path": "system:page-tags/tag/important-item",
     "Text": [
       "List of pages tagged with",
-      "important-item",
+      "important",
       ":",
       "Angel's Tears",
       "Backscratcher",
@@ -60631,7 +60631,7 @@
     "Path": "system:page-tags/tag/item",
     "Text": [
       "List of pages tagged with",
-      "item",
+      "everyday",
       ":",
       "'Advanced Axecraft'",
       "Agate of Evolution",
@@ -61005,7 +61005,7 @@
     "Path": "system:page-tags/tag/knife",
     "Text": [
       "List of pages tagged with",
-      "knife",
+      "knives",
       ":",
       "Assassin's Dagger",
       "Batterfly Knife",
@@ -61425,7 +61425,7 @@
     "Path": "system:page-tags/tag/spear",
     "Text": [
       "List of pages tagged with",
-      "spear",
+      "spears",
       ":",
       "Bamboo Lance",
       "Battle Fork",
@@ -61483,7 +61483,7 @@
     "Path": "system:page-tags/tag/stave",
     "Text": [
       "List of pages tagged with",
-      "stave",
+      "staves",
       ":",
       "Ballistick",
       "Carrying Pole",
@@ -61549,7 +61549,7 @@
     "Path": "system:page-tags/tag/sword",
     "Text": [
       "List of pages tagged with",
-      "sword",
+      "swords",
       ":",
       "Aurora Blade",
       "Bandit Blade",
@@ -61983,7 +61983,7 @@
     "Path": "system:page-tags/tag/wand",
     "Text": [
       "List of pages tagged with",
-      "wand",
+      "wands",
       ":",
       "Aurora Staff",
       "Bright Staff",
@@ -62039,7 +62039,7 @@
     "Path": "system:page-tags/tag/whip",
     "Text": [
       "List of pages tagged with",
-      "whip",
+      "whips",
       ":",
       "Archdemon Whip",
       "Battle Whip",
@@ -62304,7 +62304,7 @@
       "Celestial skein",
       "Required for:",
       "001 One Good Turn",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/001-one-good-turn": "001 One Good Turn",
@@ -62458,7 +62458,7 @@
       "Sizzling bikini bottoms",
       "Required for:",
       "027 Big-Headed Bard",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/027-big-headed-bard": "027 Big-Headed Bard",
@@ -62577,7 +62577,7 @@
       "Where to find:",
       "Obtained during quest",
       "038 Muffled Admiration",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/038-muffled-admiration": "038 Muffled Admiration",
@@ -62785,7 +62785,7 @@
       "(one-time)",
       "Alchemises:",
       "Terra hammer",
-      "hammer"
+      "hammers"
     ],
     "Links": {
       "/081-mallet-s-mallet": "081 Mallet's Mallet",
@@ -62853,7 +62853,7 @@
       "Upover (weapon shop)",
       "Alchemises:",
       "Terra firmer",
-      "hammer"
+      "hammers"
     ],
     "Links": {
       "/flintstone": "Flintstone",
@@ -62949,7 +62949,7 @@
       "Where to find:",
       "Obtained during quest",
       "167 Who's a Pretty Boy?",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/167-who-s-a-pretty-boy": "167 Who's a Pretty Boy?",
@@ -62997,7 +62997,7 @@
       "Where to find:",
       "Reward for quest",
       "086 Brave the Caves",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/086-brave-the-caves": "086 Brave the Caves",
@@ -63020,7 +63020,7 @@
       "Reward for quest",
       "076 Talonted Trio",
       "(one-time)",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/076-talonted-trio": "076 Talonted Trio",
@@ -63078,7 +63078,7 @@
       "Important Item",
       "Where to find:",
       "Reward for 4 mini medals (cumulative)",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/system:page-tags/tag/important-item": "important-item"
@@ -63097,7 +63097,7 @@
       "Reward for quest",
       "100 Busted",
       "(one-time)",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/100-busted": "100 Busted",
@@ -63184,7 +63184,7 @@
       "Rosary",
       "Required for:",
       "060 That Makes Scents",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/060-that-makes-scents": "060 That Makes Scents",
@@ -63269,7 +63269,7 @@
       "Dropped by:",
       "Raving lunatick",
       "(1/32)",
-      "whip"
+      "whips"
     ],
     "Links": {
       "/raving-lunatick": "Raving lunatick",
@@ -63366,7 +63366,7 @@
       "Lightning conductor",
       "Azure Dragon fan",
       "Enchanted stone",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/036-little-miss-bossy-boots": "036 Little Miss Bossy Boots",
@@ -63413,7 +63413,7 @@
       "Where to find:",
       "Obtained during quest",
       "075 Rake a Tail Feather",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/075-rake-a-tail-feather": "075 Rake a Tail Feather",
@@ -63499,7 +63499,7 @@
       "x1 +",
       "Tough guy tattoo",
       "x1",
-      "hammer"
+      "hammers"
     ],
     "Links": {
       "/agate-of-evolution": "Agate of evolution",
@@ -63520,7 +63520,7 @@
       "Where to find:",
       "Obtained during quest",
       "058 Fixing the Sicklops",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/058-fixing-the-sicklops": "058 Fixing the Sicklops",
@@ -63560,7 +63560,7 @@
       "Alchemises:",
       "Tricky turban",
       "Hephaestus' flame",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/024-battering-batterflies": "024 Battering Batterflies",
@@ -63614,7 +63614,7 @@
       "Where to find:",
       "Obtained during quest",
       "045 Tale of the Paper Trail",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/045-tale-of-the-paper-trail": "045 Tale of the Paper Trail",
@@ -63633,7 +63633,7 @@
       "Where to find:",
       "Obtained during quest",
       "045 Tale of the Paper Trail",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/045-tale-of-the-paper-trail": "045 Tale of the Paper Trail",
@@ -63652,7 +63652,7 @@
       "Where to find:",
       "Obtained during quest",
       "045 Tale of the Paper Trail",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/045-tale-of-the-paper-trail": "045 Tale of the Paper Trail",
@@ -63817,7 +63817,7 @@
       "Shell shield",
       "Tortoise shell",
       "Tortoiseshell armour",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/crabid": "Crabid",
@@ -63888,7 +63888,7 @@
       "Bloomingdale (weapon shop)",
       "Alchemises:",
       "Black Tortoise fan",
-      "fan"
+      "fans"
     ],
     "Links": {
       "/black-tortoise-fan": "Black Tortoise fan",
@@ -64375,7 +64375,7 @@
       "(1/64)",
       "Alchemises:",
       "Gracos's trident",
-      "spear"
+      "spears"
     ],
     "Links": {
       "/battle-fork": "Battle fork",
@@ -64695,7 +64695,7 @@
       "x1 +",
       "Enchanted stone",
       "x1",
-      "wand"
+      "wands"
     ],
     "Links": {
       "/celestial-skein": "Celestial skein",
@@ -64753,7 +64753,7 @@
       "Where to find:",
       "Obtained during quest",
       "032 Oil Get It",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/032-oil-get-it": "032 Oil Get It",
@@ -64898,7 +64898,7 @@
       "Where to find:",
       "Obtained during quest",
       "099 B-Coming One of the B-Team",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/099-b-coming-one-of-the-b-team": "099 B-Coming One of the B-Team",
@@ -64996,7 +64996,7 @@
       "x1 +",
       "Meteorite bracer",
       "x1",
-      "sword"
+      "swords"
     ],
     "Links": {
       "/falcon-blade": "Falcon blade",
@@ -65030,7 +65030,7 @@
       "Magical Might-based (300–999), 10%–40% chance; fails:",
       "Giga Gringham whip",
       "alchemiracle",
-      "whip"
+      "whips"
     ],
     "Links": {
       "/agate-of-evolution": "Agate of evolution",
@@ -65063,7 +65063,7 @@
       "x2",
       "Can be used for:",
       "012 Putting on the Glitz",
-      "sword"
+      "swords"
     ],
     "Links": {
       "/012-putting-on-the-glitz": "012 Putting on the Glitz",
@@ -65092,7 +65092,7 @@
       "x1",
       "Alchemises:",
       "Terra tamper",
-      "hammer"
+      "hammers"
     ],
     "Links": {
       "/mighty-armlet": "Mighty armlet",
@@ -65121,7 +65121,7 @@
       "x1 +",
       "Meteorite bracer",
       "x1",
-      "sword"
+      "swords"
     ],
     "Links": {
       "/falcon-blade": "Falcon blade",
@@ -65155,7 +65155,7 @@
       "Magical Might-based (300–999), 10%–40% chance; fails:",
       "Giga Gringham whip",
       "alchemiracle",
-      "whip"
+      "whips"
     ],
     "Links": {
       "/agate-of-evolution": "Agate of evolution",
@@ -65188,7 +65188,7 @@
       "x2",
       "Can be used for:",
       "012 Putting on the Glitz",
-      "sword"
+      "swords"
     ],
     "Links": {
       "/012-putting-on-the-glitz": "012 Putting on the Glitz",
@@ -65217,7 +65217,7 @@
       "x1",
       "Alchemises:",
       "Terra tamper",
-      "hammer"
+      "hammers"
     ],
     "Links": {
       "/mighty-armlet": "Mighty armlet",
@@ -65237,7 +65237,7 @@
       "Important Item",
       "Where to find:",
       "Obtained during story events",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/system:page-tags/tag/important-item": "important-item"
@@ -65525,7 +65525,7 @@
       "(1/64)",
       "Alchemises:",
       "Fire blade",
-      "sword"
+      "swords"
     ],
     "Links": {
       "/fire-blade": "Fire blade",
@@ -65656,7 +65656,7 @@
       "x3 +",
       "Razor-wing boomerang",
       "x1",
-      "fan"
+      "fans"
     ],
     "Links": {
       "/fowl-fan": "Fowl fan",
@@ -65948,7 +65948,7 @@
       "Perfect panacea",
       ",",
       "Aggressence",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/aggressence": "Aggressence",
@@ -66025,7 +66025,7 @@
       "Reward for quest",
       "070 Look, Back in Anger",
       "(one-time)",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/070-look-back-in-anger": "070 Look, Back in Anger",
@@ -66063,7 +66063,7 @@
       "Fowl fan",
       "Feline fan",
       "Tortoiseshell fan",
-      "fan"
+      "fans"
     ],
     "Links": {
       "/cobra-fan": "Cobra fan",
@@ -66092,7 +66092,7 @@
       "Gleeba (weapon shop), Batsureg (weapon shop), Wormwood Creek (weapon shop)",
       "Alchemises:",
       "Über war hammer",
-      "hammer"
+      "hammers"
     ],
     "Links": {
       "/system:page-tags/tag/hammer": "hammer",
@@ -66119,7 +66119,7 @@
       "x1 +",
       "Mighty armlet",
       "x1",
-      "hammer"
+      "hammers"
     ],
     "Links": {
       "/megaton-hammer": "Megaton hammer",
@@ -66306,7 +66306,7 @@
       "Dropped by:",
       "Barriearthenwarrior",
       "(1/128)",
-      "sword"
+      "swords"
     ],
     "Links": {
       "/063-keep-your-eyes-peeled": "063 Keep Your Eyes Peeled",
@@ -66427,7 +66427,7 @@
       "(1/64)",
       "Alchemises:",
       "Tsunami staff",
-      "wand"
+      "wands"
     ],
     "Links": {
       "/crimson-coral": "Crimson coral",
@@ -66779,7 +66779,7 @@
       "Where to find:",
       "DQVC shop",
       "dqvc",
-      "fan"
+      "fans"
     ],
     "Links": {
       "/system:page-tags/tag/dqvc": "dqvc",
@@ -66922,7 +66922,7 @@
       "Reward for quest",
       "077 Cool-Fanned Kook",
       "(one-time)",
-      "fan"
+      "fans"
     ],
     "Links": {
       "/077-cool-fanned-kook": "077 Cool-Fanned Kook",
@@ -67251,7 +67251,7 @@
       "Macabre mantle",
       "Required for:",
       "010 Wings Of Love",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/010-wings-of-love": "010 Wings Of Love",
@@ -67382,7 +67382,7 @@
       "Where to find:",
       "Obtained during quest",
       "130 Exhume the Heirloom",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/130-exhume-the-heirloom": "130 Exhume the Heirloom",
@@ -67562,7 +67562,7 @@
       "(1/128)",
       "Alchemises:",
       "Staff of sentencing",
-      "wand"
+      "wands"
     ],
     "Links": {
       "/blinkster": "Blinkster",
@@ -67649,7 +67649,7 @@
       "Whip",
       "Where to find:",
       "Rank 8 (B) blue chest in grotto (1%)",
-      "whip"
+      "whips"
     ],
     "Links": {
       "/system:page-tags/tag/whip": "whip"
@@ -67667,7 +67667,7 @@
       "Where to find:",
       "Obtained during quest",
       "081 Mallet's Mallet",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/081-mallet-s-mallet": "081 Mallet's Mallet",
@@ -67872,7 +67872,7 @@
       "Reward for quest",
       "074 Mr Whippy's Wish",
       "(one-time)",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/074-mr-whippy-s-wish": "074 Mr Whippy's Wish",
@@ -68024,7 +68024,7 @@
       "Important Item",
       "Where to find:",
       "Obtained during story events",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/system:page-tags/tag/important-item": "important-item"
@@ -68053,7 +68053,7 @@
       "Reward for quest",
       "137 Yore for it Now!",
       "(one-time)",
-      "wand"
+      "wands"
     ],
     "Links": {
       "/137-yore-for-it-now": "137 Yore for it Now!",
@@ -68162,7 +68162,7 @@
       "Agility-based (300–999), 10%–40% chance; fails:",
       "Dragovian lord claws",
       "alchemiracle",
-      "claw"
+      "claws"
     ],
     "Links": {
       "/agate-of-evolution": "Agate of evolution",
@@ -68226,7 +68226,7 @@
       "x3 +",
       "Sainted soma",
       "x3",
-      "stave"
+      "staves"
     ],
     "Links": {
       "/dragon-rod": "Dragon rod",
@@ -68310,7 +68310,7 @@
       "Basilic boots",
       "Emperor's boots",
       "Boots of beatitude",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/175-if-i-ad-an-ammer": "175 If I 'Ad an 'Ammer",
@@ -68344,7 +68344,7 @@
       "Where to find:",
       "Obtained during quest",
       "148 Flaptricide",
-      "important-item"
+      "important"
     ],
     "Links": {
       "/148-flaptricide": "148 Flaptricide",
@@ -68375,7 +68375,7 @@
       "Dropped by:",
       "Bomboulder",
       "(1/128)",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/040-man-eating-vegetables": "040 Man Eating Vegetables",
@@ -68415,7 +68415,7 @@
       "Yggdrasil dew",
       ",",
       "Elfin elixir",
-      "item"
+      "everyday"
     ],
     "Links": {
       "/123-a-present-from-the-past": "123 A Present From the Past",

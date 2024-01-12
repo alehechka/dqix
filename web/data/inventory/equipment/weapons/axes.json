@@ -15,7 +15,7 @@
    "ranger"
   ],
   "type": "equipment",
-  "category": "weapon",
+  "category": "weapons",
   "classification": "axes",
   "recipe": {
    "agate-of-evolution": 1,
@@ -39,7 +39,7 @@
    "ranger"
   ],
   "type": "equipment",
-  "category": "weapon",
+  "category": "weapons",
   "classification": "axes",
   "recipe": {
    "climaxe": 1,
@@ -67,7 +67,7 @@
    "ranger"
   ],
   "type": "equipment",
-  "category": "weapon",
+  "category": "weapons",
   "classification": "axes",
   "locationsFound": [
    "Gleeba (weapon shop)",
@@ -95,7 +95,7 @@
    "ranger"
   ],
   "type": "equipment",
-  "category": "weapon",
+  "category": "weapons",
   "classification": "axes",
   "recipe": {
    "agate-of-evolution": 3,
@@ -120,7 +120,7 @@
    "ranger"
   ],
   "type": "equipment",
-  "category": "weapon",
+  "category": "weapons",
   "classification": "axes",
   "recipe": {
    "ethereal-stone": 2,
@@ -144,7 +144,7 @@
    "ranger"
   ],
   "type": "equipment",
-  "category": "weapon",
+  "category": "weapons",
   "classification": "axes",
   "recipe": {
    "full-moon-ring": 1,
@@ -168,7 +168,7 @@
    "ranger"
   ],
   "type": "equipment",
-  "category": "weapon",
+  "category": "weapons",
   "classification": "axes",
   "recipe": {
    "agate-of-evolution": 3,
@@ -190,7 +190,7 @@
    "ranger"
   ],
   "type": "equipment",
-  "category": "weapon",
+  "category": "weapons",
   "classification": "axes",
   "recipe": {
    "hephaestus--flame": 1,
@@ -212,7 +212,7 @@
    "ranger"
   ],
   "type": "equipment",
-  "category": "weapon",
+  "category": "weapons",
   "classification": "axes",
   "recipe": {
    "gold-bar": 1,
@@ -237,7 +237,7 @@
    "ranger"
   ],
   "type": "equipment",
-  "category": "weapon",
+  "category": "weapons",
   "classification": "axes",
   "locationsFound": [
    "Dourbridge (secret shop)"
@@ -262,7 +262,7 @@
    "ranger"
   ],
   "type": "equipment",
-  "category": "weapon",
+  "category": "weapons",
   "classification": "axes",
   "locationsFound": [
    "Rank 8 (B) blue chest in grotto (1%)"
@@ -288,7 +288,7 @@
    "ranger"
   ],
   "type": "equipment",
-  "category": "weapon",
+  "category": "weapons",
   "classification": "axes",
   "recipe": {
    "ice-crystal": 3,
@@ -317,7 +317,7 @@
    "ranger"
   ],
   "type": "equipment",
-  "category": "weapon",
+  "category": "weapons",
   "classification": "axes",
   "locationsFound": [
    "Porth Llaffan (weapon/armour shop)"
@@ -341,7 +341,7 @@
    "ranger"
   ],
   "type": "equipment",
-  "category": "weapon",
+  "category": "weapons",
   "classification": "axes",
   "recipe": {
    "king-axe": 1,
@@ -367,7 +367,7 @@
    "ranger"
   ],
   "type": "equipment",
-  "category": "weapon",
+  "category": "weapons",
   "classification": "axes",
   "recipe": {
    "golden-axe": 1,
@@ -397,7 +397,7 @@
    "ranger"
   ],
   "type": "equipment",
-  "category": "weapon",
+  "category": "weapons",
   "classification": "axes",
   "recipe": {
    "agate-of-evolution": 1,
@@ -426,7 +426,7 @@
    "ranger"
   ],
   "type": "equipment",
-  "category": "weapon",
+  "category": "weapons",
   "classification": "axes",
   "recipe": {
    "battle-axe": 1,
@@ -458,7 +458,7 @@
    "ranger"
   ],
   "type": "equipment",
-  "category": "weapon",
+  "category": "weapons",
   "classification": "axes",
   "droppedBy": {
    "trauminator": "(1/20)"
@@ -478,7 +478,7 @@
    "ranger"
   ],
   "type": "equipment",
-  "category": "weapon",
+  "category": "weapons",
   "classification": "axes",
   "recipe": {
    "iron-axe": 1,

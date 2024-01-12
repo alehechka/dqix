@@ -14,8 +14,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "boomerang",
+  "category": "weapons",
+  "classification": "boomerangs",
   "recipe": {
    "agate-of-evolution": 1,
    "meteorang": 1,
@@ -43,8 +43,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "boomerang",
+  "category": "weapons",
+  "classification": "boomerangs",
   "recipe": {
    "flametang-boomerang": 1,
    "rockbomb-shard": 3,
@@ -68,8 +68,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "boomerang",
+  "category": "weapons",
+  "classification": "boomerangs",
   "recipe": {
    "agility-ring": 2,
    "gusterang": 1,
@@ -92,8 +92,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "boomerang",
+  "category": "weapons",
+  "classification": "boomerangs",
   "locationsFound": [
    "Porth Llaffan (weapon/armor shop)"
   ],
@@ -118,8 +118,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "boomerang",
+  "category": "weapons",
+  "classification": "boomerangs",
   "recipe": {
    "gold-rosary": 1,
    "hunter-s-bow": 1,
@@ -145,8 +145,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "boomerang",
+  "category": "weapons",
+  "classification": "boomerangs",
   "recipe": {
    "edged-boomerang": 1,
    "iron-nails": 3,
@@ -168,8 +168,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "boomerang",
+  "category": "weapons",
+  "classification": "boomerangs",
   "recipe": {
    "flurry-feather": 3,
    "kestrel-claws": 1,
@@ -192,8 +192,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "boomerang",
+  "category": "weapons",
+  "classification": "boomerangs",
   "locationsFound": [
    "Bloomingdale (weapon shop)",
    "Batsureg (weapon shop)"
@@ -218,8 +218,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "boomerang",
+  "category": "weapons",
+  "classification": "boomerangs",
   "recipe": {
    "aggressence": 3,
    "mythril-ore": 1,
@@ -244,8 +244,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "boomerang",
+  "category": "weapons",
+  "classification": "boomerangs",
   "recipe": {
    "gusterang": 1,
    "lava-lump": 3,
@@ -273,8 +273,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "boomerang",
+  "category": "weapons",
+  "classification": "boomerangs",
   "recipe": {
    "agate-of-evolution": 3,
    "asterang": 1,
@@ -299,8 +299,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "boomerang",
+  "category": "weapons",
+  "classification": "boomerangs",
   "recipe": {
    "agility-ring": 1,
    "flurry-feather": 3,
@@ -332,8 +332,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "boomerang",
+  "category": "weapons",
+  "classification": "boomerangs",
   "recipe": {
    "lucida-shard": 3,
    "mythril-ore": 3,
@@ -358,8 +358,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "boomerang",
+  "category": "weapons",
+  "classification": "boomerangs",
   "recipe": {
    "reset-stone": 1,
    "stellarang": 1
@@ -388,8 +388,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "boomerang",
+  "category": "weapons",
+  "classification": "boomerangs",
   "recipe": {
    "hexarang": 1,
    "reset-stone": 1
@@ -416,8 +416,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "boomerang",
+  "category": "weapons",
+  "classification": "boomerangs",
   "recipe": {
    "lunaria": 3,
    "razor-wing-boomerang": 1
@@ -442,8 +442,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "boomerang",
+  "category": "weapons",
+  "classification": "boomerangs",
   "locationsFound": [
    "Batsureg (weapon shop)",
    "Wormwood Creek (weapon shop)"
@@ -468,8 +468,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "boomerang",
+  "category": "weapons",
+  "classification": "boomerangs",
   "recipe": {
    "boomerang": 1,
    "iron-nails": 3
@@ -493,8 +493,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "boomerang",
+  "category": "weapons",
+  "classification": "boomerangs",
   "recipe": {
    "agate-of-evolution": 3,
    "asterang": 1,
@@ -520,8 +520,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "boomerang",
+  "category": "weapons",
+  "classification": "boomerangs",
   "locationsFound": [
    "Wormwood Creek (weapon shop)",
    "Upover (weapon shop)"

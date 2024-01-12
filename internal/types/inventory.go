@@ -281,7 +281,7 @@ func (i Inventory) ToDataKey() DataKey {
 
 func (p PageContent) ParseAsWeapon() (inventory Inventory) {
 	inventory.Type = "equipment"
-	inventory.Category = "weapon"
+	inventory.Category = "weapons"
 
 	p.parseFromBase(&inventory)
 	return
@@ -301,9 +301,6 @@ func (p PageContent) ParseAsItem() (inventory Inventory) {
 
 	p.parseFromBase(&inventory)
 
-	if inventory.Classification == "item" {
-		inventory.Classification = "everyday-item"
-	}
 	return
 }
 

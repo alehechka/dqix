@@ -15,8 +15,8 @@
    "minstrel"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "fan",
+  "category": "weapons",
+  "classification": "fans",
   "locationsFound": [
    "Rank 8 (B) blue chest in grotto (1%)"
   ]
@@ -38,8 +38,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "fan",
+  "category": "weapons",
+  "classification": "fans",
   "recipe": {
    "cobra-fan": 1,
    "dragon-scale": 2,
@@ -63,8 +63,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "fan",
+  "category": "weapons",
+  "classification": "fans",
   "recipe": {
    "royal-soil": 3,
    "tortoise-shell": 1,
@@ -89,8 +89,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "fan",
+  "category": "weapons",
+  "classification": "fans",
   "recipe": {
    "dragon-scale": 1,
    "snakeskin": 2,
@@ -122,8 +122,8 @@
    "minstrel"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "fan",
+  "category": "weapons",
+  "classification": "fans",
   "recipe": {
    "hypercritical-fan": 1,
    "reset-stone": 1
@@ -151,8 +151,8 @@
    "minstrel"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "fan",
+  "category": "weapons",
+  "classification": "fans",
   "recipe": {
    "agate-of-evolution": 3,
    "green-orb": 3,
@@ -175,8 +175,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "fan",
+  "category": "weapons",
+  "classification": "fans",
   "locationsFound": [
    "Angel Falls (item shop)",
    "Stornway (weapon shop)"
@@ -205,8 +205,8 @@
    "minstrel"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "fan",
+  "category": "weapons",
+  "classification": "fans",
   "recipe": {
    "kitty-litter": 2,
    "seashell": 2,
@@ -237,8 +237,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "fan",
+  "category": "weapons",
+  "classification": "fans",
   "recipe": {
    "agility-ring": 1,
    "feather-fan": 1,
@@ -269,8 +269,8 @@
    "minstrel"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "fan",
+  "category": "weapons",
+  "classification": "fans",
   "recipe": {
    "crimson-coral": 2,
    "flurry-feather": 2,
@@ -303,8 +303,8 @@
    "minstrel"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "fan",
+  "category": "weapons",
+  "classification": "fans",
   "recipe": {
    "horse-manure": 9,
    "life-bracer": 1,
@@ -334,8 +334,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "fan",
+  "category": "weapons",
+  "classification": "fans",
   "recipe": {
    "agility-ring": 1,
    "enchanted-stone": 1,
@@ -357,8 +357,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "fan",
+  "category": "weapons",
+  "classification": "fans",
   "recipe": {
    "hephaestus--flame": 1,
    "iron-ore": 2,
@@ -381,8 +381,8 @@
    "minstrel"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "fan",
+  "category": "weapons",
+  "classification": "fans",
   "recipe": {
    "agate-of-evolution": 3,
    "green-orb": 3,
@@ -408,8 +408,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "fan",
+  "category": "weapons",
+  "classification": "fans",
   "locationsFound": [
    "Stornway (weapon shop)",
    "Coffinwell (weapon shop)"
@@ -432,8 +432,8 @@
    "minstrel"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "fan",
+  "category": "weapons",
+  "classification": "fans",
   "recipe": {
    "full-moon-ring": 1,
    "lucida-shard": 1,
@@ -459,8 +459,8 @@
    "minstrel"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "fan",
+  "category": "weapons",
+  "classification": "fans",
   "recipe": {
    "agate-of-evolution": 1,
    "critical-fan": 1,
@@ -485,8 +485,8 @@
    "minstrel"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "fan",
+  "category": "weapons",
+  "classification": "fans",
   "recipe": {
    "crimson-coral": 3,
    "lunar-fan": 1,
@@ -511,8 +511,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "fan",
+  "category": "weapons",
+  "classification": "fans",
   "recipe": {
    "iron-fan": 1,
    "iron-ore": 1,
@@ -537,8 +537,8 @@
    "minstrel"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "fan",
+  "category": "weapons",
+  "classification": "fans",
   "locationsFound": [
    "Upover (weapon shop)"
   ],
@@ -563,8 +563,8 @@
    "minstrel"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "fan",
+  "category": "weapons",
+  "classification": "fans",
   "recipe": {
    "evencloth": 1,
    "tortoiseshell": 2,
@@ -594,8 +594,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "fan",
+  "category": "weapons",
+  "classification": "fans",
   "recipe": {
    "fowl-fan": 1,
    "lava-lump": 3,
@@ -618,8 +618,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "fan",
+  "category": "weapons",
+  "classification": "fans",
   "locationsFound": [
    "Coffinwell (weapon shop)",
    "Alltrades Abbey (item shop)"
@@ -646,8 +646,8 @@
    "minstrel"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "fan"
+  "category": "weapons",
+  "classification": "fans"
  },
  "white-tiger-fan": {
   "id": "white-tiger-fan",
@@ -666,8 +666,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "fan",
+  "category": "weapons",
+  "classification": "fans",
   "recipe": {
    "feline-fan": 1,
    "ice-crystal": 3,

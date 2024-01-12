@@ -16,8 +16,8 @@
    "sage"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "bow",
+  "category": "weapons",
+  "classification": "bows",
   "recipe": {
    "agate-of-evolution": 3,
    "archangel-s-bow": 1,
@@ -44,8 +44,8 @@
    "sage"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "bow",
+  "category": "weapons",
+  "classification": "bows",
   "recipe": {
    "aeon-s-bow": 1,
    "reset-stone": 1
@@ -74,8 +74,8 @@
    "sage"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "bow",
+  "category": "weapons",
+  "classification": "bows",
   "recipe": {
    "agate-of-evolution": 1,
    "angel-s-bow": 1,
@@ -103,8 +103,8 @@
    "sage"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "bow",
+  "category": "weapons",
+  "classification": "bows",
   "recipe": {
    "blowy-bow": 1,
    "celestial-skein": 2,
@@ -129,8 +129,8 @@
    "sage"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "bow",
+  "category": "weapons",
+  "classification": "bows",
   "recipe": {
    "ethereal-stone": 3,
    "mystifying-mixture": 2,
@@ -155,8 +155,8 @@
    "sage"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "bow",
+  "category": "weapons",
+  "classification": "bows",
   "recipe": {
    "agility-ring": 1,
    "flurry-feather": 3,
@@ -187,8 +187,8 @@
    "sage"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "bow",
+  "category": "weapons",
+  "classification": "bows",
   "recipe": {
    "billowing-bow": 1,
    "celestial-skein": 3,
@@ -213,8 +213,8 @@
    "sage"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "bow",
+  "category": "weapons",
+  "classification": "bows",
   "locationsFound": [
    "Dourbridge (secret shop)"
   ]
@@ -236,8 +236,8 @@
    "sage"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "bow",
+  "category": "weapons",
+  "classification": "bows",
   "locationsFound": [
    "Rank 4 (F) blue chest in grotto (1%)"
   ]
@@ -258,8 +258,8 @@
    "sage"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "bow",
+  "category": "weapons",
+  "classification": "bows",
   "locationsFound": [
    "Upover (weapon shop)"
   ],
@@ -284,8 +284,8 @@
    "sage"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "bow",
+  "category": "weapons",
+  "classification": "bows",
   "recipe": {
    "archer-s-armguard": 1,
    "hunter-s-hat": 1,
@@ -307,8 +307,8 @@
    "sage"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "bow",
+  "category": "weapons",
+  "classification": "bows",
   "recipe": {
    "chain-whip": 1,
    "longbow": 1
@@ -338,8 +338,8 @@
    "sage"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "bow",
+  "category": "weapons",
+  "classification": "bows",
   "recipe": {
    "laundry-pole": 1,
    "short-bow": 1
@@ -363,8 +363,8 @@
    "sage"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "bow",
+  "category": "weapons",
+  "classification": "bows",
   "recipe": {
    "oh-no-bow": 1,
    "saint-s-ashes": 3
@@ -390,8 +390,8 @@
    "sage"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "bow",
+  "category": "weapons",
+  "classification": "bows",
   "recipe": {
    "malicite": 1,
    "odin-s-bow": 1
@@ -421,8 +421,8 @@
    "sage"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "bow",
+  "category": "weapons",
+  "classification": "bows",
   "locationsFound": [
    "Batsureg (weapon shop)",
    "Wormwood Creek (weapon shop)"
@@ -448,8 +448,8 @@
    "sage"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "bow",
+  "category": "weapons",
+  "classification": "bows",
   "recipe": {
    "enchanted-stone": 3,
    "great-bow": 1,
@@ -479,8 +479,8 @@
    "sage"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "bow",
+  "category": "weapons",
+  "classification": "bows",
   "recipe": {
    "agate-of-evolution": 3,
    "archangel-s-bow": 1,
@@ -503,8 +503,8 @@
    "sage"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "bow",
+  "category": "weapons",
+  "classification": "bows",
   "locationsFound": [
    "Porth Llaffan (weapon/armour shop)"
   ],

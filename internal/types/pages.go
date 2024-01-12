@@ -31,8 +31,8 @@ func (d DataKey) GetPath() string {
 }
 
 const (
-	ClassItemEveryday  string = "everyday-item"
-	ClassItemImportant string = "important-item"
+	ClassItemEveryday  string = "everyday"
+	ClassItemImportant string = "important"
 
 	ClassArmorHead   string = "head"
 	ClassArmorTorso  string = "torso"
@@ -42,17 +42,17 @@ const (
 	ClassArmorFeet   string = "feet"
 
 	ClassWeaponAxe       string = "axes"
-	ClassWeaponBoomerang string = "boomerang"
-	ClassWeaponBow       string = "bow"
-	ClassWeaponClaw      string = "claw"
-	ClassWeaponFan       string = "fan"
-	ClassWeaponHammer    string = "hammer"
-	ClassWeaponKnife     string = "knife"
-	ClassWeaponSpear     string = "spear"
-	ClassWeaponStave     string = "stave"
-	ClassWeaponSword     string = "sword"
-	ClassWeaponWand      string = "wand"
-	ClassWeaponWhip      string = "whip"
+	ClassWeaponBoomerang string = "boomerangs"
+	ClassWeaponBow       string = "bows"
+	ClassWeaponClaw      string = "claws"
+	ClassWeaponFan       string = "fans"
+	ClassWeaponHammer    string = "hammers"
+	ClassWeaponKnife     string = "knives"
+	ClassWeaponSpear     string = "spears"
+	ClassWeaponStave     string = "staves"
+	ClassWeaponSword     string = "swords"
+	ClassWeaponWand      string = "wands"
+	ClassWeaponWhip      string = "whips"
 
 	ClassAccessories string = "accessories"
 )

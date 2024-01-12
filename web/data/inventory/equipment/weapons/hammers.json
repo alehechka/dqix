@@ -13,8 +13,8 @@
    "paladin"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "hammer",
+  "category": "weapons",
+  "classification": "hammers",
   "recipe": {
    "belle-cap": 3,
    "oaken-club": 1
@@ -37,8 +37,8 @@
    "paladin"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "hammer",
+  "category": "weapons",
+  "classification": "hammers",
   "recipe": {
    "agate-of-evolution": 1,
    "groundbreaker": 1,
@@ -66,8 +66,8 @@
    "paladin"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "hammer",
+  "category": "weapons",
+  "classification": "hammers",
   "locationsFound": [
    "Stornway (weapon shop)"
   ],
@@ -95,8 +95,8 @@
    "paladin"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "hammer",
+  "category": "weapons",
+  "classification": "hammers",
   "locationsFound": [
    "Wormwood Creek (weapon shop)",
    "Upover (weapon shop)"
@@ -116,8 +116,8 @@
    "paladin"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "hammer",
+  "category": "weapons",
+  "classification": "hammers",
   "recipe": {
    "moonsmasher": 1,
    "reset-stone": 1
@@ -145,8 +145,8 @@
    "paladin"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "hammer",
+  "category": "weapons",
+  "classification": "hammers",
   "locationsFound": [
    "Rank 6 (D) blue chest in grotto (1%)"
   ],
@@ -172,8 +172,8 @@
    "paladin"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "hammer",
+  "category": "weapons",
+  "classification": "hammers",
   "locationsFound": [
    "Dourbridge (secret shop)"
   ],
@@ -195,8 +195,8 @@
    "paladin"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "hammer",
+  "category": "weapons",
+  "classification": "hammers",
   "recipe": {
    "densinium": 3,
    "hela-s-hammer": 1,
@@ -223,8 +223,8 @@
    "paladin"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "hammer",
+  "category": "weapons",
+  "classification": "hammers",
   "recipe": {
    "agate-of-evolution": 3,
    "earthsplitter": 1,
@@ -248,8 +248,8 @@
    "paladin"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "hammer",
+  "category": "weapons",
+  "classification": "hammers",
   "locationsFound": [
    "Rank 1 (I) blue chest in grotto (5%)"
   ],
@@ -275,8 +275,8 @@
    "paladin"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "hammer",
+  "category": "weapons",
+  "classification": "hammers",
   "locationsFound": [
    "Porth Llaffan (weapon/armour shop)"
   ]
@@ -295,8 +295,8 @@
    "paladin"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "hammer",
+  "category": "weapons",
+  "classification": "hammers",
   "recipe": {
    "agate-of-evolution": 3,
    "earthsplitter": 1,
@@ -319,8 +319,8 @@
    "paladin"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "hammer",
+  "category": "weapons",
+  "classification": "hammers",
   "recipe": {
    "densinium": 2,
    "royal-soil": 5,
@@ -347,8 +347,8 @@
    "paladin"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "hammer",
+  "category": "weapons",
+  "classification": "hammers",
   "recipe": {
    "flintstone": 1,
    "royal-soil": 3,
@@ -377,8 +377,8 @@
    "paladin"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "hammer",
+  "category": "weapons",
+  "classification": "hammers",
   "recipe": {
    "agate-of-evolution": 1,
    "giant-s-hammer": 1,
@@ -399,8 +399,8 @@
    "gladiator"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "hammer",
+  "category": "weapons",
+  "classification": "hammers",
   "locationsFound": [
    "Gleeba (weapon shop)",
    "Batsureg (weapon shop)",
@@ -424,8 +424,8 @@
    "paladin"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "hammer",
+  "category": "weapons",
+  "classification": "hammers",
   "recipe": {
    "megaton-hammer": 1,
    "mighty-armlet": 1,
@@ -446,8 +446,8 @@
    "paladin"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "hammer",
+  "category": "weapons",
+  "classification": "hammers",
   "recipe": {
    "mighty-armlet": 1,
    "war-hammer": 1

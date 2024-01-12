@@ -16,8 +16,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "whip",
+  "category": "weapons",
+  "classification": "whips",
   "recipe": {
    "demon-whip": 1,
    "malicite": 1,
@@ -43,8 +43,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "whip",
+  "category": "weapons",
+  "classification": "whips",
   "locationsFound": [
    "Coffinwell (weapon shop)",
    "Alltrades Abbey (item shop)"
@@ -66,8 +66,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "whip",
+  "category": "weapons",
+  "classification": "whips",
   "locationsFound": [
    "Bloomingdale (weapon shop)",
    "Gleeba (weapon shop)"
@@ -93,8 +93,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "whip",
+  "category": "weapons",
+  "classification": "whips",
   "recipe": {
    "iron-whip": 1,
    "terrible-tattoo": 1,
@@ -126,8 +126,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "whip",
+  "category": "weapons",
+  "classification": "whips",
   "recipe": {
    "aggressence": 1,
    "dragon-scale": 3,
@@ -158,8 +158,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "whip",
+  "category": "weapons",
+  "classification": "whips",
   "recipe": {
    "highness-heels": 1,
    "monarchic-mark": 1,
@@ -186,8 +186,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "whip",
+  "category": "weapons",
+  "classification": "whips",
   "recipe": {
    "agate-of-evolution": 3,
    "green-orb": 3,
@@ -212,8 +212,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "whip",
+  "category": "weapons",
+  "classification": "whips",
   "recipe": {
    "hephaestus--flame": 1,
    "iron-ore": 2,
@@ -237,8 +237,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "whip",
+  "category": "weapons",
+  "classification": "whips",
   "recipe": {
    "agate-of-evolution": 1,
    "empress-s-whip": 1,
@@ -262,8 +262,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "whip",
+  "category": "weapons",
+  "classification": "whips",
   "recipe": {
    "giga-gringham-whip": 1,
    "reset-stone": 1
@@ -291,8 +291,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "whip",
+  "category": "weapons",
+  "classification": "whips",
   "locationsFound": [
    "Gleeba (weapon shop)",
    "Batsureg (weapon shop)"
@@ -321,8 +321,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "whip",
+  "category": "weapons",
+  "classification": "whips",
   "locationsFound": [
    "Angel Falls (item shop)",
    "Stornway (weapon shop)"
@@ -351,8 +351,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "whip",
+  "category": "weapons",
+  "classification": "whips",
   "recipe": {
    "agate-of-evolution": 1,
    "green-orb": 1,
@@ -381,8 +381,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "whip",
+  "category": "weapons",
+  "classification": "whips",
   "locationsFound": [
    "Stornway (weapon shop)"
   ],
@@ -405,8 +405,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "whip",
+  "category": "weapons",
+  "classification": "whips",
   "recipe": {
    "archdemon-whip": 1,
    "saint-s-ashes": 1
@@ -427,8 +427,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "whip",
+  "category": "weapons",
+  "classification": "whips",
   "recipe": {
    "magic-beast-horn": 1,
    "snakeskin": 5,
@@ -453,8 +453,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "whip",
+  "category": "weapons",
+  "classification": "whips",
   "recipe": {
    "serpentine-whip": 1,
    "snakeskin": 6,
@@ -477,8 +477,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "whip",
+  "category": "weapons",
+  "classification": "whips",
   "recipe": {
    "leather-whip": 1,
    "snakeskin": 3
@@ -509,8 +509,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "whip",
+  "category": "weapons",
+  "classification": "whips",
   "recipe": {
    "iron-ore": 1,
    "iron-whip": 1,
@@ -536,8 +536,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "whip",
+  "category": "weapons",
+  "classification": "whips",
   "locationsFound": [
    "Stornway (weapon shop)",
    "Coffinwell (weapon shop)"
@@ -561,8 +561,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "whip",
+  "category": "weapons",
+  "classification": "whips",
   "locationsFound": [
    "Rank 8 (B) blue chest in grotto (1%)"
   ]
@@ -584,8 +584,8 @@
    "luminary"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "whip",
+  "category": "weapons",
+  "classification": "whips",
   "recipe": {
    "agate-of-evolution": 3,
    "green-orb": 3,
