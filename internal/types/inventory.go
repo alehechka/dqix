@@ -216,6 +216,8 @@ type Statistics struct {
 	MPAbsorptionRate float64 `json:"mpAbsorptionRate,omitempty"`
 	Deftness         int     `json:"deftness,omitempty"`
 	Charm            int     `json:"charm,omitempty"`
+	MaxMP            int     `json:"maxMP,omitempty"`
+	MaxHP            int     `json:"maxHP,omitempty"`
 	Special          Special `json:"special,omitempty"`
 }
 
@@ -345,6 +347,12 @@ func (p PageContent) parseFromBase(inventory *Inventory) {
 		case "Charm:":
 			i++
 			inventory.Statistics.Charm, _ = strconv.Atoi(p.Text[i])
+		case "Max. MP:":
+			i++
+			inventory.Statistics.MaxMP, _ = strconv.Atoi(p.Text[i])
+		case "Max. HP:":
+			i++
+			inventory.Statistics.MaxHP, _ = strconv.Atoi(p.Text[i])
 		case "Cursed:":
 			i++
 			inventory.Statistics.Special.Curse = p.Text[i]

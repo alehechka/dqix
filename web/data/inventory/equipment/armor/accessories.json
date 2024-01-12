@@ -609,6 +609,7 @@
   "description": "A sage's medal that magnifies max. MP.",
   "statistics": {
    "defense": 3,
+   "maxMP": 60,
    "special": {}
   },
   "rarity": 4,
@@ -1221,6 +1222,7 @@
   "description": "A string of beads that boosts max. MP and magical mending.",
   "statistics": {
    "magicalMending": 15,
+   "maxMP": 15,
    "special": {}
   },
   "rarity": 1,
@@ -1487,6 +1489,7 @@
   "description": "A beautiful band that boosts max. MP and magical might.",
   "statistics": {
    "magicalMight": 15,
+   "maxMP": 15,
    "special": {}
   },
   "rarity": 2,
@@ -1560,6 +1563,7 @@
   "description": "An enchanted armband that boosts max. MP by thirty.",
   "statistics": {
    "defense": 4,
+   "maxMP": 30,
    "special": {}
   },
   "rarity": 2,
