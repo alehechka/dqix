@@ -1889,6 +1889,7 @@
   "description": "Sacred strappy shoes that magnify max. MP and restore it too.",
   "statistics": {
    "evasionChance": 5,
+   "maxMP": 10,
    "special": {
     "effect": "Recovers MP while walking about"
    }
@@ -2002,6 +2003,7 @@
   "description": "Special strappy shoes that magnify max. MP and restore it too.",
   "statistics": {
    "evasionChance": 5.5,
+   "maxMP": 15,
    "special": {
     "effect": "Recovers MP while walking about"
    }
@@ -2063,6 +2065,7 @@
   "description": "Strange strappy shoes that magnify max. MP and restore it too.",
   "statistics": {
    "evasionChance": 4.5,
+   "maxMP": 5,
    "special": {
     "effect": "Recovers MP while walking about"
    }
@@ -2099,6 +2102,7 @@
   "description": "Superlative strappy shoes that magnify max. MP and restore it too.",
   "statistics": {
    "evasionChance": 6,
+   "maxMP": 20,
    "special": {
     "effect": "Recovers MP while walking about"
    }

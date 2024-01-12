@@ -70,6 +70,9 @@ templ InventoryClassificationTable(params InventoryClassificationParams) {
 				if params.Stats.HasMPAbsorptionRate {
 					@SortableColumnHeader(params, "mp-absorption-rate", "MP Absorption")
 				}
+				if params.Stats.HasMaxMP {
+					@SortableColumnHeader(params, "max-mp", "Max MP")
+				}
 				if params.Stats.HasDeftness {
 					@SortableColumnHeader(params, "deftness", "Deftness")
 				}
@@ -143,6 +146,13 @@ templ InventoryClassificationTable(params InventoryClassificationParams) {
 						<td role="cell" data-cell="mp-absorption-rate" class="text-center">
 							if inventory.Statistics.MPAbsorptionRate > 0 {
 								{ fmt.Sprintf("%.2f%%",inventory.Statistics.MPAbsorptionRate) }
+							}
+						</td>
+					}
+					if params.Stats.HasMaxMP {
+						<td role="cell" data-cell="max-mp" class="text-center">
+							if inventory.Statistics.MaxMP > 0 {
+								{ strconv.Itoa(inventory.Statistics.MaxMP) }
 							}
 						</td>
 					}

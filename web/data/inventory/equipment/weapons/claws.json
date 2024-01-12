@@ -15,8 +15,8 @@
    "thief"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "claw",
+  "category": "weapons",
+  "classification": "claws",
   "locationsFound": [
    "Rank 8 (B) blue chest in grotto (1%)"
   ],
@@ -44,8 +44,8 @@
    "thief"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "claw",
+  "category": "weapons",
+  "classification": "claws",
   "recipe": {
    "beast-claws": 1,
    "magic-beast-horn": 9,
@@ -72,8 +72,8 @@
    "thief"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "claw",
+  "category": "weapons",
+  "classification": "claws",
   "locationsFound": [
    "Stornway (weapon shop)"
   ],
@@ -100,8 +100,8 @@
    "thief"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "claw",
+  "category": "weapons",
+  "classification": "claws",
   "recipe": {
    "fire-claws": 1,
    "rockbomb-shard": 3,
@@ -127,8 +127,8 @@
    "thief"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "claw",
+  "category": "weapons",
+  "classification": "claws",
   "locationsFound": [
    "Bloomingdale (weapon shop)",
    "Gleeba (weapon shop)"
@@ -155,8 +155,8 @@
    "thief"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "claw",
+  "category": "weapons",
+  "classification": "claws",
   "locationsFound": [
    "Wormwood Creek (weapon shop)",
    "Upover (weapon shop)"
@@ -184,8 +184,8 @@
    "thief"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "claw",
+  "category": "weapons",
+  "classification": "claws",
   "recipe": {
    "dragovian-lord-claws": 1,
    "reset-stone": 1
@@ -213,8 +213,8 @@
    "thief"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "claw",
+  "category": "weapons",
+  "classification": "claws",
   "recipe": {
    "agate-of-evolution": 1,
    "dragonlord-claws": 1,
@@ -241,8 +241,8 @@
    "thief"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "claw",
+  "category": "weapons",
+  "classification": "claws",
   "recipe": {
    "agate-of-evolution": 3,
    "dragovian-claws": 1,
@@ -268,8 +268,8 @@
    "thief"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "claw",
+  "category": "weapons",
+  "classification": "claws",
   "recipe": {
    "dragon-claws": 1,
    "lava-lump": 3,
@@ -299,8 +299,8 @@
    "thief"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "claw",
+  "category": "weapons",
+  "classification": "claws",
   "recipe": {
    "hephaestus--flame": 1,
    "iron-ore": 2,
@@ -323,8 +323,8 @@
    "thief"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "claw",
+  "category": "weapons",
+  "classification": "claws",
   "recipe": {
    "handrills": 1,
    "iron-nails": 5,
@@ -351,8 +351,8 @@
    "thief"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "claw",
+  "category": "weapons",
+  "classification": "claws",
   "locationsFound": [
    "Gleeba (weapon shop)",
    "Batsureg (weapon shop)",
@@ -380,8 +380,8 @@
    "thief"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "claw",
+  "category": "weapons",
+  "classification": "claws",
   "locationsFound": [
    "Stornway (weapon shop)",
    "Coffinwell (weapon shop)"
@@ -409,8 +409,8 @@
    "thief"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "claw",
+  "category": "weapons",
+  "classification": "claws",
   "recipe": {
    "agility-ring": 1,
    "crow-s-claws": 1
@@ -436,8 +436,8 @@
    "thief"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "claw",
+  "category": "weapons",
+  "classification": "claws",
   "recipe": {
    "cobra-claws": 1,
    "terrible-tattoo": 4,
@@ -459,8 +459,8 @@
    "thief"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "claw",
+  "category": "weapons",
+  "classification": "claws",
   "recipe": {
    "enchanted-stone": 2,
    "kestrel-claws": 1
@@ -480,8 +480,8 @@
    "thief"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "claw",
+  "category": "weapons",
+  "classification": "claws",
   "recipe": {
    "combusticlaws": 1,
    "hephaestus--flame": 2,
@@ -503,8 +503,8 @@
    "thief"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "claw",
+  "category": "weapons",
+  "classification": "claws",
   "locationsFound": [
    "Coffinwell (weapon shop)",
    "Alltrades Abbey (item shop)"
@@ -530,8 +530,8 @@
    "thief"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "claw",
+  "category": "weapons",
+  "classification": "claws",
   "recipe": {
    "holy-talisman": 1,
    "iron-claws": 1
@@ -558,8 +558,8 @@
    "thief"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "claw",
+  "category": "weapons",
+  "classification": "claws",
   "recipe": {
    "iron-claws": 1,
    "iron-ore": 1,
@@ -584,8 +584,8 @@
    "thief"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "claw",
+  "category": "weapons",
+  "classification": "claws",
   "locationsFound": [
    "Stornway (weapon shop)"
   ]
@@ -606,8 +606,8 @@
    "thief"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "claw",
+  "category": "weapons",
+  "classification": "claws",
   "recipe": {
    "agate-of-evolution": 3,
    "dragovian-claws": 1,

@@ -9,7 +9,7 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday"
  },
  "agate-of-evolution": {
   "id": "agate-of-evolution",
@@ -21,7 +21,7 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "recipe": {
    "chronocrystal": 1,
    "ethereal-stone": 2,
@@ -118,7 +118,7 @@
   "sellPrice": 750,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "recipe": {
    "fisticup": 2,
    "softwort": 1,
@@ -150,7 +150,7 @@
   "buyPrice": 90,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "locationsFound": [
    "Porth Llaffan (item shop)",
    "Dourbridge (item shop)",
@@ -180,7 +180,7 @@
   "buyPrice": 10,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "locationsFound": [
    "Angel Falls (item shop)",
    "Stornway (item shop)",
@@ -217,7 +217,7 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday"
  },
  "armamentalist-s-album": {
   "id": "armamentalist-s-album",
@@ -229,7 +229,7 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday"
  },
  "astral-plume": {
   "id": "astral-plume",
@@ -241,7 +241,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "recipe": {
    "angel-bell": 1,
    "flurry-feather": 3,
@@ -269,7 +269,7 @@
   "buyPrice": 500,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday"
  },
  "belle-cap": {
   "id": "belle-cap",
@@ -280,7 +280,7 @@
   },
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "mushroom-mage": "(1/8)"
   },
@@ -307,7 +307,7 @@
   "sellPrice": 210,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "recipe": {
    "fresh-water": 1,
    "nectar": 3,
@@ -331,7 +331,7 @@
   },
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday"
  },
  "block-o--choc": {
   "id": "block-o--choc",
@@ -343,7 +343,7 @@
   "buyPrice": 500,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday"
  },
  "blue-orb": {
   "id": "blue-orb",
@@ -355,7 +355,7 @@
   "rarity": 4,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "nimzo": "(lv. 1: 5%—lv. 91: 10%)"
   },
@@ -384,7 +384,7 @@
   "sellPrice": 48,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "cosmic-chimaera": "(1/8)"
   },
@@ -410,7 +410,7 @@
   "sellPrice": 9,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "dread-admiral": "(1/8)"
   },
@@ -435,7 +435,7 @@
   "sellPrice": 224,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "recipe": {
    "fresh-water": 3,
    "tangleweb": 5
@@ -465,7 +465,7 @@
   "buyPrice": 25,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "locationsFound": [
    "Angel Falls (item shop)",
    "Zere (item shop)",
@@ -500,7 +500,7 @@
   "buyPrice": 3000,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday"
  },
  "christmas-cake": {
   "id": "christmas-cake",
@@ -512,7 +512,7 @@
   "buyPrice": 4800,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday"
  },
  "chronocrystal": {
   "id": "chronocrystal",
@@ -526,7 +526,7 @@
   "sellPrice": 25000,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "locationsFound": [
    "Lonely Coast (item shop)",
    "Red chest in Tower of Nod (L6)"
@@ -545,7 +545,7 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday"
  },
  "coagulant": {
   "id": "coagulant",
@@ -557,7 +557,7 @@
   "buyPrice": 90,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "locationsFound": [
    "Batsureg (item shop)",
    "Wormwood Creek (item shop)",
@@ -582,7 +582,7 @@
   "sellPrice": 300,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "admirer": "(1/64)"
   },
@@ -601,7 +601,7 @@
   "sellPrice": 2,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "bag-o--laughs": "(1/8)"
   },
@@ -622,7 +622,7 @@
   "sellPrice": 36,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "belisha-beakon": "(1/32)"
   },
@@ -648,7 +648,7 @@
   "sellPrice": 1400,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "recipe": {
    "flintstone": 3,
    "iron-ore": 3
@@ -680,7 +680,7 @@
   "buyPrice": 5,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "recipe": {
    "nectar": 5,
    "royal-soil": 3,
@@ -707,7 +707,7 @@
   "sellPrice": 40,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "salamarauder": "(1/16)"
   },
@@ -728,7 +728,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "recipe": {
    "ice-crystal": 2,
    "mystifying-mixture": 1,
@@ -763,7 +763,7 @@
   "sellPrice": 600,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "recipe": {
    "enchanted-stone": 1,
    "narspicious": 2,
@@ -800,7 +800,7 @@
   "buyPrice": 28,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "locationsFound": [
    "Stornway (item shop)",
    "Coffinwell (item shop)",
@@ -825,7 +825,7 @@
   "sellPrice": 47,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "ragged-reaper": "(1/16)"
   },
@@ -852,7 +852,7 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday"
  },
  "festive-feast": {
   "id": "festive-feast",
@@ -864,7 +864,7 @@
   "buyPrice": 2500,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday"
  },
  "finessence": {
   "id": "finessence",
@@ -877,7 +877,7 @@
   "sellPrice": 850,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "recipe": {
    "fisticup": 2,
    "slipweed": 1,
@@ -906,7 +906,7 @@
   },
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "mushroom-mage": "(1/8)"
   },
@@ -928,7 +928,7 @@
   "sellPrice": 48,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "stone-golem": "(1/16)"
   },
@@ -946,7 +946,7 @@
   },
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "weaken-beakon": "(1/16)"
   },
@@ -975,7 +975,7 @@
   },
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "cheeky-tiki": "(1/16)"
   },
@@ -1000,7 +1000,7 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday"
  },
  "glass-frit": {
   "id": "glass-frit",
@@ -1012,7 +1012,7 @@
   "sellPrice": 28,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "stale-whale": "(1/16)"
   },
@@ -1036,7 +1036,7 @@
   "sellPrice": 1000,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "locationsFound": [
    "Rank 8 (B) blue chest in grotto (15%)",
    "Rank 9 (A) blue chest in grotto (10%)",
@@ -1057,7 +1057,7 @@
   "sellPrice": 100,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday"
  },
  "gleeban-guinea": {
   "id": "gleeban-guinea",
@@ -1070,7 +1070,7 @@
   "sellPrice": 500,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday"
  },
  "gold-bar": {
   "id": "gold-bar",
@@ -1083,7 +1083,7 @@
   "sellPrice": 5000,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "recipe": {
    "birdsong-nectar": 5,
    "ethereal-stone": 2,
@@ -1110,7 +1110,7 @@
   "sellPrice": 35,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "mummy": "(1/8)"
   },
@@ -1135,7 +1135,7 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday"
  },
  "hephaestus--flame": {
   "id": "hephaestus--flame",
@@ -1148,7 +1148,7 @@
   "sellPrice": 265,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "recipe": {
    "lava-lump": 1,
    "royal-soil": 1,
@@ -1194,7 +1194,7 @@
   "buyPrice": 40,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "locationsFound": [
    "Zere (item shop)",
    "Stornway (item shop)",
@@ -1230,7 +1230,7 @@
   },
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "godsteed": "(1/8)"
   },
@@ -1248,7 +1248,7 @@
   "sellPrice": 45,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "freezing-fog": "(1/16)"
   },
@@ -1271,7 +1271,7 @@
   },
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "locationsFound": [
    "Rank 2 (H) blue chest in grotto (10%)"
   ],
@@ -1297,7 +1297,7 @@
   "sellPrice": 120,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "robo-robin": "(1/16)"
   },
@@ -1343,7 +1343,7 @@
   "sellPrice": 19,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "purrestidigitator": "(1/8)"
   },
@@ -1365,7 +1365,7 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday"
  },
  "lambswool": {
   "id": "lambswool",
@@ -1377,7 +1377,7 @@
   "buyPrice": 180,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "locationsFound": [
    "Batsureg (item shop)"
   ],
@@ -1410,7 +1410,7 @@
   "sellPrice": 42,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "bagma": "(1/16)"
   },
@@ -1441,7 +1441,7 @@
   "sellPrice": 900,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "recipe": {
    "brighten-rock": 3,
    "evencloth": 3
@@ -1472,7 +1472,7 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday"
  },
  "lunaria": {
   "id": "lunaria",
@@ -1483,7 +1483,7 @@
   },
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "recipe": {
    "moonwort-bulb": 3
   },
@@ -1506,7 +1506,7 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday"
  },
  "magic-beast-hide": {
   "id": "magic-beast-hide",
@@ -1517,7 +1517,7 @@
   },
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "trigertaur": "(1/8)"
   },
@@ -1544,7 +1544,7 @@
   "sellPrice": 62,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "swinoceros": "(1/8)"
   },
@@ -1572,7 +1572,7 @@
   "buyPrice": 500,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "recipe": {
    "holy-water": 1,
    "nectar": 1,
@@ -1602,7 +1602,7 @@
   "sellPrice": 666,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "recipe": {
    "narspicious": 3,
    "pink-pearl": 1,
@@ -1635,7 +1635,7 @@
   "sellPrice": 15,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "walking-corpse": "(1/8)"
   },
@@ -1658,7 +1658,7 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday"
  },
  "medicinal-herb": {
   "id": "medicinal-herb",
@@ -1670,7 +1670,7 @@
   "buyPrice": 8,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "locationsFound": [
    "Angel Falls (item shop)",
    "Zere (item shop)",
@@ -1712,7 +1712,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "pandora-s-box": "(1/8)"
   }
@@ -1727,7 +1727,7 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday"
  },
  "mirrorstone": {
   "id": "mirrorstone",
@@ -1739,7 +1739,7 @@
   "sellPrice": 56,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "mega-moai": "(1/32)"
   },
@@ -1760,7 +1760,7 @@
   "buyPrice": 30,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "locationsFound": [
    "Zere (item shop)",
    "Coffinwell (item shop)",
@@ -1798,7 +1798,7 @@
   "sellPrice": 280,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "recipe": {
    "belle-cap": 1,
    "cowpat": 3,
@@ -1829,7 +1829,7 @@
   "sellPrice": 3000,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "void-droid": "(1/32)"
   },
@@ -1861,7 +1861,7 @@
   "sellPrice": 21,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "shivery-shrubbery": "(1/64)"
   },
@@ -1887,7 +1887,7 @@
   },
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "pink-sanguini": "(1/32)"
   },
@@ -1909,7 +1909,7 @@
   "buyPrice": 15,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "locationsFound": [
    "Trade with Cap'n Max Meddlin' (after 80 cumulative)",
    "Rank 9 (A) blue chest in grotto (8%)",
@@ -1958,7 +1958,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "recipe": {
    "moonwort-bulb": 1,
    "special-medicine": 1,
@@ -1988,7 +1988,7 @@
   },
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday"
  },
  "perfect-panacea": {
   "id": "perfect-panacea",
@@ -2000,7 +2000,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "recipe": {
    "angel-bell": 1,
    "panacea": 1,
@@ -2024,7 +2024,7 @@
   "sellPrice": 1500,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "drackal": "(1/128)"
   },
@@ -2047,7 +2047,7 @@
   "buyPrice": 3000,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday"
  },
  "priest-s-primer": {
   "id": "priest-s-primer",
@@ -2059,7 +2059,7 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday"
  },
  "purple-orb": {
   "id": "purple-orb",
@@ -2071,7 +2071,7 @@
   "rarity": 4,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "nokturnus": "(lv. 26–40: 10%; lv. 91–99: 15%)"
   },
@@ -2100,7 +2100,7 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday"
  },
  "red-orb": {
   "id": "red-orb",
@@ -2112,7 +2112,7 @@
   "rarity": 4,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "dragonlord": "(lv. 1: 5%—lv. 91: 10%)"
   },
@@ -2142,7 +2142,7 @@
   "buyPrice": 10,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "locationsFound": [
    "Trade with Cap'n Max Meddlin' (after 80 cumulative)",
    "Rank 10 (S) blue chest in grotto (10%)"
@@ -2188,7 +2188,7 @@
   "sellPrice": 225,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "handsome-crab": "(1/32)"
   },
@@ -2212,7 +2212,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "locationsFound": [
    "Rank 2 (H) blue chest in grotto (8%)"
   ],
@@ -2239,7 +2239,7 @@
   "sellPrice": 41,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "mad-moai": "(1/16)"
   },
@@ -2274,7 +2274,7 @@
   "sellPrice": 750,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "recipe": {
    "magic-water": 1,
    "nectar": 3,
@@ -2314,7 +2314,7 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "recipe": {
    "birdsong-nectar": 3,
    "orichalcum": 1,
@@ -2333,7 +2333,7 @@
   "sellPrice": 800,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "locationsFound": [
    "Trade with Cap'n Max Meddlin' (after 80 cumulative)",
    "Red treasure chest in B1F of The Plumbed Depths (requires Ultimate Key)"
@@ -2362,7 +2362,7 @@
   "rarity": 2,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "recipe": {
    "astral-plume": 2,
    "lucida-shard": 2,
@@ -2389,7 +2389,7 @@
   "sellPrice": 34,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "spinchilla": "(1/16)"
   },
@@ -2413,7 +2413,7 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday"
  },
  "seed-of-agility": {
   "id": "seed-of-agility",
@@ -2425,7 +2425,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "killing-machine": "(1/256)"
   }
@@ -2440,7 +2440,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "lethal-armour": "(1/256)"
   }
@@ -2455,7 +2455,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "white-trigertaur": "(1/256)"
   }
@@ -2470,7 +2470,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "metal-slime": "(1/256)"
   }
@@ -2485,7 +2485,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "sorcerer": "(1/256)"
   }
@@ -2500,7 +2500,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "platinum-king-jewel": "(1/256)"
   }
@@ -2515,7 +2515,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "cumulus-vex": "(1/256)"
   }
@@ -2530,7 +2530,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "brownie": "(1/256)"
   }
@@ -2545,7 +2545,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "wight-king": "(1/256)"
   }
@@ -2560,7 +2560,7 @@
   "rarity": 4,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "baramos": "(lv. 1: 5%—lv. 91: 10%)"
   },
@@ -2588,7 +2588,7 @@
   "sellPrice": 34,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "ram-raider": "(1/16)"
   },
@@ -2612,7 +2612,7 @@
   "sellPrice": 14,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "slime-stack": "(1/8)"
   },
@@ -2641,7 +2641,7 @@
   },
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "ingredientFor": [
    "cloak-of-concealment",
    "dark-robe",
@@ -2661,7 +2661,7 @@
   "sellPrice": 49,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "diethon": "(1/8)"
   },
@@ -2684,7 +2684,7 @@
   "buyPrice": 95,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "recipe": {
    "moonwort-bulb": 1,
    "strong-medicine": 1
@@ -2709,7 +2709,7 @@
   },
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "recipe": {
    "strong-antidote": 2
   },
@@ -2726,7 +2726,7 @@
   },
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "recipe": {
    "strong-medicine": 2
   },
@@ -2750,7 +2750,7 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday"
  },
  "sterling-s-whistle": {
   "id": "sterling-s-whistle",
@@ -2762,7 +2762,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday"
  },
  "strong-antidote": {
   "id": "strong-antidote",
@@ -2774,7 +2774,7 @@
   "buyPrice": 38,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "recipe": {
    "antidotal-herb": 1,
    "medicinal-herb": 1
@@ -2802,7 +2802,7 @@
   "buyPrice": 36,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "recipe": {
    "medicinal-herb": 2
   },
@@ -2831,7 +2831,7 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "recipe": {
    "hephaestus--flame": 1,
    "lucida-shard": 2,
@@ -2859,7 +2859,7 @@
   "buyPrice": 50,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "recipe": {
    "medicinal-herb": 1,
    "strong-medicine": 1
@@ -2886,7 +2886,7 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday"
  },
  "tangleweb": {
   "id": "tangleweb",
@@ -2898,7 +2898,7 @@
   "buyPrice": 35,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "locationsFound": [
    "Batsureg (item shop)",
    "Wormwood Creek (item shop)",
@@ -2926,7 +2926,7 @@
   "sellPrice": 650,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "recipe": {
    "brighten-rock": 1,
    "celestial-skein": 1,
@@ -2954,7 +2954,7 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday"
  },
  "the-core-of-the-claw": {
   "id": "the-core-of-the-claw",
@@ -2966,7 +2966,7 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday"
  },
  "thief-s-theory": {
   "id": "thief-s-theory",
@@ -2978,7 +2978,7 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday"
  },
  "thinkincense": {
   "id": "thinkincense",
@@ -2990,7 +2990,7 @@
   "sellPrice": 22,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "ingredientFor": [
    "blessed-bindings",
    "brahman-boots",
@@ -3015,7 +3015,7 @@
   "sellPrice": 43,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "cumulus-rex": "(1/16)"
   },
@@ -3038,7 +3038,7 @@
   "sellPrice": 70,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "expload": "(1/8)"
   },
@@ -3057,7 +3057,7 @@
   "sellPrice": 150,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "wyrtle": "(1/8)"
   },
@@ -3078,7 +3078,7 @@
   "buyPrice": 66,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "ingredientFor": [
    "aggressence",
    "perfect-panacea",
@@ -3095,7 +3095,7 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday"
  },
  "wing-of-bat": {
   "id": "wing-of-bat",
@@ -3107,7 +3107,7 @@
   "sellPrice": 16,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "drackyma": "(1/8)"
   },
@@ -3130,7 +3130,7 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item"
+  "classification": "everyday"
  },
  "yellow-orb": {
   "id": "yellow-orb",
@@ -3142,7 +3142,7 @@
   "rarity": 4,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "murdaw": "(lv. 1: 5%—lv. 91: 10%)"
   },
@@ -3171,7 +3171,7 @@
   "rarity": 2,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "recipe": {
    "elfin-elixir": 1,
    "yggdrasil-leaf": 1
@@ -3190,7 +3190,7 @@
   "rarity": 2,
   "type": "bag",
   "category": "items",
-  "classification": "everyday-item",
+  "classification": "everyday",
   "droppedBy": {
    "greygnarl": "(100%)"
   },

@@ -9,7 +9,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item",
+  "classification": "important",
   "requiredFor": [
    "006-get-well-water"
   ]
@@ -24,7 +24,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "basic-boomeranging": {
   "id": "basic-boomeranging",
@@ -36,7 +36,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "beardy-weirdy": {
   "id": "beardy-weirdy",
@@ -48,7 +48,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "benevolessence": {
   "id": "benevolessence",
@@ -60,7 +60,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "better-boomeranging": {
   "id": "better-boomeranging",
@@ -72,7 +72,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "bloomingdale-badge": {
   "id": "bloomingdale-badge",
@@ -84,7 +84,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "bodura-grass": {
   "id": "bodura-grass",
@@ -96,7 +96,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "bone-chimer": {
   "id": "bone-chimer",
@@ -108,7 +108,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "bonzer-boomeranging": {
   "id": "bonzer-boomeranging",
@@ -120,7 +120,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "broken-blade": {
   "id": "broken-blade",
@@ -132,7 +132,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "catwright-s-parcel": {
   "id": "catwright-s-parcel",
@@ -144,7 +144,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "cheer-me-up": {
   "id": "cheer-me-up",
@@ -156,7 +156,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "clump-of-cloud": {
   "id": "clump-of-cloud",
@@ -168,7 +168,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "coffinwell-badge": {
   "id": "coffinwell-badge",
@@ -180,7 +180,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "crown-jewel": {
   "id": "crown-jewel",
@@ -192,7 +192,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "crumpled-note": {
   "id": "crumpled-note",
@@ -204,7 +204,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item",
+  "classification": "important",
   "requiredFor": [
    "023-research-assistant"
   ]
@@ -219,7 +219,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "dirtbag": {
   "id": "dirtbag",
@@ -231,7 +231,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "dragon-s-tear": {
   "id": "dragon-s-tear",
@@ -243,7 +243,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "drakulord-s-tooth": {
   "id": "drakulord-s-tooth",
@@ -255,7 +255,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "driver-s-license": {
   "id": "driver-s-license",
@@ -267,7 +267,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "drunken-dragon": {
   "id": "drunken-dragon",
@@ -279,7 +279,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "duneberry": {
   "id": "duneberry",
@@ -291,7 +291,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "encyclopaedia-gittanica": {
   "id": "encyclopaedia-gittanica",
@@ -303,7 +303,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "freezing-feather": {
   "id": "freezing-feather",
@@ -315,7 +315,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "fygg": {
   "id": "fygg",
@@ -327,7 +327,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "genie-sanguini-scarf": {
   "id": "genie-sanguini-scarf",
@@ -339,7 +339,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "gittish-seal": {
   "id": "gittish-seal",
@@ -351,7 +351,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "gleeba-badge": {
   "id": "gleeba-badge",
@@ -363,7 +363,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "goododendron": {
   "id": "goododendron",
@@ -375,7 +375,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "gratite": {
   "id": "gratite",
@@ -387,7 +387,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "grundies": {
   "id": "grundies",
@@ -399,7 +399,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "guestbook": {
   "id": "guestbook",
@@ -411,7 +411,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "hammerfang": {
   "id": "hammerfang",
@@ -423,7 +423,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "heavenly-horseshoe": {
   "id": "heavenly-horseshoe",
@@ -435,7 +435,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "hexite": {
   "id": "hexite",
@@ -447,7 +447,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "hocus-chimaera-feather": {
   "id": "hocus-chimaera-feather",
@@ -459,7 +459,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "inny": {
   "id": "inny",
@@ -471,7 +471,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "jewellery-box": {
   "id": "jewellery-box",
@@ -483,7 +483,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "keepsake-ring": {
   "id": "keepsake-ring",
@@ -495,7 +495,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "larrrst-letter": {
   "id": "larrrst-letter",
@@ -507,7 +507,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "little-key": {
   "id": "little-key",
@@ -519,7 +519,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "lunar-diamond": {
   "id": "lunar-diamond",
@@ -531,7 +531,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "magic-key": {
   "id": "magic-key",
@@ -543,7 +543,7 @@
   "rarity": 2,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "magmalice-handprint": {
   "id": "magmalice-handprint",
@@ -555,7 +555,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "man-s-axe": {
   "id": "man-s-axe",
@@ -567,7 +567,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "mega-moai-headprint": {
   "id": "mega-moai-headprint",
@@ -579,7 +579,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "memento-necklace": {
   "id": "memento-necklace",
@@ -591,7 +591,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "mirror-of-reflection": {
   "id": "mirror-of-reflection",
@@ -603,7 +603,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "molten-magma": {
   "id": "molten-magma",
@@ -615,7 +615,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "nightmare-nurse": {
   "id": "nightmare-nurse",
@@ -627,7 +627,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "nod-s-tear": {
   "id": "nod-s-tear",
@@ -639,7 +639,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "old-ring": {
   "id": "old-ring",
@@ -651,7 +651,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "package-from-ma": {
   "id": "package-from-ma",
@@ -663,7 +663,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "packed-lunch": {
   "id": "packed-lunch",
@@ -675,7 +675,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item",
+  "classification": "important",
   "requiredFor": [
    "017-you-shouldn-t-have…really"
   ]
@@ -690,7 +690,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "platinum-pick": {
   "id": "platinum-pick",
@@ -702,7 +702,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "plum-stone": {
   "id": "plum-stone",
@@ -714,7 +714,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "prayer-pearl": {
   "id": "prayer-pearl",
@@ -726,7 +726,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "quarantomb-key": {
   "id": "quarantomb-key",
@@ -738,7 +738,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "rankened-phial": {
   "id": "rankened-phial",
@@ -750,7 +750,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "royal-seal": {
   "id": "royal-seal",
@@ -762,7 +762,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "serene-necklace": {
   "id": "serene-necklace",
@@ -774,7 +774,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "snowberian-badge": {
   "id": "snowberian-badge",
@@ -786,7 +786,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "staff-scroll": {
   "id": "staff-scroll",
@@ -798,7 +798,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "stamp-card": {
   "id": "stamp-card",
@@ -810,7 +810,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "stellar-medicine": {
   "id": "stellar-medicine",
@@ -822,7 +822,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "teeny-sanguini-scarf": {
   "id": "teeny-sanguini-scarf",
@@ -834,7 +834,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "terrordise-tail-feather": {
   "id": "terrordise-tail-feather",
@@ -846,7 +846,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "thief-s-key": {
   "id": "thief-s-key",
@@ -858,7 +858,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item",
+  "classification": "important",
   "locationsFound": [
    "Reward for 4 mini medals (cumulative)"
   ]
@@ -873,7 +873,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "titanic-tincture": {
   "id": "titanic-tincture",
@@ -885,7 +885,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "torn-exam-paper-1": {
   "id": "torn-exam-paper-1",
@@ -897,7 +897,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "torn-exam-paper-2": {
   "id": "torn-exam-paper-2",
@@ -909,7 +909,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "torn-exam-paper-3": {
   "id": "torn-exam-paper-3",
@@ -921,7 +921,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "turbo-toad-oil": {
   "id": "turbo-toad-oil",
@@ -933,7 +933,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "tycoon-s-trove": {
   "id": "tycoon-s-trove",
@@ -945,7 +945,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "ultimate-key": {
   "id": "ultimate-key",
@@ -957,7 +957,7 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "wisdom-of-the-ancients": {
   "id": "wisdom-of-the-ancients",
@@ -969,7 +969,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "wobbly-jelly": {
   "id": "wobbly-jelly",
@@ -981,7 +981,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "wyrmlight-bow": {
   "id": "wyrmlight-bow",
@@ -993,7 +993,7 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  },
  "yggdrasil-bud": {
   "id": "yggdrasil-bud",
@@ -1005,6 +1005,6 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important-item"
+  "classification": "important"
  }
 }

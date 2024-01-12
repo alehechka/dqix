@@ -17,8 +17,8 @@
    "thief"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "knife",
+  "category": "weapons",
+  "classification": "knives",
   "recipe": {
    "deadly-nightblade": 1,
    "evencloth": 2,
@@ -49,8 +49,8 @@
    "thief"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "knife",
+  "category": "weapons",
+  "classification": "knives",
   "recipe": {
    "butterfly-wing": 3,
    "coagulant": 3,
@@ -76,8 +76,8 @@
    "thief"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "knife",
+  "category": "weapons",
+  "classification": "knives",
   "locationsFound": [
    "Stornway (weapon shop)",
    "Coffinwell (weapon shop)"
@@ -103,8 +103,8 @@
    "thief"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "knife",
+  "category": "weapons",
+  "classification": "knives",
   "recipe": {
    "agate-of-evolution": 1,
    "deft-dagger": 1,
@@ -132,8 +132,8 @@
    "thief"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "knife",
+  "category": "weapons",
+  "classification": "knives",
   "recipe": {
    "agate-of-evolution": 3,
    "darting-dagger": 1,
@@ -159,8 +159,8 @@
    "thief"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "knife",
+  "category": "weapons",
+  "classification": "knives",
   "locationsFound": [
    "Bloomingdale (weapon shop)"
   ],
@@ -189,8 +189,8 @@
    "thief"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "knife",
+  "category": "weapons",
+  "classification": "knives",
   "recipe": {
    "dashing-dagger": 1,
    "reset-stone": 1
@@ -220,8 +220,8 @@
    "thief"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "knife",
+  "category": "weapons",
+  "classification": "knives",
   "recipe": {
    "bronze-knife": 1,
    "holy-water": 3
@@ -250,8 +250,8 @@
    "thief"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "knife",
+  "category": "weapons",
+  "classification": "knives",
   "recipe": {
    "batterfly-knife": 1,
    "butterfly-wing": 5,
@@ -278,8 +278,8 @@
    "thief"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "knife",
+  "category": "weapons",
+  "classification": "knives",
   "recipe": {
    "agate-of-evolution": 3,
    "darting-dagger": 1,
@@ -304,8 +304,8 @@
    "thief"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "knife",
+  "category": "weapons",
+  "classification": "knives",
   "recipe": {
    "agility-ring": 3,
    "deadly-nightblade": 1,
@@ -333,8 +333,8 @@
    "thief"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "knife",
+  "category": "weapons",
+  "classification": "knives",
   "recipe": {
    "ice-crystal": 5,
    "icicle-dirk": 1,
@@ -358,8 +358,8 @@
    "thief"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "knife",
+  "category": "weapons",
+  "classification": "knives",
   "recipe": {
    "crimson-coral": 3,
    "gladius": 1,
@@ -385,8 +385,8 @@
    "thief"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "knife",
+  "category": "weapons",
+  "classification": "knives",
   "recipe": {
    "flame-tang": 1,
    "reset-stone": 1
@@ -416,8 +416,8 @@
    "thief"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "knife",
+  "category": "weapons",
+  "classification": "knives",
   "recipe": {
    "divine-dagger": 1,
    "edged-boomerang": 1,
@@ -450,8 +450,8 @@
    "thief"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "knife",
+  "category": "weapons",
+  "classification": "knives",
   "locationsFound": [
    "Stornway (weapon shop)"
   ]
@@ -473,8 +473,8 @@
    "thief"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "knife",
+  "category": "weapons",
+  "classification": "knives",
   "recipe": {
    "coagulant": 2,
    "divine-dagger": 1,
@@ -511,8 +511,8 @@
    "thief"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "knife",
+  "category": "weapons",
+  "classification": "knives",
   "recipe": {
    "magic-beast-horn": 1,
    "manky-mud": 3
@@ -549,8 +549,8 @@
    "thief"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "knife",
+  "category": "weapons",
+  "classification": "knives",
   "locationsFound": [
    "Rank 8 (B) blue chest in grotto (1%)"
   ]
@@ -572,8 +572,8 @@
    "thief"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "knife",
+  "category": "weapons",
+  "classification": "knives",
   "recipe": {
    "life-bracer": 1,
    "spirit-bracer": 1,
@@ -598,8 +598,8 @@
    "thief"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "knife",
+  "category": "weapons",
+  "classification": "knives",
   "locationsFound": [
    "Upover (weapon shop)"
   ],

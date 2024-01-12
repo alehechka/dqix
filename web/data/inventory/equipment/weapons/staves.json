@@ -16,8 +16,8 @@
    "martial-artist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "stave",
+  "category": "weapons",
+  "classification": "staves",
   "recipe": {
    "mercury-s-bandana": 1,
    "optimistick": 1,
@@ -39,8 +39,8 @@
    "martial-artist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "stave",
+  "category": "weapons",
+  "classification": "staves",
   "locationsFound": [
    "Stornway (weapon shop)",
    "Coffinwell (weapon shop)"
@@ -62,8 +62,8 @@
    "martial-artist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "stave",
+  "category": "weapons",
+  "classification": "staves",
   "recipe": {
    "agate-of-evolution": 3,
    "blue-orb": 3,
@@ -89,8 +89,8 @@
    "martial-artist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "stave",
+  "category": "weapons",
+  "classification": "staves",
   "recipe": {
    "agate-of-evolution": 3,
    "blue-orb": 3,
@@ -112,8 +112,8 @@
    "martial-artist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "stave",
+  "category": "weapons",
+  "classification": "staves",
   "locationsFound": [
    "Stornway (weapon shop)"
   ],
@@ -136,8 +136,8 @@
    "martial-artist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "stave",
+  "category": "weapons",
+  "classification": "staves",
   "locationsFound": [
    "Gleeba (weapon shop)",
    "Batsureg (weapon shop)"
@@ -161,8 +161,8 @@
    "martial-artist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "stave",
+  "category": "weapons",
+  "classification": "staves",
   "recipe": {
    "hephaestus--flame": 1,
    "iron-ore": 2,
@@ -184,8 +184,8 @@
    "martial-artist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "stave",
+  "category": "weapons",
+  "classification": "staves",
   "locationsFound": [
    "Dourbridge (weapon/armour shop)",
    "Bloomingdale (weapon shop)"
@@ -208,8 +208,8 @@
    "martial-artist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "stave",
+  "category": "weapons",
+  "classification": "staves",
   "recipe": {
    "driller-pillar": 1,
    "mighty-armlet": 1
@@ -231,8 +231,8 @@
    "martial-artist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "stave",
+  "category": "weapons",
+  "classification": "staves",
   "recipe": {
    "catatonic-cosh": 1,
    "reset-stone": 1
@@ -259,8 +259,8 @@
    "martial-artist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "stave",
+  "category": "weapons",
+  "classification": "staves",
   "locationsFound": [
    "Stornway (weapon shop)"
   ],
@@ -285,8 +285,8 @@
    "martial-artist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "stave",
+  "category": "weapons",
+  "classification": "staves",
   "recipe": {
    "driller-pillar": 1,
    "flurry-feather": 3,
@@ -318,8 +318,8 @@
    "martial-artist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "stave",
+  "category": "weapons",
+  "classification": "staves",
   "locationsFound": [
    "Coffinwell (weapon shop)",
    "Alltrades Abbey (item shop)"
@@ -344,8 +344,8 @@
    "martial-artist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "stave",
+  "category": "weapons",
+  "classification": "staves",
   "recipe": {
    "agility-ring": 1,
    "celestial-skein": 2,
@@ -369,8 +369,8 @@
    "martial-artist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "stave",
+  "category": "weapons",
+  "classification": "staves",
   "recipe": {
    "hephaestus--flame": 3,
    "orichalcum": 3
@@ -391,8 +391,8 @@
    "martial-artist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "stave",
+  "category": "weapons",
+  "classification": "staves",
   "recipe": {
    "oaken-pole": 3,
    "utility-belt": 1
@@ -417,8 +417,8 @@
    "martial-artist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "stave",
+  "category": "weapons",
+  "classification": "staves",
   "locationsFound": [
    "Upover (weapon shop)"
   ]
@@ -439,8 +439,8 @@
    "martial-artist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "stave",
+  "category": "weapons",
+  "classification": "staves",
   "recipe": {
    "agate-of-evolution": 1,
    "blue-orb": 1,
@@ -468,8 +468,8 @@
    "martial-artist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "stave",
+  "category": "weapons",
+  "classification": "staves",
   "locationsFound": [
    "Batsureg (weapon shop)"
   ],
@@ -494,8 +494,8 @@
    "martial-artist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "stave",
+  "category": "weapons",
+  "classification": "staves",
   "recipe": {
    "narspicious": 1,
    "sleeping-hibiscus": 3,
@@ -516,8 +516,8 @@
    "martial-artist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "stave",
+  "category": "weapons",
+  "classification": "staves",
   "recipe": {
    "iron-bar": 1,
    "iron-ore": 1,
@@ -541,8 +541,8 @@
    "martial-artist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "stave",
+  "category": "weapons",
+  "classification": "staves",
   "recipe": {
    "dragon-rod": 1,
    "dragon-scale": 3,

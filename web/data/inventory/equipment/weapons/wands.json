@@ -20,8 +20,8 @@
    "sage"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "wand",
+  "category": "weapons",
+  "classification": "wands",
   "recipe": {
    "agate-of-evolution": 1,
    "blue-orb": 1,
@@ -49,8 +49,8 @@
    "sage"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "wand",
+  "category": "weapons",
+  "classification": "wands",
   "recipe": {
    "brilliant-staff": 1,
    "reset-stone": 1
@@ -83,8 +83,8 @@
    "sage"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "wand",
+  "category": "weapons",
+  "classification": "wands",
   "recipe": {
    "agate-of-evolution": 1,
    "blue-orb": 1,
@@ -112,8 +112,8 @@
    "sage"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "wand",
+  "category": "weapons",
+  "classification": "wands",
   "locationsFound": [
    "Rank 5 (E) blue chest in grotto (1%)"
   ]
@@ -136,8 +136,8 @@
    "sage"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "wand"
+  "category": "weapons",
+  "classification": "wands"
  },
  "hieroglyph-staff": {
   "id": "hieroglyph-staff",
@@ -157,8 +157,8 @@
    "sage"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "wand",
+  "category": "weapons",
+  "classification": "wands",
   "recipe": {
    "rune-staff": 1,
    "sage-s-elixir": 3,
@@ -185,8 +185,8 @@
    "sage"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "wand",
+  "category": "weapons",
+  "classification": "wands",
   "recipe": {
    "lightning-staff": 1,
    "sage-s-elixir": 1,
@@ -214,8 +214,8 @@
    "sage"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "wand",
+  "category": "weapons",
+  "classification": "wands",
   "recipe": {
    "magic-water": 1,
    "stolos--staff": 1,
@@ -253,8 +253,8 @@
    "sage"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "wand",
+  "category": "weapons",
+  "classification": "wands",
   "locationsFound": [
    "Upover (weapon shop)"
   ],
@@ -283,8 +283,8 @@
    "sage"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "wand",
+  "category": "weapons",
+  "classification": "wands",
   "recipe": {
    "brighten-rock": 3,
    "rockbomb-shard": 3,
@@ -315,8 +315,8 @@
    "sage"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "wand",
+  "category": "weapons",
+  "classification": "wands",
   "recipe": {
    "astral-plume": 1,
    "magical-mace": 1,
@@ -344,8 +344,8 @@
    "sage"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "wand",
+  "category": "weapons",
+  "classification": "wands",
   "locationsFound": [
    "Stornway (weapon shop)",
    "Coffinwell (weapon shop)"
@@ -374,8 +374,8 @@
    "sage"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "wand",
+  "category": "weapons",
+  "classification": "wands",
   "recipe": {
    "magic-water": 5,
    "ruby-of-protection": 1,
@@ -410,8 +410,8 @@
    "sage"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "wand",
+  "category": "weapons",
+  "classification": "wands",
   "locationsFound": [
    "Stornway (weapon shop)"
   ],
@@ -440,8 +440,8 @@
    "sage"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "wand",
+  "category": "weapons",
+  "classification": "wands",
   "recipe": {
    "agate-of-evolution": 1,
    "sage-s-elixir": 3,
@@ -466,8 +466,8 @@
    "sage"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "wand",
+  "category": "weapons",
+  "classification": "wands",
   "droppedBy": {
    "king-godwyn": "(100%)"
   },
@@ -496,8 +496,8 @@
    "sage"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "wand",
+  "category": "weapons",
+  "classification": "wands",
   "recipe": {
    "agate-of-evolution": 1,
    "blue-orb": 1,
@@ -528,8 +528,8 @@
    "sage"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "wand",
+  "category": "weapons",
+  "classification": "wands",
   "recipe": {
    "flurry-feather": 3,
    "sage-s-elixir": 1,
@@ -561,8 +561,8 @@
    "sage"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "wand",
+  "category": "weapons",
+  "classification": "wands",
   "recipe": {
    "flurry-feather": 1,
    "magic-water": 1,
@@ -600,8 +600,8 @@
    "sage"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "wand",
+  "category": "weapons",
+  "classification": "wands",
   "locationsFound": [
    "Dourbridge (weapon/armor shop)",
    "Bloomingdale (weapon shop)"
@@ -636,8 +636,8 @@
    "sage"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "wand",
+  "category": "weapons",
+  "classification": "wands",
   "recipe": {
    "celestial-skein": 1,
    "enchanted-stone": 1,
@@ -665,8 +665,8 @@
    "sage"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "wand",
+  "category": "weapons",
+  "classification": "wands",
   "recipe": {
    "crimson-coral": 3,
    "seashell": 3,
@@ -702,8 +702,8 @@
    "sage"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "wand",
+  "category": "weapons",
+  "classification": "wands",
   "locationsFound": [
    "Stornway (weapon shop)",
    "Coffinwell (weapon shop)"
@@ -735,8 +735,8 @@
    "sage"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "wand",
+  "category": "weapons",
+  "classification": "wands",
   "locationsFound": [
    "Rank 8 (B) blue chest in grotto (1%)"
   ]

@@ -18,8 +18,8 @@
    "armamentalist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "sword",
+  "category": "weapons",
+  "classification": "swords",
   "recipe": {
    "brighten-rock": 3,
    "cautery-sword": 1,
@@ -47,8 +47,8 @@
    "armamentalist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "sword",
+  "category": "weapons",
+  "classification": "swords",
   "locationsFound": [
    "Gleeba (weapon shop)",
    "Batsureg (weapon shop)"
@@ -77,8 +77,8 @@
    "armamentalist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "sword",
+  "category": "weapons",
+  "classification": "swords",
   "locationsFound": [
    "Dourbridge (weapon/armour shop)",
    "Bloomingdale (weapon shop)"
@@ -108,8 +108,8 @@
    "armamentalist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "sword",
+  "category": "weapons",
+  "classification": "swords",
   "locationsFound": [
    "Angel Falls (item shop)",
    "Stornway (weapon shop)"
@@ -137,8 +137,8 @@
    "armamentalist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "sword",
+  "category": "weapons",
+  "classification": "swords",
   "recipe": {
    "dragonsbane": 1,
    "mighty-armlet": 1
@@ -164,8 +164,8 @@
    "armamentalist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "sword",
+  "category": "weapons",
+  "classification": "swords",
   "locationsFound": [
    "Wormwood Creek (weapon shop)"
   ],
@@ -193,8 +193,8 @@
    "armamentalist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "sword",
+  "category": "weapons",
+  "classification": "swords",
   "recipe": {
    "glass-frit": 9,
    "orichalcum": 1,
@@ -221,8 +221,8 @@
    "armamentalist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "sword",
+  "category": "weapons",
+  "classification": "swords",
   "locationsFound": [
    "Stornway (weapon shop)"
   ],
@@ -253,8 +253,8 @@
    "armamentalist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "sword",
+  "category": "weapons",
+  "classification": "swords",
   "recipe": {
    "lava-lump": 3,
    "rockbomb-shard": 1,
@@ -287,8 +287,8 @@
    "armamentalist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "sword",
+  "category": "weapons",
+  "classification": "swords",
   "recipe": {
    "mythril-ore": 1,
    "narspicious": 3,
@@ -315,8 +315,8 @@
    "armamentalist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "sword",
+  "category": "weapons",
+  "classification": "swords",
   "recipe": {
    "hephaestus--flame": 1,
    "iron-ore": 2,
@@ -342,8 +342,8 @@
    "armamentalist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "sword",
+  "category": "weapons",
+  "classification": "swords",
   "recipe": {
    "agate-of-evolution": 3,
    "nebula-sword": 1,
@@ -369,8 +369,8 @@
    "armamentalist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "sword",
+  "category": "weapons",
+  "classification": "swords",
   "recipe": {
    "fire-blade": 1,
    "rockbomb-shard": 3,
@@ -392,8 +392,8 @@
    "minstrel"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "sword",
+  "category": "weapons",
+  "classification": "swords",
   "locationsFound": [
    "Coffinwell (weapon shop)",
    "Alltrades Abbey (item shop)"
@@ -425,8 +425,8 @@
    "armamentalist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "sword",
+  "category": "weapons",
+  "classification": "swords",
   "recipe": {
    "metal-slime-sword": 1,
    "orichalcum": 1,
@@ -455,8 +455,8 @@
    "armamentalist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "sword",
+  "category": "weapons",
+  "classification": "swords",
   "recipe": {
    "liquid-metal-sword": 1,
    "orichalcum": 1,
@@ -482,8 +482,8 @@
    "armamentalist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "sword",
+  "category": "weapons",
+  "classification": "swords",
   "locationsFound": [
    "Rank 9 (A) blue chest in grotto (1%)"
   ],
@@ -510,8 +510,8 @@
    "armamentalist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "sword",
+  "category": "weapons",
+  "classification": "swords",
   "locationsFound": [
    "Reward for 32 mini medals (cumulative)"
   ],
@@ -541,8 +541,8 @@
    "armamentalist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "sword",
+  "category": "weapons",
+  "classification": "swords",
   "recipe": {
    "agate-of-evolution": 1,
    "silver-orb": 1,
@@ -571,8 +571,8 @@
    "armamentalist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "sword",
+  "category": "weapons",
+  "classification": "swords",
   "recipe": {
    "hephaestus--flame": 1,
    "iron-broadsword": 1,
@@ -607,8 +607,8 @@
    "armamentalist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "sword",
+  "category": "weapons",
+  "classification": "swords",
   "locationsFound": [
    "Stornway (weapon shop)",
    "Coffinwell (weapon shop)"
@@ -638,8 +638,8 @@
    "armamentalist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "sword",
+  "category": "weapons",
+  "classification": "swords",
   "locationsFound": [
    "Red chest in Realm of the Mighty (L9)"
   ],
@@ -665,8 +665,8 @@
    "armamentalist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "sword",
+  "category": "weapons",
+  "classification": "swords",
   "locationsFound": [
    "Angel Falls (item shop)",
    "Stornway (weapon shop)"
@@ -697,8 +697,8 @@
    "armamentalist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "sword",
+  "category": "weapons",
+  "classification": "swords",
   "recipe": {
    "reset-stone": 1,
    "supernova-sword": 1
@@ -725,8 +725,8 @@
    "minstrel"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "sword",
+  "category": "weapons",
+  "classification": "swords",
   "recipe": {
    "iron-broadsword": 1,
    "iron-ore": 1,
@@ -755,8 +755,8 @@
    "armamentalist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "sword",
+  "category": "weapons",
+  "classification": "swords",
   "recipe": {
    "agate-of-evolution": 3,
    "nebula-sword": 1,
@@ -784,8 +784,8 @@
    "armamentalist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "sword",
+  "category": "weapons",
+  "classification": "swords",
   "locationsFound": [
    "Batsureg (weapon shop)",
    "Wormwood Creek (weapon shop)"
@@ -814,8 +814,8 @@
    "armamentalist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "sword",
+  "category": "weapons",
+  "classification": "swords",
   "recipe": {
    "raging-ruby": 1,
    "soldier-s-sword": 1,
@@ -844,8 +844,8 @@
    "armamentalist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "sword",
+  "category": "weapons",
+  "classification": "swords",
   "recipe": {
    "falcon-blade": 1,
    "meteorite-bracer": 1
@@ -870,8 +870,8 @@
    "armamentalist"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "sword",
+  "category": "weapons",
+  "classification": "swords",
   "recipe": {
    "life-bracer": 2,
    "miracle-sword": 1

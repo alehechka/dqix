@@ -25,6 +25,7 @@ type HasInventoryStats struct {
 	HasMagicalMight     bool
 	HasMagicalMending   bool
 	HasMPAbsorptionRate bool
+	HasMaxMP            bool
 	HasDeftness         bool
 	HasCharm            bool
 	HasSpecial          bool
@@ -55,6 +56,9 @@ func (i InventorySlice) GetHasInventoryStats() (stats HasInventoryStats) {
 		}
 		if inventory.Statistics.MPAbsorptionRate > 0 {
 			stats.HasMPAbsorptionRate = true
+		}
+		if inventory.Statistics.MaxMP > 0 {
+			stats.HasMaxMP = true
 		}
 		if inventory.Statistics.Deftness > 0 {
 			stats.HasDeftness = true
@@ -126,6 +130,8 @@ func InventorySortingFunc(sorts Sorts) func(a, b Inventory) int {
 				comp = cmp.Compare(a.Statistics.MagicalMending, b.Statistics.MagicalMending)
 			case "mp-absorption-rate", "mp-absorption", "mpAbsorptionRate", "mpAbsorption":
 				comp = cmp.Compare(a.Statistics.MPAbsorptionRate, b.Statistics.MPAbsorptionRate)
+			case "max-mp", "maxMp", "maxMP":
+				comp = cmp.Compare(a.Statistics.MaxMP, b.Statistics.MaxMP)
 			case "deftness":
 				comp = cmp.Compare(a.Statistics.Deftness, b.Statistics.Deftness)
 			case "charm":
@@ -214,6 +220,7 @@ type Statistics struct {
 	MagicalMight     int     `json:"magicalMight,omitempty"`
 	MagicalMending   int     `json:"magicalMending,omitempty"`
 	MPAbsorptionRate float64 `json:"mpAbsorptionRate,omitempty"`
+	MaxMP            int     `json:"maxMP,omitempty"`
 	Deftness         int     `json:"deftness,omitempty"`
 	Charm            int     `json:"charm,omitempty"`
 	Special          Special `json:"special,omitempty"`
@@ -281,7 +288,7 @@ func (i Inventory) ToDataKey() DataKey {
 
 func (p PageContent) ParseAsWeapon() (inventory Inventory) {
 	inventory.Type = "equipment"
-	inventory.Category = "weapon"
+	inventory.Category = "weapons"
 
 	p.parseFromBase(&inventory)
 	return
@@ -295,23 +302,12 @@ func (p PageContent) ParseAsArmor() (inventory Inventory) {
 	return
 }
 
-func (p PageContent) ParseAsAccessory() (inventory Inventory) {
-	inventory.Type = "equipment"
-	inventory.Category = "accessories"
-
-	p.parseFromBase(&inventory)
-	return
-}
-
 func (p PageContent) ParseAsItem() (inventory Inventory) {
 	inventory.Type = "bag"
 	inventory.Category = "items"
 
 	p.parseFromBase(&inventory)
 
-	if inventory.Classification == "item" {
-		inventory.Classification = "everyday-item"
-	}
 	return
 }
 
@@ -350,6 +346,9 @@ func (p PageContent) parseFromBase(inventory *Inventory) {
 		case "MP Absorption Rate:":
 			i++
 			inventory.Statistics.MPAbsorptionRate, _ = strconv.ParseFloat(strings.TrimSuffix(p.Text[i], "%"), 64)
+		case "Max. MP:":
+			i++
+			inventory.Statistics.MaxMP, _ = strconv.Atoi(p.Text[i])
 		case "Deftness:":
 			i++
 			inventory.Statistics.Deftness, _ = strconv.Atoi(p.Text[i])

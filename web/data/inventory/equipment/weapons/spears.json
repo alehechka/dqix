@@ -15,8 +15,8 @@
    "paladin"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "spear",
+  "category": "weapons",
+  "classification": "spears",
   "locationsFound": [
    "Stornway (weapon shop)"
   ]
@@ -39,8 +39,8 @@
    "paladin"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "spear",
+  "category": "weapons",
+  "classification": "spears",
   "locationsFound": [
    "Bloomingdale (weapon shop)",
    "Gleeba (weapon shop)"
@@ -69,8 +69,8 @@
    "paladin"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "spear",
+  "category": "weapons",
+  "classification": "spears",
   "recipe": {
    "holy-talisman": 1,
    "long-spear": 1,
@@ -101,8 +101,8 @@
    "paladin"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "spear",
+  "category": "weapons",
+  "classification": "spears",
   "recipe": {
    "celestial-spear": 1,
    "malicite": 1,
@@ -127,8 +127,8 @@
    "paladin"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "spear",
+  "category": "weapons",
+  "classification": "spears",
   "recipe": {
    "hephaestus--flame": 1,
    "iron-ore": 2,
@@ -152,8 +152,8 @@
    "paladin"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "spear",
+  "category": "weapons",
+  "classification": "spears",
   "recipe": {
    "densinium": 2,
    "mighty-armlet": 1,
@@ -176,8 +176,8 @@
    "paladin"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "spear",
+  "category": "weapons",
+  "classification": "spears",
   "recipe": {
    "battle-axe": 1,
    "partisan": 1
@@ -206,8 +206,8 @@
    "paladin"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "spear",
+  "category": "weapons",
+  "classification": "spears",
   "locationsFound": [
    "Rank 8 (B) blue chest in grotto (1%)"
   ]
@@ -230,8 +230,8 @@
    "paladin"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "spear",
+  "category": "weapons",
+  "classification": "spears",
   "recipe": {
    "gold-rosary": 1,
    "iron-lance": 1
@@ -263,8 +263,8 @@
    "paladin"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "spear",
+  "category": "weapons",
+  "classification": "spears",
   "locationsFound": [
    "Stornway (weapon shop)",
    "Coffinwell (weapon shop)"
@@ -295,8 +295,8 @@
    "paladin"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "spear",
+  "category": "weapons",
+  "classification": "spears",
   "recipe": {
    "celestial-spear": 1,
    "mythril-ore": 1,
@@ -326,8 +326,8 @@
    "paladin"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "spear",
+  "category": "weapons",
+  "classification": "spears",
   "recipe": {
    "metal-slime-spear": 1,
    "orichalcum": 1,
@@ -353,8 +353,8 @@
    "paladin"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "spear",
+  "category": "weapons",
+  "classification": "spears",
   "locationsFound": [
    "Coffinwell (weapon shop)",
    "Alltrades Abbey (item shop)"
@@ -383,8 +383,8 @@
    "paladin"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "spear",
+  "category": "weapons",
+  "classification": "spears",
   "recipe": {
    "liquid-metal-spear": 1,
    "orichalcum": 1,
@@ -408,8 +408,8 @@
    "paladin"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "spear",
+  "category": "weapons",
+  "classification": "spears",
   "locationsFound": [
    "Rank 9 (A) blue chest in grotto (1%)"
   ],
@@ -433,8 +433,8 @@
    "paladin"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "spear",
+  "category": "weapons",
+  "classification": "spears",
   "locationsFound": [
    "Batsureg (weapon shop)",
    "Swinedimples Academy (item shop)"
@@ -463,8 +463,8 @@
    "paladin"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "spear",
+  "category": "weapons",
+  "classification": "spears",
   "recipe": {
    "reset-stone": 1,
    "split-pot-poker": 1
@@ -493,8 +493,8 @@
    "paladin"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "spear",
+  "category": "weapons",
+  "classification": "spears",
   "recipe": {
    "agate-of-evolution": 3,
    "red-orb": 3,
@@ -518,8 +518,8 @@
    "paladin"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "spear",
+  "category": "weapons",
+  "classification": "spears",
   "recipe": {
    "glass-frit": 2,
    "holy-lance": 1,
@@ -551,8 +551,8 @@
    "paladin"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "spear",
+  "category": "weapons",
+  "classification": "spears",
   "recipe": {
    "agate-of-evolution": 3,
    "red-orb": 3,
@@ -577,8 +577,8 @@
    "paladin"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "spear",
+  "category": "weapons",
+  "classification": "spears",
   "recipe": {
    "iron-lance": 1,
    "iron-ore": 1,
@@ -605,8 +605,8 @@
    "paladin"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "spear",
+  "category": "weapons",
+  "classification": "spears",
   "recipe": {
    "gold-bar": 1,
    "lightning-lance": 1,
@@ -630,8 +630,8 @@
    "paladin"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "spear",
+  "category": "weapons",
+  "classification": "spears",
   "recipe": {
    "agate-of-evolution": 1,
    "poker": 1,
@@ -659,8 +659,8 @@
    "paladin"
   ],
   "type": "equipment",
-  "category": "weapon",
-  "classification": "spear",
+  "category": "weapons",
+  "classification": "spears",
   "recipe": {
    "battle-fork": 1,
    "crimson-coral": 2,
