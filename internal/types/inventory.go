@@ -355,7 +355,6 @@ func (p PageContent) parseFromBase(inventory *Inventory) {
 		case "Charm:":
 			i++
 			inventory.Statistics.Charm, _ = strconv.Atoi(p.Text[i])
-
 		case "Cursed:":
 			i++
 			inventory.Statistics.Special.Curse = p.Text[i]
