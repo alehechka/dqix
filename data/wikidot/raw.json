@@ -4999,7 +4999,8 @@
       ",",
       "Watermaul wand",
       "Where to find:",
-      "Wyrmneck, Oubliette"
+      "Wyrmneck, Oubliette",
+      "monster"
     ],
     "Links": {
       "/dragon-scale": "Dragon scale",
@@ -5139,7 +5140,8 @@
       ",",
       "Corundum",
       "Where to find:",
-      "The Plumbed Depths"
+      "The Plumbed Depths",
+      "monster"
     ],
     "Links": {
       "/corundum": "Corundum",
@@ -5503,7 +5505,8 @@
       ",",
       "Skull ring",
       "Where to find:",
-      "Oubliette, Ocean"
+      "Oubliette, Ocean",
+      "monster"
     ],
     "Links": {
       "/boom": "Boom",
@@ -5626,7 +5629,8 @@
       ",",
       "Ruinous shield",
       "Where to find:",
-      "Grotto (Ruins, rank 9-11)"
+      "Grotto (Ruins, rank 9-11)",
+      "monster"
     ],
     "Links": {
       "/iron-mask": "Iron mask",
@@ -6669,7 +6673,8 @@
       "The page",
       "alma-mater",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "monster"
     ],
     "Links": {}
   },
@@ -6688,7 +6693,8 @@
       ",",
       "Demon whip",
       "Where to find:",
-      "Grotto (Ruins, rank 11-12)"
+      "Grotto (Ruins, rank 11-12)",
+      "monster"
     ],
     "Links": {
       "/demon-whip": "Demon whip",
@@ -6978,7 +6984,8 @@
       ",",
       "Assassin's dagger",
       "Where to find:",
-      "Snowberia, Snowberian Coast"
+      "Snowberia, Snowberian Coast",
+      "monster"
     ],
     "Links": {
       "/assassin-s-dagger": "Assassin's dagger",
@@ -7723,7 +7730,8 @@
       "Tropotoga",
       "(2%)",
       "Weak to:",
-      "Light (2x damage)"
+      "Light (2x damage)",
+      "monster"
     ],
     "Links": {
       "/demon-family": "Demon family",
@@ -7853,7 +7861,8 @@
       ",",
       "Heavy hatchet",
       "Where to find:",
-      "Grotto (Ruins, rank 12)"
+      "Grotto (Ruins, rank 12)",
+      "monster"
     ],
     "Links": {
       "/gold-bar": "Gold bar",
@@ -8072,7 +8081,8 @@
       ",",
       "Cautery sword",
       "Where to find:",
-      "Bloomingdale, Djust Desert"
+      "Bloomingdale, Djust Desert",
+      "monster"
     ],
     "Links": {
       "/cautery-sword": "Cautery sword",
@@ -8195,7 +8205,8 @@
       ",",
       "Hades helm",
       "Where to find:",
-      "Oubliette"
+      "Oubliette",
+      "monster"
     ],
     "Links": {
       "/double-edged-slash": "Double-Edged Slash",
@@ -8219,7 +8230,8 @@
       ",",
       "Strong medicine",
       "Where to find:",
-      "Newid Isle, Tower of Trades"
+      "Newid Isle, Tower of Trades",
+      "monster"
     ],
     "Links": {
       "/magic-beast-hide": "Magic beast hide",
@@ -8242,7 +8254,8 @@
       ",",
       "Magic beast hide",
       "Where to find:",
-      "Western Coffinwell"
+      "Western Coffinwell",
+      "monster"
     ],
     "Links": {
       "/magic-beast-hide": "Magic beast hide",
@@ -8266,7 +8279,8 @@
       ",",
       "Special medicine",
       "Where to find:",
-      "Djust Desert"
+      "Djust Desert",
+      "monster"
     ],
     "Links": {
       "/fizzle": "Fizzle",
@@ -8370,7 +8384,8 @@
       ",",
       "Softwort",
       "Where to find:",
-      "Wyrmsmaw, The Magmaroo"
+      "Wyrmsmaw, The Magmaroo",
+      "monster"
     ],
     "Links": {
       "/lava-lump": "Lava lump",
@@ -8643,7 +8658,8 @@
       "Weak to:",
       "Ice (1.5x damage)",
       "Resists:",
-      "Wind (0.5x damage)"
+      "Wind (0.5x damage)",
+      "monster"
     ],
     "Links": {
       "/062-brian-s-dyin-wish": "quest 62",
@@ -8665,7 +8681,8 @@
       "Items Dropped:",
       "Yggdrasil leaf",
       "Where to find:",
-      "Realm of the Mighty"
+      "Realm of the Mighty",
+      "monster"
     ],
     "Links": {
       "/yggdrasil-leaf": "Yggdrasil leaf"
@@ -8687,7 +8704,8 @@
       ",",
       "Raging bull helm",
       "Where to find:",
-      "Realm of the Mighty"
+      "Realm of the Mighty",
+      "monster"
     ],
     "Links": {
       "/kaboom": "Kaboom",
@@ -8737,7 +8755,8 @@
       ",",
       "Warrior's sword",
       "Where to find:",
-      "Grotto (Fire, rank 9-11)"
+      "Grotto (Fire, rank 9-11)",
+      "monster"
     ],
     "Links": {
       "/royal-soil": "Royal soil",
@@ -9048,7 +9067,8 @@
       ",",
       "Magic beast hide",
       "Where to find:",
-      "Iluugazar Plains, Mt Ulbaruun"
+      "Iluugazar Plains, Mt Ulbaruun",
+      "monster"
     ],
     "Links": {
       "/lambswool": "Lambswool",
@@ -9225,7 +9245,8 @@
       ",",
       "Clogs",
       "Where to find:",
-      "Lonely Plains"
+      "Lonely Plains",
+      "monster"
     ],
     "Links": {
       "/chimaera-wing": "Chimaera wing",
@@ -9439,7 +9460,8 @@
       ",",
       "Red tights",
       "Where to find:",
-      "Realm of the Mighty"
+      "Realm of the Mighty",
+      "monster"
     ],
     "Links": {
       "/crimson-coral": "Crimson coral",
@@ -9653,7 +9675,8 @@
       ",",
       "Iron claws",
       "Where to find:",
-      "Slurry Coast, Dourbridge"
+      "Slurry Coast, Dourbridge",
+      "monster"
     ],
     "Links": {
       "/iron-claws": "Iron claws",
@@ -9762,7 +9785,8 @@
       ",",
       "Strength ring",
       "Where to find:",
-      "Bloomingdale"
+      "Bloomingdale",
+      "monster"
     ],
     "Links": {
       "/magic-beast-hide": "Magic beast hide",
@@ -9912,7 +9936,8 @@
       ",",
       "Flame shield",
       "Where to find:",
-      "Grotto (Fire, rank 10-12)"
+      "Grotto (Fire, rank 10-12)",
+      "monster"
     ],
     "Links": {
       "/flame-shield": "Flame shield",
@@ -10065,7 +10090,8 @@
       ",",
       "Panacea",
       "Where to find:",
-      "Gittingham Palace"
+      "Gittingham Palace",
+      "monster"
     ],
     "Links": {
       "/panacea": "Panacea",
@@ -10224,7 +10250,8 @@
       ",",
       "Veteran's helm",
       "Where to find:",
-      "Grotto (Ice, rank 12)"
+      "Grotto (Ice, rank 12)",
+      "monster"
     ],
     "Links": {
       "/skull-helm": "Skull helm",
@@ -10307,7 +10334,8 @@
       ",",
       "Yggdrasil leaf",
       "Where to find:",
-      "Grotto (Water, rank 10-11)"
+      "Grotto (Water, rank 10-11)",
+      "monster"
     ],
     "Links": {
       "/magic-beast-hide": "Magic beast hide",
@@ -10328,7 +10356,8 @@
       ",",
       "Wizard's staff",
       "Where to find:",
-      "Brigadoom, Eastern Coffinwell"
+      "Brigadoom, Eastern Coffinwell",
+      "monster"
     ],
     "Links": {
       "/leather-shoes": "Leather shoes",
@@ -10362,7 +10391,8 @@
       "Blockenspiel",
       "Attacks while still protecting the body with a shield.",
       "MP Cost:",
-      "4"
+      "4",
+      "monster"
     ],
     "Links": {}
   },
@@ -10380,7 +10410,8 @@
       ",",
       "Malicite",
       "Where to find:",
-      "Khaalag Coast, Ondor Cliffs"
+      "Khaalag Coast, Ondor Cliffs",
+      "monster"
     ],
     "Links": {
       "/grubby-bandage": "Grubby bandage",
@@ -10403,7 +10434,8 @@
       ",",
       "Terrible tattoo",
       "Where to find:",
-      "Western Wormwood, The Bowhole"
+      "Western Wormwood, The Bowhole",
+      "monster"
     ],
     "Links": {
       "/fuddle-dance": "Fuddle Dance",
@@ -10815,7 +10847,8 @@
       ",",
       "Wizard's robe",
       "Where to find:",
-      "Grotto (Ruins, rank 10-12)"
+      "Grotto (Ruins, rank 10-12)",
+      "monster"
     ],
     "Links": {
       "/wizard-s-hat": "Wizard's hat",
@@ -10905,7 +10938,8 @@
       ",",
       "Leather cape",
       "Where to find:",
-      "Newid Isle"
+      "Newid Isle",
+      "monster"
     ],
     "Links": {
       "/leather-cape": "Leather cape",
@@ -11027,7 +11061,8 @@
       ",",
       "Yggdrasil dew",
       "Where to find:",
-      "Khaalag Coast, Ondor Cliffs"
+      "Khaalag Coast, Ondor Cliffs",
+      "monster"
     ],
     "Links": {
       "/kerplunk": "Kerplunk",
@@ -11088,7 +11123,8 @@
       ",",
       "Lunaria",
       "Where to find:",
-      "Grotto (Ice, rank 12; Water, rank 9-11)"
+      "Grotto (Ice, rank 12; Water, rank 9-11)",
+      "monster"
     ],
     "Links": {
       "/lunaria": "Lunaria",
@@ -11434,7 +11470,8 @@
       ",",
       "Boomer briefs",
       "Where to find:",
-      "Gittingham Palace, Oubliette"
+      "Gittingham Palace, Oubliette",
+      "monster"
     ],
     "Links": {
       "/boomer-briefs": "Boomer briefs",
@@ -11697,7 +11734,8 @@
       ",",
       "Raging ruby",
       "Where to find:",
-      "Iluugazar Plains, Mt Ulzuun"
+      "Iluugazar Plains, Mt Ulzuun",
+      "monster"
     ],
     "Links": {
       "/dazzle": "Dazzle",
@@ -12193,7 +12231,8 @@
       ",",
       "Ice shield",
       "Where to find:",
-      "Snowberia, Snowberian Coast"
+      "Snowberia, Snowberian Coast",
+      "monster"
     ],
     "Links": {
       "/chilly-breath": "Chilly Breath",
@@ -12310,7 +12349,8 @@
       ",",
       "Softwort",
       "Where to find:",
-      "Slurry Coast"
+      "Slurry Coast",
+      "monster"
     ],
     "Links": {
       "/badja": "badja",
@@ -12553,7 +12593,8 @@
       ",",
       "Fencing frock",
       "Where to find:",
-      "Grotto (Ice, rank 8-10)"
+      "Grotto (Ice, rank 8-10)",
+      "monster"
     ],
     "Links": {
       "/fencing-frock": "Fencing frock",
@@ -12580,7 +12621,8 @@
       ",",
       "Gold bracer",
       "Where to find:",
-      "Tower of Trades, The Bad Cave, Grotto (10% chance, rank G chests)"
+      "Tower of Trades, The Bad Cave, Grotto (10% chance, rank G chests)",
+      "monster"
     ],
     "Links": {
       "/fizzle": "Fizzle",
@@ -13559,7 +13601,8 @@
       ",",
       "Iron lance",
       "Where to find:",
-      "Eastern Coffinwell, Western Coffinwell"
+      "Eastern Coffinwell, Western Coffinwell",
+      "monster"
     ],
     "Links": {
       "/angel-bell": "Angel bell",
@@ -13589,7 +13632,8 @@
       ",",
       "Halberd",
       "Where to find:",
-      "Realm of the Mighty"
+      "Realm of the Mighty",
+      "monster"
     ],
     "Links": {
       "/halberd": "Halberd",
@@ -13610,7 +13654,8 @@
       ",",
       "Magic shield",
       "Where to find:",
-      "Gerzuun, Khaalag Coast"
+      "Gerzuun, Khaalag Coast",
+      "monster"
     ],
     "Links": {
       "/fresh-water": "Fresh water",
@@ -13708,7 +13753,8 @@
       ",",
       "Flurry feather",
       "Where to find:",
-      "Tywll Cave, Slurry Coast"
+      "Tywll Cave, Slurry Coast",
+      "monster"
     ],
     "Links": {
       "/chimaera-wing": "Chimaera wing",
@@ -13917,7 +13963,8 @@
       ",",
       "Tough Guy Tattoo",
       "Where to find:",
-      "Lonely Coast, Ocean"
+      "Lonely Coast, Ocean",
+      "monster"
     ],
     "Links": {
       "/magic-beast-horn": "Magic beast horn",
@@ -13986,7 +14033,8 @@
       ",",
       "Staff of sentencing",
       "Where to find:",
-      "Dourbridge, Lonely Plains"
+      "Dourbridge, Lonely Plains",
+      "monster"
     ],
     "Links": {
       "/dazzle": "Dazzle",
@@ -14008,7 +14056,8 @@
       ",",
       "Dragon mail",
       "Where to find:",
-      "Oubliette"
+      "Oubliette",
+      "monster"
     ],
     "Links": {
       "/dragon-mail": "Dragon mail",
@@ -14182,7 +14231,8 @@
       ",",
       "Iron nails",
       "Where to find:",
-      "Eastern Coffinwell, Western Coffinwell"
+      "Eastern Coffinwell, Western Coffinwell",
+      "monster"
     ],
     "Links": {
       "/chimaera-wing": "Chimaera wing",
@@ -14299,7 +14349,8 @@
       ",",
       "Elfin elixir",
       "Where to find:",
-      "Realm of the Mighty"
+      "Realm of the Mighty",
+      "monster"
     ],
     "Links": {
       "/elfin-elixir": "Elfin elixir",
@@ -14389,7 +14440,8 @@
       "Cock-a-doodle-doo",
       "Awakens sleeping party members.",
       "MP Cost:",
-      "2"
+      "2",
+      "monster"
     ],
     "Links": {}
   },
@@ -14703,7 +14755,8 @@
       "The page",
       "conjury-conductor",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "monster"
     ],
     "Links": {}
   },
@@ -14805,7 +14858,8 @@
       ",",
       "Handrills",
       "Where to find:",
-      "The Magmaroo"
+      "The Magmaroo",
+      "monster"
     ],
     "Links": {
       "/buff": "Buff",
@@ -14852,7 +14906,8 @@
       "Exp.:",
       "28500",
       "Where to find:",
-      "Realm of the Mighty"
+      "Realm of the Mighty",
+      "monster"
     ],
     "Links": {}
   },
@@ -14865,7 +14920,8 @@
       "Exp.:",
       "40000",
       "Where to find:",
-      "Realm of the Mighty"
+      "Realm of the Mighty",
+      "monster"
     ],
     "Links": {}
   },
@@ -14884,7 +14940,8 @@
       ",",
       "Lucida shard",
       "Where to find:",
-      "Grotto (Caves, rank 9-11)"
+      "Grotto (Caves, rank 9-11)",
+      "monster"
     ],
     "Links": {
       "/brighten-rock": "Brighten rock",
@@ -15070,7 +15127,8 @@
       ",",
       "Poison moth knife",
       "Where to find:",
-      "Slurry Coast, Urdus Marshland"
+      "Slurry Coast, Urdus Marshland",
+      "monster"
     ],
     "Links": {
       "/kabuff": "Kabuff",
@@ -15092,7 +15150,8 @@
       ",",
       "Crimson coral",
       "Where to find:",
-      "Western Coffinwell, Tywll Cave"
+      "Western Coffinwell, Tywll Cave",
+      "monster"
     ],
     "Links": {
       "/crimson-coral": "Crimson coral",
@@ -15652,7 +15711,8 @@
       ",",
       "Flowing dress",
       "Where to find:",
-      "Grotto (Caves, rank 10-12)"
+      "Grotto (Caves, rank 10-12)",
+      "monster"
     ],
     "Links": {
       "/flowing-dress": "Flowing dress",
@@ -15675,7 +15735,8 @@
       ",",
       "Lightning staff",
       "Where to find:",
-      "Wyrmtail, Wyrmsmaw"
+      "Wyrmtail, Wyrmsmaw",
+      "monster"
     ],
     "Links": {
       "/hell-nino": "hell nino",
@@ -15699,7 +15760,8 @@
       ",",
       "Seed of sorcery",
       "Where to find:",
-      "Realm of the Mighty"
+      "Realm of the Mighty",
+      "monster"
     ],
     "Links": {
       "/seed-of-sorcery": "Seed of sorcery",
@@ -15721,7 +15783,8 @@
       ",",
       "Panacea",
       "Where to find:",
-      "Realm of the Mighty"
+      "Realm of the Mighty",
+      "monster"
     ],
     "Links": {
       "/panacea": "Panacea",
@@ -15772,7 +15835,8 @@
       ",",
       "Handrills",
       "Where to find:",
-      "Grotto (Ruins, rank 10-12)"
+      "Grotto (Ruins, rank 10-12)",
+      "monster"
     ],
     "Links": {
       "/handrills": "Handrills",
@@ -15793,7 +15857,8 @@
       ",",
       "Fur vest",
       "Where to find:",
-      "Wyrmtail, Wyrmwing"
+      "Wyrmtail, Wyrmwing",
+      "monster"
     ],
     "Links": {
       "/fur-vest": "Fur vest",
@@ -15814,7 +15879,8 @@
       ",",
       "Agility ring",
       "Where to find:",
-      "Newid Isle"
+      "Newid Isle",
+      "monster"
     ],
     "Links": {
       "/agility-ring": "Agility ring",
@@ -16120,7 +16186,8 @@
       "Smart suit",
       "(1/128)",
       "Where to find:",
-      "The Gittish Empire, Gittingham Palace, Island off Cringle Coast, Urdus Marshland (plateau), Grotto (Water, rank 5/6)"
+      "The Gittish Empire, Gittingham Palace, Island off Cringle Coast, Urdus Marshland (plateau), Grotto (Water, rank 5/6)",
+      "monster"
     ],
     "Links": {
       "/blunt": "Blunt",
@@ -16144,7 +16211,8 @@
       ",",
       "Thinking cap",
       "Where to find:",
-      "Grotto (Ruins, rank 7-9; Ice, rank 9)"
+      "Grotto (Ruins, rank 7-9; Ice, rank 9)",
+      "monster"
     ],
     "Links": {
       "/slimedrop": "Slimedrop",
@@ -16282,7 +16350,8 @@
       ",",
       "Battle fork",
       "Where to find:",
-      "Gerzuun, Khaalag Coast"
+      "Gerzuun, Khaalag Coast",
+      "monster"
     ],
     "Links": {
       "/battle-fork": "Battle fork",
@@ -16852,7 +16921,8 @@
       "Weak to:",
       "Earth (1.5x damage)",
       "Resists:",
-      "Wind (0.5x damage)"
+      "Wind (0.5x damage)",
+      "monster"
     ],
     "Links": {
       "/family": "??? family",
@@ -16917,7 +16987,8 @@
       ",",
       "Wing of bat",
       "Where to find:",
-      "The Plumbed Depths, Western Coffinwell"
+      "The Plumbed Depths, Western Coffinwell",
+      "monster"
     ],
     "Links": {
       "/snakeskin": "Snakeskin",
@@ -17289,7 +17360,8 @@
       ",",
       "Platinum ore",
       "Where to find:",
-      "Mt Ulzuun, Khaalag Coast"
+      "Mt Ulzuun, Khaalag Coast",
+      "monster"
     ],
     "Links": {
       "/lambswool": "Lambswool",
@@ -17442,7 +17514,8 @@
       ",",
       "Gold ring",
       "Where to find:",
-      "Newid Isle, Tower of Trades"
+      "Newid Isle, Tower of Trades",
+      "monster"
     ],
     "Links": {
       "/gold-ring": "Gold ring",
@@ -18134,7 +18207,8 @@
       "Weak to:",
       "Blast (1.5x damage)",
       "Resists:",
-      "Fire (0.75x damage)"
+      "Fire (0.75x damage)",
+      "monster"
     ],
     "Links": {
       "/alefgard-armour": "Alefgard armour",
@@ -18353,7 +18427,8 @@
       ",",
       "Densinium",
       "Where to find:",
-      "Realm of the Mighty"
+      "Realm of the Mighty",
+      "monster"
     ],
     "Links": {
       "/densinium": "Densinium",
@@ -18378,7 +18453,8 @@
       ",",
       "Gold bar",
       "Where to find:",
-      "The Bowhole, Wyrmtail"
+      "The Bowhole, Wyrmtail",
+      "monster"
     ],
     "Links": {
       "/dragon-scale": "Dragon scale",
@@ -18401,7 +18477,8 @@
       ",",
       "Dragon claws",
       "Where to find:",
-      "Grotto (Water, rank 11-12)"
+      "Grotto (Water, rank 11-12)",
+      "monster"
     ],
     "Links": {
       "/dragon-claws": "Dragon claws",
@@ -18444,7 +18521,8 @@
       ",",
       "Raging ruby",
       "Where to find:",
-      "Wormwood Canyon, Wyrmtail"
+      "Wormwood Canyon, Wyrmtail",
+      "monster"
     ],
     "Links": {
       "/chilly-breath": "Chilly Breath",
@@ -18469,7 +18547,8 @@
       ",",
       "Coagulant",
       "Where to find:",
-      "Slurry Coast, Dourbridge"
+      "Slurry Coast, Dourbridge",
+      "monster"
     ],
     "Links": {
       "/burning-breath": "Burning Breath",
@@ -18524,7 +18603,8 @@
       ",",
       "Magic beast horn",
       "Where to find:",
-      "The Gittish empire"
+      "The Gittish empire",
+      "monster"
     ],
     "Links": {
       "/magic-beast-hide": "Magic beast hide",
@@ -18543,7 +18623,8 @@
       "Items Dropped:",
       "Sage's elixir",
       "Where to find:",
-      "The Old School"
+      "The Old School",
+      "monster"
     ],
     "Links": {
       "/sage-s-elixir": "Sage's elixir"
@@ -18756,7 +18837,8 @@
       ",",
       "Soldier's sword",
       "Where to find:",
-      "Quarantomb"
+      "Quarantomb",
+      "monster"
     ],
     "Links": {
       "/kabuff": "Kabuff",
@@ -19078,7 +19160,8 @@
       "Weak to:",
       "Earth (1.5x damage)",
       "Resists:",
-      "Fire, ice, wind, blast, dark (0.75x damage)"
+      "Fire, ice, wind, blast, dark (0.75x damage)",
+      "monster"
     ],
     "Links": {
       "/dragon-family": "Dragon family",
@@ -20053,7 +20136,8 @@
       "Weak to:",
       "Dark (1.5x damage)",
       "Resists:",
-      "Fire (0.5x damage)"
+      "Fire (0.5x damage)",
+      "monster"
     ],
     "Links": {
       "/152-marey-questmas": "quest 152",
@@ -20401,7 +20485,8 @@
       "Weak to:",
       "Ice (1.5x damage)",
       "Required for:",
-      "163 When a Star Wishes Upon You"
+      "163 When a Star Wishes Upon You",
+      "monster"
     ],
     "Links": {
       "/163-when-a-star-wishes-upon-you": "163 When a Star Wishes Upon You",
@@ -20488,7 +20573,8 @@
       ",",
       "Bow tie",
       "Where to find:",
-      "Djust Desert"
+      "Djust Desert",
+      "monster"
     ],
     "Links": {
       "/bow-tie": "Bow tie",
@@ -21565,7 +21651,8 @@
       ",",
       "Reset stone",
       "Where to find:",
-      "Realm of the Mighty"
+      "Realm of the Mighty",
+      "monster"
     ],
     "Links": {
       "/freezing-blizzard": "Freezing Blizzard",
@@ -22018,7 +22105,8 @@
       ",",
       "Hephaestus' flame",
       "Where to find:",
-      "Grotto (Ruins, rank 10; Fire, rank 8-10)"
+      "Grotto (Ruins, rank 10; Fire, rank 8-10)",
+      "monster"
     ],
     "Links": {
       "/hephaestus-flame": "Hephaestus' flame",
@@ -22291,7 +22379,8 @@
       ",",
       "Wing of bat",
       "Where to find:",
-      "Eastern Stornway, Western Coffinwell"
+      "Eastern Stornway, Western Coffinwell",
+      "monster"
     ],
     "Links": {
       "/snakeskin": "Snakeskin",
@@ -22492,7 +22581,8 @@
       "Spring breeze hat",
       "(2%)",
       "Weak to:",
-      "Fire (1.5x damage)"
+      "Fire (1.5x damage)",
+      "monster"
     ],
     "Links": {
       "/bird-family": "Bird family",
@@ -22516,7 +22606,8 @@
       ",",
       "Boss shield",
       "Where to find:",
-      "Grotto (Ruins, rank 9-11)"
+      "Grotto (Ruins, rank 9-11)",
+      "monster"
     ],
     "Links": {
       "/boss-shield": "Boss shield",
@@ -22529,7 +22620,8 @@
       "The page",
       "freezing-blizzard",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "monster"
     ],
     "Links": {}
   },
@@ -22566,7 +22658,8 @@
       ",",
       "Sage's elixir",
       "Where to find:",
-      "The Gittish Empire, Gittingham Palace, Cringle Coast"
+      "The Gittish Empire, Gittingham Palace, Cringle Coast",
+      "monster"
     ],
     "Links": {
       "/ice-crystal": "Ice crystal",
@@ -22619,7 +22712,8 @@
       "Important Item",
       "Where to find:",
       "Obtained during quest",
-      "125 Perk Up, Patty!"
+      "125 Perk Up, Patty!",
+      "monster"
     ],
     "Links": {
       "/125-perk-up-patty": "125 Perk Up, Patty!"
@@ -22685,7 +22779,8 @@
       "Sword breaker",
       ",",
       "Dark shield",
-      "Where to find:"
+      "Where to find:",
+      "monster"
     ],
     "Links": {
       "/dark-shield": "Dark shield",
@@ -23148,7 +23243,8 @@
       "Items Dropped:",
       "Ethereal stone",
       "Where to find:",
-      "The Bowhole"
+      "The Bowhole",
+      "monster"
     ],
     "Links": {
       "/ethereal-stone": "Ethereal stone"
@@ -23346,7 +23442,8 @@
       "Items Dropped:",
       "Terrible tattoo",
       "Where to find:",
-      "Zere Rocks"
+      "Zere Rocks",
+      "monster"
     ],
     "Links": {
       "/terrible-tattoo": "Terrible tattoo"
@@ -23432,7 +23529,8 @@
       ",",
       "Gold bar",
       "Where to find:",
-      "Grotto (Caves, rank 7; Ruins, rank 8, 10)"
+      "Grotto (Caves, rank 7; Ruins, rank 8, 10)",
+      "monster"
     ],
     "Links": {
       "/gleeban-gold-piece": "Gleeban gold piece",
@@ -23454,7 +23552,8 @@
       ",",
       "Orichalcum",
       "Where to find:",
-      "Grotto (Ruins, rank 11; Ice, rank 10; Water, rank 12)"
+      "Grotto (Ruins, rank 11; Ice, rank 10; Water, rank 12)",
+      "monster"
     ],
     "Links": {
       "/gold-bar": "Gold bar",
@@ -23479,7 +23578,8 @@
       ",",
       "Saint's ashes",
       "Where to find:",
-      "Realm of the Mighty, Western Coffinwell"
+      "Realm of the Mighty, Western Coffinwell",
+      "monster"
     ],
     "Links": {
       "/gritty-ditty": "Gritty Ditty",
@@ -23522,7 +23622,8 @@
       ",",
       "Evencloth",
       "Where to find:",
-      "Grotto (Ice, rank 11-12)"
+      "Grotto (Ice, rank 11-12)",
+      "monster"
     ],
     "Links": {
       "/evencloth": "Evencloth",
@@ -23543,7 +23644,8 @@
       ",",
       "Tough guy tattoo",
       "Where to find:",
-      "The Plumbed Depths, Urdus Marshland"
+      "The Plumbed Depths, Urdus Marshland",
+      "monster"
     ],
     "Links": {
       "/manky-mud": "Manky mud",
@@ -23623,7 +23725,8 @@
       ",",
       "Silver bracelets",
       "Where to find:",
-      "Urdus Marshland, Pluvi Isle"
+      "Urdus Marshland, Pluvi Isle",
+      "monster"
     ],
     "Links": {
       "/fuddle": "Fuddle",
@@ -23719,7 +23822,8 @@
       ",",
       "Ace of clubs",
       "Where to find:",
-      "Realm of the Mighty"
+      "Realm of the Mighty",
+      "monster"
     ],
     "Links": {
       "/ace-of-clubs": "Ace of clubs",
@@ -24566,7 +24670,8 @@
       ",",
       "Spiked armour",
       "Where to find:",
-      "The Gittish Empire, Pluvi Isle"
+      "The Gittish Empire, Pluvi Isle",
+      "monster"
     ],
     "Links": {
       "/kafuddle": "Kafuddle",
@@ -24801,7 +24906,8 @@
       ",",
       "Friendly fan",
       "Where to find:",
-      "Grotto (Ruins, rank 11-12)"
+      "Grotto (Ruins, rank 11-12)",
+      "monster"
     ],
     "Links": {
       "/friendly-fan": "Friendly fan",
@@ -24974,7 +25080,8 @@
       ",",
       "Gleeban gold piece",
       "Where to find:",
-      "Djust Desert"
+      "Djust Desert",
+      "monster"
     ],
     "Links": {
       "/gleeban-gold-piece": "Gleeban gold piece",
@@ -25236,7 +25343,8 @@
       ",",
       "Mythril ore",
       "Where to find:",
-      "Lonely Coast, Wyrmwing"
+      "Lonely Coast, Wyrmwing",
+      "monster"
     ],
     "Links": {
       "/flintstone": "Flintstone",
@@ -25278,7 +25386,8 @@
       ",",
       "Pink pearl",
       "Where to find:",
-      "Iluugazar Plains, The Bowhole"
+      "Iluugazar Plains, The Bowhole",
+      "monster"
     ],
     "Links": {
       "/brighten-rock": "Brighten rock",
@@ -25330,7 +25439,8 @@
       ",",
       "Densinium",
       "Where to find:",
-      "Gortress"
+      "Gortress",
+      "monster"
     ],
     "Links": {
       "/densinium": "Densinium",
@@ -25352,7 +25462,8 @@
       ",",
       "Agility ring",
       "Where to find:",
-      "Gittingham Palace"
+      "Gittingham Palace",
+      "monster"
     ],
     "Links": {
       "/agility-ring": "Agility ring",
@@ -25562,7 +25673,8 @@
       ",",
       "Safety shoes",
       "Where to find:",
-      "Eastern Wormwood, Western Wormwood"
+      "Eastern Wormwood, Western Wormwood",
+      "monster"
     ],
     "Links": {
       "/gruffon": "gruffon",
@@ -25583,7 +25695,8 @@
       "Items Dropped:",
       "Dragon scale",
       "Where to find:",
-      "The Plumbed Depths"
+      "The Plumbed Depths",
+      "monster"
     ],
     "Links": {
       "/dragon-scale": "Dragon scale"
@@ -25709,7 +25822,8 @@
       ",",
       "Fur poncho",
       "Where to find:",
-      "Snowberia, Cringle Coast"
+      "Snowberia, Cringle Coast",
+      "monster"
     ],
     "Links": {
       "/fur-poncho": "Fur poncho",
@@ -25758,7 +25872,8 @@
       ",",
       "Marauder's maul",
       "Where to find:",
-      "Realm of the Mighty"
+      "Realm of the Mighty",
+      "monster"
     ],
     "Links": {
       "/marauder-s-maul": "Marauder's maul",
@@ -25779,7 +25894,8 @@
       ",",
       "Dragon scale",
       "Where to find:",
-      "Lonely Coast, The Magmaroo"
+      "Lonely Coast, The Magmaroo",
+      "monster"
     ],
     "Links": {
       "/dragon-scale": "Dragon scale",
@@ -25892,7 +26008,8 @@
       "Items Dropped:",
       "Dragon scale",
       "Where to find:",
-      "The Magmaroo"
+      "The Magmaroo",
+      "monster"
     ],
     "Links": {
       "/dragon-scale": "Dragon scale"
@@ -25910,7 +26027,8 @@
       "Items Dropped:",
       "Dragon scale",
       "Where to find:",
-      "The Magmaroo"
+      "The Magmaroo",
+      "monster"
     ],
     "Links": {
       "/dragon-scale": "Dragon scale"
@@ -25940,7 +26058,8 @@
       "Weak to:",
       "Ice, dark (1.5x damage)",
       "Resists:",
-      "Fire, light (0.5x damage)"
+      "Fire, light (0.5x damage)",
+      "monster"
     ],
     "Links": {
       "/dragon-family": "Dragon family",
@@ -25973,7 +26092,8 @@
       "Weak to:",
       "Ice, dark (1.5x damage)",
       "Resists:",
-      "Fire, light (0.5x damage)"
+      "Fire, light (0.5x damage)",
+      "monster"
     ],
     "Links": {
       "/dragon-family": "Dragon family",
@@ -25998,7 +26118,8 @@
       ",",
       "Magic shield",
       "Where to find:",
-      "Eastern Wormwood, Western Wormwood"
+      "Eastern Wormwood, Western Wormwood",
+      "monster"
     ],
     "Links": {
       "/cautery-sword": "Cautery sword",
@@ -26021,7 +26142,8 @@
       ",",
       "Blessed boots",
       "Where to find:",
-      "Grotto (Ice, rank 9-11)"
+      "Grotto (Ice, rank 9-11)",
+      "monster"
     ],
     "Links": {
       "/blessed-boots": "Blessed boots",
@@ -26042,7 +26164,8 @@
       ",",
       "Flintstone",
       "Where to find:",
-      "Heights of Loneliness"
+      "Heights of Loneliness",
+      "monster"
     ],
     "Links": {
       "/flintstone": "Flintstone",
@@ -26139,7 +26262,8 @@
       ",",
       "Malicite",
       "Where to find:",
-      "Grotto (Ice, rank 10-11)"
+      "Grotto (Ice, rank 10-11)",
+      "monster"
     ],
     "Links": {
       "/malicite": "Malicite",
@@ -26201,7 +26325,8 @@
       ",",
       "Terrible tattoo",
       "Where to find:",
-      "Lonely Coast, Mt Ulzuun"
+      "Lonely Coast, Mt Ulzuun",
+      "monster"
     ],
     "Links": {
       "/terrible-tattoo": "Terrible tattoo",
@@ -26318,7 +26443,8 @@
       ",",
       "Iron broadsword",
       "Where to find:",
-      "Bloomingdale"
+      "Bloomingdale",
+      "monster"
     ],
     "Links": {
       "/back-atcha": "Back Atcha",
@@ -26712,7 +26838,8 @@
       ",",
       "Cobra claws",
       "Where to find:",
-      "Grotto (Water, rank 11-12)"
+      "Grotto (Water, rank 11-12)",
+      "monster"
     ],
     "Links": {
       "/cobra-claws": "Cobra claws",
@@ -26853,7 +26980,8 @@
       "Hallowed helm",
       "(2%)",
       "Weak to:",
-      "Ice (1.5x damage)"
+      "Ice (1.5x damage)",
+      "monster"
     ],
     "Links": {
       "/aggressence": "Aggressence",
@@ -26928,7 +27056,8 @@
       ",",
       "Deadly nightblade",
       "Where to find:",
-      "Lonely Coast, Pluvi Isle"
+      "Lonely Coast, Pluvi Isle",
+      "monster"
     ],
     "Links": {
       "/deadly-nightblade": "Deadly nightblade",
@@ -27048,7 +27177,8 @@
       ",",
       "Iron mask",
       "Where to find:",
-      "Western Wormwood, The Bowhole"
+      "Western Wormwood, The Bowhole",
+      "monster"
     ],
     "Links": {
       "/double-up": "Double Up",
@@ -27130,7 +27260,8 @@
       ",",
       "Slimedrop",
       "Where to find:",
-      "Brigadoom, Western Coffinwell"
+      "Brigadoom, Western Coffinwell",
+      "monster"
     ],
     "Links": {
       "/medicinal-herb": "Medicinal herb",
@@ -27371,7 +27502,8 @@
       ",",
       "Flame shield",
       "Where to find:",
-      "Khaalag Coast, Wyrmtail"
+      "Khaalag Coast, Wyrmtail",
+      "monster"
     ],
     "Links": {
       "/coagulant": "Coagulant",
@@ -27394,7 +27526,8 @@
       ",",
       "Hela's hammer",
       "Where to find:",
-      "Grotto (Fire, rank 11-12)"
+      "Grotto (Fire, rank 11-12)",
+      "monster"
     ],
     "Links": {
       "/hades-helm": "Hades' helm",
@@ -27594,7 +27727,8 @@
       "Items Dropped:",
       "Magic beast hide",
       "Where to find:",
-      "The Hexagon"
+      "The Hexagon",
+      "monster"
     ],
     "Links": {
       "/magic-beast-hide": "Magic beast hide"
@@ -27890,7 +28024,8 @@
       ",",
       "Prayer ring",
       "Where to find:",
-      "Heights of Loneliness, Bloomingdale"
+      "Heights of Loneliness, Bloomingdale",
+      "monster"
     ],
     "Links": {
       "/chimaera-wing": "Chimaera wing",
@@ -28202,7 +28337,8 @@
       ",",
       "Malicite",
       "Where to find:",
-      "Gittingham Palace"
+      "Gittingham Palace",
+      "monster"
     ],
     "Links": {
       "/malicite": "Malicite",
@@ -28419,7 +28555,8 @@
       ",",
       "Hunter's bow",
       "Where to find:",
-      "The Bad Cave, Pluvi Isle"
+      "The Bad Cave, Pluvi Isle",
+      "monster"
     ],
     "Links": {
       "/hunter-s-bow": "Hunter's bow",
@@ -28793,7 +28930,8 @@
       ",",
       "Crow's claws",
       "Where to find:",
-      "Snowberia, Cringle Coast"
+      "Snowberia, Cringle Coast",
+      "monster"
     ],
     "Links": {
       "/bounce": "Bounce",
@@ -28912,7 +29050,8 @@
       ",",
       "Silver mail",
       "Where to find:",
-      "Gerzuun"
+      "Gerzuun",
+      "monster"
     ],
     "Links": {
       "/cautery-sword": "Cautery sword",
@@ -30380,7 +30519,8 @@
       ",",
       "Pointy hat",
       "Where to find:",
-      "Newid Isle, Tower of Trades"
+      "Newid Isle, Tower of Trades",
+      "monster"
     ],
     "Links": {
       "/magic-water": "Magic water",
@@ -30824,7 +30964,8 @@
       ",",
       "Seed of agility",
       "Where to find:",
-      "The Gittish Empire, Gittingham Palace"
+      "The Gittish Empire, Gittingham Palace",
+      "monster"
     ],
     "Links": {
       "/iron-nails": "Iron nails",
@@ -30943,7 +31084,8 @@
       ",",
       "Poison moth knife",
       "Where to find:",
-      "Oubliette, Ocean"
+      "Oubliette, Ocean",
+      "monster"
     ],
     "Links": {
       "/eyes-on-me": "Eyes on Me",
@@ -30968,7 +31110,8 @@
       ",",
       "Slime crown",
       "*Where to find:",
-      "* Grotto (Caves, rank 7; Water, rank 5-6)"
+      "* Grotto (Caves, rank 7; Water, rank 5-6)",
+      "monster"
     ],
     "Links": {
       "/slime-crown": "Slime crown",
@@ -30990,7 +31133,8 @@
       "Where to find:",
       "Gittingham Palace (During",
       "quest 145",
-      ")"
+      ")",
+      "monster"
     ],
     "Links": {
       "/145-mysterious-monarch": "quest 145",
@@ -31003,7 +31147,8 @@
       "King Godwyn",
       "Cruel king of the Gittish Empire who tasked the Triumgorate with seeking out the fyggs so he could rule the world.",
       "Where to find:",
-      "Gittingham Palace"
+      "Gittingham Palace",
+      "monster"
     ],
     "Links": {}
   },
@@ -31019,7 +31164,8 @@
       "Items Dropped:",
       "Sceptre of Gitt",
       "Where to find:",
-      "Gittingham Palace"
+      "Gittingham Palace",
+      "monster"
     ],
     "Links": {
       "/sceptre-of-gitt": "Sceptre of Gitt"
@@ -31079,7 +31225,8 @@
       ",",
       "Slime crown",
       "Where to find:",
-      "Bloomingdale, Pluvi Isle"
+      "Bloomingdale, Pluvi Isle",
+      "monster"
     ],
     "Links": {
       "/multiheal": "Multiheal",
@@ -31392,7 +31539,8 @@
       ",",
       "Crimson coral",
       "Where to find:",
-      "Tywll Cave, Slurry Coast"
+      "Tywll Cave, Slurry Coast",
+      "monster"
     ],
     "Links": {
       "/crimson-coral": "Crimson coral",
@@ -31556,7 +31704,8 @@
       "Items Dropped:",
       "Enchanted stone",
       "Where to find:",
-      "Batsureg"
+      "Batsureg",
+      "monster"
     ],
     "Links": {
       "/enchanted-stone": "Enchanted stone"
@@ -31682,7 +31831,8 @@
       ",",
       "Strong medicine",
       "Where to find:",
-      "Eastern Coffinwell"
+      "Eastern Coffinwell",
+      "monster"
     ],
     "Links": {
       "/badger-mager": "badger mager",
@@ -32035,7 +32185,8 @@
       ",",
       "Bronze shield",
       "Where to find:",
-      "Brigadoom"
+      "Brigadoom",
+      "monster"
     ],
     "Links": {
       "/blockenspiel": "Blockenspiel",
@@ -32119,7 +32270,8 @@
       ",",
       "Iron cuirass",
       "Where to find:",
-      "The Plumbed Depths"
+      "The Plumbed Depths",
+      "monster"
     ],
     "Links": {
       "/gold-rosary": "Gold rosary",
@@ -32143,7 +32295,8 @@
       ",",
       "Seed of defence",
       "Where to find:",
-      "The Gittish Empire"
+      "The Gittish Empire",
+      "monster"
     ],
     "Links": {
       "/kasnooze": "Kasnooze",
@@ -32617,7 +32770,8 @@
       ",",
       "Depressing shoes",
       "Where to find:",
-      "The Bowhole"
+      "The Bowhole",
+      "monster"
     ],
     "Links": {
       "/agility-ring": "Agility ring",
@@ -32829,7 +32983,8 @@
       ",",
       "Magma staff",
       "Where to find:",
-      "The Magmaroo"
+      "The Magmaroo",
+      "monster"
     ],
     "Links": {
       "/frizzle": "Frizzle",
@@ -32851,7 +33006,8 @@
       ",",
       "Resurrock",
       "Where to find:",
-      "The Bowhole, Wyrmtail"
+      "The Bowhole, Wyrmtail",
+      "monster"
     ],
     "Links": {
       "/flintstone": "Flintstone",
@@ -32873,7 +33029,8 @@
       ",",
       "Celestial skein",
       "Where to find:",
-      "Cuddiedig Cliff"
+      "Cuddiedig Cliff",
+      "monster"
     ],
     "Links": {
       "/celestial-skein": "Celestial skein",
@@ -32979,7 +33136,8 @@
       ",",
       "Angel bell",
       "Where to find:",
-      "Eastern Coffinwell, Western Coffinwell"
+      "Eastern Coffinwell, Western Coffinwell",
+      "monster"
     ],
     "Links": {
       "/angel-bell": "Angel bell",
@@ -33243,7 +33401,8 @@
       ",",
       "Magic water",
       "Where to find:",
-      "Brigadoom"
+      "Brigadoom",
+      "monster"
     ],
     "Links": {
       "/leather-whip": "Leather whip",
@@ -33330,7 +33489,8 @@
       ",",
       "Flintstone",
       "Where to find:",
-      "Lonely Plains, Heights of Loneliness"
+      "Lonely Plains, Heights of Loneliness",
+      "monster"
     ],
     "Links": {
       "/flintstone": "Flintstone",
@@ -34129,7 +34289,8 @@
       ",",
       "Hephaestus flame",
       "Where to find:",
-      "The Magmaroo, Wyrmneck"
+      "The Magmaroo, Wyrmneck",
+      "monster"
     ],
     "Links": {
       "/hephaestus-flame": "Hephaestus flame",
@@ -34175,7 +34336,8 @@
       ",",
       "Magic water",
       "Where to find:",
-      "Quarantomb, Newid Isle"
+      "Quarantomb, Newid Isle",
+      "monster"
     ],
     "Links": {
       "/fizzle": "Fizzle",
@@ -34530,7 +34692,8 @@
       "Weak to:",
       "Wind (1.5x damage)",
       "Resists:",
-      "Dark (0.5x damage)"
+      "Dark (0.5x damage)",
+      "monster"
     ],
     "Links": {
       "/151-pushy-peddler": "quest 151",
@@ -34558,7 +34721,8 @@
       ",",
       "Softwort",
       "Where to find:",
-      "Tywll Cave, Ocean"
+      "Tywll Cave, Ocean",
+      "monster"
     ],
     "Links": {
       "/moonwort-bulb": "Moonwort bulb",
@@ -34600,7 +34764,8 @@
       ",",
       "Heavy armour",
       "Where to find:",
-      "Urdus Marshland, Hermany"
+      "Urdus Marshland, Hermany",
+      "monster"
     ],
     "Links": {
       "/dragon-scale": "Dragon scale",
@@ -34622,7 +34787,8 @@
       ",",
       "Bandit blade",
       "Where to find:",
-      "The Magmaroo"
+      "The Magmaroo",
+      "monster"
     ],
     "Links": {
       "/bandit-blade": "Bandit blade",
@@ -34643,7 +34809,8 @@
       ",",
       "Dragonsbane",
       "Where to find:",
-      "Oubliette"
+      "Oubliette",
+      "monster"
     ],
     "Links": {
       "/dragon-scale": "Dragon scale",
@@ -34665,7 +34832,8 @@
       ",",
       "Veteran's helm",
       "Where to find:",
-      "Grotto (Water, rank 9-11)"
+      "Grotto (Water, rank 9-11)",
+      "monster"
     ],
     "Links": {
       "/dragon-scale": "Dragon scale",
@@ -34686,7 +34854,8 @@
       ",",
       "Terrible tattoo",
       "Where to find:",
-      "The Plumbed Depths, Hermany"
+      "The Plumbed Depths, Hermany",
+      "monster"
     ],
     "Links": {
       "/terrible-tattoo": "Terrible tattoo",
@@ -34920,7 +35089,8 @@
       ",",
       "Raging ruby",
       "Where to find:",
-      "Grotto (Fire, rank 12)"
+      "Grotto (Fire, rank 12)",
+      "monster"
     ],
     "Links": {
       "/magic-beast-hide": "Magic beast hide",
@@ -34939,7 +35109,8 @@
       "Items Dropped:",
       "Lava lump",
       "Where to find:",
-      "Tower of Trades"
+      "Tower of Trades",
+      "monster"
     ],
     "Links": {
       "/lava-lump": "Lava lump"
@@ -35324,7 +35495,8 @@
       ",",
       "Pointy hat",
       "Where to find:",
-      "Western Coffinwell, Quarantomb"
+      "Western Coffinwell, Quarantomb",
+      "monster"
     ],
     "Links": {
       "/pointy-hat": "Pointy hat",
@@ -35496,7 +35668,8 @@
       ",",
       "Slimedrop",
       "Where to find:",
-      "The Bad Cave"
+      "The Bad Cave",
+      "monster"
     ],
     "Links": {
       "/midheal": "Midheal",
@@ -35692,7 +35865,8 @@
       ",",
       "Tough guy tattoo",
       "Where to find:",
-      "Khaalag Coast, The Magmaroo"
+      "Khaalag Coast, The Magmaroo",
+      "monster"
     ],
     "Links": {
       "/mirrorstone": "Mirrorstone",
@@ -36103,7 +36277,8 @@
       ",",
       "Orichalcum",
       "Where to find:",
-      "Grotto (Caves, rank 10; Water, rank 8; Fire, rank 9)"
+      "Grotto (Caves, rank 10; Water, rank 8; Fire, rank 9)",
+      "monster"
     ],
     "Links": {
       "/orichalcum": "Orichalcum",
@@ -36250,7 +36425,8 @@
       ",",
       "Mythril ore",
       "Where to find:",
-      "Lonely Coast, The Bad Cave"
+      "Lonely Coast, The Bad Cave",
+      "monster"
     ],
     "Links": {
       "/kerfrizz": "Kerfrizz",
@@ -36281,7 +36457,8 @@
       ",",
       "Seed of life",
       "Where to find:",
-      "Quarantomb, Pluvi Isle"
+      "Quarantomb, Pluvi Isle",
+      "monster"
     ],
     "Links": {
       "/seed-of-life": "Seed of life",
@@ -36384,7 +36561,8 @@
       ",",
       "Iron helmet",
       "Where to find:",
-      "Heights of Loneliness"
+      "Heights of Loneliness",
+      "monster"
     ],
     "Links": {
       "/iron-helmet": "Iron helmet",
@@ -36911,7 +37089,8 @@
       ",",
       "Gold rosary",
       "Where to find:",
-      "The Bowhole, Gittingham palace, Grotto (10% chance, rank C/D chests; 5% chance, rank E/F chests)"
+      "The Bowhole, Gittingham palace, Grotto (10% chance, rank C/D chests; 5% chance, rank E/F chests)",
+      "monster"
     ],
     "Links": {
       "/gold-rosary": "Gold rosary",
@@ -37400,7 +37579,8 @@
       ",",
       "Witch's hat",
       "Where to find:",
-      "Grotto (Caves, rank 8-9; Water, rank 8-10)"
+      "Grotto (Caves, rank 8-9; Water, rank 8-10)",
+      "monster"
     ],
     "Links": {
       "/narspicious": "Narspicious",
@@ -37797,7 +37977,8 @@
       ",",
       "Seed of life",
       "Where to find:",
-      "Lonely Coast, Wormwood Canyon"
+      "Lonely Coast, Wormwood Canyon",
+      "monster"
     ],
     "Links": {
       "/flame-breath": "Flame Breath",
@@ -37820,7 +38001,8 @@
       "Items Dropped:",
       "High heels",
       "Where to find:",
-      "Brigadoom"
+      "Brigadoom",
+      "monster"
     ],
     "Links": {
       "/high-heels": "High heels",
@@ -37865,7 +38047,8 @@
       ",",
       "Fisticup",
       "Where to find:",
-      "Eastern Coffinwell, Western Coffinwell"
+      "Eastern Coffinwell, Western Coffinwell",
+      "monster"
     ],
     "Links": {
       "/belle-cap": "Belle cap",
@@ -37974,7 +38157,8 @@
       "Weak to:",
       "Dark (1.5x damage)",
       "Resists:",
-      "Ice (0.5x damage)"
+      "Ice (0.5x damage)",
+      "monster"
     ],
     "Links": {
       "/158-battle-buff": "quest 158",
@@ -38003,7 +38187,8 @@
       ",",
       "Manky mud",
       "Where to find:",
-      "Tywll Cave, Slurry Coast"
+      "Tywll Cave, Slurry Coast",
+      "monster"
     ],
     "Links": {
       "/manky-mud": "Manky mud",
@@ -38027,7 +38212,8 @@
       ",",
       "Mystifying mixture",
       "Where to find:",
-      "Newid Isle, Tywll Cave"
+      "Newid Isle, Tywll Cave",
+      "monster"
     ],
     "Links": {
       "/cowpat": "Cowpat",
@@ -38082,7 +38268,8 @@
       ",",
       "Malicite",
       "Where to find:",
-      "Djust Desert, The Plumbed Depths"
+      "Djust Desert, The Plumbed Depths",
+      "monster"
     ],
     "Links": {
       "/grubby-bandage": "Grubby bandage",
@@ -38103,7 +38290,8 @@
       ",",
       "Turban",
       "Where to find:",
-      "Quarantomb"
+      "Quarantomb",
+      "monster"
     ],
     "Links": {
       "/grubby-bandage": "Grubby bandage",
@@ -38186,7 +38374,8 @@
       "Weak to:",
       "Ice (1.5x damage)",
       "Resists:",
-      "Dark (0.5x damage)"
+      "Dark (0.5x damage)",
+      "monster"
     ],
     "Links": {
       "/baramos": "Baramos",
@@ -38264,7 +38453,8 @@
       ",",
       "Fisticup",
       "Where to find:",
-      "Tower of Trades"
+      "Tower of Trades",
+      "monster"
     ],
     "Links": {
       "/belle-cap": "Belle cap",
@@ -38850,7 +39040,8 @@
       ",",
       "Skull helm",
       "Where to find:",
-      "Realm of the Mighty"
+      "Realm of the Mighty",
+      "monster"
     ],
     "Links": {
       "/dark-shield": "Dark shield",
@@ -38980,7 +39171,8 @@
       "Weak to:",
       "Wind (1.5x damage)",
       "Resists:",
-      "Earth (0.5x damage)"
+      "Earth (0.5x damage)",
+      "monster"
     ],
     "Links": {
       "/blue-orb": "Blue orb",
@@ -39027,7 +39219,8 @@
       "Where to find:",
       "Tower of Nod (During",
       "quest 162",
-      ")"
+      ")",
+      "monster"
     ],
     "Links": {
       "/162-do-nod-disturb": "quest 162",
@@ -39110,7 +39303,8 @@
       "Weak to:",
       "Light (1.5x damage)",
       "Resists:",
-      "Dark (0.5x damage)"
+      "Dark (0.5x damage)",
+      "monster"
     ],
     "Links": {
       "/184-bleats-me": "quest 184",
@@ -39301,7 +39495,8 @@
       ",",
       "Platinum ore",
       "Where to find:",
-      "Grotto (Caves, rank 10; Ruins, rank 7-9)"
+      "Grotto (Caves, rank 10; Ruins, rank 7-9)",
+      "monster"
     ],
     "Links": {
       "/magic-beast-hide": "Magic beast hide",
@@ -39571,7 +39766,8 @@
       "Weak to:",
       "Fire (1.5x damage)",
       "Resists:",
-      "Earth (0.5x damage)"
+      "Earth (0.5x damage)",
+      "monster"
     ],
     "Links": {
       "/176-well-forgetful": "quest 176",
@@ -39905,7 +40101,8 @@
       ",",
       "Wizard's hat",
       "Where to find:",
-      "Grotto (Water, rank 12)"
+      "Grotto (Water, rank 12)",
+      "monster"
     ],
     "Links": {
       "/superior-medicine": "Superior medicine",
@@ -40003,7 +40200,8 @@
       ",",
       "Gold bar",
       "Where to find:",
-      "Grotto (15% chance, rank S chests; 10% chance, rank A chests; 5% chance, rank B chests)"
+      "Grotto (15% chance, rank S chests; 10% chance, rank A chests; 5% chance, rank B chests)",
+      "monster"
     ],
     "Links": {
       "/gold-bar": "Gold bar",
@@ -40078,7 +40276,8 @@
       ",",
       "Glass frit",
       "Where to find:",
-      "Djust Desert"
+      "Djust Desert",
+      "monster"
     ],
     "Links": {
       "/acceleratle": "Acceleratle",
@@ -40290,7 +40489,8 @@
       ",",
       "Poison needle",
       "Where to find:",
-      "Iluugazar Plains, Mt Ulbaruun"
+      "Iluugazar Plains, Mt Ulbaruun",
+      "monster"
     ],
     "Links": {
       "/assassin-s-stab": "Assassin's Stab",
@@ -40513,7 +40713,8 @@
       ",",
       "Nectar",
       "Where to find:",
-      "Bloomingdale"
+      "Bloomingdale",
+      "monster"
     ],
     "Links": {
       "/moonwort-bulb": "Moonwort bulb",
@@ -40745,7 +40946,8 @@
       ",",
       "Seed of skill",
       "Where to find:",
-      "Grotto (Ruins, rank 12; Ice, rank 12)"
+      "Grotto (Ruins, rank 12; Ice, rank 12)",
+      "monster"
     ],
     "Links": {
       "/platinum-ore": "Platinum ore",
@@ -41393,7 +41595,8 @@
       ",",
       "Kitty litter",
       "Where to find:",
-      "Lonely Coast, Djust Desert"
+      "Lonely Coast, Djust Desert",
+      "monster"
     ],
     "Links": {
       "/glass-frit": "Glass frit",
@@ -41721,7 +41924,8 @@
       ",",
       "Falcon blade",
       "Where to find:",
-      "Grotto (Water, rank 10-12)"
+      "Grotto (Water, rank 10-12)",
+      "monster"
     ],
     "Links": {
       "/falcon-blade": "Falcon blade",
@@ -41826,7 +42030,8 @@
       ",",
       "Tint-tastic tutu",
       "Where to find:",
-      "Realm of the Mighty"
+      "Realm of the Mighty",
+      "monster"
     ],
     "Links": {
       "/flame-breath": "Flame Breath",
@@ -42006,7 +42211,8 @@
       "Weak to:",
       "Ice (1.5x damage)",
       "Resists:",
-      "Blast (0.5x damage)"
+      "Blast (0.5x damage)",
+      "monster"
     ],
     "Links": {
       "/dragonlord": "Dragonlord",
@@ -42202,7 +42408,8 @@
       ",",
       "Stolos' staff",
       "Where to find:",
-      "Lonely Coast, The Plumbed Depths"
+      "Lonely Coast, The Plumbed Depths",
+      "monster"
     ],
     "Links": {
       "/frizzle": "Frizzle",
@@ -42228,7 +42435,8 @@
       ",",
       "Fizzle-retardant suit",
       "Where to find:",
-      "The Bowhole"
+      "The Bowhole",
+      "monster"
     ],
     "Links": {
       "/fizzle-retardant-suit": "Fizzle-retardant suit",
@@ -42710,7 +42918,8 @@
       "Important Item",
       "Where to find:",
       "Obtained during quest",
-      "035 All Dolled Up"
+      "035 All Dolled Up",
+      "monster"
     ],
     "Links": {
       "/035-all-dolled-up": "035 All Dolled Up"
@@ -42796,7 +43005,8 @@
       "Items Dropped:",
       "Royal soil",
       "Where to find:",
-      "Quarantomb"
+      "Quarantomb",
+      "monster"
     ],
     "Links": {
       "/royal-soil": "Royal soil"
@@ -43051,7 +43261,8 @@
       ",",
       "Magic beast horn",
       "Where to find:",
-      "Dourbridge, Lonely Plains"
+      "Dourbridge, Lonely Plains",
+      "monster"
     ],
     "Links": {
       "/deceleratle": "Deceleratle",
@@ -43211,7 +43422,8 @@
       ",",
       "Brighten rock",
       "Where to find:",
-      "Grotto (Fire, rank 11-12)"
+      "Grotto (Fire, rank 11-12)",
+      "monster"
     ],
     "Links": {
       "/brighten-rock": "Brighten rock",
@@ -43234,7 +43446,8 @@
       ",",
       "Strong antidote",
       "Where to find:",
-      "Bloomingdale, The Bad Cave"
+      "Bloomingdale, The Bad Cave",
+      "monster"
     ],
     "Links": {
       "/strong-antidote": "Strong antidote",
@@ -43256,7 +43469,8 @@
       ",",
       "Assassin's dagger",
       "Where to find:",
-      "The Old School, Ondro Cliffs"
+      "The Old School, Ondro Cliffs",
+      "monster"
     ],
     "Links": {
       "/assassin-s-dagger": "Assassin's dagger",
@@ -43450,7 +43664,8 @@
       ",",
       "Dragon claws",
       "Where to find:",
-      "Realm of the Mighty"
+      "Realm of the Mighty",
+      "monster"
     ],
     "Links": {
       "/dragon-claws": "Dragon claws",
@@ -43753,7 +43968,8 @@
       ",",
       "Iron armour",
       "Where to find:",
-      "Tower of Trades, Dourbridge"
+      "Tower of Trades, Dourbridge",
+      "monster"
     ],
     "Links": {
       "/iron-armour": "Iron armour",
@@ -43899,7 +44115,8 @@
       "Weak to:",
       "Light (1.5x damage)",
       "Resists:",
-      "Blast (0.5x damage)"
+      "Blast (0.5x damage)",
+      "monster"
     ],
     "Links": {
       "/alefgard-gloves": "Alefgard Gloves",
@@ -43989,7 +44206,8 @@
       ",",
       "Razor claws",
       "Where to find:",
-      "The Bad Cave, Ocean"
+      "The Bad Cave, Ocean",
+      "monster"
     ],
     "Links": {
       "/dragon-scale": "Dragon scale",
@@ -44079,7 +44297,8 @@
       ",",
       "Handrills",
       "Where to find:",
-      "Iluugazar Plains, Mt Ulbaruun"
+      "Iluugazar Plains, Mt Ulbaruun",
+      "monster"
     ],
     "Links": {
       "/handrills": "Handrills",
@@ -44102,7 +44321,8 @@
       ",",
       "Hephaestus flame",
       "Where to find:",
-      "Iluugazar Plains, Mt Ulbaruun"
+      "Iluugazar Plains, Mt Ulbaruun",
+      "monster"
     ],
     "Links": {
       "/hephaestus-flame": "Hephaestus flame",
@@ -44269,7 +44489,8 @@
       "The page",
       "roundaclout",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "monster"
     ],
     "Links": {}
   },
@@ -44322,7 +44543,8 @@
       "Where to find:",
       "The Plumbed Depths (During",
       "quest 139",
-      ")"
+      ")",
+      "monster"
     ],
     "Links": {
       "/139-has-sellma-sold-out": "quest 139",
@@ -45283,7 +45505,8 @@
       ",",
       "Snakeskin whip",
       "Where to find:",
-      "Lonely Coast, Wyrmwing"
+      "Lonely Coast, Wyrmwing",
+      "monster"
     ],
     "Links": {
       "/burning-breath": "Burning Breath",
@@ -45495,7 +45718,8 @@
       ",",
       "Iron shield",
       "Where to find:",
-      "Tywll Cave, Slurry Coast"
+      "Tywll Cave, Slurry Coast",
+      "monster"
     ],
     "Links": {
       "/emerald-moss": "Emerald moss",
@@ -45893,7 +46117,8 @@
       ",",
       "Sacred claws",
       "Where to find:",
-      "Lonely Coast, Bloomingdale"
+      "Lonely Coast, Bloomingdale",
+      "monster"
     ],
     "Links": {
       "/magic-beast-hide": "Magic beast hide",
@@ -45915,7 +46140,8 @@
       ",",
       "Fire blade",
       "Where to find:",
-      "Grotto (Fire, rank 10-12)"
+      "Grotto (Fire, rank 10-12)",
+      "monster"
     ],
     "Links": {
       "/fire-blade": "Fire blade",
@@ -45956,7 +46182,8 @@
       "The page",
       "schadenfreude",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "monster"
     ],
     "Links": {}
   },
@@ -45966,7 +46193,8 @@
       "The page",
       "schizofanic",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "monster"
     ],
     "Links": {}
   },
@@ -46047,7 +46275,8 @@
       ",",
       "Long spear",
       "Where to find:",
-      "Hermany, Pluvi Isle"
+      "Hermany, Pluvi Isle",
+      "monster"
     ],
     "Links": {
       "/boom": "Boom",
@@ -46074,7 +46303,8 @@
       ",",
       "Saint's ashes",
       "Where to find:",
-      "Cringle Coast, The Old School"
+      "Cringle Coast, The Old School",
+      "monster"
     ],
     "Links": {
       "/crackle": "Crackle",
@@ -46101,7 +46331,8 @@
       ",",
       "Resurrock",
       "Where to find:",
-      "The Bowhole, Wyrmtail"
+      "The Bowhole, Wyrmtail",
+      "monster"
     ],
     "Links": {
       "/buff": "Buff",
@@ -46149,7 +46380,8 @@
       ",",
       "Magic beast horn",
       "Where to find:",
-      "Ocean"
+      "Ocean",
+      "monster"
     ],
     "Links": {
       "/dragon-scale": "Dragon scale",
@@ -46212,7 +46444,8 @@
       ",",
       "Cobra fan",
       "Where to find:",
-      "Grotto (Water, rank 12)"
+      "Grotto (Water, rank 12)",
+      "monster"
     ],
     "Links": {
       "/cobra-fan": "Cobra fan",
@@ -46779,7 +47012,8 @@
       ",",
       "Ultramarine mittens",
       "Where to find:",
-      "The Bad Cave"
+      "The Bad Cave",
+      "monster"
     ],
     "Links": {
       "/magical-robes": "Magical robes",
@@ -47169,7 +47403,8 @@
       ",",
       "Narspicious",
       "Where to find:",
-      "Snowberia, Snowberian Coast"
+      "Snowberia, Snowberian Coast",
+      "monster"
     ],
     "Links": {
       "/crackle": "Crackle",
@@ -47194,7 +47429,8 @@
       ",",
       "Iron nails",
       "Where to find:",
-      "Djust Desert, Ocean"
+      "Djust Desert, Ocean",
+      "monster"
     ],
     "Links": {
       "/iron-nails": "Iron nails",
@@ -47224,7 +47460,8 @@
       "Apprentice's Gloves",
       "(2%)",
       "Weak to:",
-      "Dark (2x damage)"
+      "Dark (2x damage)",
+      "monster"
     ],
     "Links": {
       "/apprentice-s-gloves": "Apprentice's Gloves",
@@ -47314,7 +47551,8 @@
       ",",
       "Partisan",
       "Where to find:",
-      "Realm of the Mighty"
+      "Realm of the Mighty",
+      "monster"
     ],
     "Links": {
       "/boom": "Boom",
@@ -47749,7 +47987,8 @@
       "Weak to:",
       "Blast, light (1.5x damage)",
       "Resists:",
-      "Ice, dark (0.5x damage)"
+      "Ice, dark (0.5x damage)",
+      "monster"
     ],
     "Links": {
       "/brain-drainer": "Brain Drainer",
@@ -47952,7 +48191,8 @@
       ",",
       "Platinum sword",
       "Where to find:",
-      "Eastern Wormwood, Western Wormwood"
+      "Eastern Wormwood, Western Wormwood",
+      "monster"
     ],
     "Links": {
       "/chain-mail": "Chain mail",
@@ -48575,7 +48815,8 @@
       ",",
       "Iron broadsword",
       "Where to find:",
-      "Newid Isle, Tower of Trades"
+      "Newid Isle, Tower of Trades",
+      "monster"
     ],
     "Links": {
       "/heal": "Heal",
@@ -48621,7 +48862,8 @@
       ",",
       "Slime earrings",
       "Where to find:",
-      "Newid Isle, Tower of Trades"
+      "Newid Isle, Tower of Trades",
+      "monster"
     ],
     "Links": {
       "/slime-earrings": "Slime earrings",
@@ -48724,7 +48966,8 @@
       ",",
       "Pallium regale",
       "Where to find:",
-      "Grotto (Caves, rank 11-12)"
+      "Grotto (Caves, rank 11-12)",
+      "monster"
     ],
     "Links": {
       "/falcon-blade": "Falcon blade",
@@ -48808,7 +49051,8 @@
       ",",
       "Garish garb",
       "Where to find:",
-      "Eastern Coffinwell, Western Coffinwell"
+      "Eastern Coffinwell, Western Coffinwell",
+      "monster"
     ],
     "Links": {
       "/garish-garb": "Garish garb",
@@ -48831,7 +49075,8 @@
       ",",
       "Starlet sandals",
       "Where to find:",
-      "Khaalag Coast, Ondor Cliffs"
+      "Khaalag Coast, Ondor Cliffs",
+      "monster"
     ],
     "Links": {
       "/cloak-of-evasion": "Cloak of evasion",
@@ -48854,7 +49099,8 @@
       ",",
       "Bardic boots",
       "Where to find:",
-      "Grotto (Caves, rank 9, 11; Ruins, rank 8-9, 12)"
+      "Grotto (Caves, rank 9, 11; Ruins, rank 8-9, 12)",
+      "monster"
     ],
     "Links": {
       "/bardic-boots": "Bardic boots",
@@ -48876,7 +49122,8 @@
       ",",
       "Nomadic deel",
       "Where to find:",
-      "Grotto (Water, rank 8-10)"
+      "Grotto (Water, rank 8-10)",
+      "monster"
     ],
     "Links": {
       "/nomadic-deel": "Nomadic deel",
@@ -49537,7 +49784,8 @@
       ",",
       "Slimedrop",
       "Where to find:",
-      "Cringle Coast, The Old School"
+      "Cringle Coast, The Old School",
+      "monster"
     ],
     "Links": {
       "/medicinal-herb": "Medicinal herb",
@@ -49565,7 +49813,8 @@
       ",",
       "Seed of magic",
       "Where to find:",
-      "Gerzuun"
+      "Gerzuun",
+      "monster"
     ],
     "Links": {
       "/boom": "Boom",
@@ -50131,7 +50380,8 @@
       ",",
       "Crimson coral",
       "Where to find:",
-      "Slurry Coast, Dourbridge"
+      "Slurry Coast, Dourbridge",
+      "monster"
     ],
     "Links": {
       "/crackle": "Crackle",
@@ -50252,7 +50502,8 @@
       ",",
       "Magic beast hide",
       "Where to find:",
-      "Eastern Wormwood, Western Wormwood"
+      "Eastern Wormwood, Western Wormwood",
+      "monster"
     ],
     "Links": {
       "/double-up": "Double Up",
@@ -50560,7 +50811,8 @@
       ",",
       "Trident",
       "Where to find:",
-      "Grotto (Caves, rank 10-11)"
+      "Grotto (Caves, rank 10-11)",
+      "monster"
     ],
     "Links": {
       "/glass-frit": "Glass frit",
@@ -51345,7 +51597,8 @@
       ",",
       "Partisan",
       "Where to find:",
-      "The Gittish Empire, Ocean"
+      "The Gittish Empire, Ocean",
+      "monster"
     ],
     "Links": {
       "/manky-mud": "Manky mud",
@@ -51525,7 +51778,8 @@
       ",",
       "Resurrock",
       "Where to find:",
-      "Heights of Loneliness, Bloomingdale"
+      "Heights of Loneliness, Bloomingdale",
+      "monster"
     ],
     "Links": {
       "/flintstone": "Flintstone",
@@ -51548,7 +51802,8 @@
       ",",
       "Reset stone",
       "Where to find:",
-      "The Gittish Empire, Gittingham Palace"
+      "The Gittish Empire, Gittingham Palace",
+      "monster"
     ],
     "Links": {
       "/reset-stone": "Reset stone",
@@ -52582,7 +52837,8 @@
       ",",
       "Cowpat",
       "Where to find:",
-      "Iluugazar Plains, Mt Ulbaruun"
+      "Iluugazar Plains, Mt Ulbaruun",
+      "monster"
     ],
     "Links": {
       "/cowpat": "Cowpat",
@@ -52796,7 +53052,8 @@
       ",",
       "Friendly fan",
       "Where to find:",
-      "Grotto (Fire, rank 8-10)"
+      "Grotto (Fire, rank 8-10)",
+      "monster"
     ],
     "Links": {
       "/friendly-fan": "Friendly fan",
@@ -52864,7 +53121,8 @@
       ",",
       "Ice shield",
       "Where to find:",
-      "The Old School"
+      "The Old School",
+      "monster"
     ],
     "Links": {
       "/hardwood-headwear": "Hardwood headwear",
@@ -52887,7 +53145,8 @@
       ",",
       "Cloak of evasion",
       "Where to find:",
-      "Snowberia, Snowberian Coast"
+      "Snowberia, Snowberian Coast",
+      "monster"
     ],
     "Links": {
       "/cloak-of-evasion": "Cloak of evasion",
@@ -53286,7 +53545,8 @@
       "Royal soil",
       "x7 +",
       "Ethereal stone",
-      "x3"
+      "x3",
+      "monster"
     ],
     "Links": {
       "/ethereal-stone": "Ethereal stone",
@@ -53399,7 +53659,8 @@
       ",",
       "Roguess's robes",
       "Where to find:",
-      "Grotto (Caves, rank 8-9; Fire, rank 9-11)"
+      "Grotto (Caves, rank 8-9; Fire, rank 9-11)",
+      "monster"
     ],
     "Links": {
       "/roguess-s-robes": "Roguess's robes",
@@ -53443,7 +53704,8 @@
       ",",
       "Fowl fan",
       "Where to find:",
-      "Wyrmtail, Wyrmwing"
+      "Wyrmtail, Wyrmwing",
+      "monster"
     ],
     "Links": {
       "/flame-breath": "Flame Breath",
@@ -54465,7 +54727,8 @@
       ",",
       "Boomer briefs",
       "Where to find:",
-      "Dourbridge, Lonely Plains"
+      "Dourbridge, Lonely Plains",
+      "monster"
     ],
     "Links": {
       "/boomer-briefs": "Boomer briefs",
@@ -54680,7 +54943,8 @@
       "Hero's Boots",
       "(2%)",
       "Weak to:",
-      "Blast (1.5x damage)"
+      "Blast (1.5x damage)",
+      "monster"
     ],
     "Links": {
       "/handrills": "Handrills",
@@ -54718,7 +54982,8 @@
       ",",
       "Strong antidote",
       "Where to find:",
-      "Lonely Coast, Heights of Loneliness"
+      "Lonely Coast, Heights of Loneliness",
+      "monster"
     ],
     "Links": {
       "/medicinal-herb": "medicinal herb",
@@ -54743,7 +55008,8 @@
       ",",
       "Coagulant",
       "Where to find:",
-      "Urdus Marshland, Iluugazar Plains"
+      "Urdus Marshland, Iluugazar Plains",
+      "monster"
     ],
     "Links": {
       "/coagulant": "Coagulant",
@@ -54872,7 +55138,8 @@
       ",",
       "Holy lance",
       "Where to find:",
-      "Lonely Plains, Bloomingdale"
+      "Lonely Plains, Bloomingdale",
+      "monster"
     ],
     "Links": {
       "/holy-lance": "Holy lance",
@@ -55097,7 +55364,8 @@
       ",",
       "Seed of strength",
       "Where to find:",
-      "Mt Ulzuun, Gerzuun"
+      "Mt Ulzuun, Gerzuun",
+      "monster"
     ],
     "Links": {
       "/bagsy-last": "Bagsy Last",
@@ -55391,7 +55659,8 @@
       "Where to find:",
       "Starflight express (During",
       "quest 150",
-      ")"
+      ")",
+      "monster"
     ],
     "Links": {
       "/150-annihilimobliteration": "quest 150",
@@ -55420,7 +55689,8 @@
       "Angel's robe",
       "(2%)",
       "Weak to:",
-      "Wind, light (1.5x damage)"
+      "Wind, light (1.5x damage)",
+      "monster"
     ],
     "Links": {
       "/angel-s-robe": "Angel's robe",
@@ -55441,7 +55711,8 @@
       "Items Dropped:",
       "Tangleweb",
       "Where to find:",
-      "The Bad Cave"
+      "The Bad Cave",
+      "monster"
     ],
     "Links": {
       "/tangleweb": "Tangleweb"
@@ -55758,7 +56029,8 @@
       ",",
       "Icicle dirk",
       "Where to find:",
-      "Grotto (Ice, rank 11-12)"
+      "Grotto (Ice, rank 11-12)",
+      "monster"
     ],
     "Links": {
       "/ice-crystal": "Ice crystal",
@@ -56102,7 +56374,8 @@
       ",",
       "Divine dress",
       "Where to find:",
-      "Grotto (Fire, rank 12)"
+      "Grotto (Fire, rank 12)",
+      "monster"
     ],
     "Links": {
       "/beast-claws": "Beast claws",
@@ -56398,7 +56671,8 @@
       ",",
       "Brawling byrnie",
       "Where to find:",
-      "Grotto (Ruins, rank 12)"
+      "Grotto (Ruins, rank 12)",
+      "monster"
     ],
     "Links": {
       "/brawling-byrnie": "Brawling byrnie",
@@ -56450,7 +56724,8 @@
       ",",
       "Strength ring",
       "Where to find:",
-      "Newid Isle, Tower of Trades"
+      "Newid Isle, Tower of Trades",
+      "monster"
     ],
     "Links": {
       "/manky-mud": "Manky mud",
@@ -57008,7 +57283,8 @@
       ",",
       "Crow's claws",
       "Where to find:",
-      "The Bad Cave"
+      "The Bad Cave",
+      "monster"
     ],
     "Links": {
       "/crow-s-claws": "Crow's claws",
@@ -57221,7 +57497,8 @@
       ",",
       "Pretty betsy",
       "Where to find:",
-      "Ondor Cliffs, Eastern Wormwood"
+      "Ondor Cliffs, Eastern Wormwood",
+      "monster"
     ],
     "Links": {
       "/agility-ring": "Agility ring",
@@ -57464,7 +57741,8 @@
       ",",
       "Seed of deftness",
       "Where to find:",
-      "Snowberia, Cringle Coast"
+      "Snowberia, Cringle Coast",
+      "monster"
     ],
     "Links": {
       "/horse-manure": "Horse manure",
@@ -57575,7 +57853,8 @@
       ",",
       "Rogue's robes",
       "Where to find:",
-      "Grotto (Caves, rank 12)"
+      "Grotto (Caves, rank 12)",
+      "monster"
     ],
     "Links": {
       "/rogue-s-robes": "Rogue's robes",
@@ -57597,7 +57876,8 @@
       ",",
       "Surplice",
       "Where to find:",
-      "Grotto (Ice, rank 9-11)"
+      "Grotto (Ice, rank 9-11)",
+      "monster"
     ],
     "Links": {
       "/mitre": "Mitre",
@@ -57624,7 +57904,8 @@
       ",",
       "Seed of therapeusis",
       "Where to find:",
-      "Gittingham Palace, Oubliette"
+      "Gittingham Palace, Oubliette",
+      "monster"
     ],
     "Links": {
       "/divine-intervention": "Divine Intervention",
@@ -57646,7 +57927,8 @@
       "Items Dropped:",
       "Iron gauntlets",
       "Where to find:",
-      "Loch Storn"
+      "Loch Storn",
+      "monster"
     ],
     "Links": {
       "/iron-gauntlets": "Iron gauntlets"
@@ -57670,7 +57952,8 @@
       ",",
       "Ascetic robe",
       "Where to find:",
-      "The Old School"
+      "The Old School",
+      "monster"
     ],
     "Links": {
       "/ascetic-robe": "Ascetic robe",
@@ -57883,7 +58166,8 @@
       ",",
       "Holy femail",
       "Where to find:",
-      "Grotto (Caves, rank 9-11)"
+      "Grotto (Caves, rank 9-11)",
+      "monster"
     ],
     "Links": {
       "/densinium": "Densinium",
@@ -58255,7 +58539,8 @@
       ",",
       "Dragon shield",
       "Where to find:",
-      "Grotto (Caves, rank 12)"
+      "Grotto (Caves, rank 12)",
+      "monster"
     ],
     "Links": {
       "/dragon-shield": "Dragon shield",
@@ -58559,7 +58844,8 @@
       ",",
       "Dragon scale",
       "Where to find:",
-      "Urdus Marshland, Hermany"
+      "Urdus Marshland, Hermany",
+      "monster"
     ],
     "Links": {
       "/dragon-scale": "Dragon scale",
@@ -58585,7 +58871,8 @@
       ",",
       "Dragon scale",
       "Where to find:",
-      "Oubliette"
+      "Oubliette",
+      "monster"
     ],
     "Links": {
       "/bounce": "Bounce",
@@ -58926,7 +59213,8 @@
       "Where to find:",
       "Stornway Castle Basement (Accessible during",
       "quest 137",
-      ")"
+      ")",
+      "monster"
     ],
     "Links": {
       "/137-yore-for-it-now": "quest 137",
@@ -59133,7 +59421,8 @@
       "Clogs",
       "Bronze shield",
       "Leather gauntlets",
-      "Bunny tail"
+      "Bunny tail",
+      "monster"
     ],
     "Links": {
       "/blue-knickers": "Blue knickers",
@@ -59254,7 +59543,8 @@
       "Weak to:",
       "Light (1.5x damage)",
       "Resists:",
-      "Ice (0.5x damage)"
+      "Ice (0.5x damage)",
+      "monster"
     ],
     "Links": {
       "/167-who-s-a-pretty-boy": "quest 167",
@@ -59334,7 +59624,8 @@
       ",",
       "Long spear",
       "Where to find:",
-      "Slurry Coast, Dourbridge"
+      "Slurry Coast, Dourbridge",
+      "monster"
     ],
     "Links": {
       "/long-spear": "Long spear",
