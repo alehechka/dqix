@@ -2,7 +2,7 @@
   "cSpell.words": ["armamentalist", "htmx", "Wikidot"],
   "css.customData": [".vscode/tailwind.json"],
   "editor.formatOnSave": true,
-  "[json]": {
+  "[javascript,json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[go]": {

@@ -9338,10 +9338,7 @@
   },
   "/beelzefreeze": {
     "Path": "beelzefreeze",
-    "Text": [
-      "Beelzefreeze",
-      "Has a high chance of paralysing demons."
-    ],
+    "Text": ["Beelzefreeze", "Has a high chance of paralysing demons."],
     "Links": {}
   },
   "/belisha-beakon": {
@@ -13476,10 +13473,7 @@
   },
   "/charm": {
     "Path": "charm",
-    "Text": [
-      "Charm",
-      "The character's general attractiveness to others."
-    ],
+    "Text": ["Charm", "The character's general attractiveness to others."],
     "Links": {}
   },
   "/charmour": {
@@ -14611,10 +14605,7 @@
   },
   "/contact": {
     "Path": "contact",
-    "Text": [
-      "Contact",
-      "Please change this page according to your needs"
-    ],
+    "Text": ["Contact", "Please change this page according to your needs"],
     "Links": {}
   },
   "/contra-band": {
@@ -17702,10 +17693,7 @@
   },
   "/dragon-slash": {
     "Path": "dragon-slash",
-    "Text": [
-      "Dragon Slash",
-      "An attack that deals heavy damage to dragons."
-    ],
+    "Text": ["Dragon Slash", "An attack that deals heavy damage to dragons."],
     "Links": {}
   },
   "/dragon-slayer": {
@@ -18710,10 +18698,7 @@
   },
   "/egg-on": {
     "Path": "egg-on",
-    "Text": [
-      "Egg On",
-      "Encourages an ally and increases their tension."
-    ],
+    "Text": ["Egg On", "Encourages an ally and increases their tension."],
     "Links": {}
   },
   "/einhaender": {
@@ -22208,10 +22193,7 @@
   },
   "/focus-pocus": {
     "Path": "focus-pocus",
-    "Text": [
-      "Focus Pocus",
-      "A meditative method for making more MP."
-    ],
+    "Text": ["Focus Pocus", "A meditative method for making more MP."],
     "Links": {}
   },
   "/foehn-fan": {
@@ -26433,10 +26415,7 @@
   },
   "/half-inch": {
     "Path": "half-inch",
-    "Text": [
-      "Half-Inch",
-      "Sometimes steals an item from the target."
-    ],
+    "Text": ["Half-Inch", "Sometimes steals an item from the target."],
     "Links": {}
   },
   "/hallowed-arrow": {
@@ -33072,10 +33051,7 @@
   },
   "/m-pathy": {
     "Path": "m-pathy",
-    "Text": [
-      "M-Pathy",
-      "Donate some MP to a fellow party member."
-    ],
+    "Text": ["M-Pathy", "Donate some MP to a fellow party member."],
     "Links": {}
   },
   "/macabre-mantle": {
@@ -34910,10 +34886,7 @@
   },
   "/max-hp": {
     "Path": "max-hp",
-    "Text": [
-      "Max Hp",
-      "The character's maximum amount of physical stamina."
-    ],
+    "Text": ["Max Hp", "The character's maximum amount of physical stamina."],
     "Links": {}
   },
   "/max-mp": {
@@ -35761,10 +35734,7 @@
   },
   "/mercy": {
     "Path": "mercy",
-    "Text": [
-      "Mercy",
-      "Gives weak enemies a chance to escape."
-    ],
+    "Text": ["Mercy", "Gives weak enemies a chance to escape."],
     "Links": {}
   },
   "/mesotoga": {
@@ -39041,10 +39011,7 @@
   },
   "/nose-for-treasure": {
     "Path": "nose-for-treasure",
-    "Text": [
-      "Nose For Treasure",
-      "Reports the number of nearby treasures."
-    ],
+    "Text": ["Nose For Treasure", "Reports the number of nearby treasures."],
     "Links": {}
   },
   "/oak-staff": {
@@ -39278,12 +39245,7 @@
   },
   "/omniheal": {
     "Path": "omniheal",
-    "Text": [
-      "Omniheal",
-      "Fully heals all allies.",
-      "MP Cost:",
-      "128"
-    ],
+    "Text": ["Omniheal", "Fully heals all allies.", "MP Cost:", "128"],
     "Links": {}
   },
   "/oomph": {
@@ -39298,10 +39260,7 @@
   },
   "/ooze-bruiser": {
     "Path": "ooze-bruiser",
-    "Text": [
-      "Ooze Bruiser",
-      "An attack that deals serious damage to slimes."
-    ],
+    "Text": ["Ooze Bruiser", "An attack that deals serious damage to slimes."],
     "Links": {}
   },
   "/optimistick": {
@@ -40418,10 +40377,7 @@
   },
   "/pitfall": {
     "Path": "pitfall",
-    "Text": [
-      "Pitfall",
-      "Digs a hole for friends and foes to fall into!"
-    ],
+    "Text": ["Pitfall", "Digs a hole for friends and foes to fall into!"],
     "Links": {}
   },
   "/pixie-boots": {
@@ -41046,10 +41002,7 @@
   },
   "/poplar-toppler": {
     "Path": "poplar-toppler",
-    "Text": [
-      "Poplar Toppler",
-      "An attack that deals heavy damage to plants."
-    ],
+    "Text": ["Poplar Toppler", "An attack that deals heavy damage to plants."],
     "Links": {}
   },
   "/port-llaffan": {
@@ -41972,10 +41925,7 @@
   },
   "/psyche-up": {
     "Path": "psyche-up",
-    "Text": [
-      "Psyche Up",
-      "Focuses strength to increase the user's tension."
-    ],
+    "Text": ["Psyche Up", "Focuses strength to increase the user's tension."],
     "Links": {}
   },
   "/pumpkin-head": {
@@ -45605,12 +45555,7 @@
   },
   "/sap": {
     "Path": "sap",
-    "Text": [
-      "Sap",
-      "Reduces the defence of a single enemy.",
-      "MP Cost:",
-      "4"
-    ],
+    "Text": ["Sap", "Reduces the defence of a single enemy.", "MP Cost:", "4"],
     "Links": {}
   },
   "/sapient-sandals": {
@@ -49035,12 +48980,7 @@
   },
   "/snooze": {
     "Path": "snooze",
-    "Text": [
-      "Snooze",
-      "Puts a group of enemies to sleep.",
-      "MP Cost:",
-      "3"
-    ],
+    "Text": ["Snooze", "Puts a group of enemies to sleep.", "MP Cost:", "3"],
     "Links": {}
   },
   "/snot-shot": {
@@ -50196,10 +50136,7 @@
   },
   "/spooky-aura": {
     "Path": "spooky-aura",
-    "Text": [
-      "Spooky Aura",
-      "Reduces an enemy's resistance to magic."
-    ],
+    "Text": ["Spooky Aura", "Reduces an enemy's resistance to magic."],
     "Links": {}
   },
   "/spring-breeze-hat": {
@@ -51448,10 +51385,7 @@
   },
   "/stone-s-throw": {
     "Path": "stone-s-throw",
-    "Text": [
-      "Stone's Throw",
-      "Hurls rocks at a single group of enemies."
-    ],
+    "Text": ["Stone's Throw", "Hurls rocks at a single group of enemies."],
     "Links": {}
   },
   "/storm-spear": {
@@ -52734,10 +52668,7 @@
   },
   "/tap-dance": {
     "Path": "tap-dance",
-    "Text": [
-      "Tap Dance",
-      "Do some nifty tappy-toeing to evade attack."
-    ],
+    "Text": ["Tap Dance", "Do some nifty tappy-toeing to evade attack."],
     "Links": {}
   },
   "/teaky-mask": {
@@ -59211,72 +59142,5 @@
       "/long-spear": "Long spear",
       "/strong-medicine": "Strong medicine"
     }
-  },
-  "system:list-all-pages": {
-    "Path": "system:list-all-pages",
-    "Text": [
-      "List All Pages",
-      "??? Family",
-      "001 One Good Turn",
-      "001 Slime",
-      "002 Cruelcumber",
-      "002 Pleased As Punch",
-      "003 Teeny Sanguini",
-      "003 We Like To Party",
-      "004 Pick Me Up a Panacea",
-      "004 Sacksquatch",
-      "005 Batterfly",
-      "005 Herb'list",
-      "006 Dracky",
-      "006 Get Well Water",
-      "007 Bodkin Archer",
-      "007 Curious Crevice",
-      "008 Bag o' Laughs",
-      "008 Don't Cry Over Spilt Ink",
-      "009 Labour of Love",
-      "009 Mecha-Mynah",
-      "010 Firespirit",
-      "page 1 of 92",
-      "1",
-      "2",
-      "3",
-      "...",
-      "91",
-      "92",
-      "next »"
-    ],
-    "Links": {
-      "/001-one-good-turn": "001 One Good Turn",
-      "/002-pleased-as-punch": "002 Pleased As Punch",
-      "/003-we-like-to-party": "003 We Like To Party",
-      "/004-pick-me-up-a-panacea": "004 Pick Me Up a Panacea",
-      "/005-herb-list": "005 Herb'list",
-      "/006-get-well-water": "006 Get Well Water",
-      "/007-curious-crevice": "007 Curious Crevice",
-      "/008-don-t-cry-over-spilt-ink": "008 Don't Cry Over Spilt Ink",
-      "/009-labour-of-love": "009 Labour of Love",
-      "/bag-o-laughs": "008 Bag o' Laughs",
-      "/batterfly": "005 Batterfly",
-      "/bodkin-archer": "007 Bodkin Archer",
-      "/cruelcumber": "002 Cruelcumber",
-      "/dracky": "006 Dracky",
-      "/family": "??? Family",
-      "/firespirit": "010 Firespirit",
-      "/mecha-mynah": "009 Mecha-Mynah",
-      "/sacksquatch": "004 Sacksquatch",
-      "/slime": "001 Slime",
-      "/system:list-all-pages/p/2": "next »",
-      "/system:list-all-pages/p/3": "3",
-      "/system:list-all-pages/p/91": "91",
-      "/system:list-all-pages/p/92": "92",
-      "/teeny-sanguini": "003 Teeny Sanguini"
-    }
-  },
-  "system:page-tags-list": {
-    "Path": "system:page-tags-list",
-    "Text": [
-      "Page Tags"
-    ],
-    "Links": {}
   }
 }
