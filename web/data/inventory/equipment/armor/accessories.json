@@ -272,6 +272,35 @@
    "catholicon-ring"
   ]
  },
+ "critical-acclaim": {
+  "id": "critical-acclaim",
+  "title": "Critical Acclaim",
+  "description": "A gladiator's medal that cranks up the chance of a critical hit.",
+  "statistics": {
+   "defense": 3,
+   "special": {
+    "effect": "Increases critical rate by 4%"
+   }
+  },
+  "rarity": 4,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "accessories"
+ },
  "dragon-scale": {
   "id": "dragon-scale",
   "title": "Dragon Scale",
@@ -602,6 +631,35 @@
    "sacred-claws",
    "white-knight-s-shield"
   ]
+ },
+ "honour-among-thieves": {
+  "id": "honour-among-thieves",
+  "title": "Honour Among Thieves",
+  "description": "A thief's award that enhances the chances of successfully stealing.",
+  "statistics": {
+   "defense": 3,
+   "special": {
+    "effect": "Doubles Half-Inch success rate"
+   }
+  },
+  "rarity": 4,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "accessories"
  },
  "legion-of-merit": {
   "id": "legion-of-merit",

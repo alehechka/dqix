@@ -7078,7 +7078,8 @@
       "Seasaur",
       "Abyss diver",
       "King crab",
-      "Stale whale"
+      "Stale whale",
+      "monster-family"
     ],
     "Links": {
       "/abyss-diver": "Abyss diver",
@@ -8117,7 +8118,8 @@
       "The page",
       "back-atcha",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -8382,7 +8384,8 @@
       "The page",
       "bagsy-last",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -8559,7 +8562,8 @@
       "Bang",
       "Damages all enemies with a small explosion.",
       "MP Cost:",
-      "5"
+      "5",
+      "spell"
     ],
     "Links": {}
   },
@@ -8871,7 +8875,8 @@
       "Chimaera wing",
       "Tangleweb",
       "Evac-u-bell",
-      "Lambswool"
+      "Lambswool",
+      "town"
     ],
     "Links": {
       "/agiliboots": "Agiliboots",
@@ -9323,7 +9328,8 @@
       "Swinoceros",
       "Battering ram",
       "Tantamount",
-      "Hell's gatekeeper"
+      "Hell's gatekeeper",
+      "monster-family"
     ],
     "Links": {
       "/alphyn": "Alphyn",
@@ -9410,7 +9416,11 @@
   },
   "/beelzefreeze": {
     "Path": "beelzefreeze",
-    "Text": ["Beelzefreeze", "Has a high chance of paralysing demons."],
+    "Text": [
+      "Beelzefreeze",
+      "Has a high chance of paralysing demons.",
+      "ability"
+    ],
     "Links": {}
   },
   "/belisha-beakon": {
@@ -9483,7 +9493,8 @@
       "The page",
       "benediction",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -9764,7 +9775,8 @@
       "The page",
       "big-banga",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -9862,7 +9874,8 @@
       "Prism peacock",
       "Cosmic chimaera",
       "Bird of terrordise",
-      "Hootingham-Gore"
+      "Hootingham-Gore",
+      "monster-family"
     ],
     "Links": {
       "/apeckalypse": "Apeckalypse",
@@ -10224,7 +10237,8 @@
       "The page",
       "blind-man-s-biff",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -10464,7 +10478,8 @@
       "Acroboots",
       "Starlet sandals",
       "Cowboy boots",
-      "Kung fu shoes"
+      "Kung fu shoes",
+      "town"
     ],
     "Links": {
       "/acroboots": "Acroboots",
@@ -10718,7 +10733,8 @@
       "Blunt",
       "Decreases the Attack of a single enemy.",
       "MP Cost:",
-      "8"
+      "8",
+      "spell"
     ],
     "Links": {}
   },
@@ -10990,7 +11006,8 @@
     "Text": [
       "Body Slam",
       "Crashes into an enemy with the full force of the body.",
-      "(this should deal around 80% damage to both the enemy and yourself, you may take the self damage even if you miss)"
+      "(this should deal around 80% damage to both the enemy and yourself, you may take the self damage even if you miss)",
+      "ability"
     ],
     "Links": {}
   },
@@ -11084,7 +11101,8 @@
       "Boom",
       "Engulfs all enemies in a large explosion.",
       "MP Cost:",
-      "10"
+      "10",
+      "spell"
     ],
     "Links": {}
   },
@@ -11184,7 +11202,8 @@
       "88",
       "Metalicker",
       "100",
-      "Omnivocational Rangmaster"
+      "Omnivocational Rangmaster",
+      "skill-tree"
     ],
     "Links": {
       "/crosscutter-throw": "Crosscutter Throw",
@@ -11428,7 +11447,8 @@
       "The page",
       "boulder-toss",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -11438,7 +11458,8 @@
       "Bounce",
       "Forms a protective barrier that reflects all enemy spells.",
       "MP Cost:",
-      "4"
+      "4",
+      "spell"
     ],
     "Links": {}
   },
@@ -11488,7 +11509,8 @@
       "88",
       "Hallowed Arrow",
       "100",
-      "Omnivocational Bowmaster"
+      "Omnivocational Bowmaster",
+      "skill-tree"
     ],
     "Links": {
       "/conjury-conductor": "Conjury Conductor",
@@ -11845,16 +11867,6 @@
       "/twinkling-tuxedo": "Twinkling tuxedo"
     }
   },
-  "/brilliant-biscuit": {
-    "Path": "brilliant-biscuit",
-    "Text": [
-      "The page",
-      "brilliant-biscuit",
-      "you want to access does not exist.",
-      "Create page"
-    ],
-    "Links": {}
-  },
   "/brilliant-biscuits": {
     "Path": "brilliant-biscuits",
     "Text": [
@@ -11866,7 +11878,8 @@
       "Important Item",
       "Where to find:",
       "Obtained during quest",
-      "156 Inn Search of an Inny"
+      "156 Inn Search of an Inny",
+      "everyday"
     ],
     "Links": {
       "/156-inn-search-of-an-inny": "156 Inn Search of an Inny"
@@ -12311,7 +12324,8 @@
       "Buff",
       "Raises the defence of a single party member.",
       "MP Cost:",
-      "3"
+      "3",
+      "spell"
     ],
     "Links": {}
   },
@@ -12333,7 +12347,8 @@
       "Sluggerslaught",
       "Widow's pique",
       "Cyber spider",
-      "Tyrantula"
+      "Tyrantula",
+      "monster-family"
     ],
     "Links": {
       "/batterfly": "Batterfly",
@@ -12446,7 +12461,8 @@
       "The page",
       "burning-breath",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -12495,7 +12511,8 @@
       "Caduceus",
       "Restores a fair bit of an ally's HP.",
       "MP Cost:",
-      "2"
+      "2",
+      "ability"
     ],
     "Links": {}
   },
@@ -12505,7 +12522,8 @@
       "The page",
       "call-for-backup",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -12515,7 +12533,8 @@
       "The page",
       "can-opener",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -12785,7 +12804,8 @@
       "The page",
       "care-prayer",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -13091,7 +13111,8 @@
       "The page",
       "cattle-prod",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -13114,7 +13135,8 @@
       "Kitty shield",
       "x1 +",
       "Kitty litter",
-      "x2"
+      "x2",
+      "shield"
     ],
     "Links": {
       "/kitty-litter": "Kitty litter",
@@ -13518,7 +13540,8 @@
     "Path": "channel-anger",
     "Text": [
       "Channel Anger",
-      "Increases the user's magical might by a major margin."
+      "Increases the user's magical might by a major margin.",
+      "ability"
     ],
     "Links": {}
   },
@@ -13545,7 +13568,11 @@
   },
   "/charm": {
     "Path": "charm",
-    "Text": ["Charm", "The character's general attractiveness to others."],
+    "Text": [
+      "Charm",
+      "The character's general attractiveness to others.",
+      "attribute"
+    ],
     "Links": {}
   },
   "/charmour": {
@@ -13662,7 +13689,8 @@
       "The page",
       "chilly-breath",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -13842,7 +13870,8 @@
       "Clap Trap",
       "A stinging slap across a single enemy's face.",
       "MP Cost:",
-      "1"
+      "1",
+      "ability"
     ],
     "Links": {}
   },
@@ -13919,7 +13948,8 @@
       "88",
       "Rake 'n' Break",
       "100",
-      "Omnivocational Clawmaster"
+      "Omnivocational Clawmaster",
+      "skill-tree"
     ],
     "Links": {
       "/can-opener": "Can Opener",
@@ -13935,7 +13965,8 @@
       "The page",
       "claw-slash",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -14410,7 +14441,8 @@
       "Moonwort bulb",
       "Chimaera wing",
       "Evac-u-bell",
-      "Holy water"
+      "Holy water",
+      "town"
     ],
     "Links": {
       "/antidotal-herb": "Antidotal herb",
@@ -14675,11 +14707,6 @@
     ],
     "Links": {}
   },
-  "/contact": {
-    "Path": "contact",
-    "Text": ["Contact", "Please change this page according to your needs"],
-    "Links": {}
-  },
   "/contra-band": {
     "Path": "contra-band",
     "Text": [
@@ -14930,7 +14957,8 @@
       "The page",
       "counter-wait",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -14957,7 +14985,8 @@
       "90",
       "Natural Max. HP +60",
       "100",
-      "Attack Attacker"
+      "Attack Attacker",
+      "skill-tree"
     ],
     "Links": {
       "/attack-attacker": "Attack Attacker",
@@ -15076,7 +15105,8 @@
       "Crack",
       "Pierces a single enemy with razor-sharp icicles.",
       "MP Cost:",
-      "3"
+      "3",
+      "spell"
     ],
     "Links": {}
   },
@@ -15086,7 +15116,8 @@
       "The page",
       "crackerwhack",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -15096,7 +15127,8 @@
       "Crackle",
       "Rips into a group of enemies with sharp icicles.",
       "MP Cost:",
-      "8"
+      "8",
+      "spell"
     ],
     "Links": {}
   },
@@ -15205,7 +15237,8 @@
       "The page",
       "critical",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "misc"
     ],
     "Links": {}
   },
@@ -15225,7 +15258,8 @@
       "Classification:",
       "Accessory",
       "Where to find:",
-      "Reward for revocating as Gladiator"
+      "Reward for revocating as Gladiator",
+      "accessories"
     ],
     "Links": {}
   },
@@ -15268,7 +15302,8 @@
       "Crosscutter Throw",
       "Traces an X in the air as it ploughs into the enemy.",
       "MP Cost:",
-      "2"
+      "2",
+      "ability"
     ],
     "Links": {}
   },
@@ -15494,7 +15529,8 @@
       "Important Item",
       "Where to find:",
       "Obtained during quest",
-      "042 Letter Getter"
+      "042 Letter Getter",
+      "important"
     ],
     "Links": {
       "/042-letter-getter": "042 Letter Getter"
@@ -15527,7 +15563,8 @@
       "The page",
       "crushed-ice",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -16194,7 +16231,8 @@
       "Dazzle",
       "Envelops a group of enemies in illusions.",
       "MP Cost:",
-      "5"
+      "5",
+      "spell"
     ],
     "Links": {}
   },
@@ -16204,7 +16242,8 @@
       "The page",
       "dazzleflash",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -16334,7 +16373,8 @@
       "Decelerate",
       "Reduces the agility of a single enemy.",
       "MP Cost:",
-      "3"
+      "3",
+      "spell"
     ],
     "Links": {}
   },
@@ -16344,7 +16384,8 @@
       "Deceleratle",
       "Reduces the agility of a group of enemies.",
       "MP Cost:",
-      "5"
+      "5",
+      "spell"
     ],
     "Links": {}
   },
@@ -16352,7 +16393,8 @@
     "Path": "defence",
     "Text": [
       "Defence",
-      "The sum of the character's resilience, that of their armor, and any relevant skill bonuses. Affects the amount of damage the character receives."
+      "The sum of the character's resilience, that of their armor, and any relevant skill bonuses. Affects the amount of damage the character receives.",
+      "attribute"
     ],
     "Links": {}
   },
@@ -16362,7 +16404,8 @@
       "The page",
       "defend",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "misc"
     ],
     "Links": {}
   },
@@ -16372,7 +16415,8 @@
       "Defending Champion",
       "Greatly reduces the damage inflicted by physical attacks.",
       "MP Cost:",
-      "3"
+      "3",
+      "ability"
     ],
     "Links": {}
   },
@@ -16380,7 +16424,8 @@
     "Path": "defense",
     "Text": [
       "Defence",
-      "The sum of the character's resilience, that of their armor, and any relevant skill bonuses. Affects the amount of damage the character receives."
+      "The sum of the character's resilience, that of their armor, and any relevant skill bonuses. Affects the amount of damage the character receives.",
+      "attribute"
     ],
     "Links": {}
   },
@@ -16421,7 +16466,8 @@
     "Path": "deftness",
     "Text": [
       "Deftness",
-      "Governs a character's ability to make preemptive strikes, perform critical attacks, and flee from battle."
+      "Governs a character's ability to make preemptive strikes, perform critical attacks, and flee from battle.",
+      "attribute"
     ],
     "Links": {}
   },
@@ -16431,7 +16477,8 @@
       "The page",
       "deliverance",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "attribute"
     ],
     "Links": {}
   },
@@ -16469,7 +16516,8 @@
       "Larstastnaras",
       "Cyclops",
       "Boss troll",
-      "Atlas"
+      "Atlas",
+      "monster-family"
     ],
     "Links": {
       "/aggrosculpture": "Aggrosculpture",
@@ -16939,7 +16987,8 @@
       "The page",
       "disruptive-wave",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -16975,7 +17024,8 @@
     "Path": "divination",
     "Text": [
       "Divination",
-      "Tells its caster the experience needed to climb a level."
+      "Tells its caster the experience needed to climb a level.",
+      "ability"
     ],
     "Links": {}
   },
@@ -17092,7 +17142,8 @@
       "The page",
       "divine-intervention",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -17102,7 +17153,8 @@
       "The page",
       "double-edged-slash",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -17110,7 +17162,8 @@
     "Path": "double-up",
     "Text": [
       "Double Up",
-      "Ditches defence to increase attack an impressive amount."
+      "Ditches defence to increase attack an impressive amount.",
+      "ability"
     ],
     "Links": {}
   },
@@ -17168,7 +17221,8 @@
       "Sturdy slacks",
       "Bunny ears",
       "Maid outfit",
-      "High heels"
+      "High heels",
+      "town"
     ],
     "Links": {
       "/angel-bell": "Angel bell",
@@ -17486,7 +17540,8 @@
       "Wonder wyrtle",
       "Rashaverak",
       "Mandrake monarch",
-      "Drakulord"
+      "Drakulord",
+      "monster-family"
     ],
     "Links": {
       "/barbarus": "Barbarus",
@@ -17765,7 +17820,11 @@
   },
   "/dragon-slash": {
     "Path": "dragon-slash",
-    "Text": ["Dragon Slash", "An attack that deals heavy damage to dragons."],
+    "Text": [
+      "Dragon Slash",
+      "An attack that deals heavy damage to dragons.",
+      "ability"
+    ],
     "Links": {}
   },
   "/dragon-slayer": {
@@ -18271,7 +18330,8 @@
       "The page",
       "drain-magic",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -18770,7 +18830,11 @@
   },
   "/egg-on": {
     "Path": "egg-on",
-    "Text": ["Egg On", "Encourages an ally and increases their tension."],
+    "Text": [
+      "Egg On",
+      "Encourages an ally and increases their tension.",
+      "ability"
+    ],
     "Links": {}
   },
   "/einhaender": {
@@ -18817,7 +18881,8 @@
       "035 All Dolled Up",
       "(one-time)",
       "Can be used for:",
-      "012 Putting on the Glitz"
+      "012 Putting on the Glitz",
+      "arms"
     ],
     "Links": {
       "/012-putting-on-the-glitz": "012 Putting on the Glitz",
@@ -18847,7 +18912,8 @@
       "Freezing fog",
       "Cumulus vex",
       "Firn fiend",
-      "Cumulus hex"
+      "Cumulus hex",
+      "monster-family"
     ],
     "Links": {
       "/admirer": "Admirer",
@@ -19831,7 +19897,8 @@
       "Torso",
       "Dropped by:",
       "Orgodemir",
-      "(lv. 81–90: 20%; lv. 91–99: 25%)"
+      "(lv. 81–90: 20%; lv. 91–99: 25%)",
+      "torso"
     ],
     "Links": {
       "/orgodemir": "Orgodemir"
@@ -20236,7 +20303,8 @@
       "Evac",
       "Exit instantly from dungeons, caves, and towers.",
       "MP Cost:",
-      "3"
+      "3",
+      "spell"
     ],
     "Links": {}
   },
@@ -20308,26 +20376,6 @@
       "/thief-s-turban": "Thief's turban",
       "/tortoiseshell-fan": "Tortoiseshell fan"
     }
-  },
-  "/example-item-1": {
-    "Path": "example-item-1",
-    "Text": [
-      "The page",
-      "example-item-1",
-      "you want to access does not exist.",
-      "Create page"
-    ],
-    "Links": {}
-  },
-  "/example-item-2": {
-    "Path": "example-item-2",
-    "Text": [
-      "The page",
-      "example-item-2",
-      "you want to access does not exist.",
-      "Create page"
-    ],
-    "Links": {}
   },
   "/excalipurr": {
     "Path": "excalipurr",
@@ -20451,7 +20499,8 @@
     "Path": "eye-for-trouble",
     "Text": [
       "Eye For Trouble",
-      "Augments an enemy's entry in the Defeated Monster List."
+      "Augments an enemy's entry in the Defeated Monster List.",
+      "ability"
     ],
     "Links": {}
   },
@@ -20461,7 +20510,8 @@
       "The page",
       "eyes-on-me",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -20513,7 +20563,8 @@
       "90",
       "Care Prayer",
       "100",
-      "Natural Magical Mending +100"
+      "Natural Magical Mending +100",
+      "skill-tree"
     ],
     "Links": {
       "/alma-mater": "Alma Mater",
@@ -20599,7 +20650,8 @@
       "Falcon Slash",
       "A double slicing attack, faster than a falcon on the wing.",
       "MP Cost:",
-      "2"
+      "2",
+      "ability"
     ],
     "Links": {}
   },
@@ -20628,7 +20680,8 @@
       "Zoma",
       "Psaro",
       "Estark",
-      "Nimzo"
+      "Nimzo",
+      "monster-family"
     ],
     "Links": {
       "/baramos": "Baramos",
@@ -20661,7 +20714,8 @@
       "The page",
       "fan-dango",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -20688,7 +20742,8 @@
       "88",
       "Fan Dango",
       "100",
-      "Omnivocational Fanmaster"
+      "Omnivocational Fanmaster",
+      "skill-tree"
     ],
     "Links": {
       "/fan-dango": "Fan Dango",
@@ -20868,7 +20923,8 @@
       "The page",
       "feel-the-burn",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -21405,7 +21461,8 @@
       "Fire Fource",
       "Channels fire to increase attack and defence.",
       "MP Cost:",
-      "4"
+      "4",
+      "ability"
     ],
     "Links": {}
   },
@@ -21415,7 +21472,8 @@
       "The page",
       "firebird-throw",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -21565,7 +21623,8 @@
       "77",
       "Boulder Toss",
       "100",
-      "Attack +60 with Fist"
+      "Attack +60 with Fist",
+      "skill-tree"
     ],
     "Links": {
       "/boulder-toss": "Boulder Toss",
@@ -21616,7 +21675,8 @@
       "Fizzle",
       "Prevents a group of enemies from using magic.",
       "MP Cost:",
-      "3"
+      "3",
+      "spell"
     ],
     "Links": {}
   },
@@ -21762,7 +21822,8 @@
       "The page",
       "flailing-nails",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -21772,7 +21833,8 @@
       "The page",
       "flame-breath",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -21828,7 +21890,8 @@
       "The page",
       "flame-slash",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -21968,7 +22031,8 @@
       "The page",
       "flee",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "misc"
     ],
     "Links": {}
   },
@@ -22084,7 +22148,8 @@
       "The page",
       "flower-power",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -22134,7 +22199,8 @@
       "The page",
       "fluff-around",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "misc"
     ],
     "Links": {}
   },
@@ -22195,7 +22261,8 @@
       "The page",
       "flutter-disaster",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -22205,7 +22272,8 @@
       "The page",
       "fly-swat",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -22253,7 +22321,8 @@
       "82",
       "Meditation",
       "100",
-      "Natural Agility +60"
+      "Natural Agility +60",
+      "skill-tree"
     ],
     "Links": {
       "/meditation": "Meditation",
@@ -22265,7 +22334,11 @@
   },
   "/focus-pocus": {
     "Path": "focus-pocus",
-    "Text": ["Focus Pocus", "A meditative method for making more MP."],
+    "Text": [
+      "Focus Pocus",
+      "A meditative method for making more MP.",
+      "ability"
+    ],
     "Links": {}
   },
   "/foehn-fan": {
@@ -22313,7 +22386,8 @@
       "The page",
       "forbearance",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -22340,7 +22414,8 @@
       "82",
       "Life Fource",
       "100",
-      "Natural Max. HP +30"
+      "Natural Max. HP +30",
+      "skill-tree"
     ],
     "Links": {
       "/fire-fource": "Fire Fource",
@@ -22645,7 +22720,8 @@
       "Frost Fource",
       "Channels ice to increase attack and defense.",
       "MP Cost:",
-      "4"
+      "4",
+      "ability"
     ],
     "Links": {}
   },
@@ -22680,7 +22756,8 @@
       "Fuddle",
       "Sends a group of enemies into confusion.",
       "MP Cost:",
-      "5"
+      "5",
+      "spell"
     ],
     "Links": {}
   },
@@ -22713,7 +22790,8 @@
       "The page",
       "fuddle-dance",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -22828,7 +22906,8 @@
       "The page",
       "fullheal",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "spell"
     ],
     "Links": {}
   },
@@ -22838,7 +22917,8 @@
       "The page",
       "funereal-fource",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -23182,7 +23262,8 @@
       "The page",
       "gale-fource",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -23592,7 +23673,8 @@
       "The page",
       "gigagash",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -23648,7 +23730,8 @@
       "The page",
       "gigaslash",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -24048,7 +24131,8 @@
       "The page",
       "gigathrow",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -24081,7 +24165,8 @@
       "Hammer Skill",
       "Sword Skill",
       "Fisticuffs Skill",
-      "Guts"
+      "Guts",
+      "vocation"
     ],
     "Links": {
       "/103-gladiator-graduator": "Quest 103",
@@ -24104,7 +24189,8 @@
       "Where to find:",
       "Reward for quest",
       "105 Challengus Maximus",
-      "(one-time)"
+      "(one-time)",
+      "everyday"
     ],
     "Links": {
       "/105-challengus-maximus": "105 Challengus Maximus"
@@ -24241,7 +24327,8 @@
       "Moonwort bulb",
       "Pink pearl",
       "Chimaera wing",
-      "Bow tie"
+      "Bow tie",
+      "town"
     ],
     "Links": {
       "/angel-bell": "Angel bell",
@@ -25068,7 +25155,8 @@
       "The page",
       "gold-rush",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -25729,7 +25817,8 @@
       "Spring breeze hat",
       "Summer cloud hat",
       "Autumn shower hat",
-      "Winter sky hat"
+      "Winter sky hat",
+      "everyday"
     ],
     "Links": {
       "/169-competition-commission": "169 Competition Commission",
@@ -25997,7 +26086,8 @@
       "The page",
       "gritty-ditty",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -26186,7 +26276,8 @@
       "Maribel",
       "x",
       "Fleurette",
-      "Priest"
+      "Priest",
+      "misc"
     ],
     "Links": {}
   },
@@ -26354,7 +26445,8 @@
       "82",
       "Natural Max. HP +30",
       "100",
-      "Feel the Burn"
+      "Feel the Burn",
+      "skill-tree"
     ],
     "Links": {
       "/blind-man-s-biff": "Blind Man's Biff",
@@ -26370,7 +26462,8 @@
       "H-Pathy",
       "Donate some HP to a fellow party member.",
       "MP Cost:",
-      "3"
+      "3",
+      "ability"
     ],
     "Links": {}
   },
@@ -26487,7 +26580,11 @@
   },
   "/half-inch": {
     "Path": "half-inch",
-    "Text": ["Half-Inch", "Sometimes steals an item from the target."],
+    "Text": [
+      "Half-Inch",
+      "Sometimes steals an item from the target.",
+      "ability"
+    ],
     "Links": {}
   },
   "/hallowed-arrow": {
@@ -26496,7 +26593,8 @@
       "The page",
       "hallowed-arrow",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -26642,7 +26740,8 @@
       "88",
       "Crackerwhack",
       "100",
-      "Omnivocational Hammermaster"
+      "Omnivocational Hammermaster",
+      "skill-tree"
     ],
     "Links": {
       "/bagsy-last": "Bagsy Last",
@@ -26767,7 +26866,8 @@
       "The page",
       "hand-of-god",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -26871,7 +26971,8 @@
       "The page",
       "hardclaw",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -26960,7 +27061,8 @@
       "The page",
       "hatchet-man",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -26970,7 +27072,8 @@
       "Have a Ball",
       "Batters the enemy with a breath-taking barrage of balls.",
       "MP Cost:",
-      "8"
+      "8",
+      "ability"
     ],
     "Links": {}
   },
@@ -27006,7 +27109,8 @@
       "Heal",
       "Restores at least 30 HP to a single ally.",
       "MP Cost:",
-      "2"
+      "2",
+      "spell"
     ],
     "Links": {}
   },
@@ -27037,7 +27141,8 @@
       "The page",
       "heart-breaker",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -27298,7 +27403,8 @@
     "Path": "helm-splitter",
     "Text": [
       "Helm Splitter",
-      "Lowers an opponent's defence as it inflicts damage."
+      "Lowers an opponent's defence as it inflicts damage.",
+      "ability"
     ],
     "Links": {}
   },
@@ -27737,7 +27843,8 @@
       "The page",
       "hit-the-hay",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -27893,7 +28000,8 @@
       "The page",
       "holy-impregnable",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -28072,7 +28180,8 @@
       "Classification:",
       "Accessory",
       "Where to find:",
-      "Reward for revocating as Thief"
+      "Reward for revocating as Thief",
+      "accessories"
     ],
     "Links": {}
   },
@@ -28188,7 +28297,8 @@
       "Crimson coral",
       "x2",
       "Alchemises:",
-      "Sizzling bikini top"
+      "Sizzling bikini top",
+      "torso"
     ],
     "Links": {
       "/crimson-coral": "Crimson coral",
@@ -28203,7 +28313,8 @@
       "Hot Lick",
       "Sends forth jets of flame to attack a single enemy.",
       "MP Cost:",
-      "2"
+      "2",
+      "ability"
     ],
     "Links": {}
   },
@@ -28238,32 +28349,14 @@
       "/system:page-tags/tag/bow": "bow"
     }
   },
-  "/how-to-edit-pages": {
-    "Path": "how-to-edit-pages",
-    "Text": [
-      "How To Edit Pages - Quickstart",
-      "If you are allowed to edit pages in this Site, simply click on",
-      "edit",
-      "button at the bottom of the page. This will open an editor.",
-      "To create a link to a new page, use syntax:",
-      "[[[new page name]]]",
-      "or",
-      "[[[new page name | text to display]]]",
-      ". Follow the link to create a new page and instantly edit it!",
-      "Creating and editing pages is easy and there are many options that let you to create powerful sites!",
-      "Please visit",
-      "Documentation pages",
-      "to learn more."
-    ],
-    "Links": {}
-  },
   "/hp-hoover": {
     "Path": "hp-hoover",
     "Text": [
       "The page",
       "hp-hoover",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -28287,7 +28380,8 @@
       "Grim grinner",
       "Corrupt carter",
       "Claws",
-      "Flamin' drayman"
+      "Flamin' drayman",
+      "monster-family"
     ],
     "Links": {
       "/bodkin-archer": "Bodkin archer",
@@ -28407,7 +28501,8 @@
       "Hustle Dance",
       "Restores at least 70 HP to all party members when used.",
       "MP Cost:",
-      "0"
+      "0",
+      "ability"
     ],
     "Links": {}
   },
@@ -28492,7 +28587,8 @@
       "Hypnowhip",
       "A loopy lash that sometimes confuses an enemy.",
       "MP Cost:",
-      "3"
+      "3",
+      "ability"
     ],
     "Links": {}
   },
@@ -28710,7 +28806,8 @@
       "The page",
       "iluugazar-plains",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "location"
     ],
     "Links": {}
   },
@@ -28720,7 +28817,8 @@
       "Immense Defence",
       "A defensive stance that boosts shield effectiveness a lot.",
       "MP Cost:",
-      "4"
+      "4",
+      "ability"
     ],
     "Links": {}
   },
@@ -28826,7 +28924,8 @@
       "The page",
       "inferno",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -28926,7 +29025,8 @@
       "Insulate",
       "Protects a party member from breath-based attacks.",
       "MP cost:",
-      "4"
+      "4",
+      "spell"
     ],
     "Links": {}
   },
@@ -30110,7 +30210,8 @@
       "Khaalag Coast",
       "resurrock",
       "rockbomb shard",
-      "flintstone"
+      "flintstone",
+      "misc"
     ],
     "Links": {
       "/antidotal-herb": "antidotal herb",
@@ -30313,7 +30414,8 @@
       "Kaboom",
       "Blasts all enemies with a violent explosion.",
       "MP Cost:",
-      "28"
+      "28",
+      "spell"
     ],
     "Links": {}
   },
@@ -30323,7 +30425,8 @@
       "Kabuff",
       "Raises the defence of all party members.",
       "MP Cost:",
-      "6"
+      "6",
+      "spell"
     ],
     "Links": {}
   },
@@ -30333,7 +30436,8 @@
       "Kacrack",
       "Lacerates all enemies with a raw volley of rasping ice.",
       "MP Cost:",
-      "24"
+      "24",
+      "spell"
     ],
     "Links": {}
   },
@@ -30343,7 +30447,8 @@
       "Kacrackle",
       "Tears into all enemies with giant shards of ice.",
       "MP Cost:",
-      "50"
+      "50",
+      "spell"
     ],
     "Links": {}
   },
@@ -30353,7 +30458,8 @@
       "The page",
       "kacrackle-slash",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -30363,7 +30469,8 @@
       "Kafrizz",
       "Incinerates a single enemy with an enormous fireball.",
       "MP Cost:",
-      "18"
+      "18",
+      "spell"
     ],
     "Links": {}
   },
@@ -30373,7 +30480,8 @@
       "Kafrizzle",
       "Cremates a single enemy with an enormous fireball.",
       "MP Cost:",
-      "45"
+      "45",
+      "spell"
     ],
     "Links": {}
   },
@@ -30383,7 +30491,8 @@
       "Kafuddle",
       "Sends all enemies into a state of confusion.",
       "MP Cost:",
-      "10"
+      "10",
+      "spell"
     ],
     "Links": {}
   },
@@ -30425,7 +30534,8 @@
       "Kamikazee",
       "Sacrifices the caster's life to destroy all enemies.",
       "MP Cost:",
-      "1"
+      "1",
+      "spell"
     ],
     "Links": {}
   },
@@ -30435,7 +30545,8 @@
       "Kasap",
       "Reduces the defence of a group of enemies.",
       "MP Cost:",
-      "8"
+      "8",
+      "spell"
     ],
     "Links": {}
   },
@@ -30445,7 +30556,8 @@
       "Kasnooze",
       "Sends all enemies into a deep sleep.",
       "MP Cost:",
-      "8"
+      "8",
+      "spell"
     ],
     "Links": {}
   },
@@ -30455,7 +30567,8 @@
       "Kaswoosh",
       "Slices a group of enemies with a ferocious whirlwind.",
       "MP Cost:",
-      "26"
+      "26",
+      "spell"
     ],
     "Links": {}
   },
@@ -30465,7 +30578,8 @@
       "The page",
       "kazing",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "spell"
     ],
     "Links": {}
   },
@@ -30492,7 +30606,8 @@
       "The page",
       "kerfrizz",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "spell"
     ],
     "Links": {}
   },
@@ -30502,7 +30617,8 @@
       "The page",
       "kerplunk",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "spell"
     ],
     "Links": {}
   },
@@ -30512,7 +30628,8 @@
       "The page",
       "kerplunk-dance",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -30569,7 +30686,8 @@
       "Classification:",
       "Torso",
       "Where to find:",
-      "Received from Kiefer at Quester's Rest after speaking to him"
+      "Received from Kiefer at Quester's Rest after speaking to him",
+      "torso"
     ],
     "Links": {}
   },
@@ -31050,7 +31168,8 @@
       "Where to find:",
       "Received from Kiryl at Quester's Rest after inn is fully expanded",
       "Can be used for:",
-      "012 Putting on the Glitz"
+      "012 Putting on the Glitz",
+      "legs"
     ],
     "Links": {
       "/012-putting-on-the-glitz": "012 Putting on the Glitz"
@@ -31190,7 +31309,8 @@
       "88",
       "HP Hoover",
       "100",
-      "Omnivocational Knifemaster"
+      "Omnivocational Knifemaster",
+      "skill-tree"
     ],
     "Links": {
       "/assassin-s-stab": "Assassin's Stab",
@@ -31283,7 +31403,8 @@
       "The page",
       "knuckle-sandwich",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -31443,7 +31564,8 @@
     "Path": "lashings-of-love",
     "Text": [
       "Lashings of Love",
-      "Group attack that deals heavy damage to humanoids."
+      "Group attack that deals heavy damage to humanoids.",
+      "ability"
     ],
     "Links": {}
   },
@@ -33172,7 +33294,8 @@
       "Killing machine",
       "AU-1000",
       "Void droid",
-      "Trauminator"
+      "Trauminator",
+      "monster-family"
     ],
     "Links": {
       "/au-1000": "AU-1000",
@@ -34915,7 +35038,8 @@
       "Raving reaper",
       "Harmour",
       "Alarmour",
-      "Grim reaper"
+      "Grim reaper",
+      "monster-family"
     ],
     "Links": {
       "/alarmour": "Alarmour",
@@ -40497,7 +40621,8 @@
       "Bud brother",
       "Treeface",
       "Scourgette",
-      "Treevil"
+      "Treevil",
+      "monster-family"
     ],
     "Links": {
       "/bud-brother": "Bud brother",
@@ -48393,7 +48518,8 @@
       "Liquid metal slime",
       "Cureslime",
       "King cureslime",
-      "Gem jamboree"
+      "Gem jamboree",
+      "monster-family"
     ],
     "Links": {
       "/bubble-slime": "Bubble slime",
@@ -59106,7 +59232,8 @@
       "Blood mummy",
       "Stenchurion",
       "Dark skeleton",
-      "Fright knight"
+      "Fright knight",
+      "monster-family"
     ],
     "Links": {
       "/blight-knight": "Blight knight",

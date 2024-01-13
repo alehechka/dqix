@@ -1208,6 +1208,36 @@
    "Wormwood Creek (armour shop)"
   ]
  },
+ "kiryl-s-trousers": {
+  "id": "kiryl-s-trousers",
+  "title": "Kiryl's Trousers",
+  "description": "White legwear once worn by Bishop Kiryl.",
+  "statistics": {
+   "defense": 15,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs",
+  "canBeUsedFor": [
+   "012-putting-on-the-glitz"
+  ]
+ },
  "leather-kilt": {
   "id": "leather-kilt",
   "title": "Leather Kilt",

@@ -132,6 +132,34 @@
    "leery-lout": "(1/128)"
   }
  },
+ "catty-shield": {
+  "id": "catty-shield",
+  "title": "Catty Shield",
+  "description": "A pretty but practical piece of protection with a purrculiar design.",
+  "statistics": {
+   "defense": 13,
+   "blockChance": 2.5,
+   "special": {}
+  },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "minstrel",
+   "paladin",
+   "armamentalist",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "shield",
+  "recipe": {
+   "kitty-litter": 2,
+   "kitty-shield": 1
+  }
+ },
  "dark-shield": {
   "id": "dark-shield",
   "title": "Dark Shield",

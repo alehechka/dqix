@@ -88,6 +88,36 @@
   "category": "armor",
   "classification": "torso"
  },
+ "aliahan-clothes": {
+  "id": "aliahan-clothes",
+  "title": "Aliahan Clothes",
+  "description": "A supple suit supposedly sported by a legendary hero.",
+  "statistics": {
+   "defense": 58,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "droppedBy": {
+   "baramos": "(lv. 9–15: 20%)"
+  }
+ },
  "angel-s-robe": {
   "id": "angel-s-robe",
   "title": "Angel's Robe",
@@ -1364,6 +1394,36 @@
   "category": "armor",
   "classification": "torso"
  },
+ "estard-clothes": {
+  "id": "estard-clothes",
+  "title": "Estard Clothes",
+  "description": "Commonplace clothing that can be purchased in Estard.",
+  "statistics": {
+   "defense": 50,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "droppedBy": {
+   "orgodemir": "(lv. 81–90: 20%; lv. 91–99: 25%)"
+  }
+ },
  "ethereal-armour": {
   "id": "ethereal-armour",
   "title": "Ethereal Armour",
@@ -2132,6 +2192,43 @@
    "mythril-ore": 1
   }
  },
+ "hot-bikini-top": {
+  "id": "hot-bikini-top",
+  "title": "Hot Bikini Top",
+  "description": "Waterwear that works well against fire and lightning attacks.",
+  "statistics": {
+   "defense": 34,
+   "special": {
+    "effect": "Resists 10% damage from Fire and Lightning"
+   }
+  },
+  "rarity": 2,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "recipe": {
+   "crimson-coral": 2,
+   "dangerous-bikini-top": 1,
+   "seashell": 3
+  },
+  "ingredientFor": [
+   "sizzling-bikini-top"
+  ]
+ },
  "iron-armour": {
   "id": "iron-armour",
   "title": "Iron Armour",
@@ -2286,6 +2383,33 @@
   "locationsFound": [
    "Reward for 18 mini medals (cumulative)"
   ]
+ },
+ "kiefer-s-clothes": {
+  "id": "kiefer-s-clothes",
+  "title": "Kiefer's Clothes",
+  "description": "A scarlet suit once worn by Prince Kiefer.",
+  "statistics": {
+   "defense": 35,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso"
  },
  "king-s-coat": {
   "id": "king-s-coat",
