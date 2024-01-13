@@ -1,4 +1,16 @@
 {
+ "angel-falls-badge": {
+  "id": "angel-falls-badge",
+  "title": "Angel Falls Badge",
+  "description": "A mark o' Marco having travelled to Angel Falls.",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 1,
+  "type": "bag",
+  "category": "items",
+  "classification": "important"
+ },
  "angel-s-tears": {
   "id": "angel-s-tears",
   "title": "Angel's Tears",
@@ -186,6 +198,18 @@
   "id": "crown-jewel",
   "title": "Crown Jewel",
   "description": "A giant gem that gleams gloriously.",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 1,
+  "type": "bag",
+  "category": "items",
+  "classification": "important"
+ },
+ "crumpled-letter": {
+  "id": "crumpled-letter",
+  "title": "Crumpled Letter",
+  "description": "A message meant for the boy Bryson from Porth Llaffan.",
   "statistics": {
    "special": {}
   },
