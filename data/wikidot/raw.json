@@ -5012,7 +5012,8 @@
       "Accelerate",
       "Raises the agility of a single party member.",
       "MP Cost:",
-      "2"
+      "2",
+      "spell"
     ],
     "Links": {}
   },
@@ -5022,7 +5023,8 @@
       "Acceleratle",
       "Raises the agility of all party members.",
       "MP Cost:",
-      "4"
+      "4",
+      "spell"
     ],
     "Links": {}
   },
@@ -5084,7 +5086,8 @@
       "82",
       "Natural Agility +40",
       "100",
-      "Treasure Eye Land"
+      "Treasure Eye Land",
+      "skill-tree"
     ],
     "Links": {
       "/eye-for-trouble": "Eye for Trouble",
@@ -5121,11 +5124,6 @@
       "/012-putting-on-the-glitz": "012 Putting on the Glitz",
       "/system:page-tags/tag/feet": "feet"
     }
-  },
-  "/admin:manage": {
-    "Path": "admin:manage",
-    "Text": [],
-    "Links": {}
   },
   "/admirer": {
     "Path": "admirer",
@@ -5543,7 +5541,8 @@
     "Path": "agility",
     "Text": [
       "Agility",
-      "The speed of the character's actions. Affects the order in which characters attack in battle."
+      "The speed of the character's actions. Affects the order in which characters attack in battle.",
+      "attribute"
     ],
     "Links": {}
   },
@@ -5987,7 +5986,8 @@
       "Finessence",
       "Mystifying mixture",
       "Sage's stone",
-      "Aggressence"
+      "Aggressence",
+      "misc"
     ],
     "Links": {
       "/ace-of-clubs": "Ace of clubs",
@@ -6540,7 +6540,8 @@
       "Baramos",
       "(lv. 9–15: 20%),",
       "Zoma",
-      "(lv. 57–68: 25%)"
+      "(lv. 57–68: 25%)",
+      "torso"
     ],
     "Links": {
       "/baramos": "Baramos",
@@ -6638,7 +6639,8 @@
       "Iron kneecaps",
       "Poison moth knife",
       "Iron shield",
-      "Springtime skirt"
+      "Springtime skirt",
+      "town"
     ],
     "Links": {
       "/antidotal-herb": "Antidotal herb",
@@ -6751,7 +6753,8 @@
       "Sandals",
       "Leather whip",
       "Wayfarer's clothes",
-      "Leather shoes"
+      "Leather shoes",
+      "town"
     ],
     "Links": {
       "/antidotal-herb": "Antidotal herb",
@@ -6785,7 +6788,8 @@
       "Important Item",
       "Where to find:",
       "Obtained during quest",
-      "064 Turn in Your Badges"
+      "064 Turn in Your Badges",
+      "important"
     ],
     "Links": {
       "/064-turn-in-your-badges": "064 Turn in Your Badges"
@@ -6953,7 +6957,8 @@
       "Antimagic",
       "Stops a single foe from casting spells.",
       "MP Cost:",
-      "3"
+      "3",
+      "spell"
     ],
     "Links": {}
   },
@@ -7388,7 +7393,8 @@
       "Sword Skill",
       "Wand Skill",
       "Shield Skill",
-      "Fource"
+      "Fource",
+      "vocation"
     ],
     "Links": {
       "/109-elementary-training": "Quest 109",
@@ -7600,7 +7606,8 @@
       "The page",
       "assassin-s-stab",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -7610,7 +7617,8 @@
       "The page",
       "assess-situation",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "misc"
     ],
     "Links": {}
   },
@@ -7740,7 +7748,8 @@
       "Attack",
       "/ 2 - Target's",
       "Defence",
-      "/ 4) ± 6.25%"
+      "/ 4) ± 6.25%",
+      "misc"
     ],
     "Links": {
       "/attack-attribute": "Attack",
@@ -7753,7 +7762,8 @@
       "Attack Attacker",
       "Attacks an enemy and turns down their attack power too.",
       "MP Cost:",
-      "4"
+      "4",
+      "ability"
     ],
     "Links": {}
   },
@@ -7764,7 +7774,8 @@
       "For the move, see",
       "Attack",
       ".",
-      "The sum of the character's strength, that of their weapon, and any relevant skill bonuses. Affects the amount of damage the character inflicts."
+      "The sum of the character's strength, that of their weapon, and any relevant skill bonuses. Affects the amount of damage the character inflicts.",
+      "attribute"
     ],
     "Links": {
       "/attack": "Attack"
@@ -7808,7 +7819,8 @@
       "Max. MP",
       "Attack",
       "Defense",
-      "Style"
+      "Style",
+      "misc"
     ],
     "Links": {
       "/agility": "Agility",
@@ -8019,7 +8031,8 @@
       "88",
       "Axes of Evil",
       "100",
-      "Omnivocational Axemaster"
+      "Omnivocational Axemaster",
+      "skill-tree"
     ],
     "Links": {
       "/axes-of-evil": "Axes of Evil",
@@ -8035,7 +8048,8 @@
       "The page",
       "axes-of-evil",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -38400,59 +38414,6 @@
       "/tyrannosaurus-wrecks": "Tyrannosaurus Wrecks"
     }
   },
-  "/nav:side": {
-    "Path": "nav:side",
-    "Text": [
-      "Side",
-      "Home",
-      "Monster List",
-      "Quests",
-      "Item Farming",
-      "Shops",
-      "Alchemy",
-      "Vocations",
-      "How to join this site?",
-      "Site members",
-      "Recent changes",
-      "List all pages",
-      "Page Tags",
-      "Site Manager",
-      "Page tags",
-      "Add a new page",
-      "edit this panel"
-    ],
-    "Links": {
-      "/admin:manage": "Site Manager",
-      "/alchemy": "Alchemy",
-      "/item-farming": "Item Farming",
-      "/monster-list": "Monster List",
-      "/nav:side": "edit this panel",
-      "/quests": "Quests",
-      "/shops": "Shops",
-      "/start": "Home",
-      "/system:join": "How to join this site?",
-      "/system:list-all-pages": "List all pages",
-      "/system:members": "Site members",
-      "/system:page-tags-list": "Page Tags",
-      "/system:recent-changes": "Recent changes",
-      "/vocations": "Vocations"
-    }
-  },
-  "/nav:top": {
-    "Path": "nav:top",
-    "Text": [
-      "Top Bar Menu",
-      "example menu",
-      "example item 1",
-      "example item 2",
-      "contact"
-    ],
-    "Links": {
-      "/contact": "contact",
-      "/example-item-1": "example item 1",
-      "/example-item-2": "example item 2"
-    }
-  },
   "/nebula-sword": {
     "Path": "nebula-sword",
     "Text": [
@@ -46034,14 +45995,6 @@
     "Links": {
       "/system:page-tags/tag/legs": "legs"
     }
-  },
-  "/search:site": {
-    "Path": "search:site",
-    "Text": [
-      "Search the site",
-      "Search is temporarily unavailable, we are working to bring it online!"
-    ],
-    "Links": {}
   },
   "/seasaur": {
     "Path": "seasaur",
