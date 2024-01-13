@@ -114,7 +114,7 @@ func (a *app) loadInventory(basePath string) error {
 
 		for _, inventory := range classMap {
 			a.data.inventoryMap.AddInventory(inventory)
-			a.data.dataMap[inventory.ID] = inventory.ToDataKey()
+			a.data.dataMap[inventory.GetID()] = inventory.ToDataKey()
 		}
 
 		return nil

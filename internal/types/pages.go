@@ -9,7 +9,6 @@ type PageContent struct {
 type Pages map[string]PageContent
 
 type DataKey struct {
-	ID             string
 	Structure      string
 	Type           string
 	Category       string
@@ -19,7 +18,7 @@ type DataKey struct {
 }
 
 func (d DataKey) GetID() string {
-	return d.ID
+	return TitleToID(d.Title)
 }
 
 func (d DataKey) GetTitle() string {

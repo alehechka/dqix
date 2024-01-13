@@ -30,7 +30,7 @@ templ InventoryContentWithSideNav(params InventoryParams) {
 templ InventoryContent(params InventoryParams) {
 	<div hx-boost="true" hx-target="#page-content">
 		<div class="flex flex-row items-center">
-			<img src={ params.Inventory.ImageSrc() } alt={ params.Inventory.ID }/>
+			<img src={ params.Inventory.ImageSrc() } alt={ params.Inventory.GetID() }/>
 			<h1 id="title" class="text-3xl font-bold">
 				{ params.Inventory.Title }
 			</h1>
