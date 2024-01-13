@@ -223,21 +223,21 @@ type Statistics struct {
 	MaxMP            int     `json:"maxMP,omitempty"`
 	Deftness         int     `json:"deftness,omitempty"`
 	Charm            int     `json:"charm,omitempty"`
-	Special          Special `json:"special,omitempty"`
+	Special          Special `json:"special,omitempty" gorm:"embedded"`
 }
 
 type Inventory struct {
-	ID             string            `json:"id,omitempty"`
+	ID             string            `json:"id,omitempty" gorm:"primaryKey,index:path_idx"`
 	Title          string            `json:"title,omitempty"`
 	Description    string            `json:"description,omitempty"`
-	Statistics     Statistics        `json:"statistics,omitempty"`
+	Statistics     Statistics        `json:"statistics,omitempty" gorm:"embedded"`
 	Rarity         int               `json:"rarity,omitempty"`
 	BuyPrice       int               `json:"buyPrice,omitempty"`
 	SellPrice      int               `json:"sellPrice,omitempty"`
 	Vocations      []string          `json:"vocations,omitempty"`
-	Type           string            `json:"type,omitempty"` // Type can either be `item` or `equipment`
-	Category       string            `json:"category,omitempty"`
-	Classification string            `json:"classification,omitempty"`
+	Type           string            `json:"type,omitempty" gorm:"index:path_idx"` // Type can either be `item` or `equipment`
+	Category       string            `json:"category,omitempty" gorm:"index:path_idx"`
+	Classification string            `json:"classification,omitempty" gorm:"index:path_idx"`
 	Recipe         map[string]int    `json:"recipe,omitempty"`         // Recipe is a map of ingredients used to alchemize the inventory where the keys are inventory IDs and the values are the number of that inventory needed
 	LocationsFound []string          `json:"locationsFound,omitempty"` // LocationsFound represents the locations the Inventory can be found
 	DroppedBy      map[string]string `json:"droppedBy,omitempty"`      // DroppedBy is a map of monsters that drop the inventory where the keys are monster IDs and the values are the denominator (x) in the fraction 1/x representing the drop chance

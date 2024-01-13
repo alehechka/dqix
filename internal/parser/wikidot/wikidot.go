@@ -7,10 +7,14 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
+
+	"github.com/glebarez/sqlite"
+	"gorm.io/gorm"
 )
 
 type WikidotParser struct {
 	config       *parser.Config
+	db           *gorm.DB
 	pages        types.Pages
 	inventoryMap types.InventoryMap
 }
@@ -24,6 +28,10 @@ func Init(config *parser.Config) parser.Parser {
 
 func (p WikidotParser) Parse() (err error) {
 	if err := p.ReadInputFile(); err != nil {
+		return err
+	}
+
+	if err := p.initDatabase(); err != nil {
 		return err
 	}
 
@@ -56,4 +64,30 @@ func (p *WikidotParser) ReadInputFile() (err error) {
 	}
 
 	return json.Unmarshal(raw, &p.pages)
+}
+
+func (p *WikidotParser) initDatabase() (err error) {
+	if _, err := os.Stat(p.config.DatabaseFileName); err == nil {
+		if err := os.Remove(p.config.DatabaseFileName); err != nil {
+			return err
+		}
+	}
+
+	if err := os.MkdirAll(strings.TrimSuffix(p.config.DatabaseFileName, filepath.Base(p.config.DatabaseFileName)), os.ModePerm); err != nil {
+		return err
+	}
+
+	if _, err := os.Create(p.config.DatabaseFileName); err != nil {
+		return err
+	}
+
+	if p.db, err = gorm.Open(sqlite.Open(p.config.DatabaseFileName), &gorm.Config{}); err != nil {
+		return err
+	}
+
+	if err := p.db.AutoMigrate(&types.Inventory{}); err != nil {
+		return err
+	}
+
+	return nil
 }

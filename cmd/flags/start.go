@@ -7,6 +7,7 @@ import (
 var StartFlags = []cli.Flag{
 	FlagPort,
 	FlagDataPath,
+	FlagDatabaseFile,
 }
 
 // ArgPort is the CLI argument for the port to listen on
@@ -26,4 +27,12 @@ var FlagDataPath = &cli.StringFlag{
 	Name:  ArgDataPath,
 	Usage: "Specifies the base path to the data folder to read into memory",
 	Value: "./web/data",
+}
+
+const ArgDatabaseFile string = "db"
+
+var FlagDatabaseFile = &cli.StringFlag{
+	Name:  ArgDatabaseFile,
+	Usage: "Specifies the file to use as a SQLite database",
+	Value: "./web/static/data/sqlite.db",
 }

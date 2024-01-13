@@ -5,6 +5,7 @@ import "github.com/urfave/cli/v2"
 var ParseWikidotFlags = []cli.Flag{
 	FlagWikidotPath,
 	FlagInputDataFileName,
+	FlagDatabaseFile,
 }
 
 const ArgWikidotPath string = "wikidot-path"

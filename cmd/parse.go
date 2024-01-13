@@ -10,8 +10,9 @@ import (
 
 func parseWikidot(ctx *cli.Context) (err error) {
 	return wikidot.Init(&parser.Config{
-		Path:          ctx.String(flags.ArgWikidotPath),
-		InputFileName: ctx.String(flags.ArgInputDataFileName),
+		Path:             ctx.String(flags.ArgWikidotPath),
+		InputFileName:    ctx.String(flags.ArgInputDataFileName),
+		DatabaseFileName: ctx.String(flags.ArgDatabaseFile),
 	}).Parse()
 }
 

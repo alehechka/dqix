@@ -9,3 +9,6 @@ templ:
 
 css:
 	npm run watch:css
+
+parse:
+	go run main.go parse wikidot
