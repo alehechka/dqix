@@ -114,7 +114,7 @@ func (p PageContent) ParseMonster() (monster Monster) {
 		case "Items dropped:":
 			monster.ItemsDropped = make(map[string]string)
 			for i++; i < lastIndex; i += 2 {
-				item := p.Text[i]
+				item := TitleToID(p.Text[i])
 				chance := p.Text[i+1]
 				monster.ItemsDropped[item] = chance
 
@@ -155,7 +155,7 @@ func (p PageContent) ParseMonster() (monster Monster) {
 				continue
 			}
 			for i++; i < lastIndex; i += 2 {
-				ability := p.Text[i]
+				ability := TitleToID(p.Text[i])
 				chance, _ := strconv.Atoi(strings.TrimPrefix(strings.TrimSuffix(p.Text[i+1], "%)"), "("))
 				monster.BattleInfo.EnragedBy[ability] = chance
 
