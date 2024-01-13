@@ -46,7 +46,11 @@ func (p WikidotParser) Parse() (err error) {
 		}
 	}
 
-	return p.inventoryMap.WriteJSON(filepath.Join(p.config.Path, "inventory"))
+	if err := os.RemoveAll(p.config.OutputDirectory); err != nil {
+		return err
+	}
+
+	return p.inventoryMap.WriteJSON(filepath.Join(p.config.OutputDirectory, "inventory"))
 }
 
 func (p *WikidotParser) ReadInputFile() (err error) {
