@@ -4049,6 +4049,41 @@
    "Wormwood Creek (armour shop)"
   ]
  },
+ "silk-bustier": {
+  "id": "silk-bustier",
+  "title": "Silk Bustier",
+  "description": "A superior and oh-so-soft bodice made of silk.",
+  "statistics": {
+   "defense": 34,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "torso",
+  "recipe": {
+   "dangerous-bustier": 1,
+   "silk-robe": 3,
+   "tangleweb": 7
+  },
+  "ingredientFor": [
+   "divine-bustier"
+  ]
+ },
  "silk-robe": {
   "id": "silk-robe",
   "title": "Silk Robe",

@@ -1446,6 +1446,33 @@
    "Gleeba (armour shop)"
   ]
  },
+ "passion-tights": {
+  "id": "passion-tights",
+  "title": "PASSION Tights",
+  "description": "Multo masculine hosiery of Morrie's that hugs his handsome haunches.",
+  "statistics": {
+   "defense": 12,
+   "special": {}
+  },
+  "rarity": 3,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "legs"
+ },
  "pirate-pantaloons": {
   "id": "pirate-pantaloons",
   "title": "Pirate Pantaloons",

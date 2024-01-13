@@ -13071,7 +13071,7 @@
       "/rousing-ring": "Rousing ring",
       "/sober-ring": "Sober ring",
       "/system:page-tags/tag/accessory": "accessory",
-      "/thingy-king-of-er": "Thingy, King of, er..."
+      "/143-thingy-king-of-er": "143 Thingy, King of, er..."
     }
   },
   "/catoptric-armour": {
@@ -22700,7 +22700,8 @@
       "Frizz",
       "Singes a single enemy with a small fireball.",
       "MP Cost:",
-      "2"
+      "2",
+      "spell"
     ],
     "Links": {}
   },
@@ -22710,7 +22711,8 @@
       "Frizzle",
       "Burns a single enemy with a large fireball.",
       "MP Cost:",
-      "6"
+      "6",
+      "spell"
     ],
     "Links": {}
   },
@@ -26105,7 +26107,7 @@
       "Classification:",
       "Hammer",
       "How to make:",
-      "Moonsmasher",
+      "Moonmasher",
       "x1 +",
       "Reset stone",
       "x1",
@@ -26117,7 +26119,7 @@
     ],
     "Links": {
       "/earthsplitter": "Earthsplitter",
-      "/moonsmasher": "Moonsmasher",
+      "/moonmasher": "Moonmasher",
       "/reset-stone": "Reset stone",
       "/system:page-tags/tag/hammer": "hammer"
     }
@@ -32155,7 +32157,8 @@
       "The page",
       "lick-face",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -32204,7 +32207,8 @@
       "The page",
       "life-fource",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -32463,7 +32467,8 @@
       "The page",
       "lightning-storm",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -32778,7 +32783,8 @@
       "82",
       "Have a Ball",
       "100",
-      "Natural Deftness +50"
+      "Natural Deftness +50",
+      "skill-tree"
     ],
     "Links": {
       "/have-a-ball": "Have a Ball",
@@ -33104,7 +33110,8 @@
       "The page",
       "luminary",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "vocation"
     ],
     "Links": {}
   },
@@ -33245,7 +33252,7 @@
   },
   "/m-pathy": {
     "Path": "m-pathy",
-    "Text": ["M-Pathy", "Donate some MP to a fellow party member."],
+    "Text": ["M-Pathy", "Donate some MP to a fellow party member.", "ability"],
     "Links": {}
   },
   "/macabre-mantle": {
@@ -33423,7 +33430,8 @@
       "Shield Skill",
       "Spellcraft",
       "Revocation Item",
-      "Mager Achievement"
+      "Mager Achievement",
+      "vocation"
     ],
     "Links": {
       "/acceleratle": "Acceleratle",
@@ -33551,7 +33559,8 @@
       "Magic Barrier",
       "Protects the whole party from attack spells.",
       "MP Cost:",
-      "6"
+      "6",
+      "spell"
     ],
     "Links": {}
   },
@@ -33748,7 +33757,8 @@
       "The page",
       "magic-mirror",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -33913,7 +33923,7 @@
       "/sage-s-elixir": "Sage's elixir",
       "/slurry-quay": "Slurry Quay",
       "/staff-of-sentencing": "Staff of sentencing",
-      "/swindimples-academy": "Swindimples Academy",
+      "/swinedimples-academy": "Swinedimples Academy",
       "/system:page-tags/tag/item": "item",
       "/upover": "Upover",
       "/wormwood-creek": "Wormwood Creek"
@@ -33979,7 +33989,8 @@
     "Path": "magical-mending",
     "Text": [
       "Magical Mending",
-      "Dictates how powerful the character's healing spells will be."
+      "Dictates how powerful the character's healing spells will be.",
+      "attribute"
     ],
     "Links": {}
   },
@@ -33987,7 +33998,8 @@
     "Path": "magical-might",
     "Text": [
       "Magical Might",
-      "Dictates how powerful the character’s attack spells will be."
+      "Dictates how powerful the character’s attack spells will be.",
+      "attribute"
     ],
     "Links": {}
   },
@@ -34337,7 +34349,8 @@
       "The page",
       "malevolent-darkness",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -34861,7 +34874,8 @@
       "Staff Skill",
       "Fan Skill",
       "Fisticuffs Skill",
-      "Focus"
+      "Focus",
+      "vocation"
     ],
     "Links": {
       "/claw-skill": "Claw Skill",
@@ -35082,14 +35096,19 @@
   },
   "/max-hp": {
     "Path": "max-hp",
-    "Text": ["Max Hp", "The character's maximum amount of physical stamina."],
+    "Text": [
+      "Max Hp",
+      "The character's maximum amount of physical stamina.",
+      "attribute"
+    ],
     "Links": {}
   },
   "/max-mp": {
     "Path": "max-mp",
     "Text": [
       "Max Mp",
-      "The character's maximum amount of magical power, which is used for casting spells and performing some abilities."
+      "The character's maximum amount of magical power, which is used for casting spells and performing some abilities.",
+      "attribute"
     ],
     "Links": {}
   },
@@ -35491,7 +35510,8 @@
       "Meditation",
       "Focuses the mind to restore at least 80 HP.",
       "MP Cost:",
-      "3"
+      "3",
+      "ability"
     ],
     "Links": {}
   },
@@ -35757,7 +35777,8 @@
       "Mens Sana",
       "Purges the user of all negative status effects.",
       "MP Cost:",
-      "2"
+      "2",
+      "ability"
     ],
     "Links": {}
   },
@@ -35860,7 +35881,8 @@
     "Path": "mercurial-thrust",
     "Text": [
       "Mercurial Thrust",
-      "Strikes an enemy before anyone else can act."
+      "Strikes an enemy before anyone else can act.",
+      "ability"
     ],
     "Links": {}
   },
@@ -35930,7 +35952,7 @@
   },
   "/mercy": {
     "Path": "mercy",
-    "Text": ["Mercy", "Gives weak enemies a chance to escape."],
+    "Text": ["Mercy", "Gives weak enemies a chance to escape.", "ability"],
     "Links": {}
   },
   "/mesotoga": {
@@ -36240,7 +36262,8 @@
     "Path": "metal-slash",
     "Text": [
       "Metal Slash",
-      "An attack that can damage enemies with metal bodies."
+      "An attack that can damage enemies with metal bodies.",
+      "ability"
     ],
     "Links": {}
   },
@@ -36493,7 +36516,8 @@
       "The page",
       "metalicker",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -36704,7 +36728,8 @@
       "Midheal",
       "Restores at least 75 HP to a single ally.",
       "MP Cost:",
-      "4"
+      "4",
+      "spell"
     ],
     "Links": {}
   },
@@ -36899,7 +36924,8 @@
       "Mind Over Matter",
       "Uses the power of the mind to protect against breath attacks.",
       "MP Cost:",
-      "1"
+      "1",
+      "ability"
     ],
     "Links": {}
   },
@@ -37086,7 +37112,8 @@
       "Whip Skill",
       "Fan Skill",
       "Shield Skill",
-      "Litheness"
+      "Litheness",
+      "vocation"
     ],
     "Links": {
       "/crack": "Crack",
@@ -37134,7 +37161,8 @@
       "The page",
       "miracle-moon",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -37144,7 +37172,8 @@
       "Miracle Slash",
       "Heals the user's own wounds when it hits.",
       "MP Cost:",
-      "4"
+      "4",
+      "ability"
     ],
     "Links": {}
   },
@@ -37277,7 +37306,8 @@
       "The page",
       "mist-me",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -37521,7 +37551,8 @@
       "Elemental Family",
       "Humanoid Family",
       "Aquatic Family",
-      "??? Family"
+      "??? Family",
+      "misc"
     ],
     "Links": {
       "/aquatic-family": "Aquatic Family",
@@ -37546,7 +37577,8 @@
       "The page",
       "monster-masher",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -37696,16 +37728,6 @@
       "/yellow-orb": "Yellow orb"
     }
   },
-  "/moonsmasher": {
-    "Path": "moonsmasher",
-    "Text": [
-      "The page",
-      "moonsmasher",
-      "you want to access does not exist.",
-      "Create page"
-    ],
-    "Links": {}
-  },
   "/moonwort-bulb": {
     "Path": "moonwort-bulb",
     "Text": [
@@ -37811,7 +37833,8 @@
       "Morale Masher",
       "Attacks an enemy and turns down their tension too.",
       "MP Cost:",
-      "3"
+      "3",
+      "ability"
     ],
     "Links": {}
   },
@@ -37821,7 +37844,8 @@
       "Moreheal",
       "Restores at least 165 HP to a single ally.",
       "MP Cost:",
-      "8"
+      "8",
+      "spell"
     ],
     "Links": {}
   },
@@ -38017,7 +38041,8 @@
       "The page",
       "multifists",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -38027,7 +38052,8 @@
       "Multiheal",
       "Restores at least 100 HP to all party members.",
       "MP Cost:",
-      "16"
+      "16",
+      "spell"
     ],
     "Links": {}
   },
@@ -38037,7 +38063,8 @@
       "The page",
       "multithrust",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -38616,7 +38643,8 @@
       "The page",
       "needle-shot",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -39154,7 +39182,11 @@
   },
   "/nose-for-treasure": {
     "Path": "nose-for-treasure",
-    "Text": ["Nose For Treasure", "Reports the number of nearby treasures."],
+    "Text": [
+      "Nose For Treasure",
+      "Reports the number of nearby treasures.",
+      "ability"
+    ],
     "Links": {}
   },
   "/oak-staff": {
@@ -39388,7 +39420,7 @@
   },
   "/omniheal": {
     "Path": "omniheal",
-    "Text": ["Omniheal", "Fully heals all allies.", "MP Cost:", "128"],
+    "Text": ["Omniheal", "Fully heals all allies.", "MP Cost:", "128", "spell"],
     "Links": {}
   },
   "/oomph": {
@@ -39397,13 +39429,18 @@
       "Oomph",
       "Increases the attack of a single party member.",
       "MP Cost:",
-      "8"
+      "8",
+      "spell"
     ],
     "Links": {}
   },
   "/ooze-bruiser": {
     "Path": "ooze-bruiser",
-    "Text": ["Ooze Bruiser", "An attack that deals serious damage to slimes."],
+    "Text": [
+      "Ooze Bruiser",
+      "An attack that deals serious damage to slimes.",
+      "ability"
+    ],
     "Links": {}
   },
   "/optimistick": {
@@ -39454,7 +39491,8 @@
       "Classification:",
       "Accessory",
       "Where to find:",
-      "Reward for revocating as Paladin"
+      "Reward for revocating as Paladin",
+      "accessories"
     ],
     "Links": {}
   },
@@ -39811,7 +39849,8 @@
       "Spear Skill",
       "Wand Skill",
       "Shield Skill",
-      "Virtue"
+      "Virtue",
+      "vocation"
     ],
     "Links": {
       "/106-taking-soul-control": "Quest 106",
@@ -39843,7 +39882,8 @@
       "Where to find:",
       "Reward for quest",
       "108 Top-Flight Knight Fight",
-      "(one-time)"
+      "(one-time)",
+      "everyday"
     ],
     "Links": {
       "/108-top-flight-knight-fight": "108 Top-Flight Knight Fight",
@@ -40017,7 +40057,8 @@
       "Parallax",
       "A focused strike that can paralyse an enemy.",
       "MP Cost:",
-      "2"
+      "2",
+      "ability"
     ],
     "Links": {}
   },
@@ -40107,7 +40148,8 @@
       "The page",
       "party-pooper",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -40146,7 +40188,8 @@
       "Classification:",
       "Legs",
       "Where to find:",
-      "Received from Morrie at Quester's Rest after inn is fully expanded"
+      "Received from Morrie at Quester's Rest after inn is fully expanded",
+      "legs"
     ],
     "Links": {}
   },
@@ -40261,7 +40304,8 @@
       "The page",
       "penny-pincher",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -40333,7 +40377,8 @@
       "The page",
       "persecutter",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -40406,7 +40451,8 @@
     "Path": "pincushion",
     "Text": [
       "Pincushion",
-      "Sprouts protective spikes all over the user's body."
+      "Sprouts protective spikes all over the user's body.",
+      "ability"
     ],
     "Links": {}
   },
@@ -40520,7 +40566,11 @@
   },
   "/pitfall": {
     "Path": "pitfall",
-    "Text": ["Pitfall", "Digs a hole for friends and foes to fall into!"],
+    "Text": [
+      "Pitfall",
+      "Digs a hole for friends and foes to fall into!",
+      "ability"
+    ],
     "Links": {}
   },
   "/pixie-boots": {
@@ -40981,7 +41031,8 @@
       "The page",
       "poison-attack",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -41146,78 +41197,12 @@
   },
   "/poplar-toppler": {
     "Path": "poplar-toppler",
-    "Text": ["Poplar Toppler", "An attack that deals heavy damage to plants."],
-    "Links": {}
-  },
-  "/port-llaffan": {
-    "Path": "port-llaffan",
     "Text": [
-      "Port Llaffan",
-      "Weapon/Armour Shop",
-      "Iron axe",
-      "Feathered cap",
-      "Iron gauntlets",
-      "Sledgehammer",
-      "Silver tiara",
-      "Rubber gloves",
-      "Boomerang",
-      "Iron armour",
-      "Boomer briefs",
-      "Short bow",
-      "Tortoise shell",
-      "Pop socks",
-      "Iron shield",
-      "Cloak of evasion",
-      "Iron sabatons",
-      "Iron helmet",
-      "Dancer's costume",
-      "Wellington boots",
-      "Item Shop",
-      "Medicinal herb",
-      "Angel bell",
-      "Antidotal herb",
-      "Magic water",
-      "Moonwort bulb",
-      "Bunny tail",
-      "Chimaera wing",
-      "Slime earrings",
-      "Evac-u-bell",
-      "Gold bracer",
-      "Holy water",
-      "Gold ring"
+      "Poplar Toppler",
+      "An attack that deals heavy damage to plants.",
+      "ability"
     ],
-    "Links": {
-      "/angel-bell": "Angel bell",
-      "/antidotal-herb": "Antidotal herb",
-      "/boomer-briefs": "Boomer briefs",
-      "/boomerang": "Boomerang",
-      "/bunny-tail": "Bunny tail",
-      "/chimaera-wing": "Chimaera wing",
-      "/cloak-of-evasion": "Cloak of evasion",
-      "/dancer-s-costume": "Dancer's costume",
-      "/evac-u-bell": "Evac-u-bell",
-      "/feathered-cap": "Feathered cap",
-      "/gold-bracer": "Gold bracer",
-      "/gold-ring": "Gold ring",
-      "/holy-water": "Holy water",
-      "/iron-armour": "Iron armour",
-      "/iron-axe": "Iron axe",
-      "/iron-gauntlets": "Iron gauntlets",
-      "/iron-helmet": "Iron helmet",
-      "/iron-sabatons": "Iron sabatons",
-      "/iron-shield": "Iron shield",
-      "/magic-water": "Magic water",
-      "/medicinal-herb": "Medicinal herb",
-      "/moonwort-bulb": "Moonwort bulb",
-      "/pop-socks": "Pop socks",
-      "/rubber-gloves": "Rubber gloves",
-      "/short-bow": "Short bow",
-      "/silver-tiara": "Silver tiara",
-      "/sledgehammer": "Sledgehammer",
-      "/slime-earrings": "Slime earrings",
-      "/tortoise-shell": "Tortoise shell",
-      "/wellington-boots": "Wellington boots"
-    }
+    "Links": {}
   },
   "/porth-llaffan": {
     "Path": "porth-llaffan",
@@ -41254,7 +41239,8 @@
       "Evac-u-bell",
       "Gold bracer",
       "Holy water",
-      "Gold ring"
+      "Gold ring",
+      "town"
     ],
     "Links": {
       "/angel-bell": "Angel bell",
@@ -41465,7 +41451,8 @@
       "Power Throw",
       "A full-force throw that inflicts damage on all enemies.",
       "MP Cost:",
-      "4"
+      "4",
+      "ability"
     ],
     "Links": {}
   },
@@ -41473,7 +41460,8 @@
     "Path": "pratfall",
     "Text": [
       "Pratfall",
-      "Take a comedic dive to get a group of enemies laughing."
+      "Take a comedic dive to get a group of enemies laughing.",
+      "ability"
     ],
     "Links": {}
   },
@@ -41555,7 +41543,8 @@
       "The page",
       "pressure-pointer",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -41574,7 +41563,8 @@
       "(one-time)",
       "Dropped by:",
       "Whirly girly",
-      "(1/256)"
+      "(1/256)",
+      "everyday"
     ],
     "Links": {
       "/009-labour-of-love": "009 Labour of Love",
@@ -41638,7 +41628,8 @@
       "Wand Skill",
       "Staff Skill",
       "Shield Skill",
-      "Faith"
+      "Faith",
+      "vocation"
     ],
     "Links": {
       "/buff": "Buff",
@@ -41880,7 +41871,8 @@
       "The page",
       "propeller-blade",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -42069,7 +42061,11 @@
   },
   "/psyche-up": {
     "Path": "psyche-up",
-    "Text": ["Psyche Up", "Focuses strength to increase the user's tension."],
+    "Text": [
+      "Psyche Up",
+      "Focuses strength to increase the user's tension.",
+      "ability"
+    ],
     "Links": {}
   },
   "/pumpkin-head": {
@@ -42513,7 +42509,8 @@
       "181 Can We Borya for a Second?",
       "182 An Immaculate Conception",
       "183 Poison Needle 1 Ow 1",
-      "184 Bleats Me"
+      "184 Bleats Me",
+      "misc"
     ],
     "Links": {
       "/001-one-good-turn": "001 One Good Turn",
@@ -42955,7 +42952,8 @@
       "The page",
       "rain-of-pain",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -42965,7 +42963,8 @@
       "The page",
       "rake-n-break",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -43108,7 +43107,8 @@
       "Axe Skill",
       "Bow Skill",
       "Fisticuffs Skill",
-      "Ruggedness"
+      "Ruggedness",
+      "vocation"
     ],
     "Links": {
       "/112-ranger-changer": "Quest 112",
@@ -43732,7 +43732,8 @@
     "Path": "resilience",
     "Text": [
       "Resilience",
-      "The character's physical hardiness. As it increases, so does the character's defense."
+      "The character's physical hardiness. As it increases, so does the character's defense.",
+      "attribute"
     ],
     "Links": {}
   },
@@ -43819,7 +43820,8 @@
       "The page",
       "reverse-cycle",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -44256,7 +44258,8 @@
       "The page",
       "rotstopper",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -44509,7 +44512,8 @@
       "82",
       "Wolf Whistle",
       "100",
-      "Natural Deftness +60"
+      "Natural Deftness +60",
+      "skill-tree"
     ],
     "Links": {
       "/mercy": "Mercy",
@@ -44918,7 +44922,8 @@
       "Safe Passage",
       "Travel with impunity across harmful terrain.",
       "MP Cost:",
-      "2"
+      "2",
+      "ability"
     ],
     "Links": {}
   },
@@ -45062,7 +45067,8 @@
       "The page",
       "sage",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "vocation"
     ],
     "Links": {}
   },
@@ -45194,7 +45200,8 @@
       "Where to find:",
       "Reward for quest",
       "117 Engaging the Sage",
-      "(one-time)"
+      "(one-time)",
+      "everyday"
     ],
     "Links": {
       "/117-engaging-the-sage": "117 Engaging the Sage",
@@ -45545,7 +45552,8 @@
       "The page",
       "sandstorm",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -45699,7 +45707,13 @@
   },
   "/sap": {
     "Path": "sap",
-    "Text": ["Sap", "Reduces the defence of a single enemy.", "MP Cost:", "4"],
+    "Text": [
+      "Sap",
+      "Reduces the defence of a single enemy.",
+      "MP Cost:",
+      "4",
+      "spell"
+    ],
     "Links": {}
   },
   "/sapient-sandals": {
@@ -46472,7 +46486,8 @@
       "The page",
       "selflessness",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -46713,7 +46728,8 @@
       "The page",
       "serpent-s-bite",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -47012,7 +47028,8 @@
       "82",
       "Back Atcha",
       "100",
-      "Omnivocational Shieldmaster"
+      "Omnivocational Shieldmaster",
+      "skill-tree"
     ],
     "Links": {
       "/back-atcha": "Back Atcha",
@@ -47063,7 +47080,8 @@
       "The page",
       "shining-shot",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "skill-tree"
     ],
     "Links": {}
   },
@@ -47232,7 +47250,8 @@
       "Batsureg",
       "Swinedimples Academy",
       "Wormwood Creek",
-      "Upover"
+      "Upover",
+      "misc"
     ],
     "Links": {
       "/alltrades-abbey": "Alltrades Abbey",
@@ -47333,16 +47352,6 @@
       "/tough-guy-tattoo": "Tough guy tattoo"
     }
   },
-  "/silk-buster": {
-    "Path": "silk-buster",
-    "Text": [
-      "The page",
-      "silk-buster",
-      "you want to access does not exist.",
-      "Create page"
-    ],
-    "Links": {}
-  },
   "/silk-bustier": {
     "Path": "silk-bustier",
     "Text": [
@@ -47364,7 +47373,8 @@
       "Silk robe",
       "x3",
       "Alchemises:",
-      "Divine bustier"
+      "Divine bustier",
+      "torso"
     ],
     "Links": {
       "/dangerous-bustier": "Dangerous bustier",
@@ -48926,7 +48936,8 @@
       "Galvanised geta",
       "Holy water",
       "Silver bracelets",
-      "Bow tie"
+      "Bow tie",
+      "town"
     ],
     "Links": {
       "/antidotal-herb": "Antidotal herb",
@@ -49117,7 +49128,13 @@
   },
   "/snooze": {
     "Path": "snooze",
-    "Text": ["Snooze", "Puts a group of enemies to sleep.", "MP Cost:", "3"],
+    "Text": [
+      "Snooze",
+      "Puts a group of enemies to sleep.",
+      "MP Cost:",
+      "3",
+      "spell"
+    ],
     "Links": {}
   },
   "/snot-shot": {
@@ -49126,7 +49143,8 @@
       "The page",
       "snot-shot",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -49192,7 +49210,8 @@
       "Sobering Slap",
       "A head-clearing clout that brings an ally to their senses.",
       "MP Cost:",
-      "2"
+      "2",
+      "ability"
     ],
     "Links": {}
   },
@@ -49308,7 +49327,8 @@
       "The page",
       "solar-flair",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -49496,7 +49516,8 @@
       "Soothe Sayer",
       "Calming words that can quell an enemy's rage.",
       "MP Cost:",
-      "2"
+      "2",
+      "ability"
     ],
     "Links": {}
   },
@@ -49816,7 +49837,8 @@
       "88",
       "Multithrust",
       "100",
-      "Omnivocational Spearmaster"
+      "Omnivocational Spearmaster",
+      "skill-tree"
     ],
     "Links": {
       "/cattle-prod": "Cattle Prod",
@@ -49886,7 +49908,8 @@
       "Spell Checker",
       "Protects a single ally from attack spells.",
       "MP Cost:",
-      "3"
+      "3",
+      "spell"
     ],
     "Links": {}
   },
@@ -49913,7 +49936,8 @@
       "88",
       "Natural Max. MP +20",
       "100",
-      "Natural Magical Might +100"
+      "Natural Magical Might +100",
+      "skill-tree"
     ],
     "Links": {
       "/channel-anger": "Channel Anger",
@@ -49989,7 +50013,8 @@
       "The page",
       "spew-sand",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -49999,7 +50024,8 @@
       "The page",
       "spew-snot",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -50009,7 +50035,8 @@
       "The page",
       "spike-strike",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -50273,7 +50300,11 @@
   },
   "/spooky-aura": {
     "Path": "spooky-aura",
-    "Text": ["Spooky Aura", "Reduces an enemy's resistance to magic."],
+    "Text": [
+      "Spooky Aura",
+      "Reduces an enemy's resistance to magic.",
+      "ability"
+    ],
     "Links": {}
   },
   "/spring-breeze-hat": {
@@ -50349,7 +50380,8 @@
       "Squelch",
       "Cures a single ally of the effects of poison.",
       "MP Cost:",
-      "2"
+      "2",
+      "spell"
     ],
     "Links": {}
   },
@@ -50480,7 +50512,8 @@
       "88",
       "Attack +30 with Staff",
       "100",
-      "Omnivocational Staffmaster"
+      "Omnivocational Staffmaster",
+      "skill-tree"
     ],
     "Links": {
       "/crushed-ice": "Crushed Ice",
@@ -50622,7 +50655,8 @@
       "The page",
       "starburst-throw",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -50739,7 +50773,8 @@
       "Alchemy",
       "List of available alchemy recipes.",
       "Vocations",
-      "List of jobs and their abilities."
+      "List of jobs and their abilities.",
+      "misc"
     ],
     "Links": {
       "/alchemy": "Alchemy",
@@ -51448,7 +51483,8 @@
       "The page",
       "stomp",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -51522,7 +51558,11 @@
   },
   "/stone-s-throw": {
     "Path": "stone-s-throw",
-    "Text": ["Stone's Throw", "Hurls rocks at a single group of enemies."],
+    "Text": [
+      "Stone's Throw",
+      "Hurls rocks at a single group of enemies.",
+      "ability"
+    ],
     "Links": {}
   },
   "/storm-spear": {
@@ -51634,7 +51674,8 @@
       "Chimaera wing",
       "Evac-u-bell",
       "Holy water",
-      "Gold ring"
+      "Gold ring",
+      "town"
     ],
     "Links": {
       "/antidotal-herb": "Antidotal herb",
@@ -51752,7 +51793,8 @@
     "Path": "strength",
     "Text": [
       "Strength",
-      "The character's physical strength. As it increases, so does the character's attack."
+      "The character's physical strength. As it increases, so does the character's attack.",
+      "attribute"
     ],
     "Links": {}
   },
@@ -52026,7 +52068,8 @@
     "Path": "style",
     "Text": [
       "Style",
-      "The sum of the character's charm and the overall stylishness of their equipment. The higher a character's style, the more likely they are to stun enemies into inaction in battle."
+      "The sum of the character's charm and the overall stylishness of their equipment. The higher a character's style, the more likely they are to stun enemies into inaction in battle.",
+      "attribute"
     ],
     "Links": {}
   },
@@ -52036,7 +52079,8 @@
       "The page",
       "sultry-dance",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -52401,17 +52445,8 @@
       "The page",
       "sweet-breath",
       "you want to access does not exist.",
-      "Create page"
-    ],
-    "Links": {}
-  },
-  "/swindimples-academy": {
-    "Path": "swindimples-academy",
-    "Text": [
-      "The page",
-      "swindimples-academy",
-      "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -52437,7 +52472,8 @@
       "White tights",
       "Magic water",
       "Swinedimples blazer",
-      "Leather shoes"
+      "Leather shoes",
+      "town"
     ],
     "Links": {
       "/antidotal-herb": "Antidotal herb",
@@ -52559,7 +52595,8 @@
       "Swoosh",
       "Slices a group of enemies with a powerful whirlwind.",
       "MP Cost:",
-      "8"
+      "8",
+      "spell"
     ],
     "Links": {}
   },
@@ -52618,7 +52655,8 @@
       "88",
       "Gigaslash",
       "100",
-      "Omnivocational Swordmaster"
+      "Omnivocational Swordmaster",
+      "skill-tree"
     ],
     "Links": {
       "/dragon-slash": "Dragon Slash",
@@ -52737,7 +52775,7 @@
       "/celestial-skein": "Celestial skein",
       "/cumaulus": "Cumaulus",
       "/cyber-spider": "Cyber spider",
-      "/silk-buster": "Silk buster",
+      "/silk-bustier": "Silk bustier",
       "/system:page-tags/tag/item": "item",
       "/tyrantula": "Tyrantula",
       "/widow-s-pique": "Widow's pique"
@@ -52805,7 +52843,11 @@
   },
   "/tap-dance": {
     "Path": "tap-dance",
-    "Text": ["Tap Dance", "Do some nifty tappy-toeing to evade attack."],
+    "Text": [
+      "Tap Dance",
+      "Do some nifty tappy-toeing to evade attack.",
+      "ability"
+    ],
     "Links": {}
   },
   "/teaky-mask": {
@@ -53179,7 +53221,8 @@
       "The page",
       "tension-50",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -53479,7 +53522,8 @@
       "Sword Skill",
       "Claw Skill",
       "Fisticuffs Skill",
-      "Acquisitiveness"
+      "Acquisitiveness",
+      "vocation"
     ],
     "Links": {
       "/accelerate": "Accelerate",
@@ -53572,17 +53616,8 @@
       "The page",
       "thin-air",
       "you want to access does not exist.",
-      "Create page"
-    ],
-    "Links": {}
-  },
-  "/thingy-king-of-er": {
-    "Path": "thingy-king-of-er",
-    "Text": [
-      "The page",
-      "thingy-king-of-er",
-      "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -53750,7 +53785,8 @@
       "The page",
       "thunder-slash",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -53760,7 +53796,8 @@
       "The page",
       "thunder-thrust",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -53813,7 +53850,8 @@
       "Thwack",
       "A curse that sends a group of enemies to the hereafter.",
       "MP Cost:",
-      "10"
+      "10",
+      "spell"
     ],
     "Links": {}
   },
@@ -53823,7 +53861,8 @@
       "Tingle",
       "Cures all party members of the effects of paralysis.",
       "MP Cost:",
-      "2"
+      "2",
+      "spell"
     ],
     "Links": {}
   },
@@ -54407,7 +54446,8 @@
       "Toxic Dagger",
       "A swift strike that envenomates an enemy.",
       "MP Cost:",
-      "2"
+      "2",
+      "ability"
     ],
     "Links": {}
   },
@@ -54579,7 +54619,8 @@
       "Trammel Lash",
       "A snap of the whip that can sometimes paralyse an enemy.",
       "MP Cost:",
-      "3"
+      "3",
+      "ability"
     ],
     "Links": {}
   },
@@ -54654,7 +54695,8 @@
       "Treasure Eye Land",
       "Shows the location of nearby treasure on the map.",
       "MP Cost:",
-      "2"
+      "2",
+      "ability"
     ],
     "Links": {}
   },
@@ -54870,7 +54912,8 @@
     "Path": "trip-of-a-deathtime",
     "Text": [
       "Trip of a Deathtime",
-      "Sends a group of enemies crashing to the ground."
+      "Sends a group of enemies crashing to the ground.",
+      "ability"
     ],
     "Links": {}
   },
@@ -55264,7 +55307,8 @@
       "The page",
       "twin-dragon-lash",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -55308,7 +55352,8 @@
       "The page",
       "twocus-pocus",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -55806,7 +55851,8 @@
       "Moonwort bulb",
       "Coagulant",
       "Chimaera wing",
-      "Tangleweb"
+      "Tangleweb",
+      "town"
     ],
     "Links": {
       "/angel-bell": "Angel bell",
@@ -55865,7 +55911,8 @@
       "The page",
       "urdus-marshland",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "location"
     ],
     "Links": {}
   },
@@ -55965,7 +56012,8 @@
       "The page",
       "vanish",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -56004,7 +56052,8 @@
       "The page",
       "venom-mist",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -56227,7 +56276,8 @@
       "The page",
       "victimiser",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -56289,7 +56339,8 @@
       "82",
       "Forbearance",
       "100",
-      "Natural Max. HP +80"
+      "Natural Max. HP +80",
+      "skill-tree"
     ],
     "Links": {
       "/forbearance": "Forbearance",
@@ -56314,7 +56365,8 @@
       "Armamentalist",
       "Ranger",
       "Sage",
-      "Luminary"
+      "Luminary",
+      "misc"
     ],
     "Links": {
       "/armamentalist": "Armamentalist",
@@ -56428,7 +56480,8 @@
       "84",
       "Auto MP Recovery with Wand",
       "100",
-      "Omnivocational Wandmaster"
+      "Omnivocational Wandmaster",
+      "skill-tree"
     ],
     "Links": {
       "/antimagic": "Antimagic",
@@ -56463,7 +56516,8 @@
     "Path": "war-cry",
     "Text": [
       "War Cry",
-      "A battle yell that paralyses a group of enemies with fear."
+      "A battle yell that paralyses a group of enemies with fear.",
+      "ability"
     ],
     "Links": {}
   },
@@ -56563,7 +56617,8 @@
       "Spear Skill",
       "Knife Skill",
       "Shield Skill",
-      "Courage"
+      "Courage",
+      "vocation"
     ],
     "Links": {
       "/courage": "Courage",
@@ -56778,7 +56833,8 @@
       "Where to find:",
       "Reward for quest",
       "092 Warriors Three",
-      "(one-time)"
+      "(one-time)",
+      "everyday"
     ],
     "Links": {
       "/092-warriors-three": "092 Warriors Three"
@@ -56790,7 +56846,8 @@
       "The page",
       "wash-face",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -56804,7 +56861,8 @@
       "Classification:",
       "Item",
       "Where to find:",
-      "Received when visiting a multiplayer world"
+      "Received when visiting a multiplayer world",
+      "everyday"
     ],
     "Links": {}
   },
@@ -56814,7 +56872,8 @@
       "The page",
       "water-slaughterer",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -56871,7 +56930,8 @@
       "The page",
       "wave-of-panic",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -56881,7 +56941,8 @@
       "Wave of Relief",
       "Removes most ailments from all allies.",
       "MP Cost:",
-      "10"
+      "10",
+      "ability"
     ],
     "Links": {}
   },
@@ -56961,7 +57022,8 @@
       "The page",
       "weakening-wave",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -57050,7 +57112,8 @@
       "The page",
       "weird-dance",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -57093,23 +57156,8 @@
       "Whack",
       "A cursed incantation that sends an enemy to the hereafter.",
       "MP Cost:",
-      "5"
-    ],
-    "Links": {}
-  },
-  "/what-is-a-wiki-site": {
-    "Path": "what-is-a-wiki-site",
-    "Text": [
-      "What is a Wiki Site?",
-      "According to",
-      "Wikipedia",
-      ", the world largest wiki site:",
-      "A",
-      "Wiki",
-      "([ˈwiː.kiː] <wee-kee> or [ˈwɪ.kiː] <wick-ey>) is a type of website that allows users to add, remove, or otherwise edit and change most content very quickly and easily.",
-      "And that is it! As a part of",
-      "Wikidot.com network",
-      "this Site is a customizable piece of the Internet where Users can edit content, upload files, communicate and collaborate."
+      "5",
+      "spell"
     ],
     "Links": {}
   },
@@ -57136,7 +57184,8 @@
       "88",
       "Twin Dragon Lash",
       "100",
-      "Omnivocational Whipmaster"
+      "Omnivocational Whipmaster",
+      "skill-tree"
     ],
     "Links": {
       "/hit-the-hay": "Hit the Hay",
@@ -57151,7 +57200,8 @@
     "Path": "whipping-boy",
     "Text": [
       "Whipping Boy",
-      "Puts the user in the line of fire to protect a pal."
+      "Puts the user in the line of fire to protect a pal.",
+      "ability"
     ],
     "Links": {}
   },
@@ -57183,7 +57233,8 @@
     "Path": "whistle",
     "Text": [
       "Whistle",
-      "Provokes an enemy into focusing its wrath on the user."
+      "Provokes an enemy into focusing its wrath on the user.",
+      "ability"
     ],
     "Links": {}
   },
@@ -57504,7 +57555,8 @@
       "The page",
       "whopper-chop",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -57633,7 +57685,8 @@
       "The page",
       "wind-sickles",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -58031,7 +58084,8 @@
       "Wizard Ward",
       "Creates a barrier that protects the caster from magic.",
       "MP Cost:",
-      "5"
+      "5",
+      "ability"
     ],
     "Links": {}
   },
@@ -58106,7 +58160,8 @@
       "The page",
       "wolf-whistle",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },
@@ -58279,7 +58334,8 @@
       "Woosh",
       "Slices a group of enemies with a small whirlwind.",
       "MP Cost:",
-      "3"
+      "3",
+      "spell"
     ],
     "Links": {}
   },
@@ -58360,7 +58416,8 @@
       "Moonwort bulb",
       "Coagulant",
       "Chimaera wing",
-      "Tangleweb"
+      "Tangleweb",
+      "town"
     ],
     "Links": {
       "/angel-bell": "Angel bell",
@@ -58882,7 +58939,8 @@
       "The page",
       "zammle",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "spell"
     ],
     "Links": {}
   },
@@ -59104,7 +59162,8 @@
       "Zing",
       "Resurrects a fallen ally, but sometimes fails.",
       "MP Cost:",
-      "8"
+      "8",
+      "spell"
     ],
     "Links": {}
   },
@@ -59114,7 +59173,8 @@
       "The page",
       "zing-stick",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "ability"
     ],
     "Links": {}
   },

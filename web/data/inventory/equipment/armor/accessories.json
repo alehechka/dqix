@@ -1067,6 +1067,33 @@
   "category": "armor",
   "classification": "accessories"
  },
+ "order-of-chivalry": {
+  "id": "order-of-chivalry",
+  "title": "Order of Chivalry",
+  "description": "A paladin's decoration that drums up defence.",
+  "statistics": {
+   "defense": 20,
+   "special": {}
+  },
+  "rarity": 4,
+  "vocations": [
+   "warrior",
+   "priest",
+   "mage",
+   "martial-artist",
+   "thief",
+   "minstrel",
+   "gladiator",
+   "paladin",
+   "armamentalist",
+   "ranger",
+   "sage",
+   "luminary"
+  ],
+  "type": "equipment",
+  "category": "armor",
+  "classification": "accessories"
+ },
  "pink-pearl": {
   "id": "pink-pearl",
   "title": "Pink Pearl",
