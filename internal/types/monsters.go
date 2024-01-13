@@ -80,11 +80,12 @@ type BattleInfo struct {
 func (p PageContent) ParseMonster() (monster Monster) {
 	lastIndex := len(p.Text) - 1
 
-	if titleParts := strings.Split(p.Text[0], " "); len(titleParts) > 1 {
-		monster.Number, _ = strconv.Atoi(titleParts[0])
-		monster.Title = titleParts[1]
+	rawNumber := p.Text[0][0:3]
+	if number, err := strconv.Atoi(rawNumber); err == nil && number > 0 {
+		monster.Number = number
+		monster.Title = strings.TrimPrefix(p.Text[0], rawNumber+" ")
 	} else {
-		monster.Title = titleParts[0]
+		monster.Title = p.Text[0]
 	}
 
 	monster.Description = p.Text[1]
