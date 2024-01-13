@@ -1,6 +1,5 @@
 {
  "advanced-axecraft": {
-  "id": "advanced-axecraft",
   "title": "'Advanced Axecraft'",
   "description": "Pop this in your pocket to gain use of the",
   "statistics": {
@@ -12,7 +11,6 @@
   "classification": "everyday"
  },
  "agate-of-evolution": {
-  "id": "agate-of-evolution",
   "title": "Agate of Evolution",
   "description": "A special stone that encourages evolution. Alchemise it!",
   "statistics": {
@@ -108,7 +106,6 @@
   ]
  },
  "aggressence": {
-  "id": "aggressence",
   "title": "Aggressence",
   "description": "An extract composed of the vigorous verve for victory. Alchemise it!",
   "statistics": {
@@ -141,7 +138,6 @@
   ]
  },
  "angel-bell": {
-  "id": "angel-bell",
   "title": "Angel Bell",
   "description": "A cure for confusion that concentrates on a single ally.",
   "statistics": {
@@ -171,7 +167,6 @@
   ]
  },
  "antidotal-herb": {
-  "id": "antidotal-herb",
   "title": "Antidotal Herb",
   "description": "A helpful herb that purges the scourge of poison from a single ally.",
   "statistics": {
@@ -208,7 +203,6 @@
   ]
  },
  "archery-for-the-adept": {
-  "id": "archery-for-the-adept",
   "title": "'Archery for the Adept'",
   "description": "Pop this in your pocket to gain use of the",
   "statistics": {
@@ -220,7 +214,6 @@
   "classification": "everyday"
  },
  "armamentalist-s-album": {
-  "id": "armamentalist-s-album",
   "title": "'Armamentalist's Album'",
   "description": "Pop this in your pocket to focus the Fource for you and all your allies.",
   "statistics": {
@@ -232,7 +225,6 @@
   "classification": "everyday"
  },
  "astral-plume": {
-  "id": "astral-plume",
   "title": "Astral Plume",
   "description": "A feather from the white wings of a heavenly being. Alchemise it!",
   "statistics": {
@@ -260,7 +252,6 @@
   ]
  },
  "basic-biscuits": {
-  "id": "basic-biscuits",
   "title": "Basic Biscuits",
   "description": "A tasty tit-for-tat treat from an avid admirer.",
   "statistics": {
@@ -272,7 +263,6 @@
   "classification": "everyday"
  },
  "belle-cap": {
-  "id": "belle-cap",
   "title": "Belle Cap",
   "description": "A mysteriously marvellous-looking mushroom. Alchemise it!",
   "statistics": {
@@ -297,7 +287,6 @@
   ]
  },
  "birdsong-nectar": {
-  "id": "birdsong-nectar",
   "title": "Birdsong Nectar",
   "description": "Queer concoction that confers a sweet singing voice. Alchemise it!",
   "statistics": {
@@ -323,7 +312,6 @@
   ]
  },
  "birthday-cake": {
-  "id": "birthday-cake",
   "title": "Birthday Cake",
   "description": "A gateau that anyone would be glad to get on their birthday.",
   "statistics": {
@@ -334,7 +322,6 @@
   "classification": "everyday"
  },
  "block-o--choc": {
-  "id": "block-o--choc",
   "title": "Block o' Choc",
   "description": "A succulent and sweet show of affection from a sweetheart.",
   "statistics": {
@@ -346,7 +333,6 @@
   "classification": "everyday"
  },
  "blue-orb": {
-  "id": "blue-orb",
   "title": "Blue Orb",
   "description": "A ridiculously rare orb of cornflower blue. Alchemise it!",
   "statistics": {
@@ -375,7 +361,6 @@
   ]
  },
  "brighten-rock": {
-  "id": "brighten-rock",
   "title": "Brighten Rock",
   "description": "A sacred stone alive with the might of light. Alchemise it!",
   "statistics": {
@@ -401,7 +386,6 @@
   ]
  },
  "brilliant-biscuits": {
-  "id": "brilliant-biscuits",
   "title": "Brilliant Biscuits",
   "description": "Cracking cookies that shine brilliantly, both in looks and taste.",
   "statistics": {
@@ -413,7 +397,6 @@
   "classification": "everyday"
  },
  "butterfly-wing": {
-  "id": "butterfly-wing",
   "title": "Butterfly Wing",
   "description": "The charming wing of a fluttering thing. Alchemise it!",
   "statistics": {
@@ -437,7 +420,6 @@
   ]
  },
  "celestial-skein": {
-  "id": "celestial-skein",
   "title": "Celestial Skein",
   "description": "Mysterious string within which water flows. Alchemise it!",
   "statistics": {
@@ -468,7 +450,6 @@
   ]
  },
  "chimaera-wing": {
-  "id": "chimaera-wing",
   "title": "Chimaera Wing",
   "description": "A tool that can teleport people to places they've been before.",
   "statistics": {
@@ -503,7 +484,6 @@
   ]
  },
  "choice-chocolate": {
-  "id": "choice-chocolate",
   "title": "Choice Chocolate",
   "description": "An especially sugary show of affection from a sweetheart.",
   "statistics": {
@@ -515,7 +495,6 @@
   "classification": "everyday"
  },
  "christmas-cake": {
-  "id": "christmas-cake",
   "title": "Christmas Cake",
   "description": "A succulent sweet prepared for the festive season.",
   "statistics": {
@@ -527,7 +506,6 @@
   "classification": "everyday"
  },
  "chronocrystal": {
-  "id": "chronocrystal",
   "title": "Chronocrystal",
   "description": "A crystal formed over countless millennia. Alchemise it!",
   "statistics": {
@@ -548,7 +526,6 @@
   ]
  },
  "clear-spear-theory": {
-  "id": "clear-spear-theory",
   "title": "'Clear Spear Theory'",
   "description": "Pop this in your pocket to gain use of the",
   "statistics": {
@@ -560,7 +537,6 @@
   "classification": "everyday"
  },
  "coagulant": {
-  "id": "coagulant",
   "title": "Coagulant",
   "description": "Poisonous powder that puts a single enemy into a state of paralysis.",
   "statistics": {
@@ -584,7 +560,6 @@
   ]
  },
  "corundum": {
-  "id": "corundum",
   "title": "Corundum",
   "description": "An unpolished precious stone with a rusty lustre. Alchemise it!",
   "statistics": {
@@ -604,7 +579,6 @@
   ]
  },
  "cowpat": {
-  "id": "cowpat",
   "title": "Cowpat",
   "description": "Fragrant fallout from a farmyard favourite. Alchemise it!",
   "statistics": {
@@ -625,7 +599,6 @@
   ]
  },
  "crimson-coral": {
-  "id": "crimson-coral",
   "title": "Crimson Coral",
   "description": "A stunning souvenir from the sea. Alchemise it!",
   "statistics": {
@@ -650,7 +623,6 @@
   ]
  },
  "densinium": {
-  "id": "densinium",
   "title": "Densinium",
   "description": "A lump of mysterious metal that's drastically dense. Alchemise it!",
   "statistics": {
@@ -682,7 +654,6 @@
   ]
  },
  "elfin-elixir": {
-  "id": "elfin-elixir",
   "title": "Elfin Elixir",
   "description": "An enchanted elixir that totally tops up a single ally's MP.",
   "statistics": {
@@ -710,7 +681,6 @@
   ]
  },
  "emerald-moss": {
-  "id": "emerald-moss",
   "title": "Emerald Moss",
   "description": "A vividly verdant piece of vegetation. Alchemise it!",
   "statistics": {
@@ -731,7 +701,6 @@
   ]
  },
  "enchanted-stone": {
-  "id": "enchanted-stone",
   "title": "Enchanted Stone",
   "description": "A pebble possessed by a departed soul. Alchemise it!",
   "statistics": {
@@ -765,7 +734,6 @@
   ]
  },
  "ethereal-stone": {
-  "id": "ethereal-stone",
   "title": "Ethereal Stone",
   "description": "A protective pebble possessed by a phantom spirit. Alchemise it!",
   "statistics": {
@@ -803,7 +771,6 @@
   ]
  },
  "evac-u-bell": {
-  "id": "evac-u-bell",
   "title": "Evac-u-bell",
   "description": "Allows the ringer to instantly escape from a tower, cave, or dungeon.",
   "statistics": {
@@ -828,7 +795,6 @@
   ]
  },
  "evencloth": {
-  "id": "evencloth",
   "title": "Evencloth",
   "description": "Coal-black cloth cloaked in impenetrable darkness. Alchemise it!",
   "statistics": {
@@ -855,7 +821,6 @@
   ]
  },
  "fearsome-fisticuffing": {
-  "id": "fearsome-fisticuffing",
   "title": "'Fearsome Fisticuffing'",
   "description": "Pop this in your pocket to gain use of the",
   "statistics": {
@@ -867,7 +832,6 @@
   "classification": "everyday"
  },
  "festive-feast": {
-  "id": "festive-feast",
   "title": "Festive Feast",
   "description": "An assortment of appetising eats full of festive feeling.",
   "statistics": {
@@ -879,7 +843,6 @@
   "classification": "everyday"
  },
  "finessence": {
-  "id": "finessence",
   "title": "Finessence",
   "description": "An extract composed of concentrated combat capabilities. Alchemise it!",
   "statistics": {
@@ -910,7 +873,6 @@
   ]
  },
  "fisticup": {
-  "id": "fisticup",
   "title": "Fisticup",
   "description": "A funny fungus in the form of a fist. Alchemise it!",
   "statistics": {
@@ -931,7 +893,6 @@
   ]
  },
  "flintstone": {
-  "id": "flintstone",
   "title": "Flintstone",
   "description": "A rock that's just right for setting off sparks. Alchemise it!",
   "statistics": {
@@ -950,7 +911,6 @@
   ]
  },
  "flurry-feather": {
-  "id": "flurry-feather",
   "title": "Flurry Feather",
   "description": "A plume plucked from a great big bird. Alchemise it!",
   "statistics": {
@@ -979,7 +939,6 @@
   ]
  },
  "fresh-water": {
-  "id": "fresh-water",
   "title": "Fresh Water",
   "description": "Wondrous water of perfect purity. Alchemise it!",
   "statistics": {
@@ -1003,7 +962,6 @@
   ]
  },
  "further-fanmanship": {
-  "id": "further-fanmanship",
   "title": "'Further Fanmanship'",
   "description": "Pop this in your pocket to gain use of the",
   "statistics": {
@@ -1015,7 +973,6 @@
   "classification": "everyday"
  },
  "gladiator-s-guide": {
-  "id": "gladiator-s-guide",
   "title": "'Gladiator's Guide'",
   "description": "Pop this in your pocket to perform two hits per turn sometimes.",
   "statistics": {
@@ -1027,7 +984,6 @@
   "classification": "everyday"
  },
  "glass-frit": {
-  "id": "glass-frit",
   "title": "Glass Frit",
   "description": "Gentle grit that's perfect for polishing. Alchemise it!",
   "statistics": {
@@ -1050,7 +1006,6 @@
   ]
  },
  "gleeban-gold-piece": {
-  "id": "gleeban-gold-piece",
   "title": "Gleeban Gold Piece",
   "description": "A coin with no practical use, which will fetch a pretty penny if sold.",
   "statistics": {
@@ -1071,7 +1026,6 @@
   }
  },
  "gleeban-groat": {
-  "id": "gleeban-groat",
   "title": "Gleeban Groat",
   "description": "A coin with no practical use, which will fetch a pretty penny if sold.",
   "statistics": {
@@ -1084,7 +1038,6 @@
   "classification": "everyday"
  },
  "gleeban-guinea": {
-  "id": "gleeban-guinea",
   "title": "Gleeban Guinea",
   "description": "A coin with no practical use, which will fetch a pretty penny if sold.",
   "statistics": {
@@ -1097,7 +1050,6 @@
   "classification": "everyday"
  },
  "gold-bar": {
-  "id": "gold-bar",
   "title": "Gold Bar",
   "description": "A piece of pure gold that's heart-warmingly heavy. Alchemise it!",
   "statistics": {
@@ -1125,7 +1077,6 @@
   ]
  },
  "green-orb": {
-  "id": "green-orb",
   "title": "Green Orb",
   "description": "A ridiculously rare orb of verdant green. Alchemise it!",
   "statistics": {
@@ -1155,7 +1106,6 @@
   ]
  },
  "grubby-bandage": {
-  "id": "grubby-bandage",
   "title": "Grubby Bandage",
   "description": "A soiled dressing much-loved by mummies. Alchemise it!",
   "statistics": {
@@ -1180,7 +1130,6 @@
   ]
  },
  "hardcore-hammering": {
-  "id": "hardcore-hammering",
   "title": "'Hardcore Hammering'",
   "description": "Pop this in your pocket to gain use of the",
   "statistics": {
@@ -1192,7 +1141,6 @@
   "classification": "everyday"
  },
  "hephaestus--flame": {
-  "id": "hephaestus--flame",
   "title": "Hephaestus' Flame",
   "description": "A fire so fantastically fierce it can melt metal. Alchemise it!",
   "statistics": {
@@ -1239,7 +1187,6 @@
   ]
  },
  "holy-water": {
-  "id": "holy-water",
   "title": "Holy Water",
   "description": "A righteous repellent that keeps weaker monsters away.",
   "statistics": {
@@ -1276,7 +1223,6 @@
   ]
  },
  "horse-manure": {
-  "id": "horse-manure",
   "title": "Horse Manure",
   "description": "An equine extra that exudes a pungent perfume. Alchemise it!",
   "statistics": {
@@ -1293,7 +1239,6 @@
   ]
  },
  "ice-crystal": {
-  "id": "ice-crystal",
   "title": "Ice Crystal",
   "description": "A captivating crystal with cryogenic powers. Alchemise it!",
   "statistics": {
@@ -1317,7 +1262,6 @@
   ]
  },
  "iron-nails": {
-  "id": "iron-nails",
   "title": "Iron Nails",
   "description": "Nothing more than normal nails. Alchemise 'em!",
   "statistics": {
@@ -1342,7 +1286,6 @@
   ]
  },
  "iron-ore": {
-  "id": "iron-ore",
   "title": "Iron Ore",
   "description": "Rock containing an enormous amount of iron. Alchemise it!",
   "statistics": {
@@ -1388,7 +1331,6 @@
   ]
  },
  "kitty-litter": {
-  "id": "kitty-litter",
   "title": "Kitty Litter",
   "description": "A peculiar powder that purring pets apparently prefer. Alchemise it!",
   "statistics": {
@@ -1410,7 +1352,6 @@
   ]
  },
  "knifing-know-how": {
-  "id": "knifing-know-how",
   "title": "'Knifing Know-How'",
   "description": "Pop this in your pocket to gain use of the",
   "statistics": {
@@ -1422,7 +1363,6 @@
   "classification": "everyday"
  },
  "lambswool": {
-  "id": "lambswool",
   "title": "Lambswool",
   "description": "A fluffy fleece of ovine origins. Alchemise it!",
   "statistics": {
@@ -1455,7 +1395,6 @@
   ]
  },
  "lava-lump": {
-  "id": "lava-lump",
   "title": "Lava Lump",
   "description": "A pyroclastic rock possessing the power of fire. Alchemise it!",
   "statistics": {
@@ -1485,7 +1424,6 @@
   ]
  },
  "lucida-shard": {
-  "id": "lucida-shard",
   "title": "Lucida Shard",
   "description": "A fragment formed from some heavenly fallout. Alchemise it!",
   "statistics": {
@@ -1517,7 +1455,6 @@
   ]
  },
  "luminary-s-lore": {
-  "id": "luminary-s-lore",
   "title": "'Luminary's Lore'",
   "description": "Pop this in your pocket to gain use of the",
   "statistics": {
@@ -1529,7 +1466,6 @@
   "classification": "everyday"
  },
  "lunaria": {
-  "id": "lunaria",
   "title": "Lunaria",
   "description": "An antidote to paralysis for a single ally that also adds around 90 HP.",
   "statistics": {
@@ -1551,7 +1487,6 @@
   ]
  },
  "mage-s-manual": {
-  "id": "mage-s-manual",
   "title": "'Mage's Manual'",
   "description": "Pop this in your pocket to gain use of the",
   "statistics": {
@@ -1563,7 +1498,6 @@
   "classification": "everyday"
  },
  "magic-beast-hide": {
-  "id": "magic-beast-hide",
   "title": "Magic Beast Hide",
   "description": "Heavy hide taken from a brutal beast. Alchemise it!",
   "statistics": {
@@ -1589,7 +1523,6 @@
   ]
  },
  "magic-beast-horn": {
-  "id": "magic-beast-horn",
   "title": "Magic Beast Horn",
   "description": "A hard horn taken from a brutal beast. Alchemise it!",
   "statistics": {
@@ -1617,7 +1550,6 @@
   ]
  },
  "magic-water": {
-  "id": "magic-water",
   "title": "Magic Water",
   "description": "An enchanted elixir that restores around 30 MP to a single ally.",
   "statistics": {
@@ -1646,7 +1578,6 @@
   ]
  },
  "malicite": {
-  "id": "malicite",
   "title": "Malicite",
   "description": "A jinxed gem that calls cured curses back on its bearer. Alchemise it!",
   "statistics": {
@@ -1680,7 +1611,6 @@
   ]
  },
  "manky-mud": {
-  "id": "manky-mud",
   "title": "Manky Mud",
   "description": "Dangerous dirt that's totally toxic. Alchemise it!",
   "statistics": {
@@ -1703,7 +1633,6 @@
   ]
  },
  "martial-artist-s-manual": {
-  "id": "martial-artist-s-manual",
   "title": "'Martial Artist's Manual'",
   "description": "Pop this in your pocket to take tension from battle to battle.",
   "statistics": {
@@ -1715,7 +1644,6 @@
   "classification": "everyday"
  },
  "medicinal-herb": {
-  "id": "medicinal-herb",
   "title": "Medicinal Herb",
   "description": "A helpful herb that restores around 30 HP to a single ally.",
   "statistics": {
@@ -1757,7 +1685,6 @@
   ]
  },
  "mini-medal": {
-  "id": "mini-medal",
   "title": "Mini Medal",
   "description": "A mysterious medal that someone somewhere supposedly collects.",
   "statistics": {
@@ -1772,7 +1699,6 @@
   }
  },
  "minstrel-s-manual": {
-  "id": "minstrel-s-manual",
   "title": "'Minstrel's Manual'",
   "description": "Pop this in your pocket to gain use of the",
   "statistics": {
@@ -1784,7 +1710,6 @@
   "classification": "everyday"
  },
  "mirrorstone": {
-  "id": "mirrorstone",
   "title": "Mirrorstone",
   "description": "A resplendent rock that reflects light like a mirror. Alchemise it!",
   "statistics": {
@@ -1805,7 +1730,6 @@
   ]
  },
  "moonwort-bulb": {
-  "id": "moonwort-bulb",
   "title": "Moonwort Bulb",
   "description": "An antidote to paralysis that unfreezes an ally.",
   "statistics": {
@@ -1842,7 +1766,6 @@
   ]
  },
  "mystifying-mixture": {
-  "id": "mystifying-mixture",
   "title": "Mystifying Mixture",
   "description": "A potion that sends a single enemy into a state of confusion.",
   "statistics": {
@@ -1873,7 +1796,6 @@
   ]
  },
  "mythril-ore": {
-  "id": "mythril-ore",
   "title": "Mythril Ore",
   "description": "Rock containing a massive amount of mythril. Alchemise it!",
   "statistics": {
@@ -1906,7 +1828,6 @@
   ]
  },
  "narspicious": {
-  "id": "narspicious",
   "title": "Narspicious",
   "description": "A peculiar plant with an untrustworthy air. Alchemise it!",
   "statistics": {
@@ -1933,7 +1854,6 @@
   ]
  },
  "nectar": {
-  "id": "nectar",
   "title": "Nectar",
   "description": "The sweet, fragrant essence of a flower in bloom. Alchemise it!",
   "statistics": {
@@ -1953,7 +1873,6 @@
   ]
  },
  "orichalcum": {
-  "id": "orichalcum",
   "title": "Orichalcum",
   "description": "A highly prized mineral of magnificent hardness. Alchemise it!",
   "statistics": {
@@ -2003,7 +1922,6 @@
   ]
  },
  "paladin-s-primer": {
-  "id": "paladin-s-primer",
   "title": "'Paladin's Primer'",
   "description": "Pop this in your pocket to gain use of the",
   "statistics": {
@@ -2015,7 +1933,6 @@
   "classification": "everyday"
  },
  "panacea": {
-  "id": "panacea",
   "title": "Panacea",
   "description": "A remedy that removes poison and paralysis and restores around 90 HP.",
   "statistics": {
@@ -2046,7 +1963,6 @@
   ]
  },
  "party-popper": {
-  "id": "party-popper",
   "title": "Party Popper",
   "description": "A cracker that frightens foes with a fearsome bang.",
   "statistics": {
@@ -2057,7 +1973,6 @@
   "classification": "everyday"
  },
  "perfect-panacea": {
-  "id": "perfect-panacea",
   "title": "Perfect Panacea",
   "description": "A remedy that removes all manner of ills and restores around 90 HP.",
   "statistics": {
@@ -2080,7 +1995,6 @@
   ]
  },
  "platinum-ore": {
-  "id": "platinum-ore",
   "title": "Platinum Ore",
   "description": "Rock containing a high proportion of platinum. Alchemise it!",
   "statistics": {
@@ -2104,7 +2018,6 @@
   ]
  },
  "posh-biscuits": {
-  "id": "posh-biscuits",
   "title": "Posh Biscuits",
   "description": "A truly tempting bit of tucker from an avid admirer.",
   "statistics": {
@@ -2116,7 +2029,6 @@
   "classification": "everyday"
  },
  "pretty-betsy": {
-  "id": "pretty-betsy",
   "title": "Pretty Betsy",
   "description": "A bewitching bloom that boosts a single ally's charm a bit.",
   "statistics": {
@@ -2131,7 +2043,6 @@
   }
  },
  "priest-s-primer": {
-  "id": "priest-s-primer",
   "title": "'Priest's Primer'",
   "description": "Pop this in your pocket to gain use of the",
   "statistics": {
@@ -2143,7 +2054,6 @@
   "classification": "everyday"
  },
  "purple-orb": {
-  "id": "purple-orb",
   "title": "Purple Orb",
   "description": "A ridiculously rare orb of deep purple. Alchemise it!",
   "statistics": {
@@ -2172,7 +2082,6 @@
   ]
  },
  "ranger-s-revelations": {
-  "id": "ranger-s-revelations",
   "title": "'Ranger's Revelations'",
   "description": "Pop this in your pocket to perform critical hits in times of crisis.",
   "statistics": {
@@ -2184,7 +2093,6 @@
   "classification": "everyday"
  },
  "red-orb": {
-  "id": "red-orb",
   "title": "Red Orb",
   "description": "A ridiculously rare orb of richest red. Alchemise it!",
   "statistics": {
@@ -2213,7 +2121,6 @@
   ]
  },
  "reset-stone": {
-  "id": "reset-stone",
   "title": "Reset Stone",
   "description": "A retroactive rock that might undo the effects of alchemy. Alchemise it!",
   "statistics": {
@@ -2260,7 +2167,6 @@
   ]
  },
  "resurrock": {
-  "id": "resurrock",
   "title": "Resurrock",
   "description": "A stone said to hold the secret of restoring life. Alchemise it!",
   "statistics": {
@@ -2284,7 +2190,6 @@
   ]
  },
  "rockbomb-shard": {
-  "id": "rockbomb-shard",
   "title": "Rockbomb Shard",
   "description": "An explosive bit of boulder that deals damage to all foes.",
   "statistics": {
@@ -2311,7 +2216,6 @@
   ]
  },
  "royal-soil": {
-  "id": "royal-soil",
   "title": "Royal Soil",
   "description": "A mass of mud with magical characteristics. Alchemise it!",
   "statistics": {
@@ -2345,7 +2249,6 @@
   ]
  },
  "sage-s-elixir": {
-  "id": "sage-s-elixir",
   "title": "Sage's Elixir",
   "description": "An enchanted elixir that restores around 90 MP to a single ally.",
   "statistics": {
@@ -2386,7 +2289,6 @@
   ]
  },
  "sage-s-scripture": {
-  "id": "sage-s-scripture",
   "title": "'Sage's Scripture'",
   "description": "Pop this in your pocket to gain use of the",
   "statistics": {
@@ -2398,7 +2300,6 @@
   "classification": "everyday"
  },
  "sage-s-stone": {
-  "id": "sage-s-stone",
   "title": "Sage's Stone",
   "description": "A rock that restores everyone's HP when used in battle.",
   "statistics": {
@@ -2415,7 +2316,6 @@
   }
  },
  "saint-s-ashes": {
-  "id": "saint-s-ashes",
   "title": "Saint's Ashes",
   "description": "Abrasive ash that cleans off curses. Alchemise it!",
   "statistics": {
@@ -2446,7 +2346,6 @@
   ]
  },
  "sainted-soma": {
-  "id": "sainted-soma",
   "title": "Sainted Soma",
   "description": "Incredible liquid infused with an angelic essence. Alchemise it!",
   "statistics": {
@@ -2473,7 +2372,6 @@
   ]
  },
  "seashell": {
-  "id": "seashell",
   "title": "Seashell",
   "description": "A cute, colourless keepsake from the coast. Alchemise it!",
   "statistics": {
@@ -2497,7 +2395,6 @@
   ]
  },
  "secrets-of-the-shield": {
-  "id": "secrets-of-the-shield",
   "title": "'Secrets of the Shield'",
   "description": "Pop this in your pocket to completely avoid critical hits..",
   "statistics": {
@@ -2509,7 +2406,6 @@
   "classification": "everyday"
  },
  "seed-of-agility": {
-  "id": "seed-of-agility",
   "title": "Seed of Agility",
   "description": "A seed that slightly supplements a single ally's agility.",
   "statistics": {
@@ -2524,7 +2420,6 @@
   }
  },
  "seed-of-defence": {
-  "id": "seed-of-defence",
   "title": "Seed of Defence",
   "description": "A seed that steps up a single ally's defensive skills slightly.",
   "statistics": {
@@ -2539,7 +2434,6 @@
   }
  },
  "seed-of-deftness": {
-  "id": "seed-of-deftness",
   "title": "Seed of Deftness",
   "description": "A seed that steps up a single ally's deftness a dash.",
   "statistics": {
@@ -2554,7 +2448,6 @@
   }
  },
  "seed-of-life": {
-  "id": "seed-of-life",
   "title": "Seed of Life",
   "description": "A seed that slightly supplements a single ally's maximum health.",
   "statistics": {
@@ -2569,7 +2462,6 @@
   }
  },
  "seed-of-magic": {
-  "id": "seed-of-magic",
   "title": "Seed of Magic",
   "description": "A seed that slightly supplements a single ally's maximum MP.",
   "statistics": {
@@ -2584,7 +2476,6 @@
   }
  },
  "seed-of-skill": {
-  "id": "seed-of-skill",
   "title": "Seed of Skill",
   "description": "A seed that slightly supplements a single ally's skill points.",
   "statistics": {
@@ -2599,7 +2490,6 @@
   }
  },
  "seed-of-sorcery": {
-  "id": "seed-of-sorcery",
   "title": "Seed of Sorcery",
   "description": "A seed that steps up a single ally's magical might slightly.",
   "statistics": {
@@ -2614,7 +2504,6 @@
   }
  },
  "seed-of-strength": {
-  "id": "seed-of-strength",
   "title": "Seed of Strength",
   "description": "A seed that steps up a single ally's strength slightly.",
   "statistics": {
@@ -2629,7 +2518,6 @@
   }
  },
  "seed-of-therapeusis": {
-  "id": "seed-of-therapeusis",
   "title": "Seed of Therapeusis",
   "description": "A seed that steps up a single ally's magical mending slightly.",
   "statistics": {
@@ -2644,7 +2532,6 @@
   }
  },
  "silver-orb": {
-  "id": "silver-orb",
   "title": "Silver Orb",
   "description": "A ridiculously rare orb of sparkling silver. Alchemise it!",
   "statistics": {
@@ -2671,7 +2558,6 @@
   ]
  },
  "sleeping-hibiscus": {
-  "id": "sleeping-hibiscus",
   "title": "Sleeping Hibiscus",
   "description": "A serious sedative that sends a single group of enemies to sleep.",
   "statistics": {
@@ -2696,7 +2582,6 @@
   ]
  },
  "slimedrop": {
-  "id": "slimedrop",
   "title": "Slimedrop",
   "description": "A gooey gumdrop shaped like a lovely little slime. Alchemise it!",
   "statistics": {
@@ -2726,7 +2611,6 @@
   ]
  },
  "slipweed": {
-  "id": "slipweed",
   "title": "Slipweed",
   "description": "A plant that's so slippery it's problematic to pick up. Alchemise it!",
   "statistics": {
@@ -2745,7 +2629,6 @@
   ]
  },
  "snakeskin": {
-  "id": "snakeskin",
   "title": "Snakeskin",
   "description": "The sloughed-off skin of a slithering serpent. Alchemise it!",
   "statistics": {
@@ -2768,7 +2651,6 @@
   ]
  },
  "softwort": {
-  "id": "softwort",
   "title": "Softwort",
   "description": "An antidote to paralysis for a single ally that also adds around 60 HP.",
   "statistics": {
@@ -2794,7 +2676,6 @@
   ]
  },
  "special-antidote": {
-  "id": "special-antidote",
   "title": "Special Antidote",
   "description": "A herb that heals poison and restores around 90 HP to a single ally.",
   "statistics": {
@@ -2811,7 +2692,6 @@
   ]
  },
  "special-medicine": {
-  "id": "special-medicine",
   "title": "Special Medicine",
   "description": "A helpful herb that restores around 90 HP to a single ally.",
   "statistics": {
@@ -2834,7 +2714,6 @@
   ]
  },
  "staff-studies": {
-  "id": "staff-studies",
   "title": "'Staff Studies'",
   "description": "Pop this in your pocket to gain use of the",
   "statistics": {
@@ -2846,7 +2725,6 @@
   "classification": "everyday"
  },
  "sterling-s-whistle": {
-  "id": "sterling-s-whistle",
   "title": "Sterling's Whistle",
   "description": "A puff on this will bring the Starflight Express steaming to your aid.",
   "statistics": {
@@ -2858,7 +2736,6 @@
   "classification": "everyday"
  },
  "strong-antidote": {
-  "id": "strong-antidote",
   "title": "Strong Antidote",
   "description": "A herb that heals poison and restores around 40 HP to a single ally.",
   "statistics": {
@@ -2886,7 +2763,6 @@
   ]
  },
  "strong-medicine": {
-  "id": "strong-medicine",
   "title": "Strong Medicine",
   "description": "A helpful herb that restores around 40 HP to a single ally.",
   "statistics": {
@@ -2915,7 +2791,6 @@
   ]
  },
  "sunstone": {
-  "id": "sunstone",
   "title": "Sunstone",
   "description": "A radiant rock that sizzles with solar heat. Alchemise it!",
   "statistics": {
@@ -2943,7 +2818,6 @@
   ]
  },
  "superior-medicine": {
-  "id": "superior-medicine",
   "title": "Superior Medicine",
   "description": "A helpful herb that restores around 60 HP to a single ally.",
   "statistics": {
@@ -2970,7 +2844,6 @@
   ]
  },
  "swordcraft-in-summary": {
-  "id": "swordcraft-in-summary",
   "title": "'Swordcraft in Summary'",
   "description": "Pop this in your pocket to gain use of the",
   "statistics": {
@@ -2982,7 +2855,6 @@
   "classification": "everyday"
  },
  "tangleweb": {
-  "id": "tangleweb",
   "title": "Tangleweb",
   "description": "A cloying cobweb that slows the enemy to a snail's pace.",
   "statistics": {
@@ -3009,7 +2881,6 @@
   ]
  },
  "technicolour-dreamcloth": {
-  "id": "technicolour-dreamcloth",
   "title": "Technicolour Dreamcloth",
   "description": "Colourful cloth that glows like a rainbow. Alchemise it!",
   "statistics": {
@@ -3038,7 +2909,6 @@
   ]
  },
  "the-boomerang-bible": {
-  "id": "the-boomerang-bible",
   "title": "'The Boomerang Bible'",
   "description": "Pop this in your pocket to gain use of the",
   "statistics": {
@@ -3050,7 +2920,6 @@
   "classification": "everyday"
  },
  "the-core-of-the-claw": {
-  "id": "the-core-of-the-claw",
   "title": "'The Core of the Claw'",
   "description": "Pop this in your pocket to gain use of the",
   "statistics": {
@@ -3062,7 +2931,6 @@
   "classification": "everyday"
  },
  "thief-s-theory": {
-  "id": "thief-s-theory",
   "title": "'Thief's Theory'",
   "description": "Pop this in your pocket to steal stuff without lifting a finger.",
   "statistics": {
@@ -3074,7 +2942,6 @@
   "classification": "everyday"
  },
  "thinkincense": {
-  "id": "thinkincense",
   "title": "Thinkincense",
   "description": "A peculiar plant with a soothing scent when burned. Alchemise it!",
   "statistics": {
@@ -3099,7 +2966,6 @@
   ]
  },
  "thunderball": {
-  "id": "thunderball",
   "title": "Thunderball",
   "description": "A chunk of rock charged with electrical energy. Alchemise it!",
   "statistics": {
@@ -3122,7 +2988,6 @@
   ]
  },
  "toad-oil": {
-  "id": "toad-oil",
   "title": "Toad Oil",
   "description": "The greasy excretion of an enormous amphibian. Alchemise it!",
   "statistics": {
@@ -3141,7 +3006,6 @@
   ]
  },
  "tortoiseshell": {
-  "id": "tortoiseshell",
   "title": "Tortoiseshell",
   "description": "Not to be confused with the armour,",
   "statistics": {
@@ -3162,7 +3026,6 @@
   ]
  },
  "wakerobin": {
-  "id": "wakerobin",
   "title": "Wakerobin",
   "description": "A powerful pick-me-up that can stir a single ally from sleep.",
   "statistics": {
@@ -3179,7 +3042,6 @@
   ]
  },
  "wands-and-beyond": {
-  "id": "wands-and-beyond",
   "title": "'Wands and Beyond'",
   "description": "Pop this in your pocket to gain use of the",
   "statistics": {
@@ -3191,7 +3053,6 @@
   "classification": "everyday"
  },
  "warrior-s-workbook": {
-  "id": "warrior-s-workbook",
   "title": "'Warrior's Workbook'",
   "description": "Pop this in your pocket to perform off-the-cuff counterattacks.",
   "statistics": {
@@ -3203,7 +3064,6 @@
   "classification": "everyday"
  },
  "watcher-s-wings": {
-  "id": "watcher-s-wings",
   "title": "Watcher's Wings",
   "description": "Peculiar plumage with the power to send people back home.",
   "statistics": {
@@ -3215,7 +3075,6 @@
   "classification": "everyday"
  },
  "wing-of-bat": {
-  "id": "wing-of-bat",
   "title": "Wing of Bat",
   "description": "The big black wing of a big black bat. Alchemise it!",
   "statistics": {
@@ -3238,7 +3097,6 @@
   ]
  },
  "working-with-whips": {
-  "id": "working-with-whips",
   "title": "'Working with Whips'",
   "description": "Pop this in your pocket to gain use of the",
   "statistics": {
@@ -3250,7 +3108,6 @@
   "classification": "everyday"
  },
  "yellow-orb": {
-  "id": "yellow-orb",
   "title": "Yellow Orb",
   "description": "A ridiculously rare orb of buttercup yellow. Alchemise it!",
   "statistics": {
@@ -3279,7 +3136,6 @@
   ]
  },
  "yggdrasil-dew": {
-  "id": "yggdrasil-dew",
   "title": "Yggdrasil Dew",
   "description": "Divine drops that bring the whole party back to full health.",
   "statistics": {
@@ -3298,7 +3154,6 @@
   }
  },
  "yggdrasil-leaf": {
-  "id": "yggdrasil-leaf",
   "title": "Yggdrasil Leaf",
   "description": "Rare foliage that can resurrect a single written-off ally.",
   "statistics": {

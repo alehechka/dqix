@@ -1,6 +1,5 @@
 {
  "aeon-s-bow": {
-  "id": "aeon-s-bow",
   "title": "Aeon's Bow",
   "description": "A blistering bow made by bolstering the archangel's bow.",
   "statistics": {
@@ -28,7 +27,6 @@
   ]
  },
  "angel-s-bow": {
-  "id": "angel-s-bow",
   "title": "Angel's Bow",
   "description": "A bow brimming with the holy power of heavenly messengers.",
   "statistics": {
@@ -58,7 +56,6 @@
   ]
  },
  "archangel-s-bow": {
-  "id": "archangel-s-bow",
   "title": "Archangel's Bow",
   "description": "A breathtaking bow made by bolstering the angel's bow.",
   "statistics": {
@@ -87,7 +84,6 @@
   ]
  },
  "billowing-bow": {
-  "id": "billowing-bow",
   "title": "Billowing Bow",
   "description": "A bow imbued with the power of a whirlwind.",
   "statistics": {
@@ -115,7 +111,6 @@
   ]
  },
  "blinding-bow": {
-  "id": "blinding-bow",
   "title": "Blinding Bow",
   "description": "An enhanced edition of the purblind bow.",
   "statistics": {
@@ -138,7 +133,6 @@
   }
  },
  "blowy-bow": {
-  "id": "blowy-bow",
   "title": "Blowy Bow",
   "description": "A bow imbued with the power of the wind.",
   "statistics": {
@@ -171,7 +165,6 @@
   ]
  },
  "blustery-bow": {
-  "id": "blustery-bow",
   "title": "Blustery Bow",
   "description": "A bow imbued with the power of a tempest.",
   "statistics": {
@@ -196,7 +189,6 @@
   }
  },
  "cheiron-s-bow": {
-  "id": "cheiron-s-bow",
   "title": "Cheiron's Bow",
   "description": "A blessed bow that heals all allies if used as an item in battle.",
   "statistics": {
@@ -220,7 +212,6 @@
   ]
  },
  "fuddle-bow": {
-  "id": "fuddle-bow",
   "title": "Fuddle Bow",
   "description": "A discombobulating bow that befuddles the foes its arrows find.",
   "statistics": {
@@ -243,7 +234,6 @@
   ]
  },
  "great-bow": {
-  "id": "great-bow",
   "title": "Great Bow",
   "description": "A big bow built to fire brawny bolts.",
   "statistics": {
@@ -268,7 +258,6 @@
   ]
  },
  "hotshot-bow": {
-  "id": "hotshot-bow",
   "title": "Hotshot Bow",
   "description": "A hunter's handbow that finds even faraway flying prey.",
   "statistics": {
@@ -293,7 +282,6 @@
   }
  },
  "hunter-s-bow": {
-  "id": "hunter-s-bow",
   "title": "Hunter's Bow",
   "description": "A strong bow that deals a strong blow and is well-loved by warriors.",
   "statistics": {
@@ -324,7 +312,6 @@
   ]
  },
  "longbow": {
-  "id": "longbow",
   "title": "Longbow",
   "description": "A big bow that's a bit more of a chore to draw.",
   "statistics": {
@@ -349,7 +336,6 @@
   ]
  },
  "odin-s-bow": {
-  "id": "odin-s-bow",
   "title": "Odin's Bow",
   "description": "A bow among bows that boasts fantastic firepower.",
   "statistics": {
@@ -374,7 +360,6 @@
   ]
  },
  "oh-no-bow": {
-  "id": "oh-no-bow",
   "title": "Oh-No Bow",
   "description": "A baleful bow that, though pretty powerful, is cripplingly cursed.",
   "statistics": {
@@ -404,7 +389,6 @@
   ]
  },
  "potshot-bow": {
-  "id": "potshot-bow",
   "title": "Potshot Bow",
   "description": "A hunter's handbow used for downing downy prey.",
   "statistics": {
@@ -433,7 +417,6 @@
   ]
  },
  "purblind-bow": {
-  "id": "purblind-bow",
   "title": "Purblind Bow",
   "description": "A bewitched bow of brutal power.",
   "statistics": {
@@ -463,7 +446,6 @@
   ]
  },
  "seraph-s-bow": {
-  "id": "seraph-s-bow",
   "title": "Seraph's Bow",
   "description": "An unbeatable bow at the very peak of perfection.",
   "statistics": {
@@ -488,7 +470,6 @@
   }
  },
  "short-bow": {
-  "id": "short-bow",
   "title": "Short Bow",
   "description": "A beginner's bow that's easy on the purse and the pectorals.",
   "statistics": {

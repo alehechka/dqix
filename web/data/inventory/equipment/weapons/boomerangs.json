@@ -1,6 +1,5 @@
 {
  "asterang": {
-  "id": "asterang",
   "title": "Asterang",
   "description": "A rip-roaring 'rang that flattens foes like an avalanche of asteroids.",
   "statistics": {
@@ -27,7 +26,6 @@
   ]
  },
  "banefire-boomerang": {
-  "id": "banefire-boomerang",
   "title": "Banefire Boomerang",
   "description": "A boomerang blessed with the power of billowing flames.",
   "statistics": {
@@ -52,7 +50,6 @@
   }
  },
  "blusterang": {
-  "id": "blusterang",
   "title": "Blusterang",
   "description": "A throwing stick so staggeringly strong, it can whip up a whirlwind.",
   "statistics": {
@@ -77,7 +74,6 @@
   }
  },
  "boomerang": {
-  "id": "boomerang",
   "title": "Boomerang",
   "description": "A thrown weapon that can strike all enemies with a single sling.",
   "statistics": {
@@ -103,7 +99,6 @@
   ]
  },
  "crucerang": {
-  "id": "crucerang",
   "title": "Crucerang",
   "description": "A dream 'rang that's a doddle to dispatch and deals decent damage.",
   "statistics": {
@@ -131,7 +126,6 @@
   ]
  },
  "cutting-edge-boomerang": {
-  "id": "cutting-edge-boomerang",
   "title": "Cutting-Edge Boomerang",
   "description": "A metal boomerang of shocking sharpness.",
   "statistics": {
@@ -154,7 +148,6 @@
   }
  },
  "eaglewing": {
-  "id": "eaglewing",
   "title": "Eaglewing",
   "description": "A kylie whose construction is modelled on the king of hawks.",
   "statistics": {
@@ -177,7 +170,6 @@
   }
  },
  "edged-boomerang": {
-  "id": "edged-boomerang",
   "title": "Edged Boomerang",
   "description": "A metal boomerang with a bladed bite.",
   "statistics": {
@@ -204,7 +196,6 @@
   ]
  },
  "erazor-wing-boomerang": {
-  "id": "erazor-wing-boomerang",
   "title": "Erazor-Wing Boomerang",
   "description": "An uncommonly keen kylie that carves the way to conquest.",
   "statistics": {
@@ -227,7 +218,6 @@
   }
  },
  "flametang-boomerang": {
-  "id": "flametang-boomerang",
   "title": "Flametang Boomerang",
   "description": "A boomerang bearing a fiery force.",
   "statistics": {
@@ -259,7 +249,6 @@
   ]
  },
  "galaxarang": {
-  "id": "galaxarang",
   "title": "Galaxarang",
   "description": "A rip-roaring 'rang glorified for its galaxy-gashing get-up-and-go.",
   "statistics": {
@@ -282,7 +271,6 @@
   }
  },
  "gusterang": {
-  "id": "gusterang",
   "title": "Gusterang",
   "description": "A throwing stick suffused with the strength of the wind.",
   "statistics": {
@@ -316,7 +304,6 @@
   ]
  },
  "hexarang": {
-  "id": "hexarang",
   "title": "Hexarang",
   "description": "A curious kylie that's a pinch more powerful than the pentarang.",
   "statistics": {
@@ -344,7 +331,6 @@
   ]
  },
  "meteorang": {
-  "id": "meteorang",
   "title": "Meteorang",
   "description": "A rip-roaring 'rang that flattens foes like a meteorite.",
   "statistics": {
@@ -372,7 +358,6 @@
   ]
  },
  "pentarang": {
-  "id": "pentarang",
   "title": "Pentarang",
   "description": "A boomerang blessed with the power of billowing flames.",
   "statistics": {
@@ -402,7 +387,6 @@
   ]
  },
  "razer-wing-boomerang": {
-  "id": "razer-wing-boomerang",
   "title": "Razer-Wing Boomerang",
   "description": "A razor-sharp 'rang renowned for razing the rabble to the ground.",
   "statistics": {
@@ -427,7 +411,6 @@
   ]
  },
  "razor-wing-boomerang": {
-  "id": "razor-wing-boomerang",
   "title": "Razor-Wing Boomerang",
   "description": "A steel-bladed boomerang with an acute edge.",
   "statistics": {
@@ -454,7 +437,6 @@
   ]
  },
  "reinforced-boomerang": {
-  "id": "reinforced-boomerang",
   "title": "Reinforced Boomerang",
   "description": "A slightly superior version of the basic boomerang.",
   "statistics": {
@@ -479,7 +461,6 @@
   ]
  },
  "stellarang": {
-  "id": "stellarang",
   "title": "Stellarang",
   "description": "A rip-roaring 'rang that ploughs through its prey like a supernova.",
   "statistics": {
@@ -505,7 +486,6 @@
   ]
  },
  "swallowtail": {
-  "id": "swallowtail",
   "title": "Swallowtail",
   "description": "A boomerang based on a picture of a pair of soaring swallows.",
   "statistics": {

@@ -1,6 +1,5 @@
 {
  "aeon-s-robe": {
-  "id": "aeon-s-robe",
   "title": "Aeon's Robe",
   "description": "A righteous robe that fends off fatal spells.",
   "statistics": {
@@ -32,7 +31,6 @@
   ]
  },
  "alefgard-armour": {
-  "id": "alefgard-armour",
   "title": "Alefgard Armour",
   "description": "Mail made to mimic that worn by a hero of Alefgard.",
   "statistics": {
@@ -62,7 +60,6 @@
   }
  },
  "alena-s-dress": {
-  "id": "alena-s-dress",
   "title": "Alena's Dress",
   "description": "A tantalising one-piece worn by Tsarevna Alena.",
   "statistics": {
@@ -89,7 +86,6 @@
   "classification": "torso"
  },
  "aliahan-clothes": {
-  "id": "aliahan-clothes",
   "title": "Aliahan Clothes",
   "description": "A supple suit supposedly sported by a legendary hero.",
   "statistics": {
@@ -119,7 +115,6 @@
   }
  },
  "angel-s-robe": {
-  "id": "angel-s-robe",
   "title": "Angel's Robe",
   "description": "Curious clothing that fends off fatal spells.",
   "statistics": {
@@ -153,7 +148,6 @@
   ]
  },
  "aquila-s-armour": {
-  "id": "aquila-s-armour",
   "title": "Aquila's Armour",
   "description": "Would wearing this make you feel like some kind of superior Celestrian?",
   "statistics": {
@@ -180,7 +174,6 @@
   "classification": "torso"
  },
  "archangel-s-robe": {
-  "id": "archangel-s-robe",
   "title": "Archangel's Robe",
   "description": "An unreal robe that fends off fatal spells.",
   "statistics": {
@@ -213,7 +206,6 @@
   ]
  },
  "ascetic-robe": {
-  "id": "ascetic-robe",
   "title": "Ascetic Robe",
   "description": "A virtuous vestment for male priests that stops MP from being stolen.",
   "statistics": {
@@ -238,7 +230,6 @@
   ]
  },
  "ashlynn-s-clothes": {
-  "id": "ashlynn-s-clothes",
   "title": "Ashlynn's Clothes",
   "description": "A dress donned by Ashlynn, apparently.",
   "statistics": {
@@ -265,7 +256,6 @@
   "classification": "torso"
  },
  "best-vest": {
-  "id": "best-vest",
   "title": "Best Vest",
   "description": "A fetching and fashionable vest.",
   "statistics": {
@@ -298,7 +288,6 @@
   ]
  },
  "bianca-s-clothes": {
-  "id": "bianca-s-clothes",
   "title": "Bianca's Clothes",
   "description": "Get-up-and-go garb worn by Bianca Whitaker.",
   "statistics": {
@@ -325,7 +314,6 @@
   "classification": "torso"
  },
  "borya-s-robe": {
-  "id": "borya-s-robe",
   "title": "Borya's Robe",
   "description": "A cloak that once covered the shoulders of the sorcerer Borya.",
   "statistics": {
@@ -353,7 +341,6 @@
   "classification": "torso"
  },
  "brawling-byrnie": {
-  "id": "brawling-byrnie",
   "title": "Brawling Byrnie",
   "description": "Combat clobber for high-grade female gladiators.",
   "statistics": {
@@ -371,7 +358,6 @@
   }
  },
  "bronze-armour": {
-  "id": "bronze-armour",
   "title": "Bronze Armour",
   "description": "Armour made of alloyed metal plates.",
   "statistics": {
@@ -397,7 +383,6 @@
   ]
  },
  "bunny-suit": {
-  "id": "bunny-suit",
   "title": "Bunny Suit",
   "description": "The sort of glamorous get-up bunny girls gad about in.",
   "statistics": {
@@ -428,7 +413,6 @@
   ]
  },
  "cannock-cloak": {
-  "id": "cannock-cloak",
   "title": "Cannock Cloak",
   "description": "A comfortable cape worn by the Prince of Cannock.",
   "statistics": {
@@ -455,7 +439,6 @@
   "classification": "torso"
  },
  "cape-of-good-karma": {
-  "id": "cape-of-good-karma",
   "title": "Cape of Good Karma",
   "description": "A male sage's surplice that fights Fizzle and MP draining.",
   "statistics": {
@@ -480,7 +463,6 @@
   }
  },
  "captain-s-coat": {
-  "id": "captain-s-coat",
   "title": "Captain's Coat",
   "description": "A coat cut for a cutlass-wielding captain of considerable renown.",
   "statistics": {
@@ -508,7 +490,6 @@
   "classification": "torso"
  },
  "carver-s-vest": {
-  "id": "carver-s-vest",
   "title": "Carver's Vest",
   "description": "A vest of Carver's that could easily be mistaken for a ratty rag.",
   "statistics": {
@@ -535,7 +516,6 @@
   "classification": "torso"
  },
  "catoptric-armour": {
-  "id": "catoptric-armour",
   "title": "Catoptric Armour",
   "description": "A resplendent suit that sometimes sends spells back to their source",
   "statistics": {
@@ -564,7 +544,6 @@
   }
  },
  "celestial-suit": {
-  "id": "celestial-suit",
   "title": "Celestial Suit",
   "description": "Astral attire made from incredible ingredients.",
   "statistics": {
@@ -591,7 +570,6 @@
   "classification": "torso"
  },
  "celestria-s-gown": {
-  "id": "celestria-s-gown",
   "title": "Celestria's Gown",
   "description": "A radiant robe that wards off sleep and death and heals wounds.",
   "statistics": {
@@ -623,7 +601,6 @@
   ]
  },
  "celestria-s-raiment": {
-  "id": "celestria-s-raiment",
   "title": "Celestria's Raiment",
   "description": "A downy gown that wards off sleep and death and heals wounds.",
   "statistics": {
@@ -653,7 +630,6 @@
   }
  },
  "chain-mail": {
-  "id": "chain-mail",
   "title": "Chain Mail",
   "description": "A supple suit made from little loops of wire.",
   "statistics": {
@@ -689,7 +665,6 @@
   ]
  },
  "cloak-of-concealment": {
-  "id": "cloak-of-concealment",
   "title": "Cloak of Concealment",
   "description": "Enchanted attire that makes evading enemy attacks easier.",
   "statistics": {
@@ -722,7 +697,6 @@
   }
  },
  "cloak-of-evasion": {
-  "id": "cloak-of-evasion",
   "title": "Cloak of Evasion",
   "description": "Uncommon clothing that makes evading enemy attacks easier.",
   "statistics": {
@@ -760,7 +734,6 @@
   ]
  },
  "combat-costume": {
-  "id": "combat-costume",
   "title": "Combat Costume",
   "description": "A piece of clothing worn by pre-modern female martial artists.",
   "statistics": {
@@ -780,7 +753,6 @@
   ]
  },
  "combat-top": {
-  "id": "combat-top",
   "title": "Combat Top",
   "description": "A piece of clothing worn by pre-modern male martial artists.",
   "statistics": {
@@ -800,7 +772,6 @@
   ]
  },
  "dancer-s-costume": {
-  "id": "dancer-s-costume",
   "title": "Dancer's Costume",
   "description": "Attractive attire donned by dancers.",
   "statistics": {
@@ -834,7 +805,6 @@
   ]
  },
  "dancer-s-dress": {
-  "id": "dancer-s-dress",
   "title": "Dancer's Dress",
   "description": "A gorgeous garment that's great for girls on the stage.",
   "statistics": {
@@ -860,7 +830,6 @@
   ]
  },
  "dangerous-bikini-top": {
-  "id": "dangerous-bikini-top",
   "title": "Dangerous Bikini Top",
   "description": "Swimwear that's somewhat unsafe to set eyes on.",
   "statistics": {
@@ -894,7 +863,6 @@
   ]
  },
  "dangerous-bustier": {
-  "id": "dangerous-bustier",
   "title": "Dangerous Bustier",
   "description": "A barely believable bodice that you'd be brave to look at.",
   "statistics": {
@@ -931,7 +899,6 @@
   ]
  },
  "dark-robe": {
-  "id": "dark-robe",
   "title": "Dark Robe",
   "description": "A gloomy-looking gown that sends enemy attacks astray.",
   "statistics": {
@@ -968,7 +935,6 @@
   ]
  },
  "debora-s-dress": {
-  "id": "debora-s-dress",
   "title": "Debora's Dress",
   "description": "A gaudy garment dearly beloved by Debora Briscoletti.",
   "statistics": {
@@ -995,7 +961,6 @@
   "classification": "torso"
  },
  "divine-bustier": {
-  "id": "divine-bustier",
   "title": "Divine Bustier",
   "description": "A beautiful bodice that makes sidestepping enemy strikes a cinch.",
   "statistics": {
@@ -1031,7 +996,6 @@
   ]
  },
  "divine-dress": {
-  "id": "divine-dress",
   "title": "Divine Dress",
   "description": "A lady sage's surplice that fights Fizzle and MP draining.",
   "statistics": {
@@ -1057,7 +1021,6 @@
   }
  },
  "dragon-dress": {
-  "id": "dragon-dress",
   "title": "Dragon Dress",
   "description": "Female martial artist's attire that fends off fire and ice attacks.",
   "statistics": {
@@ -1081,7 +1044,6 @@
   ]
  },
  "dragon-mail": {
-  "id": "dragon-mail",
   "title": "Dragon Mail",
   "description": "A scaly suit that deflects fire- and ice-based damage.",
   "statistics": {
@@ -1118,7 +1080,6 @@
   }
  },
  "dragon-robe": {
-  "id": "dragon-robe",
   "title": "Dragon Robe",
   "description": "A garment possessed by a powerful dragon that muffles magical attacks.",
   "statistics": {
@@ -1150,7 +1111,6 @@
   ]
  },
  "dragon-top": {
-  "id": "dragon-top",
   "title": "Dragon Top",
   "description": "Martial artist's attire that impedes attacks of fire and ice.",
   "statistics": {
@@ -1180,7 +1140,6 @@
   ]
  },
  "dragon-warrior-armour": {
-  "id": "dragon-warrior-armour",
   "title": "Dragon Warrior Armour",
   "description": "Armour given by Greygnarl as a token of friendship.",
   "statistics": {
@@ -1212,7 +1171,6 @@
   ]
  },
  "emperor-s-attire": {
-  "id": "emperor-s-attire",
   "title": "Emperor's Attire",
   "description": "Magic-resistant regalia that exudes an emperor's exaltedness.",
   "statistics": {
@@ -1242,7 +1200,6 @@
   }
  },
  "empress-s-robe": {
-  "id": "empress-s-robe",
   "title": "Empress's Robe",
   "description": "Magic-resistant regalia that exudes an empress's elegance.",
   "statistics": {
@@ -1272,7 +1229,6 @@
   }
  },
  "enchanted-armour": {
-  "id": "enchanted-armour",
   "title": "Enchanted Armour",
   "description": "A saintly suit of armour that staves off spells.",
   "statistics": {
@@ -1307,7 +1263,6 @@
   ]
  },
  "enchanted-robes": {
-  "id": "enchanted-robes",
   "title": "Enchanted Robes",
   "description": "A sound vestment that staunchly stands up to spells.",
   "statistics": {
@@ -1341,7 +1296,6 @@
   ]
  },
  "erdrick-s-armour": {
-  "id": "erdrick-s-armour",
   "title": "Erdrick's Armour",
   "description": "Archetypal armour once worn by a heralded hero.",
   "statistics": {
@@ -1368,7 +1322,6 @@
   }
  },
  "erinn-s-outfit": {
-  "id": "erinn-s-outfit",
   "title": "Erinn's Outfit",
   "description": "Erinn's much-beloved inn-tending outfit.",
   "statistics": {
@@ -1395,7 +1348,6 @@
   "classification": "torso"
  },
  "estard-clothes": {
-  "id": "estard-clothes",
   "title": "Estard Clothes",
   "description": "Commonplace clothing that can be purchased in Estard.",
   "statistics": {
@@ -1425,7 +1377,6 @@
   }
  },
  "ethereal-armour": {
-  "id": "ethereal-armour",
   "title": "Ethereal Armour",
   "description": "A stupendous suit of armour that staves off spells.",
   "statistics": {
@@ -1457,7 +1408,6 @@
   }
  },
  "ethereal-robes": {
-  "id": "ethereal-robes",
   "title": "Ethereal Robes",
   "description": "A protected vestment that's particularly powerful against magic.",
   "statistics": {
@@ -1487,7 +1437,6 @@
   }
  },
  "exotoga": {
-  "id": "exotoga",
   "title": "Exotoga",
   "description": "The perfect protection against fire, ice, poison, sleep and paralysis.",
   "statistics": {
@@ -1516,7 +1465,6 @@
   }
  },
  "femiscyran-mail": {
-  "id": "femiscyran-mail",
   "title": "Femiscyran Mail",
   "description": "A flexible defensive garment for female fighters.",
   "statistics": {
@@ -1536,7 +1484,6 @@
   ]
  },
  "fencing-frock": {
-  "id": "fencing-frock",
   "title": "Fencing Frock",
   "description": "Female armamentalist's attire that impedes the impact of magic attacks.",
   "statistics": {
@@ -1558,7 +1505,6 @@
   }
  },
  "fencing-jacket": {
-  "id": "fencing-jacket",
   "title": "Fencing Jacket",
   "description": "Male armamentalist's attire that impedes the impact of magic attacks.",
   "statistics": {
@@ -1580,7 +1526,6 @@
   }
  },
  "fizzle-proof-suit": {
-  "id": "fizzle-proof-suit",
   "title": "Fizzle-Proof Suit",
   "description": "An enchanted ensemble for male mages that fends off Fizzle.",
   "statistics": {
@@ -1607,7 +1552,6 @@
   ]
  },
  "fizzle-retardant-blouse": {
-  "id": "fizzle-retardant-blouse",
   "title": "Fizzle-Retardant Blouse",
   "description": "A gob-smacking garment for female mages that fends of Fizzle.",
   "statistics": {
@@ -1629,7 +1573,6 @@
   }
  },
  "fizzle-retardant-suit": {
-  "id": "fizzle-retardant-suit",
   "title": "Fizzle-Retardant Suit",
   "description": "A gob-smacking garment for male mages that fends off Fizzle.",
   "statistics": {
@@ -1654,7 +1597,6 @@
   ]
  },
  "flamenco-shirt": {
-  "id": "flamenco-shirt",
   "title": "Flamenco Shirt",
   "description": "Rose-coloured regalia that's right on for male performers.",
   "statistics": {
@@ -1678,7 +1620,6 @@
   ]
  },
  "fleurette-s-frock": {
-  "id": "fleurette-s-frock",
   "title": "Fleurette's Frock",
   "description": "A dazzling dress of Fleurette's from a famous label.",
   "statistics": {
@@ -1705,7 +1646,6 @@
   "classification": "torso"
  },
  "flowing-dress": {
-  "id": "flowing-dress",
   "title": "Flowing Dress",
   "description": "A consecrated costume that curbs fire- and ice-based damage.",
   "statistics": {
@@ -1744,7 +1684,6 @@
   }
  },
  "full-plate-armour": {
-  "id": "full-plate-armour",
   "title": "Full Plate Armour",
   "description": "Steel armour that covers the upper quarters.",
   "statistics": {
@@ -1772,7 +1711,6 @@
   ]
  },
  "fur-poncho": {
-  "id": "fur-poncho",
   "title": "Fur Poncho",
   "description": "A sturdy skin that staves off fire and ice attacks.",
   "statistics": {
@@ -1809,7 +1747,6 @@
   ]
  },
  "fur-vest": {
-  "id": "fur-vest",
   "title": "Fur Vest",
   "description": "Body-hugging boyswear that fends off fire- and ice-based attacks.",
   "statistics": {
@@ -1849,7 +1786,6 @@
   }
  },
  "garish-garb": {
-  "id": "garish-garb",
   "title": "Garish Garb",
   "description": "Ta-daa! Glitzy, some might say gaudy, garb for stars of the stage.",
   "statistics": {
@@ -1887,7 +1823,6 @@
   ]
  },
  "gigant-armour": {
-  "id": "gigant-armour",
   "title": "Gigant Armour",
   "description": "Heavy armour, strong against fire-, ice- and lightning-based attacks.",
   "statistics": {
@@ -1912,7 +1847,6 @@
   ]
  },
  "gigasteel-armour": {
-  "id": "gigasteel-armour",
   "title": "Gigasteel Armour",
   "description": "A very hard version of full plate armour.",
   "statistics": {
@@ -1937,7 +1871,6 @@
   }
  },
  "glombolero": {
-  "id": "glombolero",
   "title": "Glombolero",
   "description": "Curious clothing that absorbs the power of magic cast on it.",
   "statistics": {
@@ -1970,7 +1903,6 @@
   ]
  },
  "glorious-armour": {
-  "id": "glorious-armour",
   "title": "Glorious Armour",
   "description": "Acclaimed armour that mends HP and MP merely by moving about.",
   "statistics": {
@@ -2002,7 +1934,6 @@
   ]
  },
  "gold-mail": {
-  "id": "gold-mail",
   "title": "Gold Mail",
   "description": "Protective golden garb that deflects a dash of magic damage.",
   "statistics": {
@@ -2033,7 +1964,6 @@
   ]
  },
  "gooey-gear": {
-  "id": "gooey-gear",
   "title": "Gooey Gear",
   "description": "Wobbly wear oozing with fancy-dress flair for an amazing translimation.",
   "statistics": {
@@ -2067,7 +1997,6 @@
   ]
  },
  "gothan-robe": {
-  "id": "gothan-robe",
   "title": "Gothan Robe",
   "description": "A frugal gown that once graced the shoulders of the King of Gotha.",
   "statistics": {
@@ -2099,7 +2028,6 @@
   }
  },
  "gusto-garb": {
-  "id": "gusto-garb",
   "title": "GUSTO Garb",
   "description": "One of Morrie's special suits of carefully clashing colours.",
   "statistics": {
@@ -2126,7 +2054,6 @@
   "classification": "torso"
  },
  "heavy-armour": {
-  "id": "heavy-armour",
   "title": "Heavy Armour",
   "description": "A sturdy suit that staves off some fire- and ice-based strife.",
   "statistics": {
@@ -2154,7 +2081,6 @@
   }
  },
  "holy-femail": {
-  "id": "holy-femail",
   "title": "Holy Femail",
   "description": "Protection for female paladins that guards against ungodly powers.",
   "statistics": {
@@ -2172,7 +2098,6 @@
   }
  },
  "holy-mail": {
-  "id": "holy-mail",
   "title": "Holy Mail",
   "description": "Protection for male paladins that guards against ungodly powers.",
   "statistics": {
@@ -2193,7 +2118,6 @@
   }
  },
  "hot-bikini-top": {
-  "id": "hot-bikini-top",
   "title": "Hot Bikini Top",
   "description": "Waterwear that works well against fire and lightning attacks.",
   "statistics": {
@@ -2230,7 +2154,6 @@
   ]
  },
  "iron-armour": {
-  "id": "iron-armour",
   "title": "Iron Armour",
   "description": "Meta armour that covers the upper quarters.",
   "statistics": {
@@ -2261,7 +2184,6 @@
   ]
  },
  "iron-cuirass": {
-  "id": "iron-cuirass",
   "title": "Iron Cuirass",
   "description": "Good defensive garb made of iron that covers the chest.",
   "statistics": {
@@ -2297,7 +2219,6 @@
   ]
  },
  "jaguarment": {
-  "id": "jaguarment",
   "title": "Jaguarment",
   "description": "A jazzy dress made from a jaguar's hide.",
   "statistics": {
@@ -2327,7 +2248,6 @@
   ]
  },
  "jessica-s-frock": {
-  "id": "jessica-s-frock",
   "title": "Jessica's Frock",
   "description": "A delightful décolleté dress donned by Jessica.",
   "statistics": {
@@ -2354,7 +2274,6 @@
   "classification": "torso"
  },
  "jolly-roger-jumper": {
-  "id": "jolly-roger-jumper",
   "title": "Jolly Roger Jumper",
   "description": "A scary top sporting a skull-and-crossbones design.",
   "statistics": {
@@ -2385,7 +2304,6 @@
   ]
  },
  "kiefer-s-clothes": {
-  "id": "kiefer-s-clothes",
   "title": "Kiefer's Clothes",
   "description": "A scarlet suit once worn by Prince Kiefer.",
   "statistics": {
@@ -2412,7 +2330,6 @@
   "classification": "torso"
  },
  "king-s-coat": {
-  "id": "king-s-coat",
   "title": "King's Coat",
   "description": "Magic-resistant regalia that would complement a king.",
   "statistics": {
@@ -2445,7 +2362,6 @@
   ]
  },
  "kiryl-s-clothes": {
-  "id": "kiryl-s-clothes",
   "title": "Kiryl's Clothes",
   "description": "Clobber that once clad Bishop Kiryl.",
   "statistics": {
@@ -2473,7 +2389,6 @@
   "classification": "torso"
  },
  "large-scale-armour": {
-  "id": "large-scale-armour",
   "title": "Large-Scale Armour",
   "description": "Armour constructed with a covering of carefully selected scales.",
   "statistics": {
@@ -2503,7 +2418,6 @@
   }
  },
  "leather-armour": {
-  "id": "leather-armour",
   "title": "Leather Armour",
   "description": "Fully frill-free armour of firm, tanned leather.",
   "statistics": {
@@ -2533,7 +2447,6 @@
   ]
  },
  "leather-cape": {
-  "id": "leather-cape",
   "title": "Leather Cape",
   "description": "A toasty, tanned-leather type of attire.",
   "statistics": {
@@ -2570,7 +2483,6 @@
   ]
  },
  "leather-dress": {
-  "id": "leather-dress",
   "title": "Leather Dress",
   "description": "A surprisingly stylish dress made of hard-wearing animal hide.",
   "statistics": {
@@ -2603,7 +2515,6 @@
   ]
  },
  "legendary-armour": {
-  "id": "legendary-armour",
   "title": "Legendary Armour",
   "description": "Unparalleled protection that mends HP and MP merely by moving about.",
   "statistics": {
@@ -2631,7 +2542,6 @@
   }
  },
  "liquid-metal-armour": {
-  "id": "liquid-metal-armour",
   "title": "Liquid Metal Armour",
   "description": "Armour with a liquid metal slime emblem that staves off spells.",
   "statistics": {
@@ -2662,7 +2572,6 @@
   ]
  },
  "macabre-mantle": {
-  "id": "macabre-mantle",
   "title": "Macabre Mantle",
   "description": "Dingy drapery that makes dodging enemy attacks a doddle.",
   "statistics": {
@@ -2694,7 +2603,6 @@
   ]
  },
  "magic-armour": {
-  "id": "magic-armour",
   "title": "Magic Armour",
   "description": "A strange suit of armour that staves off spells.",
   "statistics": {
@@ -2735,7 +2643,6 @@
   ]
  },
  "magical-robes": {
-  "id": "magical-robes",
   "title": "Magical Robes",
   "description": "A magical vestment that spoils the effects of spells.",
   "statistics": {
@@ -2771,7 +2678,6 @@
   ]
  },
  "maid-outfit": {
-  "id": "maid-outfit",
   "title": "Maid Outfit",
   "description": "Aproned attire made for maids.",
   "statistics": {
@@ -2799,7 +2705,6 @@
   "classification": "torso"
  },
  "maiden-s-mantle": {
-  "id": "maiden-s-mantle",
   "title": "Maiden's Mantle",
   "description": "A mighty magical cloak favoured by erudite females.",
   "statistics": {
@@ -2823,7 +2728,6 @@
   ]
  },
  "majestic-mantle": {
-  "id": "majestic-mantle",
   "title": "Majestic Mantle",
   "description": "A regal wrap that enhances the elegance of any outfit eightfold.",
   "statistics": {
@@ -2853,7 +2757,6 @@
   ]
  },
  "maribel-s-clothes": {
-  "id": "maribel-s-clothes",
   "title": "Maribel's Clothes",
   "description": "A one-piece that was worn by Maribel.",
   "statistics": {
@@ -2880,7 +2783,6 @@
   "classification": "torso"
  },
  "maya-s-outfit": {
-  "id": "maya-s-outfit",
   "title": "Maya's Outfit",
   "description": "A racy raiment donned by the dancer Maya.",
   "statistics": {
@@ -2908,7 +2810,6 @@
   "classification": "torso"
  },
  "meena-s-robe": {
-  "id": "meena-s-robe",
   "title": "Meena's Robe",
   "description": "An uncomplicated cloak worn by Meena the mystic.",
   "statistics": {
@@ -2936,7 +2837,6 @@
   "classification": "torso"
  },
  "mesotoga": {
-  "id": "mesotoga",
   "title": "Mesotoga",
   "description": "A radical wrap that repels fire, ice, poison, sleep and paralysis.",
   "statistics": {
@@ -2968,7 +2868,6 @@
   ]
  },
  "metal-king-armour": {
-  "id": "metal-king-armour",
   "title": "Metal King Armour",
   "description": "Armour with a metal king slime emblem that staves off spells.",
   "statistics": {
@@ -2996,7 +2895,6 @@
   }
  },
  "metal-slime-armour": {
-  "id": "metal-slime-armour",
   "title": "Metal Slime Armour",
   "description": "Armour with a metal slime emblem that staves off spells.",
   "statistics": {
@@ -3025,7 +2923,6 @@
   ]
  },
  "midenhall-garb": {
-  "id": "midenhall-garb",
   "title": "Midenhall Garb",
   "description": "An outfit ostensibly worn by the Prince of Midenhall.",
   "statistics": {
@@ -3055,7 +2952,6 @@
   }
  },
  "milly-s-clothes": {
-  "id": "milly-s-clothes",
   "title": "Milly's Clothes",
   "description": "Ribbon-ridden raiment made famous by the mighty Milly.",
   "statistics": {
@@ -3082,7 +2978,6 @@
   "classification": "torso"
  },
  "mirror-armour": {
-  "id": "mirror-armour",
   "title": "Mirror Armour",
   "description": "Enchanted armour that sometimes sends spells back to their source.",
   "statistics": {
@@ -3118,7 +3013,6 @@
   ]
  },
  "moonbrooke-dress": {
-  "id": "moonbrooke-dress",
   "title": "Moonbrooke Dress",
   "description": "A plain piece of clothing worn by the Princess of Moonbrooke.",
   "statistics": {
@@ -3147,7 +3041,6 @@
   "classification": "torso"
  },
  "muscle-belt": {
-  "id": "muscle-belt",
   "title": "Muscle Belt",
   "description": "A belt for the bare skin that bolsters the beauty of brawn.",
   "statistics": {
@@ -3177,7 +3070,6 @@
   ]
  },
  "mythical-armour": {
-  "id": "mythical-armour",
   "title": "Mythical Armour",
   "description": "Impermeable armour that mends HP and MP merely by moving about.",
   "statistics": {
@@ -3208,7 +3100,6 @@
   ]
  },
  "nera-s-dress": {
-  "id": "nera-s-dress",
   "title": "Nera's Dress",
   "description": "A pricey piece of clothing once worn by Nera Briscoletti.",
   "statistics": {
@@ -3236,7 +3127,6 @@
   "classification": "torso"
  },
  "nightmare-gown": {
-  "id": "nightmare-gown",
   "title": "Nightmare Gown",
   "description": "A deadly dressing-gown that dulls defence against many disorders.",
   "statistics": {
@@ -3266,7 +3156,6 @@
   ]
  },
  "nomadic-deel": {
-  "id": "nomadic-deel",
   "title": "Nomadic Deel",
   "description": "A kilt revered by rangers for possessing the power of the earth.",
   "statistics": {
@@ -3287,7 +3176,6 @@
   }
  },
  "pallium-regale": {
-  "id": "pallium-regale",
   "title": "Pallium Regale",
   "description": "A gown that grants only real royalty the right to wear it.",
   "statistics": {
@@ -3315,7 +3203,6 @@
   }
  },
  "patty-s-dirndl": {
-  "id": "patty-s-dirndl",
   "title": "Patty's Dirndl",
   "description": "A dress built with buxom lady bartenders in mind.",
   "statistics": {
@@ -3342,7 +3229,6 @@
   "classification": "torso"
  },
  "plain-clothes": {
-  "id": "plain-clothes",
   "title": "Plain Clothes",
   "description": "A bog-standard bit of kit made of common cloth.",
   "statistics": {
@@ -3376,7 +3262,6 @@
   }
  },
  "plain-dress": {
-  "id": "plain-dress",
   "title": "Plain Dress",
   "description": "A nice little number that brings to mind the green of young grass.",
   "statistics": {
@@ -3407,7 +3292,6 @@
   ]
  },
  "platinum-mail": {
-  "id": "platinum-mail",
   "title": "Platinum Mail",
   "description": "Precious protection that can deflect a dash of magic damage.",
   "statistics": {
@@ -3438,7 +3322,6 @@
   ]
  },
  "priestess-s-pinafore": {
-  "id": "priestess-s-pinafore",
   "title": "Priestess's Pinafore",
   "description": "A virtuous vestment for female priests that stops MP from being stolen.",
   "statistics": {
@@ -3460,7 +3343,6 @@
   }
  },
  "prince-s-pea-coat": {
-  "id": "prince-s-pea-coat",
   "title": "Prince's Pea Coat",
   "description": "Magic-resistant regalia that would be perfect for a prince.",
   "statistics": {
@@ -3492,7 +3374,6 @@
   ]
  },
  "princess-s-robe": {
-  "id": "princess-s-robe",
   "title": "Princess's Robe",
   "description": "Magic-resistant regalia that would be perfect for a princess.",
   "statistics": {
@@ -3524,7 +3405,6 @@
   ]
  },
  "queen-s-robe": {
-  "id": "queen-s-robe",
   "title": "Queen's Robe",
   "description": "Magic-resistant regalia that would complement a queen.",
   "statistics": {
@@ -3557,7 +3437,6 @@
   ]
  },
  "ragnar-s-armour": {
-  "id": "ragnar-s-armour",
   "title": "Ragnar's Armour",
   "description": "A replica of Ragnar McRyan's royal guard's armour.",
   "statistics": {
@@ -3584,7 +3463,6 @@
   "classification": "torso"
  },
  "robe-of-serenity": {
-  "id": "robe-of-serenity",
   "title": "Robe of Serenity",
   "description": "Stops some attacks that would otherwise send the wearer to sleep.",
   "statistics": {
@@ -3623,7 +3501,6 @@
   ]
  },
  "robe-of-sweet-dreams": {
-  "id": "robe-of-sweet-dreams",
   "title": "Robe of Sweet Dreams",
   "description": "A gown that guards against attacks that send victims to sleep.",
   "statistics": {
@@ -3658,7 +3535,6 @@
   }
  },
  "rogue-s-robes": {
-  "id": "rogue-s-robes",
   "title": "Rogue's Robes",
   "description": "Apparel apparently worn by principled male pilferers.",
   "statistics": {
@@ -3677,7 +3553,6 @@
   }
  },
  "roguess-s-robes": {
-  "id": "roguess-s-robes",
   "title": "Roguess's Robes",
   "description": "Apparel apparently worn by principled female pilferers.",
   "statistics": {
@@ -3696,7 +3571,6 @@
   }
  },
  "rusty-armour": {
-  "id": "rusty-armour",
   "title": "Rusty Armour",
   "description": "A spoilt, sorrowful suit of armour of obscure origin.",
   "statistics": {
@@ -3719,7 +3593,6 @@
   ]
  },
  "sacred-armour": {
-  "id": "sacred-armour",
   "title": "Sacred Armour",
   "description": "Enchanted armour that helps heal its wearer's wounds in battle.",
   "statistics": {
@@ -3752,7 +3625,6 @@
   ]
  },
  "sacrosanct-armour": {
-  "id": "sacrosanct-armour",
   "title": "Sacrosanct Armour",
   "description": "A splendid suit that helps heal its wearer's wounds in battle.",
   "statistics": {
@@ -3779,7 +3651,6 @@
   }
  },
  "sage-s-robe": {
-  "id": "sage-s-robe",
   "title": "Sage's Robe",
   "description": "A gorgeous gown that guards against magic damage.",
   "statistics": {
@@ -3804,7 +3675,6 @@
   }
  },
  "saintly-robe": {
-  "id": "saintly-robe",
   "title": "Saintly Robe",
   "description": "A godly gown that defends against the draining of magic.",
   "statistics": {
@@ -3831,7 +3701,6 @@
   ]
  },
  "santa-s-little-helper-suit": {
-  "id": "santa-s-little-helper-suit",
   "title": "Santa's Little Helper Suit",
   "description": "Pop this on and just try not to feel the spirit of the season of goodwill!",
   "statistics": {
@@ -3861,7 +3730,6 @@
   "classification": "torso"
  },
  "santa-suit": {
-  "id": "santa-suit",
   "title": "Santa Suit",
   "description": "Jolly old Father Christmas's inimitable outfit. Ho ho ho!",
   "statistics": {
@@ -3891,7 +3759,6 @@
   "classification": "torso"
  },
  "scale-armour": {
-  "id": "scale-armour",
   "title": "Scale Armour",
   "description": "A suit of armour with a scaly skin.",
   "statistics": {
@@ -3926,7 +3793,6 @@
   ]
  },
  "sellma-s-frock": {
-  "id": "sellma-s-frock",
   "title": "Sellma's Frock",
   "description": "A voluminous dress, perfect for hiding espionage equipment.",
   "statistics": {
@@ -3953,7 +3819,6 @@
   "classification": "torso"
  },
  "seraph-s-robe": {
-  "id": "seraph-s-robe",
   "title": "Seraph's Robe",
   "description": "An unrivalled robe that fends off fatal spells.",
   "statistics": {
@@ -3982,7 +3847,6 @@
   }
  },
  "shimmering-dress": {
-  "id": "shimmering-dress",
   "title": "Shimmering Dress",
   "description": "A nebulous number that's not unknown to reflect spells.",
   "statistics": {
@@ -4019,7 +3883,6 @@
   ]
  },
  "shipmate-s-shirt": {
-  "id": "shipmate-s-shirt",
   "title": "Shipmate's Shirt",
   "description": "A stripy shirt for seafaring souls.",
   "statistics": {
@@ -4050,7 +3913,6 @@
   ]
  },
  "silk-bustier": {
-  "id": "silk-bustier",
   "title": "Silk Bustier",
   "description": "A superior and oh-so-soft bodice made of silk.",
   "statistics": {
@@ -4085,7 +3947,6 @@
   ]
  },
  "silk-robe": {
-  "id": "silk-robe",
   "title": "Silk Robe",
   "description": "A quality cape spun from silk yarn.",
   "statistics": {
@@ -4124,7 +3985,6 @@
   ]
  },
  "silver-cuirass": {
-  "id": "silver-cuirass",
   "title": "Silver Cuirass",
   "description": "A precious piece of protection for the chest.",
   "statistics": {
@@ -4153,7 +4013,6 @@
   }
  },
  "silver-mail": {
-  "id": "silver-mail",
   "title": "Silver Mail",
   "description": "An argent suit of armour that deflects a dash of magic damage.",
   "statistics": {
@@ -4186,7 +4045,6 @@
   ]
  },
  "sizzling-bikini-top": {
-  "id": "sizzling-bikini-top",
   "title": "Sizzling Bikini Top",
   "description": "Bold bathing gear that bravely beats back fire and lightning attacks.",
   "statistics": {
@@ -4220,7 +4078,6 @@
   }
  },
  "skeleton-suit": {
-  "id": "skeleton-suit",
   "title": "Skeleton Suit",
   "description": "The spooky, skeletal top half of a bone-themed ensemble.",
   "statistics": {
@@ -4248,7 +4105,6 @@
   "classification": "torso"
  },
  "smart-suit": {
-  "id": "smart-suit",
   "title": "Smart Suit",
   "description": "A super-smart and stylish suit for the most fastidious of fops.",
   "statistics": {
@@ -4285,7 +4141,6 @@
   ]
  },
  "somnia-clothes": {
-  "id": "somnia-clothes",
   "title": "Somnia Clothes",
   "description": "A simple suit sported by the Prince of Somnia.",
   "statistics": {
@@ -4315,7 +4170,6 @@
   }
  },
  "spangled-dress": {
-  "id": "spangled-dress",
   "title": "Spangled Dress",
   "description": "A graceful gown for the more mature lady.",
   "statistics": {
@@ -4354,7 +4208,6 @@
   ]
  },
  "spiked-armour": {
-  "id": "spiked-armour",
   "title": "Spiked Armour",
   "description": "Artful armour that reflects damage right back at its source.",
   "statistics": {
@@ -4387,7 +4240,6 @@
   ]
  },
  "star-s-suit": {
-  "id": "star-s-suit",
   "title": "Star's Suit",
   "description": "A suit for celebrities who have a need to be noticed.",
   "statistics": {
@@ -4409,7 +4261,6 @@
   ]
  },
  "stellar-suit": {
-  "id": "stellar-suit",
   "title": "Stellar Suit",
   "description": "A fashionable fit for faerlie flamboyant females.",
   "statistics": {
@@ -4436,7 +4287,6 @@
   "classification": "torso"
  },
  "stratotoga": {
-  "id": "stratotoga",
   "title": "Stratotoga",
   "description": "A resistant wrap that repels fire, ice, poison, sleep and paralysis.",
   "statistics": {
@@ -4469,7 +4319,6 @@
   ]
  },
  "strongsam": {
-  "id": "strongsam",
   "title": "Strongsam",
   "description": "An unrestrictive outfit that's much-loved by female martial artists.",
   "statistics": {
@@ -4492,7 +4341,6 @@
   ]
  },
  "summer-dress": {
-  "id": "summer-dress",
   "title": "Summer Dress",
   "description": "A fancy frock that's white, light and quite cool.",
   "statistics": {
@@ -4523,7 +4371,6 @@
   ]
  },
  "superstar-s-suit": {
-  "id": "superstar-s-suit",
   "title": "Superstar's Suit",
   "description": "A sparkling suit for an illustrious luminary.",
   "statistics": {
@@ -4543,7 +4390,6 @@
   }
  },
  "surplice": {
-  "id": "surplice",
   "title": "Surplice",
   "description": "A past priest's vital vestment used to evade magic draining.",
   "statistics": {
@@ -4565,7 +4411,6 @@
   }
  },
  "swinedimples-blazer": {
-  "id": "swinedimples-blazer",
   "title": "Swinedimples Blazer",
   "description": "The uniform of an acclaimed academy.",
   "statistics": {
@@ -4599,7 +4444,6 @@
   ]
  },
  "tactical-vest": {
-  "id": "tactical-vest",
   "title": "Tactical Vest",
   "description": "Combat clobber for high-grade male gladiators.",
   "statistics": {
@@ -4617,7 +4461,6 @@
   }
  },
  "technicolour-tutu": {
-  "id": "technicolour-tutu",
   "title": "Technicolour Tutu",
   "description": "A gasp-worthy gown for golden girls.",
   "statistics": {
@@ -4637,7 +4480,6 @@
   }
  },
  "templar-s-togs": {
-  "id": "templar-s-togs",
   "title": "Templar's Togs",
   "description": "Audacious red attire readily donned by the Templar Angelo.",
   "statistics": {
@@ -4664,7 +4506,6 @@
   "classification": "torso"
  },
  "tint-tastic-tutu": {
-  "id": "tint-tastic-tutu",
   "title": "Tint-Tastic Tutu",
   "description": "A frilly, floating frock for the furtherance of fans' fantasies.",
   "statistics": {
@@ -4690,7 +4531,6 @@
   ]
  },
  "torneko-s-clothes": {
-  "id": "torneko-s-clothes",
   "title": "Torneko's Clothes",
   "description": "A stripy suit made for the merchant Taloon.",
   "statistics": {
@@ -4717,7 +4557,6 @@
   "classification": "torso"
  },
  "tortoise-shell": {
-  "id": "tortoise-shell",
   "title": "Tortoise Shell",
   "description": "Not to be confused with the item,",
   "statistics": {
@@ -4755,7 +4594,6 @@
   ]
  },
  "tortoiseshell-armour": {
-  "id": "tortoiseshell-armour",
   "title": "Tortoiseshell Armour",
   "description": "An eccentric enhancement of the tortoise shell.",
   "statistics": {
@@ -4784,7 +4622,6 @@
   }
  },
  "tracksuit-top": {
-  "id": "tracksuit-top",
   "title": "Tracksuit Top",
   "description": "A loose garment made for tougher training sessions.",
   "statistics": {
@@ -4808,7 +4645,6 @@
   ]
  },
  "training-top": {
-  "id": "training-top",
   "title": "Training Top",
   "description": "A loose garment made for ease of movement when working out.",
   "statistics": {
@@ -4832,7 +4668,6 @@
   ]
  },
  "trodain-togs": {
-  "id": "trodain-togs",
   "title": "Trodain Togs",
   "description": "The type of suit a certain Tordain trooper might be tricked out in.",
   "statistics": {
@@ -4862,7 +4697,6 @@
   }
  },
  "trode-s-robes": {
-  "id": "trode-s-robes",
   "title": "Trode's Robes",
   "description": "An unadorned outfit ostensibly owned by King Trode of Trodain.",
   "statistics": {
@@ -4890,7 +4724,6 @@
   "classification": "torso"
  },
  "tropotoga": {
-  "id": "tropotoga",
   "title": "Tropotoga",
   "description": "A reassuring wrap that repels fire, ice, poison, sleep and paralysis.",
   "statistics": {
@@ -4924,7 +4757,6 @@
   ]
  },
  "tussler-s-top": {
-  "id": "tussler-s-top",
   "title": "Tussler's Top",
   "description": "An outfit for male martial artists to wear in real-life combat.",
   "statistics": {
@@ -4952,7 +4784,6 @@
   ]
  },
  "twinkling-tuxedo": {
-  "id": "twinkling-tuxedo",
   "title": "Twinkling Tuxedo",
   "description": "A supernatural suit that sporadically reflects spells.",
   "statistics": {
@@ -4989,7 +4820,6 @@
   ]
  },
  "velvet-cape": {
-  "id": "velvet-cape",
   "title": "Velvet Cape",
   "description": "A classy cloak that improves one's appearance.",
   "statistics": {
@@ -5019,7 +4849,6 @@
   ]
  },
  "veteran-s-armour": {
-  "id": "veteran-s-armour",
   "title": "Veteran's Armour",
   "description": "Ancient armour said to harbour the soul of a bygone battler.",
   "statistics": {
@@ -5038,7 +4867,6 @@
   ]
  },
  "victorious-armour": {
-  "id": "victorious-armour",
   "title": "Victorious Armour",
   "description": "Mystical mail that mends HP and MP merely by moving about.",
   "statistics": {
@@ -5071,7 +4899,6 @@
   ]
  },
  "warrior-s-armour": {
-  "id": "warrior-s-armour",
   "title": "Warrior's Armour",
   "description": "A snazzy suit of armour that would suit a snooty soldier.",
   "statistics": {
@@ -5090,7 +4917,6 @@
   }
  },
  "wayfarer-s-clothes": {
-  "id": "wayfarer-s-clothes",
   "title": "Wayfarer's Clothes",
   "description": "Hardy hempen togs treasured by travellers.",
   "statistics": {
@@ -5122,7 +4948,6 @@
   ]
  },
  "wedding-dress": {
-  "id": "wedding-dress",
   "title": "Wedding Dress",
   "description": "What the bride wears at a traditional white wedding.",
   "statistics": {
@@ -5152,7 +4977,6 @@
   "classification": "torso"
  },
  "white-t-shirt": {
-  "id": "white-t-shirt",
   "title": "White T-Shirt",
   "description": "A plain, white t-shirt.",
   "statistics": {
@@ -5187,7 +5011,6 @@
   ]
  },
  "white-tuxedo": {
-  "id": "white-tuxedo",
   "title": "White Tuxedo",
   "description": "What the groom wears at a slightly snazzy white wedding.",
   "statistics": {
@@ -5217,7 +5040,6 @@
   "classification": "torso"
  },
  "witch-s-robe": {
-  "id": "witch-s-robe",
   "title": "Witch's Robe",
   "description": "A Fizzle-fizzling frock that harbours the soul of an ancient sorceress.",
   "statistics": {
@@ -5240,7 +5062,6 @@
   ]
  },
  "wizard-s-robe": {
-  "id": "wizard-s-robe",
   "title": "Wizard's Robe",
   "description": "A Fizzle-fizzling frock that harbours the soul of an ancient sorceror.",
   "statistics": {
@@ -5266,7 +5087,6 @@
   }
  },
  "xenlon-robe": {
-  "id": "xenlon-robe",
   "title": "Xenlon Robe",
   "description": "A garment possessed by a dragon deity that muffles magical attacks.",
   "statistics": {
@@ -5297,7 +5117,6 @@
   }
  },
  "yangus-s-billy": {
-  "id": "yangus-s-billy",
   "title": "Yangus's Billy",
   "description": "A flurry waistcoat that once failed to fully contain Yangus's chest.",
   "statistics": {
@@ -5324,7 +5143,6 @@
   "classification": "torso"
  },
  "zenithian-clothes": {
-  "id": "zenithian-clothes",
   "title": "Zenithian Clothes",
   "description": "An unadorned outfit worn by a hero of Zenithia.",
   "statistics": {
@@ -5354,7 +5172,6 @@
   }
  },
  "zenithian-leotard": {
-  "id": "zenithian-leotard",
   "title": "Zenithian Leotard",
   "description": "A body-hugging one-piece worn by a heroine of Zenithia.",
   "statistics": {

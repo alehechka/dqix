@@ -1,6 +1,5 @@
 {
  "attribeauty": {
-  "id": "attribeauty",
   "title": "Attribeauty",
   "description": "A fabled fan with tons of untold powers.",
   "statistics": {
@@ -22,7 +21,6 @@
   ]
  },
  "azure-dragon-fan": {
-  "id": "azure-dragon-fan",
   "title": "Azure Dragon Fan",
   "description": "A thundery fan furnished with the mark of a mythical beast.",
   "statistics": {
@@ -47,7 +45,6 @@
   }
  },
  "black-tortoise-fan": {
-  "id": "black-tortoise-fan",
   "title": "Black Tortoise Fan",
   "description": "An earthy fan furnished with the mark of a mythical beast.",
   "statistics": {
@@ -72,7 +69,6 @@
   }
  },
  "cobra-fan": {
-  "id": "cobra-fan",
   "title": "Cobra Fan",
   "description": "A fan that fosters the force of lightning.",
   "statistics": {
@@ -107,7 +103,6 @@
   ]
  },
  "critical-fan": {
-  "id": "critical-fan",
   "title": "Critical Fan",
   "description": "A fabled fan that ups the occurrence of coups de grâce.",
   "statistics": {
@@ -136,7 +131,6 @@
   ]
  },
  "dire-critical-fan": {
-  "id": "dire-critical-fan",
   "title": "Dire Critical Fan",
   "description": "An unfailing battle fan that ups the occurrence of coups de grâce.",
   "statistics": {
@@ -160,7 +154,6 @@
   }
  },
  "feather-fan": {
-  "id": "feather-fan",
   "title": "Feather Fan",
   "description": "A flamboyant fan made from peacock feathers.",
   "statistics": {
@@ -189,7 +182,6 @@
   ]
  },
  "feline-fan": {
-  "id": "feline-fan",
   "title": "Feline Fan",
   "description": "A fan that fosters the force of ice.",
   "statistics": {
@@ -220,7 +212,6 @@
   ]
  },
  "foehn-fan": {
-  "id": "foehn-fan",
   "title": "Foehn Fan",
   "description": "A fan that fires air at foes if used as an item in battle.",
   "statistics": {
@@ -253,7 +244,6 @@
   ]
  },
  "fowl-fan": {
-  "id": "fowl-fan",
   "title": "Fowl Fan",
   "description": "A fan that fosters the force of fire.",
   "statistics": {
@@ -287,7 +277,6 @@
   ]
  },
  "friendly-fan": {
-  "id": "friendly-fan",
   "title": "Friendly Fan",
   "description": "A fan that can fix a friend's wounds if used as an item in battle.",
   "statistics": {
@@ -318,7 +307,6 @@
   }
  },
  "gale-force-fan": {
-  "id": "gale-force-fan",
   "title": "Gale Force Fan",
   "description": "A fan that whips a wild whirlwind at foes if used as an item in battle.",
   "statistics": {
@@ -343,7 +331,6 @@
   }
  },
  "gigasteel-fan": {
-  "id": "gigasteel-fan",
   "title": "Gigasteel Fan",
   "description": "A ferocious fan with slats made of strengthened steel.",
   "statistics": {
@@ -366,7 +353,6 @@
   }
  },
  "hypercritical-fan": {
-  "id": "hypercritical-fan",
   "title": "Hypercritical Fan",
   "description": "An unbeatable battle fan that ups the occurrence of coups de grâce.",
   "statistics": {
@@ -393,7 +379,6 @@
   ]
  },
  "iron-fan": {
-  "id": "iron-fan",
   "title": "Iron Fan",
   "description": "An inflexible fan, heavy due to having slats made of metal.",
   "statistics": {
@@ -419,7 +404,6 @@
   ]
  },
  "lunar-fan": {
-  "id": "lunar-fan",
   "title": "Lunar Fan",
   "description": "A magnificent fan made more so by a mystical moonscape.",
   "statistics": {
@@ -444,7 +428,6 @@
   ]
  },
  "overcritical-fan": {
-  "id": "overcritical-fan",
   "title": "Overcritical Fan",
   "description": "A mighty fan that ups the occurrence of coups de grâce.",
   "statistics": {
@@ -472,7 +455,6 @@
   ]
  },
  "solar-fan": {
-  "id": "solar-fan",
   "title": "Solar Fan",
   "description": "A sainted, painted fan inscribed with a sumptuous sunny scene.",
   "statistics": {
@@ -497,7 +479,6 @@
   ]
  },
  "steel-fan": {
-  "id": "steel-fan",
   "title": "Steel Fan",
   "description": "A strong fan with slats made of steel.",
   "statistics": {
@@ -523,7 +504,6 @@
   ]
  },
  "stellar-fan": {
-  "id": "stellar-fan",
   "title": "Stellar Fan",
   "description": "An exquisite fan resplendent with a sweeping starscape.",
   "statistics": {
@@ -547,7 +527,6 @@
   ]
  },
  "tortoiseshell-fan": {
-  "id": "tortoiseshell-fan",
   "title": "Tortoiseshell Fan",
   "description": "A fan that fosters the force of the earth.",
   "statistics": {
@@ -578,7 +557,6 @@
   ]
  },
  "vermillion-bird-fan": {
-  "id": "vermillion-bird-fan",
   "title": "Vermillion Bird Fan",
   "description": "A fiery fan furnished with the mark of a mythical beast.",
   "statistics": {
@@ -603,7 +581,6 @@
   }
  },
  "war-fan": {
-  "id": "war-fan",
   "title": "War Fan",
   "description": "A fighter's fan, created for combat.",
   "statistics": {
@@ -632,7 +609,6 @@
   ]
  },
  "white-bouquet": {
-  "id": "white-bouquet",
   "title": "White Bouquet",
   "description": "The beautiful bunch of flowers borne proudly by every bride.",
   "statistics": {
@@ -650,7 +626,6 @@
   "classification": "fans"
  },
  "white-tiger-fan": {
-  "id": "white-tiger-fan",
   "title": "White Tiger Fan",
   "description": "A watery fan furnished with the mark of a mythical beast.",
   "statistics": {

@@ -1,6 +1,5 @@
 {
  "alefgard-trousers": {
-  "id": "alefgard-trousers",
   "title": "Alefgard Trousers",
   "description": "Simple slacks sported by a hero of Alefgard.",
   "statistics": {
@@ -30,7 +29,6 @@
   }
  },
  "alena-s-tights": {
-  "id": "alena-s-tights",
   "title": "Alena's Tights",
   "description": "Heavy black hosiery once worn by Tsarevna Alena.",
   "statistics": {
@@ -57,7 +55,6 @@
   "classification": "legs"
  },
  "aliahan-trousers": {
-  "id": "aliahan-trousers",
   "title": "Aliahan Trousers",
   "description": "Bog-standard slacks supposedly sported by a legendary hero.",
   "statistics": {
@@ -87,7 +84,6 @@
   }
  },
  "aquila-s-trousers": {
-  "id": "aquila-s-trousers",
   "title": "Aquila's Trousers",
   "description": "Plain pantaloons imbued with Aquila's aura.",
   "statistics": {
@@ -114,7 +110,6 @@
   "classification": "legs"
  },
  "battle-britches": {
-  "id": "battle-britches",
   "title": "Battle Britches",
   "description": "Trousers tailored for tussling that gladiators go mad for.",
   "statistics": {
@@ -136,7 +131,6 @@
   ]
  },
  "black-knickers": {
-  "id": "black-knickers",
   "title": "Black Knickers",
   "description": "These provide protection when worn under a dress.",
   "statistics": {
@@ -167,7 +161,6 @@
   ]
  },
  "blessed-bottoms": {
-  "id": "blessed-bottoms",
   "title": "Blessed Bottoms",
   "description": "Enchanted chinos that make more of the wearer's magical might.",
   "statistics": {
@@ -189,7 +182,6 @@
   }
  },
  "blue-jeans": {
-  "id": "blue-jeans",
   "title": "Blue Jeans",
   "description": "Casual trousers usually worn by the young - or the young at heart.",
   "statistics": {
@@ -220,7 +212,6 @@
   ]
  },
  "blue-knickers": {
-  "id": "blue-knickers",
   "title": "Blue Knickers",
   "description": "These provide perfect protection when worn under a dress.",
   "statistics": {
@@ -251,7 +242,6 @@
   ]
  },
  "blue-skirt": {
-  "id": "blue-skirt",
   "title": "Blue Skirt",
   "description": "A cool, calm, comfortable and classic bright blue skirt.",
   "statistics": {
@@ -283,7 +273,6 @@
   ]
  },
  "boomer-briefs": {
-  "id": "boomer-briefs",
   "title": "Boomer Briefs",
   "description": "Pants that put the 't' in 'testosterone'.",
   "statistics": {
@@ -327,7 +316,6 @@
   ]
  },
  "boxer-shorts": {
-  "id": "boxer-shorts",
   "title": "Boxer Shorts",
   "description": "Underwear by men, for men.",
   "statistics": {
@@ -365,7 +353,6 @@
   ]
  },
  "cannock-trousers": {
-  "id": "cannock-trousers",
   "title": "Cannock Trousers",
   "description": "Ashen attire that the Prince of Cannock put over his pins.",
   "statistics": {
@@ -392,7 +379,6 @@
   "classification": "legs"
  },
  "carver-s-shorts": {
-  "id": "carver-s-shorts",
   "title": "Carver's Shorts",
   "description": "A pair of Carver's captivatingly cut shorts.",
   "statistics": {
@@ -419,7 +405,6 @@
   "classification": "legs"
  },
  "celestial-stockings": {
-  "id": "celestial-stockings",
   "title": "Celestial Stockings",
   "description": "Strange stockings that somehow seem angelic.",
   "statistics": {
@@ -446,7 +431,6 @@
   "classification": "legs"
  },
  "chainmail-socks": {
-  "id": "chainmail-socks",
   "title": "Chainmail Socks",
   "description": "Chunky chainmail legwear.",
   "statistics": {
@@ -473,7 +457,6 @@
   ]
  },
  "combat-trousers": {
-  "id": "combat-trousers",
   "title": "Combat Trousers",
   "description": "A piece of clothing worn by pre-modern martial artists.",
   "statistics": {
@@ -493,7 +476,6 @@
   ]
  },
  "cor-blimey-trousers": {
-  "id": "cor-blimey-trousers",
   "title": "Cor Blimey Trousers",
   "description": "A puffed up pair belonging to Pickham's premier pilferer.",
   "statistics": {
@@ -520,7 +502,6 @@
   "classification": "legs"
  },
  "cotton-trousers": {
-  "id": "cotton-trousers",
   "title": "Cotton Trousers",
   "description": "Simple slacks made of standard stuff.",
   "statistics": {
@@ -555,7 +536,6 @@
   }
  },
  "dangerous-midriff-wrap": {
-  "id": "dangerous-midriff-wrap",
   "title": "Dangerous Midriff Wrap",
   "description": "Swimwear that's somewhat unsafe to set eyes on.",
   "statistics": {
@@ -589,7 +569,6 @@
   ]
  },
  "denim-skirt": {
-  "id": "denim-skirt",
   "title": "Denim Skirt",
   "description": "A daringly cut denim miniskirt for the more adventurous maiden.",
   "statistics": {
@@ -620,7 +599,6 @@
   ]
  },
  "dragon-trousers": {
-  "id": "dragon-trousers",
   "title": "Dragon Trousers",
   "description": "Martial artist's attire that impedes attacks of fire and ice.",
   "statistics": {
@@ -650,7 +628,6 @@
   ]
  },
  "dragon-warrior-trousers": {
-  "id": "dragon-warrior-trousers",
   "title": "Dragon Warrior Trousers",
   "description": "Given by Greygnarl as a token of friendship.",
   "statistics": {
@@ -682,7 +659,6 @@
   ]
  },
  "estard-trousers": {
-  "id": "estard-trousers",
   "title": "Estard Trousers",
   "description": "Bog-standard slacks sold in Estard.",
   "statistics": {
@@ -712,7 +688,6 @@
   }
  },
  "eternity-trousers": {
-  "id": "eternity-trousers",
   "title": "Eternity Trousers",
   "description": "Steady slacks that withstand paralysis, sleep and death spells.",
   "statistics": {
@@ -751,7 +726,6 @@
   ]
  },
  "fancy-pants": {
-  "id": "fancy-pants",
   "title": "Fancy Pants",
   "description": "Loud legwear that helps hold off sleep and enchantment attacks.",
   "statistics": {
@@ -774,7 +748,6 @@
   }
  },
  "femiscyran-bottoms": {
-  "id": "femiscyran-bottoms",
   "title": "Femiscyran Bottoms",
   "description": "Loose-fitting legwear worn by woman warriors.",
   "statistics": {
@@ -794,7 +767,6 @@
   ]
  },
  "fishnet-stockings": {
-  "id": "fishnet-stockings",
   "title": "Fishnet Stockings",
   "description": "Tights that make a flattering fit for any lady's legs.",
   "statistics": {
@@ -829,7 +801,6 @@
   ]
  },
  "fleurette-s-chaussettes": {
-  "id": "fleurette-s-chaussettes",
   "title": "Fleurette's Chaussettes",
   "description": "Stripy, knee-high socks that are a favourite of Fleurette's.",
   "statistics": {
@@ -856,7 +827,6 @@
   "classification": "legs"
  },
  "gigasteel-kneecaps": {
-  "id": "gigasteel-kneecaps",
   "title": "Gigasteel Kneecaps",
   "description": "Gigasteel supplementary wear that prevents knocks to the knees.",
   "statistics": {
@@ -887,7 +857,6 @@
   ]
  },
  "green-tights": {
-  "id": "green-tights",
   "title": "Green Tights",
   "description": "Leaf-green legwear that deflects death magic, poison and paralysis.",
   "statistics": {
@@ -929,7 +898,6 @@
   ]
  },
  "hot-bikini-bottoms": {
-  "id": "hot-bikini-bottoms",
   "title": "Hot Bikini Bottoms",
   "description": "Waterwear that works well against fire and lightning attacks.",
   "statistics": {
@@ -966,7 +934,6 @@
   ]
  },
  "immortal-trousers": {
-  "id": "immortal-trousers",
   "title": "Immortal Trousers",
   "description": "Steady slacks that stand up to sleep magic and death spells.",
   "statistics": {
@@ -1006,7 +973,6 @@
   ]
  },
  "impregnable-leggings": {
-  "id": "impregnable-leggings",
   "title": "Impregnable Leggings",
   "description": "Magical legwear that disrupts attempts to lower defence.",
   "statistics": {
@@ -1040,7 +1006,6 @@
   }
  },
  "infinity-trousers": {
-  "id": "infinity-trousers",
   "title": "Infinity Trousers",
   "description": "Super-steady slacks that stand up to all sorts of strangeness.",
   "statistics": {
@@ -1076,7 +1041,6 @@
   }
  },
  "invincible-trousers": {
-  "id": "invincible-trousers",
   "title": "Invincible Trousers",
   "description": "Steady slacks that staunchly withstand death spells.",
   "statistics": {
@@ -1117,7 +1081,6 @@
   ]
  },
  "iron-kneecaps": {
-  "id": "iron-kneecaps",
   "title": "Iron Kneecaps",
   "description": "Iron contrivances that prevent knocks to the knees.",
   "statistics": {
@@ -1150,7 +1113,6 @@
   ]
  },
  "kiefer-s-trousers": {
-  "id": "kiefer-s-trousers",
   "title": "Kiefer's Trousers",
   "description": "Prince Kiefer's close-fitting pitch-black pants.",
   "statistics": {
@@ -1177,7 +1139,6 @@
   "classification": "legs"
  },
  "kiltlet": {
-  "id": "kiltlet",
   "title": "Kiltlet",
   "description": "A tweedy, tartan number with a certain cuteness to its cut.",
   "statistics": {
@@ -1209,7 +1170,6 @@
   ]
  },
  "kiryl-s-trousers": {
-  "id": "kiryl-s-trousers",
   "title": "Kiryl's Trousers",
   "description": "White legwear once worn by Bishop Kiryl.",
   "statistics": {
@@ -1239,7 +1199,6 @@
   ]
  },
  "leather-kilt": {
-  "id": "leather-kilt",
   "title": "Leather Kilt",
   "description": "A loincloth from bits of bashed-together beast hide.",
   "statistics": {
@@ -1281,7 +1240,6 @@
   ]
  },
  "loud-trousers": {
-  "id": "loud-trousers",
   "title": "Loud Trousers",
   "description": "Super-snazzy slacks for showmen that stave off sleep.",
   "statistics": {
@@ -1308,7 +1266,6 @@
   ]
  },
  "magical-skirt": {
-  "id": "magical-skirt",
   "title": "Magical Skirt",
   "description": "A sorcerous skirt that can fight back magical attacks.",
   "statistics": {
@@ -1342,7 +1299,6 @@
   ]
  },
  "maya-s-bottoms": {
-  "id": "maya-s-bottoms",
   "title": "Maya's Bottoms",
   "description": "Lascivious legwear donned by the dancer Maya.",
   "statistics": {
@@ -1369,7 +1325,6 @@
   "classification": "legs"
  },
  "midenhall-trousers": {
-  "id": "midenhall-trousers",
   "title": "Midenhall Trousers",
   "description": "Spartan slacks sported by the Prince of Midenhall.",
   "statistics": {
@@ -1399,7 +1354,6 @@
   }
  },
  "milly-s-pants": {
-  "id": "milly-s-pants",
   "title": "Milly's Pants",
   "description": "Chalk-white trousers of Milly's with a fairly free fit.",
   "statistics": {
@@ -1426,7 +1380,6 @@
   "classification": "legs"
  },
  "nicker-s-knickers": {
-  "id": "nicker-s-knickers",
   "title": "Nicker's Knickers",
   "description": "Long briefs for keen thiefs that allow super-swift movement.",
   "statistics": {
@@ -1447,7 +1400,6 @@
   ]
  },
  "passion-tights": {
-  "id": "passion-tights",
   "title": "PASSION Tights",
   "description": "Multo masculine hosiery of Morrie's that hugs his handsome haunches.",
   "statistics": {
@@ -1474,7 +1426,6 @@
   "classification": "legs"
  },
  "pirate-pantaloons": {
-  "id": "pirate-pantaloons",
   "title": "Pirate Pantaloons",
   "description": "Seafaring slacks sported by a celebrated swashbuckler.",
   "statistics": {
@@ -1502,7 +1453,6 @@
   "classification": "legs"
  },
  "pop-socks": {
-  "id": "pop-socks",
   "title": "Pop Socks",
   "description": "Foot coverings for females that fit the leg up to the knee.",
   "statistics": {
@@ -1540,7 +1490,6 @@
   ]
  },
  "red-skirt": {
-  "id": "red-skirt",
   "title": "Red Skirt",
   "description": "A fierce, fiery, flashy, and fun bright red skirt.",
   "statistics": {
@@ -1572,7 +1521,6 @@
   ]
  },
  "red-tights": {
-  "id": "red-tights",
   "title": "Red Tights",
   "description": "Scarlet stockings that stave off fire- and ice-based strikes.",
   "statistics": {
@@ -1617,7 +1565,6 @@
   ]
  },
  "santa-s-slacks": {
-  "id": "santa-s-slacks",
   "title": "Santa's Slacks",
   "description": "Santa's trademark crimson trousers.",
   "statistics": {
@@ -1645,7 +1592,6 @@
   "classification": "legs"
  },
  "seabreeze-skirt": {
-  "id": "seabreeze-skirt",
   "title": "Seabreeze Skirt",
   "description": "A bracing bit of womenswear that smells slightly of the sea.",
   "statistics": {
@@ -1677,7 +1623,6 @@
   ]
  },
  "sizzling-bikini-bottoms": {
-  "id": "sizzling-bikini-bottoms",
   "title": "Sizzling Bikini Bottoms",
   "description": "Bold bathing gear that bravely beats back fire and lightning attacks.",
   "statistics": {
@@ -1711,7 +1656,6 @@
   }
  },
  "skeletal-slacks": {
-  "id": "skeletal-slacks",
   "title": "Skeletal Slacks",
   "description": "Bloodcurling bottoms decorated with beautifully drawn bones.",
   "statistics": {
@@ -1739,7 +1683,6 @@
   "classification": "legs"
  },
  "slick-slacks": {
-  "id": "slick-slacks",
   "title": "Slick Slacks",
   "description": "Sprightly slacks for a super-fast fighting frenzy.",
   "statistics": {
@@ -1756,7 +1699,6 @@
   "classification": "legs"
  },
  "snazzy-skirt": {
-  "id": "snazzy-skirt",
   "title": "Snazzy Skirt",
   "description": "A super-trendy skirt with an air of upper-crustness to it.",
   "statistics": {
@@ -1791,7 +1733,6 @@
   ]
  },
  "somnia-shorts": {
-  "id": "somnia-shorts",
   "title": "Somnia Shorts",
   "description": "Simple shorn-off slacks sold in Somnia.",
   "statistics": {
@@ -1821,7 +1762,6 @@
   }
  },
  "sorcerer-s-slacks": {
-  "id": "sorcerer-s-slacks",
   "title": "Sorcerer's Slacks",
   "description": "Legwear that makes much more of the wearer's magical might.",
   "statistics": {
@@ -1842,7 +1782,6 @@
   ]
  },
  "springtime-skirt": {
-  "id": "springtime-skirt",
   "title": "Springtime Skirt",
   "description": "A classy, if slightly cutesy pink skirt.",
   "statistics": {
@@ -1874,7 +1813,6 @@
   ]
  },
  "steel-kneecaps": {
-  "id": "steel-kneecaps",
   "title": "Steel Kneecaps",
   "description": "Steel supplementary wear that prevents knocks to the knees.",
   "statistics": {
@@ -1905,7 +1843,6 @@
   ]
  },
  "stellar-stockings": {
-  "id": "stellar-stockings",
   "title": "Stellar Stockings",
   "description": "Knee-high legwear for the faerlie fashion-conscious female.",
   "statistics": {
@@ -1932,7 +1869,6 @@
   "classification": "legs"
  },
  "steppe-steppers": {
-  "id": "steppe-steppers",
   "title": "Steppe Steppers",
   "description": "Paralysis-preventing legwear beloved by roaming rangers.",
   "statistics": {
@@ -1954,7 +1890,6 @@
   ]
  },
  "sturdy-slacks": {
-  "id": "sturdy-slacks",
   "title": "Sturdy Slacks",
   "description": "Protective legwear that disrupts attempts to lower defence.",
   "statistics": {
@@ -1990,7 +1925,6 @@
   ]
  },
  "swinedimples-skirt": {
-  "id": "swinedimples-skirt",
   "title": "Swinedimples Skirt",
   "description": "The uniform of an acclaimed academy.",
   "statistics": {
@@ -2021,7 +1955,6 @@
   ]
  },
  "swinedimples-slacks": {
-  "id": "swinedimples-slacks",
   "title": "Swinedimples Slacks",
   "description": "The uniform of an acclaimed academy.",
   "statistics": {
@@ -2052,7 +1985,6 @@
   ]
  },
  "swordsman-s-slacks": {
-  "id": "swordsman-s-slacks",
   "title": "Swordsman's Slacks",
   "description": "Armamentalist's attire that wears well against Fizzle magic.",
   "statistics": {
@@ -2074,7 +2006,6 @@
   ]
  },
  "tantric-trousers": {
-  "id": "tantric-trousers",
   "title": "Tantric Trousers",
   "description": "Magic-boosting slacks worn by the sages of bygone ages.",
   "statistics": {
@@ -2097,7 +2028,6 @@
   }
  },
  "templar-s-trousers": {
-  "id": "templar-s-trousers",
   "title": "Templar's Trousers",
   "description": "Spick and span scarlet legwear attributed to the Templar Angelo.",
   "statistics": {
@@ -2124,7 +2054,6 @@
   "classification": "legs"
  },
  "torneko-s-trousers": {
-  "id": "torneko-s-trousers",
   "title": "Torneko's Trousers",
   "description": "Loose-fitting legwear once worn by the wily Torneko Taloon.",
   "statistics": {
@@ -2151,7 +2080,6 @@
   "classification": "legs"
  },
  "toughie-trousers": {
-  "id": "toughie-trousers",
   "title": "Toughie Trousers",
   "description": "Legwear for lovable louts that looks a little tight.",
   "statistics": {
@@ -2181,7 +2109,6 @@
   ]
  },
  "tracky-bottoms": {
-  "id": "tracky-bottoms",
   "title": "Tracky Bottoms",
   "description": "A loose garment made for more advanced martial arts training.",
   "statistics": {
@@ -2205,7 +2132,6 @@
   ]
  },
  "training-trousers": {
-  "id": "training-trousers",
   "title": "Training Trousers",
   "description": "A loose garment made for martial artists to work out in.",
   "statistics": {
@@ -2229,7 +2155,6 @@
   ]
  },
  "transparent-tights": {
-  "id": "transparent-tights",
   "title": "Transparent Tights",
   "description": "Strange see-through stockings.",
   "statistics": {
@@ -2266,7 +2191,6 @@
   ]
  },
  "trinity-tights": {
-  "id": "trinity-tights",
   "title": "Trinity Tights",
   "description": "A pair of priest's tights from past times that improve magical mending.",
   "statistics": {
@@ -2286,7 +2210,6 @@
   ]
  },
  "trodain-trousers": {
-  "id": "trodain-trousers",
   "title": "Trodain Trousers",
   "description": "Cheapo chinos traded in the territory of Trodain.",
   "statistics": {
@@ -2316,7 +2239,6 @@
   }
  },
  "tussler-s-trousers": {
-  "id": "tussler-s-trousers",
   "title": "Tussler's Trousers",
   "description": "Made for martial artists to test their mettle in mortal combat.",
   "statistics": {
@@ -2344,7 +2266,6 @@
   ]
  },
  "warrior-s-trousers": {
-  "id": "warrior-s-trousers",
   "title": "Warrior's Trousers",
   "description": "Red-tinged trousers worn by warriors.",
   "statistics": {
@@ -2364,7 +2285,6 @@
   ]
  },
  "white-tights": {
-  "id": "white-tights",
   "title": "White Tights",
   "description": "Silvery stockings that slightly stave off ice and wind attacks.",
   "statistics": {
@@ -2407,7 +2327,6 @@
   ]
  },
  "white-tuxedo-trousers": {
-  "id": "white-tuxedo-trousers",
   "title": "White Tuxedo Trousers",
   "description": "The bottom half of a beautifully tailored tuxedo.",
   "statistics": {
@@ -2435,7 +2354,6 @@
   "classification": "legs"
  },
  "wizard-s-trousers": {
-  "id": "wizard-s-trousers",
   "title": "Wizard's Trousers",
   "description": "Strange slacks that seem to strengthen magical might.",
   "statistics": {
@@ -2459,7 +2377,6 @@
   ]
  },
  "wonder-pants": {
-  "id": "wonder-pants",
   "title": "Wonder Pants",
   "description": "Pants that really put the 't' in 'testosterone'.",
   "statistics": {
@@ -2494,7 +2411,6 @@
   }
  },
  "zenithian-leggings": {
-  "id": "zenithian-leggings",
   "title": "Zenithian Leggings",
   "description": "Warming legwear once worn by a heroine of Zenithia.",
   "statistics": {
@@ -2524,7 +2440,6 @@
   }
  },
  "zenithian-trousers": {
-  "id": "zenithian-trousers",
   "title": "Zenithian Trousers",
   "description": "A pair of unpretentious trousers worn by a hero of Zenithia.",
   "statistics": {

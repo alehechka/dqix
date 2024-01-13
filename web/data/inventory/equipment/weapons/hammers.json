@@ -1,6 +1,5 @@
 {
  "ace-of-clubs": {
-  "id": "ace-of-clubs",
   "title": "Ace of Clubs",
   "description": "A colossal cudgel, reportedly once wielded by giants.",
   "statistics": {
@@ -24,7 +23,6 @@
   }
  },
  "earthsplitter": {
-  "id": "earthsplitter",
   "title": "Earthsplitter",
   "description": "A pounder of prodigious power that could crack continents in two",
   "statistics": {
@@ -50,7 +48,6 @@
   ]
  },
  "giant-s-hammer": {
-  "id": "giant-s-hammer",
   "title": "Giant's Hammer",
   "description": "A big basher that mashes monsters of material make-up.",
   "statistics": {
@@ -79,7 +76,6 @@
   ]
  },
  "giant-wrench": {
-  "id": "giant-wrench",
   "title": "Giant Wrench",
   "description": "A sizeable spanner that can sock it to monsters of the machine family.",
   "statistics": {
@@ -103,7 +99,6 @@
   ]
  },
  "groundbreaker": {
-  "id": "groundbreaker",
   "title": "Groundbreaker",
   "description": "A pounder of imposing power that may rend the very ground asunder.",
   "statistics": {
@@ -130,7 +125,6 @@
   ]
  },
  "hela-s-hammer": {
-  "id": "hela-s-hammer",
   "title": "Hela's Hammer",
   "description": "A tricky tool to tame, but one that can finish foes in one fell swoop.",
   "statistics": {
@@ -158,7 +152,6 @@
   ]
  },
  "marauder-s-maul": {
-  "id": "marauder-s-maul",
   "title": "Marauder's Maul",
   "description": "A favourite of foul demons, it has dazzling destructive clout.",
   "statistics": {
@@ -182,7 +175,6 @@
   }
  },
  "megaton-hammer": {
-  "id": "megaton-hammer",
   "title": "Megaton Hammer",
   "description": "A huge hammer that weighs heavy on the heads of those it hits.",
   "statistics": {
@@ -210,7 +202,6 @@
   ]
  },
  "moonmasher": {
-  "id": "moonmasher",
   "title": "Moonmasher",
   "description": "A pounder of stupendous power that could crush the moon.",
   "statistics": {
@@ -235,7 +226,6 @@
   ]
  },
  "oaken-club": {
-  "id": "oaken-club",
   "title": "Oaken Club",
   "description": "A brutally basic bludgeon built of sturdy oak.",
   "statistics": {
@@ -261,7 +251,6 @@
   ]
  },
  "sledgehammer": {
-  "id": "sledgehammer",
   "title": "Sledgehammer",
   "description": "A heavyweight hammer with a head of iron.",
   "statistics": {
@@ -282,7 +271,6 @@
   ]
  },
  "starsmasher": {
-  "id": "starsmasher",
   "title": "Starsmasher",
   "description": "A pounder of peerless power, whose cosmic clout could crack a star.",
   "statistics": {
@@ -304,7 +292,6 @@
   }
  },
  "terra-firmer": {
-  "id": "terra-firmer",
   "title": "Terra Firmer",
   "description": "An even more ruinous version of the terra tamper.",
   "statistics": {
@@ -331,7 +318,6 @@
   ]
  },
  "terra-tamper": {
-  "id": "terra-tamper",
   "title": "Terra Tamper",
   "description": "A powerful pounder that harbours the essence of the earth's energy.",
   "statistics": {
@@ -362,7 +348,6 @@
   ]
  },
  "titan-s-hammer": {
-  "id": "titan-s-hammer",
   "title": "Titan's Hammer",
   "description": "A huge hammer that easily erases monsters of material make-up.",
   "statistics": {
@@ -386,7 +371,6 @@
   }
  },
  "war-hammer": {
-  "id": "war-hammer",
   "title": "War Hammer",
   "description": "A steel-headed hammer manufactured for melees!",
   "statistics": {
@@ -411,7 +395,6 @@
   ]
  },
  "warlord-s-hammer": {
-  "id": "warlord-s-hammer",
   "title": "Warlord's Hammer",
   "description": "A mammoth mallet that weighs heavy on the heads of those it hits.",
   "statistics": {
@@ -433,7 +416,6 @@
   }
  },
  "über-war-hammer": {
-  "id": "über-war-hammer",
   "title": "Über War Hammer",
   "description": "An even more formidable form of the war hammer.",
   "statistics": {

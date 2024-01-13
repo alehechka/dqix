@@ -1,6 +1,5 @@
 {
  "agility-ring": {
-  "id": "agility-ring",
   "title": "Agility Ring",
   "description": "A magical accoutrement that accentuates agility.",
   "statistics": {
@@ -50,7 +49,6 @@
   ]
  },
  "bow-tie": {
-  "id": "bow-tie",
   "title": "Bow Tie",
   "description": "A toff's tie that's sure to advance its wearer's vanity.",
   "statistics": {
@@ -97,7 +95,6 @@
   ]
  },
  "brainy-bracer": {
-  "id": "brainy-bracer",
   "title": "Brainy Bracer",
   "description": "An unusual accessory that enhances its wearer's magical might.",
   "statistics": {
@@ -133,7 +130,6 @@
   ]
  },
  "bunny-tail": {
-  "id": "bunny-tail",
   "title": "Bunny Tail",
   "description": "A fun and fluffy fashion item.",
   "statistics": {
@@ -170,7 +166,6 @@
   ]
  },
  "catholicon-ring": {
-  "id": "catholicon-ring",
   "title": "Catholicon Ring",
   "description": "A brilliant band that resists a whole range of undesirable effects.",
   "statistics": {
@@ -207,7 +202,6 @@
   ]
  },
  "combat-action-medal": {
-  "id": "combat-action-medal",
   "title": "Combat Action Medal",
   "description": "An armamentalist's medal that maxes the chance of a coup de grâce.",
   "statistics": {
@@ -236,7 +230,6 @@
   "classification": "accessories"
  },
  "contra-band": {
-  "id": "contra-band",
   "title": "Contra Band",
   "description": "A ring that raises resilience to poison attacks when worn.",
   "statistics": {
@@ -273,7 +266,6 @@
   ]
  },
  "critical-acclaim": {
-  "id": "critical-acclaim",
   "title": "Critical Acclaim",
   "description": "A gladiator's medal that cranks up the chance of a critical hit.",
   "statistics": {
@@ -302,7 +294,6 @@
   "classification": "accessories"
  },
  "dragon-scale": {
-  "id": "dragon-scale",
   "title": "Dragon Scale",
   "description": "A warrior's ward made of a wyrm's scale.",
   "statistics": {
@@ -344,7 +335,6 @@
   ]
  },
  "elfin-charm": {
-  "id": "elfin-charm",
   "title": "Elfin Charm",
   "description": "A talisman that turns aside tons of undesirable effects.",
   "statistics": {
@@ -382,7 +372,6 @@
   ]
  },
  "full-moon-ring": {
-  "id": "full-moon-ring",
   "title": "Full Moon Ring",
   "description": "A ring that provides protection against paralysis when worn.",
   "statistics": {
@@ -420,7 +409,6 @@
   ]
  },
  "goddess-ring": {
-  "id": "goddess-ring",
   "title": "Goddess Ring",
   "description": "A blessed band that brings back MP with every step.",
   "statistics": {
@@ -458,7 +446,6 @@
   ]
  },
  "gold-bracer": {
-  "id": "gold-bracer",
   "title": "Gold Bracer",
   "description": "A pure gold piece of armwear that artfully enhances defence.",
   "statistics": {
@@ -504,7 +491,6 @@
   ]
  },
  "gold-ring": {
-  "id": "gold-ring",
   "title": "Gold Ring",
   "description": "A beautiful, pure gold band that artfully enhances defence.",
   "statistics": {
@@ -556,7 +542,6 @@
   ]
  },
  "gold-rosary": {
-  "id": "gold-rosary",
   "title": "Gold Rosary",
   "description": "A holy helping hand that slightly heightens magical mending.",
   "statistics": {
@@ -592,7 +577,6 @@
   ]
  },
  "holy-talisman": {
-  "id": "holy-talisman",
   "title": "Holy Talisman",
   "description": "A ring that resists the ravages of death magic when worn.",
   "statistics": {
@@ -633,7 +617,6 @@
   ]
  },
  "honour-among-thieves": {
-  "id": "honour-among-thieves",
   "title": "Honour Among Thieves",
   "description": "A thief's award that enhances the chances of successfully stealing.",
   "statistics": {
@@ -662,7 +645,6 @@
   "classification": "accessories"
  },
  "legion-of-merit": {
-  "id": "legion-of-merit",
   "title": "Legion of Merit",
   "description": "A sage's medal that magnifies max. MP.",
   "statistics": {
@@ -690,7 +672,6 @@
   "classification": "accessories"
  },
  "life-bracer": {
-  "id": "life-bracer",
   "title": "Life Bracer",
   "description": "An enchanted extra that heals its wearer's wounds in battle.",
   "statistics": {
@@ -730,7 +711,6 @@
   ]
  },
  "life-ring": {
-  "id": "life-ring",
   "title": "Life Ring",
   "description": "A rejuvenating ring that heals health points with every step.",
   "statistics": {
@@ -767,7 +747,6 @@
   ]
  },
  "lifesaving-medal": {
-  "id": "lifesaving-medal",
   "title": "Lifesaving Medal",
   "description": "A priest's prize that pumps up magical mending.",
   "statistics": {
@@ -795,7 +774,6 @@
   "classification": "accessories"
  },
  "lucky-pendant": {
-  "id": "lucky-pendant",
   "title": "Lucky Pendant",
   "description": "A necklace that negates all sorts of spells that lower abilities.",
   "statistics": {
@@ -835,7 +813,6 @@
   ]
  },
  "mager-achievement": {
-  "id": "mager-achievement",
   "title": "Mager Achievement",
   "description": "A mage's medal that maximises magical might.",
   "statistics": {
@@ -863,7 +840,6 @@
   "classification": "accessories"
  },
  "medal-of-freedom": {
-  "id": "medal-of-freedom",
   "title": "Medal of Freedom",
   "description": "A reward for rangers that upgrades deftness when donned.",
   "statistics": {
@@ -891,7 +867,6 @@
   "classification": "accessories"
  },
  "mercury-prize": {
-  "id": "mercury-prize",
   "title": "Mercury Prize",
   "description": "A martial artist's medal that improves its wearer's agility.",
   "statistics": {
@@ -919,7 +894,6 @@
   "classification": "accessories"
  },
  "meteorite-bracer": {
-  "id": "meteorite-bracer",
   "title": "Meteorite Bracer",
   "description": "Awesome armwear that makes its wearer insanely agile.",
   "statistics": {
@@ -954,7 +928,6 @@
   ]
  },
  "mighty-armlet": {
-  "id": "mighty-armlet",
   "title": "Mighty Armlet",
   "description": "An accessory that accentuates attack power when worn.",
   "statistics": {
@@ -998,7 +971,6 @@
   ]
  },
  "monarchic-mark": {
-  "id": "monarchic-mark",
   "title": "Monarchic Mark",
   "description": "A kingly coat-of-arms that increases magical might and mending.",
   "statistics": {
@@ -1041,7 +1013,6 @@
   ]
  },
  "noscar": {
-  "id": "noscar",
   "title": "Noscar",
   "description": "An accolade for luminaries that seriously supplements style.",
   "statistics": {
@@ -1068,7 +1039,6 @@
   "classification": "accessories"
  },
  "order-of-chivalry": {
-  "id": "order-of-chivalry",
   "title": "Order of Chivalry",
   "description": "A paladin's decoration that drums up defence.",
   "statistics": {
@@ -1095,7 +1065,6 @@
   "classification": "accessories"
  },
  "pink-pearl": {
-  "id": "pink-pearl",
   "title": "Pink Pearl",
   "description": "A jolly gem with a rose colour.",
   "statistics": {
@@ -1137,7 +1106,6 @@
   ]
  },
  "prayer-ring": {
-  "id": "prayer-ring",
   "title": "Prayer Ring",
   "description": "A righteous ring that restores a modicum of MP when used.",
   "statistics": {
@@ -1183,7 +1151,6 @@
   ]
  },
  "raging-ruby": {
-  "id": "raging-ruby",
   "title": "Raging Ruby",
   "description": "A jewel that jacks up attack power when worn.",
   "statistics": {
@@ -1229,7 +1196,6 @@
   ]
  },
  "reckless-necklace": {
-  "id": "reckless-necklace",
   "title": "Reckless Necklace",
   "description": "Unnatural necklace with an ominous odour about it.",
   "statistics": {
@@ -1268,7 +1234,6 @@
   ]
  },
  "ring-of-clarity": {
-  "id": "ring-of-clarity",
   "title": "Ring of Clarity",
   "description": "A ring that confounds confusion attacks when worn.",
   "statistics": {
@@ -1302,7 +1267,6 @@
   }
  },
  "rosary": {
-  "id": "rosary",
   "title": "Rosary",
   "description": "A string of beads that boosts max. MP and magical mending.",
   "statistics": {
@@ -1338,7 +1302,6 @@
   ]
  },
  "rousing-ring": {
-  "id": "rousing-ring",
   "title": "Rousing Ring",
   "description": "A ring that resists sleep attacks when worn.",
   "statistics": {
@@ -1375,7 +1338,6 @@
   ]
  },
  "ruby-of-protection": {
-  "id": "ruby-of-protection",
   "title": "Ruby of Protection",
   "description": "A sparkling stone that strengthens defence when worn.",
   "statistics": {
@@ -1417,7 +1379,6 @@
   ]
  },
  "skull-ring": {
-  "id": "skull-ring",
   "title": "Skull Ring",
   "description": "An unpleasant piece of jewellery with an ominous odour about it.",
   "statistics": {
@@ -1459,7 +1420,6 @@
   ]
  },
  "slime-earrings": {
-  "id": "slime-earrings",
   "title": "Slime Earrings",
   "description": "Jaunty jewellery with a slimy slant.",
   "statistics": {
@@ -1503,7 +1463,6 @@
   ]
  },
  "sober-ring": {
-  "id": "sober-ring",
   "title": "Sober Ring",
   "description": "A ring that resists Dazzle-like magic when donned.",
   "statistics": {
@@ -1541,7 +1500,6 @@
   ]
  },
  "soldier-s-medal": {
-  "id": "soldier-s-medal",
   "title": "Soldier's Medal",
   "description": "A warrior's award that ups its wearer's attack power.",
   "statistics": {
@@ -1569,7 +1527,6 @@
   "classification": "accessories"
  },
  "sorcerer-s-ring": {
-  "id": "sorcerer-s-ring",
   "title": "Sorcerer's Ring",
   "description": "A beautiful band that boosts max. MP and magical might.",
   "statistics": {
@@ -1606,7 +1563,6 @@
   ]
  },
  "sorcerer-s-stone": {
-  "id": "sorcerer-s-stone",
   "title": "Sorcerer's Stone",
   "description": "A jewel that jacks up its wearer's magical might a little.",
   "statistics": {
@@ -1643,7 +1599,6 @@
   ]
  },
  "spirit-bracer": {
-  "id": "spirit-bracer",
   "title": "Spirit Bracer",
   "description": "An enchanted armband that boosts max. MP by thirty.",
   "statistics": {
@@ -1679,7 +1634,6 @@
   ]
  },
  "strength-ring": {
-  "id": "strength-ring",
   "title": "Strength Ring",
   "description": "A band that bolsters brawn when worn.",
   "statistics": {
@@ -1720,7 +1674,6 @@
   ]
  },
  "terrible-tattoo": {
-  "id": "terrible-tattoo",
   "title": "Terrible Tattoo",
   "description": "A satanic stick-on design with an ominous odour about it.",
   "statistics": {
@@ -1761,7 +1714,6 @@
   ]
  },
  "tough-guy-tattoo": {
-  "id": "tough-guy-tattoo",
   "title": "Tough Guy Tattoo",
   "description": "A mark that magnifies muscle and musters fighting might.",
   "statistics": {
@@ -1801,7 +1753,6 @@
   ]
  },
  "utility-belt": {
-  "id": "utility-belt",
   "title": "Utility Belt",
   "description": "A craftsman's companion that does wonders for its wearer's deftness.",
   "statistics": {
@@ -1836,7 +1787,6 @@
   ]
  },
  "venus--tear": {
-  "id": "venus--tear",
   "title": "Venus' Tear",
   "description": "A jewel that fascinates those who feast their eyes on it.",
   "statistics": {
@@ -1868,7 +1818,6 @@
   ]
  },
  "wear-with-all-award": {
-  "id": "wear-with-all-award",
   "title": "Wear-With-All Award",
   "description": "A minstrel's medal that allows you to equip the opposite sex's stuff.",
   "statistics": {

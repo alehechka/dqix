@@ -1,6 +1,5 @@
 {
  "archdemon-whip": {
-  "id": "archdemon-whip",
   "title": "Archdemon Whip",
   "description": "A woeful whip that whiffs worryingly of wickedness.",
   "statistics": {
@@ -28,7 +27,6 @@
   ]
  },
  "battle-whip": {
-  "id": "battle-whip",
   "title": "Battle Whip",
   "description": "A combat whip that can hit a whole heap of enemies at once.",
   "statistics": {
@@ -51,7 +49,6 @@
   ]
  },
  "chain-whip": {
-  "id": "chain-whip",
   "title": "Chain Whip",
   "description": "A whip of linked loops that can lash a whole line of enemies at once.",
   "statistics": {
@@ -77,7 +74,6 @@
   ]
  },
  "demon-whip": {
-  "id": "demon-whip",
   "title": "Demon Whip",
   "description": "A warped whip that whiffs worryingly of wickedness.",
   "statistics": {
@@ -111,7 +107,6 @@
   ]
  },
  "dragontail-whip": {
-  "id": "dragontail-whip",
   "title": "Dragontail Whip",
   "description": "A terribly tough whip designed to duplicate a dragon's tail.",
   "statistics": {
@@ -142,7 +137,6 @@
   }
  },
  "empress-s-whip": {
-  "id": "empress-s-whip",
   "title": "Empress's Whip",
   "description": "A ladylike lash fondly flaunted by a famous queen.",
   "statistics": {
@@ -170,7 +164,6 @@
   ]
  },
  "giga-gringham-whip": {
-  "id": "giga-gringham-whip",
   "title": "Giga Gringham Whip",
   "description": "A reformed and remodelled revision of the Gringham whip.",
   "statistics": {
@@ -198,7 +191,6 @@
   ]
  },
  "gigaspike-whip": {
-  "id": "gigaspike-whip",
   "title": "Gigaspike Whip",
   "description": "A fortified form of the spiked steel whip.",
   "statistics": {
@@ -221,7 +213,6 @@
   }
  },
  "goddess-whip": {
-  "id": "goddess-whip",
   "title": "Goddess Whip",
   "description": "A ladylike lash fondly flaunted by a heavenly hand.",
   "statistics": {
@@ -246,7 +237,6 @@
   }
  },
  "gringham-whip": {
-  "id": "gringham-whip",
   "title": "Gringham Whip",
   "description": "A fantastic flail that can attack all foes at once.",
   "statistics": {
@@ -276,7 +266,6 @@
   ]
  },
  "iron-whip": {
-  "id": "iron-whip",
   "title": "Iron Whip",
   "description": "A strong whip woven from ferrous fibres.",
   "statistics": {
@@ -306,7 +295,6 @@
   ]
  },
  "leather-whip": {
-  "id": "leather-whip",
   "title": "Leather Whip",
   "description": "A whip made of hide that can hit a whole heap of enemies at once.",
   "statistics": {
@@ -335,7 +323,6 @@
   ]
  },
  "mega-gringham-whip": {
-  "id": "mega-gringham-whip",
   "title": "Mega Gringham Whip",
   "description": "An even more vicious version of the Gringham whip.",
   "statistics": {
@@ -364,7 +351,6 @@
   ]
  },
  "queen-s-whip": {
-  "id": "queen-s-whip",
   "title": "Queen's Whip",
   "description": "A ladylike lash fondly flaunted by a famous queen.",
   "statistics": {
@@ -391,7 +377,6 @@
   ]
  },
  "scourge-whip": {
-  "id": "scourge-whip",
   "title": "Scourge Whip",
   "description": "A ferocious whip that lashes foes like a menacing monsoon.",
   "statistics": {
@@ -413,7 +398,6 @@
   }
  },
  "serpentine-whip": {
-  "id": "serpentine-whip",
   "title": "Serpentine Whip",
   "description": "A sturdy whip made from the skin of a large snake.",
   "statistics": {
@@ -439,7 +423,6 @@
   ]
  },
  "sidewinder": {
-  "id": "sidewinder",
   "title": "Sidewinder",
   "description": "A stronger and more severe version of the serpentine whip.",
   "statistics": {
@@ -462,7 +445,6 @@
   }
  },
  "snakeskin-whip": {
-  "id": "snakeskin-whip",
   "title": "Snakeskin Whip",
   "description": "A scaly whip that can hit a whole heap of enemies at once.",
   "statistics": {
@@ -495,7 +477,6 @@
   ]
  },
  "spiked-steel-whip": {
-  "id": "spiked-steel-whip",
   "title": "Spiked Steel Whip",
   "description": "A wicked whip woven from steel wires with spiny protrusions.",
   "statistics": {
@@ -521,7 +502,6 @@
   ]
  },
  "thorn-whip": {
-  "id": "thorn-whip",
   "title": "Thorn Whip",
   "description": "A thorny thong that can hit a whole heap of enemies at once.",
   "statistics": {
@@ -547,7 +527,6 @@
   }
  },
  "wizardly-whip": {
-  "id": "wizardly-whip",
   "title": "Wizardly Whip",
   "description": "A well-known whip derived from a dim and distant city of doom.",
   "statistics": {
@@ -568,7 +547,6 @@
   ]
  },
  "über-gringham-whip": {
-  "id": "über-gringham-whip",
   "title": "Über Gringham Whip",
   "description": "A greatly improved Gringham whip that packs a serious punch.",
   "statistics": {

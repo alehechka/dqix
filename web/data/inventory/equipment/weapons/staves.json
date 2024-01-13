@@ -1,6 +1,5 @@
 {
  "ballistick": {
-  "id": "ballistick",
   "title": "Ballistick",
   "description": "A stupendous staff that twirls like a tornado and hits like a hurricane.",
   "statistics": {
@@ -25,7 +24,6 @@
   }
  },
  "carrying-pole": {
-  "id": "carrying-pole",
   "title": "Carrying Pole",
   "description": "A sturdy stick for lugging heavy luggage.",
   "statistics": {
@@ -47,7 +45,6 @@
   ]
  },
  "catatonic-cosh": {
-  "id": "catatonic-cosh",
   "title": "Catatonic Cosh",
   "description": "An unsurpassed stick that solidifies itself to smack foes silly.",
   "statistics": {
@@ -74,7 +71,6 @@
   ]
  },
  "coma-cudgel": {
-  "id": "coma-cudgel",
   "title": "Coma Cudgel",
   "description": "A supreme stick that solidifies itself to smack foes silly.",
   "statistics": {
@@ -98,7 +94,6 @@
   }
  },
  "dragon-rod": {
-  "id": "dragon-rod",
   "title": "Dragon Rod",
   "description": "A scary stick said to harbour the might of dragons.",
   "statistics": {
@@ -122,7 +117,6 @@
   ]
  },
  "driller-pillar": {
-  "id": "driller-pillar",
   "title": "Driller Pillar",
   "description": "A well-balanced weapon that packs one heck of a whack!",
   "statistics": {
@@ -148,7 +142,6 @@
   ]
  },
  "gigasteel-bar": {
-  "id": "gigasteel-bar",
   "title": "Gigasteel Bar",
   "description": "An even harder hitter than the steel bar.",
   "statistics": {
@@ -170,7 +163,6 @@
   }
  },
  "iron-bar": {
-  "id": "iron-bar",
   "title": "Iron Bar",
   "description": "A metal rod that can really make those on its receiving end reel.",
   "statistics": {
@@ -195,7 +187,6 @@
   ]
  },
  "killer-pillar": {
-  "id": "killer-pillar",
   "title": "Killer Pillar",
   "description": "A cudgel commonly employed by competent combatants.",
   "statistics": {
@@ -216,7 +207,6 @@
   }
  },
  "knockout-rod": {
-  "id": "knockout-rod",
   "title": "Knockout Rod",
   "description": "A supernatural stick that solidifies itself to smack foes silly.",
   "statistics": {
@@ -245,7 +235,6 @@
   ]
  },
  "laundry-pole": {
-  "id": "laundry-pole",
   "title": "Laundry Pole",
   "description": "A long bamboo pole 'borrowed' from a boring old clothes horse.",
   "statistics": {
@@ -269,7 +258,6 @@
   ]
  },
  "mistick": {
-  "id": "mistick",
   "title": "Mistick",
   "description": "A strong staff that rains down blows like a sudden storm.",
   "statistics": {
@@ -304,7 +292,6 @@
   ]
  },
  "oaken-pole": {
-  "id": "oaken-pole",
   "title": "Oaken Pole",
   "description": "A lengthy stick carved from the bough of a sturdy oak.",
   "statistics": {
@@ -329,7 +316,6 @@
   ]
  },
  "optimistick": {
-  "id": "optimistick",
   "title": "Optimistick",
   "description": "A stormy stick that hails down blows like it's monsoon season.",
   "statistics": {
@@ -356,7 +342,6 @@
   ]
  },
  "orichalcudgel": {
-  "id": "orichalcudgel",
   "title": "Orichalcudgel",
   "description": "A stonking stick made of a super-rare substance.",
   "statistics": {
@@ -377,7 +362,6 @@
   }
  },
  "pillar-of-strength": {
-  "id": "pillar-of-strength",
   "title": "Pillar of Strength",
   "description": "A quarterstaff of quite worrying width.",
   "statistics": {
@@ -403,7 +387,6 @@
   ]
  },
  "sadistick": {
-  "id": "sadistick",
   "title": "Sadistick",
   "description": "A beastly bludgeon with a spiky end.",
   "statistics": {
@@ -424,7 +407,6 @@
   ]
  },
  "senseless-stick": {
-  "id": "senseless-stick",
   "title": "Senseless Stick",
   "description": "A celebrated stick that solidifies itself to smack foes silly.",
   "statistics": {
@@ -452,7 +434,6 @@
   ]
  },
  "sleepy-stick": {
-  "id": "sleepy-stick",
   "title": "Sleepy Stick",
   "description": "A curious cudgel that sometimes sends the enemy to sleep.",
   "statistics": {
@@ -479,7 +460,6 @@
   ]
  },
  "slumber-stick": {
-  "id": "slumber-stick",
   "title": "Slumber Stick",
   "description": "A supernatural stick that sometimes sends the enemy to sleep.",
   "statistics": {
@@ -503,7 +483,6 @@
   }
  },
  "steel-bar": {
-  "id": "steel-bar",
   "title": "Steel Bar",
   "description": "A rock-solid rod made from strengthened steel.",
   "statistics": {
@@ -528,7 +507,6 @@
   ]
  },
  "xenlon-rod": {
-  "id": "xenlon-rod",
   "title": "Xenlon Rod",
   "description": "A spine-chilling stick said to harbour the might of a dragon deity.",
   "statistics": {

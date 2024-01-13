@@ -1,6 +1,5 @@
 {
  "alefgard-helm": {
-  "id": "alefgard-helm",
   "title": "Alefgard Helm",
   "description": "A helmet habitually worn by a hero of Alefgard.",
   "statistics": {
@@ -30,7 +29,6 @@
   }
  },
  "alena-s-hat": {
-  "id": "alena-s-hat",
   "title": "Alena's Hat",
   "description": "A triangular topper modelled on that of a tough tsarevna.",
   "statistics": {
@@ -57,7 +55,6 @@
   "classification": "head"
  },
  "aliahan-headpiece": {
-  "id": "aliahan-headpiece",
   "title": "Aliahan Headpiece",
   "description": "A gleaming garland given a great popularity boost by a legendary hero.",
   "statistics": {
@@ -87,7 +84,6 @@
   }
  },
  "apollo-s-crown": {
-  "id": "apollo-s-crown",
   "title": "Apollo's Crown",
   "description": "A cosmic coronet that banishes sleep and confusion.",
   "statistics": {
@@ -118,7 +114,6 @@
   ]
  },
  "ashlynn-s-hair": {
-  "id": "ashlynn-s-hair",
   "title": "Ashlynn's Hair",
   "description": "Ashlynn's tufts tied up at the top.",
   "statistics": {
@@ -146,7 +141,6 @@
   "classification": "head"
  },
  "autumn-shower-hat": {
-  "id": "autumn-shower-hat",
   "title": "Autumn Shower Hat",
   "description": "An odd ornament for the head that obstructs confusion.",
   "statistics": {
@@ -182,7 +176,6 @@
   ]
  },
  "bandana": {
-  "id": "bandana",
   "title": "Bandana",
   "description": "A bog-standard band to wrap around the bonce.",
   "statistics": {
@@ -214,7 +207,6 @@
   ]
  },
  "battler-s-band": {
-  "id": "battler-s-band",
   "title": "Battler's Band",
   "description": "Guarding garb that bedecks the brow of many a gladiator.",
   "statistics": {
@@ -234,7 +226,6 @@
   ]
  },
  "bianca-s-braid": {
-  "id": "bianca-s-braid",
   "title": "Bianca's Braid",
   "description": "An unpretentious plait like that of the boyish yet beautiful Bianca.",
   "statistics": {
@@ -263,7 +254,6 @@
   "classification": "head"
  },
  "blessed-helm": {
-  "id": "blessed-helm",
   "title": "Blessed Helm",
   "description": "A holy helm hardy against confusion, illusion and poison.",
   "statistics": {
@@ -296,7 +286,6 @@
   ]
  },
  "borya-s-bouffant": {
-  "id": "borya-s-bouffant",
   "title": "Borya's Bouffant",
   "description": "A silvery shock resembling that of the sorcerer Borya.",
   "statistics": {
@@ -324,7 +313,6 @@
   "classification": "head"
  },
  "brown-afro": {
-  "id": "brown-afro",
   "title": "Brown Afro",
   "description": "The biggest style a brunette can bestow upon their bonce.",
   "statistics": {
@@ -354,7 +342,6 @@
   "classification": "head"
  },
  "bunny-ears": {
-  "id": "bunny-ears",
   "title": "Bunny Ears",
   "description": "A rabbity requirement for the bona fide bunny girl.",
   "statistics": {
@@ -391,7 +378,6 @@
   ]
  },
  "cannock-helm": {
-  "id": "cannock-helm",
   "title": "Cannock Helm",
   "description": "Avant-garde goggled nogginwear perfect for the Prince of Cannock.",
   "statistics": {
@@ -419,7 +405,6 @@
   "classification": "head"
  },
  "canny-cap": {
-  "id": "canny-cap",
   "title": "Canny Cap",
   "description": "A nice piece of nogginwear that shows how savvy a sage is.",
   "statistics": {
@@ -445,7 +430,6 @@
   ]
  },
  "carver-s-hair": {
-  "id": "carver-s-hair",
   "title": "Carver's Hair",
   "description": "A manly Mohican mop in Carver's style.",
   "statistics": {
@@ -472,7 +456,6 @@
   "classification": "head"
  },
  "cat-ears": {
-  "id": "cat-ears",
   "title": "Cat Ears",
   "description": "An eared headband that makes a full-on feline fashion statement.",
   "statistics": {
@@ -513,7 +496,6 @@
   ]
  },
  "cavalier-hat": {
-  "id": "cavalier-hat",
   "title": "Cavalier Hat",
   "description": "A high-class hat aimed squarely at extravagant armamentalists.",
   "statistics": {
@@ -534,7 +516,6 @@
   ]
  },
  "circlet": {
-  "id": "circlet",
   "title": "Circlet",
   "description": "An accessory made to make foreheads more fancy.",
   "statistics": {
@@ -565,7 +546,6 @@
   ]
  },
  "crown-of-clarity": {
-  "id": "crown-of-clarity",
   "title": "Crown of Clarity",
   "description": "A headpiece once worn by a whilom sage.",
   "statistics": {
@@ -588,7 +568,6 @@
   }
  },
  "debora-s-damasks": {
-  "id": "debora-s-damasks",
   "title": "Debora's Damasks",
   "description": "Debora Briscoletti's beloved hair embellishment.",
   "statistics": {
@@ -616,7 +595,6 @@
   "classification": "head"
  },
  "disturbin--turban": {
-  "id": "disturbin--turban",
   "title": "Disturbin' Turban",
   "description": "A shadow-shrouded turban thought highly of by thieves.",
   "statistics": {
@@ -641,7 +619,6 @@
   ]
  },
  "dragon-warrior-helm": {
-  "id": "dragon-warrior-helm",
   "title": "Dragon Warrior Helm",
   "description": "A gift given by Greygnarl as a token of friendship.",
   "statistics": {
@@ -670,7 +647,6 @@
   "classification": "head"
  },
  "ear-cosy": {
-  "id": "ear-cosy",
   "title": "Ear Cosy",
   "description": "A fluffy trademark of the really committed ranger.",
   "statistics": {
@@ -697,7 +673,6 @@
   ]
  },
  "erdrick-s-helmet": {
-  "id": "erdrick-s-helmet",
   "title": "Erdrick's Helmet",
   "description": "A historic helm that harbours the might of a legendary hero.",
   "statistics": {
@@ -724,7 +699,6 @@
   }
  },
  "erinn-s-headkerchief": {
-  "id": "erinn-s-headkerchief",
   "title": "Erinn's Headkerchief",
   "description": "The basic bandana Erinn wears to keep her hair under control.",
   "statistics": {
@@ -755,7 +729,6 @@
   "classification": "head"
  },
  "estard-hood": {
-  "id": "estard-hood",
   "title": "Estard Hood",
   "description": "A favourite of fishermen that's particularly popular in Estard.",
   "statistics": {
@@ -787,7 +760,6 @@
   }
  },
  "feather-headband": {
-  "id": "feather-headband",
   "title": "Feather Headband",
   "description": "A plumed piece of kit most often worn by minstrels.",
   "statistics": {
@@ -818,7 +790,6 @@
   ]
  },
  "feathered-cap": {
-  "id": "feathered-cap",
   "title": "Feathered Cap",
   "description": "A feathery hat that's the height of fashion.",
   "statistics": {
@@ -853,7 +824,6 @@
   ]
  },
  "filigree-mask": {
-  "id": "filigree-mask",
   "title": "Filigree Mask",
   "description": "Protection for the whole head prettified with precious metal.",
   "statistics": {
@@ -876,7 +846,6 @@
   }
  },
  "fleurette-s-floret": {
-  "id": "fleurette-s-floret",
   "title": "Fleurette's Floret",
   "description": "A black bloom to embellish the hair in Fleurette's fancy style.",
   "statistics": {
@@ -904,7 +873,6 @@
   "classification": "head"
  },
  "fur-hood": {
-  "id": "fur-hood",
   "title": "Fur Hood",
   "description": "A snug skin hood that softens the shock of shivery climes.",
   "statistics": {
@@ -945,7 +913,6 @@
   ]
  },
  "gigasteel-helmet": {
-  "id": "gigasteel-helmet",
   "title": "Gigasteel Helmet",
   "description": "A handsome hat made of hard gigasteel.",
   "statistics": {
@@ -976,7 +943,6 @@
   ]
  },
  "gold-circlet": {
-  "id": "gold-circlet",
   "title": "Gold Circlet",
   "description": "An elegant accessory made from an expensive metal.",
   "statistics": {
@@ -1009,7 +975,6 @@
   ]
  },
  "golden-tiara": {
-  "id": "golden-tiara",
   "title": "Golden Tiara",
   "description": "Gorgeous golden headgear worn by women.",
   "statistics": {
@@ -1042,7 +1007,6 @@
   }
  },
  "gothan-turban": {
-  "id": "gothan-turban",
   "title": "Gothan Turban",
   "description": "A no-frills fabric headpiece loved by the long-lost king of Gotha.",
   "statistics": {
@@ -1074,7 +1038,6 @@
   }
  },
  "great-helm": {
-  "id": "great-helm",
   "title": "Great Helm",
   "description": "A hat made of a magical metal that's stouter than steel.",
   "statistics": {
@@ -1099,7 +1062,6 @@
   ]
  },
  "hades--helm": {
-  "id": "hades--helm",
   "title": "Hades' Helm",
   "description": "A horned hat with a fiendish face that begets misfortune.",
   "statistics": {
@@ -1132,7 +1094,6 @@
   ]
  },
  "hairband": {
-  "id": "hairband",
   "title": "Hairband",
   "description": "An appealing accessory worn on the head.",
   "statistics": {
@@ -1166,7 +1127,6 @@
   ]
  },
  "hallowed-helm": {
-  "id": "hallowed-helm",
   "title": "Hallowed Helm",
   "description": "A helm offering holy protection against confusion and illusion.",
   "statistics": {
@@ -1200,7 +1160,6 @@
   ]
  },
  "halo": {
-  "id": "halo",
   "title": "Halo",
   "description": "A replica of a radiant ring that reveals a real Celestrian.",
   "statistics": {
@@ -1229,7 +1188,6 @@
   "classification": "head"
  },
  "happy-hat": {
-  "id": "happy-hat",
   "title": "Happy Hat",
   "description": "A curious cap that accumulates MP as its wearer wanders about.",
   "statistics": {
@@ -1260,7 +1218,6 @@
   }
  },
  "hardwood-headwear": {
-  "id": "hardwood-headwear",
   "title": "Hardwood headwear",
   "description": "A humdrum headpiece made from a hollowed out stump.",
   "statistics": {
@@ -1291,7 +1248,6 @@
   }
  },
  "heavenly-helm": {
-  "id": "heavenly-helm",
   "title": "Heavenly Helm",
   "description": "A godly guard against confusion, illusion, poison and death.",
   "statistics": {
@@ -1320,7 +1276,6 @@
   }
  },
  "hermetic-hat": {
-  "id": "hermetic-hat",
   "title": "Hermetic Hat",
   "description": "Holy headwear that all but halts the effects of death magic.",
   "statistics": {
@@ -1341,7 +1296,6 @@
   ]
  },
  "hocus-hat": {
-  "id": "hocus-hat",
   "title": "Hocus Hat",
   "description": "An enigmatic extra of which enchanters are often enamoured.",
   "statistics": {
@@ -1364,7 +1318,6 @@
   ]
  },
  "holy-hat": {
-  "id": "holy-hat",
   "title": "Holy Hat",
   "description": "Holy headwear that hinders the effects of death magic.",
   "statistics": {
@@ -1387,7 +1340,6 @@
   ]
  },
  "hunter-s-hat": {
-  "id": "hunter-s-hat",
   "title": "Hunter's Hat",
   "description": "Red-blooded rigging worn by rangers on the hunt.",
   "statistics": {
@@ -1415,7 +1367,6 @@
   ]
  },
  "iron-helmet": {
-  "id": "iron-helmet",
   "title": "Iron Helmet",
   "description": "A humble hat made of iron.",
   "statistics": {
@@ -1450,7 +1401,6 @@
   ]
  },
  "iron-mask": {
-  "id": "iron-mask",
   "title": "Iron Mask",
   "description": "A complete metal covering for the cranium.",
   "statistics": {
@@ -1480,7 +1430,6 @@
   ]
  },
  "jess-s-tresses": {
-  "id": "jess-s-tresses",
   "title": "Jess's Tresses",
   "description": "A twin ponytail that Jessica touts as being terrific for travelling.",
   "statistics": {
@@ -1508,7 +1457,6 @@
   "classification": "head"
  },
  "kiefer-s-hair": {
-  "id": "kiefer-s-hair",
   "title": "Kiefer's Hair",
   "description": "Prince Kiefer's raucous, roguish hairdo.",
   "statistics": {
@@ -1535,7 +1483,6 @@
   "classification": "head"
  },
  "kiryl-s-kamilavka": {
-  "id": "kiryl-s-kamilavka",
   "title": "Kiryl's Kamilavka",
   "description": "A tall bonce embellishment that belonged to Bishop Kiryl.",
   "statistics": {
@@ -1563,7 +1510,6 @@
   "classification": "head"
  },
  "leather-hat": {
-  "id": "leather-hat",
   "title": "Leather Hat",
   "description": "A highly ordinary headpiece of hardened hide.",
   "statistics": {
@@ -1600,7 +1546,6 @@
   ]
  },
  "liquid-metal-helm": {
-  "id": "liquid-metal-helm",
   "title": "Liquid Metal Helm",
   "description": "Priceless protection packed with the power of liquid metal slimes.",
   "statistics": {
@@ -1631,7 +1576,6 @@
   ]
  },
  "magical-hat": {
-  "id": "magical-hat",
   "title": "Magical Hat",
   "description": "A hat that heightens its wearer's magical might.",
   "statistics": {
@@ -1660,7 +1604,6 @@
   ]
  },
  "maid-s-mop": {
-  "id": "maid-s-mop",
   "title": "Maid's Mop",
   "description": "A hairband that no maid could manage without.",
   "statistics": {
@@ -1690,7 +1633,6 @@
   "classification": "head"
  },
  "mail-coif": {
-  "id": "mail-coif",
   "title": "Mail Coif",
   "description": "A heavy hood made from interlaced iron loops.",
   "statistics": {
@@ -1714,7 +1656,6 @@
   ]
  },
  "malleable-mask": {
-  "id": "malleable-mask",
   "title": "Malleable Mask",
   "description": "A flamboyant facemask that protects against paralysis attacks.",
   "statistics": {
@@ -1750,7 +1691,6 @@
   ]
  },
  "maribel-s-hood": {
-  "id": "maribel-s-hood",
   "title": "Maribel's Hood",
   "description": "A cute cowl carrying Maribel's bona fide signature.",
   "statistics": {
@@ -1777,7 +1717,6 @@
   "classification": "head"
  },
  "maya-s-mane": {
-  "id": "maya-s-mane",
   "title": "Maya's Mane",
   "description": "A hairdo that harks back to that of the dazzling dancer Maya.",
   "statistics": {
@@ -1805,7 +1744,6 @@
   "classification": "head"
  },
  "meena-s-mane": {
-  "id": "meena-s-mane",
   "title": "Meena's Mane",
   "description": "Long, lavish hairdo modelled on that of Meena the mystic.",
   "statistics": {
@@ -1833,7 +1771,6 @@
   "classification": "head"
  },
  "mega-magical-hat": {
-  "id": "mega-magical-hat",
   "title": "Mega-Magical Hat",
   "description": "A mysterious hat that meets the requirements of magic users.",
   "statistics": {
@@ -1857,7 +1794,6 @@
   }
  },
  "mercury-s-bandana": {
-  "id": "mercury-s-bandana",
   "title": "Mercury's Bandana",
   "description": "Enchanted attire for the head that enhances its wearer's agility.",
   "statistics": {
@@ -1894,7 +1830,6 @@
   ]
  },
  "metal-king-helm": {
-  "id": "metal-king-helm",
   "title": "Metal King Helm",
   "description": "High-class headgear in which sits the soul of a metal king slime.",
   "statistics": {
@@ -1922,7 +1857,6 @@
   }
  },
  "metal-slime-helm": {
-  "id": "metal-slime-helm",
   "title": "Metal Slime Helm",
   "description": "A handy helmet that harbours the hardiness of metal slimes.",
   "statistics": {
@@ -1951,7 +1885,6 @@
   ]
  },
  "midenhall-helm": {
-  "id": "midenhall-helm",
   "title": "Midenhall Helm",
   "description": "A helmet undeniably hailing from His Majesty of Midenhall.",
   "statistics": {
@@ -1981,7 +1914,6 @@
   }
  },
  "milly-s-hair": {
-  "id": "milly-s-hair",
   "title": "Milly's Hair",
   "description": "Long blond locks like those worn by Milly.",
   "statistics": {
@@ -2009,7 +1941,6 @@
   "classification": "head"
  },
  "minerva-s-mitre": {
-  "id": "minerva-s-mitre",
   "title": "Minerva's Mitre",
   "description": "A certain symbol of the supreme savvy of a sage.",
   "statistics": {
@@ -2033,7 +1964,6 @@
   ]
  },
  "minotaur-helm": {
-  "id": "minotaur-helm",
   "title": "Minotaur Helm",
   "description": "Hardcore horned headgear for the real wild card.",
   "statistics": {
@@ -2057,7 +1987,6 @@
   }
  },
  "mitre": {
-  "id": "mitre",
   "title": "Mitre",
   "description": "A holy hat that perched on the head of a priest from the past.",
   "statistics": {
@@ -2079,7 +2008,6 @@
   }
  },
  "monarchic-moustache": {
-  "id": "monarchic-moustache",
   "title": "Monarchic Moustache",
   "description": "Stick this on and you'll seem like some kind of revered royal…probably.",
   "statistics": {
@@ -2109,7 +2037,6 @@
   "classification": "head"
  },
  "moonbrooke-hood": {
-  "id": "moonbrooke-hood",
   "title": "Moonbrooke Hood",
   "description": "A classy cowl popularised by a princess of Moonbrooke.",
   "statistics": {
@@ -2137,7 +2064,6 @@
   "classification": "head"
  },
  "morrie-s-mullet": {
-  "id": "morrie-s-mullet",
   "title": "Morrie's Mullet",
   "description": "A barber-baffling head of hair modelled in Morrie-esque style.",
   "statistics": {
@@ -2166,7 +2092,6 @@
   "classification": "head"
  },
  "musketeer-hat": {
-  "id": "musketeer-hat",
   "title": "Musketeer Hat",
   "description": "A posh piece of plumed headgear put on by armamentalists.",
   "statistics": {
@@ -2192,7 +2117,6 @@
   ]
  },
  "mythril-coif": {
-  "id": "mythril-coif",
   "title": "Mythril Coif",
   "description": "A hardy hood made from interlaced loops of the mighty metal mythril.",
   "statistics": {
@@ -2213,7 +2137,6 @@
   }
  },
  "mythril-helm": {
-  "id": "mythril-helm",
   "title": "Mythril Helm",
   "description": "An eye-catching cap made from the mighty metal mythril.",
   "statistics": {
@@ -2241,7 +2164,6 @@
   ]
  },
  "nera-s-hair": {
-  "id": "nera-s-hair",
   "title": "Nera's Hair",
   "description": "Beautiful, long blue hair like that of Nera Briscoletti.",
   "statistics": {
@@ -2269,7 +2191,6 @@
   "classification": "head"
  },
  "papillon-mask": {
-  "id": "papillon-mask",
   "title": "Papillon Mask",
   "description": "A fantastic facemask that fends off paralysis attacks.",
   "statistics": {
@@ -2308,7 +2229,6 @@
   ]
  },
  "phantom-mask": {
-  "id": "phantom-mask",
   "title": "Phantom Mask",
   "description": "A magical mask that musters aplomb and agility in its master.",
   "statistics": {
@@ -2340,7 +2260,6 @@
   }
  },
  "platinum-headgear": {
-  "id": "platinum-headgear",
   "title": "Platinum Headgear",
   "description": "A pretty piece of protection for the head made from platinum.",
   "statistics": {
@@ -2378,7 +2297,6 @@
   ]
  },
  "pointy-hat": {
-  "id": "pointy-hat",
   "title": "Pointy Hat",
   "description": "A tiny topper with a tapered tip.",
   "statistics": {
@@ -2422,7 +2340,6 @@
   ]
  },
  "proper-topper": {
-  "id": "proper-topper",
   "title": "Proper Topper",
   "description": "A classy black hat that fulfils the requirements of formal dress.",
   "statistics": {
@@ -2451,7 +2368,6 @@
   "classification": "head"
  },
  "pumpkin-head": {
-  "id": "pumpkin-head",
   "title": "Pumpkin Head",
   "description": "Want to look just like a jack o' lantern? Well, look no further!",
   "statistics": {
@@ -2480,7 +2396,6 @@
   "classification": "head"
  },
  "raging-bull-helm": {
-  "id": "raging-bull-helm",
   "title": "Raging Bull Helm",
   "description": "Horned headgear for the wild at heart.",
   "statistics": {
@@ -2514,7 +2429,6 @@
   ]
  },
  "ragnar-s-helm": {
-  "id": "ragnar-s-helm",
   "title": "Ragnar's Helm",
   "description": "Plucky poll protection made use of by McRyan.",
   "statistics": {
@@ -2541,7 +2455,6 @@
   "classification": "head"
  },
  "ravishing-ribbon": {
-  "id": "ravishing-ribbon",
   "title": "Ravishing Ribbon",
   "description": "Pretty paraphernalia that's part of every luminary's allure.",
   "statistics": {
@@ -2563,7 +2476,6 @@
   ]
  },
  "red-afro": {
-  "id": "red-afro",
   "title": "Red Afro",
   "description": "The raddest style a redhead can bestow upon their bonce.",
   "statistics": {
@@ -2593,7 +2505,6 @@
   "classification": "head"
  },
  "rusty-helmet": {
-  "id": "rusty-helmet",
   "title": "Rusty Helmet",
   "description": "A poorly preserved headpiece that precious little is known about.",
   "statistics": {
@@ -2619,7 +2530,6 @@
   ]
  },
  "santa-s-hat": {
-  "id": "santa-s-hat",
   "title": "Santa's Hat",
   "description": "The bright red hat that Santa Claus adores.",
   "statistics": {
@@ -2649,7 +2559,6 @@
   "classification": "head"
  },
  "scholar-s-circlet": {
-  "id": "scholar-s-circlet",
   "title": "Scholar's Circlet",
   "description": "High-brow headgear that heavily heightens its wearer's magical might.",
   "statistics": {
@@ -2678,7 +2587,6 @@
   }
  },
  "sharp-shades": {
-  "id": "sharp-shades",
   "title": "Sharp Shades",
   "description": "Radical wrap-arounds worn by self-proclaimed kings of cool.",
   "statistics": {
@@ -2707,7 +2615,6 @@
   "classification": "head"
  },
  "silken-veil": {
-  "id": "silken-veil",
   "title": "Silken Veil",
   "description": "The piece that takes pride of place atop the bridal mop.",
   "statistics": {
@@ -2736,7 +2643,6 @@
   "classification": "head"
  },
  "silver-specs": {
-  "id": "silver-specs",
   "title": "Silver Specs",
   "description": "Geeky glasses that give off an air of intelligent appeal.",
   "statistics": {
@@ -2766,7 +2672,6 @@
   "classification": "head"
  },
  "silver-tiara": {
-  "id": "silver-tiara",
   "title": "Silver Tiara",
   "description": "A lavishly crafted adornment for ladies' locks.",
   "statistics": {
@@ -2801,7 +2706,6 @@
   ]
  },
  "skull-cap": {
-  "id": "skull-cap",
   "title": "Skull Cap",
   "description": "A super-realistic skull mask that will scare everyone silly!",
   "statistics": {
@@ -2831,7 +2735,6 @@
   "classification": "head"
  },
  "skull-helm": {
-  "id": "skull-helm",
   "title": "Skull Helm",
   "description": "A blood-curdling cap for the cranium that curses the curious.",
   "statistics": {
@@ -2869,7 +2772,6 @@
   ]
  },
  "slime-crown": {
-  "id": "slime-crown",
   "title": "Slime Crown",
   "description": "A crown worn by a king slime.",
   "statistics": {
@@ -2913,7 +2815,6 @@
   ]
  },
  "slood": {
-  "id": "slood",
   "title": "Slood",
   "description": "A cute cover for the head with a slimy slant.",
   "statistics": {
@@ -2949,7 +2850,6 @@
   ]
  },
  "somnia-hair": {
-  "id": "somnia-hair",
   "title": "Somnia Hair",
   "description": "A handsome hairdo that harks back to that of the Prince of Somnia.",
   "statistics": {
@@ -2981,7 +2881,6 @@
   }
  },
  "spellward-circlet": {
-  "id": "spellward-circlet",
   "title": "Spellward Circlet",
   "description": "A holy headpiece that hinders the effects of harmful spells.",
   "statistics": {
@@ -3012,7 +2911,6 @@
   ]
  },
  "spring-breeze-hat": {
-  "id": "spring-breeze-hat",
   "title": "Spring Breeze Hat",
   "description": "An odd ornament for the head that obstructs Dazzle magic.",
   "statistics": {
@@ -3051,7 +2949,6 @@
   ]
  },
  "star-circlet": {
-  "id": "star-circlet",
   "title": "Star Circlet",
   "description": "A confusion-confounding accoutrement that sparkles with starlight.",
   "statistics": {
@@ -3080,7 +2977,6 @@
   }
  },
  "steel-helmet": {
-  "id": "steel-helmet",
   "title": "Steel Helmet",
   "description": "A hardy hat made of steel.",
   "statistics": {
@@ -3112,7 +3008,6 @@
   ]
  },
  "steely-sweatband": {
-  "id": "steely-sweatband",
   "title": "Steely Sweatband",
   "description": "A headband for martial artists strengthened with strands of steel.",
   "statistics": {
@@ -3134,7 +3029,6 @@
   ]
  },
  "stellar-starflower": {
-  "id": "stellar-starflower",
   "title": "Stellar Starflower",
   "description": "A flowery frill for furnishing the hair in Stella's style.",
   "statistics": {
@@ -3163,7 +3057,6 @@
   "classification": "head"
  },
  "summer-cloud-hat": {
-  "id": "summer-cloud-hat",
   "title": "Summer Cloud Hat",
   "description": "An odd ornament for the head that obstructs death magic.",
   "statistics": {
@@ -3199,7 +3092,6 @@
   ]
  },
  "sun-crown": {
-  "id": "sun-crown",
   "title": "Sun Crown",
   "description": "A classy coronet that beats bouts of sleep and confusion.",
   "statistics": {
@@ -3231,7 +3123,6 @@
   ]
  },
  "supernatural-specs": {
-  "id": "supernatural-specs",
   "title": "Supernatural Specs",
   "description": "Enchanted eyewear that enhances magical might a bit.",
   "statistics": {
@@ -3262,7 +3153,6 @@
   }
  },
  "swashbuckler-s-bonnet": {
-  "id": "swashbuckler-s-bonnet",
   "title": "Swashbuckler's Bonnet",
   "description": "The piratical hat worn by well-known seafarers the world over.",
   "statistics": {
@@ -3292,7 +3182,6 @@
   "classification": "head"
  },
  "templar-s-tresses": {
-  "id": "templar-s-tresses",
   "title": "Templar's Tresses",
   "description": "Angelo's painstakingly preened handsome haircut.",
   "statistics": {
@@ -3320,7 +3209,6 @@
   "classification": "head"
  },
  "thief-s-turban": {
-  "id": "thief-s-turban",
   "title": "Thief's Turban",
   "description": "A length of fabric that thieves like to loop around their heads.",
   "statistics": {
@@ -3349,7 +3237,6 @@
   }
  },
  "thinking-cap": {
-  "id": "thinking-cap",
   "title": "Thinking Cap",
   "description": "A hat that heightens its wearer's magical might.",
   "statistics": {
@@ -3392,7 +3279,6 @@
   ]
  },
  "thug-s-mug": {
-  "id": "thug-s-mug",
   "title": "Thug's Mug",
   "description": "A horny head covering that thugs thrive in.",
   "statistics": {
@@ -3422,7 +3308,6 @@
   ]
  },
  "tip-top-topper": {
-  "id": "tip-top-topper",
   "title": "Tip-Top Topper",
   "description": "A bright white hat that fulfils the requirements of formal dress.",
   "statistics": {
@@ -3451,7 +3336,6 @@
   "classification": "head"
  },
  "top-hat": {
-  "id": "top-hat",
   "title": "Top Hat",
   "description": "The telltale trappings of a luminary.",
   "statistics": {
@@ -3473,7 +3357,6 @@
   ]
  },
  "torneko-s-cap": {
-  "id": "torneko-s-cap",
   "title": "Torneko's Cap",
   "description": "A small-scale skullcap signed inside by Torneko Taloon.",
   "statistics": {
@@ -3501,7 +3384,6 @@
   "classification": "head"
  },
  "trailblazing-bandana": {
-  "id": "trailblazing-bandana",
   "title": "Trailblazing Bandana",
   "description": "An understated skull wrap that subtly shines.",
   "statistics": {
@@ -3536,7 +3418,6 @@
   ]
  },
  "tricky-turban": {
-  "id": "tricky-turban",
   "title": "Tricky Turban",
   "description": "A remarkable wrap that's made for mages.",
   "statistics": {
@@ -3564,7 +3445,6 @@
   ]
  },
  "trodain-bandana": {
-  "id": "trodain-bandana",
   "title": "Trodain Bandana",
   "description": "A cloth head-covering worn by a warrior of Trodain.",
   "statistics": {
@@ -3596,7 +3476,6 @@
   }
  },
  "trodeface": {
-  "id": "trodeface",
   "title": "Trodeface",
   "description": "A fancy-dress facemask featuring King Trode's famous phiz.",
   "statistics": {
@@ -3623,7 +3502,6 @@
   "classification": "head"
  },
  "turban": {
-  "id": "turban",
   "title": "Turban",
   "description": "A lengthy cloth wrap that keeps the conk cosy and safe.",
   "statistics": {
@@ -3662,7 +3540,6 @@
   ]
  },
  "unhappy-hat": {
-  "id": "unhappy-hat",
   "title": "Unhappy Hat",
   "description": "A perplexingly pitiful piece of headgear.",
   "statistics": {
@@ -3693,7 +3570,6 @@
   ]
  },
  "veteran-s-helm": {
-  "id": "veteran-s-helm",
   "title": "Veteran's Helm",
   "description": "A skull-saver sported by bygone battlers.",
   "statistics": {
@@ -3712,7 +3588,6 @@
   }
  },
  "warrior-s-helm": {
-  "id": "warrior-s-helm",
   "title": "Warrior's Helm",
   "description": "A sturdy protective skin for the skull mostly worn by warriors.",
   "statistics": {
@@ -3735,7 +3610,6 @@
   ]
  },
  "winter-sky-hat": {
-  "id": "winter-sky-hat",
   "title": "Winter Sky Hat",
   "description": "An odd ornament for the head that obstructs sleep-inducing magic.",
   "statistics": {
@@ -3771,7 +3645,6 @@
   ]
  },
  "witch-s-hat": {
-  "id": "witch-s-hat",
   "title": "Witch's Hat",
   "description": "A hat sported by a sorceress of centuries past.",
   "statistics": {
@@ -3793,7 +3666,6 @@
   }
  },
  "wizard-s-hat": {
-  "id": "wizard-s-hat",
   "title": "Wizard's Hat",
   "description": "A hat once worn by a whilom wizard.",
   "statistics": {
@@ -3815,7 +3687,6 @@
   }
  },
  "wonder-helm": {
-  "id": "wonder-helm",
   "title": "Wonder Helm",
   "description": "A holy helm that holds off confusion, illusion and poison.",
   "statistics": {
@@ -3847,7 +3718,6 @@
   ]
  },
  "x-ray-specs": {
-  "id": "x-ray-specs",
   "title": "X-Ray Specs",
   "description": "Enchanted eyewear that enhances magical mending a bit.",
   "statistics": {
@@ -3879,7 +3749,6 @@
   ]
  },
  "yangus-s-titfer": {
-  "id": "yangus-s-titfer",
   "title": "Yangus's Titfer",
   "description": "A spiky skullcap scented with the sweet smell of Yangus's sweat.",
   "statistics": {
@@ -3906,7 +3775,6 @@
   "classification": "head"
  },
  "zenithian-helm": {
-  "id": "zenithian-helm",
   "title": "Zenithian Helm",
   "description": "A hip helmet that a Zenithian hero would happily have on.",
   "statistics": {

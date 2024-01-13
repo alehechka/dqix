@@ -1,6 +1,5 @@
 {
  "angel-falls-badge": {
-  "id": "angel-falls-badge",
   "title": "Angel Falls Badge",
   "description": "A mark o' Marco having travelled to Angel Falls.",
   "statistics": {
@@ -12,7 +11,6 @@
   "classification": "important"
  },
  "angel-s-tears": {
-  "id": "angel-s-tears",
   "title": "Angel's Tears",
   "description": "Wondrous water from Angel Falls.",
   "statistics": {
@@ -27,7 +25,6 @@
   ]
  },
  "backscratcher": {
-  "id": "backscratcher",
   "title": "Backscratcher",
   "description": "A stick with a bit of a bend that's excellent for easing itchy backs.",
   "statistics": {
@@ -39,7 +36,6 @@
   "classification": "important"
  },
  "basic-boomeranging": {
-  "id": "basic-boomeranging",
   "title": "'Basic Boomeranging'",
   "description": "A basic scroll about boomeranging.",
   "statistics": {
@@ -51,7 +47,6 @@
   "classification": "important"
  },
  "beardy-weirdy": {
-  "id": "beardy-weirdy",
   "title": "Beardy Weirdy",
   "description": "A large lizard with a beard more than a metre long.",
   "statistics": {
@@ -63,7 +58,6 @@
   "classification": "important"
  },
  "benevolessence": {
-  "id": "benevolessence",
   "title": "Benevolessence",
   "description": "A crystallised mass of mortal gratitude.",
   "statistics": {
@@ -75,7 +69,6 @@
   "classification": "important"
  },
  "better-boomeranging": {
-  "id": "better-boomeranging",
   "title": "'Better Boomeranging'",
   "description": "An intermediate scroll about boomeranging.",
   "statistics": {
@@ -87,7 +80,6 @@
   "classification": "important"
  },
  "bloomingdale-badge": {
-  "id": "bloomingdale-badge",
   "title": "Bloomingdale Badge",
   "description": "A mark o' Marco having travelled to Bloomingdale.",
   "statistics": {
@@ -99,7 +91,6 @@
   "classification": "important"
  },
  "bodura-grass": {
-  "id": "bodura-grass",
   "title": "Bodura Grass",
   "description": "A magical plant from Gerzuun that drives out demons.",
   "statistics": {
@@ -111,7 +102,6 @@
   "classification": "important"
  },
  "bone-chimer": {
-  "id": "bone-chimer",
   "title": "Bone Chimer",
   "description": "A bone that makes a melodic yet maudlin sound.",
   "statistics": {
@@ -123,7 +113,6 @@
   "classification": "important"
  },
  "bonzer-boomeranging": {
-  "id": "bonzer-boomeranging",
   "title": "'Bonzer Boomeranging'",
   "description": "A high-level scroll about boomeranging.",
   "statistics": {
@@ -135,7 +124,6 @@
   "classification": "important"
  },
  "broken-blade": {
-  "id": "broken-blade",
   "title": "Broken Blade",
   "description": "A compact cutter used by Madame Couteau for creating fine cuisine.",
   "statistics": {
@@ -147,7 +135,6 @@
   "classification": "important"
  },
  "catwright-s-parcel": {
-  "id": "catwright-s-parcel",
   "title": "Catwright's Parcel",
   "description": "A consignment from Catwright, the tip-top whipsmith.",
   "statistics": {
@@ -159,7 +146,6 @@
   "classification": "important"
  },
  "cheer-me-up": {
-  "id": "cheer-me-up",
   "title": "Cheer-Me-Up",
   "description": "A magical herb said to help those who are unhappy.",
   "statistics": {
@@ -171,7 +157,6 @@
   "classification": "important"
  },
  "clump-of-cloud": {
-  "id": "clump-of-cloud",
   "title": "Clump of Cloud",
   "description": "Fluffy stuff left behind by a cloudy foe.",
   "statistics": {
@@ -183,7 +168,6 @@
   "classification": "important"
  },
  "coffinwell-badge": {
-  "id": "coffinwell-badge",
   "title": "Coffinwell Badge",
   "description": "A mark o' Marco having travelled to Coffinwell.",
   "statistics": {
@@ -195,7 +179,6 @@
   "classification": "important"
  },
  "crown-jewel": {
-  "id": "crown-jewel",
   "title": "Crown Jewel",
   "description": "A giant gem that gleams gloriously.",
   "statistics": {
@@ -207,7 +190,6 @@
   "classification": "important"
  },
  "crumpled-letter": {
-  "id": "crumpled-letter",
   "title": "Crumpled Letter",
   "description": "A message meant for the boy Bryson from Porth Llaffan.",
   "statistics": {
@@ -219,7 +201,6 @@
   "classification": "important"
  },
  "crumpled-note": {
-  "id": "crumpled-note",
   "title": "Crumpled Note",
   "description": "A wrinkled and rather grubby piece of paper.",
   "statistics": {
@@ -234,7 +215,6 @@
   ]
  },
  "dead-man-s-dagger": {
-  "id": "dead-man-s-dagger",
   "title": "Dead Man's Dagger",
   "description": "A blade that belonged to a battler who was beaten by a beast.",
   "statistics": {
@@ -246,7 +226,6 @@
   "classification": "important"
  },
  "dirtbag": {
-  "id": "dirtbag",
   "title": "Dirtbag",
   "description": "A bag from Jared for putting top-quality earth in.",
   "statistics": {
@@ -258,7 +237,6 @@
   "classification": "important"
  },
  "dragon-s-tear": {
-  "id": "dragon-s-tear",
   "title": "Dragon's Tear",
   "description": "A peerless precious stone of profound blue.",
   "statistics": {
@@ -270,7 +248,6 @@
   "classification": "important"
  },
  "drakulord-s-tooth": {
-  "id": "drakulord-s-tooth",
   "title": "Drakulord's Tooth",
   "description": "An enormous gnasher dropped by a drakulord.",
   "statistics": {
@@ -282,7 +259,6 @@
   "classification": "important"
  },
  "driver-s-license": {
-  "id": "driver-s-license",
   "title": "Driver's License",
   "description": "A certificate to show competence in handling the Starflight Express.",
   "statistics": {
@@ -294,7 +270,6 @@
   "classification": "important"
  },
  "drunken-dragon": {
-  "id": "drunken-dragon",
   "title": "Drunken Dragon",
   "description": "A bracing brew that Greygnarl likes to guzzle.",
   "statistics": {
@@ -306,7 +281,6 @@
   "classification": "important"
  },
  "duneberry": {
-  "id": "duneberry",
   "title": "Duneberry",
   "description": "A desert delicacy that works wonders with the skin.",
   "statistics": {
@@ -318,7 +292,6 @@
   "classification": "important"
  },
  "encyclopaedia-gittanica": {
-  "id": "encyclopaedia-gittanica",
   "title": "Encyclopaedia Gittanica",
   "description": "A meticulous treatise on the terrible Gittish Empire.",
   "statistics": {
@@ -330,7 +303,6 @@
   "classification": "important"
  },
  "freezing-feather": {
-  "id": "freezing-feather",
   "title": "Freezing Feather",
   "description": "A polar plume that chucks out one heck of a chill.",
   "statistics": {
@@ -342,7 +314,6 @@
   "classification": "important"
  },
  "fygg": {
-  "id": "fygg",
   "title": "Fygg",
   "description": "A golden fruit of the Great World Tree, Yggdrasil.",
   "statistics": {
@@ -354,7 +325,6 @@
   "classification": "important"
  },
  "genie-sanguini-scarf": {
-  "id": "genie-sanguini-scarf",
   "title": "Genie Sanguini Scarf",
   "description": "A knitted muffler that's made to measure for a genie sanguini.",
   "statistics": {
@@ -366,7 +336,6 @@
   "classification": "important"
  },
  "gittish-seal": {
-  "id": "gittish-seal",
   "title": "Gittish Seal",
   "description": "An emblem once proudly possessed by a lieutenant of the Empire.",
   "statistics": {
@@ -378,7 +347,6 @@
   "classification": "important"
  },
  "gleeba-badge": {
-  "id": "gleeba-badge",
   "title": "Gleeba Badge",
   "description": "A mark o' Marco having travelled to Gleeba.",
   "statistics": {
@@ -390,7 +358,6 @@
   "classification": "important"
  },
  "goododendron": {
-  "id": "goododendron",
   "title": "Goododendron",
   "description": "A fashionable flower that's highly sought-after by slimes.",
   "statistics": {
@@ -402,7 +369,6 @@
   "classification": "important"
  },
  "gratite": {
-  "id": "gratite",
   "title": "Gratite",
   "description": "A strange stone that makes miracles happen with heartfelt thanks.",
   "statistics": {
@@ -414,7 +380,6 @@
   "classification": "important"
  },
  "grundies": {
-  "id": "grundies",
   "title": "Grundies",
   "description": "Phew! A pair of pants that exude a powerful pong.",
   "statistics": {
@@ -426,7 +391,6 @@
   "classification": "important"
  },
  "guestbook": {
-  "id": "guestbook",
   "title": "Guestbook",
   "description": "A list of particulars about persons staying at Erinn's inn.",
   "statistics": {
@@ -438,7 +402,6 @@
   "classification": "important"
  },
  "hammerfang": {
-  "id": "hammerfang",
   "title": "Hammerfang",
   "description": "A fearsome fang prised from a power hammer.",
   "statistics": {
@@ -450,7 +413,6 @@
   "classification": "important"
  },
  "heavenly-horseshoe": {
-  "id": "heavenly-horseshoe",
   "title": "Heavenly Horseshoe",
   "description": "A sure shoe for a horse's hoof.",
   "statistics": {
@@ -462,7 +424,6 @@
   "classification": "important"
  },
  "hexite": {
-  "id": "hexite",
   "title": "Hexite",
   "description": "A mysterious mass that possesses the power of friendship.",
   "statistics": {
@@ -474,7 +435,6 @@
   "classification": "important"
  },
  "hocus-chimaera-feather": {
-  "id": "hocus-chimaera-feather",
   "title": "Hocus Chimaera Feather",
   "description": "Decorative down of the hocus chimaera that's loved by the ladies.",
   "statistics": {
@@ -486,7 +446,6 @@
   "classification": "important"
  },
  "inny": {
-  "id": "inny",
   "title": "Inny",
   "description": "An award given to inncredible inntertainers.",
   "statistics": {
@@ -498,7 +457,6 @@
   "classification": "important"
  },
  "jewellery-box": {
-  "id": "jewellery-box",
   "title": "Jewellery Box",
   "description": "A bijou box borne by birds of terrordise.",
   "statistics": {
@@ -510,7 +468,6 @@
   "classification": "important"
  },
  "keepsake-ring": {
-  "id": "keepsake-ring",
   "title": "Keepsake Ring",
   "description": "A precious piece of jewellery lost by an old lady.",
   "statistics": {
@@ -522,7 +479,6 @@
   "classification": "important"
  },
  "larrrst-letter": {
-  "id": "larrrst-letter",
   "title": "Larrrst Letter",
   "description": "A letter left behind by a pirate captain.",
   "statistics": {
@@ -534,7 +490,6 @@
   "classification": "important"
  },
  "little-key": {
-  "id": "little-key",
   "title": "Little Key",
   "description": "An old key found at the bottom of a grotto.",
   "statistics": {
@@ -546,7 +501,6 @@
   "classification": "important"
  },
  "lunar-diamond": {
-  "id": "lunar-diamond",
   "title": "Lunar Diamond",
   "description": "A strange stone that stores the light of the moon.",
   "statistics": {
@@ -558,7 +512,6 @@
   "classification": "important"
  },
  "magic-key": {
-  "id": "magic-key",
   "title": "Magic Key",
   "description": "A key capable of opening locks protected by magic seals.",
   "statistics": {
@@ -570,7 +523,6 @@
   "classification": "important"
  },
  "magmalice-handprint": {
-  "id": "magmalice-handprint",
   "title": "Magmalice Handprint",
   "description": "A piece of paper with a print of a magmalice's paw.",
   "statistics": {
@@ -582,7 +534,6 @@
   "classification": "important"
  },
  "man-s-axe": {
-  "id": "man-s-axe",
   "title": "Man's Axe",
   "description": "An axe that was carried off by the treevil it got stuck in.",
   "statistics": {
@@ -594,7 +545,6 @@
   "classification": "important"
  },
  "mega-moai-headprint": {
-  "id": "mega-moai-headprint",
   "title": "Mega Moai Headprint",
   "description": "A piece of paper with a print of a mega moai's massive frame.",
   "statistics": {
@@ -606,7 +556,6 @@
   "classification": "important"
  },
  "memento-necklace": {
-  "id": "memento-necklace",
   "title": "Memento Necklace",
   "description": "A keepsake left behind by Anabella.",
   "statistics": {
@@ -618,7 +567,6 @@
   "classification": "important"
  },
  "mirror-of-reflection": {
-  "id": "mirror-of-reflection",
   "title": "Mirror of Reflection",
   "description": "A meticulously made miniature hand-mirror.",
   "statistics": {
@@ -630,7 +578,6 @@
   "classification": "important"
  },
  "molten-magma": {
-  "id": "molten-magma",
   "title": "Molten Magma",
   "description": "A simmering lump of freshly foraged lava.",
   "statistics": {
@@ -642,7 +589,6 @@
   "classification": "important"
  },
  "nightmare-nurse": {
-  "id": "nightmare-nurse",
   "title": "Nightmare Nurse",
   "description": "A possibly deadly potion that banishes bad dreams.",
   "statistics": {
@@ -654,7 +600,6 @@
   "classification": "important"
  },
  "nod-s-tear": {
-  "id": "nod-s-tear",
   "title": "Nod's Tear",
   "description": "A teardrop shed by noble Nodoph.",
   "statistics": {
@@ -666,7 +611,6 @@
   "classification": "important"
  },
  "old-ring": {
-  "id": "old-ring",
   "title": "Old Ring",
   "description": "A rusty and moss-ridden ring.",
   "statistics": {
@@ -678,7 +622,6 @@
   "classification": "important"
  },
  "package-from-ma": {
-  "id": "package-from-ma",
   "title": "Package From Ma",
   "description": "A care package from Walter's dear old Ma.",
   "statistics": {
@@ -690,7 +633,6 @@
   "classification": "important"
  },
  "packed-lunch": {
-  "id": "packed-lunch",
   "title": "Packed Lunch",
   "description": "A meal made with love and many, many mushrooms.",
   "statistics": {
@@ -705,7 +647,6 @@
   ]
  },
  "pink-sanguini-scarf": {
-  "id": "pink-sanguini-scarf",
   "title": "Pink Sanguini Scarf",
   "description": "A knitted muffler that's made to measure for a pink sanguini.",
   "statistics": {
@@ -717,7 +658,6 @@
   "classification": "important"
  },
  "platinum-pick": {
-  "id": "platinum-pick",
   "title": "Platinum Pick",
   "description": "A legendary tool allegedly able to crack any rock.",
   "statistics": {
@@ -729,7 +669,6 @@
   "classification": "important"
  },
  "plum-stone": {
-  "id": "plum-stone",
   "title": "Plum Stone",
   "description": "The pit of a plum swallowed by a big sea beast.",
   "statistics": {
@@ -741,7 +680,6 @@
   "classification": "important"
  },
  "prayer-pearl": {
-  "id": "prayer-pearl",
   "title": "Prayer Pearl",
   "description": "A dreamlike gem that helps the hopes of heavenly defenders.",
   "statistics": {
@@ -753,7 +691,6 @@
   "classification": "important"
  },
  "quarantomb-key": {
-  "id": "quarantomb-key",
   "title": "Quarantomb Key",
   "description": "A queer key that opens the Quarantomb.",
   "statistics": {
@@ -765,7 +702,6 @@
   "classification": "important"
  },
  "rankened-phial": {
-  "id": "rankened-phial",
   "title": "Rankened Phial",
   "description": "An itsy-bitsy bottle for collecting witch's wrath.",
   "statistics": {
@@ -777,7 +713,6 @@
   "classification": "important"
  },
  "royal-seal": {
-  "id": "royal-seal",
   "title": "Royal Seal",
   "description": "A golden mark which only a monarch may make use of.",
   "statistics": {
@@ -789,7 +724,6 @@
   "classification": "important"
  },
  "serene-necklace": {
-  "id": "serene-necklace",
   "title": "Serene Necklace",
   "description": "The necklace Serena was so desperately searching for.",
   "statistics": {
@@ -801,7 +735,6 @@
   "classification": "important"
  },
  "snowberian-badge": {
-  "id": "snowberian-badge",
   "title": "Snowberian Badge",
   "description": "A mark o' Marco having travelled to Snowberia.",
   "statistics": {
@@ -813,7 +746,6 @@
   "classification": "important"
  },
  "staff-scroll": {
-  "id": "staff-scroll",
   "title": "Staff Scroll",
   "description": "A secret scripture about the art of staffcraft.",
   "statistics": {
@@ -825,7 +757,6 @@
   "classification": "important"
  },
  "stamp-card": {
-  "id": "stamp-card",
   "title": "Stamp Card",
   "description": "A card for collecting stamps from ex-inmates of the Gortress.",
   "statistics": {
@@ -837,7 +768,6 @@
   "classification": "important"
  },
  "stellar-medicine": {
-  "id": "stellar-medicine",
   "title": "Stellar Medicine",
   "description": "A Stella special that's supposed to stop any illness.",
   "statistics": {
@@ -849,7 +779,6 @@
   "classification": "important"
  },
  "teeny-sanguini-scarf": {
-  "id": "teeny-sanguini-scarf",
   "title": "Teeny Sanguini Scarf",
   "description": "A knitted muffler that's made to measure for a teeny sanguini.",
   "statistics": {
@@ -861,7 +790,6 @@
   "classification": "important"
  },
  "terrordise-tail-feather": {
-  "id": "terrordise-tail-feather",
   "title": "Terrordise Tail Feather",
   "description": "A pretty piece of plumage from a bird of terrordise.",
   "statistics": {
@@ -873,7 +801,6 @@
   "classification": "important"
  },
  "thief-s-key": {
-  "id": "thief-s-key",
   "title": "Thief's Key",
   "description": "A key capable of opening ordinary treasure chests.",
   "statistics": {
@@ -888,7 +815,6 @@
   ]
  },
  "tinny-tail-feather": {
-  "id": "tinny-tail-feather",
   "title": "Tinny Tail Feather",
   "description": "The ridged rear plumage of a robo-robin.",
   "statistics": {
@@ -900,7 +826,6 @@
   "classification": "important"
  },
  "titanic-tincture": {
-  "id": "titanic-tincture",
   "title": "Titanic Tincture",
   "description": "A mythical medicine that mends the maladies of giants.",
   "statistics": {
@@ -912,7 +837,6 @@
   "classification": "important"
  },
  "torn-exam-paper-1": {
-  "id": "torn-exam-paper-1",
   "title": "Torn Exam Paper 1",
   "description": "An examination paper that reads, '…0%…'",
   "statistics": {
@@ -924,7 +848,6 @@
   "classification": "important"
  },
  "torn-exam-paper-2": {
-  "id": "torn-exam-paper-2",
   "title": "Torn Exam Paper 2",
   "description": "An examination paper that reads, '…Lion…'",
   "statistics": {
@@ -936,7 +859,6 @@
   "classification": "important"
  },
  "torn-exam-paper-3": {
-  "id": "torn-exam-paper-3",
   "title": "Torn Exam Paper 3",
   "description": "An examination paper that reads, '…el 10…'",
   "statistics": {
@@ -948,7 +870,6 @@
   "classification": "important"
  },
  "turbo-toad-oil": {
-  "id": "turbo-toad-oil",
   "title": "Turbo Toad Oil",
   "description": "A golden lubricant left behind by expired exploads.",
   "statistics": {
@@ -960,7 +881,6 @@
   "classification": "important"
  },
  "tycoon-s-trove": {
-  "id": "tycoon-s-trove",
   "title": "Tycoon's Trove",
   "description": "Sizeable stash stolen by a monster.",
   "statistics": {
@@ -972,7 +892,6 @@
   "classification": "important"
  },
  "ultimate-key": {
-  "id": "ultimate-key",
   "title": "Ultimate Key",
   "description": "A key capable of opening any lock you'd care to mention.",
   "statistics": {
@@ -984,7 +903,6 @@
   "classification": "important"
  },
  "wisdom-of-the-ancients": {
-  "id": "wisdom-of-the-ancients",
   "title": "'Wisdom of the Ancients'",
   "description": "A nugget of knowledge from Barney's ancestors.",
   "statistics": {
@@ -996,7 +914,6 @@
   "classification": "important"
  },
  "wobbly-jelly": {
-  "id": "wobbly-jelly",
   "title": "Wobbly Jelly",
   "description": "A gooey gunk that's tricky to take hold of.",
   "statistics": {
@@ -1008,7 +925,6 @@
   "classification": "important"
  },
  "wyrmlight-bow": {
-  "id": "wyrmlight-bow",
   "title": "Wyrmlight Bow",
   "description": "An irradiant item that allegedly opens the way through the Wyrmward.",
   "statistics": {
@@ -1020,7 +936,6 @@
   "classification": "important"
  },
  "yggdrasil-bud": {
-  "id": "yggdrasil-bud",
   "title": "Yggdrasil Bud",
   "description": "Fresh foliage from the sacred tree on Pluvi Isle.",
   "statistics": {

@@ -1,6 +1,5 @@
 {
  "assassin-s-dagger": {
-  "id": "assassin-s-dagger",
   "title": "Assassin's Dagger",
   "description": "A killer cutter that in the right hands can fell a foe in a single strike.",
   "statistics": {
@@ -33,7 +32,6 @@
   }
  },
  "batterfly-knife": {
-  "id": "batterfly-knife",
   "title": "Batterfly Knife",
   "description": "A keen knife that paralyses its prey part of the time.",
   "statistics": {
@@ -61,7 +59,6 @@
   ]
  },
  "bronze-knife": {
-  "id": "bronze-knife",
   "title": "Bronze Knife",
   "description": "A nifty knife made of a softish alloy.",
   "statistics": {
@@ -87,7 +84,6 @@
   ]
  },
  "darting-dagger": {
-  "id": "darting-dagger",
   "title": "Darting Dagger",
   "description": "A legendary knife that imparts unbeatable briskness.",
   "statistics": {
@@ -116,7 +112,6 @@
   ]
  },
  "dashing-dagger": {
-  "id": "dashing-dagger",
   "title": "Dashing Dagger",
   "description": "A mighty knife that imparts unbeatable briskness.",
   "statistics": {
@@ -144,7 +139,6 @@
   ]
  },
  "deadly-nightblade": {
-  "id": "deadly-nightblade",
   "title": "Deadly Nightblade",
   "description": "A nefarious knife for nimble-fingered ne'er-do-wells.",
   "statistics": {
@@ -173,7 +167,6 @@
   ]
  },
  "deft-dagger": {
-  "id": "deft-dagger",
   "title": "Deft Dagger",
   "description": "A mysterious knife that imparts unbeatable briskness.",
   "statistics": {
@@ -203,7 +196,6 @@
   ]
  },
  "divine-dagger": {
-  "id": "divine-dagger",
   "title": "Divine Dagger",
   "description": "A bitsy blade bathed in holy light that zealously zaps zombies.",
   "statistics": {
@@ -236,7 +228,6 @@
   ]
  },
  "dread-dagger": {
-  "id": "dread-dagger",
   "title": "Dread Dagger",
   "description": "An unnerving knife that paralyses its prey part of the time.",
   "statistics": {
@@ -262,7 +253,6 @@
   ]
  },
  "dynamo-dagger": {
-  "id": "dynamo-dagger",
   "title": "Dynamo Dagger",
   "description": "A matchless knife that imparts unbeatable briskness.",
   "statistics": {
@@ -287,7 +277,6 @@
   }
  },
  "falcon-knife-earring": {
-  "id": "falcon-knife-earring",
   "title": "Falcon Knife Earring",
   "description": "A divine earring that delivers a double attack.",
   "statistics": {
@@ -317,7 +306,6 @@
   ]
  },
  "fenrir-fang": {
-  "id": "fenrir-fang",
   "title": "Fenrir Fang",
   "description": "A snowy stabber that emits icicles if used as an item in battle.",
   "statistics": {
@@ -342,7 +330,6 @@
   }
  },
  "flame-tang": {
-  "id": "flame-tang",
   "title": "Flame Tang",
   "description": "A fiery dagger for a triumphant trouper.",
   "statistics": {
@@ -370,7 +357,6 @@
   ]
  },
  "gladius": {
-  "id": "gladius",
   "title": "Gladius",
   "description": "A famed dagger for a heralded hero.",
   "statistics": {
@@ -399,7 +385,6 @@
   ]
  },
  "icicle-dirk": {
-  "id": "icicle-dirk",
   "title": "Icicle Dirk",
   "description": "A nippy knife that emits icicles if used as an item in battle.",
   "statistics": {
@@ -435,7 +420,6 @@
   ]
  },
  "paring-knife": {
-  "id": "paring-knife",
   "title": "Paring Knife",
   "description": "A gnat of a knife that might be used for chopping up veggies.",
   "statistics": {
@@ -457,7 +441,6 @@
   ]
  },
  "poison-moth-knife": {
-  "id": "poison-moth-knife",
   "title": "Poison Moth Knife",
   "description": "A knife that's known to paralyse its prey part of the time.",
   "statistics": {
@@ -493,7 +476,6 @@
   ]
  },
  "poison-needle": {
-  "id": "poison-needle",
   "title": "Poison Needle",
   "description": "A prickly pin that can fell a foe with a single stab if correctly aimed.",
   "statistics": {
@@ -533,7 +515,6 @@
   ]
  },
  "pruning-knife": {
-  "id": "pruning-knife",
   "title": "Pruning Knife",
   "description": "A magical blade that can cause critical damage if it hits the spot.",
   "statistics": {
@@ -556,7 +537,6 @@
   ]
  },
  "soul-breaker": {
-  "id": "soul-breaker",
   "title": "Soul Breaker",
   "description": "A sinister serrated blade that weakens enemies' weapons.",
   "statistics": {
@@ -581,7 +561,6 @@
   }
  },
  "sword-breaker": {
-  "id": "sword-breaker",
   "title": "Sword Breaker",
   "description": "A stout, serrated blade that weakens enemies' weapons.",
   "statistics": {

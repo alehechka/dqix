@@ -1,6 +1,5 @@
 {
  "avalanche-axe": {
-  "id": "avalanche-axe",
   "title": "Avalanche Axe",
   "description": "An impressive ice-based axe with an interesting shape.",
   "statistics": {
@@ -24,7 +23,6 @@
   }
  },
  "bad-axe": {
-  "id": "bad-axe",
   "title": "Bad Axe",
   "description": "A tip-top tomahawk that takes tension from its target.",
   "statistics": {
@@ -53,7 +51,6 @@
   ]
  },
  "battle-axe": {
-  "id": "battle-axe",
   "title": "Battle Axe",
   "description": "A huge hacker created exclusively for combat.",
   "statistics": {
@@ -80,7 +77,6 @@
   ]
  },
  "climaxe": {
-  "id": "climaxe",
   "title": "Climaxe",
   "description": "An unchallenged chopper that takes tension from its target.",
   "statistics": {
@@ -107,7 +103,6 @@
   ]
  },
  "executioner-s-axe": {
-  "id": "executioner-s-axe",
   "title": "Executioner's Axe",
   "description": "A revolutionary rustproof refinement of the headsman's axe.",
   "statistics": {
@@ -129,7 +124,6 @@
   }
  },
  "full-moon-axe": {
-  "id": "full-moon-axe",
   "title": "Full Moon Axe",
   "description": "A sharpened reshaping of the moon axe.",
   "statistics": {
@@ -153,7 +147,6 @@
   }
  },
  "galaxy-axe": {
-  "id": "galaxy-axe",
   "title": "Galaxy Axe",
   "description": "An almighty cosmic cleaver that takes tension from its target.",
   "statistics": {
@@ -177,7 +170,6 @@
   }
  },
  "gigasteel-axe": {
-  "id": "gigasteel-axe",
   "title": "Gigasteel Axe",
   "description": "A horrendously heavy hacker made by souping up a steel axe.",
   "statistics": {
@@ -199,7 +191,6 @@
   }
  },
  "golden-axe": {
-  "id": "golden-axe",
   "title": "Golden Axe",
   "description": "A battle-axe with a blunt edge made from malleable metal.",
   "statistics": {
@@ -223,7 +214,6 @@
   ]
  },
  "headsman-s-axe": {
-  "id": "headsman-s-axe",
   "title": "Headsman's Axe",
   "description": "An enormous axe of frankly fearsome force.",
   "statistics": {
@@ -247,7 +237,6 @@
   ]
  },
  "heavy-hatchet": {
-  "id": "heavy-hatchet",
   "title": "Heavy Hatchet",
   "description": "A heinous hatchet that can hew through any material monster.",
   "statistics": {
@@ -272,7 +261,6 @@
   }
  },
  "ice-axe": {
-  "id": "ice-axe",
   "title": "Ice Axe",
   "description": "An ice-based axe with an interesting shape.",
   "statistics": {
@@ -303,7 +291,6 @@
   ]
  },
  "iron-axe": {
-  "id": "iron-axe",
   "title": "Iron Axe",
   "description": "A meaty metal axe.",
   "statistics": {
@@ -328,7 +315,6 @@
   ]
  },
  "kaiser-axe": {
-  "id": "kaiser-axe",
   "title": "Kaiser Axe",
   "description": "A cracking cleaver, even more imperial than the king axe.",
   "statistics": {
@@ -353,7 +339,6 @@
   ]
  },
  "king-axe": {
-  "id": "king-axe",
   "title": "King Axe",
   "description": "A splendid splitter sporting runes that harbour great magic.",
   "statistics": {
@@ -382,7 +367,6 @@
   ]
  },
  "maxi-axe": {
-  "id": "maxi-axe",
   "title": "Maxi Axe",
   "description": "A mighty massacrer that takes tension from its target.",
   "statistics": {
@@ -410,7 +394,6 @@
   ]
  },
  "moon-axe": {
-  "id": "moon-axe",
   "title": "Moon Axe",
   "description": "A mysterious axe that may make those it minces a mite confused.",
   "statistics": {
@@ -443,7 +426,6 @@
   ]
  },
  "pro-s-axe": {
-  "id": "pro-s-axe",
   "title": "Pro's Axe",
   "description": "A large axe loved by lumber-jacks that can fell any plantlike foe.",
   "statistics": {
@@ -465,7 +447,6 @@
   }
  },
  "steel-axe": {
-  "id": "steel-axe",
   "title": "Steel Axe",
   "description": "A sizeable, strong and somewhat weighty steel axe.",
   "statistics": {
