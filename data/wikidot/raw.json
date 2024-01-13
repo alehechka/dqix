@@ -1082,7 +1082,8 @@
       "The page",
       "024-battering-batterflies",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -2253,7 +2254,7 @@
   },
   "/056-nicholas-s-necklace": {
     "Path": "056-nicholas-s-necklace",
-    "Text": [],
+    "Text": ["orphan-quest"],
     "Links": {}
   },
   "/057-not-nicholas-necklace": {
@@ -3102,7 +3103,8 @@
       "The page",
       "079-bring-oi-back-my-axe",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -3112,7 +3114,8 @@
       "The page",
       "080-achet-job",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -3153,7 +3156,8 @@
       "The page",
       "081-mallet-s-mallet",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -3163,7 +3167,8 @@
       "The page",
       "082-to-shell-and-back",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -3173,7 +3178,8 @@
       "The page",
       "083-beautiful-bowginnings",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -3183,7 +3189,8 @@
       "The page",
       "084-beauty-and-beyond",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -3193,7 +3200,8 @@
       "The page",
       "085-comeback-kid",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -3203,7 +3211,8 @@
       "The page",
       "086-brave-the-caves",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -3236,7 +3245,8 @@
       "The page",
       "088-buckler-s-buckler",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -3246,7 +3256,8 @@
       "The page",
       "089-way-of-the-fitht",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -3256,7 +3267,8 @@
       "The page",
       "090-one-latht-tetht",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -3280,7 +3292,8 @@
       "The page",
       "092-warriors-three",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -3429,7 +3442,8 @@
       "The page",
       "098-slowly-slowly-critty-golem",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -3464,7 +3478,8 @@
       "The page",
       "100-busted",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -3474,7 +3489,8 @@
       "The page",
       "101-eggstreme-sport",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -3649,7 +3665,8 @@
       "The page",
       "108-top-flight-knight-fight",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -3696,7 +3713,8 @@
       "The page",
       "111-the-fource-forever",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -3733,7 +3751,8 @@
       "The page",
       "113-hoarse-whisper",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -3767,7 +3786,8 @@
       "The page",
       "114-one-turn-wonder",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -3794,7 +3814,8 @@
       "The page",
       "116-sagier-and-pagier",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -3804,7 +3825,8 @@
       "The page",
       "117-engaging-the-sage",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -3814,7 +3836,8 @@
       "The page",
       "118-a-star-is-born",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -3824,7 +3847,8 @@
       "The page",
       "119-sign-for-your-supper",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -3834,7 +3858,8 @@
       "The page",
       "119-sign-up-for-your-supper",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -3844,7 +3869,8 @@
       "The page",
       "120-your-time-to-shine",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -3854,7 +3880,8 @@
       "The page",
       "121-a-cloudless-skye",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -3864,7 +3891,8 @@
       "The page",
       "122-bert-s-berfday",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -3874,7 +3902,8 @@
       "The page",
       "122-bert-s-birthday",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -3884,7 +3913,8 @@
       "The page",
       "123-a-present-from-the-past",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -3894,7 +3924,8 @@
       "The page",
       "124-risque-respects",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -3904,7 +3935,8 @@
       "The page",
       "125-perk-up-patty",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -3914,7 +3946,8 @@
       "The page",
       "126-puff-puff-performance",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -3924,7 +3957,8 @@
       "The page",
       "127-a-right-royal-nightmare",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -3934,7 +3968,8 @@
       "The page",
       "128-p-p-pick-up-a-pickaxe",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -3944,7 +3979,8 @@
       "The page",
       "129-a-spot-of-book-keyping",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -3954,7 +3990,8 @@
       "The page",
       "130-exhume-the-heirloom",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -3964,7 +4001,8 @@
       "The page",
       "131-making-room-in-brigadoom",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -3974,7 +4012,8 @@
       "The page",
       "132-tree-hugging-titan",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -3984,7 +4023,8 @@
       "The page",
       "133-recruitment-drive",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -3994,7 +4034,8 @@
       "The page",
       "134-when-tax-attacks",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -4004,7 +4045,8 @@
       "The page",
       "135-to-brigadoom",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -4014,7 +4056,8 @@
       "The page",
       "136-exterminate",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -4024,7 +4067,8 @@
       "The page",
       "137-yore-for-it-now",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -4034,7 +4078,8 @@
       "The page",
       "138-shaman-you",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -4076,7 +4121,8 @@
       "The page",
       "140-apt-pupil",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -4088,7 +4134,8 @@
       "This Story quest becomes available after completing quest 046 - Puttin' 'Em in Platinum",
       "It is started by speaking to Dr. Pleghming at night in his lab",
       "You need to find a book about the Gittish Empire in hopes of revealing the lost knowledge about Coffinwell's Gittish connections",
-      "After searching through every bookshelf in the Gittingham Palace and the below Oubliette, I found it on the third floor"
+      "After searching through every bookshelf in the Gittingham Palace and the below Oubliette, I found it on the third floor",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -4098,7 +4145,8 @@
       "The page",
       "142-prayermongering",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -4108,7 +4156,8 @@
       "The page",
       "143-thingy-king-of-er",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -4217,7 +4266,8 @@
       "The page",
       "145-mysterious-monarch",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -4287,33 +4337,14 @@
       "/void-droid": "Void droid"
     }
   },
-  "/1467-licensed-to-drive": {
-    "Path": "1467-licensed-to-drive",
-    "Text": [
-      "The page",
-      "1467-licensed-to-drive",
-      "you want to access does not exist.",
-      "Create page"
-    ],
-    "Links": {}
-  },
-  "/147-license-to-drive": {
-    "Path": "147-license-to-drive",
-    "Text": [
-      "The page",
-      "147-license-to-drive",
-      "you want to access does not exist.",
-      "Create page"
-    ],
-    "Links": {}
-  },
   "/147-licensed-to-drive": {
     "Path": "147-licensed-to-drive",
     "Text": [
       "The page",
       "147-licensed-to-drive",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -4323,7 +4354,8 @@
       "The page",
       "148-flaptricide",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -4333,7 +4365,8 @@
       "The page",
       "149-intreeguing-mystery",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -4343,7 +4376,8 @@
       "The page",
       "150-annihilimobliteration",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -4373,7 +4407,8 @@
       "Malroth",
       "'s Map Lv. 1 (first time);",
       "Mythril ore",
-      "(repeat)"
+      "(repeat)",
+      "orphan-quest"
     ],
     "Links": {
       "/051-a-martyr-to-his-ma": "051 A Martyr To His Ma",
@@ -4392,7 +4427,8 @@
       "The page",
       "152-marey-questmas",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -4402,7 +4438,8 @@
       "The page",
       "153-not-so-jolly-roger",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -4429,7 +4466,8 @@
       "The page",
       "155-christinamas-cake",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -4543,7 +4581,8 @@
       "The page",
       "158-battle-buff",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -4553,7 +4592,8 @@
       "The page",
       "159-have-you-seen-charlene",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -4563,7 +4603,8 @@
       "The page",
       "160-chronic-delay",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -4603,7 +4644,8 @@
       "The page",
       "162-do-nod-disturb",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -4656,7 +4698,8 @@
       "The page",
       "164-fixing-fickser-s-fix",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -4677,7 +4720,8 @@
       "The page",
       "166-research-and-destroy",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -4687,7 +4731,8 @@
       "The page",
       "167-who-s-a-pretty-boy",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -4697,7 +4742,8 @@
       "The page",
       "168-potty-about-pots",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -4707,7 +4753,8 @@
       "The page",
       "169-competition-commission",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -4717,7 +4764,8 @@
       "The page",
       "170-maiding-and-abetting",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -4741,7 +4789,8 @@
       "The page",
       "172-namesake-maker",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -4780,7 +4829,8 @@
       "The page",
       "174-agates-ain-t-great-are-they",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -4790,7 +4840,8 @@
       "The page",
       "175-if-i-ad-an-ammer",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -4800,7 +4851,8 @@
       "The page",
       "176-well-forgetful",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -4810,7 +4862,8 @@
       "The page",
       "177-tones-of-the-bones",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -4820,7 +4873,8 @@
       "The page",
       "178-from-rust-to-riches",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -4830,7 +4884,8 @@
       "The page",
       "179-pants-macabre",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -4840,7 +4895,8 @@
       "The page",
       "180-wrecking-wrecks",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -4850,7 +4906,8 @@
       "The page",
       "181-can-we-borya-for-a-second",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -4860,7 +4917,8 @@
       "The page",
       "182-an-immaculate-conception",
       "you want to access does not exist.",
-      "Create page"
+      "Create page",
+      "orphan-quest"
     ],
     "Links": {}
   },
@@ -18457,12 +18515,12 @@
       "Important Item",
       "Where to find:",
       "Reward for quest",
-      "147 License to Drive",
+      "147 Licensed to Drive",
       "(one-time)",
       "important"
     ],
     "Links": {
-      "/147-license-to-drive": "147 License to Drive",
+      "/147-licensed-to-drive": "147 Licensed to Drive",
       "/system:page-tags/tag/important-item": "important-item"
     }
   },
@@ -42332,7 +42390,7 @@
       "144 Claws for Thought",
       "145 Mysterious Monarch",
       "146 Hail to the Queen",
-      "1467 Licensed to Drive",
+      "147 Licensed to Drive",
       "148 Flaptricide",
       "149 Intreeguing Mystery",
       "150 Annihilimobliteration!?",
@@ -42518,7 +42576,7 @@
       "/144-claws-for-thought": "144 Claws for Thought",
       "/145-mysterious-monarch": "145 Mysterious Monarch",
       "/146-hail-to-the-queen": "146 Hail to the Queen",
-      "/1467-licensed-to-drive": "1467 Licensed to Drive",
+      "/147-licensed-to-drive": "147 Licensed to Drive",
       "/148-flaptricide": "148 Flaptricide",
       "/149-intreeguing-mystery": "149 Intreeguing Mystery",
       "/150-annihilimobliteration": "150 Annihilimobliteration!?",
