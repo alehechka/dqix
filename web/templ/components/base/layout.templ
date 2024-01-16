@@ -10,6 +10,7 @@ type LayoutParams struct {
 }
 
 templ Layout(params LayoutParams) {
+	<!DOCTYPE html>
 	<html
 		lang="en"
 		class="h-full overflow-hidden"
@@ -30,7 +31,7 @@ templ Layout(params LayoutParams) {
 }
 
 templ MainContentWithSidenav(page string) {
-	<div id="sidenav-page-wrapper">
+	<div id="sidenav-page-wrapper" class="h-full overflow-hidden">
 		@SideNav(page)
 		@MainContent() {
 			{ children... }
