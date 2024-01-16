@@ -400,6 +400,18 @@
    "twinkling-tuxedo"
   ]
  },
+ "brilliant-biscuits": {
+  "id": "brilliant-biscuits",
+  "title": "Brilliant Biscuits",
+  "description": "Cracking cookies that shine brilliantly, both in looks and taste.",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 1,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday"
+ },
  "butterfly-wing": {
   "id": "butterfly-wing",
   "title": "Butterfly Wing",
@@ -1002,6 +1014,18 @@
   "category": "items",
   "classification": "everyday"
  },
+ "gladiator-s-guide": {
+  "id": "gladiator-s-guide",
+  "title": "'Gladiator's Guide'",
+  "description": "Pop this in your pocket to perform two hits per turn sometimes.",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 3,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday"
+ },
  "glass-frit": {
   "id": "glass-frit",
   "title": "Glass Frit",
@@ -1098,6 +1122,36 @@
    "meteorite-bracer",
    "spellward-circlet",
    "storm-spear"
+  ]
+ },
+ "green-orb": {
+  "id": "green-orb",
+  "title": "Green Orb",
+  "description": "A ridiculously rare orb of verdant green. Alchemise it!",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 4,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday",
+  "droppedBy": {
+   "psaro": "(lv. 1: 5%—lv. 91: 10%)"
+  },
+  "ingredientFor": [
+   "autumn-shower-hat",
+   "devilry-drinker",
+   "dire-critical-fan",
+   "giga-gringham-whip",
+   "hypercritical-fan",
+   "mega-gringham-whip",
+   "overcritical-fan",
+   "psyche-swiper",
+   "soul-sucker",
+   "spring-breeze-hat",
+   "summer-cloud-hat",
+   "winter-sky-hat",
+   "über-gringham-whip"
   ]
  },
  "grubby-bandage": {
@@ -1948,6 +2002,18 @@
    "warlord-s-hammer"
   ]
  },
+ "paladin-s-primer": {
+  "id": "paladin-s-primer",
+  "title": "'Paladin's Primer'",
+  "description": "Pop this in your pocket to gain use of the",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 3,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday"
+ },
  "panacea": {
   "id": "panacea",
   "title": "Panacea",
@@ -2049,9 +2115,24 @@
   "category": "items",
   "classification": "everyday"
  },
+ "pretty-betsy": {
+  "id": "pretty-betsy",
+  "title": "Pretty Betsy",
+  "description": "A bewitching bloom that boosts a single ally's charm a bit.",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 1,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday",
+  "droppedBy": {
+   "whirly-girly": "(1/256)"
+  }
+ },
  "priest-s-primer": {
   "id": "priest-s-primer",
-  "title": "Priest's Primer",
+  "title": "'Priest's Primer'",
   "description": "Pop this in your pocket to gain use of the",
   "statistics": {
    "special": {}
@@ -2303,6 +2384,18 @@
    "staff-of-divine-wrath",
    "tantric-trousers"
   ]
+ },
+ "sage-s-scripture": {
+  "id": "sage-s-scripture",
+  "title": "'Sage's Scripture'",
+  "description": "Pop this in your pocket to gain use of the",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 3,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday"
  },
  "sage-s-stone": {
   "id": "sage-s-stone",
@@ -3093,6 +3186,30 @@
    "special": {}
   },
   "rarity": 3,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday"
+ },
+ "warrior-s-workbook": {
+  "id": "warrior-s-workbook",
+  "title": "'Warrior's Workbook'",
+  "description": "Pop this in your pocket to perform off-the-cuff counterattacks.",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 3,
+  "type": "bag",
+  "category": "items",
+  "classification": "everyday"
+ },
+ "watcher-s-wings": {
+  "id": "watcher-s-wings",
+  "title": "Watcher's Wings",
+  "description": "Peculiar plumage with the power to send people back home.",
+  "statistics": {
+   "special": {}
+  },
+  "rarity": 1,
   "type": "bag",
   "category": "items",
   "classification": "everyday"
