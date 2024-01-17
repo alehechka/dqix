@@ -128,7 +128,8 @@
    "Rank 5 (E) blue chest in grotto (10%)"
   ],
   "droppedBy": {
-   "hammibal": "(1/32)"
+   "hammibal": "(1/32)",
+   "yore": "(100%)"
   },
   "ingredientFor": [
    "dragontail-whip",
@@ -162,7 +163,8 @@
    "Rank 2 (H) blue chest in grotto (10%)"
   ],
   "droppedBy": {
-   "chariot-chappie": "(1/32)"
+   "chariot-chappie": "(1/32)",
+   "lost-soul": "(1/64)"
   },
   "ingredientFor": [
    "astral-plume",
@@ -198,7 +200,11 @@
    "Rank 1 (I) blue chest in grotto (8%)"
   ],
   "droppedBy": {
-   "bodkin-fletcher": "(1/8)"
+   "bodkin-fletcher": "(1/8)",
+   "bubble-slime": "(1/8)",
+   "cruelcumber": "(1/8)",
+   "gastropog": "(1/16)",
+   "sacksquatch": "(1/32)"
   },
   "ingredientFor": [
    "strong-antidote"
@@ -282,6 +288,7 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
+   "morphean-mushroom": "(1/16)",
    "mushroom-mage": "(1/8)"
   },
   "ingredientFor": [
@@ -357,7 +364,9 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
-   "nimzo": "(lv. 1: 5%—lv. 91: 10%)"
+   "nimzo": "(lv. 1: 5%—lv. 91: 10%)",
+   "nokturnus": "(lv. 4–8: 10%; lv. 57–68: 15%)",
+   "orgodemir": "(lv. 1: 10%—lv. 91: 15%)"
   },
   "ingredientFor": [
    "aurora-staff",
@@ -386,7 +395,9 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
-   "cosmic-chimaera": "(1/8)"
+   "cosmic-chimaera": "(1/8)",
+   "goodybag": "(1/16)",
+   "rashaverak": "(1/64)"
   },
   "ingredientFor": [
    "aurora-blade",
@@ -424,6 +435,8 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
+   "batterfly": "(1/64)",
+   "betterfly": "(1/16)",
    "dread-admiral": "(1/8)"
   },
   "ingredientFor": [
@@ -496,7 +509,13 @@
    "Rank 1 (I) blue chest in grotto (10%)"
   ],
   "droppedBy": {
-   "chimaera": "(1/8)"
+   "beakon": "(1/16)",
+   "chimaera": "(1/8)",
+   "clockwork-cuckoo": "(1/32)",
+   "drackmage": "(1/16)",
+   "dracky": "(1/64)",
+   "hocus-chimaera": "(1/16)",
+   "mecha-mynah": "(1/32)"
   },
   "canBeUsedFor": [
    "013-all-fired-up"
@@ -576,7 +595,11 @@
    "Upover (item shop)"
   ],
   "droppedBy": {
-   "betterfly": "(1/8)"
+   "betterfly": "(1/8)",
+   "cumaulus": "(1/64)",
+   "dread-admiral": "(1/64)",
+   "hell-nino": "(1/32)",
+   "treevil": "(1/64)"
   },
   "ingredientFor": [
    "batterfly-knife",
@@ -615,7 +638,9 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
-   "bag-o--laughs": "(1/8)"
+   "bag-o--laughs": "(1/8)",
+   "mudraker": "(1/16)",
+   "swinoceros": "(1/32)"
   },
   "ingredientFor": [
    "mystifying-mixture"
@@ -636,7 +661,10 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
-   "belisha-beakon": "(1/32)"
+   "belisha-beakon": "(1/32)",
+   "crabid": "(1/64)",
+   "knocktopus": "(1/32)",
+   "spinchilla": "(1/32)"
   },
   "ingredientFor": [
    "flame-tang",
@@ -670,6 +698,8 @@
    "Rank 7 (C) blue chest in grotto (10%)"
   ],
   "droppedBy": {
+   "drakulard": "(1/128)",
+   "goreham-hogg": "(100%)",
    "wishmaster": "(1/32)"
   },
   "ingredientFor": [
@@ -721,6 +751,8 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
+   "green-dragon": "(1/16)",
+   "lleviathan": "(100%)",
    "salamarauder": "(1/16)"
   },
   "ingredientFor": [
@@ -839,6 +871,8 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
+   "dark-skeleton": "(1/32)",
+   "geothaum": "(1/32)",
    "ragged-reaper": "(1/16)"
   },
   "ingredientFor": [
@@ -920,6 +954,7 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
+   "morphean-mushroom": "(1/16)",
    "mushroom-mage": "(1/8)"
   },
   "ingredientFor": [
@@ -942,6 +977,10 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
+   "golem": "(1/16)",
+   "grinade": "(1/64)",
+   "living-statue": "(1/16)",
+   "mad-moai": "(1/128)",
    "stone-golem": "(1/16)"
   },
   "ingredientFor": [
@@ -960,6 +999,7 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
+   "chimaera": "(1/32)",
    "weaken-beakon": "(1/16)"
   },
   "ingredientFor": [
@@ -1038,6 +1078,9 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
+   "cyclown": "(1/32)",
+   "parched-peckerel": "(1/64)",
+   "power-hammer": "(1/32)",
    "stale-whale": "(1/16)"
   },
   "ingredientFor": [
@@ -1067,7 +1110,8 @@
    "Rank 10 (S) blue chest in grotto (10%)"
   ],
   "droppedBy": {
-   "gem-jamboree": "(1/16)"
+   "gem-jamboree": "(1/16)",
+   "gold-golem": "(1/256)"
   }
  },
  "gleeban-groat": {
@@ -1114,6 +1158,11 @@
    "sainted-soma": 3
   },
   "droppedBy": {
+   "au-1000": "(1/128)",
+   "drakularge": "(1/256)",
+   "gem-jamboree": "(1/256)",
+   "gem-slime": "(1/128)",
+   "pandora-s-box": "(1/128)",
    "tyrannosaurus-wrecks": "(1/10)"
   },
   "ingredientFor": [
@@ -1136,6 +1185,8 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
+   "estark": "(lv. 1: 10%—lv. 91: 15%)",
+   "nokturnus": "(lv. 16–25: 10%; lv. 81–90: 15%)",
    "psaro": "(lv. 1: 5%—lv. 91: 10%)"
   },
   "ingredientFor": [
@@ -1166,7 +1217,9 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
-   "mummy": "(1/8)"
+   "blood-mummy": "(1/8)",
+   "mummy": "(1/8)",
+   "mummy-boy": "(1/16)"
   },
   "ingredientFor": [
    "bow-tie",
@@ -1213,7 +1266,9 @@
    "Rank 6 (D) blue chest in grotto (15%)"
   ],
   "droppedBy": {
-   "flamin--drayman": "(1/64)"
+   "flamin--drayman": "(1/64)",
+   "magmalice": "(1/128)",
+   "rockbomb": "(1/128)"
   },
   "ingredientFor": [
    "gigaspike-whip",
@@ -1265,7 +1320,10 @@
    "Rank 1 (I) blue chest in grotto (10%)"
   ],
   "droppedBy": {
-   "lost-soul": "(1/8)"
+   "firespirit": "(1/32)",
+   "lost-soul": "(1/8)",
+   "spirit": "(1/32)",
+   "teeny-sanguini": "(1/64)"
   },
   "ingredientFor": [
    "aurora-blade",
@@ -1286,7 +1344,10 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
-   "godsteed": "(1/8)"
+   "godsteed": "(1/8)",
+   "sick-trigertaur": "(1/16)",
+   "tantamount": "(1/8)",
+   "white-trigertaur": "(1/16)"
   },
   "ingredientFor": [
    "friendly-fan"
@@ -1304,7 +1365,10 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
-   "freezing-fog": "(1/16)"
+   "brrearthenwarrior": "(1/32)",
+   "firn-fiend": "(1/16)",
+   "freezing-fog": "(1/16)",
+   "shivery-shrubbery": "(1/32)"
   },
   "ingredientFor": [
    "avalanche-axe",
@@ -1330,7 +1394,9 @@
    "Rank 2 (H) blue chest in grotto (10%)"
   ],
   "droppedBy": {
-   "killing-machine": "(1/16)"
+   "clockwork-cuckoo": "(1/64)",
+   "killing-machine": "(1/16)",
+   "shocktopus": "(1/32)"
   },
   "ingredientFor": [
    "chainmail-socks",
@@ -1353,6 +1419,9 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
+   "bad-karmour": "(1/16)",
+   "corrupt-carter": "(1/32)",
+   "hunter-mech": "(1/32)",
    "robo-robin": "(1/16)"
   },
   "ingredientFor": [
@@ -1399,6 +1468,9 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
+   "clawcerer": "(1/32)",
+   "parched-peckerel": "(1/32)",
+   "power-hammer": "(1/64)",
    "purrestidigitator": "(1/8)"
   },
   "ingredientFor": [
@@ -1436,6 +1508,9 @@
    "Batsureg (item shop)"
   ],
   "droppedBy": {
+   "battering-ram": "(1/8)",
+   "drackal": "(1/16)",
+   "ram-raider": "(1/32)",
    "rampage": "(1/8)"
   },
   "ingredientFor": [
@@ -1466,7 +1541,13 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
-   "bagma": "(1/16)"
+   "admirer": "(1/32)",
+   "bagma": "(1/16)",
+   "live-lava": "(1/16)",
+   "magmalice": "(1/16)",
+   "master-of-nu-un": "(100%)",
+   "scarlet-fever": "(1/16)",
+   "terrorhawk": "(1/32)"
   },
   "ingredientFor": [
    "fire-blade",
@@ -1542,6 +1623,7 @@
    "moonwort-bulb": 3
   },
   "droppedBy": {
+   "boogie-manguini": "(1/64)",
    "prism-peacock": "(1/32)"
   },
   "ingredientFor": [
@@ -1573,6 +1655,25 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
+   "badboon": "(1/16)",
+   "badger-mager": "(1/32)",
+   "badja": "(1/8)",
+   "bewarewolf": "(1/16)",
+   "big-badboon": "(1/8)",
+   "bling-badger": "(1/8)",
+   "boppin--badger": "(1/32)",
+   "brainy-badboon": "(1/32)",
+   "dreadful-drackal": "(1/16)",
+   "hexagoon": "(100%)",
+   "master-moosifer": "(1/8)",
+   "moosifer": "(1/16)",
+   "octagoon": "(1/32)",
+   "rampage": "(1/64)",
+   "rover": "(100%)",
+   "scarewolf": "(1/8)",
+   "splatterhorn": "(1/32)",
+   "swinoceros": "(1/8)",
+   "tearwolf": "(1/8)",
    "trigertaur": "(1/8)"
   },
   "ingredientFor": [
@@ -1600,6 +1701,14 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
+   "battering-ram": "(1/32)",
+   "claw-hammer": "(1/16)",
+   "dreadful-drackal": "(1/32)",
+   "knocktopus": "(1/16)",
+   "rampage": "(1/64)",
+   "seasaur": "(1/64)",
+   "shocktopus": "(1/16)",
+   "splatterhorn": "(1/16)",
    "swinoceros": "(1/8)"
   },
   "ingredientFor": [
@@ -1633,7 +1742,10 @@
    "royal-soil": 1
   },
   "droppedBy": {
-   "jinkster": "(1/32)"
+   "firespirit": "(1/128)",
+   "jinkster": "(1/32)",
+   "lunatick": "(1/64)",
+   "magus": "(1/64)"
   },
   "ingredientFor": [
    "lightning-staff",
@@ -1666,7 +1778,10 @@
    "Rank 4 (F) blue chest in grotto (1%)"
   ],
   "droppedBy": {
-   "blood-mummy": "(1/128)"
+   "blood-mummy": "(1/128)",
+   "grrrgoyle": "(1/256)",
+   "hootingham-gore": "(100%)",
+   "mummy": "(1/256)"
   },
   "ingredientFor": [
    "archdemon-whip",
@@ -1691,6 +1806,11 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
+   "apeckalypse": "(1/32)",
+   "ghoul": "(1/16)",
+   "mortoad": "(1/32)",
+   "stenchurion": "(1/8)",
+   "toxic-zombie": "(1/16)",
    "walking-corpse": "(1/8)"
   },
   "ingredientFor": [
@@ -1742,7 +1862,15 @@
    "Rank 1 (I) blue chest in grotto (10%)"
   ],
   "droppedBy": {
-   "slime": "(1/8)"
+   "boppin--badger": "(1/16)",
+   "dracky": "(1/16)",
+   "funghoul": "(1/8)",
+   "healslime": "(1/8)",
+   "she-slime": "(1/8)",
+   "slime": "(1/8)",
+   "slugger": "(1/16)",
+   "sootheslime": "(1/8)",
+   "teeny-sanguini": "(1/16)"
   },
   "ingredientFor": [
    "strong-antidote",
@@ -1768,6 +1896,8 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
+   "cannibox": "(1/16)",
+   "mimic": "(1/16), all legacy bosses (100%)",
    "pandora-s-box": "(1/8)"
   }
  },
@@ -1795,6 +1925,7 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
+   "alphyn": "(1/32)",
    "mega-moai": "(1/32)"
   },
   "ingredientFor": [
@@ -1830,7 +1961,12 @@
    "Rank 1 (I) blue chest in grotto (8%)"
   ],
   "droppedBy": {
-   "leafy-larrikin": "(1/8)"
+   "badger-mager": "(1/16)",
+   "batterfly": "(1/16)",
+   "cruelcumber": "(1/128)",
+   "leafy-larrikin": "(1/8)",
+   "man-o--war": "(1/16)",
+   "pink-sanguini": "(1/16)"
   },
   "ingredientFor": [
    "lunaria",
@@ -1885,6 +2021,8 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
+   "golem": "(1/128)",
+   "metal-medley": "(1/128)",
    "void-droid": "(1/32)"
   },
   "ingredientFor": [
@@ -1917,7 +2055,10 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
-   "shivery-shrubbery": "(1/64)"
+   "moai-minstrel": "(1/32)",
+   "sculpture-vulture": "(1/32)",
+   "shivery-shrubbery": "(1/64)",
+   "tyrannosaurus-wrecks": "(1/32)"
   },
   "ingredientFor": [
    "ethereal-stone",
@@ -1970,7 +2111,9 @@
    "Rank 10 (S) blue chest in grotto (5%)"
   ],
   "droppedBy": {
-   "greygnarl": "(1/20)"
+   "gem-slime": "(1/256)",
+   "greygnarl": "(1/20)",
+   "metal-king-slime": "(1/256)"
   },
   "ingredientFor": [
    "erdrick-s-armour",
@@ -2034,7 +2177,8 @@
    "Rank 5 (E) blue chest in grotto (15%)"
   ],
   "droppedBy": {
-   "blastoad": "(1/64)"
+   "blastoad": "(1/64)",
+   "cureslime": "(1/64)"
   },
   "ingredientFor": [
    "perfect-panacea",
@@ -2092,7 +2236,9 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
-   "drackal": "(1/128)"
+   "drackal": "(1/128)",
+   "octagoon": "(1/128)",
+   "platinum-king-jewel": "(1/8)"
   },
   "ingredientFor": [
    "celestial-spear",
@@ -2154,7 +2300,9 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
-   "nokturnus": "(lv. 26–40: 10%; lv. 91–99: 15%)"
+   "dhoulmagus": "(lv. 1: 5%—lv. 91: 10%)",
+   "nokturnus": "(lv. 26–40: 10%; lv. 91–99: 15%)",
+   "rhapthorne": "(lv. 1: 10%—lv. 91: 15%)"
   },
   "ingredientFor": [
    "blessed-helm",
@@ -2195,7 +2343,9 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
-   "dragonlord": "(lv. 1: 5%—lv. 91: 10%)"
+   "dragonlord": "(lv. 1: 5%—lv. 91: 10%)",
+   "malroth": "(lv. 1: 10%—lv. 91: 15%)",
+   "nokturnus": "(lv. 1-3: 10%)"
   },
   "ingredientFor": [
    "diana-gauntlets",
@@ -2229,6 +2379,7 @@
    "Rank 10 (S) blue chest in grotto (10%)"
   ],
   "droppedBy": {
+   "firn-fiend": "(1/256)",
    "stone-guardian": "(1/256)"
   },
   "ingredientFor": [
@@ -2271,7 +2422,11 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
-   "handsome-crab": "(1/32)"
+   "handsome-crab": "(1/32)",
+   "living-statue": "(1/128)",
+   "sculpture-vulture": "(1/128)",
+   "stone-golem": "(1/128)",
+   "stone-guardian": "(1/64)"
   },
   "ingredientFor": [
    "flame-shield",
@@ -2298,7 +2453,11 @@
    "Rank 2 (H) blue chest in grotto (8%)"
   ],
   "droppedBy": {
-   "rockbomb": "(1/8)"
+   "bomboulder": "(1/16)",
+   "flamin--drayman": "(1/32)",
+   "grinade": "(1/16)",
+   "rockbomb": "(1/8)",
+   "scourgette": "(1/32)"
   },
   "ingredientFor": [
    "banefire-boomerang",
@@ -2322,7 +2481,11 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
-   "mad-moai": "(1/16)"
+   "barriearthenwarrior": "(1/16)",
+   "drastic-drackal": "(1/16)",
+   "mad-moai": "(1/16)",
+   "ragin--contagion": "(100%)",
+   "terror-troll": "(1/16)"
   },
   "ingredientFor": [
    "black-tortoise-fan",
@@ -2368,7 +2531,10 @@
    "Rank 10 (S) blue chest in grotto (15%)"
   ],
   "droppedBy": {
-   "freezing-fog": "(1/64)"
+   "dreadmaster": "(100%)",
+   "fowleye": "(steal only)",
+   "freezing-fog": "(1/64)",
+   "hootingham-gore": "(100%)"
   },
   "ingredientFor": [
    "blessed-bindings",
@@ -2432,6 +2598,8 @@
    "Red treasure chest in B1F of The Plumbed Depths (requires Ultimate Key)"
   ],
   "droppedBy": {
+   "genie-sanguini": "(1/128)",
+   "sculptrice": "(1/128)",
    "seavern": "(1/32)"
   },
   "ingredientFor": [
@@ -2484,6 +2652,7 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
+   "crabber-dabber-doo": "(1/16)",
    "spinchilla": "(1/16)"
   },
   "ingredientFor": [
@@ -2565,7 +2734,8 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
-   "metal-slime": "(1/256)"
+   "metal-slime": "(1/256)",
+   "moosifer": "(1/256)"
   }
  },
  "seed-of-magic": {
@@ -2625,7 +2795,8 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
-   "brownie": "(1/256)"
+   "brownie": "(1/256)",
+   "troll": "(1/256)"
   }
  },
  "seed-of-therapeusis": {
@@ -2655,7 +2826,9 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
-   "baramos": "(lv. 1: 5%—lv. 91: 10%)"
+   "baramos": "(lv. 1: 5%—lv. 91: 10%)",
+   "nokturnus": "(lv. 41–56: 10%)",
+   "zoma": "(lv. 1: 10%—lv. 91: 15%)"
   },
   "ingredientFor": [
    "asterang",
@@ -2683,6 +2856,8 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
+   "funghoul": "(1/128)",
+   "king-crab": "(1/16)",
    "ram-raider": "(1/16)"
   },
   "ingredientFor": [
@@ -2707,7 +2882,19 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
-   "slime-stack": "(1/8)"
+   "bubble-slime": "(1/16)",
+   "cureslime": "(1/16)",
+   "darkonium-slime": "(1/32)",
+   "healslime": "(1/16)",
+   "king-cureslime": "(1/64)",
+   "king-slime": "(1/8)",
+   "medislime": "(1/32)",
+   "metal-medley": "(1/8)",
+   "she-slime": "(1/16)",
+   "slime": "(1/16)",
+   "slime-knight": "(1/32)",
+   "slime-stack": "(1/8)",
+   "sootheslime": "(1/8)"
   },
   "ingredientFor": [
    "gooey-gear",
@@ -2756,7 +2943,9 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
-   "diethon": "(1/8)"
+   "diethon": "(1/8)",
+   "flython": "(1/16)",
+   "sail-serpent": "(1/8)"
   },
   "ingredientFor": [
    "cobra-fan",
@@ -2787,6 +2976,8 @@
    "Surry Coast (southern-most point on the beach)"
   ],
   "droppedBy": {
+   "bagma": "(1/64)",
+   "bud-brother": "(1/64)",
    "man-o--war": "(1/32)"
   },
   "ingredientFor": [
@@ -2824,6 +3015,7 @@
    "strong-medicine": 2
   },
   "droppedBy": {
+   "badja": "(1/64)",
    "great-troll": "(1/32)"
   },
   "ingredientFor": [
@@ -2879,7 +3071,9 @@
    "Rank 2 (H) blue chest in grotto (10%)"
   ],
   "droppedBy": {
-   "peckerel": "(1/16)"
+   "peckerel": "(1/16)",
+   "raving-lunatick": "(1/64)",
+   "treeface": "(1/64)"
   },
   "ingredientFor": [
    "special-antidote"
@@ -2906,6 +3100,12 @@
    "Rank 1 (I) blue chest in grotto (8%)"
   ],
   "droppedBy": {
+   "badboon": "(1/32)",
+   "bag-o--laughs": "(1/64)",
+   "leafy-larrikin": "(1/32)",
+   "medislime": "(1/16)",
+   "metal-slime": "(1/64)",
+   "treeface": "(1/32)",
    "zumeanie": "(1/16)"
   },
   "ingredientFor": [
@@ -2962,6 +3162,8 @@
    "Rank 2 (H) blue chest in grotto (10%)"
   ],
   "droppedBy": {
+   "bud-brother": "(1/32)",
+   "pale-whale": "(1/16)",
    "treevil": "(1/16)"
   },
   "ingredientFor": [
@@ -2998,6 +3200,9 @@
    "Upover (item shop)"
   ],
   "droppedBy": {
+   "cumaulus": "(1/32)",
+   "cyber-spider": "(1/8)",
+   "tyrantula": "(100%)",
    "widow-s-pique": "(1/8)"
   },
   "ingredientFor": [
@@ -3110,7 +3315,8 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
-   "cumulus-rex": "(1/16)"
+   "cumulus-rex": "(1/16)",
+   "cumulus-vex": "(1/16)"
   },
   "ingredientFor": [
    "azure-dragon-fan",
@@ -3133,7 +3339,12 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
-   "expload": "(1/8)"
+   "blastoad": "(1/8)",
+   "expload": "(1/8)",
+   "gastropog": "(1/32)",
+   "giddy-gastropog": "(1/8)",
+   "gloomy-gastropog": "(1/8)",
+   "mortoad": "(1/8)"
   },
   "ingredientFor": [
    "hephaestus--flame",
@@ -3152,7 +3363,10 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
-   "wyrtle": "(1/8)"
+   "crabid": "(1/16)",
+   "wonder-wyrtle": "(1/8)",
+   "wyrtle": "(1/8)",
+   "wyrtoise": "(1/8)"
   },
   "ingredientFor": [
    "shell-shield",
@@ -3226,7 +3440,16 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
-   "drackyma": "(1/8)"
+   "bloody-manguini": "(1/8)",
+   "boogie-manguini": "(1/8)",
+   "diethon": "(1/16)",
+   "drackmage": "(1/16)",
+   "drackyma": "(1/8)",
+   "flython": "(1/32)",
+   "gramarye-gruffon": "(1/16)",
+   "great-gruffon": "(1/8)",
+   "gruffon": "(1/8)",
+   "manguini": "(1/16)"
   },
   "ingredientFor": [
    "demon-whip",
@@ -3261,7 +3484,9 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
-   "murdaw": "(lv. 1: 5%—lv. 91: 10%)"
+   "mortamor": "(lv. 1: 10%—lv. 91: 15%)",
+   "murdaw": "(lv. 1: 5%—lv. 91: 10%)",
+   "nokturnus": "(lv. 9–15: 10%; lv. 69–80: 15%)"
   },
   "ingredientFor": [
    "aeon-s-bow",
@@ -3309,6 +3534,8 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
+   "barbarus": "(100%)",
+   "bling-badger": "(1/128)",
    "greygnarl": "(100%)"
   },
   "ingredientFor": [

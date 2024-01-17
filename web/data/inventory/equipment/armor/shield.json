@@ -186,6 +186,7 @@
   "category": "armor",
   "classification": "shield",
   "droppedBy": {
+   "fright-knight": "(1/256)",
    "night-knight": "(1/64)"
   },
   "ingredientFor": [
@@ -428,6 +429,7 @@
    "Batsureg (Armor shop)"
   ],
   "droppedBy": {
+   "bird-of-terrordise": "(1/128)",
    "hell-nino": "(1/128)"
   }
  },
@@ -562,7 +564,8 @@
    "Batsureg (Armor shop)"
   ],
   "droppedBy": {
-   "brrearthenwarrior": "(1/256)"
+   "brrearthenwarrior": "(1/256)",
+   "teaky-mask": "(1/256)"
   }
  },
  "iron-shield": {
@@ -695,6 +698,7 @@
    "Bloomingdale (armour shop)"
   ],
   "droppedBy": {
+   "gum-shield": "(1/64)",
    "metal-slime-knight": "(1/64)"
   },
   "ingredientFor": [
@@ -768,6 +772,7 @@
    "Gleeba (armour shop)"
   ],
   "droppedBy": {
+   "cheeky-tiki": "(1/128)",
    "grim-grinner": "(1/64)"
   },
   "ingredientFor": [

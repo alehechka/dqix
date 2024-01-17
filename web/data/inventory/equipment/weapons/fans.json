@@ -280,6 +280,7 @@
    "Gleeba (weapon shop)"
   ],
   "droppedBy": {
+   "bird-of-terrordise": "(1/64)",
    "terrorhawk": "(1/64)"
   },
   "ingredientFor": [
@@ -314,7 +315,8 @@
    "Stornway (weapon shop)"
   ],
   "droppedBy": {
-   "godsteed": "(1/256)"
+   "godsteed": "(1/256)",
+   "tantamount": "(1/256)"
   }
  },
  "gale-force-fan": {

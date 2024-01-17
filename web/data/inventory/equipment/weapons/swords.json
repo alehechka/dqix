@@ -84,7 +84,9 @@
    "Bloomingdale (weapon shop)"
   ],
   "droppedBy": {
-   "axolhotl": "(1/64)"
+   "axolhotl": "(1/64)",
+   "grim-grinner": "(1/64)",
+   "infernal-armour": "(1/64)"
   },
   "ingredientFor": [
    "aurora-blade"
@@ -227,6 +229,7 @@
    "Stornway (weapon shop)"
   ],
   "droppedBy": {
+   "prime-slime": "(1/128)",
    "slionheart": "(1/128)"
   },
   "ingredientFor": [
@@ -399,7 +402,9 @@
    "Alltrades Abbey (item shop)"
   ],
   "droppedBy": {
-   "restless-armour": "(1/64)"
+   "gum-shield": "(1/128)",
+   "restless-armour": "(1/64)",
+   "slime-knight": "(1/128)"
   },
   "ingredientFor": [
    "platinum-sword",
@@ -672,7 +677,8 @@
    "Stornway (weapon shop)"
   ],
   "droppedBy": {
-   "earthenwarrior": "(1/64)"
+   "earthenwarrior": "(1/64)",
+   "wooper-trooper": "(1/64)"
   },
   "ingredientFor": [
    "warrior-s-sword"

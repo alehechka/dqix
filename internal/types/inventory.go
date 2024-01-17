@@ -416,12 +416,11 @@ func (p PageContent) parseFromBase(inventory *Inventory) {
 			}
 		case "Dropped by:":
 			inventory.DroppedBy = make(map[string]string)
-			for i++; i < lastIndex; i++ {
-				if i+1 < lastIndex && strings.HasPrefix(p.Text[i+1], "(") && (strings.HasSuffix(p.Text[i+1], ")") || strings.HasSuffix(p.Text[i+1], "),")) {
-					key := TitleToID(p.Text[i])
-					inventory.DroppedBy[key] = strings.TrimSuffix(p.Text[i+1], ",")
-				} else {
-					i--
+			for i++; i < lastIndex; i += 2 {
+				key := TitleToID(p.Text[i])
+				inventory.DroppedBy[key] = p.Text[i+1]
+
+				if i+3 >= lastIndex || !strings.HasPrefix(p.Text[i+3], "(") || !strings.HasSuffix(p.Text[i+3], ")") {
 					break
 				}
 			}

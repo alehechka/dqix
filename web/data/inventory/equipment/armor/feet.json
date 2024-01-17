@@ -71,7 +71,8 @@
   "category": "armor",
   "classification": "feet",
   "droppedBy": {
-   "dragonlord": "(lv. 1–3: 15%)"
+   "dragonlord": "(lv. 1–3: 15%)",
+   "nokturnus": "(lv. 16–25: 20%; lv. 26–40: 25%)"
   }
  },
  "aliahan-boots": {

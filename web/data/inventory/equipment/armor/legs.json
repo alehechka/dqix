@@ -320,6 +320,7 @@
    "Slurry Quay (item shop)"
   ],
   "droppedBy": {
+   "boss-troll": "(1/64)",
    "toxic-zombie": "(1/64)"
   },
   "ingredientFor": [
@@ -1274,7 +1275,8 @@
    "Coffinwell (armour shop)"
   ],
   "droppedBy": {
-   "brownie": "(1/32)"
+   "brownie": "(1/32)",
+   "hammerhood": "(1/64)"
   },
   "ingredientFor": [
    "utility-belt"

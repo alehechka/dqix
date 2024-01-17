@@ -115,7 +115,8 @@
   "category": "armor",
   "classification": "torso",
   "droppedBy": {
-   "baramos": "(lv. 9–15: 20%)"
+   "baramos": "(lv. 9–15: 20%)",
+   "zoma": "(lv. 57–68: 25%)"
   }
  },
  "angel-s-robe": {
@@ -753,7 +754,8 @@
    "Porth Llaffan (armour shop)"
   ],
   "droppedBy": {
-   "sluggernaut": "(1/32)"
+   "sluggernaut": "(1/32)",
+   "tearwolf": "(1/64)"
   },
   "ingredientFor": [
    "cloak-of-concealment"
@@ -2725,7 +2727,8 @@
    "Gleeba (armour shop)"
   ],
   "droppedBy": {
-   "charmour": "(1/32)"
+   "charmour": "(1/32)",
+   "lethal-armour": "(1/128)"
   },
   "ingredientFor": [
    "dragon-mail",
@@ -2764,6 +2767,7 @@
    "Gleeba (armour shop)"
   ],
   "droppedBy": {
+   "shaman": "(1/64)",
    "sorcerer": "(1/32)"
   },
   "ingredientFor": [
@@ -4117,7 +4121,9 @@
    "Stornway (armour shop)"
   ],
   "droppedBy": {
-   "mean-spirit": "(1/16)"
+   "mean-spirit": "(1/16)",
+   "meowgician": "(1/32)",
+   "spirit": "(1/64)"
   },
   "ingredientFor": [
    "silk-bustier"
@@ -4179,7 +4185,8 @@
    "Bloomingdale (armour shop)"
   ],
   "droppedBy": {
-   "harmour": "(1/64)"
+   "harmour": "(1/64)",
+   "infernal-armour": "(1/128)"
   },
   "ingredientFor": [
    "gold-mail"
@@ -4311,6 +4318,7 @@
   "category": "armor",
   "classification": "torso",
   "droppedBy": {
+   "mortamor": "(lv. 9–15: 20%; lv. 16–25: 25%)",
    "murdaw": "(lv. 9–15: 15%)"
   }
  },

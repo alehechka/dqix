@@ -351,7 +351,8 @@
    "Coffinwell (weapon shop)"
   ],
   "droppedBy": {
-   "meowgician": "(1/16)"
+   "meowgician": "(1/16)",
+   "winkster": "(1/64)"
   }
  },
  "rune-staff": {
@@ -677,7 +678,8 @@
    "Gleeba (weapon shop)"
   ],
   "droppedBy": {
-   "python-priest": "(1/64)"
+   "python-priest": "(1/64)",
+   "slugly-betsy": "(1/64)"
   },
   "ingredientFor": [
    "tsunami-staff"
@@ -709,6 +711,7 @@
    "Coffinwell (weapon shop)"
   ],
   "droppedBy": {
+   "blinkster": "(1/128)",
    "magus": "(1/64)"
   },
   "ingredientFor": [

@@ -29,7 +29,8 @@
    "Batsureg (weapon shop)"
   ],
   "droppedBy": {
-   "apeckalypse": "(1/128)"
+   "apeckalypse": "(1/128)",
+   "raving-reaper": "(1/128)"
   }
  },
  "batterfly-knife": {
@@ -485,7 +486,8 @@
    "Alltrades Abbey (item shop)"
   ],
   "droppedBy": {
-   "crabber-dabber-doo": "(1/64)"
+   "crabber-dabber-doo": "(1/64)",
+   "king-crab": "(1/128)"
   },
   "ingredientFor": [
    "batterfly-knife",
