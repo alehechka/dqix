@@ -516,6 +516,9 @@
    "iron-whip": 1,
    "lava-lump": 1
   },
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "ingredientFor": [
    "gigaspike-whip"
   ]

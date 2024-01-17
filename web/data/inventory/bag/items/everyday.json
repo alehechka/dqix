@@ -9,7 +9,10 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday"
+  "classification": "everyday",
+  "locationsFound": [
+   "Reward for quest"
+  ]
  },
  "agate-of-evolution": {
   "id": "agate-of-evolution",
@@ -27,6 +30,9 @@
    "ethereal-stone": 2,
    "sainted-soma": 2
   },
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "ingredientFor": [
    "aeon-s-bow",
    "aeon-s-robe",
@@ -128,7 +134,8 @@
    "Rank 5 (E) blue chest in grotto (10%)"
   ],
   "droppedBy": {
-   "hammibal": "(1/32)"
+   "hammibal": "(1/32)",
+   "yore": "(100%)"
   },
   "ingredientFor": [
    "dragontail-whip",
@@ -162,7 +169,8 @@
    "Rank 2 (H) blue chest in grotto (10%)"
   ],
   "droppedBy": {
-   "chariot-chappie": "(1/32)"
+   "chariot-chappie": "(1/32)",
+   "lost-soul": "(1/64)"
   },
   "ingredientFor": [
    "astral-plume",
@@ -198,7 +206,11 @@
    "Rank 1 (I) blue chest in grotto (8%)"
   ],
   "droppedBy": {
-   "bodkin-fletcher": "(1/8)"
+   "bodkin-fletcher": "(1/8)",
+   "bubble-slime": "(1/8)",
+   "cruelcumber": "(1/8)",
+   "gastropog": "(1/16)",
+   "sacksquatch": "(1/32)"
   },
   "ingredientFor": [
    "strong-antidote"
@@ -217,7 +229,10 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday"
+  "classification": "everyday",
+  "locationsFound": [
+   "Reward for quest"
+  ]
  },
  "armamentalist-s-album": {
   "id": "armamentalist-s-album",
@@ -229,7 +244,10 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday"
+  "classification": "everyday",
+  "locationsFound": [
+   "Reward for quest"
+  ]
  },
  "astral-plume": {
   "id": "astral-plume",
@@ -269,7 +287,10 @@
   "buyPrice": 500,
   "type": "bag",
   "category": "items",
-  "classification": "everyday"
+  "classification": "everyday",
+  "locationsFound": [
+   "DQVC shop"
+  ]
  },
  "belle-cap": {
   "id": "belle-cap",
@@ -281,7 +302,13 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Western Coffinwell",
+   "Djust Desert",
+   "Eastern Wormwood"
+  ],
   "droppedBy": {
+   "morphean-mushroom": "(1/16)",
    "mushroom-mage": "(1/8)"
   },
   "ingredientFor": [
@@ -331,7 +358,10 @@
   },
   "type": "bag",
   "category": "items",
-  "classification": "everyday"
+  "classification": "everyday",
+  "locationsFound": [
+   "Gifted from special guests at Quester's Rest on player's birthday"
+  ]
  },
  "block-o--choc": {
   "id": "block-o--choc",
@@ -343,7 +373,10 @@
   "buyPrice": 500,
   "type": "bag",
   "category": "items",
-  "classification": "everyday"
+  "classification": "everyday",
+  "locationsFound": [
+   "DQVC shop"
+  ]
  },
  "blue-orb": {
   "id": "blue-orb",
@@ -356,8 +389,13 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
-   "nimzo": "(lv. 1: 5%—lv. 91: 10%)"
+   "nimzo": "(lv. 1: 5%—lv. 91: 10%)",
+   "nokturnus": "(lv. 4–8: 10%; lv. 57–68: 15%)",
+   "orgodemir": "(lv. 1: 10%—lv. 91: 15%)"
   },
   "ingredientFor": [
    "aurora-staff",
@@ -385,8 +423,14 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Djust Desert",
+   "Wormwood Canyon"
+  ],
   "droppedBy": {
-   "cosmic-chimaera": "(1/8)"
+   "cosmic-chimaera": "(1/8)",
+   "goodybag": "(1/16)",
+   "rashaverak": "(1/64)"
   },
   "ingredientFor": [
    "aurora-blade",
@@ -410,7 +454,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "everyday"
+  "classification": "everyday",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "butterfly-wing": {
   "id": "butterfly-wing",
@@ -424,6 +471,8 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
+   "batterfly": "(1/64)",
+   "betterfly": "(1/16)",
    "dread-admiral": "(1/8)"
   },
   "ingredientFor": [
@@ -496,7 +545,13 @@
    "Rank 1 (I) blue chest in grotto (10%)"
   ],
   "droppedBy": {
-   "chimaera": "(1/8)"
+   "beakon": "(1/16)",
+   "chimaera": "(1/8)",
+   "clockwork-cuckoo": "(1/32)",
+   "drackmage": "(1/16)",
+   "dracky": "(1/64)",
+   "hocus-chimaera": "(1/16)",
+   "mecha-mynah": "(1/32)"
   },
   "canBeUsedFor": [
    "013-all-fired-up"
@@ -512,7 +567,10 @@
   "buyPrice": 3000,
   "type": "bag",
   "category": "items",
-  "classification": "everyday"
+  "classification": "everyday",
+  "locationsFound": [
+   "DQVC shop"
+  ]
  },
  "christmas-cake": {
   "id": "christmas-cake",
@@ -524,7 +582,10 @@
   "buyPrice": 4800,
   "type": "bag",
   "category": "items",
-  "classification": "everyday"
+  "classification": "everyday",
+  "locationsFound": [
+   "DQVC shop"
+  ]
  },
  "chronocrystal": {
   "id": "chronocrystal",
@@ -557,7 +618,10 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday"
+  "classification": "everyday",
+  "locationsFound": [
+   "Reward for quest"
+  ]
  },
  "coagulant": {
   "id": "coagulant",
@@ -576,7 +640,11 @@
    "Upover (item shop)"
   ],
   "droppedBy": {
-   "betterfly": "(1/8)"
+   "betterfly": "(1/8)",
+   "cumaulus": "(1/64)",
+   "dread-admiral": "(1/64)",
+   "hell-nino": "(1/32)",
+   "treevil": "(1/64)"
   },
   "ingredientFor": [
    "batterfly-knife",
@@ -595,6 +663,11 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Dourbridge",
+   "Ondor Cliffs",
+   "Rank 3 (G) blue chest in grotto (10%)"
+  ],
   "droppedBy": {
    "admirer": "(1/64)"
   },
@@ -614,8 +687,19 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Zere",
+   "Wormwood Creek",
+   "Dourbridge",
+   "Lonely Plains",
+   "Mirage Mahal",
+   "Batsureg",
+   "Hunters' Yurts"
+  ],
   "droppedBy": {
-   "bag-o--laughs": "(1/8)"
+   "bag-o--laughs": "(1/8)",
+   "mudraker": "(1/16)",
+   "swinoceros": "(1/32)"
   },
   "ingredientFor": [
    "mystifying-mixture"
@@ -635,8 +719,15 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Newid Island",
+   "Eastern Wormwood"
+  ],
   "droppedBy": {
-   "belisha-beakon": "(1/32)"
+   "belisha-beakon": "(1/32)",
+   "crabid": "(1/64)",
+   "knocktopus": "(1/32)",
+   "spinchilla": "(1/32)"
   },
   "ingredientFor": [
    "flame-tang",
@@ -670,6 +761,8 @@
    "Rank 7 (C) blue chest in grotto (10%)"
   ],
   "droppedBy": {
+   "drakulard": "(1/128)",
+   "goreham-hogg": "(100%)",
    "wishmaster": "(1/32)"
   },
   "ingredientFor": [
@@ -720,7 +813,13 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Urudus Marshland",
+   "Western Wormwood"
+  ],
   "droppedBy": {
+   "green-dragon": "(1/16)",
+   "lleviathan": "(100%)",
    "salamarauder": "(1/16)"
   },
   "ingredientFor": [
@@ -838,7 +937,16 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Djust Desert",
+   "Ondor Cliffs",
+   "Rank 10 pots",
+   "barrels",
+   "and chests of drawers (5%)"
+  ],
   "droppedBy": {
+   "dark-skeleton": "(1/32)",
+   "geothaum": "(1/32)",
    "ragged-reaper": "(1/16)"
   },
   "ingredientFor": [
@@ -864,7 +972,10 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday"
+  "classification": "everyday",
+  "locationsFound": [
+   "Reward for quest"
+  ]
  },
  "festive-feast": {
   "id": "festive-feast",
@@ -876,7 +987,10 @@
   "buyPrice": 2500,
   "type": "bag",
   "category": "items",
-  "classification": "everyday"
+  "classification": "everyday",
+  "locationsFound": [
+   "DQVC shop"
+  ]
  },
  "finessence": {
   "id": "finessence",
@@ -919,7 +1033,15 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Western Stornway",
+   "Iluugazar Plains",
+   "Wyrmsmaw",
+   "Rank 2 (H) blue chest in grotto (10%)",
+   "Rank 3 (G) blue chest in grotto (10%)"
+  ],
   "droppedBy": {
+   "morphean-mushroom": "(1/16)",
    "mushroom-mage": "(1/8)"
   },
   "ingredientFor": [
@@ -941,7 +1063,16 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Khaalag Coast",
+   "Gittish Empire",
+   "Rank 4 (F) blue chest in grotto (5%)"
+  ],
   "droppedBy": {
+   "golem": "(1/16)",
+   "grinade": "(1/64)",
+   "living-statue": "(1/16)",
+   "mad-moai": "(1/128)",
    "stone-golem": "(1/16)"
   },
   "ingredientFor": [
@@ -959,7 +1090,12 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Bloomingdale",
+   "Mt Ulbaruun"
+  ],
   "droppedBy": {
+   "chimaera": "(1/32)",
    "weaken-beakon": "(1/16)"
   },
   "ingredientFor": [
@@ -988,6 +1124,12 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Slurry Coast",
+   "Mt Ulzuun",
+   "The Bad Cave",
+   "Tywll Cave"
+  ],
   "droppedBy": {
    "cheeky-tiki": "(1/16)"
   },
@@ -1012,7 +1154,10 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday"
+  "classification": "everyday",
+  "locationsFound": [
+   "Reward for quest"
+  ]
  },
  "gladiator-s-guide": {
   "id": "gladiator-s-guide",
@@ -1024,7 +1169,10 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday"
+  "classification": "everyday",
+  "locationsFound": [
+   "Reward for quest"
+  ]
  },
  "glass-frit": {
   "id": "glass-frit",
@@ -1037,7 +1185,14 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Djust Desert",
+   "Wyrmwing"
+  ],
   "droppedBy": {
+   "cyclown": "(1/32)",
+   "parched-peckerel": "(1/64)",
+   "power-hammer": "(1/32)",
    "stale-whale": "(1/16)"
   },
   "ingredientFor": [
@@ -1067,7 +1222,8 @@
    "Rank 10 (S) blue chest in grotto (10%)"
   ],
   "droppedBy": {
-   "gem-jamboree": "(1/16)"
+   "gem-jamboree": "(1/16)",
+   "gold-golem": "(1/256)"
   }
  },
  "gleeban-groat": {
@@ -1081,7 +1237,19 @@
   "sellPrice": 100,
   "type": "bag",
   "category": "items",
-  "classification": "everyday"
+  "classification": "everyday",
+  "locationsFound": [
+   "Brigadoom",
+   "Tower of Trades",
+   "Tywll Cave",
+   "The Bad Cave",
+   "The Plumbed Depths",
+   "Iluugazar Plains",
+   "Swinedimples - The Old School",
+   "Rank 1 (I) blue chest in grotto (10%)",
+   "Rank 2 (H) blue chest in grotto (8%)",
+   "Rank 3 (G) blue chest in grotto (10%)"
+  ]
  },
  "gleeban-guinea": {
   "id": "gleeban-guinea",
@@ -1094,7 +1262,17 @@
   "sellPrice": 500,
   "type": "bag",
   "category": "items",
-  "classification": "everyday"
+  "classification": "everyday",
+  "locationsFound": [
+   "Tower of Trades",
+   "Lonely Coast",
+   "Heights of Loneliness",
+   "Swinedimples - The Old School",
+   "The Bowhole",
+   "Rank 3 (G) blue chest in grotto (5%)",
+   "Rank 4 (F) blue chest in grotto (10%)",
+   "Rank 6 (D) blue chest in grotto (15%)"
+  ]
  },
  "gold-bar": {
   "id": "gold-bar",
@@ -1113,7 +1291,17 @@
    "ethereal-stone": 2,
    "sainted-soma": 3
   },
+  "locationsFound": [
+   "Red chest in The Bowhole B3F",
+   "Rank 8 (B) blue chest in grotto (5%)",
+   "Rank 10 (S) blue chest in grotto (5%)"
+  ],
   "droppedBy": {
+   "au-1000": "(1/128)",
+   "drakularge": "(1/256)",
+   "gem-jamboree": "(1/256)",
+   "gem-slime": "(1/128)",
+   "pandora-s-box": "(1/128)",
    "tyrannosaurus-wrecks": "(1/10)"
   },
   "ingredientFor": [
@@ -1135,7 +1323,12 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
+   "estark": "(lv. 1: 10%—lv. 91: 15%)",
+   "nokturnus": "(lv. 16–25: 10%; lv. 81–90: 15%)",
    "psaro": "(lv. 1: 5%—lv. 91: 10%)"
   },
   "ingredientFor": [
@@ -1166,7 +1359,9 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
-   "mummy": "(1/8)"
+   "blood-mummy": "(1/8)",
+   "mummy": "(1/8)",
+   "mummy-boy": "(1/16)"
   },
   "ingredientFor": [
    "bow-tie",
@@ -1189,7 +1384,10 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday"
+  "classification": "everyday",
+  "locationsFound": [
+   "Reward for quest"
+  ]
  },
  "hephaestus--flame": {
   "id": "hephaestus--flame",
@@ -1213,7 +1411,9 @@
    "Rank 6 (D) blue chest in grotto (15%)"
   ],
   "droppedBy": {
-   "flamin--drayman": "(1/64)"
+   "flamin--drayman": "(1/64)",
+   "magmalice": "(1/128)",
+   "rockbomb": "(1/128)"
   },
   "ingredientFor": [
    "gigaspike-whip",
@@ -1265,7 +1465,10 @@
    "Rank 1 (I) blue chest in grotto (10%)"
   ],
   "droppedBy": {
-   "lost-soul": "(1/8)"
+   "firespirit": "(1/32)",
+   "lost-soul": "(1/8)",
+   "spirit": "(1/32)",
+   "teeny-sanguini": "(1/64)"
   },
   "ingredientFor": [
    "aurora-blade",
@@ -1285,8 +1488,22 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Zere",
+   "Porth Llaffan",
+   "Dourbridge",
+   "Lonely Plains",
+   "Bloomingdale",
+   "Gleeba",
+   "Iluugazar Plains",
+   "Batsureg",
+   "Gerzuun"
+  ],
   "droppedBy": {
-   "godsteed": "(1/8)"
+   "godsteed": "(1/8)",
+   "sick-trigertaur": "(1/16)",
+   "tantamount": "(1/8)",
+   "white-trigertaur": "(1/16)"
   },
   "ingredientFor": [
    "friendly-fan"
@@ -1303,8 +1520,15 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Snowberia",
+   "Snowberian Coast"
+  ],
   "droppedBy": {
-   "freezing-fog": "(1/16)"
+   "brrearthenwarrior": "(1/32)",
+   "firn-fiend": "(1/16)",
+   "freezing-fog": "(1/16)",
+   "shivery-shrubbery": "(1/32)"
   },
   "ingredientFor": [
    "avalanche-axe",
@@ -1330,7 +1554,9 @@
    "Rank 2 (H) blue chest in grotto (10%)"
   ],
   "droppedBy": {
-   "killing-machine": "(1/16)"
+   "clockwork-cuckoo": "(1/64)",
+   "killing-machine": "(1/16)",
+   "shocktopus": "(1/32)"
   },
   "ingredientFor": [
    "chainmail-socks",
@@ -1352,7 +1578,16 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Western Coffinwell",
+   "Newid Isle",
+   "Lonely Coast",
+   "Rank 3 (G) blue chest in grotto (10%)"
+  ],
   "droppedBy": {
+   "bad-karmour": "(1/16)",
+   "corrupt-carter": "(1/32)",
+   "hunter-mech": "(1/32)",
    "robo-robin": "(1/16)"
   },
   "ingredientFor": [
@@ -1398,7 +1633,13 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Djust Desert"
+  ],
   "droppedBy": {
+   "clawcerer": "(1/32)",
+   "parched-peckerel": "(1/32)",
+   "power-hammer": "(1/64)",
    "purrestidigitator": "(1/8)"
   },
   "ingredientFor": [
@@ -1419,7 +1660,10 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday"
+  "classification": "everyday",
+  "locationsFound": [
+   "Reward for quest"
+  ]
  },
  "lambswool": {
   "id": "lambswool",
@@ -1436,6 +1680,9 @@
    "Batsureg (item shop)"
   ],
   "droppedBy": {
+   "battering-ram": "(1/8)",
+   "drackal": "(1/16)",
+   "ram-raider": "(1/32)",
    "rampage": "(1/8)"
   },
   "ingredientFor": [
@@ -1465,8 +1712,22 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Newid Isle",
+   "Wyrmsmaw",
+   "Tower of Trades",
+   "Zere Rocks",
+   "The Magmaroo",
+   "Rank 2 (H) blue chest in grotto (8%)"
+  ],
   "droppedBy": {
-   "bagma": "(1/16)"
+   "admirer": "(1/32)",
+   "bagma": "(1/16)",
+   "live-lava": "(1/16)",
+   "magmalice": "(1/16)",
+   "master-of-nu-un": "(100%)",
+   "scarlet-fever": "(1/16)",
+   "terrorhawk": "(1/32)"
   },
   "ingredientFor": [
    "fire-blade",
@@ -1526,7 +1787,10 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday"
+  "classification": "everyday",
+  "locationsFound": [
+   "Reward for quest"
+  ]
  },
  "lunaria": {
   "id": "lunaria",
@@ -1542,6 +1806,7 @@
    "moonwort-bulb": 3
   },
   "droppedBy": {
+   "boogie-manguini": "(1/64)",
    "prism-peacock": "(1/32)"
   },
   "ingredientFor": [
@@ -1560,7 +1825,10 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday"
+  "classification": "everyday",
+  "locationsFound": [
+   "Reward for quest"
+  ]
  },
  "magic-beast-hide": {
   "id": "magic-beast-hide",
@@ -1573,6 +1841,25 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
+   "badboon": "(1/16)",
+   "badger-mager": "(1/32)",
+   "badja": "(1/8)",
+   "bewarewolf": "(1/16)",
+   "big-badboon": "(1/8)",
+   "bling-badger": "(1/8)",
+   "boppin--badger": "(1/32)",
+   "brainy-badboon": "(1/32)",
+   "dreadful-drackal": "(1/16)",
+   "hexagoon": "(100%)",
+   "master-moosifer": "(1/8)",
+   "moosifer": "(1/16)",
+   "octagoon": "(1/32)",
+   "rampage": "(1/64)",
+   "rover": "(100%)",
+   "scarewolf": "(1/8)",
+   "splatterhorn": "(1/32)",
+   "swinoceros": "(1/8)",
+   "tearwolf": "(1/8)",
    "trigertaur": "(1/8)"
   },
   "ingredientFor": [
@@ -1599,7 +1886,18 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
+   "battering-ram": "(1/32)",
+   "claw-hammer": "(1/16)",
+   "dreadful-drackal": "(1/32)",
+   "knocktopus": "(1/16)",
+   "rampage": "(1/64)",
+   "seasaur": "(1/64)",
+   "shocktopus": "(1/16)",
+   "splatterhorn": "(1/16)",
    "swinoceros": "(1/8)"
   },
   "ingredientFor": [
@@ -1632,8 +1930,15 @@
    "nectar": 1,
    "royal-soil": 1
   },
+  "locationsFound": [
+   "Porth Llaffan",
+   "(item shop)"
+  ],
   "droppedBy": {
-   "jinkster": "(1/32)"
+   "firespirit": "(1/128)",
+   "jinkster": "(1/32)",
+   "lunatick": "(1/64)",
+   "magus": "(1/64)"
   },
   "ingredientFor": [
    "lightning-staff",
@@ -1666,7 +1971,10 @@
    "Rank 4 (F) blue chest in grotto (1%)"
   ],
   "droppedBy": {
-   "blood-mummy": "(1/128)"
+   "blood-mummy": "(1/128)",
+   "grrrgoyle": "(1/256)",
+   "hootingham-gore": "(100%)",
+   "mummy": "(1/256)"
   },
   "ingredientFor": [
    "archdemon-whip",
@@ -1690,7 +1998,17 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Doomingdale Forest",
+   "Mt Ulzuun",
+   "Rank 4 (F) blue chest in grotto (15%)"
+  ],
   "droppedBy": {
+   "apeckalypse": "(1/32)",
+   "ghoul": "(1/16)",
+   "mortoad": "(1/32)",
+   "stenchurion": "(1/8)",
+   "toxic-zombie": "(1/16)",
    "walking-corpse": "(1/8)"
   },
   "ingredientFor": [
@@ -1712,7 +2030,10 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday"
+  "classification": "everyday",
+  "locationsFound": [
+   "Reward for quest"
+  ]
  },
  "medicinal-herb": {
   "id": "medicinal-herb",
@@ -1742,7 +2063,15 @@
    "Rank 1 (I) blue chest in grotto (10%)"
   ],
   "droppedBy": {
-   "slime": "(1/8)"
+   "boppin--badger": "(1/16)",
+   "dracky": "(1/16)",
+   "funghoul": "(1/8)",
+   "healslime": "(1/8)",
+   "she-slime": "(1/8)",
+   "slime": "(1/8)",
+   "slugger": "(1/16)",
+   "sootheslime": "(1/8)",
+   "teeny-sanguini": "(1/16)"
   },
   "ingredientFor": [
    "strong-antidote",
@@ -1767,7 +2096,26 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Doomingdale Forest",
+   "Brigadoom",
+   "Quarantomb",
+   "Tower of Trades",
+   "Tywll Cave",
+   "Gleeba",
+   "The Plumbed Depths",
+   "The Bowhole",
+   "Rank 3 (G) blue chest in grotto (10%)",
+   "Rank 4 (F) blue chest in grotto (12%)",
+   "Rank 5 (E) blue chest in grotto (12%)",
+   "Rank 6 (D) blue chest in grotto (10%)",
+   "Rank 7 (C) blue chest in grotto (15%)",
+   "Rank 8 (B) blue chest in grotto (15%)",
+   "Rank 9 (A) blue chest in grotto (15%)"
+  ],
   "droppedBy": {
+   "cannibox": "(1/16)",
+   "mimic": "(1/16), all legacy bosses (100%)",
    "pandora-s-box": "(1/8)"
   }
  },
@@ -1781,7 +2129,10 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday"
+  "classification": "everyday",
+  "locationsFound": [
+   "Reward for quest"
+  ]
  },
  "mirrorstone": {
   "id": "mirrorstone",
@@ -1794,7 +2145,13 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Urdus Marshland",
+   "Wyrmneck",
+   "Rank 4 (F) blue chest in grotto (5%)"
+  ],
   "droppedBy": {
+   "alphyn": "(1/32)",
    "mega-moai": "(1/32)"
   },
   "ingredientFor": [
@@ -1830,7 +2187,12 @@
    "Rank 1 (I) blue chest in grotto (8%)"
   ],
   "droppedBy": {
-   "leafy-larrikin": "(1/8)"
+   "badger-mager": "(1/16)",
+   "batterfly": "(1/16)",
+   "cruelcumber": "(1/128)",
+   "leafy-larrikin": "(1/8)",
+   "man-o--war": "(1/16)",
+   "pink-sanguini": "(1/16)"
   },
   "ingredientFor": [
    "lunaria",
@@ -1884,7 +2246,14 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Mt Ulzuun",
+   "Rank 6 (D) blue chest in grotto (10%)",
+   "Rank 8 (B) blue chest in grotto (13%)"
+  ],
   "droppedBy": {
+   "golem": "(1/128)",
+   "metal-medley": "(1/128)",
    "void-droid": "(1/32)"
   },
   "ingredientFor": [
@@ -1916,8 +2285,16 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Urdus Marshland",
+   "Western Wormwood",
+   "Rank 5 (E) blue chest in grotto (15%)"
+  ],
   "droppedBy": {
-   "shivery-shrubbery": "(1/64)"
+   "moai-minstrel": "(1/32)",
+   "sculpture-vulture": "(1/32)",
+   "shivery-shrubbery": "(1/64)",
+   "tyrannosaurus-wrecks": "(1/32)"
   },
   "ingredientFor": [
    "ethereal-stone",
@@ -1942,6 +2319,12 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Bloomingdale",
+   "Snowberian Coast",
+   "Mt Ulbaruun",
+   "Rank 4 (F) blue chest in grotto (15%)"
+  ],
   "droppedBy": {
    "pink-sanguini": "(1/32)"
   },
@@ -1970,7 +2353,9 @@
    "Rank 10 (S) blue chest in grotto (5%)"
   ],
   "droppedBy": {
-   "greygnarl": "(1/20)"
+   "gem-slime": "(1/256)",
+   "greygnarl": "(1/20)",
+   "metal-king-slime": "(1/256)"
   },
   "ingredientFor": [
    "erdrick-s-armour",
@@ -2012,7 +2397,10 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday"
+  "classification": "everyday",
+  "locationsFound": [
+   "Reward for quest"
+  ]
  },
  "panacea": {
   "id": "panacea",
@@ -2034,7 +2422,8 @@
    "Rank 5 (E) blue chest in grotto (15%)"
   ],
   "droppedBy": {
-   "blastoad": "(1/64)"
+   "blastoad": "(1/64)",
+   "cureslime": "(1/64)"
   },
   "ingredientFor": [
    "perfect-panacea",
@@ -2054,7 +2443,10 @@
   },
   "type": "bag",
   "category": "items",
-  "classification": "everyday"
+  "classification": "everyday",
+  "locationsFound": [
+   "Gifted from special guests at Quester's Rest on player's birthday"
+  ]
  },
  "perfect-panacea": {
   "id": "perfect-panacea",
@@ -2091,8 +2483,14 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Bloomingdale",
+   "Snowberian Coast"
+  ],
   "droppedBy": {
-   "drackal": "(1/128)"
+   "drackal": "(1/128)",
+   "octagoon": "(1/128)",
+   "platinum-king-jewel": "(1/8)"
   },
   "ingredientFor": [
    "celestial-spear",
@@ -2113,7 +2511,10 @@
   "buyPrice": 3000,
   "type": "bag",
   "category": "items",
-  "classification": "everyday"
+  "classification": "everyday",
+  "locationsFound": [
+   "DQVC shop"
+  ]
  },
  "pretty-betsy": {
   "id": "pretty-betsy",
@@ -2126,6 +2527,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
    "whirly-girly": "(1/256)"
   }
@@ -2140,7 +2544,10 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday"
+  "classification": "everyday",
+  "locationsFound": [
+   "Reward for quest"
+  ]
  },
  "purple-orb": {
   "id": "purple-orb",
@@ -2153,8 +2560,13 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
-   "nokturnus": "(lv. 26–40: 10%; lv. 91–99: 15%)"
+   "dhoulmagus": "(lv. 1: 5%—lv. 91: 10%)",
+   "nokturnus": "(lv. 26–40: 10%; lv. 91–99: 15%)",
+   "rhapthorne": "(lv. 1: 10%—lv. 91: 15%)"
   },
   "ingredientFor": [
    "blessed-helm",
@@ -2181,7 +2593,10 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday"
+  "classification": "everyday",
+  "locationsFound": [
+   "Reward for quest"
+  ]
  },
  "red-orb": {
   "id": "red-orb",
@@ -2194,8 +2609,13 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
-   "dragonlord": "(lv. 1: 5%—lv. 91: 10%)"
+   "dragonlord": "(lv. 1: 5%—lv. 91: 10%)",
+   "malroth": "(lv. 1: 10%—lv. 91: 15%)",
+   "nokturnus": "(lv. 1-3: 10%)"
   },
   "ingredientFor": [
    "diana-gauntlets",
@@ -2229,6 +2649,7 @@
    "Rank 10 (S) blue chest in grotto (10%)"
   ],
   "droppedBy": {
+   "firn-fiend": "(1/256)",
    "stone-guardian": "(1/256)"
   },
   "ingredientFor": [
@@ -2270,8 +2691,17 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Djust Desert",
+   "Khaalag Coast",
+   "The Plumbed Depths"
+  ],
   "droppedBy": {
-   "handsome-crab": "(1/32)"
+   "handsome-crab": "(1/32)",
+   "living-statue": "(1/128)",
+   "sculpture-vulture": "(1/128)",
+   "stone-golem": "(1/128)",
+   "stone-guardian": "(1/64)"
   },
   "ingredientFor": [
    "flame-shield",
@@ -2298,7 +2728,11 @@
    "Rank 2 (H) blue chest in grotto (8%)"
   ],
   "droppedBy": {
-   "rockbomb": "(1/8)"
+   "bomboulder": "(1/16)",
+   "flamin--drayman": "(1/32)",
+   "grinade": "(1/16)",
+   "rockbomb": "(1/8)",
+   "scourgette": "(1/32)"
   },
   "ingredientFor": [
    "banefire-boomerang",
@@ -2321,8 +2755,17 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Newid Isle",
+   "Mt Ulbaruun",
+   "Rank 2 (H) blue chest in grotto (8%)"
+  ],
   "droppedBy": {
-   "mad-moai": "(1/16)"
+   "barriearthenwarrior": "(1/16)",
+   "drastic-drackal": "(1/16)",
+   "mad-moai": "(1/16)",
+   "ragin--contagion": "(100%)",
+   "terror-troll": "(1/16)"
   },
   "ingredientFor": [
    "black-tortoise-fan",
@@ -2368,7 +2811,10 @@
    "Rank 10 (S) blue chest in grotto (15%)"
   ],
   "droppedBy": {
-   "freezing-fog": "(1/64)"
+   "dreadmaster": "(100%)",
+   "fowleye": "(steal only)",
+   "freezing-fog": "(1/64)",
+   "hootingham-gore": "(100%)"
   },
   "ingredientFor": [
    "blessed-bindings",
@@ -2395,7 +2841,10 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday"
+  "classification": "everyday",
+  "locationsFound": [
+   "Reward for quest"
+  ]
  },
  "sage-s-stone": {
   "id": "sage-s-stone",
@@ -2432,6 +2881,8 @@
    "Red treasure chest in B1F of The Plumbed Depths (requires Ultimate Key)"
   ],
   "droppedBy": {
+   "genie-sanguini": "(1/128)",
+   "sculptrice": "(1/128)",
    "seavern": "(1/32)"
   },
   "ingredientFor": [
@@ -2483,7 +2934,12 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Eastern Stornway",
+   "Hermany"
+  ],
   "droppedBy": {
+   "crabber-dabber-doo": "(1/16)",
    "spinchilla": "(1/16)"
   },
   "ingredientFor": [
@@ -2506,7 +2962,10 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday"
+  "classification": "everyday",
+  "locationsFound": [
+   "Reward for quest"
+  ]
  },
  "seed-of-agility": {
   "id": "seed-of-agility",
@@ -2519,6 +2978,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
    "killing-machine": "(1/256)"
   }
@@ -2534,6 +2996,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
    "lethal-armour": "(1/256)"
   }
@@ -2549,6 +3014,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
    "white-trigertaur": "(1/256)"
   }
@@ -2564,8 +3032,12 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
-   "metal-slime": "(1/256)"
+   "metal-slime": "(1/256)",
+   "moosifer": "(1/256)"
   }
  },
  "seed-of-magic": {
@@ -2579,6 +3051,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
    "sorcerer": "(1/256)"
   }
@@ -2594,6 +3069,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
    "platinum-king-jewel": "(1/256)"
   }
@@ -2609,6 +3087,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "One time reward of three from quest"
+  ],
   "droppedBy": {
    "cumulus-vex": "(1/256)"
   }
@@ -2624,8 +3105,12 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
-   "brownie": "(1/256)"
+   "brownie": "(1/256)",
+   "troll": "(1/256)"
   }
  },
  "seed-of-therapeusis": {
@@ -2639,6 +3124,9 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
    "wight-king": "(1/256)"
   }
@@ -2654,8 +3142,13 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
-   "baramos": "(lv. 1: 5%—lv. 91: 10%)"
+   "baramos": "(lv. 1: 5%—lv. 91: 10%)",
+   "nokturnus": "(lv. 41–56: 10%)",
+   "zoma": "(lv. 1: 10%—lv. 91: 15%)"
   },
   "ingredientFor": [
    "asterang",
@@ -2682,7 +3175,13 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Bloomingdale",
+   "(item shop)"
+  ],
   "droppedBy": {
+   "funghoul": "(1/128)",
+   "king-crab": "(1/16)",
    "ram-raider": "(1/16)"
   },
   "ingredientFor": [
@@ -2707,7 +3206,19 @@
   "category": "items",
   "classification": "everyday",
   "droppedBy": {
-   "slime-stack": "(1/8)"
+   "bubble-slime": "(1/16)",
+   "cureslime": "(1/16)",
+   "darkonium-slime": "(1/32)",
+   "healslime": "(1/16)",
+   "king-cureslime": "(1/64)",
+   "king-slime": "(1/8)",
+   "medislime": "(1/32)",
+   "metal-medley": "(1/8)",
+   "she-slime": "(1/16)",
+   "slime": "(1/16)",
+   "slime-knight": "(1/32)",
+   "slime-stack": "(1/8)",
+   "sootheslime": "(1/8)"
   },
   "ingredientFor": [
    "gooey-gear",
@@ -2735,6 +3246,11 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Eastern Coffinwell",
+   "Hermany",
+   "Western Wormwood"
+  ],
   "ingredientFor": [
    "cloak-of-concealment",
    "dark-robe",
@@ -2755,8 +3271,14 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Tywll Cave",
+   "The Hexagon"
+  ],
   "droppedBy": {
-   "diethon": "(1/8)"
+   "diethon": "(1/8)",
+   "flython": "(1/16)",
+   "sail-serpent": "(1/8)"
   },
   "ingredientFor": [
    "cobra-fan",
@@ -2787,6 +3309,8 @@
    "Surry Coast (southern-most point on the beach)"
   ],
   "droppedBy": {
+   "bagma": "(1/64)",
+   "bud-brother": "(1/64)",
    "man-o--war": "(1/32)"
   },
   "ingredientFor": [
@@ -2824,6 +3348,7 @@
    "strong-medicine": 2
   },
   "droppedBy": {
+   "badja": "(1/64)",
    "great-troll": "(1/32)"
   },
   "ingredientFor": [
@@ -2843,7 +3368,10 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday"
+  "classification": "everyday",
+  "locationsFound": [
+   "Reward for quest"
+  ]
  },
  "sterling-s-whistle": {
   "id": "sterling-s-whistle",
@@ -2855,7 +3383,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "everyday"
+  "classification": "everyday",
+  "locationsFound": [
+   "Reward for quest"
+  ]
  },
  "strong-antidote": {
   "id": "strong-antidote",
@@ -2879,7 +3410,9 @@
    "Rank 2 (H) blue chest in grotto (10%)"
   ],
   "droppedBy": {
-   "peckerel": "(1/16)"
+   "peckerel": "(1/16)",
+   "raving-lunatick": "(1/64)",
+   "treeface": "(1/64)"
   },
   "ingredientFor": [
    "special-antidote"
@@ -2906,6 +3439,12 @@
    "Rank 1 (I) blue chest in grotto (8%)"
   ],
   "droppedBy": {
+   "badboon": "(1/32)",
+   "bag-o--laughs": "(1/64)",
+   "leafy-larrikin": "(1/32)",
+   "medislime": "(1/16)",
+   "metal-slime": "(1/64)",
+   "treeface": "(1/32)",
    "zumeanie": "(1/16)"
   },
   "ingredientFor": [
@@ -2962,6 +3501,8 @@
    "Rank 2 (H) blue chest in grotto (10%)"
   ],
   "droppedBy": {
+   "bud-brother": "(1/32)",
+   "pale-whale": "(1/16)",
    "treevil": "(1/16)"
   },
   "ingredientFor": [
@@ -2979,7 +3520,10 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday"
+  "classification": "everyday",
+  "locationsFound": [
+   "Reward for quest"
+  ]
  },
  "tangleweb": {
   "id": "tangleweb",
@@ -2998,6 +3542,9 @@
    "Upover (item shop)"
   ],
   "droppedBy": {
+   "cumaulus": "(1/32)",
+   "cyber-spider": "(1/8)",
+   "tyrantula": "(100%)",
    "widow-s-pique": "(1/8)"
   },
   "ingredientFor": [
@@ -3025,6 +3572,9 @@
    "celestial-skein": 1,
    "grubby-bandage": 3
   },
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "ingredientFor": [
    "ballistick",
    "dancer-s-dress",
@@ -3047,7 +3597,10 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday"
+  "classification": "everyday",
+  "locationsFound": [
+   "Reward for quest"
+  ]
  },
  "the-core-of-the-claw": {
   "id": "the-core-of-the-claw",
@@ -3059,7 +3612,10 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday"
+  "classification": "everyday",
+  "locationsFound": [
+   "Reward for quest"
+  ]
  },
  "thief-s-theory": {
   "id": "thief-s-theory",
@@ -3071,7 +3627,10 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday"
+  "classification": "everyday",
+  "locationsFound": [
+   "Reward for quest"
+  ]
  },
  "thinkincense": {
   "id": "thinkincense",
@@ -3084,6 +3643,11 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Cringle Coast",
+   "Wyrmneck",
+   "Western Wormwood"
+  ],
   "ingredientFor": [
    "blessed-bindings",
    "brahman-boots",
@@ -3109,8 +3673,13 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Hermany",
+   "Wyrmwing"
+  ],
   "droppedBy": {
-   "cumulus-rex": "(1/16)"
+   "cumulus-rex": "(1/16)",
+   "cumulus-vex": "(1/16)"
   },
   "ingredientFor": [
    "azure-dragon-fan",
@@ -3132,8 +3701,23 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "The Hexagon",
+   "Quarantomb",
+   "Tower of Trades",
+   "Ship",
+   "Wormwood Creek",
+   "The Bowhole",
+   "The Magmaroo",
+   "Rank 3 (G) blue chest in grotto (10%)"
+  ],
   "droppedBy": {
-   "expload": "(1/8)"
+   "blastoad": "(1/8)",
+   "expload": "(1/8)",
+   "gastropog": "(1/32)",
+   "giddy-gastropog": "(1/8)",
+   "gloomy-gastropog": "(1/8)",
+   "mortoad": "(1/8)"
   },
   "ingredientFor": [
    "hephaestus--flame",
@@ -3151,8 +3735,20 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Stornway Castle",
+   "Tower of Trades",
+   "Slurry Quay",
+   "Lonely Plains",
+   "Heights of Loneliness",
+   "The Bowhole",
+   "The Magmaroo"
+  ],
   "droppedBy": {
-   "wyrtle": "(1/8)"
+   "crabid": "(1/16)",
+   "wonder-wyrtle": "(1/8)",
+   "wyrtle": "(1/8)",
+   "wyrtoise": "(1/8)"
   },
   "ingredientFor": [
    "shell-shield",
@@ -3172,6 +3768,10 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Mt Ulzuun",
+   "Wormwood Canyon,"
+  ],
   "ingredientFor": [
    "aggressence",
    "perfect-panacea",
@@ -3188,7 +3788,10 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday"
+  "classification": "everyday",
+  "locationsFound": [
+   "Reward for quest"
+  ]
  },
  "warrior-s-workbook": {
   "id": "warrior-s-workbook",
@@ -3200,7 +3803,10 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday"
+  "classification": "everyday",
+  "locationsFound": [
+   "Reward for quest"
+  ]
  },
  "watcher-s-wings": {
   "id": "watcher-s-wings",
@@ -3212,7 +3818,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "everyday"
+  "classification": "everyday",
+  "locationsFound": [
+   "Received when visiting a multiplayer world"
+  ]
  },
  "wing-of-bat": {
   "id": "wing-of-bat",
@@ -3225,8 +3834,26 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Brigadoom",
+   "Tywll Cave",
+   "Slurry Quay",
+   "Bloomingdale",
+   "Gleeba",
+   "The Plumbed Depths",
+   "Batsureg"
+  ],
   "droppedBy": {
-   "drackyma": "(1/8)"
+   "bloody-manguini": "(1/8)",
+   "boogie-manguini": "(1/8)",
+   "diethon": "(1/16)",
+   "drackmage": "(1/16)",
+   "drackyma": "(1/8)",
+   "flython": "(1/32)",
+   "gramarye-gruffon": "(1/16)",
+   "great-gruffon": "(1/8)",
+   "gruffon": "(1/8)",
+   "manguini": "(1/16)"
   },
   "ingredientFor": [
    "demon-whip",
@@ -3247,7 +3874,10 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "everyday"
+  "classification": "everyday",
+  "locationsFound": [
+   "Reward for quest"
+  ]
  },
  "yellow-orb": {
   "id": "yellow-orb",
@@ -3260,8 +3890,13 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
-   "murdaw": "(lv. 1: 5%—lv. 91: 10%)"
+   "mortamor": "(lv. 1: 10%—lv. 91: 15%)",
+   "murdaw": "(lv. 1: 5%—lv. 91: 10%)",
+   "nokturnus": "(lv. 9–15: 10%; lv. 69–80: 15%)"
   },
   "ingredientFor": [
    "aeon-s-bow",
@@ -3293,6 +3928,9 @@
    "elfin-elixir": 1,
    "yggdrasil-leaf": 1
   },
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
    "bomboulder": "(1/128)"
   }
@@ -3308,7 +3946,13 @@
   "type": "bag",
   "category": "items",
   "classification": "everyday",
+  "locationsFound": [
+   "Pluvi Isle",
+   "Rank 10 (S) blue chest in grotto (8%)"
+  ],
   "droppedBy": {
+   "barbarus": "(100%)",
+   "bling-badger": "(1/128)",
    "greygnarl": "(100%)"
   },
   "ingredientFor": [

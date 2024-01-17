@@ -54,7 +54,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "arms"
+  "classification": "arms",
+  "locationsFound": [
+   "Received from Alena at Quester's Rest after inn is fully expanded"
+  ]
  },
  "aliahan-gloves": {
   "id": "aliahan-gloves",
@@ -111,7 +114,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "arms"
+  "classification": "arms",
+  "locationsFound": [
+   "Received from Angelo at Quester's Rest after inn is fully expanded"
+  ]
  },
  "apprentice-s-gloves": {
   "id": "apprentice-s-gloves",
@@ -196,7 +202,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "arms"
+  "classification": "arms",
+  "locationsFound": [
+   "Received from Ashlynn at Quester's Rest after inn is fully expanded"
+  ]
  },
  "battler-s-bracers": {
   "id": "battler-s-bracers",
@@ -253,7 +262,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "arms"
+  "classification": "arms",
+  "locationsFound": [
+   "Received from Bianca at Quester's Rest after inn is fully expanded"
+  ]
  },
  "blessed-bindings": {
   "id": "blessed-bindings",
@@ -276,7 +288,10 @@
    "bruiser-s-bracers": 1,
    "sage-s-elixir": 2,
    "thinkincense": 3
-  }
+  },
+  "locationsFound": [
+   "Reward for quest"
+  ]
  },
  "blindin--bracers": {
   "id": "blindin--bracers",
@@ -303,7 +318,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "arms"
+  "classification": "arms",
+  "locationsFound": [
+   "Received from Yangus at Quester's Rest when hero is Thief"
+  ]
  },
  "bruiser-s-bracers": {
   "id": "bruiser-s-bracers",
@@ -353,7 +371,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "arms"
+  "classification": "arms",
+  "locationsFound": [
+   "Received from Prince of Cannock at Quester's Rest after completing quest"
+  ]
  },
  "carver-s-bracers": {
   "id": "carver-s-bracers",
@@ -380,7 +401,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "arms"
+  "classification": "arms",
+  "locationsFound": [
+   "Received from Carver at Quester's Rest after completing quest"
+  ]
  },
  "cotton-gloves": {
   "id": "cotton-gloves",
@@ -507,6 +531,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "arms",
+  "locationsFound": [
+   "Received during story events"
+  ],
   "canBeUsedFor": [
    "012-putting-on-the-glitz"
   ]
@@ -537,6 +564,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "arms",
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "canBeUsedFor": [
    "012-putting-on-the-glitz"
   ]
@@ -593,7 +623,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "arms"
+  "classification": "arms",
+  "locationsFound": [
+   "Reward for quest"
+  ]
  },
  "erdrick-s-gauntlets": {
   "id": "erdrick-s-gauntlets",
@@ -792,6 +825,9 @@
    "evencloth": 3,
    "heavy-handwear": 1
   },
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "ingredientFor": [
    "murky-mittens"
   ]
@@ -901,7 +937,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "arms"
+  "classification": "arms",
+  "locationsFound": [
+   "Received from Morrie at Quester's Rest after completing quest"
+  ]
  },
  "grandmaster-s-gloves": {
   "id": "grandmaster-s-gloves",
@@ -1013,7 +1052,8 @@
    "Dourbridge (secret shop)"
   ],
   "droppedBy": {
-   "hammer-horror": "(1/32)"
+   "hammer-horror": "(1/32)",
+   "sluggerslaught": "(1/64)"
   }
  },
  "iron-gauntlets": {
@@ -1074,7 +1114,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "arms"
+  "classification": "arms",
+  "locationsFound": [
+   "Received from Kiefer at Quester's Rest after inn is fully expanded"
+  ]
  },
  "leather-gauntlets": {
   "id": "leather-gauntlets",
@@ -1420,7 +1463,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "arms"
+  "classification": "arms",
+  "locationsFound": [
+   "Received from Maya at Quester's Rest when hero is Minstrel"
+  ]
  },
  "mayoress-s-mittens": {
   "id": "mayoress-s-mittens",
@@ -1481,7 +1527,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "arms"
+  "classification": "arms",
+  "locationsFound": [
+   "Received from Ragnar at Quester's Rest after inn is fully expanded"
+  ]
  },
  "meena-s-bracelets": {
   "id": "meena-s-bracelets",
@@ -1508,7 +1557,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "arms"
+  "classification": "arms",
+  "locationsFound": [
+   "Received from Meena at Quester's Rest after inn is fully expanded"
+  ]
  },
  "mental-mittens": {
   "id": "mental-mittens",
@@ -1665,7 +1717,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "arms"
+  "classification": "arms",
+  "locationsFound": [
+   "Received from Milly at Quester's Rest after inn is fully expanded"
+  ]
  },
  "minister-s-mittens": {
   "id": "minister-s-mittens",
@@ -1683,6 +1738,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "arms",
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
    "grim-reaper": "(1/64)"
   }
@@ -1778,7 +1836,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "arms"
+  "classification": "arms",
+  "locationsFound": [
+   "Received from Nera at Quester's Rest after inn is fully expanded"
+  ]
  },
  "riotous-wristbands": {
   "id": "riotous-wristbands",
@@ -1852,6 +1913,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "arms",
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "ingredientFor": [
    "erdrick-s-gauntlets"
   ]

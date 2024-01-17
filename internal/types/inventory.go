@@ -396,32 +396,30 @@ func (p PageContent) parseFromBase(inventory *Inventory) {
 				inventory.Recipe = make(map[string]int)
 			}
 			for i++; i < lastIndex; i += 2 {
-				if !strings.HasPrefix(p.Text[i+1], "x") {
-					i--
-					break
-				}
 				id := TitleToID(p.Text[i])
 				num, _ := strconv.Atoi(strings.Split(strings.TrimPrefix(p.Text[i+1], "x"), " ")[0])
 				inventory.Recipe[id] = num
+
+				if i+3 >= lastIndex || !strings.HasPrefix(p.Text[i+3], "x") {
+					break
+				}
 			}
 		case "Where to find:":
 			for i++; i < lastIndex; i++ {
-				if strings.HasSuffix(p.Text[i], ")") {
-					locations := strings.Split(p.Text[i], ", ")
-					inventory.LocationsFound = append(inventory.LocationsFound, locations...)
-				} else {
-					i--
+				locations := strings.Split(p.Text[i], ", ")
+				inventory.LocationsFound = append(inventory.LocationsFound, locations...)
+
+				if !strings.HasSuffix(p.Text[i+1], ")") {
 					break
 				}
 			}
 		case "Dropped by:":
 			inventory.DroppedBy = make(map[string]string)
-			for i++; i < lastIndex; i++ {
-				if i+1 < lastIndex && strings.HasPrefix(p.Text[i+1], "(") && (strings.HasSuffix(p.Text[i+1], ")") || strings.HasSuffix(p.Text[i+1], "),")) {
-					key := TitleToID(p.Text[i])
-					inventory.DroppedBy[key] = strings.TrimSuffix(p.Text[i+1], ",")
-				} else {
-					i--
+			for i++; i < lastIndex; i += 2 {
+				key := TitleToID(p.Text[i])
+				inventory.DroppedBy[key] = p.Text[i+1]
+
+				if i+3 >= lastIndex || !strings.HasPrefix(p.Text[i+3], "(") || !strings.HasSuffix(p.Text[i+3], ")") {
 					break
 				}
 			}

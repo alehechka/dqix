@@ -460,6 +460,9 @@
   "type": "equipment",
   "category": "weapons",
   "classification": "axes",
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
    "trauminator": "(1/20)"
   }

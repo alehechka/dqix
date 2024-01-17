@@ -34,6 +34,8 @@
    "Rank 3 (G) blue chest in grotto (2%)"
   ],
   "droppedBy": {
+   "cyclown": "(1/128)",
+   "liquid-metal-slime": "(1/32)",
    "whirly-girly": "(1/32)"
   },
   "ingredientFor": [
@@ -127,6 +129,9 @@
    "gold-bracer": 1,
    "sorcerer-s-stone": 2
   },
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "ingredientFor": [
    "canny-cap",
    "scholar-s-circlet"
@@ -202,6 +207,9 @@
    "rousing-ring": 1,
    "sober-ring": 1
   },
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "ingredientFor": [
    "catoptric-armour"
   ]
@@ -233,7 +241,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "accessories"
+  "classification": "accessories",
+  "locationsFound": [
+   "Reward for revocating as Armamentalist"
+  ]
  },
  "contra-band": {
   "id": "contra-band",
@@ -299,7 +310,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "accessories"
+  "classification": "accessories",
+  "locationsFound": [
+   "Reward for revocating as Gladiator"
+  ]
  },
  "dragon-scale": {
   "id": "dragon-scale",
@@ -328,7 +342,25 @@
   "category": "armor",
   "classification": "accessories",
   "droppedBy": {
-   "rashaverak": "(1/8)"
+   "abyss-diver": "(1/32)",
+   "drakulard": "(1/16)",
+   "drakularge": "(1/16)",
+   "drakulord": "(1/8)",
+   "equinox": "(steal only: 1/16)",
+   "grand-lizzier": "(100%)",
+   "green-dragon": "(1/16)",
+   "greygnarl": "(100%)",
+   "mandrake-major": "(1/16)",
+   "mandrake-marauder": "(1/16)",
+   "mandrake-marshal": "(1/64)",
+   "mandrake-monarch": "(1/16)",
+   "nodoph": "(100%)",
+   "rashaverak": "(1/8)",
+   "red-dragon": "(1/16)",
+   "riptide": "(1/32)",
+   "seasaur": "(1/16)",
+   "wyrtle": "(1/16)",
+   "wyrtoise": "(1/32)"
   },
   "ingredientFor": [
    "azure-dragon-fan",
@@ -376,6 +408,9 @@
    "emerald-moss": 3,
    "holy-talisman": 1
   },
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "ingredientFor": [
    "pixie-boots",
    "spirit-bracer"
@@ -414,6 +449,9 @@
    "lunaria": 1,
    "poison-moth-knife": 1
   },
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "ingredientFor": [
    "full-moon-axe",
    "lunar-fan"
@@ -537,6 +575,8 @@
    "Rank 2 (H) blue chest in grotto (2%)"
   ],
   "droppedBy": {
+   "aggrosculpture": "(1/32)",
+   "drackyma": "(1/64)",
    "gold-golem": "(1/32)"
   },
   "ingredientFor": [
@@ -582,8 +622,13 @@
   "type": "equipment",
   "category": "armor",
   "classification": "accessories",
+  "locationsFound": [
+   "The Bowhole"
+  ],
   "droppedBy": {
-   "lesionnaire": "(1/16)"
+   "lesionnaire": "(1/16)",
+   "mimic": "(1/64)",
+   "wight-priest": "(1/32)"
   },
   "ingredientFor": [
    "crucerang",
@@ -659,7 +704,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "accessories"
+  "classification": "accessories",
+  "locationsFound": [
+   "Reward for revocating as Thief"
+  ]
  },
  "legion-of-merit": {
   "id": "legion-of-merit",
@@ -687,7 +735,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "accessories"
+  "classification": "accessories",
+  "locationsFound": [
+   "Reward for revocating as Sage"
+  ]
  },
  "life-bracer": {
   "id": "life-bracer",
@@ -761,6 +812,9 @@
    "prayer-ring": 1,
    "resurrock": 3
   },
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "ingredientFor": [
    "goddess-ring",
    "life-bracer"
@@ -792,7 +846,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "accessories"
+  "classification": "accessories",
+  "locationsFound": [
+   "Reward for revocating as Priest"
+  ]
  },
  "lucky-pendant": {
   "id": "lucky-pendant",
@@ -860,7 +917,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "accessories"
+  "classification": "accessories",
+  "locationsFound": [
+   "Reward for revocating as Mage"
+  ]
  },
  "medal-of-freedom": {
   "id": "medal-of-freedom",
@@ -888,7 +948,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "accessories"
+  "classification": "accessories",
+  "locationsFound": [
+   "Reward for revocating as Ranger"
+  ]
  },
  "mercury-prize": {
   "id": "mercury-prize",
@@ -916,7 +979,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "accessories"
+  "classification": "accessories",
+  "locationsFound": [
+   "Reward for revocating as Martial Artist"
+  ]
  },
  "meteorite-bracer": {
   "id": "meteorite-bracer",
@@ -985,6 +1051,9 @@
    "strength-ring": 1,
    "tough-guy-tattoo": 1
   },
+  "locationsFound": [
+   "Red chest in the Realm of the Mighty"
+  ],
   "ingredientFor": [
    "012-putting-on-the-glitz",
    "big-boss-shield",
@@ -1065,7 +1134,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "accessories"
+  "classification": "accessories",
+  "locationsFound": [
+   "Reward for revocating as Luminary"
+  ]
  },
  "order-of-chivalry": {
   "id": "order-of-chivalry",
@@ -1092,7 +1164,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "accessories"
+  "classification": "accessories",
+  "locationsFound": [
+   "Reward for revocating as Paladin"
+  ]
  },
  "pink-pearl": {
   "id": "pink-pearl",
@@ -1173,7 +1248,8 @@
    "Trade with Cap'n Max Meddlin' (after 80 cumulative)"
   ],
   "droppedBy": {
-   "genie-sanguini": "(1/64)"
+   "genie-sanguini": "(1/64)",
+   "hocus-chimaera": "(1/128)"
   },
   "ingredientFor": [
    "agility-ring",
@@ -1213,8 +1289,14 @@
    "corundum": 1,
    "strength-ring": 1
   },
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
-   "brainy-badboon": "(1/32)"
+   "brainy-badboon": "(1/32)",
+   "drastic-drackal": "(1/64)",
+   "master-moosifer": "(1/128)",
+   "tyrannosaura-wrecks": "(100%)"
   },
   "ingredientFor": [
    "dragon-mail",
@@ -1404,6 +1486,9 @@
    "corundum": 1,
    "dragon-scale": 1
   },
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
    "king-godfrey": "(100%)"
   },
@@ -1566,7 +1651,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "accessories"
+  "classification": "accessories",
+  "locationsFound": [
+   "Reward for revocating as Warrior"
+  ]
  },
  "sorcerer-s-ring": {
   "id": "sorcerer-s-ring",
@@ -1599,6 +1687,9 @@
    "saint-s-ashes": 1,
    "skull-ring": 1
   },
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "ingredientFor": [
    "fizzle-proof-suit",
    "hieroglyph-staff",
@@ -1674,6 +1765,9 @@
    "gold-bracer": 1,
    "prayer-ring": 1
   },
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "ingredientFor": [
    "soul-breaker"
   ]
@@ -1712,7 +1806,9 @@
    "Rank 3 (G) blue chest in grotto (2%)"
   ],
   "droppedBy": {
-   "gigantes": "(1/64)"
+   "big-badboon": "(1/128)",
+   "gigantes": "(1/64)",
+   "walking-corpse": "(1/128)"
   },
   "ingredientFor": [
    "mighty-armlet",
@@ -1748,7 +1844,11 @@
   "category": "armor",
   "classification": "accessories",
   "droppedBy": {
-   "bloody-manguini": "(1/16)"
+   "barbatos": "(1/16)",
+   "bloody-manguini": "(1/16)",
+   "freaky-tiki": "(1/32)",
+   "gruffon": "(1/32)",
+   "manguini": "(1/32)"
   },
   "ingredientFor": [
    "archdemon-whip",
@@ -1790,8 +1890,15 @@
    "aggressence": 1,
    "terrible-tattoo": 1
   },
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
-   "ghoul": "(1/64)"
+   "atlas": "(steal only)",
+   "claw-hammer": "(1/128)",
+   "ghoul": "(1/64)",
+   "goreham-hogg": "(100%)",
+   "mega-moai": "(1/128)"
   },
   "ingredientFor": [
    "mighty-armlet",
@@ -1831,6 +1938,9 @@
    "leather-kilt": 1,
    "ultramarine-mittens": 1
   },
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "ingredientFor": [
    "pillar-of-strength"
   ]
@@ -1862,6 +1972,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "accessories",
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "requiredFor": [
    "(first-time;-repeat)",
    "184-bleats-me"
@@ -1894,6 +2007,9 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "accessories"
+  "classification": "accessories",
+  "locationsFound": [
+   "Reward for revocating as Minstrel"
+  ]
  }
 }

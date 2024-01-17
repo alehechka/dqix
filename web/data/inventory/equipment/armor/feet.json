@@ -71,7 +71,8 @@
   "category": "armor",
   "classification": "feet",
   "droppedBy": {
-   "dragonlord": "(lv. 1–3: 15%)"
+   "dragonlord": "(lv. 1–3: 15%)",
+   "nokturnus": "(lv. 16–25: 20%; lv. 26–40: 25%)"
   }
  },
  "aliahan-boots": {
@@ -129,7 +130,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Equipped by default when Aquila joins the party after completing quest"
+  ]
  },
  "ashlynn-s-shoes": {
   "id": "ashlynn-s-shoes",
@@ -156,7 +160,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Received from Ashlynn at Quester's Rest when hero is Mage"
+  ]
  },
  "bandit-boots": {
   "id": "bandit-boots",
@@ -259,7 +266,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Received from Bianca at Quester's Rest when hero is Mage"
+  ]
  },
  "blahnolo-maniks": {
   "id": "blahnolo-maniks",
@@ -286,7 +296,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Reward for quest"
+  ]
  },
  "blessed-boots": {
   "id": "blessed-boots",
@@ -364,7 +377,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Received from Borya at Quester's Rest after inn is fully expanded"
+  ]
  },
  "bovver-boots": {
   "id": "bovver-boots",
@@ -391,7 +407,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Received from Yangus at Quester's Rest after completing quest"
+  ]
  },
  "brahman-boots": {
   "id": "brahman-boots",
@@ -412,7 +431,10 @@
    "clever-clogs": 1,
    "sage-s-elixir": 2,
    "thinkincense": 3
-  }
+  },
+  "locationsFound": [
+   "Reward for quest"
+  ]
  },
  "cannock-boots": {
   "id": "cannock-boots",
@@ -439,7 +461,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Received from Prince of Cannock at Quester's Rest when hero is Armamentalist"
+  ]
  },
  "carver-s-shoes": {
   "id": "carver-s-shoes",
@@ -466,7 +491,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Received from Carver at Quester's Rest when hero is Gladiator"
+  ]
  },
  "casanova-clogs": {
   "id": "casanova-clogs",
@@ -493,7 +521,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Received from Morrie at Quester's Rest when hero is Gladiator"
+  ]
  },
  "celestial-shoes": {
   "id": "celestial-shoes",
@@ -521,6 +552,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "feet",
+  "locationsFound": [
+   "Equipped by default when beginning the game"
+  ],
   "canBeUsedFor": [
    "012-putting-on-the-glitz"
   ]
@@ -550,7 +584,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Received from Fleurette at Quester's Rest when hero is Priest"
+  ]
  },
  "classy-clogs": {
   "id": "classy-clogs",
@@ -658,7 +695,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Rank C blue chest in grotto"
+  ]
  },
  "cowboy-boots": {
   "id": "cowboy-boots",
@@ -767,6 +807,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "feet",
+  "locationsFound": [
+   "Received during story events"
+  ],
   "canBeUsedFor": [
    "012-putting-on-the-glitz"
   ]
@@ -863,7 +906,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Equipped by default when Erinn joins the party after completing quest"
+  ]
  },
  "estard-shoes": {
   "id": "estard-shoes",
@@ -1093,7 +1139,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "DQVC shop"
+  ]
  },
  "high-heels": {
   "id": "high-heels",
@@ -1158,7 +1207,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Received from Ragnar at Quester's Rest when hero is Warrior"
+  ]
  },
  "highness-heels": {
   "id": "highness-heels",
@@ -1324,7 +1376,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Received from Kiefer at Quester's Rest when hero is Armamentalist"
+  ]
  },
  "kiryl-s-boots": {
   "id": "kiryl-s-boots",
@@ -1351,7 +1406,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Received from Kiryl at Quester's Rest when hero is Priest"
+  ]
  },
  "kung-fu-shoes": {
   "id": "kung-fu-shoes",
@@ -1505,7 +1563,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Received from Maribel at Quester's Rest after inn is fully expanded"
+  ]
  },
  "metal-king-slime-boots": {
   "id": "metal-king-slime-boots",
@@ -1621,7 +1682,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Received from Milly at Quester's Rest after completing quest"
+  ]
  },
  "moonbrooke-shoes": {
   "id": "moonbrooke-shoes",
@@ -1648,7 +1712,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Received from Princess of Moonbrooke at Quester's Rest after inn is fully expanded"
+  ]
  },
  "nera-s-boots": {
   "id": "nera-s-boots",
@@ -1675,7 +1742,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Received from Bianca at Quester's Rest when hero is Luminary"
+  ]
  },
  "patty-s-pumps": {
   "id": "patty-s-pumps",
@@ -1702,7 +1772,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Equipped by default when Patty joins the party after completing quest"
+  ]
  },
  "payback-pumps": {
   "id": "payback-pumps",
@@ -1796,7 +1869,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Received from Jessica at Quester's Rest after inn is fully expanded"
+  ]
  },
  "safer-shoes": {
   "id": "safer-shoes",
@@ -1964,7 +2040,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Received from Meena at Quester's Rest when hero is Paladin"
+  ]
  },
  "sandals": {
   "id": "sandals",
@@ -2057,7 +2136,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Received from Maya at Quester's Rest after inn is fully expanded"
+  ]
  },
  "sensible-sandals": {
   "id": "sensible-sandals",
@@ -2417,6 +2499,9 @@
    "fishnet-stockings": 1,
    "high-heels": 1
   },
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "ingredientFor": [
    "012-putting-on-the-glitz",
    "can-be-used-for:",
@@ -2448,7 +2533,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Received from Angelo at Quester's Rest after completing quest"
+  ]
  },
  "thug-boots": {
   "id": "thug-boots",
@@ -2505,7 +2593,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Received from Torneko at Quester's Rest after inn is fully expanded"
+  ]
  },
  "tricksie-boots": {
   "id": "tricksie-boots",
@@ -2595,7 +2686,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Received from Trode at Quester's Rest after inn is fully expanded"
+  ]
  },
  "valenki": {
   "id": "valenki",
@@ -2622,7 +2716,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "Received from Alena at Quester's Rest after completing quest"
+  ]
  },
  "veteran-s-boots": {
   "id": "veteran-s-boots",
@@ -2692,6 +2789,10 @@
   "type": "equipment",
   "category": "armor",
   "classification": "feet",
+  "locationsFound": [
+   "Porth Llaffan",
+   "(weapon/armour shop)"
+  ],
   "canBeUsedFor": [
    "012-putting-on-the-glitz"
   ]
@@ -2722,7 +2823,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "feet"
+  "classification": "feet",
+  "locationsFound": [
+   "DQVC shop"
+  ]
  },
  "wizard-wellies": {
   "id": "wizard-wellies",

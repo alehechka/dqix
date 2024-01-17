@@ -213,7 +213,10 @@
   "recipe": {
    "driller-pillar": 1,
    "mighty-armlet": 1
-  }
+  },
+  "locationsFound": [
+   "Reward for quest"
+  ]
  },
  "knockout-rod": {
   "id": "knockout-rod",
