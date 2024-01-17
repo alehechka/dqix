@@ -19,6 +19,9 @@
    "belle-cap": 3,
    "oaken-club": 1
   },
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
    "gigantes": "(1/128)"
   }
@@ -329,6 +332,9 @@
    "royal-soil": 5,
    "terra-tamper": 1
   },
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "ingredientFor": [
    "terra-hammer"
   ]

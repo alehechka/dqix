@@ -633,6 +633,9 @@
    "kitty-litter": 1,
    "light-shield": 1
   },
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "ingredientFor": [
    "catty-shield",
    "white-tiger-fan"
@@ -1102,6 +1105,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "shield",
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "ingredientFor": [
    "erdrick-s-shield"
   ]
@@ -1230,6 +1236,11 @@
   "type": "equipment",
   "category": "armor",
   "classification": "shield",
+  "locationsFound": [
+   "The Bad Cave",
+   "The Plumbed Depths",
+   "Rank 2 (H) blue chest in grotto (2%)"
+  ],
   "ingredientFor": [
    "filigree-mask",
    "gold-platter",
@@ -1496,6 +1507,9 @@
    "light-shield": 1,
    "seashell": 5
   },
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "ingredientFor": [
    "white-knight-s-shield"
   ]

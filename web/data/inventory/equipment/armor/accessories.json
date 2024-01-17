@@ -129,6 +129,9 @@
    "gold-bracer": 1,
    "sorcerer-s-stone": 2
   },
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "ingredientFor": [
    "canny-cap",
    "scholar-s-circlet"
@@ -204,6 +207,9 @@
    "rousing-ring": 1,
    "sober-ring": 1
   },
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "ingredientFor": [
    "catoptric-armour"
   ]
@@ -235,7 +241,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "accessories"
+  "classification": "accessories",
+  "locationsFound": [
+   "Reward for revocating as Armamentalist"
+  ]
  },
  "contra-band": {
   "id": "contra-band",
@@ -301,7 +310,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "accessories"
+  "classification": "accessories",
+  "locationsFound": [
+   "Reward for revocating as Gladiator"
+  ]
  },
  "dragon-scale": {
   "id": "dragon-scale",
@@ -396,6 +408,9 @@
    "emerald-moss": 3,
    "holy-talisman": 1
   },
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "ingredientFor": [
    "pixie-boots",
    "spirit-bracer"
@@ -434,6 +449,9 @@
    "lunaria": 1,
    "poison-moth-knife": 1
   },
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "ingredientFor": [
    "full-moon-axe",
    "lunar-fan"
@@ -604,6 +622,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "accessories",
+  "locationsFound": [
+   "The Bowhole"
+  ],
   "droppedBy": {
    "lesionnaire": "(1/16)",
    "mimic": "(1/64)",
@@ -683,7 +704,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "accessories"
+  "classification": "accessories",
+  "locationsFound": [
+   "Reward for revocating as Thief"
+  ]
  },
  "legion-of-merit": {
   "id": "legion-of-merit",
@@ -711,7 +735,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "accessories"
+  "classification": "accessories",
+  "locationsFound": [
+   "Reward for revocating as Sage"
+  ]
  },
  "life-bracer": {
   "id": "life-bracer",
@@ -785,6 +812,9 @@
    "prayer-ring": 1,
    "resurrock": 3
   },
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "ingredientFor": [
    "goddess-ring",
    "life-bracer"
@@ -816,7 +846,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "accessories"
+  "classification": "accessories",
+  "locationsFound": [
+   "Reward for revocating as Priest"
+  ]
  },
  "lucky-pendant": {
   "id": "lucky-pendant",
@@ -884,7 +917,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "accessories"
+  "classification": "accessories",
+  "locationsFound": [
+   "Reward for revocating as Mage"
+  ]
  },
  "medal-of-freedom": {
   "id": "medal-of-freedom",
@@ -912,7 +948,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "accessories"
+  "classification": "accessories",
+  "locationsFound": [
+   "Reward for revocating as Ranger"
+  ]
  },
  "mercury-prize": {
   "id": "mercury-prize",
@@ -940,7 +979,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "accessories"
+  "classification": "accessories",
+  "locationsFound": [
+   "Reward for revocating as Martial Artist"
+  ]
  },
  "meteorite-bracer": {
   "id": "meteorite-bracer",
@@ -1009,6 +1051,9 @@
    "strength-ring": 1,
    "tough-guy-tattoo": 1
   },
+  "locationsFound": [
+   "Red chest in the Realm of the Mighty"
+  ],
   "ingredientFor": [
    "012-putting-on-the-glitz",
    "big-boss-shield",
@@ -1089,7 +1134,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "accessories"
+  "classification": "accessories",
+  "locationsFound": [
+   "Reward for revocating as Luminary"
+  ]
  },
  "order-of-chivalry": {
   "id": "order-of-chivalry",
@@ -1116,7 +1164,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "accessories"
+  "classification": "accessories",
+  "locationsFound": [
+   "Reward for revocating as Paladin"
+  ]
  },
  "pink-pearl": {
   "id": "pink-pearl",
@@ -1238,6 +1289,9 @@
    "corundum": 1,
    "strength-ring": 1
   },
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
    "brainy-badboon": "(1/32)",
    "drastic-drackal": "(1/64)",
@@ -1432,6 +1486,9 @@
    "corundum": 1,
    "dragon-scale": 1
   },
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
    "king-godfrey": "(100%)"
   },
@@ -1594,7 +1651,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "accessories"
+  "classification": "accessories",
+  "locationsFound": [
+   "Reward for revocating as Warrior"
+  ]
  },
  "sorcerer-s-ring": {
   "id": "sorcerer-s-ring",
@@ -1627,6 +1687,9 @@
    "saint-s-ashes": 1,
    "skull-ring": 1
   },
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "ingredientFor": [
    "fizzle-proof-suit",
    "hieroglyph-staff",
@@ -1702,6 +1765,9 @@
    "gold-bracer": 1,
    "prayer-ring": 1
   },
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "ingredientFor": [
    "soul-breaker"
   ]
@@ -1824,6 +1890,9 @@
    "aggressence": 1,
    "terrible-tattoo": 1
   },
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
    "atlas": "(steal only)",
    "claw-hammer": "(1/128)",
@@ -1869,6 +1938,9 @@
    "leather-kilt": 1,
    "ultramarine-mittens": 1
   },
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "ingredientFor": [
    "pillar-of-strength"
   ]
@@ -1900,6 +1972,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "accessories",
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "requiredFor": [
    "(first-time;-repeat)",
    "184-bleats-me"
@@ -1932,6 +2007,9 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "accessories"
+  "classification": "accessories",
+  "locationsFound": [
+   "Reward for revocating as Minstrel"
+  ]
  }
 }

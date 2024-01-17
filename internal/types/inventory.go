@@ -406,11 +406,10 @@ func (p PageContent) parseFromBase(inventory *Inventory) {
 			}
 		case "Where to find:":
 			for i++; i < lastIndex; i++ {
-				if strings.HasSuffix(p.Text[i], ")") {
-					locations := strings.Split(p.Text[i], ", ")
-					inventory.LocationsFound = append(inventory.LocationsFound, locations...)
-				} else {
-					i--
+				locations := strings.Split(p.Text[i], ", ")
+				inventory.LocationsFound = append(inventory.LocationsFound, locations...)
+
+				if !strings.HasSuffix(p.Text[i+1], ")") {
 					break
 				}
 			}

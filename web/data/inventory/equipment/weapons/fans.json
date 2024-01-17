@@ -441,6 +441,9 @@
    "lucida-shard": 1,
    "stellar-fan": 1
   },
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "ingredientFor": [
    "solar-fan"
   ]
@@ -649,7 +652,10 @@
   ],
   "type": "equipment",
   "category": "weapons",
-  "classification": "fans"
+  "classification": "fans",
+  "locationsFound": [
+   "DQVC shop"
+  ]
  },
  "white-tiger-fan": {
   "id": "white-tiger-fan",
@@ -674,6 +680,9 @@
    "feline-fan": 1,
    "ice-crystal": 3,
    "kitty-shield": 1
-  }
+  },
+  "locationsFound": [
+   "Reward for quest"
+  ]
  }
 }

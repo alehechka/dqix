@@ -827,6 +827,9 @@
    "soldier-s-sword": 1,
    "warrior-s-helm": 1
   },
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
    "barriearthenwarrior": "(1/128)"
   }

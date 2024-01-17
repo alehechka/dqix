@@ -137,7 +137,10 @@
   ],
   "type": "equipment",
   "category": "weapons",
-  "classification": "wands"
+  "classification": "wands",
+  "locationsFound": [
+   "Received during quest"
+  ]
  },
  "hieroglyph-staff": {
   "id": "hieroglyph-staff",
