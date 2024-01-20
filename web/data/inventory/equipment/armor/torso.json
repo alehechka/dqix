@@ -83,7 +83,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Received from Alena at Quester's Rest after speaking to her"
+  ]
  },
  "aliahan-clothes": {
   "title": "Aliahan Clothes",
@@ -111,7 +114,8 @@
   "category": "armor",
   "classification": "torso",
   "droppedBy": {
-   "baramos": "(lv. 9–15: 20%)"
+   "baramos": "(lv. 9–15: 20%)",
+   "zoma": "(lv. 57–68: 25%)"
   }
  },
  "angel-s-robe": {
@@ -171,7 +175,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Equipped by default when Aquila joins the party after completing quest"
+  ]
  },
  "archangel-s-robe": {
   "title": "Archangel's Robe",
@@ -222,6 +229,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
    "wight-priest": "(1/128)"
   },
@@ -253,7 +263,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Received from Ashlynn at Quester's Rest after speaking to her"
+  ]
  },
  "best-vest": {
   "title": "Best Vest",
@@ -283,6 +296,10 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "locationsFound": [
+   "Bloomingdale",
+   "(armour shop)"
+  ],
   "canBeUsedFor": [
    "012-putting-on-the-glitz"
   ]
@@ -311,7 +328,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Received from Bianca at Quester's Rest on player's birthday"
+  ]
  },
  "borya-s-robe": {
   "title": "Borya's Robe",
@@ -338,7 +358,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Received from Borya at Quester's Rest after speaking to him"
+  ]
  },
  "brawling-byrnie": {
   "title": "Brawling Byrnie",
@@ -353,6 +376,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
    "void-droid": "(1/128)"
   }
@@ -436,7 +462,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Received from Prince of Cannock at Quester's Rest on player's birthday"
+  ]
  },
  "cape-of-good-karma": {
   "title": "Cape of Good Karma",
@@ -460,7 +489,10 @@
    "majestic-mantle": 1,
    "sage-s-elixir": 3,
    "thinkincense": 6
-  }
+  },
+  "locationsFound": [
+   "Reward for quest"
+  ]
  },
  "captain-s-coat": {
   "title": "Captain's Coat",
@@ -487,7 +519,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "DQVC shop"
+  ]
  },
  "carver-s-vest": {
   "title": "Carver's Vest",
@@ -513,7 +548,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Received from Carver at Quester's Rest after speaking to him"
+  ]
  },
  "catoptric-armour": {
   "title": "Catoptric Armour",
@@ -567,7 +605,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Equipped by default when beginning the game"
+  ]
  },
  "celestria-s-gown": {
   "title": "Celestria's Gown",
@@ -727,7 +768,8 @@
    "Porth Llaffan (armour shop)"
   ],
   "droppedBy": {
-   "sluggernaut": "(1/32)"
+   "sluggernaut": "(1/32)",
+   "tearwolf": "(1/64)"
   },
   "ingredientFor": [
    "cloak-of-concealment"
@@ -825,6 +867,9 @@
    "dancer-s-costume": 1,
    "technicolour-dreamcloth": 1
   },
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "canBeUsedFor": [
    "012-putting-on-the-glitz"
   ]
@@ -958,7 +1003,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Received from Debora at Quester's Rest after speaking to her"
+  ]
  },
  "divine-bustier": {
   "title": "Divine Bustier",
@@ -1166,6 +1214,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "locationsFound": [
+   "Received during story events"
+  ],
   "canBeUsedFor": [
    "012-putting-on-the-glitz"
   ]
@@ -1345,7 +1396,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Equipped by default when Erinn joins the party after completing quest"
+  ]
  },
  "estard-clothes": {
   "title": "Estard Clothes",
@@ -1500,6 +1554,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
    "cannibelle": "(1/128)"
   }
@@ -1521,6 +1578,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
    "excalipurr": "(steal only)"
   }
@@ -1568,6 +1628,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
    "cobra-cardinal": "(1/128)"
   }
@@ -1589,6 +1652,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
    "python-priest": "(1/128)"
   },
@@ -1615,6 +1681,9 @@
    "garish-garb": 1,
    "technicolour-dreamcloth": 1
   },
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "canBeUsedFor": [
    "012-putting-on-the-glitz"
   ]
@@ -1643,7 +1712,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Received from Fleurette at Quester's Rest after speaking to her"
+  ]
  },
  "flowing-dress": {
   "title": "Flowing Dress",
@@ -2051,7 +2123,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Received from Morrie at Quester's Rest after speaking to him"
+  ]
  },
  "heavy-armour": {
   "title": "Heavy Armour",
@@ -2093,6 +2168,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
    "wishmaster": "(1/128)"
   }
@@ -2115,7 +2193,10 @@
    "chain-mail": 1,
    "holy-talisman": 1,
    "mythril-ore": 1
-  }
+  },
+  "locationsFound": [
+   "Reward for quest"
+  ]
  },
  "hot-bikini-top": {
   "title": "Hot Bikini Top",
@@ -2271,7 +2352,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Received from Jessica at Quester's Rest after speaking to her"
+  ]
  },
  "jolly-roger-jumper": {
   "title": "Jolly Roger Jumper",
@@ -2327,7 +2411,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Received from Kiefer at Quester's Rest after speaking to him"
+  ]
  },
  "king-s-coat": {
   "title": "King's Coat",
@@ -2386,7 +2473,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Received from Kiryl at Quester's Rest after speaking to him"
+  ]
  },
  "large-scale-armour": {
   "title": "Large-Scale Armour",
@@ -2633,7 +2723,8 @@
    "Gleeba (armour shop)"
   ],
   "droppedBy": {
-   "charmour": "(1/32)"
+   "charmour": "(1/32)",
+   "lethal-armour": "(1/128)"
   },
   "ingredientFor": [
    "dragon-mail",
@@ -2671,6 +2762,7 @@
    "Gleeba (armour shop)"
   ],
   "droppedBy": {
+   "shaman": "(1/64)",
    "sorcerer": "(1/32)"
   },
   "ingredientFor": [
@@ -2702,7 +2794,12 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Dourbridge",
+   "(secret shop)",
+   "Rank 5 (E) blue chest in grotto (1%)"
+  ]
  },
  "maiden-s-mantle": {
   "title": "Maiden's Mantle",
@@ -2752,6 +2849,9 @@
    "brighten-rock": 3,
    "velvet-cape": 1
   },
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "ingredientFor": [
    "cape-of-good-karma"
   ]
@@ -2780,7 +2880,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Received from Maribel at Quester's Rest after speaking to her"
+  ]
  },
  "maya-s-outfit": {
   "title": "Maya's Outfit",
@@ -2807,7 +2910,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Received from Maya at Quester's Rest after speaking to her"
+  ]
  },
  "meena-s-robe": {
   "title": "Meena's Robe",
@@ -2834,7 +2940,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Received from Meena at Quester's Rest after speaking to her"
+  ]
  },
  "mesotoga": {
   "title": "Mesotoga",
@@ -2975,7 +3084,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Received from Milly at Quester's Rest after speaking to her"
+  ]
  },
  "mirror-armour": {
   "title": "Mirror Armour",
@@ -3038,7 +3150,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Received from Princess of Moonbrooke at Quester's Rest after speaking to her"
+  ]
  },
  "muscle-belt": {
   "title": "Muscle Belt",
@@ -3124,7 +3239,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Received from Nera at Quester's Rest after speaking to her"
+  ]
  },
  "nightmare-gown": {
   "title": "Nightmare Gown",
@@ -3171,6 +3289,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
    "slugly-betsy": "(1/128)"
   }
@@ -3198,6 +3319,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
    "slionheart": "(1/256)"
   }
@@ -3226,7 +3350,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Equipped by default when Patty joins the party after completing quest"
+  ]
  },
  "plain-clothes": {
   "title": "Plain Clothes",
@@ -3338,6 +3465,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
    "wight-king": "(1/128)"
   }
@@ -3369,6 +3499,9 @@
    "monarchic-mark": 1,
    "twinkling-tuxedo": 1
   },
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "ingredientFor": [
    "king-s-coat"
   ]
@@ -3400,6 +3533,9 @@
    "monarchic-mark": 1,
    "shimmering-dress": 1
   },
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "ingredientFor": [
    "queen-s-robe"
   ]
@@ -3460,7 +3596,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Received from Ragnar at Quester's Rest after speaking to him"
+  ]
  },
  "robe-of-serenity": {
   "title": "Robe of Serenity",
@@ -3548,6 +3687,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
    "widow-s-pique": "(1/128)"
   }
@@ -3566,6 +3708,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
    "terror-troll": "(1/128)"
   }
@@ -3588,6 +3733,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "ingredientFor": [
    "erdrick-s-armour"
   ]
@@ -3672,7 +3820,10 @@
    "fizzle-proof-suit": 1,
    "saintly-robe": 1,
    "thinkincense": 3
-  }
+  },
+  "locationsFound": [
+   "Reward for quest"
+  ]
  },
  "saintly-robe": {
   "title": "Saintly Robe",
@@ -3727,7 +3878,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "DQVC shop"
+  ]
  },
  "santa-suit": {
   "title": "Santa Suit",
@@ -3756,7 +3910,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "DQVC shop"
+  ]
  },
  "scale-armour": {
   "title": "Scale Armour",
@@ -3816,7 +3973,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Equipped by default when Sellma joins the party after completing quest"
+  ]
  },
  "seraph-s-robe": {
   "title": "Seraph's Robe",
@@ -3978,7 +4138,9 @@
    "Stornway (armour shop)"
   ],
   "droppedBy": {
-   "mean-spirit": "(1/16)"
+   "mean-spirit": "(1/16)",
+   "meowgician": "(1/32)",
+   "spirit": "(1/64)"
   },
   "ingredientFor": [
    "silk-bustier"
@@ -4038,7 +4200,8 @@
    "Bloomingdale (armour shop)"
   ],
   "droppedBy": {
-   "harmour": "(1/64)"
+   "harmour": "(1/64)",
+   "infernal-armour": "(1/128)"
   },
   "ingredientFor": [
    "gold-mail"
@@ -4102,7 +4265,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "DQVC shop"
+  ]
  },
  "smart-suit": {
   "title": "Smart Suit",
@@ -4166,6 +4332,7 @@
   "category": "armor",
   "classification": "torso",
   "droppedBy": {
+   "mortamor": "(lv. 9–15: 20%; lv. 16–25: 25%)",
    "murdaw": "(lv. 9–15: 15%)"
   }
  },
@@ -4253,6 +4420,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
    "elusid": "(steal only)"
   },
@@ -4284,7 +4454,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Reward for quest"
+  ]
  },
  "stratotoga": {
   "title": "Stratotoga",
@@ -4456,6 +4629,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
    "excalipurr": "(1/120)"
   }
@@ -4503,7 +4679,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Received from Angelo at Quester's Rest after speaking to him"
+  ]
  },
  "tint-tastic-tutu": {
   "title": "Tint-Tastic Tutu",
@@ -4554,7 +4733,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Received from Torneko at Quester's Rest after talking to him"
+  ]
  },
  "tortoise-shell": {
   "title": "Tortoise Shell",
@@ -4721,7 +4903,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Received from Trode at Quester's Rest after speaking to him"
+  ]
  },
  "tropotoga": {
   "title": "Tropotoga",
@@ -4912,6 +5097,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "torso",
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
    "hammibal": "(1/20)"
   }
@@ -4974,7 +5162,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "DQVC shop"
+  ]
  },
  "white-t-shirt": {
   "title": "White T-Shirt",
@@ -5037,7 +5228,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "DQVC shop"
+  ]
  },
  "witch-s-robe": {
   "title": "Witch's Robe",
@@ -5140,7 +5334,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "torso"
+  "classification": "torso",
+  "locationsFound": [
+   "Received from Yangus at Quester's Rest after speaking to him"
+  ]
  },
  "zenithian-clothes": {
   "title": "Zenithian Clothes",

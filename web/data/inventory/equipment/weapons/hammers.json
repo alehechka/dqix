@@ -18,6 +18,9 @@
    "belle-cap": 3,
    "oaken-club": 1
   },
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
    "gigantes": "(1/128)"
   }
@@ -244,6 +247,9 @@
    "Rank 1 (I) blue chest in grotto (5%)"
   ],
   "droppedBy": {
+   "boss-troll": "(1/16)",
+   "cyclops": "(1/16)",
+   "hammerhood": "(1/64)",
    "troll": "(1/8)"
   },
   "ingredientFor": [
@@ -313,6 +319,9 @@
    "royal-soil": 5,
    "terra-tamper": 1
   },
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "ingredientFor": [
    "terra-hammer"
   ]

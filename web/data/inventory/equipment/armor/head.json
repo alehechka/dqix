@@ -25,7 +25,8 @@
   "category": "armor",
   "classification": "head",
   "droppedBy": {
-   "dragonlord": "(lv. 4–8: 15%)"
+   "dragonlord": "(lv. 4–8: 15%)",
+   "nokturnus": "(lv. 81–90: 20%; lv. 91–99: 25%)"
   }
  },
  "alena-s-hat": {
@@ -52,7 +53,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "Received from Alena at Quester's Rest on player's birthday"
+  ]
  },
  "aliahan-headpiece": {
   "title": "Aliahan Headpiece",
@@ -138,7 +142,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "Received from Ashlynn at Quester's Rest on player's birthday"
+  ]
  },
  "autumn-shower-hat": {
   "title": "Autumn Shower Hat",
@@ -202,6 +209,12 @@
   "type": "equipment",
   "category": "armor",
   "classification": "head",
+  "locationsFound": [
+   "Angel Falls (item shop)",
+   "Stornway (armour shop)",
+   "Zere",
+   "Brigadoom"
+  ],
   "ingredientFor": [
    "trailblazing-bandana"
   ]
@@ -251,7 +264,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "Received from Bianca at Quester's Rest on player's birthday"
+  ]
  },
  "blessed-helm": {
   "title": "Blessed Helm",
@@ -310,7 +326,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "Received from Borya at Quester's Rest on player's birthday"
+  ]
  },
  "brown-afro": {
   "title": "Brown Afro",
@@ -339,7 +358,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "DQVC shop"
+  ]
  },
  "bunny-ears": {
   "title": "Bunny Ears",
@@ -402,7 +424,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "Received from Prince of Cannock at Quester's Rest on player's birthday"
+  ]
  },
  "canny-cap": {
   "title": "Canny Cap",
@@ -453,7 +478,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "Received from Carver at Quester's Rest on player's birthday"
+  ]
  },
  "cat-ears": {
   "title": "Cat Ears",
@@ -565,7 +593,10 @@
    "mythril-ore": 1,
    "thinkincense": 5,
    "thinking-cap": 1
-  }
+  },
+  "locationsFound": [
+   "Reward for quest"
+  ]
  },
  "debora-s-damasks": {
   "title": "Debora's Damasks",
@@ -592,7 +623,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "Received from Debora at Quester's Rest on player's birthday"
+  ]
  },
  "disturbin--turban": {
   "title": "Disturbin' Turban",
@@ -644,7 +678,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "Received during story events"
+  ]
  },
  "ear-cosy": {
   "title": "Ear Cosy",
@@ -726,7 +763,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "Equipped by default when Erinn joins the party after completing quest"
+  ]
  },
  "estard-hood": {
   "title": "Estard Hood",
@@ -818,6 +858,10 @@
    "flurry-feather": 1,
    "leather-hat": 1
   },
+  "locationsFound": [
+   "Porth Llaffan (weapon/armour shop)",
+   "Hunters' Yurts"
+  ],
   "ingredientFor": [
    "canny-cap",
    "musketeer-hat"
@@ -870,7 +914,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "Received from Fleurette at Quester's Rest on player's birthday"
+  ]
  },
  "fur-hood": {
   "title": "Fur Hood",
@@ -1087,6 +1134,7 @@
    "Rank 6 (D) blue chest in grotto (1%)"
   ],
   "droppedBy": {
+   "bad-karmour": "(1/128)",
    "hell-s-gatekeeper": "(1/64)"
   },
   "ingredientFor": [
@@ -1120,6 +1168,10 @@
   "type": "equipment",
   "category": "armor",
   "classification": "head",
+  "locationsFound": [
+   "Stornway (armour shop)",
+   "Mirage Mahal"
+  ],
   "ingredientFor": [
    "bunny-ears",
    "cat-ears",
@@ -1185,7 +1237,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "Reward for quest"
+  ]
  },
  "happy-hat": {
   "title": "Happy Hat",
@@ -1394,7 +1449,8 @@
    "Dourbridge (weapon/armour shop)"
   ],
   "droppedBy": {
-   "axolhotl": "(1/32)"
+   "axolhotl": "(1/32)",
+   "metal-slime-knight": "(1/128)"
   },
   "ingredientFor": [
    "steel-helmet"
@@ -1422,7 +1478,9 @@
    "Rank 2 (H) blue chest in grotto (2%)"
   ],
   "droppedBy": {
-   "deadcurion": "(1/64)"
+   "alarmour": "(1/64)",
+   "deadcurion": "(1/64)",
+   "harmour": "(1/128)"
   },
   "ingredientFor": [
    "filigree-mask",
@@ -1454,7 +1512,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "Received from Jessica at Quester's Rest on player's birthday"
+  ]
  },
  "kiefer-s-hair": {
   "title": "Kiefer's Hair",
@@ -1480,7 +1541,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "Received from Kiefer at Quester's Rest on player's birthday"
+  ]
  },
  "kiryl-s-kamilavka": {
   "title": "Kiryl's Kamilavka",
@@ -1507,7 +1571,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "Received from Kiryl at Quester's Rest on player's birthday"
+  ]
  },
  "leather-hat": {
   "title": "Leather Hat",
@@ -1536,7 +1603,13 @@
   "type": "equipment",
   "category": "armor",
   "classification": "head",
+  "locationsFound": [
+   "Zere (item shop)",
+   "Stornway (armour shop)",
+   "Brigadoom"
+  ],
   "droppedBy": {
+   "bodkin-archer": "(1/64)",
    "bodkin-bowyer": "(1/32)"
   },
   "ingredientFor": [
@@ -1630,7 +1703,12 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "Dourbridge",
+   "(secret shop)",
+   "Rank 5 (E) blue chest in grotto (1%)"
+  ]
  },
  "mail-coif": {
   "title": "Mail Coif",
@@ -1714,7 +1792,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "Received from Maribel at Quester's Rest on player's birthday"
+  ]
  },
  "maya-s-mane": {
   "title": "Maya's Mane",
@@ -1741,7 +1822,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "Received from Maya at Quester's Rest on player's birthday"
+  ]
  },
  "meena-s-mane": {
   "title": "Meena's Mane",
@@ -1768,7 +1852,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "Received from Meena at Quester's Rest on player's birthday"
+  ]
  },
  "mega-magical-hat": {
   "title": "Mega-Magical Hat",
@@ -1824,6 +1911,9 @@
    "agility-ring": 1,
    "trailblazing-bandana": 1
   },
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "ingredientFor": [
    "ballistick",
    "matador-s-gloves"
@@ -1938,7 +2028,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "Received from Milly at Quester's Rest on player's birthday"
+  ]
  },
  "minerva-s-mitre": {
   "title": "Minerva's Mitre",
@@ -2003,6 +2096,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "head",
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
    "wight-emperor": "(1/64)"
   }
@@ -2034,7 +2130,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "DQVC shop"
+  ]
  },
  "moonbrooke-hood": {
   "title": "Moonbrooke Hood",
@@ -2061,7 +2160,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "Received from Princess of Moonbrooke at Quester's Rest on player's birthday"
+  ]
  },
  "morrie-s-mullet": {
   "title": "Morrie's Mullet",
@@ -2089,7 +2191,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "Received from Morrie at Quester's Rest on player's birthday"
+  ]
  },
  "musketeer-hat": {
   "title": "Musketeer Hat",
@@ -2188,7 +2293,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "Received from Nera at Quester's Rest on player's birthday"
+  ]
  },
  "papillon-mask": {
   "title": "Papillon Mask",
@@ -2332,7 +2440,8 @@
    "Slurry Quay (item shop)"
   ],
   "droppedBy": {
-   "jinkster": "(1/64)"
+   "jinkster": "(1/64)",
+   "mean-spirit": "(1/128)"
   },
   "ingredientFor": [
    "hunter-s-hat",
@@ -2365,7 +2474,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "DQVC shop"
+  ]
  },
  "pumpkin-head": {
   "title": "Pumpkin Head",
@@ -2393,7 +2505,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "DQVC shop"
+  ]
  },
  "raging-bull-helm": {
   "title": "Raging Bull Helm",
@@ -2452,7 +2567,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "Received from Ragnar at Quester's Rest on player's birthday"
+  ]
  },
  "ravishing-ribbon": {
   "title": "Ravishing Ribbon",
@@ -2502,7 +2620,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "DQVC shop"
+  ]
  },
  "rusty-helmet": {
   "title": "Rusty Helmet",
@@ -2556,7 +2677,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "DQVC shop"
+  ]
  },
  "scholar-s-circlet": {
   "title": "Scholar's Circlet",
@@ -2612,7 +2736,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "DQVC shop"
+  ]
  },
  "silken-veil": {
   "title": "Silken Veil",
@@ -2640,7 +2767,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "DQVC shop"
+  ]
  },
  "silver-specs": {
   "title": "Silver Specs",
@@ -2669,7 +2799,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "DQVC shop"
+  ]
  },
  "silver-tiara": {
   "title": "Silver Tiara",
@@ -2732,7 +2865,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "DQVC shop"
+  ]
  },
  "skull-helm": {
   "title": "Skull Helm",
@@ -2765,7 +2901,8 @@
    "Rank 7 (C) blue chest in grotto (1%)"
   ],
   "droppedBy": {
-   "blight-knight": "(1/64)"
+   "blight-knight": "(1/64)",
+   "night-knight": "(1/256)"
   },
   "ingredientFor": [
    "sun-crown"
@@ -2796,8 +2933,13 @@
   "type": "equipment",
   "category": "armor",
   "classification": "head",
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
-   "king-cureslime": "(1/128)"
+   "king-cureslime": "(1/128)",
+   "king-slime": "(1/256)",
+   "metal-king-slime": "(1/128)"
   },
   "ingredientFor": [
    "012-putting-on-the-glitz",
@@ -3054,7 +3196,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "Reward for quest"
+  ]
  },
  "summer-cloud-hat": {
   "title": "Summer Cloud Hat",
@@ -3148,6 +3293,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "head",
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
    "elusid": "(1/20)"
   }
@@ -3179,7 +3327,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "DQVC shop"
+  ]
  },
  "templar-s-tresses": {
   "title": "Templar's Tresses",
@@ -3206,7 +3357,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "Received from Angelo at Quester's Rest on player's birthday"
+  ]
  },
  "thief-s-turban": {
   "title": "Thief's Turban",
@@ -3333,7 +3487,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "DQVC shop"
+  ]
  },
  "top-hat": {
   "title": "Top Hat",
@@ -3381,7 +3538,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "Received from Torneko at Quester's Rest on player's birthday"
+  ]
  },
  "trailblazing-bandana": {
   "title": "Trailblazing Bandana",
@@ -3472,7 +3632,8 @@
   "category": "armor",
   "classification": "head",
   "droppedBy": {
-   "dhoulmagus": "(lv. 9–15: 15%)"
+   "dhoulmagus": "(lv. 9–15: 15%)",
+   "rhapthorne": "(lv. 41–56: 20%; lv. 57-68: 25%)"
   }
  },
  "trodeface": {
@@ -3499,7 +3660,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "Received from Trode at Quester's Rest on player's birthday"
+  ]
  },
  "turban": {
   "title": "Turban",
@@ -3583,8 +3747,12 @@
   "type": "equipment",
   "category": "armor",
   "classification": "head",
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
-   "blight-knight": "(1/128)"
+   "blight-knight": "(1/128)",
+   "mandrake-monarch": "(1/128)"
   }
  },
  "warrior-s-helm": {
@@ -3661,6 +3829,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "head",
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
    "moai-minstrel": "(1/64)"
   }
@@ -3682,8 +3853,12 @@
   "type": "equipment",
   "category": "armor",
   "classification": "head",
+  "locationsFound": [
+   "Reward for quest"
+  ],
   "droppedBy": {
-   "boa-bishop": "(1/64)"
+   "boa-bishop": "(1/64)",
+   "pale-whale": "(1/128)"
   }
  },
  "wonder-helm": {
@@ -3772,7 +3947,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "head"
+  "classification": "head",
+  "locationsFound": [
+   "Received from Yangus at Quester's Rest on player's birthday"
+  ]
  },
  "zenithian-helm": {
   "title": "Zenithian Helm",
@@ -3800,7 +3978,9 @@
   "category": "armor",
   "classification": "head",
   "droppedBy": {
-   "dhoulmagus": "(lv. 57–68: 15%)"
+   "dhoulmagus": "(lv. 57–68: 15%)",
+   "estark": "(lv. 57–68: 25%)",
+   "nokturnus": "(lv. 41–56: 20%)"
   }
  }
 }

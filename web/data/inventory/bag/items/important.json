@@ -8,7 +8,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "angel-s-tears": {
   "title": "Angel's Tears",
@@ -20,6 +23,9 @@
   "type": "bag",
   "category": "items",
   "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ],
   "requiredFor": [
    "006-get-well-water"
   ]
@@ -33,7 +39,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "basic-boomeranging": {
   "title": "'Basic Boomeranging'",
@@ -44,7 +53,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "beardy-weirdy": {
   "title": "Beardy Weirdy",
@@ -55,7 +67,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "benevolessence": {
   "title": "Benevolessence",
@@ -66,7 +81,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during story events"
+  ]
  },
  "better-boomeranging": {
   "title": "'Better Boomeranging'",
@@ -77,7 +95,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "bloomingdale-badge": {
   "title": "Bloomingdale Badge",
@@ -88,7 +109,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "bodura-grass": {
   "title": "Bodura Grass",
@@ -99,7 +123,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during story events"
+  ]
  },
  "bone-chimer": {
   "title": "Bone Chimer",
@@ -110,7 +137,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "bonzer-boomeranging": {
   "title": "'Bonzer Boomeranging'",
@@ -121,7 +151,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "broken-blade": {
   "title": "Broken Blade",
@@ -132,7 +165,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "catwright-s-parcel": {
   "title": "Catwright's Parcel",
@@ -143,7 +179,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "cheer-me-up": {
   "title": "Cheer-Me-Up",
@@ -154,7 +193,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "clump-of-cloud": {
   "title": "Clump of Cloud",
@@ -165,7 +207,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "coffinwell-badge": {
   "title": "Coffinwell Badge",
@@ -176,7 +221,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "crown-jewel": {
   "title": "Crown Jewel",
@@ -187,7 +235,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "crumpled-letter": {
   "title": "Crumpled Letter",
@@ -198,7 +249,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "crumpled-note": {
   "title": "Crumpled Note",
@@ -210,6 +264,9 @@
   "type": "bag",
   "category": "items",
   "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ],
   "requiredFor": [
    "023-research-assistant"
   ]
@@ -223,7 +280,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "dirtbag": {
   "title": "Dirtbag",
@@ -234,7 +294,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "dragon-s-tear": {
   "title": "Dragon's Tear",
@@ -245,7 +308,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "drakulord-s-tooth": {
   "title": "Drakulord's Tooth",
@@ -256,7 +322,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "driver-s-license": {
   "title": "Driver's License",
@@ -267,7 +336,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Reward for quest"
+  ]
  },
  "drunken-dragon": {
   "title": "Drunken Dragon",
@@ -278,7 +350,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during story events"
+  ]
  },
  "duneberry": {
   "title": "Duneberry",
@@ -289,7 +364,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "encyclopaedia-gittanica": {
   "title": "Encyclopaedia Gittanica",
@@ -300,7 +378,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "freezing-feather": {
   "title": "Freezing Feather",
@@ -311,7 +392,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "fygg": {
   "title": "Fygg",
@@ -322,7 +406,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during story events"
+  ]
  },
  "genie-sanguini-scarf": {
   "title": "Genie Sanguini Scarf",
@@ -333,7 +420,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "gittish-seal": {
   "title": "Gittish Seal",
@@ -344,7 +434,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during story events"
+  ]
  },
  "gleeba-badge": {
   "title": "Gleeba Badge",
@@ -355,7 +448,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "goododendron": {
   "title": "Goododendron",
@@ -366,7 +462,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "gratite": {
   "title": "Gratite",
@@ -377,7 +476,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "grundies": {
   "title": "Grundies",
@@ -388,7 +490,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "guestbook": {
   "title": "Guestbook",
@@ -399,7 +504,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "hammerfang": {
   "title": "Hammerfang",
@@ -410,7 +518,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "heavenly-horseshoe": {
   "title": "Heavenly Horseshoe",
@@ -421,7 +532,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "hexite": {
   "title": "Hexite",
@@ -432,7 +546,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "hocus-chimaera-feather": {
   "title": "Hocus Chimaera Feather",
@@ -443,7 +560,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "inny": {
   "title": "Inny",
@@ -454,7 +574,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during story events"
+  ]
  },
  "jewellery-box": {
   "title": "Jewellery Box",
@@ -465,7 +588,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "keepsake-ring": {
   "title": "Keepsake Ring",
@@ -476,7 +602,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during story events"
+  ]
  },
  "larrrst-letter": {
   "title": "Larrrst Letter",
@@ -487,7 +616,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "little-key": {
   "title": "Little Key",
@@ -498,7 +630,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "lunar-diamond": {
   "title": "Lunar Diamond",
@@ -509,7 +644,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "magic-key": {
   "title": "Magic Key",
@@ -520,7 +658,10 @@
   "rarity": 2,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Red chest in Mirage Mahal - L3"
+  ]
  },
  "magmalice-handprint": {
   "title": "Magmalice Handprint",
@@ -531,7 +672,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "man-s-axe": {
   "title": "Man's Axe",
@@ -542,7 +686,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "mega-moai-headprint": {
   "title": "Mega Moai Headprint",
@@ -553,7 +700,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "memento-necklace": {
   "title": "Memento Necklace",
@@ -564,7 +714,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "mirror-of-reflection": {
   "title": "Mirror of Reflection",
@@ -575,7 +728,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "molten-magma": {
   "title": "Molten Magma",
@@ -586,7 +742,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "nightmare-nurse": {
   "title": "Nightmare Nurse",
@@ -597,7 +756,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "nod-s-tear": {
   "title": "Nod's Tear",
@@ -608,7 +770,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "old-ring": {
   "title": "Old Ring",
@@ -619,7 +784,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "package-from-ma": {
   "title": "Package From Ma",
@@ -630,7 +798,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "packed-lunch": {
   "title": "Packed Lunch",
@@ -642,6 +813,9 @@
   "type": "bag",
   "category": "items",
   "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ],
   "requiredFor": [
    "017-you-shouldn-t-have…really"
   ]
@@ -655,7 +829,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "platinum-pick": {
   "title": "Platinum Pick",
@@ -666,7 +843,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "plum-stone": {
   "title": "Plum Stone",
@@ -677,7 +857,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "prayer-pearl": {
   "title": "Prayer Pearl",
@@ -688,7 +871,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "quarantomb-key": {
   "title": "Quarantomb Key",
@@ -699,7 +885,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during story events"
+  ]
  },
  "rankened-phial": {
   "title": "Rankened Phial",
@@ -710,7 +899,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "royal-seal": {
   "title": "Royal Seal",
@@ -721,7 +913,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "serene-necklace": {
   "title": "Serene Necklace",
@@ -732,7 +927,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during story events"
+  ]
  },
  "snowberian-badge": {
   "title": "Snowberian Badge",
@@ -743,7 +941,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "staff-scroll": {
   "title": "Staff Scroll",
@@ -754,7 +955,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "stamp-card": {
   "title": "Stamp Card",
@@ -765,7 +969,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "stellar-medicine": {
   "title": "Stellar Medicine",
@@ -776,7 +983,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "teeny-sanguini-scarf": {
   "title": "Teeny Sanguini Scarf",
@@ -787,7 +997,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "terrordise-tail-feather": {
   "title": "Terrordise Tail Feather",
@@ -798,7 +1011,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "thief-s-key": {
   "title": "Thief's Key",
@@ -823,7 +1039,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "titanic-tincture": {
   "title": "Titanic Tincture",
@@ -834,7 +1053,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "torn-exam-paper-1": {
   "title": "Torn Exam Paper 1",
@@ -845,7 +1067,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "torn-exam-paper-2": {
   "title": "Torn Exam Paper 2",
@@ -856,7 +1081,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "torn-exam-paper-3": {
   "title": "Torn Exam Paper 3",
@@ -867,7 +1095,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "turbo-toad-oil": {
   "title": "Turbo Toad Oil",
@@ -878,7 +1109,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "tycoon-s-trove": {
   "title": "Tycoon's Trove",
@@ -889,7 +1123,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "ultimate-key": {
   "title": "Ultimate Key",
@@ -900,7 +1137,10 @@
   "rarity": 3,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during story events"
+  ]
  },
  "wisdom-of-the-ancients": {
   "title": "'Wisdom of the Ancients'",
@@ -911,7 +1151,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "wobbly-jelly": {
   "title": "Wobbly Jelly",
@@ -922,7 +1165,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  },
  "wyrmlight-bow": {
   "title": "Wyrmlight Bow",
@@ -933,7 +1179,10 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during story events"
+  ]
  },
  "yggdrasil-bud": {
   "title": "Yggdrasil Bud",
@@ -944,6 +1193,9 @@
   "rarity": 1,
   "type": "bag",
   "category": "items",
-  "classification": "important"
+  "classification": "important",
+  "locationsFound": [
+   "Obtained during quest"
+  ]
  }
 }

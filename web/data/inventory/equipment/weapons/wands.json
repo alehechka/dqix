@@ -132,7 +132,10 @@
   ],
   "type": "equipment",
   "category": "weapons",
-  "classification": "wands"
+  "classification": "wands",
+  "locationsFound": [
+   "Received during quest"
+  ]
  },
  "hieroglyph-staff": {
   "title": "Hieroglyph Staff",
@@ -339,7 +342,8 @@
    "Coffinwell (weapon shop)"
   ],
   "droppedBy": {
-   "meowgician": "(1/16)"
+   "meowgician": "(1/16)",
+   "winkster": "(1/64)"
   }
  },
  "rune-staff": {
@@ -655,7 +659,8 @@
    "Gleeba (weapon shop)"
   ],
   "droppedBy": {
-   "python-priest": "(1/64)"
+   "python-priest": "(1/64)",
+   "slugly-betsy": "(1/64)"
   },
   "ingredientFor": [
    "tsunami-staff"
@@ -686,6 +691,7 @@
    "Coffinwell (weapon shop)"
   ],
   "droppedBy": {
+   "blinkster": "(1/128)",
    "magus": "(1/64)"
   },
   "ingredientFor": [

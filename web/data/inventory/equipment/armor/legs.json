@@ -52,7 +52,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "locationsFound": [
+   "Received from Alena at Quester's Rest when hero is Martial Artist"
+  ]
  },
  "aliahan-trousers": {
   "title": "Aliahan Trousers",
@@ -107,7 +110,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "locationsFound": [
+   "Equipped by default when Aquila joins the party after completing quest"
+  ]
  },
  "battle-britches": {
   "title": "Battle Britches",
@@ -309,6 +315,7 @@
    "Slurry Quay (item shop)"
   ],
   "droppedBy": {
+   "boss-troll": "(1/64)",
    "toxic-zombie": "(1/64)"
   },
   "ingredientFor": [
@@ -376,7 +383,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "locationsFound": [
+   "Received from Prince of Cannock at Quester's Rest after inn is fully expanded"
+  ]
  },
  "carver-s-shorts": {
   "title": "Carver's Shorts",
@@ -402,7 +412,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "locationsFound": [
+   "Received from Carver at Quester's Rest after inn is fully expanded"
+  ]
  },
  "celestial-stockings": {
   "title": "Celestial Stockings",
@@ -428,7 +441,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "locationsFound": [
+   "Equipped by default when beginning the game"
+  ]
  },
  "chainmail-socks": {
   "title": "Chainmail Socks",
@@ -499,7 +515,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "locationsFound": [
+   "Received from Yangus at Quester's Rest after inn is fully expanded"
+  ]
  },
  "cotton-trousers": {
   "title": "Cotton Trousers",
@@ -654,6 +673,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "legs",
+  "locationsFound": [
+   "Received during story events"
+  ],
   "canBeUsedFor": [
    "012-putting-on-the-glitz"
   ]
@@ -824,7 +846,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "locationsFound": [
+   "Received from Fleurette at Quester's Rest after inn is fully expanded"
+  ]
  },
  "gigasteel-kneecaps": {
   "title": "Gigasteel Kneecaps",
@@ -1136,7 +1161,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "locationsFound": [
+   "Received from Kiefer at Quester's Rest after completing quest"
+  ]
  },
  "kiltlet": {
   "title": "Kiltlet",
@@ -1194,6 +1222,9 @@
   "type": "equipment",
   "category": "armor",
   "classification": "legs",
+  "locationsFound": [
+   "Received from Kiryl at Quester's Rest after inn is fully expanded"
+  ],
   "canBeUsedFor": [
    "012-putting-on-the-glitz"
   ]
@@ -1233,7 +1264,8 @@
    "Coffinwell (armour shop)"
   ],
   "droppedBy": {
-   "brownie": "(1/32)"
+   "brownie": "(1/32)",
+   "hammerhood": "(1/64)"
   },
   "ingredientFor": [
    "utility-belt"
@@ -1322,7 +1354,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "locationsFound": [
+   "Received from Maya at Quester's Rest after speaking to her"
+  ]
  },
  "midenhall-trousers": {
   "title": "Midenhall Trousers",
@@ -1377,7 +1412,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "locationsFound": [
+   "Received from Milly at Quester's Rest when hero is Sage"
+  ]
  },
  "nicker-s-knickers": {
   "title": "Nicker's Knickers",
@@ -1423,7 +1461,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "locationsFound": [
+   "Received from Morrie at Quester's Rest after inn is fully expanded"
+  ]
  },
  "pirate-pantaloons": {
   "title": "Pirate Pantaloons",
@@ -1450,7 +1491,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "locationsFound": [
+   "DQVC shop"
+  ]
  },
  "pop-socks": {
   "title": "Pop Socks",
@@ -1589,7 +1633,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "locationsFound": [
+   "DQVC shop"
+  ]
  },
  "seabreeze-skirt": {
   "title": "Seabreeze Skirt",
@@ -1680,7 +1727,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "locationsFound": [
+   "DQVC shop"
+  ]
  },
  "slick-slacks": {
   "title": "Slick Slacks",
@@ -1696,7 +1746,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "locationsFound": [
+   "Reward for quest"
+  ]
  },
  "snazzy-skirt": {
   "title": "Snazzy Skirt",
@@ -1866,7 +1919,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "locationsFound": [
+   "Reward for quest"
+  ]
  },
  "steppe-steppers": {
   "title": "Steppe Steppers",
@@ -2025,7 +2081,10 @@
    "dragon-trousers": 1,
    "sage-s-elixir": 2,
    "thinkincense": 3
-  }
+  },
+  "locationsFound": [
+   "Reward for quest"
+  ]
  },
  "templar-s-trousers": {
   "title": "Templar's Trousers",
@@ -2051,7 +2110,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "locationsFound": [
+   "Received from Angelo at Quester's Rest when hero is Priest"
+  ]
  },
  "torneko-s-trousers": {
   "title": "Torneko's Trousers",
@@ -2077,7 +2139,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "locationsFound": [
+   "Received from Torneko at Quester's Rest when hero is Ranger"
+  ]
  },
  "toughie-trousers": {
   "title": "Toughie Trousers",
@@ -2351,7 +2416,10 @@
   ],
   "type": "equipment",
   "category": "armor",
-  "classification": "legs"
+  "classification": "legs",
+  "locationsFound": [
+   "DQVC shop"
+  ]
  },
  "wizard-s-trousers": {
   "title": "Wizard's Trousers",
@@ -2408,7 +2476,10 @@
   "recipe": {
    "aggressence": 1,
    "boomer-briefs": 1
-  }
+  },
+  "locationsFound": [
+   "Reward for quest"
+  ]
  },
  "zenithian-leggings": {
   "title": "Zenithian Leggings",

@@ -167,7 +167,10 @@
    "flurry-feather": 3,
    "kestrel-claws": 1,
    "swallowtail": 1
-  }
+  },
+  "locationsFound": [
+   "Reward for quest"
+  ]
  },
  "edged-boomerang": {
   "title": "Edged Boomerang",

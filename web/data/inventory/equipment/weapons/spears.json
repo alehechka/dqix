@@ -347,6 +347,7 @@
    "Alltrades Abbey (item shop)"
   ],
   "droppedBy": {
+   "scourgette": "(1/128)",
    "zumeanie": "(1/128)"
   },
   "ingredientFor": [
@@ -424,6 +425,7 @@
    "Swinedimples Academy (item shop)"
   ],
   "droppedBy": {
+   "sick-trigertaur": "(1/128)",
    "stenchurion": "(1/128)"
   },
   "ingredientFor": [

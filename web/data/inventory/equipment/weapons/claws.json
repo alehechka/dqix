@@ -129,7 +129,8 @@
    "Gleeba (weapon shop)"
   ],
   "droppedBy": {
-   "icikiller": "(1/64)"
+   "icikiller": "(1/64)",
+   "weaken-beakon": "(1/128)"
   },
   "ingredientFor": [
    "kestrel-claws"
@@ -156,7 +157,8 @@
    "Upover (weapon shop)"
   ],
   "droppedBy": {
-   "drakulord": "(1/64)"
+   "drakulord": "(1/64)",
+   "red-dragon": "(1/128)"
   },
   "ingredientFor": [
    "fire-claws"
@@ -346,7 +348,10 @@
    "Wormwood Creek (weapon shop)"
   ],
   "droppedBy": {
-   "corrupt-carter": "(1/64)"
+   "corrupt-carter": "(1/64)",
+   "cyber-spider": "(1/128)",
+   "robo-robin": "(1/128)",
+   "trauminator": "(steal only)"
   },
   "ingredientFor": [
    "hammer-handrills"
@@ -521,6 +526,7 @@
    "Bloomingdale (weapon shop)"
   ],
   "droppedBy": {
+   "claws": "(1/64)",
    "scarewolf": "(1/64)"
   }
  },
