@@ -1,6 +1,5 @@
 {
  "beast-claws": {
-  "id": "beast-claws",
   "title": "Beast Claws",
   "description": "Razor-sharp rippers resembling those of a mythical magical beast.",
   "statistics": {
@@ -28,7 +27,6 @@
   ]
  },
  "beastmaster-claws": {
-  "id": "beastmaster-claws",
   "title": "Beastmaster Claws",
   "description": "Sharp shredders said to resemble those of the king of beasts.",
   "statistics": {
@@ -56,7 +54,6 @@
   ]
  },
  "cobra-claws": {
-  "id": "cobra-claws",
   "title": "Cobra Claws",
   "description": "Large toxic talons, hooked like those of a hellish demon.",
   "statistics": {
@@ -85,7 +82,6 @@
   ]
  },
  "combusticlaws": {
-  "id": "combusticlaws",
   "title": "Combusticlaws",
   "description": "Terrifying toughened talons made from fire claws.",
   "statistics": {
@@ -112,7 +108,6 @@
   ]
  },
  "crow-s-claws": {
-  "id": "crow-s-claws",
   "title": "Crow's Claws",
   "description": "Talons that tear through their target swift as a swooping bird.",
   "statistics": {
@@ -142,7 +137,6 @@
   ]
  },
  "dragon-claws": {
-  "id": "dragon-claws",
   "title": "Dragon Claws",
   "description": "Rock-hard, razor-sharp rippers like the talons of a dragon.",
   "statistics": {
@@ -171,7 +165,6 @@
   ]
  },
  "dragonlord-claws": {
-  "id": "dragonlord-claws",
   "title": "Dragonlord Claws",
   "description": "Claws that can carve up dragon scales as easily as cutting cake.",
   "statistics": {
@@ -200,7 +193,6 @@
   ]
  },
  "dragovian-claws": {
-  "id": "dragovian-claws",
   "title": "Dragovian Claws",
   "description": "Claws that whip through dragon scales as if they were water.",
   "statistics": {
@@ -228,7 +220,6 @@
   ]
  },
  "dragovian-lord-claws": {
-  "id": "dragovian-lord-claws",
   "title": "Dragovian Lord Claws",
   "description": "Claws that cut dragon scales as quickly as waving goodbye.",
   "statistics": {
@@ -255,7 +246,6 @@
   ]
  },
  "fire-claws": {
-  "id": "fire-claws",
   "title": "Fire Claws",
   "description": "Claws that fling forth fire if used as an item in battle.",
   "statistics": {
@@ -288,7 +278,6 @@
   ]
  },
  "gigasteel-claws": {
-  "id": "gigasteel-claws",
   "title": "Gigasteel Claws",
   "description": "Super sharp metal scratchers forged from shrewdly selected steel.",
   "statistics": {
@@ -310,7 +299,6 @@
   }
  },
  "hammer-handrills": {
-  "id": "hammer-handrills",
   "title": "Hammer Handrills",
   "description": "Heavy-duty drill-like devices that can cut holes through steel.",
   "statistics": {
@@ -337,7 +325,6 @@
   ]
  },
  "handrills": {
-  "id": "handrills",
   "title": "Handrills",
   "description": "Drill-like devices that can sink holes into steel.",
   "statistics": {
@@ -371,7 +358,6 @@
   ]
  },
  "iron-claws": {
-  "id": "iron-claws",
   "title": "Iron Claws",
   "description": "Metal menaces worn by many warriors.",
   "statistics": {
@@ -400,7 +386,6 @@
   ]
  },
  "kestrel-claws": {
-  "id": "kestrel-claws",
   "title": "Kestrel Claws",
   "description": "Talons that tear through their target like a hungry hawk.",
   "statistics": {
@@ -426,7 +411,6 @@
   ]
  },
  "king-cobra-claws": {
-  "id": "king-cobra-claws",
   "title": "King Cobra Claws",
   "description": "Enormous toxic talons, hooked like those of a hellish demon.",
   "statistics": {
@@ -450,7 +434,6 @@
   }
  },
  "kite-claws": {
-  "id": "kite-claws",
   "title": "Kite Claws",
   "description": "Talons that tear through their target like a crazed kite.",
   "statistics": {
@@ -472,7 +455,6 @@
   }
  },
  "orichalcum-claws": {
-  "id": "orichalcum-claws",
   "title": "Orichalcum Claws",
   "description": "Godly talons crafted from orichalcum.",
   "statistics": {
@@ -494,7 +476,6 @@
   }
  },
  "razor-claws": {
-  "id": "razor-claws",
   "title": "Razor Claws",
   "description": "Hooked claws full of exotic foreign fascination.",
   "statistics": {
@@ -519,7 +500,6 @@
   }
  },
  "sacred-claws": {
-  "id": "sacred-claws",
   "title": "Sacred Claws",
   "description": "Consecrated claws capable of cutting even formless foes.",
   "statistics": {
@@ -551,7 +531,6 @@
   }
  },
  "steel-claws": {
-  "id": "steel-claws",
   "title": "Steel Claws",
   "description": "Tough talons made from strengthened steel.",
   "statistics": {
@@ -576,7 +555,6 @@
   ]
  },
  "stone-claws": {
-  "id": "stone-claws",
   "title": "Stone Claws",
   "description": "Super-simple scratchers made from sharpened stones.",
   "statistics": {
@@ -597,7 +575,6 @@
   ]
  },
  "xenlon-claws": {
-  "id": "xenlon-claws",
   "title": "Xenlon Claws",
   "description": "The claws to end all claws. Destroy dragons with the flick of a wrist.",
   "statistics": {

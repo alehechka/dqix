@@ -90,7 +90,7 @@ func (i InventoryMap) AddInventory(inventory Inventory) {
 		i[inventory.Type][inventory.Category][inventory.Classification] = make(map[string]Inventory)
 	}
 
-	i[inventory.Type][inventory.Category][inventory.Classification][inventory.ID] = inventory
+	i[inventory.Type][inventory.Category][inventory.Classification][inventory.GetID()] = inventory
 }
 
 func (i InventoryMap) GetClassification(typeId string, category string, classification string) (classifications map[string]Inventory) {
@@ -178,7 +178,7 @@ func (i InventoryMap) GetInventory(typeId string, category string, classificatio
 }
 
 func (i InventoryMap) GetInventoryFromDataKey(d DataKey) Inventory {
-	return i.GetInventory(d.Type, d.Category, d.Classification, d.ID)
+	return i.GetInventory(d.Type, d.Category, d.Classification, d.GetID())
 }
 
 func (i InventoryMap) WriteJSON(basePath string) (err error) {
@@ -227,7 +227,6 @@ type Statistics struct {
 }
 
 type Inventory struct {
-	ID             string            `json:"id,omitempty"`
 	Title          string            `json:"title,omitempty"`
 	Description    string            `json:"description,omitempty"`
 	Statistics     Statistics        `json:"statistics,omitempty"`
@@ -247,7 +246,7 @@ type Inventory struct {
 }
 
 func (i Inventory) GetID() string {
-	return i.ID
+	return TitleToID(i.Title)
 }
 
 func (i Inventory) GetTitle() string {
@@ -255,7 +254,7 @@ func (i Inventory) GetTitle() string {
 }
 
 func (i Inventory) GetPath() string {
-	return "/" + path.Join("inventory", i.Type, i.Category, i.Classification, i.ID)
+	return "/" + path.Join("inventory", i.Type, i.Category, i.Classification, i.GetID())
 }
 
 func (i Inventory) ImageSrc() string {
@@ -276,7 +275,6 @@ func (i Inventory) RecipeSlice() (ingredients []Ingredient) {
 
 func (i Inventory) ToDataKey() DataKey {
 	return DataKey{
-		ID:             i.ID,
 		Structure:      "inventory",
 		Type:           i.Type,
 		Category:       i.Category,
@@ -314,7 +312,6 @@ func (p PageContent) ParseAsItem() (inventory Inventory) {
 func (p PageContent) parseFromBase(inventory *Inventory) {
 	lastIndex := len(p.Text) - 1
 
-	inventory.ID = TitleToID(p.Text[0])
 	inventory.Title = p.Text[0]
 	inventory.Description = p.Text[1]
 	inventory.Classification = p.Text[lastIndex]

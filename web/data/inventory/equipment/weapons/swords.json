@@ -1,6 +1,5 @@
 {
  "aurora-blade": {
-  "id": "aurora-blade",
   "title": "Aurora Blade",
   "description": "A wondrous weapon that flings flames if used as an item in battle.",
   "statistics": {
@@ -30,7 +29,6 @@
   ]
  },
  "bandit-blade": {
-  "id": "bandit-blade",
   "title": "Bandit Blade",
   "description": "A sizeable sabre supremely suited to swindling sorts.",
   "statistics": {
@@ -58,7 +56,6 @@
   }
  },
  "cautery-sword": {
-  "id": "cautery-sword",
   "title": "Cautery Sword",
   "description": "A sacred sword that flings flames if used as an item in battle.",
   "statistics": {
@@ -93,7 +90,6 @@
   ]
  },
  "copper-sword": {
-  "id": "copper-sword",
   "title": "Copper Sword",
   "description": "A commonplace cutter made of copper.",
   "statistics": {
@@ -121,7 +117,6 @@
   }
  },
  "dragon-slayer": {
-  "id": "dragon-slayer",
   "title": "Dragon Slayer",
   "description": "An even deadlier descendant of the dragonsbane.",
   "statistics": {
@@ -147,7 +142,6 @@
   }
  },
  "dragonsbane": {
-  "id": "dragonsbane",
   "title": "Dragonsbane",
   "description": "A mighty masher that's merciless even against the scales of dragons.",
   "statistics": {
@@ -179,7 +173,6 @@
   ]
  },
  "erdrick-s-sword": {
-  "id": "erdrick-s-sword",
   "title": "Erdrick's Sword",
   "description": "A well-known weapon once wielded by a legendary lionheart.",
   "statistics": {
@@ -204,7 +197,6 @@
   }
  },
  "falcon-blade": {
-  "id": "falcon-blade",
   "title": "Falcon Blade",
   "description": "A sword so fast, it can slice an enemy twice in a single strike.",
   "statistics": {
@@ -237,7 +229,6 @@
   ]
  },
  "fire-blade": {
-  "id": "fire-blade",
   "title": "Fire Blade",
   "description": "A hot blade that spits forth flames if used as an item in battle.",
   "statistics": {
@@ -274,7 +265,6 @@
   ]
  },
  "fizzle-foil": {
-  "id": "fizzle-foil",
   "title": "Fizzle Foil",
   "description": "A slender sword that would suit a seriously skilled soldier.",
   "statistics": {
@@ -302,7 +292,6 @@
   }
  },
  "gigasteel-broadsword": {
-  "id": "gigasteel-broadsword",
   "title": "Gigasteel Broadsword",
   "description": "A refined steel blade of rip-roaring quality.",
   "statistics": {
@@ -327,7 +316,6 @@
   }
  },
  "hypernova-sword": {
-  "id": "hypernova-sword",
   "title": "Hypernova Sword",
   "description": "An almighty blade that dulls the defence of the foes it fights.",
   "statistics": {
@@ -354,7 +342,6 @@
   }
  },
  "inferno-blade": {
-  "id": "inferno-blade",
   "title": "Inferno Blade",
   "description": "A fiery blade that spits forth flames if used as an item in battle.",
   "statistics": {
@@ -381,7 +368,6 @@
   }
  },
  "iron-broadsword": {
-  "id": "iron-broadsword",
   "title": "Iron Broadsword",
   "description": "A regular, wrought iron sword.",
   "statistics": {
@@ -412,7 +398,6 @@
   ]
  },
  "liquid-metal-sword": {
-  "id": "liquid-metal-sword",
   "title": "Liquid Metal Sword",
   "description": "An extremely hard blade that carries incredible clout.",
   "statistics": {
@@ -442,7 +427,6 @@
   ]
  },
  "metal-king-sword": {
-  "id": "metal-king-sword",
   "title": "Metal King Sword",
   "description": "An incredibly hard blade that carries incredible clout.",
   "statistics": {
@@ -469,7 +453,6 @@
   }
  },
  "metal-slime-sword": {
-  "id": "metal-slime-sword",
   "title": "Metal Slime Sword",
   "description": "A hard blade that carries incredible clout.",
   "statistics": {
@@ -497,7 +480,6 @@
   ]
  },
  "miracle-sword": {
-  "id": "miracle-sword",
   "title": "Miracle Sword",
   "description": "A wonderful weapon that heals the holder's HP with every blow.",
   "statistics": {
@@ -528,7 +510,6 @@
   ]
  },
  "nebula-sword": {
-  "id": "nebula-sword",
   "title": "Nebula Sword",
   "description": "An unbelievable blade that dulls the defence of the foes it fights.",
   "statistics": {
@@ -559,7 +540,6 @@
   ]
  },
  "platinum-sword": {
-  "id": "platinum-sword",
   "title": "Platinum Sword",
   "description": "A heralded hacker made from hard platinum.",
   "statistics": {
@@ -595,7 +575,6 @@
   ]
  },
  "rapier": {
-  "id": "rapier",
   "title": "Rapier",
   "description": "A delightfully designed, slim-bladed sword.",
   "statistics": {
@@ -625,7 +604,6 @@
   ]
  },
  "rusty-sword": {
-  "id": "rusty-sword",
   "title": "Rusty Sword",
   "description": "A shabby and unshiny sword whose origins are obscure.",
   "statistics": {
@@ -653,7 +631,6 @@
   ]
  },
  "soldier-s-sword": {
-  "id": "soldier-s-sword",
   "title": "Soldier's Sword",
   "description": "A simple sword supplied to low-ranking castle custodians.",
   "statistics": {
@@ -685,7 +662,6 @@
   ]
  },
  "stardust-sword": {
-  "id": "stardust-sword",
   "title": "Stardust Sword",
   "description": "A legendary blade that dulls the defence of the foes it fights.",
   "statistics": {
@@ -717,7 +693,6 @@
   ]
  },
  "steel-broadsword": {
-  "id": "steel-broadsword",
   "title": "Steel Broadsword",
   "description": "A fully fledged fighting blade forged from steel.",
   "statistics": {
@@ -743,7 +718,6 @@
   ]
  },
  "supernova-sword": {
-  "id": "supernova-sword",
   "title": "Supernova Sword",
   "description": "An unbeatable blade that dulls the defence of the foes it fights.",
   "statistics": {
@@ -773,7 +747,6 @@
   ]
  },
  "valkyrie-sword": {
-  "id": "valkyrie-sword",
   "title": "Valkyrie Sword",
   "description": "A fine-edged blade wielded by famous female fighters.",
   "statistics": {
@@ -804,7 +777,6 @@
   ]
  },
  "warrior-s-sword": {
-  "id": "warrior-s-sword",
   "title": "Warrior's Sword",
   "description": "A biting blade favoured by battle-scarred brigands.",
   "statistics": {
@@ -835,7 +807,6 @@
   }
  },
  "über-falcon-blade": {
-  "id": "über-falcon-blade",
   "title": "Über Falcon Blade",
   "description": "A fiercer form of the falcon blade.",
   "statistics": {
@@ -861,7 +832,6 @@
   }
  },
  "über-miracle-sword": {
-  "id": "über-miracle-sword",
   "title": "Über Miracle Sword",
   "description": "A more mighty model of the miracle sword.",
   "statistics": {

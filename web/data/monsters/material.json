@@ -1,0 +1,102 @@
+{
+ "alarmour": {
+  "number": 222,
+  "title": "Alarmour",
+  "description": "Animated suits of armour that have high defence, don't feel wind, lightning or dark attacks, and cause bother with Bounce.",
+  "secondaryDescription": "Lately, they've been getting a little tired of having to be at the beck and call of their fickle masters all the time.",
+  "experience": 5200,
+  "goldDropped": 134,
+  "family": "Material",
+  "whereToFind": [
+   "Grotto (Ruins",
+   "rank 9-11)"
+  ],
+  "itemsDropped": {
+   "iron-mask": "Ruinous shield"
+  },
+  "battleInfo": {}
+ },
+ "bag-o--laughs": {
+  "number": 8,
+  "title": "Bag o' Laughs",
+  "description": "Try to get these nuisances bagged and tagged before they can empty your MP with a",
+  "secondaryDescription": "Weird Dance",
+  "experience": 11,
+  "goldDropped": 24,
+  "family": "Material",
+  "whereToFind": [
+   "The Hexagon"
+  ],
+  "itemsDropped": {
+   "cowpat": "(1/8)"
+  },
+  "battleInfo": {
+   "maxHP": 16,
+   "maxMP": 4,
+   "defense": 14,
+   "evasionChance": 2,
+   "elementalAversions": "Takes 1.25x damage from all elements.",
+   "ailmentAffinities": [
+    "25% resistance to Decelerate, Dazzle, and Divine Intervention",
+    "50% resistance to Sleep and Paralyze. Immune to Fizzle and Poison."
+   ],
+   "enragedBy": {
+    "whistle": 75
+   }
+  }
+ },
+ "ragged-reaper": {
+  "number": 20,
+  "title": "Ragged Reaper",
+  "description": "Their scythes, robbed from real reapers, ward off",
+  "secondaryDescription": "Whack",
+  "experience": 56,
+  "goldDropped": 36,
+  "family": "Material",
+  "whereToFind": [
+   "Zere",
+   "Doomingdale Forest"
+  ],
+  "itemsDropped": {
+   "evencloth": "(1/16)"
+  },
+  "battleInfo": {
+   "maxHP": 34,
+   "maxMP": 4,
+   "attack": 38,
+   "defense": 24,
+   "elementalAversions": "Takes 2x damage from Light; 1.25x from Fire.",
+   "ailmentAffinities": [
+    "25% resistance to Dazzle, Confuse, Blunt, Sap, and Divine Intervention",
+    "50% resistance to Stun. Immune to Sleep, Death, Poison, and Paralyze."
+   ]
+  }
+ },
+ "sacksquatch": {
+  "number": 4,
+  "title": "Sacksquatch",
+  "description": "Smack them with spells before they jump at the chance to blind you by",
+  "secondaryDescription": "blowing sand",
+  "experience": 5,
+  "goldDropped": 8,
+  "family": "Material",
+  "whereToFind": [
+   "Angel Falls"
+  ],
+  "itemsDropped": {
+   "antidotal-herb": "(1/32)"
+  },
+  "battleInfo": {
+   "maxHP": 15,
+   "attack": 13,
+   "defense": 8,
+   "elementalAversions": "Takes 1.25x damage from all elements",
+   "ailmentAffinities": [
+    "Immune to Fizzle and Drain Magic."
+   ],
+   "enragedBy": {
+    "whistle": 75
+   }
+  }
+ }
+}

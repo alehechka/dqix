@@ -1,6 +1,5 @@
 {
  "big-boss-shield": {
-  "id": "big-boss-shield",
   "title": "Big Boss Shield",
   "description": "A shield that casts a Sap spell if used as an item in battle.",
   "statistics": {
@@ -31,7 +30,6 @@
   }
  },
  "boss-shield": {
-  "id": "boss-shield",
   "title": "Boss Shield",
   "description": "A shield that casts a Sap spell if used as an item in battle.",
   "statistics": {
@@ -66,7 +64,6 @@
   ]
  },
  "brain-drainer": {
-  "id": "brain-drainer",
   "title": "Brain Drainer",
   "description": "A supernatural shield that brings a magical barrier into being.",
   "statistics": {
@@ -103,7 +100,6 @@
   ]
  },
  "bronze-shield": {
-  "id": "bronze-shield",
   "title": "Bronze Shield",
   "description": "A sizeable shield bashed out of bronze.",
   "statistics": {
@@ -133,7 +129,6 @@
   }
  },
  "catty-shield": {
-  "id": "catty-shield",
   "title": "Catty Shield",
   "description": "A pretty but practical piece of protection with a purrculiar design.",
   "statistics": {
@@ -161,7 +156,6 @@
   }
  },
  "dark-shield": {
-  "id": "dark-shield",
   "title": "Dark Shield",
   "description": "A jet-black shield that guards against fire- and ice-based attacks.",
   "statistics": {
@@ -194,7 +188,6 @@
   ]
  },
  "devilry-drinker": {
-  "id": "devilry-drinker",
   "title": "Devilry Drinker",
   "description": "A supreme shield that brings a magical barrier into being.",
   "statistics": {
@@ -229,7 +222,6 @@
   ]
  },
  "dragon-shield": {
-  "id": "dragon-shield",
   "title": "Dragon Shield",
   "description": "A shield of dragon's scales that stifles fire- and ice-based strikes.",
   "statistics": {
@@ -268,7 +260,6 @@
   }
  },
  "empowered-shield": {
-  "id": "empowered-shield",
   "title": "Empowered Shield",
   "description": "A big shield that bolsters its bearer's HP if used in battle.",
   "statistics": {
@@ -299,7 +290,6 @@
   }
  },
  "enchanted-shield": {
-  "id": "enchanted-shield",
   "title": "Enchanted Shield",
   "description": "A mystical shield that stands strong against offensive spells.",
   "statistics": {
@@ -334,7 +324,6 @@
   ]
  },
  "erdrick-s-shield": {
-  "id": "erdrick-s-shield",
   "title": "Erdrick's Shield",
   "description": "A shield purportedly sported by the original legendary hero himself.",
   "statistics": {
@@ -363,7 +352,6 @@
   }
  },
  "ethereal-shield": {
-  "id": "ethereal-shield",
   "title": "Ethereal Shield",
   "description": "A mystical shield that holds fast against even fierce offensive spells.",
   "statistics": {
@@ -395,7 +383,6 @@
   }
  },
  "flame-shield": {
-  "id": "flame-shield",
   "title": "Flame Shield",
   "description": "A shield that builds a fireproof barrier if used as an item in battle.",
   "statistics": {
@@ -434,7 +421,6 @@
   }
  },
  "gigasteel-shield": {
-  "id": "gigasteel-shield",
   "title": "Gigasteel Shield",
   "description": "A strengthened steel shield that can dampen fire and ice damage.",
   "statistics": {
@@ -465,7 +451,6 @@
   }
  },
  "goddess-shield": {
-  "id": "goddess-shield",
   "title": "Goddess Shield",
   "description": "A sanctified shield that's certain to stave off magic attacks.",
   "statistics": {
@@ -496,7 +481,6 @@
   }
  },
  "gold-platter": {
-  "id": "gold-platter",
   "title": "Gold Platter",
   "description": "A gorgeous gold dish that makes a good stopgap shield.",
   "statistics": {
@@ -529,7 +513,6 @@
   ]
  },
  "ice-shield": {
-  "id": "ice-shield",
   "title": "Ice Shield",
   "description": "A shield that builds an iceproof barrier if used as an item in battle.",
   "statistics": {
@@ -569,7 +552,6 @@
   }
  },
  "iron-shield": {
-  "id": "iron-shield",
   "title": "Iron Shield",
   "description": "A steadfast shield made of iron.",
   "statistics": {
@@ -607,7 +589,6 @@
   ]
  },
  "kitty-shield": {
-  "id": "kitty-shield",
   "title": "Kitty Shield",
   "description": "A charming piece of armour with a feline design.",
   "statistics": {
@@ -642,7 +623,6 @@
   ]
  },
  "leather-shield": {
-  "id": "leather-shield",
   "title": "Leather Shield",
   "description": "An unsophisticated shield of leather over lumber.",
   "statistics": {
@@ -673,7 +653,6 @@
   }
  },
  "light-shield": {
-  "id": "light-shield",
   "title": "Light Shield",
   "description": "A lightweight shield, easily used and ideal for learners.",
   "statistics": {
@@ -711,7 +690,6 @@
   ]
  },
  "liquid-metal-shield": {
-  "id": "liquid-metal-shield",
   "title": "Liquid Metal Shield",
   "description": "A shield made with liquid metal slimes that guards against magical attacks.",
   "statistics": {
@@ -745,7 +723,6 @@
   ]
  },
  "magic-shield": {
-  "id": "magic-shield",
   "title": "Magic Shield",
   "description": "A mystical shield that provides protection against offensive spells.",
   "statistics": {
@@ -789,7 +766,6 @@
   ]
  },
  "metal-king-shield": {
-  "id": "metal-king-shield",
   "title": "Metal King Shield",
   "description": "A shield made with metal king slimes that guards against magical attacks.",
   "statistics": {
@@ -820,7 +796,6 @@
   }
  },
  "metal-slime-shield": {
-  "id": "metal-slime-shield",
   "title": "Metal Slime Shield",
   "description": "A shield made with metal slimes that guards against magical attacks.",
   "statistics": {
@@ -852,7 +827,6 @@
   ]
  },
  "ogre-shield": {
-  "id": "ogre-shield",
   "title": "Ogre Shield",
   "description": "A super-sized shield that can stave off fire- and ice-based strikes.",
   "statistics": {
@@ -882,7 +856,6 @@
   }
  },
  "platinum-platter": {
-  "id": "platinum-platter",
   "title": "Platinum Platter",
   "description": "A prize platinum plate that makes a perfect stopgap shield.",
   "statistics": {
@@ -910,7 +883,6 @@
   }
  },
  "platinum-shield": {
-  "id": "platinum-shield",
   "title": "Platinum Shield",
   "description": "Protection made of platinum that fares well against fire attacks.",
   "statistics": {
@@ -947,7 +919,6 @@
   ]
  },
  "pot-lid": {
-  "id": "pot-lid",
   "title": "Pot Lid",
   "description": "A super-simple shield shaped by sticking a strap on a saucepan lid.",
   "statistics": {
@@ -977,7 +948,6 @@
   }
  },
  "power-shield": {
-  "id": "power-shield",
   "title": "Power Shield",
   "description": "A shield that bolsters its bearer's HP if used as an item in battle.",
   "statistics": {
@@ -1016,7 +986,6 @@
   ]
  },
  "psyche-swiper": {
-  "id": "psyche-swiper",
   "title": "Psyche Swiper",
   "description": "A splendid shield that brings a magical barrier into being.",
   "statistics": {
@@ -1052,7 +1021,6 @@
   ]
  },
  "ruinous-shield": {
-  "id": "ruinous-shield",
   "title": "Ruinous Shield",
   "description": "A sinister shield that emanates an eerie aura.",
   "statistics": {
@@ -1086,7 +1054,6 @@
   ]
  },
  "rusty-shield": {
-  "id": "rusty-shield",
   "title": "Rusty Shield",
   "description": "A corroded and conked-out shield of obscure origins.",
   "statistics": {
@@ -1113,7 +1080,6 @@
   ]
  },
  "saintess-shield": {
-  "id": "saintess-shield",
   "title": "Saintess Shield",
   "description": "A sanctified shield that's stout in the face of magical attacks.",
   "statistics": {
@@ -1146,7 +1112,6 @@
   ]
  },
  "scale-shield": {
-  "id": "scale-shield",
   "title": "Scale Shield",
   "description": "A shield made by sticking sturdy scales together.",
   "statistics": {
@@ -1182,7 +1147,6 @@
   ]
  },
  "shell-shield": {
-  "id": "shell-shield",
   "title": "Shell Shield",
   "description": "A shield made from the shell of a tortoise.",
   "statistics": {
@@ -1214,7 +1178,6 @@
   ]
  },
  "silver-platter": {
-  "id": "silver-platter",
   "title": "Silver Platter",
   "description": "A salver made of silver that makes a stopgap shield.",
   "statistics": {
@@ -1248,7 +1211,6 @@
   ]
  },
  "silver-shield": {
-  "id": "silver-shield",
   "title": "Silver Shield",
   "description": "A shiny shield that shuns MP absorption, fire and thunder.",
   "statistics": {
@@ -1281,7 +1243,6 @@
   ]
  },
  "slime-shield": {
-  "id": "slime-shield",
   "title": "Slime Shield",
   "description": "A slime-shaped shield that just oozes class.",
   "statistics": {
@@ -1308,7 +1269,6 @@
   ]
  },
  "soul-sucker": {
-  "id": "soul-sucker",
   "title": "Soul Sucker",
   "description": "A superlative shield that brings a magical barrier into being.",
   "statistics": {
@@ -1340,7 +1300,6 @@
   }
  },
  "steel-shield": {
-  "id": "steel-shield",
   "title": "Steel Shield",
   "description": "A shield of steel that can stave off some fire- and ice-based strife.",
   "statistics": {
@@ -1374,7 +1333,6 @@
   ]
  },
  "tempest-shield": {
-  "id": "tempest-shield",
   "title": "Tempest Shield",
   "description": "A shield that baffles breath attacks if used as an item in battle.",
   "statistics": {
@@ -1409,7 +1367,6 @@
   ]
  },
  "warrior-s-shield": {
-  "id": "warrior-s-shield",
   "title": "Warrior's Shield",
   "description": "A shield for soldiers offering some immunity to magic attacks.",
   "statistics": {
@@ -1442,7 +1399,6 @@
   ]
  },
  "white-knight-s-shield": {
-  "id": "white-knight-s-shield",
   "title": "White Knight's Shield",
   "description": "A sacred shield employed to protect against unholy assaults.",
   "statistics": {
@@ -1478,7 +1434,6 @@
   ]
  },
  "white-shield": {
-  "id": "white-shield",
   "title": "White Shield",
   "description": "A sacred shield that shines with a white light.",
   "statistics": {

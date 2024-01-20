@@ -1,0 +1,115 @@
+{
+ "bubble-slime": {
+  "number": 16,
+  "title": "Bubble Slime",
+  "description": "Everything these slithering slimes touch is poisoned, so take heed and have some",
+  "secondaryDescription": "antidotal herbs",
+  "experience": 24,
+  "goldDropped": 8,
+  "family": "Slime",
+  "whereToFind": [
+   "Western Stornway",
+   "Zere"
+  ],
+  "itemsDropped": {
+   "antidotal-herb": "(1/8)"
+  },
+  "battleInfo": {
+   "maxHP": 23,
+   "maxMP": 4,
+   "attack": 26,
+   "defense": 15,
+   "elementalAversions": "Takes 1.25x damage from Light.",
+   "ailmentAffinities": [
+    "25% resistance to Sleep",
+    "50% resistance to Dazzle and Paralyze."
+   ],
+   "enragedBy": {
+    "whistle": 75
+   }
+  }
+ },
+ "she-slime": {
+  "number": 14,
+  "title": "She-Slime",
+  "description": "These slimes are the result of a rare genetic mutation, and are also known as 'don't-often-see-slimes'.",
+  "secondaryDescription": "They're bitter rivals of",
+  "experience": 20,
+  "goldDropped": 25,
+  "family": "Slime",
+  "whereToFind": [
+   "Western Stornway",
+   "Eastern Stornway"
+  ],
+  "itemsDropped": {
+   "medicinal-herb": "(1/8)"
+  },
+  "battleInfo": {
+   "maxHP": 19,
+   "maxMP": 4,
+   "attack": 23,
+   "defense": 18,
+   "elementalAversions": "Takes 1.25x damage from Dark and Light.",
+   "ailmentAffinities": [
+    "Immune to Fizzle."
+   ],
+   "enragedBy": {
+    "whistle": 75
+   }
+  }
+ },
+ "shogum": {
+  "number": 285,
+  "title": "Shogum",
+  "description": "A slime so saturated with fighting spirit that its body has turned from blue to red. Doesn't know the meaning of defeat.",
+  "secondaryDescription": "Master of the slime armies, he searches ceaselessly for his nine long-lost companions.",
+  "experience": 19000,
+  "goldDropped": 1110,
+  "family": "Slime",
+  "whereToFind": [
+   "Grotto (Rank 1-5",
+   "11-12; Suffix: Joy",
+   "Bliss",
+   "Glee",
+   "Doubt",
+   "Woe",
+   "Dolour)"
+  ],
+  "itemsDropped": {
+   "platinum-headgear": "(steal only)"
+  },
+  "battleInfo": {
+   "elementalAversions": "Dark (2x damage)"
+  }
+ },
+ "slime": {
+  "number": 1,
+  "title": "Slime",
+  "description": "Common monsters that are found all over the world. Their simple yet lovable form attracts many admirers.",
+  "secondaryDescription": "They're unimpressive alone, but if a few of them focus the force of friendship, they can make a",
+  "experience": 72,
+  "goldDropped": 128,
+  "family": "Slime",
+  "whereToFind": [
+   "Angel Falls",
+   "Bloomingdale",
+   "Alltrades Abbey"
+  ],
+  "itemsDropped": {
+   "medicinal-herb": "(1/8)"
+  },
+  "battleInfo": {
+   "maxHP": 76,
+   "maxMP": 4,
+   "attack": 52,
+   "defense": 65,
+   "elementalAversions": "Takes 1.25x damage from all elements.",
+   "ailmentAffinities": [
+    "25% resistance to Sleep. Immune to Charm."
+   ],
+   "enragedBy": {
+    "whistle": 75
+   }
+  }
+ }
+}

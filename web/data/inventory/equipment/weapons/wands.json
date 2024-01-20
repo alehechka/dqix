@@ -1,6 +1,5 @@
 {
  "aurora-staff": {
-  "id": "aurora-staff",
   "title": "Aurora Staff",
   "description": "An unsurpassed staff that stamps out magical effects when used as an item in battle.",
   "statistics": {
@@ -29,7 +28,6 @@
   }
  },
  "bright-staff": {
-  "id": "bright-staff",
   "title": "Bright Staff",
   "description": "A radiant staff that stamps out magical effects when used as an item in battle.",
   "statistics": {
@@ -63,7 +61,6 @@
   ]
  },
  "brilliant-staff": {
-  "id": "brilliant-staff",
   "title": "Brilliant Staff",
   "description": "A divine staff that stamps out magical effects when used as an item in battle.",
   "statistics": {
@@ -95,7 +92,6 @@
   ]
  },
  "brouhaha-boomstick": {
-  "id": "brouhaha-boomstick",
   "title": "Brouhaha Boomstick",
   "description": "A weird wand with a somewhat flute-like form.",
   "statistics": {
@@ -119,7 +115,6 @@
   ]
  },
  "faerie-staff": {
-  "id": "faerie-staff",
   "title": "Faerie Staff",
   "description": "A strange staff that once sealed away some faerie sisters.",
   "statistics": {
@@ -143,7 +138,6 @@
   ]
  },
  "hieroglyph-staff": {
-  "id": "hieroglyph-staff",
   "title": "Hieroglyph Staff",
   "description": "A stick that seriously steps up magical might.",
   "statistics": {
@@ -169,7 +163,6 @@
   }
  },
  "lightning-conductor": {
-  "id": "lightning-conductor",
   "title": "Lightning Conductor",
   "description": "A staff that throws thunderbolts if used as an item in battle.",
   "statistics": {
@@ -197,7 +190,6 @@
   }
  },
  "lightning-staff": {
-  "id": "lightning-staff",
   "title": "Lightning Staff",
   "description": "A staff that summons savage lightning if used as an item in battle.",
   "statistics": {
@@ -238,7 +230,6 @@
   ]
  },
  "magical-mace": {
-  "id": "magical-mace",
   "title": "Magical Mace",
   "description": "A magical staff that sucks masses of MP from the enemy.",
   "statistics": {
@@ -266,7 +257,6 @@
   ]
  },
  "magma-staff": {
-  "id": "magma-staff",
   "title": "Magma Staff",
   "description": "A staff that lobs lava if used as an item in battle.",
   "statistics": {
@@ -301,7 +291,6 @@
   }
  },
  "mega-magical-mace": {
-  "id": "mega-magical-mace",
   "title": "Mega-Magical Mace",
   "description": "A miraculous staff that sucks masses of MP from the enemy.",
   "statistics": {
@@ -327,7 +316,6 @@
   }
  },
  "oak-staff": {
-  "id": "oak-staff",
   "title": "Oak Staff",
   "description": "A staff whittled from the wood of an old oak tree.",
   "statistics": {
@@ -359,7 +347,6 @@
   }
  },
  "rune-staff": {
-  "id": "rune-staff",
   "title": "Rune Staff",
   "description": "A stick that steps up magical might.",
   "statistics": {
@@ -393,7 +380,6 @@
   ]
  },
  "sage-s-staff": {
-  "id": "sage-s-staff",
   "title": "Sage's Staff",
   "description": "Protects an ally from breath attacks if used as an item in battle.",
   "statistics": {
@@ -424,7 +410,6 @@
   ]
  },
  "savant-s-staff": {
-  "id": "savant-s-staff",
   "title": "Savant's Staff",
   "description": "A souped-up sort of sage's staff, with mightier magic.",
   "statistics": {
@@ -453,7 +438,6 @@
   }
  },
  "sceptre-of-gitt": {
-  "id": "sceptre-of-gitt",
   "title": "Sceptre of Gitt",
   "description": "Hereditary heirloom of the heinous heads of the Gittish Empire.",
   "statistics": {
@@ -480,7 +464,6 @@
   ]
  },
  "shining-staff": {
-  "id": "shining-staff",
   "title": "Shining Staff",
   "description": "A holy staff that stamps out magical effects when used as an item in battle.",
   "statistics": {
@@ -513,7 +496,6 @@
   ]
  },
  "staff-of-divine-wrath": {
-  "id": "staff-of-divine-wrath",
   "title": "Staff of Divine Wrath",
   "description": "A stick that whips foes with wild winds if used as an item in battle.",
   "statistics": {
@@ -545,7 +527,6 @@
   ]
  },
  "staff-of-sentencing": {
-  "id": "staff-of-sentencing",
   "title": "Staff of Sentencing",
   "description": "A wand that whisks up whirling winds when used as an item in battle.",
   "statistics": {
@@ -584,7 +565,6 @@
   ]
  },
  "stolos--staff": {
-  "id": "stolos--staff",
   "title": "Stolos' Staff",
   "description": "A staff that stops your party's paralysis if used as an item in battle.",
   "statistics": {
@@ -621,7 +601,6 @@
   ]
  },
  "tsunami-staff": {
-  "id": "tsunami-staff",
   "title": "Tsunami Staff",
   "description": "A rod of the ocean gods that smacks seaborne foes with fierce force.",
   "statistics": {
@@ -649,7 +628,6 @@
   }
  },
  "watermaul-wand": {
-  "id": "watermaul-wand",
   "title": "Watermaul Wand",
   "description": "A staff swirling with the strength of the sea. Feared by fishy foes.",
   "statistics": {
@@ -689,7 +667,6 @@
   ]
  },
  "wizard-s-staff": {
-  "id": "wizard-s-staff",
   "title": "Wizard's Staff",
   "description": "A staff that throws fire at foes if used as an item in battle.",
   "statistics": {
@@ -722,7 +699,6 @@
   ]
  },
  "wyrmwand": {
-  "id": "wyrmwand",
   "title": "Wyrmwand",
   "description": "A wand that fries foes with dragonfire if used as an item in battle.",
   "statistics": {

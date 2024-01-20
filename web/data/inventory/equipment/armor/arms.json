@@ -1,6 +1,5 @@
 {
  "alefgard-gloves": {
-  "id": "alefgard-gloves",
   "title": "Alefgard Gloves",
   "description": "Fingerwear fashionable in Alefgard.",
   "statistics": {
@@ -30,7 +29,6 @@
   }
  },
  "alena-s-gloves": {
-  "id": "alena-s-gloves",
   "title": "Alena's Gloves",
   "description": "Winsome handwear one might find in a tsarevna's wardrobe.",
   "statistics": {
@@ -60,7 +58,6 @@
   ]
  },
  "aliahan-gloves": {
-  "id": "aliahan-gloves",
   "title": "Aliahan Gloves",
   "description": "Hand coverings that quietly contributed to a hero's quest.",
   "statistics": {
@@ -90,7 +87,6 @@
   }
  },
  "angelo-s-gloves": {
-  "id": "angelo-s-gloves",
   "title": "Angelo's Gloves",
   "description": "Affected armwear advocated by Angelo.",
   "statistics": {
@@ -120,7 +116,6 @@
   ]
  },
  "apprentice-s-gloves": {
-  "id": "apprentice-s-gloves",
   "title": "Apprentice's Gloves",
   "description": "Fingerwear that fosters fine movement.",
   "statistics": {
@@ -155,7 +150,6 @@
   ]
  },
  "archer-s-armguard": {
-  "id": "archer-s-armguard",
   "title": "Archer's Armguard",
   "description": "Handwear for handling bows, habitually worn by rangers.",
   "statistics": {
@@ -178,7 +172,6 @@
   ]
  },
  "ashlynn-s-gloves": {
-  "id": "ashlynn-s-gloves",
   "title": "Ashlynn's Gloves",
   "description": "Magical mitts adored by Ashlynn.",
   "statistics": {
@@ -208,7 +201,6 @@
   ]
  },
  "battler-s-bracers": {
-  "id": "battler-s-bracers",
   "title": "Battler's Bracers",
   "description": "On-trend armwear for advanced adventurers.",
   "statistics": {
@@ -238,7 +230,6 @@
   ]
  },
  "bianca-s-bracelets": {
-  "id": "bianca-s-bracelets",
   "title": "Bianca's Bracelets",
   "description": "Bangles bent into shape by Bianca herself.",
   "statistics": {
@@ -268,7 +259,6 @@
   ]
  },
  "blessed-bindings": {
-  "id": "blessed-bindings",
   "title": "Blessed Bindings",
   "description": "Cloth wrist coverings once worn by a sage of a bygone age.",
   "statistics": {
@@ -294,7 +284,6 @@
   ]
  },
  "blindin--bracers": {
-  "id": "blindin--bracers",
   "title": "Blindin' Bracers",
   "description": "Brawny bracelets' brimmin' wiv Yangus's bottle.",
   "statistics": {
@@ -324,7 +313,6 @@
   ]
  },
  "bruiser-s-bracers": {
-  "id": "bruiser-s-bracers",
   "title": "Bruiser's Bracers",
   "description": "Wrist guards revered by the ranks of the martial arts.",
   "statistics": {
@@ -347,7 +335,6 @@
   ]
  },
  "cannock-gloves": {
-  "id": "cannock-gloves",
   "title": "Cannock Gloves",
   "description": "Fashionable fingerwear autographed by the Prince of Cannock.",
   "statistics": {
@@ -377,7 +364,6 @@
   ]
  },
  "carver-s-bracers": {
-  "id": "carver-s-bracers",
   "title": "Carver's Bracers",
   "description": "Rip-roaring wristwear worn by the hard-working Carver.",
   "statistics": {
@@ -407,7 +393,6 @@
   ]
  },
  "cotton-gloves": {
-  "id": "cotton-gloves",
   "title": "Cotton Gloves",
   "description": "Run-of-the-mill mitts made of unfancy fabric.",
   "statistics": {
@@ -447,7 +432,6 @@
   ]
  },
  "crimson-gauntlets": {
-  "id": "crimson-gauntlets",
   "title": "Crimson Gauntlets",
   "description": "Faithful fistwear of a rich red hue.",
   "statistics": {
@@ -474,7 +458,6 @@
   ]
  },
  "diana-gauntlets": {
-  "id": "diana-gauntlets",
   "title": "Diana Gauntlets",
   "description": "Moonlight-infused mittens with unparalleled defensive potential.",
   "statistics": {
@@ -504,7 +487,6 @@
   ]
  },
  "dragon-warrior-gloves": {
-  "id": "dragon-warrior-gloves",
   "title": "Dragon Warrior Gloves",
   "description": "Gloves given by Greygnarl as a token of friendship.",
   "statistics": {
@@ -539,7 +521,6 @@
   ]
  },
  "einhaender": {
-  "id": "einhaender",
   "title": "Einhänder",
   "description": "A one-handed glove that makes the wearer look well-hard.",
   "statistics": {
@@ -572,7 +553,6 @@
   ]
  },
  "enchanted-gloves": {
-  "id": "enchanted-gloves",
   "title": "Enchanted Gloves",
   "description": "Gloves whose saintly guardianship gives relief against magic attacks.",
   "statistics": {
@@ -609,7 +589,6 @@
   ]
  },
  "enchantress-s-gloves": {
-  "id": "enchantress-s-gloves",
   "title": "Enchantress's Gloves",
   "description": "Mitts made use of by female mages of a bygone age.",
   "statistics": {
@@ -629,7 +608,6 @@
   ]
  },
  "erdrick-s-gauntlets": {
-  "id": "erdrick-s-gauntlets",
   "title": "Erdrick's Gauntlets",
   "description": "High-grade gloves once graced by the hands of a legendary hero.",
   "statistics": {
@@ -656,7 +634,6 @@
   }
  },
  "ethereal-gloves": {
-  "id": "ethereal-gloves",
   "title": "Ethereal Gloves",
   "description": "Handwear that staves off spell damage with spiritual protection.",
   "statistics": {
@@ -688,7 +665,6 @@
   }
  },
  "femiscyran-fingerwear": {
-  "id": "femiscyran-fingerwear",
   "title": "Femiscyran Fingerwear",
   "description": "Gloves instilled with the strength of legendary woman warriors.",
   "statistics": {
@@ -708,7 +684,6 @@
   ]
  },
  "fingerless-gauntlets": {
-  "id": "fingerless-gauntlets",
   "title": "Fingerless Gauntlets",
   "description": "Handwear whose lack of digital coverage allows for deft movement.",
   "statistics": {
@@ -728,7 +703,6 @@
   ]
  },
  "fingerless-gloves": {
-  "id": "fingerless-gloves",
   "title": "Fingerless Gloves",
   "description": "Fingerwear favoured by female martial artists of a former age.",
   "statistics": {
@@ -747,7 +721,6 @@
   ]
  },
  "gigasteel-gauntlets": {
-  "id": "gigasteel-gauntlets",
   "title": "Gigasteel Gauntlets",
   "description": "Gorgeous gloves made of gigasteel.",
   "statistics": {
@@ -774,7 +747,6 @@
   }
  },
  "glommer-s-gloves": {
-  "id": "glommer-s-gloves",
   "title": "Glommer's Gloves",
   "description": "High-class handwear worn by heroes of the thieving hierarchy.",
   "statistics": {
@@ -794,7 +766,6 @@
   ]
  },
  "gloomy-gloves": {
-  "id": "gloomy-gloves",
   "title": "Gloomy Gloves",
   "description": "Mysterious mittens that impart mighty resilience to dark magic.",
   "statistics": {
@@ -833,7 +804,6 @@
   ]
  },
  "godly-gloves": {
-  "id": "godly-gloves",
   "title": "Godly Gloves",
   "description": "Divine digitwear that defies the undoable.",
   "statistics": {
@@ -863,7 +833,6 @@
   }
  },
  "gorgeous-gloves": {
-  "id": "gorgeous-gloves",
   "title": "Gorgeous Gloves",
   "description": "Modish mittens mainly adored by armamentalists.",
   "statistics": {
@@ -883,7 +852,6 @@
   ]
  },
  "gothan-wristbands": {
-  "id": "gothan-wristbands",
   "title": "Gothan Wristbands",
   "description": "Guards for the wrists that are relics of Gothan royalty.",
   "statistics": {
@@ -913,7 +881,6 @@
   }
  },
  "grandissimo-gloves": {
-  "id": "grandissimo-gloves",
   "title": "Grandissimo Gloves",
   "description": "Massively masculine mittens styled by the inimitable Morrie himself.",
   "statistics": {
@@ -943,7 +910,6 @@
   ]
  },
  "grandmaster-s-gloves": {
-  "id": "grandmaster-s-gloves",
   "title": "Grandmaster's Gloves",
   "description": "Mystical mitts that nurture nonpareil nimbleness.",
   "statistics": {
@@ -976,7 +942,6 @@
   ]
  },
  "guru-s-gloves": {
-  "id": "guru-s-gloves",
   "title": "Guru's Gloves",
   "description": "Mystical mitts made use of by a sage of distant memory.",
   "statistics": {
@@ -999,7 +964,6 @@
   }
  },
  "heavy-gauntlets": {
-  "id": "heavy-gauntlets",
   "title": "Heavy Gauntlets",
   "description": "Handwear once worn habitually by honest-to-goodness heroes.",
   "statistics": {
@@ -1025,7 +989,6 @@
   }
  },
  "heavy-handwear": {
-  "id": "heavy-handwear",
   "title": "Heavy Handwear",
   "description": "Thick, weighty gloves that give a good defensive boost.",
   "statistics": {
@@ -1057,7 +1020,6 @@
   }
  },
  "iron-gauntlets": {
-  "id": "iron-gauntlets",
   "title": "Iron Gauntlets",
   "description": "Elementary metal mitts.",
   "statistics": {
@@ -1090,7 +1052,6 @@
   ]
  },
  "kiefer-s-gloves": {
-  "id": "kiefer-s-gloves",
   "title": "Kiefer's Gloves",
   "description": "Handwear made of hide that's just perfect for Prince Kiefer.",
   "statistics": {
@@ -1120,7 +1081,6 @@
   ]
  },
  "leather-gauntlets": {
-  "id": "leather-gauntlets",
   "title": "Leather Gauntlets",
   "description": "Wholesome handwear made of hardy hide.",
   "statistics": {
@@ -1156,7 +1116,6 @@
   }
  },
  "leather-gloves": {
-  "id": "leather-gloves",
   "title": "Leather Gloves",
   "description": "Handwear made from tanned hide.",
   "statistics": {
@@ -1191,7 +1150,6 @@
   ]
  },
  "light-gauntlets": {
-  "id": "light-gauntlets",
   "title": "Light Gauntlets",
   "description": "Lightweight wonders worn by world-class wanderers.",
   "statistics": {
@@ -1219,7 +1177,6 @@
   ]
  },
  "linen-gloves": {
-  "id": "linen-gloves",
   "title": "Linen gloves",
   "description": "Well made workwear that won't wear easily.",
   "statistics": {
@@ -1253,7 +1210,6 @@
   }
  },
  "liquid-metal-slime-gloves": {
-  "id": "liquid-metal-slime-gloves",
   "title": "Liquid Metal Slime Gloves",
   "description": "Heavenly handwear that harbours the lustre of a liquid metal slime.",
   "statistics": {
@@ -1284,7 +1240,6 @@
   ]
  },
  "lockpicker-s-mitts": {
-  "id": "lockpicker-s-mitts",
   "title": "Lockpicker's Mitts",
   "description": "Gossamer-thin gloves for the purloining professional.",
   "statistics": {
@@ -1304,7 +1259,6 @@
   ]
  },
  "magic-mittens": {
-  "id": "magic-mittens",
   "title": "Magic Mittens",
   "description": "Magical mitts that diminish damage from magic attacks.",
   "statistics": {
@@ -1341,7 +1295,6 @@
   ]
  },
  "marquess-s-mittens": {
-  "id": "marquess-s-mittens",
   "title": "Marquess's Mittens",
   "description": "Graceful gloves that guard against Dazzle magic and confusion.",
   "statistics": {
@@ -1373,7 +1326,6 @@
   ]
  },
  "master-s-gloves": {
-  "id": "master-s-gloves",
   "title": "Master's Gloves",
   "description": "Magical mitts that make those who don them deliciously dextrous.",
   "statistics": {
@@ -1407,7 +1359,6 @@
   ]
  },
  "matador-s-gloves": {
-  "id": "matador-s-gloves",
   "title": "Matador's Gloves",
   "description": "The beloved badge of a bona fide bullfighter.",
   "statistics": {
@@ -1439,7 +1390,6 @@
   ]
  },
  "maya-s-bracelets": {
-  "id": "maya-s-bracelets",
   "title": "Maya's Bracelets",
   "description": "Memorabilia from Maya's magical performing moments.",
   "statistics": {
@@ -1469,7 +1419,6 @@
   ]
  },
  "mayoress-s-mittens": {
-  "id": "mayoress-s-mittens",
   "title": "Mayoress's Mittens",
   "description": "High-class handwear that hinders Dazzle magic and confusion.",
   "statistics": {
@@ -1503,7 +1452,6 @@
   ]
  },
  "mcryan-s-mittens": {
-  "id": "mcryan-s-mittens",
   "title": "McRyan's Mittens",
   "description": "Warrior's gloves once worn by Ragnar McRyan.",
   "statistics": {
@@ -1533,7 +1481,6 @@
   ]
  },
  "meena-s-bracelets": {
-  "id": "meena-s-bracelets",
   "title": "Meena's Bracelets",
   "description": "Alluring armlets that once rendered Meena's wrists resplendent.",
   "statistics": {
@@ -1563,7 +1510,6 @@
   ]
  },
  "mental-mittens": {
-  "id": "mental-mittens",
   "title": "Mental Mittens",
   "description": "Mittens for melee mash-ups mainly adored by armamentalists.",
   "statistics": {
@@ -1586,7 +1532,6 @@
   ]
  },
  "metal-king-slime-gloves": {
-  "id": "metal-king-slime-gloves",
   "title": "Metal King Slime Gloves",
   "description": "High-class handwear harbouring the brilliance of a metal king slime.",
   "statistics": {
@@ -1614,7 +1559,6 @@
   }
  },
  "metal-slime-gauntlets": {
-  "id": "metal-slime-gauntlets",
   "title": "Metal Slime Gauntlets",
   "description": "Handwear that harbours the mystical sheen of a metal slime.",
   "statistics": {
@@ -1643,7 +1587,6 @@
   ]
  },
  "metallic-mitts": {
-  "id": "metallic-mitts",
   "title": "Metallic Mitts",
   "description": "Good, strong, reinforced gloves worn by gladiators.",
   "statistics": {
@@ -1663,7 +1606,6 @@
   ]
  },
  "midenhall-gloves": {
-  "id": "midenhall-gloves",
   "title": "Midenhall Gloves",
   "description": "Homespun handwear preferred by the Prince of Midenhall.",
   "statistics": {
@@ -1693,7 +1635,6 @@
   }
  },
  "milly-s-bracers": {
-  "id": "milly-s-bracers",
   "title": "Milly's Bracers",
   "description": "Small, simple bracelets that suit Milly to a tee.",
   "statistics": {
@@ -1723,7 +1664,6 @@
   ]
  },
  "minister-s-mittens": {
-  "id": "minister-s-mittens",
   "title": "Minister's Mittens",
   "description": "Holy handwear that protected the palms of a priest of the past.",
   "statistics": {
@@ -1746,7 +1686,6 @@
   }
  },
  "monarch-s-mittens": {
-  "id": "monarch-s-mittens",
   "title": "Monarch's Mittens",
   "description": "A posh pair that protects against Dazzle magic and confusion.",
   "statistics": {
@@ -1778,7 +1717,6 @@
   ]
  },
  "murky-mittens": {
-  "id": "murky-mittens",
   "title": "Murky Mittens",
   "description": "Magical mittens that drive dark magic away.",
   "statistics": {
@@ -1812,7 +1750,6 @@
   }
  },
  "nera-s-bracelets": {
-  "id": "nera-s-bracelets",
   "title": "Nera's Bracelets",
   "description": "Ritzy wristwear worn by the blue-haired Briscoletti bambina.",
   "statistics": {
@@ -1842,7 +1779,6 @@
   ]
  },
  "riotous-wristbands": {
-  "id": "riotous-wristbands",
   "title": "Riotous Wristbands",
   "description": "Wristwear once worn by a whilom martial artist.",
   "statistics": {
@@ -1861,7 +1797,6 @@
   ]
  },
  "rubber-gloves": {
-  "id": "rubber-gloves",
   "title": "Rubber Gloves",
   "description": "Flexible fingerwear that confounds incoming flashes of lighting.",
   "statistics": {
@@ -1895,7 +1830,6 @@
   ]
  },
  "rusty-gauntlets": {
-  "id": "rusty-gauntlets",
   "title": "Rusty Gauntlets",
   "description": "Tarnished and tattered handwear of obscure origins.",
   "statistics": {
@@ -1921,7 +1855,6 @@
   ]
  },
  "silver-bracelets": {
-  "id": "silver-bracelets",
   "title": "Silver Bracelets",
   "description": "Basic silver bangles.",
   "statistics": {
@@ -1959,7 +1892,6 @@
   ]
  },
  "sol-invictus-gauntlets": {
-  "id": "sol-invictus-gauntlets",
   "title": "Sol Invictus Gauntlets",
   "description": "Solar smashers with unparalleled defensive potential.",
   "statistics": {
@@ -1985,7 +1917,6 @@
   }
  },
  "somnia-gloves": {
-  "id": "somnia-gloves",
   "title": "Somnia Gloves",
   "description": "Gloves that were the preferred pair of the Prince of Somnia.",
   "statistics": {
@@ -2015,7 +1946,6 @@
   }
  },
  "steel-gauntlets": {
-  "id": "steel-gauntlets",
   "title": "Steel Gauntlets",
   "description": "Hefty handwear made of hard steel.",
   "statistics": {
@@ -2045,7 +1975,6 @@
   ]
  },
  "sturdy-gauntlets": {
-  "id": "sturdy-gauntlets",
   "title": "Sturdy Gauntlets",
   "description": "Handwear sported by some celebrated chevaliers.",
   "statistics": {
@@ -2074,7 +2003,6 @@
   ]
  },
  "tempestes-gauntlets": {
-  "id": "tempestes-gauntlets",
   "title": "Tempestes Gauntlets",
   "description": "Stormy gauntlets with unparalleled defensive potential.",
   "statistics": {
@@ -2103,7 +2031,6 @@
   ]
  },
  "ultramarine-mittens": {
-  "id": "ultramarine-mittens",
   "title": "Ultramarine Mittens",
   "description": "Super-cool gloves in a totally on-trend turquoise.",
   "statistics": {
@@ -2138,7 +2065,6 @@
   ]
  },
  "vesta-gauntlets": {
-  "id": "vesta-gauntlets",
   "title": "Vesta Gauntlets",
   "description": "Fiery fist protectors with unparalleled defensive potential.",
   "statistics": {
@@ -2169,7 +2095,6 @@
   ]
  },
  "veteran-s-gloves": {
-  "id": "veteran-s-gloves",
   "title": "Veteran's Gloves",
   "description": "The well-worn handwear of a whilom warrior.",
   "statistics": {
@@ -2188,7 +2113,6 @@
   ]
  },
  "warrior-s-gloves": {
-  "id": "warrior-s-gloves",
   "title": "Warrior's Gloves",
   "description": "Very thick gloves that adorn the hands of all kinds of warrior.",
   "statistics": {
@@ -2209,7 +2133,6 @@
   ]
  },
  "wayfarer-s-gloves": {
-  "id": "wayfarer-s-gloves",
   "title": "Wayfarer's Gloves",
   "description": "Gloves gladly worn by globetrotters.",
   "statistics": {
@@ -2240,7 +2163,6 @@
   ]
  },
  "zenithian-gauntlets": {
-  "id": "zenithian-gauntlets",
   "title": "Zenithian Gauntlets",
   "description": "Wondrous handwear worn by the hero of Zenithia.",
   "statistics": {

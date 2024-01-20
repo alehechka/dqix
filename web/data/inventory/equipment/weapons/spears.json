@@ -1,6 +1,5 @@
 {
  "bamboo-lance": {
-  "id": "bamboo-lance",
   "title": "Bamboo Lance",
   "description": "A simple spear fashioned from fresh bamboo.",
   "statistics": {
@@ -22,7 +21,6 @@
   ]
  },
  "battle-fork": {
-  "id": "battle-fork",
   "title": "Battle Fork",
   "description": "A fair-sized fork that makes short work of aquatic enemies.",
   "statistics": {
@@ -53,7 +51,6 @@
   ]
  },
  "celestial-spear": {
-  "id": "celestial-spear",
   "title": "Celestial Spear",
   "description": "A super-sized spear suffused with a sacred light that zaps zombies.",
   "statistics": {
@@ -84,7 +81,6 @@
   ]
  },
  "demon-spear": {
-  "id": "demon-spear",
   "title": "Demon Spear",
   "description": "A spear that can floor a foe with a single well-sighted strike.",
   "statistics": {
@@ -113,7 +109,6 @@
   ]
  },
  "gigasteel-lance": {
-  "id": "gigasteel-lance",
   "title": "Gigasteel Lance",
   "description": "A souped-up steel lance with superior penetrative potential.",
   "statistics": {
@@ -136,7 +131,6 @@
   }
  },
  "gracos-s-trident": {
-  "id": "gracos-s-trident",
   "title": "Gracos's Trident",
   "description": "A spear said to once have been used by an emperor of the ocean.",
   "statistics": {
@@ -161,7 +155,6 @@
   }
  },
  "halberd": {
-  "id": "halberd",
   "title": "Halberd",
   "description": "A whopper of a weapon with elements of both a spear and a battle-axe.",
   "statistics": {
@@ -190,7 +183,6 @@
   }
  },
  "hero-spear": {
-  "id": "hero-spear",
   "title": "Hero Spear",
   "description": "A spear that serves to restore its bearer's HP with every strike.",
   "statistics": {
@@ -213,7 +205,6 @@
   ]
  },
  "holy-lance": {
-  "id": "holy-lance",
   "title": "Holy Lance",
   "description": "A holy lance blessed by the Almighty that zealously zaps zombies.",
   "statistics": {
@@ -248,7 +239,6 @@
   ]
  },
  "iron-lance": {
-  "id": "iron-lance",
   "title": "Iron Lance",
   "description": "A spear made of iron for everyday action.",
   "statistics": {
@@ -278,7 +268,6 @@
   ]
  },
  "lightning-lance": {
-  "id": "lightning-lance",
   "title": "Lightning Lance",
   "description": "A magical spear within which lingers the power of lightning.",
   "statistics": {
@@ -310,7 +299,6 @@
   ]
  },
  "liquid-metal-spear": {
-  "id": "liquid-metal-spear",
   "title": "Liquid Metal Spear",
   "description": "A supreme spear packed with the power of liquid metal slimes.",
   "statistics": {
@@ -338,7 +326,6 @@
   ]
  },
  "long-spear": {
-  "id": "long-spear",
   "title": "Long Spear",
   "description": "A long and leaden javelin.",
   "statistics": {
@@ -368,7 +355,6 @@
   ]
  },
  "metal-king-spear": {
-  "id": "metal-king-spear",
   "title": "Metal King Spear",
   "description": "A supreme spear packed with the power of metal king slimes.",
   "statistics": {
@@ -393,7 +379,6 @@
   }
  },
  "metal-slime-spear": {
-  "id": "metal-slime-spear",
   "title": "Metal Slime Spear",
   "description": "A supreme spear packed with the power of metal slimes.",
   "statistics": {
@@ -419,7 +404,6 @@
   ]
  },
  "partisan": {
-  "id": "partisan",
   "title": "Partisan",
   "description": "A sizeable spear with blades stemming from the sides of the spike.",
   "statistics": {
@@ -449,7 +433,6 @@
   ]
  },
  "poker": {
-  "id": "poker",
   "title": "Poker",
   "description": "A lavish lance that can shoot through any shield.",
   "statistics": {
@@ -479,7 +462,6 @@
   ]
  },
  "red-hot-poker": {
-  "id": "red-hot-poker",
   "title": "Red-Hot Poker",
   "description": "An unrivalled lance that can shoot through any shield.",
   "statistics": {
@@ -504,7 +486,6 @@
   }
  },
  "sandstorm-spear": {
-  "id": "sandstorm-spear",
   "title": "Sandstorm Spear",
   "description": "A spear that sends sand to blind baddies if used as an item in battle.",
   "statistics": {
@@ -537,7 +518,6 @@
   ]
  },
  "split-pot-poker": {
-  "id": "split-pot-poker",
   "title": "Split-Pot Poker",
   "description": "A lethal lance that can shoot through any shield.",
   "statistics": {
@@ -565,7 +545,6 @@
   ]
  },
  "steel-lance": {
-  "id": "steel-lance",
   "title": "Steel Lance",
   "description": "A basic spear with a steel spike.",
   "statistics": {
@@ -591,7 +570,6 @@
   ]
  },
  "storm-spear": {
-  "id": "storm-spear",
   "title": "Storm Spear",
   "description": "A spear said to have served a god of thunder in bygone days.",
   "statistics": {
@@ -616,7 +594,6 @@
   }
  },
  "stud-poker": {
-  "id": "stud-poker",
   "title": "Stud Poker",
   "description": "An alarming lance that can shoot through any shield.",
   "statistics": {
@@ -645,7 +622,6 @@
   ]
  },
  "trident": {
-  "id": "trident",
   "title": "Trident",
   "description": "A three-pronged fork that facilitates the filleting of fishy foes.",
   "statistics": {

@@ -13,12 +13,14 @@ type WikidotParser struct {
 	config       *parser.Config
 	pages        types.Pages
 	inventoryMap types.InventoryMap
+	monsterMap   types.MonsterMap
 }
 
 func Init(config *parser.Config) parser.Parser {
 	return &WikidotParser{
 		config:       config,
 		inventoryMap: make(types.InventoryMap),
+		monsterMap:   make(types.MonsterMap),
 	}
 }
 
@@ -43,10 +45,28 @@ func (p WikidotParser) Parse() (err error) {
 			p.inventoryMap.AddInventory(page.ParseAsItem())
 		case "arms", "head", "feet", "legs", "shield", "torso", "accessories":
 			p.inventoryMap.AddInventory(page.ParseAsArmor())
+		case "monster":
+			p.monsterMap.AddMonster(page.ParseMonster())
 		}
 	}
 
-	return p.inventoryMap.WriteJSON(filepath.Join(p.config.Path, "inventory"))
+	if err := os.RemoveAll(p.config.OutputDirectory); err != nil {
+		return err
+	}
+
+	return p.WriteJSON()
+}
+
+func (p *WikidotParser) WriteJSON() (err error) {
+	if err := p.inventoryMap.WriteJSON(filepath.Join(p.config.OutputDirectory, "inventory")); err != nil {
+		return err
+	}
+
+	if err := p.monsterMap.WriteJSON(p.config.OutputDirectory); err != nil {
+		return err
+	}
+
+	return
 }
 
 func (p *WikidotParser) ReadInputFile() (err error) {

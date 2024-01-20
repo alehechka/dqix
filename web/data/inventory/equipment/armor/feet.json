@@ -1,6 +1,5 @@
 {
  "acroboots": {
-  "id": "acroboots",
   "title": "Acroboots",
   "description": "Fleet footwear that's made to measure for minstrels.",
   "statistics": {
@@ -24,7 +23,6 @@
   ]
  },
  "agiliboots": {
-  "id": "agiliboots",
   "title": "Agiliboots",
   "description": "Lightning-fast footwear that's loved by lots of rangers.",
   "statistics": {
@@ -45,7 +43,6 @@
   ]
  },
  "alefgard-boots": {
-  "id": "alefgard-boots",
   "title": "Alefgard Boots",
   "description": "The first choice of footwear for the folks of Alefgard.",
   "statistics": {
@@ -76,7 +73,6 @@
   }
  },
  "aliahan-boots": {
-  "id": "aliahan-boots",
   "title": "Aliahan Boots",
   "description": "Fondly worn footwear of a fabled hero.",
   "statistics": {
@@ -106,7 +102,6 @@
   }
  },
  "aquila-s-boots": {
-  "id": "aquila-s-boots",
   "title": "Aquila's Boots",
   "description": "Footwear fabricated for senior Celestrians.",
   "statistics": {
@@ -136,7 +131,6 @@
   ]
  },
  "ashlynn-s-shoes": {
-  "id": "ashlynn-s-shoes",
   "title": "Ashlynn's Shoes",
   "description": "Fast, flexible footwear fresh from Ashlynn's wardrobe.",
   "statistics": {
@@ -166,7 +160,6 @@
   ]
  },
  "bandit-boots": {
-  "id": "bandit-boots",
   "title": "Bandit Boots",
   "description": "Fast, flexible footwear favoured by those of the filching fraternity.",
   "statistics": {
@@ -187,7 +180,6 @@
   ]
  },
  "bardic-boots": {
-  "id": "bardic-boots",
   "title": "Bardic Boots",
   "description": "Fine footwear that makes luminaries look lovely.",
   "statistics": {
@@ -210,7 +202,6 @@
   }
  },
  "basilic-boots": {
-  "id": "basilic-boots",
   "title": "Basilic Boots",
   "description": "Fabled footwear that heals health points as its wearer wanders.",
   "statistics": {
@@ -242,7 +233,6 @@
   ]
  },
  "bianca-s-boots": {
-  "id": "bianca-s-boots",
   "title": "Bianca's Boots",
   "description": "Bianca's favourite fleecy footwear.",
   "statistics": {
@@ -272,7 +262,6 @@
   ]
  },
  "blahnolo-maniks": {
-  "id": "blahnolo-maniks",
   "title": "Blahnolo Maniks",
   "description": "Stellar shoes that Stella swears are the way to almost anyone's heart.",
   "statistics": {
@@ -302,7 +291,6 @@
   ]
  },
  "blessed-boots": {
-  "id": "blessed-boots",
   "title": "Blessed Boots",
   "description": "Sacred soles that protected the pins of past priests.",
   "statistics": {
@@ -325,7 +313,6 @@
   }
  },
  "boots-of-beatitude": {
-  "id": "boots-of-beatitude",
   "title": "Boots of Beatitude",
   "description": "Fantastic footwear that heals health points as its wearer wanders.",
   "statistics": {
@@ -353,7 +340,6 @@
   }
  },
  "borya-s-boots": {
-  "id": "borya-s-boots",
   "title": "Borya's Boots",
   "description": "Sharp leather shoes with tapered toe-tips that belong to Borya.",
   "statistics": {
@@ -383,7 +369,6 @@
   ]
  },
  "bovver-boots": {
-  "id": "bovver-boots",
   "title": "Bovver Boots",
   "description": "'Ard-wearin' ones an' twos that Yangus 'as 'ad fer donkey's years.",
   "statistics": {
@@ -413,7 +398,6 @@
   ]
  },
  "brahman-boots": {
-  "id": "brahman-boots",
   "title": "Brahman Boots",
   "description": "Boots beloved by bygone sages.",
   "statistics": {
@@ -437,7 +421,6 @@
   ]
  },
  "cannock-boots": {
-  "id": "cannock-boots",
   "title": "Cannock Boots",
   "description": "Heel-huggers for hikers that are commonplace in Cannock.",
   "statistics": {
@@ -467,7 +450,6 @@
   ]
  },
  "carver-s-shoes": {
-  "id": "carver-s-shoes",
   "title": "Carver's Shoes",
   "description": "Bulky boots that carry Carver's uncompromising confidence.",
   "statistics": {
@@ -497,7 +479,6 @@
   ]
  },
  "casanova-clogs": {
-  "id": "casanova-clogs",
   "title": "Casanova Clogs",
   "description": "Shoes with a style of their own that only Morrie can carry off.",
   "statistics": {
@@ -527,7 +508,6 @@
   ]
  },
  "celestial-shoes": {
-  "id": "celestial-shoes",
   "title": "Celestial Shoes",
   "description": "Unsophisticated footwear well-suited to apprenticing Celestrians.",
   "statistics": {
@@ -560,7 +540,6 @@
   ]
  },
  "chic-chaussures": {
-  "id": "chic-chaussures",
   "title": "Chic Chaussures",
   "description": "Feisty footwear of Fleurette's that feels delightfully devilish.",
   "statistics": {
@@ -590,7 +569,6 @@
   ]
  },
  "classy-clogs": {
-  "id": "classy-clogs",
   "title": "Classy Clogs",
   "description": "A slightly slicker style of clogs that are good for going out in.",
   "statistics": {
@@ -621,7 +599,6 @@
   }
  },
  "clever-clogs": {
-  "id": "clever-clogs",
   "title": "Clever Clogs",
   "description": "Fine footwear for sages that's tailor-made for travelling.",
   "statistics": {
@@ -644,7 +621,6 @@
   ]
  },
  "clogs": {
-  "id": "clogs",
   "title": "Clogs",
   "description": "A chunky pair of pumps chiseled from a tree.",
   "statistics": {
@@ -682,7 +658,6 @@
   ]
  },
  "combat-boots": {
-  "id": "combat-boots",
   "title": "Combat Boots",
   "description": "Footwear favoured by long-forgotten martial artists.",
   "statistics": {
@@ -701,7 +676,6 @@
   ]
  },
  "cowboy-boots": {
-  "id": "cowboy-boots",
   "title": "Cowboy Boots",
   "description": "Funky footwear appropriate for armamentalists.",
   "statistics": {
@@ -721,7 +695,6 @@
   ]
  },
  "crimson-boots": {
-  "id": "crimson-boots",
   "title": "Crimson Boots",
   "description": "Rich red runners that suit luminaries splendidly.",
   "statistics": {
@@ -744,7 +717,6 @@
   }
  },
  "depressing-shoes": {
-  "id": "depressing-shoes",
   "title": "Depressing Shoes",
   "description": "Forlorn footwear that's full of misfortune.",
   "statistics": {
@@ -780,7 +752,6 @@
   ]
  },
  "dragon-warrior-boots": {
-  "id": "dragon-warrior-boots",
   "title": "Dragon Warrior Boots",
   "description": "Given by Greygnarl as a token of friendship.",
   "statistics": {
@@ -815,7 +786,6 @@
   ]
  },
  "elevating-shoes": {
-  "id": "elevating-shoes",
   "title": "Elevating Shoes",
   "description": "Footwear that fosters floods of experience.",
   "statistics": {
@@ -851,7 +821,6 @@
   ]
  },
  "emperor-s-boots": {
-  "id": "emperor-s-boots",
   "title": "Emperor's Boots",
   "description": "Formidable footwear that heals health points as its wearer wanders.",
   "statistics": {
@@ -882,7 +851,6 @@
   ]
  },
  "erinn-s-boots": {
-  "id": "erinn-s-boots",
   "title": "Erinn's Boots",
   "description": "Boots beloved by Erinn for their flexibility and comfort.",
   "statistics": {
@@ -912,7 +880,6 @@
   ]
  },
  "estard-shoes": {
-  "id": "estard-shoes",
   "title": "Estard Shoes",
   "description": "A pair of pumps popular with the people of Estard.",
   "statistics": {
@@ -942,7 +909,6 @@
   }
  },
  "femiscyran-footwear": {
-  "id": "femiscyran-footwear",
   "title": "Femiscyran Footwear",
   "description": "Lightweight boots that allow lady warriors ease of movement.",
   "statistics": {
@@ -962,7 +928,6 @@
   ]
  },
  "frugal-footwear": {
-  "id": "frugal-footwear",
   "title": "Frugal Footwear",
   "description": "Resolutely unshowy shoes popular with priests.",
   "statistics": {
@@ -983,7 +948,6 @@
   ]
  },
  "galvanised-geta": {
-  "id": "galvanised-geta",
   "title": "Galvanised geta",
   "description": "Ferrous footwear that, though heavy, complements defence.",
   "statistics": {
@@ -1020,7 +984,6 @@
   ]
  },
  "gigasteel-sabatons": {
-  "id": "gigasteel-sabatons",
   "title": "Gigasteel Sabatons",
   "description": "Beautiful boots made of a miraculous metal.",
   "statistics": {
@@ -1051,7 +1014,6 @@
   ]
  },
  "gothan-gumboots": {
-  "id": "gothan-gumboots",
   "title": "Gothan Gumboots",
   "description": "Tough trekker's wear that's a trademark of Gotha.",
   "statistics": {
@@ -1081,7 +1043,6 @@
   }
  },
  "hero-s-boots": {
-  "id": "hero-s-boots",
   "title": "Hero's Boots",
   "description": "Fancy footwear that heals health points as its wearer wanders.",
   "statistics": {
@@ -1114,7 +1075,6 @@
   ]
  },
  "high-class-heels": {
-  "id": "high-class-heels",
   "title": "High-Class Heels",
   "description": "Shiny white shoes that beautify the feet of brides everywhere.",
   "statistics": {
@@ -1145,7 +1105,6 @@
   ]
  },
  "high-heels": {
-  "id": "high-heels",
   "title": "High Heels",
   "description": "Fancy but not-so-functional female footwear.",
   "statistics": {
@@ -1183,7 +1142,6 @@
   ]
  },
  "highland-boots": {
-  "id": "highland-boots",
   "title": "Highland Boots",
   "description": "Shoes with shin pads that Ragnar McRyan raves about.",
   "statistics": {
@@ -1213,7 +1171,6 @@
   ]
  },
  "highness-heels": {
-  "id": "highness-heels",
   "title": "Highness Heels",
   "description": "Sky-high heels fit for the feet of queens.",
   "statistics": {
@@ -1247,7 +1204,6 @@
   ]
  },
  "hiking-boots": {
-  "id": "hiking-boots",
   "title": "Hiking Boots",
   "description": "Rugged boots beloved by rangers for their fleet, firm stride.",
   "statistics": {
@@ -1268,7 +1224,6 @@
   ]
  },
  "hip-boots": {
-  "id": "hip-boots",
   "title": "Hip Boots",
   "description": "Shoes that show off armamentalists' shapely shanks.",
   "statistics": {
@@ -1288,7 +1243,6 @@
   ]
  },
  "hobnail-boots": {
-  "id": "hobnail-boots",
   "title": "Hobnail Boots",
   "description": "Sturdy yet snug leather footwear.",
   "statistics": {
@@ -1319,7 +1273,6 @@
   }
  },
  "iron-sabatons": {
-  "id": "iron-sabatons",
   "title": "Iron Sabatons",
   "description": "Basic boots made of metal.",
   "statistics": {
@@ -1352,7 +1305,6 @@
   ]
  },
  "kiefer-s-shoes": {
-  "id": "kiefer-s-shoes",
   "title": "Kiefer's Shoes",
   "description": "Kit of Kiefer's that's been created from high-quality hide.",
   "statistics": {
@@ -1382,7 +1334,6 @@
   ]
  },
  "kiryl-s-boots": {
-  "id": "kiryl-s-boots",
   "title": "Kiryl's Boots",
   "description": "Bishop Kiryl's loose-fitting, functional long boots.",
   "statistics": {
@@ -1412,7 +1363,6 @@
   ]
  },
  "kung-fu-shoes": {
-  "id": "kung-fu-shoes",
   "title": "Kung Fu Shoes",
   "description": "Footwear made for martial artists to master their moves in.",
   "statistics": {
@@ -1435,7 +1385,6 @@
   ]
  },
  "leather-boots": {
-  "id": "leather-boots",
   "title": "Leather Boots",
   "description": "Unrefined footwear made of hide.",
   "statistics": {
@@ -1470,7 +1419,6 @@
   ]
  },
  "leather-shoes": {
-  "id": "leather-shoes",
   "title": "Leather Shoes",
   "description": "Folksy, yet in fashion fashionable, animal-skin shoes.",
   "statistics": {
@@ -1509,7 +1457,6 @@
   ]
  },
  "liquid-metal-slime-boots": {
-  "id": "liquid-metal-slime-boots",
   "title": "Liquid Metal Slime Boots",
   "description": "Oozy shoes imbued with the agility of a liquid metal slime.",
   "statistics": {
@@ -1539,7 +1486,6 @@
   ]
  },
  "maribel-s-shoes": {
-  "id": "maribel-s-shoes",
   "title": "Maribel's Shoes",
   "description": "A pretty pretty pair of Maribel's pumps.",
   "statistics": {
@@ -1569,7 +1515,6 @@
   ]
  },
  "metal-king-slime-boots": {
-  "id": "metal-king-slime-boots",
   "title": "Metal King Slime Boots",
   "description": "Oozy shoes imbued with the agility of a metal king slime.",
   "statistics": {
@@ -1596,7 +1541,6 @@
   }
  },
  "metal-slime-sollerets": {
-  "id": "metal-slime-sollerets",
   "title": "Metal Slime Sollerets",
   "description": "Oozy shoes imbued with the agility of a metal slime.",
   "statistics": {
@@ -1628,7 +1572,6 @@
   ]
  },
  "midenhall-boots": {
-  "id": "midenhall-boots",
   "title": "Midenhall Boots",
   "description": "Sturdy shoes that once protected the Prince of Midenhall's pins.",
   "statistics": {
@@ -1658,7 +1601,6 @@
   }
  },
  "milly-s-shoes": {
-  "id": "milly-s-shoes",
   "title": "Milly's Shoes",
   "description": "Almost unfeasibly fine footwear worn by Mistress Milly.",
   "statistics": {
@@ -1688,7 +1630,6 @@
   ]
  },
  "moonbrooke-shoes": {
-  "id": "moonbrooke-shoes",
   "title": "Moonbrooke Shoes",
   "description": "A pretty pair of pumps particularly loved by the princess of Moonbrooke.",
   "statistics": {
@@ -1718,7 +1659,6 @@
   ]
  },
  "nera-s-boots": {
-  "id": "nera-s-boots",
   "title": "Nera's Boots",
   "description": "Unshowy shoes that become Nera Briscoletti brilliantly.",
   "statistics": {
@@ -1748,7 +1688,6 @@
   ]
  },
  "patty-s-pumps": {
-  "id": "patty-s-pumps",
   "title": "Patty's Pumps",
   "description": "Boots well-suited to Patty the pub landlady.",
   "statistics": {
@@ -1778,7 +1717,6 @@
   ]
  },
  "payback-pumps": {
-  "id": "payback-pumps",
   "title": "Payback Pumps",
   "description": "A gift for gladiators that bounces a beating back at its perpetrator.",
   "statistics": {
@@ -1805,7 +1743,6 @@
   ]
  },
  "pixie-boots": {
-  "id": "pixie-boots",
   "title": "Pixie Boots",
   "description": "Strange shoes that aren't shy of perilous places.",
   "statistics": {
@@ -1845,7 +1782,6 @@
   ]
  },
  "posh-pumps": {
-  "id": "posh-pumps",
   "title": "Posh Pumps",
   "description": "Shoes belonging to Jessica that young ladies yearn for.",
   "statistics": {
@@ -1875,7 +1811,6 @@
   ]
  },
  "safer-shoes": {
-  "id": "safer-shoes",
   "title": "Safer Shoes",
   "description": "A significantly stouter sort of safety shoes.",
   "statistics": {
@@ -1904,7 +1839,6 @@
   ]
  },
  "safest-shoes": {
-  "id": "safest-shoes",
   "title": "Safest Shoes",
   "description": "A supremely stout set of safety shoes that define defensiveness.",
   "statistics": {
@@ -1929,7 +1863,6 @@
   }
  },
  "safety-shoes": {
-  "id": "safety-shoes",
   "title": "Safety Shoes",
   "description": "Firm footwear that's fitted with metal reinforcements.",
   "statistics": {
@@ -1960,7 +1893,6 @@
   ]
  },
  "sagacious-sandals": {
-  "id": "sagacious-sandals",
   "title": "Sagacious Sandals",
   "description": "Sacred strappy shoes that magnify max. MP and restore it too.",
   "statistics": {
@@ -1996,7 +1928,6 @@
   ]
  },
  "saintly-sollerets": {
-  "id": "saintly-sollerets",
   "title": "Saintly Sollerets",
   "description": "Godly greaves that give protection to paladins' legs and feet.",
   "statistics": {
@@ -2016,7 +1947,6 @@
   ]
  },
  "samhita-sandals": {
-  "id": "samhita-sandals",
   "title": "Samhita Sandals",
   "description": "Choice chappals befitting Meena's demeanour.",
   "statistics": {
@@ -2046,7 +1976,6 @@
   ]
  },
  "sandals": {
-  "id": "sandals",
   "title": "Sandals",
   "description": "Simple slip-ons that slip on simply.",
   "statistics": {
@@ -2077,7 +2006,6 @@
   ]
  },
  "sapient-sandals": {
-  "id": "sapient-sandals",
   "title": "Sapient Sandals",
   "description": "Special strappy shoes that magnify max. MP and restore it too.",
   "statistics": {
@@ -2112,7 +2040,6 @@
   ]
  },
  "sattriya-sandals": {
-  "id": "sattriya-sandals",
   "title": "Sattriya Sandals",
   "description": "Maya's charming chappals with attached anklets.",
   "statistics": {
@@ -2142,7 +2069,6 @@
   ]
  },
  "sensible-sandals": {
-  "id": "sensible-sandals",
   "title": "Sensible Sandals",
   "description": "Strange strappy shoes that magnify max. MP and restore it too.",
   "statistics": {
@@ -2179,7 +2105,6 @@
   ]
  },
  "sentient-sandals": {
-  "id": "sentient-sandals",
   "title": "Sentient Sandals",
   "description": "Superlative strappy shoes that magnify max. MP and restore it too.",
   "statistics": {
@@ -2211,7 +2136,6 @@
   }
  },
  "shaman-shoes": {
-  "id": "shaman-shoes",
   "title": "Shaman Shoes",
   "description": "First-class footwear that sages find fantastic.",
   "statistics": {
@@ -2232,7 +2156,6 @@
   ]
  },
  "she-fu-shoes": {
-  "id": "she-fu-shoes",
   "title": "She-Fu Shoes",
   "description": "Shoes equally suited for dealing damage and dancing the night away.",
   "statistics": {
@@ -2254,7 +2177,6 @@
   ]
  },
  "she-mage-shoes": {
-  "id": "she-mage-shoes",
   "title": "She-Mage Shoes",
   "description": "Footwear found on female mages of a former age.",
   "statistics": {
@@ -2274,7 +2196,6 @@
   ]
  },
  "sheepskin-shoes": {
-  "id": "sheepskin-shoes",
   "title": "Sheepskin Shoes",
   "description": "White winter warmers popular with priests.",
   "statistics": {
@@ -2295,7 +2216,6 @@
   ]
  },
  "siren-sandals": {
-  "id": "siren-sandals",
   "title": "Siren Sandals",
   "description": "Footwear that's just made for mages.",
   "statistics": {
@@ -2319,7 +2239,6 @@
   ]
  },
  "sneakers": {
-  "id": "sneakers",
   "title": "Sneakers",
   "description": "Fine footwear that allows thieves to move quickly and quietly.",
   "statistics": {
@@ -2340,7 +2259,6 @@
   ]
  },
  "somnia-boots": {
-  "id": "somnia-boots",
   "title": "Somnia Boots",
   "description": "Comfortable footwear favoured by the Prince of Somnia.",
   "statistics": {
@@ -2370,7 +2288,6 @@
   }
  },
  "sorceress-sandals": {
-  "id": "sorceress-sandals",
   "title": "Sorceress Sandals",
   "description": "Fabulous flip-flops that foster magical might.",
   "statistics": {
@@ -2392,7 +2309,6 @@
   }
  },
  "spellspadrilles": {
-  "id": "spellspadrilles",
   "title": "Spellspadrilles",
   "description": "Shoes supposedly sported by mages of a bygone age.",
   "statistics": {
@@ -2412,7 +2328,6 @@
   ]
  },
  "starlet-sandals": {
-  "id": "starlet-sandals",
   "title": "Starlet Sandals",
   "description": "Mules fashionable among female minstrels.",
   "statistics": {
@@ -2438,7 +2353,6 @@
   ]
  },
  "steel-sabatons": {
-  "id": "steel-sabatons",
   "title": "Steel Sabatons",
   "description": "Brawny boots made of a mighty metal.",
   "statistics": {
@@ -2470,7 +2384,6 @@
   ]
  },
  "stiletto-heels": {
-  "id": "stiletto-heels",
   "title": "Stiletto Heels",
   "description": "Even higher heels that lengthen the lines of ladies' legs.",
   "statistics": {
@@ -2509,7 +2422,6 @@
   ]
  },
  "templar-boots": {
-  "id": "templar-boots",
   "title": "Templar Boots",
   "description": "Boots worn by knights of the Church like the amorous Angelo.",
   "statistics": {
@@ -2539,7 +2451,6 @@
   ]
  },
  "thug-boots": {
-  "id": "thug-boots",
   "title": "Thug Boots",
   "description": "Unrefined footwear that thugs thump around in.",
   "statistics": {
@@ -2569,7 +2480,6 @@
   ]
  },
  "torneko-s-sandals": {
-  "id": "torneko-s-sandals",
   "title": "Torneko's Sandals",
   "description": "Torneko Taloon's treasured treaders.",
   "statistics": {
@@ -2599,7 +2509,6 @@
   ]
  },
  "tricksie-boots": {
-  "id": "tricksie-boots",
   "title": "Tricksie Boots",
   "description": "Sacred shoes that aren't at all shy of perilous places.",
   "statistics": {
@@ -2632,7 +2541,6 @@
   }
  },
  "trodainers": {
-  "id": "trodainers",
   "title": "Trodainers",
   "description": "A cut-price pair of pumps that are popular in Trodain.",
   "statistics": {
@@ -2662,7 +2570,6 @@
   }
  },
  "trode-s-treads": {
-  "id": "trode-s-treads",
   "title": "Trode's Treads",
   "description": "Shoes supposedly sported by King Trode on a clandestine quest.",
   "statistics": {
@@ -2692,7 +2599,6 @@
   ]
  },
  "valenki": {
-  "id": "valenki",
   "title": "Valenki",
   "description": "Long boots belonging to Tsarevna Alena that go great with her gloves.",
   "statistics": {
@@ -2722,7 +2628,6 @@
   ]
  },
  "veteran-s-boots": {
-  "id": "veteran-s-boots",
   "title": "Veteran's Boots",
   "description": "A pair of pumps perhaps pulled on by a bygone battler.",
   "statistics": {
@@ -2741,7 +2646,6 @@
   ]
  },
  "warrior-s-boots": {
-  "id": "warrior-s-boots",
   "title": "Warrior's Boots",
   "description": "Steadfast footwear worn by warriors.",
   "statistics": {
@@ -2761,7 +2665,6 @@
   ]
  },
  "wellington-boots": {
-  "id": "wellington-boots",
   "title": "Wellington Boots",
   "description": "Robust rubber boots that insulate against electrical attacks.",
   "statistics": {
@@ -2798,7 +2701,6 @@
   ]
  },
  "white-wing-tips": {
-  "id": "white-wing-tips",
   "title": "White Wing-Tips",
   "description": "Shiny shoes with a formal feel.",
   "statistics": {
@@ -2829,7 +2731,6 @@
   ]
  },
  "wizard-wellies": {
-  "id": "wizard-wellies",
   "title": "Wizard Wellies",
   "description": "Bewitching pointed boots that are much-loved by mages.",
   "statistics": {
@@ -2850,7 +2751,6 @@
   ]
  },
  "wu-shoes": {
-  "id": "wu-shoes",
   "title": "Wu Shoes",
   "description": "Footwear fit for only the most skilled of martial artists.",
   "statistics": {
@@ -2870,7 +2770,6 @@
   }
  },
  "zenithian-boots": {
-  "id": "zenithian-boots",
   "title": "Zenithian Boots",
   "description": "Boots once worn by the brave hero of Zenithia.",
   "statistics": {

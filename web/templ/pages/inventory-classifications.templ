@@ -86,12 +86,12 @@ templ InventoryClassificationTable(params InventoryClassificationParams) {
 		</thead>
 		<tbody role="rowgroup" class="[&>tr:nth-child(odd)]:bg-gray-100 dark:[&>tr:nth-child(odd)]:bg-zinc-800" hx-boost="true" hx-target="#page-content" hx-swap="innerHTML">
 			for _, inventory := range params.Inventories {
-				<tr key={ inventory.ID } role="row" class="[&>td]:py-2 [&>td]:pr-4 [&>th]:py-2 [&>th]:pr-4 [&>td:is(.text-center)]:pl-4">
+				<tr key={ inventory.GetID() } role="row" class="[&>td]:py-2 [&>td]:pr-4 [&>th]:py-2 [&>th]:pr-4 [&>td:is(.text-center)]:pl-4">
 					<th scope="row" role="cell" data-cell="name" class="text-left">
 						@links.Link(inventory.Title, fn.Path(inventory.GetPath()), nil)
 					</th>
 					<td role="cell" data-cell="image" width="49px">
-						<img src={ inventory.ImageSrc() } alt={ inventory.ID }/>
+						<img src={ inventory.ImageSrc() } alt={ inventory.GetID() }/>
 					</td>
 					if params.Stats.HasAttack {
 						<td role="cell" data-cell="attack" class="text-center">
@@ -226,7 +226,7 @@ templ InventoryClassificationList(inventories types.InventorySlice) {
 	<ul hx-boost="true" hx-target="#page-content" hx-swap="innerHTML" class="[&>li]:flex [&>li]:items-center">
 		for _, inventory := range inventories {
 			<li>
-				<img src={ inventory.ImageSrc() } alt={ inventory.ID }/>
+				<img src={ inventory.ImageSrc() } alt={ inventory.GetID() }/>
 				@links.Link(inventory.Title, fn.Path(inventory.GetPath()), nil)
 			</li>
 		}

@@ -1,0 +1,74 @@
+{
+ "elusid": {
+  "number": 287,
+  "title": "Elusid",
+  "description": "Mere mention of this paragon of perniciousness is enough to send even practised pugilists into paroxysms of panic.",
+  "secondaryDescription": "This myth-enshrouded monster is the main focus of many a mad theory, but only the Almighty knows the truth of its origins…",
+  "experience": 25500,
+  "goldDropped": 1395,
+  "family": "Dragon",
+  "whereToFind": [
+   "Grotto (Rank 3-7",
+   "11-12; Suffix: Doubt",
+   "Woe",
+   "Dolour",
+   "Regret",
+   "Bane",
+   "Fear)"
+  ],
+  "itemsDropped": {
+   "star-s-suit": "(steal only)"
+  },
+  "battleInfo": {
+   "elementalAversions": "Earth (1.5x damage)"
+  }
+ },
+ "greygnarl": {
+  "number": 294,
+  "title": "Greygnarl",
+  "description": "The hero of the skies, back from the dead after his supposed slaying, and more mind-blowingly mighty than ever.",
+  "secondaryDescription": "It was Barbarus the dark who brought back Greygnarl the light, his second brother after Styrmling the sacred.",
+  "experience": 80000,
+  "goldDropped": 2392,
+  "family": "Dragon",
+  "whereToFind": [
+   "Grotto (Rank 10-12; Suffix: Dread",
+   "Hurt",
+   "Gloom",
+   "Doom",
+   "Evil",
+   "Ruin",
+   "Death)"
+  ],
+  "itemsDropped": {
+   "yggdrasil-leaf": "(100%)"
+  },
+  "battleInfo": {
+   "elementalAversions": "Ice, dark (1.5x damage)"
+  }
+ },
+ "greygnarl-(grotto)": {
+  "number": 294,
+  "title": "Greygnarl (grotto)",
+  "description": "The hero of the skies, back from the dead after his supposed slaying, and more mind-blowingly mighty than ever.",
+  "secondaryDescription": "It was Barbarus the dark who brought back Greygnarl the light, his second brother after Styrmling the sacred.",
+  "experience": 80000,
+  "goldDropped": 2392,
+  "family": "Dragon",
+  "whereToFind": [
+   "Grotto (Rank 10-12; Suffix: Dread",
+   "Hurt",
+   "Gloom",
+   "Doom",
+   "Evil",
+   "Ruin",
+   "Death)"
+  ],
+  "itemsDropped": {
+   "yggdrasil-leaf": "(100%)"
+  },
+  "battleInfo": {
+   "elementalAversions": "Ice, dark (1.5x damage)"
+  }
+ }
+}

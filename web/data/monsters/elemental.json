@@ -1,0 +1,71 @@
+{
+ "admirer": {
+  "number": 99,
+  "title": "Admirer",
+  "description": "Monsters made of amorphous goo that are best subdued with spells. Try frying or freezing them for the best results.",
+  "experience": 440,
+  "family": "Elemental",
+  "whereToFind": [
+   "The Plumbed Depths"
+  ],
+  "battleInfo": {}
+ },
+ "cumaulus": {
+  "number": 27,
+  "title": "Cumaulus",
+  "description": "Companionable clouds who crowd around their victims and clobber them with constant facefuls of",
+  "secondaryDescription": "Frizz",
+  "experience": 62,
+  "goldDropped": 72,
+  "family": "Elemental",
+  "isFloating": true,
+  "whereToFind": [
+   "Doomingdale Forest",
+   "Brigadoom"
+  ],
+  "itemsDropped": {
+   "tangleweb": "(1/32)"
+  },
+  "battleInfo": {
+   "maxHP": 30,
+   "maxMP": 10,
+   "attack": 28,
+   "defense": 30,
+   "evasionChance": 4,
+   "elementalAversions": "Takes 1.25x damage from Wind and Light.",
+   "ailmentAffinities": [
+    "25% resistance to Confuse",
+    "50% resistance to Dazzle, Sleep, Paralyze, and Charm. Immune to Stun and Poison."
+   ]
+  }
+ },
+ "firespirit": {
+  "number": 10,
+  "title": "Firespirit",
+  "description": "These Frizz spell elementals are best beaten with spells or abilities, as weapons will often pass right through them.",
+  "secondaryDescription": "'Not even kids use Frizz these days.' It was these thoughtless words that forged the furious firespirit.",
+  "experience": 12,
+  "goldDropped": 9,
+  "family": "Elemental",
+  "isFloating": true,
+  "whereToFind": [
+   "The Hexagon",
+   "Eastern Stornway"
+  ],
+  "itemsDropped": {
+   "holy-water": "(1/32)"
+  },
+  "battleInfo": {
+   "maxHP": 14,
+   "maxMP": 3,
+   "attack": 9,
+   "defense": 9,
+   "evasionChance": 8,
+   "elementalAversions": "Takes 1.5x damage from Ice.",
+   "ailmentAffinities": [
+    "25% resistance to Death, Blunt, Sap, Decelerate, and Divine Intervention",
+    "50% resistance to Sleep and Charm. Immune to Dazzle, Stun, Poison, and Paralyze."
+   ]
+  }
+ }
+}

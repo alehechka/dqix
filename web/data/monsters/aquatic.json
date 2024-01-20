@@ -1,0 +1,50 @@
+{
+ "abyss-diver": {
+  "number": 170,
+  "title": "Abyss Diver",
+  "description": "Devilishly devastating dinosaurs that cast Crackle and breathe fire, and cannot be bested with bog-standard blows.",
+  "secondaryDescription": "Longed for loud colours after decades spent in dim depths, and tried to jazz themselves up, but to underwhelming effect.",
+  "experience": 2700,
+  "goldDropped": 92,
+  "family": "Aquatic",
+  "whereToFind": [
+   "Wyrmneck",
+   "Oubliette"
+  ],
+  "itemsDropped": {
+   "dragon-scale": "Watermaul wand"
+  },
+  "battleInfo": {}
+ },
+ "wooper-trooper": {
+  "number": 17,
+  "title": "Wooper Trooper",
+  "description": "Amphibious soldiers and adepts of defence who can be found patrolling around bodies of water.",
+  "secondaryDescription": "They're forever scraping their soles on seashells while on beach patrol, and have been saving up to buy boots.",
+  "experience": 40,
+  "goldDropped": 28,
+  "family": "Aquatic",
+  "whereToFind": [
+   "Western Stornway",
+   "Eastern Stornway"
+  ],
+  "itemsDropped": {
+   "pot-lid": "(1/16)"
+  },
+  "battleInfo": {
+   "maxHP": 30,
+   "maxMP": 4,
+   "attack": 33,
+   "defense": 24,
+   "elementalAversions": "Takes 1.25x damage from Fire, Dark, and Light.",
+   "ailmentAffinities": [
+    "25% resistance to Dazzle and Paralyze",
+    "40% resistance to Charm",
+    "50% resistance to Sleep. Immune to Fizzle."
+   ],
+   "enragedBy": {
+    "whistle": 0
+   }
+  }
+ }
+}

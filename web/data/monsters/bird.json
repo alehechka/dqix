@@ -1,0 +1,100 @@
+{
+ "apeckalypse": {
+  "number": 128,
+  "title": "Apeckalypse",
+  "description": "Blighted birds that live on poisonous plants. They frighten foes with",
+  "secondaryDescription": "War Cry",
+  "experience": 740,
+  "family": "Bird",
+  "whereToFind": [
+   "Snowberia",
+   "Snowberian Coast"
+  ],
+  "battleInfo": {}
+ },
+ "drackmage": {
+  "number": 24,
+  "title": "Drackmage",
+  "description": "Green, forest-dwelling drackies who deftly dodge attacks, then strike back with",
+  "secondaryDescription": "Kasap",
+  "experience": 60,
+  "goldDropped": 47,
+  "family": "Bird",
+  "isFloating": true,
+  "whereToFind": [
+   "Zere",
+   "Doomingdale Forest"
+  ],
+  "itemsDropped": {
+   "chimaera-wing": "(1/16)"
+  },
+  "battleInfo": {
+   "maxHP": 35,
+   "maxMP": 9,
+   "attack": 34,
+   "defense": 28,
+   "evasionChance": 4,
+   "elementalAversions": "Takes 1.25x damage from Light.",
+   "ailmentAffinities": [
+    "25% resistance to Dazzle and Sleep."
+   ],
+   "enragedBy": {
+    "whistle": 75
+   }
+  }
+ },
+ "dracky": {
+  "number": 6,
+  "title": "Dracky",
+  "description": "These bat-like beasts like nothing better than to gang up and go gallavanting across the night skies.",
+  "secondaryDescription": "They have crazy cousins called wackies and boastful brothers called brackies. They long to go freckly and be…frackies.",
+  "experience": 10,
+  "goldDropped": 18,
+  "family": "Bird",
+  "isFloating": true,
+  "whereToFind": [
+   "Angel Falls",
+   "The Hexagon"
+  ],
+  "itemsDropped": {
+   "medicinal-herb": "(1/16)"
+  },
+  "battleInfo": {
+   "maxHP": 15,
+   "maxMP": 3,
+   "attack": 17,
+   "defense": 12,
+   "evasionChance": 2,
+   "elementalAversions": "Takes 1.25x damage from all elements.",
+   "ailmentAffinities": [
+    "25% resistance to Sleep. Immune to Fizzle."
+   ],
+   "enragedBy": {
+    "whistle": 75
+   }
+  }
+ },
+ "fowleye": {
+  "number": 291,
+  "title": "Fowleye",
+  "description": "His evil eyes bring calamity wherever their gaze falls. When not fighting, he keeps them closed and feigns friendliness.",
+  "secondaryDescription": "An unbelievable evil who feasts on the souls of the weak to feed the dour power that resides in his almighty eyes.",
+  "experience": 65000,
+  "goldDropped": 1965,
+  "family": "Bird",
+  "whereToFind": [
+   "Grotto (Rank 7-12; Suffix: Regret",
+   "Bane",
+   "Fear",
+   "Dread",
+   "Hurt",
+   "Gloom)"
+  ],
+  "itemsDropped": {
+   "sage-s-elixir": "(steal only)"
+  },
+  "battleInfo": {
+   "elementalAversions": "Fire (1.5x damage)"
+  }
+ }
+}
