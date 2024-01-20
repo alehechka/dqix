@@ -1,0 +1,2826 @@
+{
+ "axolhotl": {
+  "title": "Axolhotl",
+  "description": "Nihilistic, flame-retardant desert warriors that use",
+  "secondaryDescription": "Flame Slash",
+  "experience": 360,
+  "whereToFind": [
+   "Bloomingdale",
+   "Djust Desert"
+  ],
+  "battleInfo": {}
+ },
+ "bad-karmour": {
+  "title": "Bad Karmour",
+  "description": "Steely devils who harm with",
+  "secondaryDescription": "Helm Splitter",
+  "experience": 2280,
+  "whereToFind": [
+   "Oubliette"
+  ],
+  "battleInfo": {}
+ },
+ "badboon": {
+  "title": "Badboon",
+  "description": "Giant apes and lords of the jungle who store up their anger, then attack with full, explosive force.",
+  "experience": 171,
+  "whereToFind": [
+   "Newid Isle",
+   "Tower of Trades"
+  ],
+  "battleInfo": {}
+ },
+ "badger-mager": {
+  "title": "Badger Mager",
+  "description": "Badgers who have begun the long journey on the Way of the Badja, but have only learnt one spell so far:",
+  "secondaryDescription": "Woosh",
+  "experience": 105,
+  "whereToFind": [
+   "Western Coffinwell"
+  ],
+  "battleInfo": {}
+ },
+ "badja": {
+  "title": "Badja",
+  "description": "Pure-hearted masters of the mighty Way of the Badja, they evade blows with a mysterious mist, and foil magic with",
+  "secondaryDescription": "Fizzle",
+  "experience": 570,
+  "whereToFind": [
+   "Djust Desert"
+  ],
+  "battleInfo": {}
+ },
+ "bagma": {
+  "title": "Bagma",
+  "description": "Their HP's not so hot, but these burning bags can turn up the heat with their baking breath, and summon",
+  "secondaryDescription": "live lava",
+  "experience": 840,
+  "whereToFind": [
+   "Wyrmsmaw",
+   "The Magmaroo"
+  ],
+  "battleInfo": {}
+ },
+ "barbarus": {
+  "title": "Barbarus",
+  "description": "Greygnarl's nefarious nemesis. He was defeated long ago, but the Empire brought him back to wreak havoc once more.",
+  "experience": 32500,
+  "whereToFind": [
+   "Realm of the Mighty"
+  ],
+  "battleInfo": {}
+ },
+ "barbatos": {
+  "title": "Barbatos",
+  "description": "Beasts whose burning rage causes them to spit flames and cast",
+  "secondaryDescription": "Kaboom",
+  "experience": 3400,
+  "whereToFind": [
+   "Realm of the Mighty"
+  ],
+  "battleInfo": {}
+ },
+ "barriearthenwarrior": {
+  "title": "Barriearthenwarrior",
+  "description": "Hard horsemen who may not say much, but whose actions speak louder than words. They soup up sub-par strength with Oomph.",
+  "secondaryDescription": "Built by ancient sages who sank their spellcraft into sculpting statues strong enough to smash the soldiers of the underworld.",
+  "experience": 5120,
+  "goldDropped": 176,
+  "whereToFind": [
+   "Grotto (Fire",
+   "rank 9-11)"
+  ],
+  "itemsDropped": {
+   "royal-soil": "Warrior's sword"
+  },
+  "battleInfo": {}
+ },
+ "battering-ram": {
+  "title": "Battering Ram",
+  "description": "Their hairy hides are hard to harm with ice. They send enemies to sleep with",
+  "secondaryDescription": "Sweet Breath",
+  "experience": 600,
+  "whereToFind": [
+   "Iluugazar Plains",
+   "Mt Ulbaruun"
+  ],
+  "battleInfo": {}
+ },
+ "beakon": {
+  "title": "Beakon",
+  "description": "Barbaric birds that attack twice with deadly drumsticks and cry cacophonously to creep out foes and call forth friends.",
+  "experience": 153,
+  "whereToFind": [
+   "Lonely Plains"
+  ],
+  "battleInfo": {}
+ },
+ "belisha-beakon": {
+  "title": "Belisha Beakon",
+  "description": "Their whirlwind speed allows them to attack twice per turn, wards off wind spells and makes them masters of",
+  "secondaryDescription": "Swoosh",
+  "experience": 1460,
+  "whereToFind": [
+   "Realm of the Mighty"
+  ],
+  "battleInfo": {}
+ },
+ "bewarewolf": {
+  "title": "Bewarewolf",
+  "description": "It's best to bash these baddies quickly, as their tension is turned up a notch every time they take damage.",
+  "experience": 225,
+  "whereToFind": [
+   "Slurry Coast",
+   "Dourbridge"
+  ],
+  "battleInfo": {}
+ },
+ "big-badboon": {
+  "title": "Big Badboon",
+  "description": "Swirling whirlwinds of unstoppable power. If they call on a friend, prepare for the end!",
+  "experience": 420,
+  "whereToFind": [
+   "Bloomingdale"
+  ],
+  "battleInfo": {}
+ },
+ "bird-of-terrordise": {
+  "title": "Bird Of Terrordise",
+  "description": "Brutish birds that bring things to a boil with their burning breath, and drive enemies dotty with Kafuddle.",
+  "secondaryDescription": "Supposedly named after world champion strongman Terry Terrordise, who is said to have discovered them on his travels.",
+  "experience": 5560,
+  "goldDropped": 185,
+  "whereToFind": [
+   "Grotto (Fire",
+   "rank 10-12)"
+  ],
+  "itemsDropped": {
+   "fowl-fan": "Flame shield"
+  },
+  "battleInfo": {}
+ },
+ "blastoad": {
+  "title": "Blastoad",
+  "description": "Heavy toad tanks that pound enemies with poisonous rounds, and whose tongue lashings would make even the toughest tremble.",
+  "experience": 2100,
+  "whereToFind": [
+   "Gittingham Palace"
+  ],
+  "battleInfo": {}
+ },
+ "blight-knight": {
+  "title": "Blight Knight",
+  "description": "These demonic masters of battle know no fear, and calmly await attacks, then counter them with catastrophic quickness.",
+  "secondaryDescription": "They burgle the bones from brawny enemies they've beaten to beef up their bodies and get better at battle.",
+  "experience": 7000,
+  "goldDropped": 192,
+  "whereToFind": [
+   "Grotto (Ice",
+   "rank 12)"
+  ],
+  "itemsDropped": {
+   "skull-helm": "Veteran's helm"
+  },
+  "battleInfo": {}
+ },
+ "bling-badger": {
+  "title": "Bling Badger",
+  "description": "Grandmasters of the Way of the Badja, these shining paragons bring both brains and brawn to bear in their supreme style.",
+  "secondaryDescription": "Legends tells that when the badjas bow down to their sacred solid-gold statue, the bling badgers will come to save them.",
+  "experience": 5800,
+  "goldDropped": 196,
+  "whereToFind": [
+   "Grotto (Water",
+   "rank 10-11)"
+  ],
+  "itemsDropped": {
+   "magic-beast-hide": "Yggdrasil leaf"
+  },
+  "battleInfo": {}
+ },
+ "blinkster": {
+  "title": "Blinkster",
+  "description": "Wait for these witless wizards to waste their MP on snowy spells, then whack them back!",
+  "experience": 64,
+  "whereToFind": [
+   "Brigadoom",
+   "Eastern Coffinwell"
+  ],
+  "battleInfo": {}
+ },
+ "blockenspiel": {
+  "title": "Blockenspiel",
+  "description": "Attacks while still protecting the body with a shield.",
+  "secondaryDescription": "MP Cost:",
+  "battleInfo": {}
+ },
+ "blood-mummy": {
+  "title": "Blood Mummy",
+  "description": "Set these blood-stained mummies on fire before they trash team members' tension with their spite-filled strikes.",
+  "experience": 1200,
+  "whereToFind": [
+   "Khaalag Coast",
+   "Ondor Cliffs"
+  ],
+  "battleInfo": {}
+ },
+ "bloody-manguini": {
+  "title": "Bloody Manguini",
+  "description": "Freaky beasts who drain adventurers of their blood and MP, and sometimes flip them out with",
+  "secondaryDescription": "Fuddle Dance",
+  "experience": 1000,
+  "whereToFind": [
+   "Western Wormwood",
+   "The Bowhole"
+  ],
+  "battleInfo": {}
+ },
+ "boa-bishop": {
+  "title": "Boa Bishop",
+  "description": "Masterly mages of the reptile kingdom. They attack twice, and can bring buddies back from the brink with Omniheal.",
+  "secondaryDescription": "Their mesmerising eyes, which sap the will of those they stare at and send them to sleep, still shine even in death.",
+  "experience": 4400,
+  "goldDropped": 168,
+  "whereToFind": [
+   "Grotto (Ruins",
+   "rank 10-12)"
+  ],
+  "itemsDropped": {
+   "wizard-s-hat": "Wizard's robe"
+  },
+  "battleInfo": {}
+ },
+ "bodkin-bowyer": {
+  "title": "Bodkin Bowyer",
+  "description": "These expert archers specialise in troubling travellers with hails of well-aimed arrows.",
+  "experience": 112,
+  "whereToFind": [
+   "Newid Isle"
+  ],
+  "battleInfo": {}
+ },
+ "bomboulder": {
+  "title": "Bomboulder",
+  "description": "They're not fond of fighting, and mostly just sit there smiling, but if any ally expires, they kick in with",
+  "secondaryDescription": "Kerplunk",
+  "experience": 1300,
+  "whereToFind": [
+   "Khaalag Coast",
+   "Ondor Cliffs"
+  ],
+  "battleInfo": {}
+ },
+ "boogie-manguini": {
+  "title": "Boogie Manguini",
+  "description": "Dancing yellow devils who know every step there is — not just the support steps, but tension-building tactical ones too.",
+  "secondaryDescription": "The young ones are nicknamed 'yellow-bellies', but they're not too pleased to have this pointed out by their beastly brethren.",
+  "experience": 5230,
+  "goldDropped": 149,
+  "whereToFind": [
+   "Grotto (Ice",
+   "rank 12; Water",
+   "rank 9-11)"
+  ],
+  "itemsDropped": {
+   "wing-of-bat": "Lunaria"
+  },
+  "battleInfo": {}
+ },
+ "boss-troll": {
+  "title": "Boss Troll",
+  "description": "Super-sized swingers who can smack foes into next week with one whack of their colossal clubs.",
+  "experience": 2400,
+  "whereToFind": [
+   "Gittingham Palace",
+   "Oubliette"
+  ],
+  "battleInfo": {}
+ },
+ "brainy-badboon": {
+  "title": "Brainy Badboon",
+  "description": "Astute apes that weaken enemies with",
+  "secondaryDescription": "Dazzle",
+  "experience": 800,
+  "whereToFind": [
+   "Iluugazar Plains",
+   "Mt Ulzuun"
+  ],
+  "battleInfo": {}
+ },
+ "brrearthenwarrior": {
+  "title": "Brrearthenwarrior",
+  "description": "Nippy knights on a quest to rid the world of evil with",
+  "secondaryDescription": "Chilly Breath",
+  "experience": 800,
+  "whereToFind": [
+   "Snowberia",
+   "Snowberian Coast"
+  ],
+  "battleInfo": {}
+ },
+ "bud-brother": {
+  "title": "Bud Brother",
+  "description": "They like to bring buddies into battle to beef up the bloodshed, or, if they're feeling inferior, they'll beckon forth a",
+  "secondaryDescription": "badja",
+  "experience": 100,
+  "whereToFind": [
+   "Slurry Coast"
+  ],
+  "battleInfo": {}
+ },
+ "cannibelle": {
+  "title": "Cannibelle",
+  "description": "They wander the world searching for souls to consume, believing that each victim's cry of despair makes them ever more beautiful.",
+  "secondaryDescription": "Made when misunderstood maidens, bitter at being badly treated, sell their souls to become beautiful beasts.",
+  "experience": 4250,
+  "goldDropped": 156,
+  "whereToFind": [
+   "Grotto (Ice",
+   "rank 8-10)"
+  ],
+  "itemsDropped": {
+   "spangled-dress": "Fencing frock"
+  },
+  "battleInfo": {}
+ },
+ "cannibox": {
+  "title": "Cannibox",
+  "description": "Shut these big, bad boxes up with",
+  "secondaryDescription": "Fizzle",
+  "experience": 960,
+  "whereToFind": [
+   "Tower of Trades",
+   "The Bad Cave",
+   "Grotto (10% chance",
+   "rank G chests)"
+  ],
+  "battleInfo": {}
+ },
+ "chariot-chappie": {
+  "title": "Chariot Chappie",
+  "description": "These crazy carters career into combat, crashing into the competition and occasionally causing them to cramp up.",
+  "experience": 90,
+  "whereToFind": [
+   "Eastern Coffinwell",
+   "Western Coffinwell"
+  ],
+  "battleInfo": {}
+ },
+ "charmour": {
+  "title": "Charmour",
+  "description": "Enchanted suits of armour that are well-protected against all manner of magic, and can cast sleep. Attack them with earth.",
+  "experience": 2450,
+  "whereToFind": [
+   "Realm of the Mighty"
+  ],
+  "battleInfo": {}
+ },
+ "cheeky-tiki": {
+  "title": "Cheeky Tiki",
+  "description": "With their dazzling defensive dexterity, these selfless souls often step in to protect their pals. Wallop 'em one by one.",
+  "experience": 660,
+  "whereToFind": [
+   "Gerzuun",
+   "Khaalag Coast"
+  ],
+  "battleInfo": {}
+ },
+ "chimaera": {
+  "title": "Chimaera",
+  "description": "Beastly, burning-breathed birds who are almost impervious to fire, but are taken aback by ice attacks.",
+  "experience": 180,
+  "whereToFind": [
+   "Tywll Cave",
+   "Slurry Coast"
+  ],
+  "battleInfo": {}
+ },
+ "claw-hammer": {
+  "title": "Claw Hammer",
+  "description": "Giant sharks that topple enemies with",
+  "secondaryDescription": "Trip of a Deathtime",
+  "experience": 432,
+  "whereToFind": [
+   "Lonely Coast",
+   "Ocean"
+  ],
+  "battleInfo": {}
+ },
+ "clawcerer": {
+  "title": "Clawcerer",
+  "description": "First-rate feline mages who can addle with",
+  "secondaryDescription": "Dazzle",
+  "experience": 212,
+  "whereToFind": [
+   "Dourbridge",
+   "Lonely Plains"
+  ],
+  "battleInfo": {}
+ },
+ "claws": {
+  "title": "Claws",
+  "description": "They sweep enemy attacks aside in one smooth movement, then spin around to smack back the next. Weak against light.",
+  "experience": 1980,
+  "whereToFind": [
+   "Oubliette"
+  ],
+  "battleInfo": {}
+ },
+ "clockwork-cuckoo": {
+  "title": "Clockwork Cuckoo",
+  "description": "Mechanical birds that are neither moved by beauty nor motivated by revenge. Fry their circuits with lightning spells.",
+  "experience": 72,
+  "whereToFind": [
+   "Eastern Coffinwell",
+   "Western Coffinwell"
+  ],
+  "battleInfo": {}
+ },
+ "cobra-cardinal": {
+  "title": "Cobra Cardinal",
+  "description": "Masters of most forms of magic, who are admired by many monsters, and cause chaos with",
+  "secondaryDescription": "Kazing",
+  "experience": 2180,
+  "whereToFind": [
+   "Realm of the Mighty"
+  ],
+  "battleInfo": {}
+ },
+ "cock-a-doodle-doo": {
+  "title": "Cock-a-doodle-doo",
+  "description": "Awakens sleeping party members.",
+  "secondaryDescription": "MP Cost:",
+  "battleInfo": {}
+ },
+ "corrupt-carter": {
+  "title": "Corrupt Carter",
+  "description": "Armoured chariots that are bolstered even further with",
+  "secondaryDescription": "Buff",
+  "experience": 1550,
+  "whereToFind": [
+   "The Magmaroo"
+  ],
+  "battleInfo": {}
+ },
+ "corvus": {
+  "title": "Corvus",
+  "description": "One-time Guardian of Wormwood Creek. His tragic fate drove him to renounce his faith in gods, mortals and Celestrians alike.",
+  "secondaryDescription": "Met Serena in Wormwood Creek three centuries ago. Tried to protect the mortals, but was entrapped by the Empire.",
+  "experience": 28500,
+  "whereToFind": [
+   "Realm of the Mighty"
+  ],
+  "battleInfo": {}
+ },
+ "cosmic-chimaera": {
+  "title": "Cosmic Chimaera",
+  "description": "These captains of the chimaera clan show their extreme enmity with blazing breath, and their exemplary amity with Multiheal.",
+  "secondaryDescription": "They have a rather high opinion of themselves, and those they meet are unlikely to merit more than a momentary glance.",
+  "experience": 5200,
+  "goldDropped": 178,
+  "whereToFind": [
+   "Grotto (Caves",
+   "rank 9-11)"
+  ],
+  "itemsDropped": {
+   "brighten-rock": "Lucida shard"
+  },
+  "battleInfo": {}
+ },
+ "crabber-dabber-doo": {
+  "title": "Crabber Dabber Doo",
+  "description": "Cruel crabs who toughen up with",
+  "secondaryDescription": "Kabuff",
+  "experience": 670,
+  "whereToFind": [
+   "Slurry Coast",
+   "Urdus Marshland"
+  ],
+  "battleInfo": {}
+ },
+ "crabid": {
+  "title": "Crabid",
+  "description": "They may look creepy, but these crabs are kind of cowardly, and will call companions or cut and run quite quickly.",
+  "experience": 220,
+  "whereToFind": [
+   "Western Coffinwell",
+   "Tywll Cave"
+  ],
+  "battleInfo": {}
+ },
+ "cumulus-hex": {
+  "title": "Cumulus Hex",
+  "description": "Mental elementals that mislead with Mist Me, and dish out Disruptive Waves and Freezing Blizzards. Afraid of fire and light.",
+  "secondaryDescription": "Drawn to the battlefield by the scent of blood, they beckon warriors to the red clouds they ride on, never to return.",
+  "experience": 5850,
+  "goldDropped": 197,
+  "whereToFind": [
+   "Grotto (Caves",
+   "rank 10-12)"
+  ],
+  "itemsDropped": {
+   "mistick": "Flowing dress"
+  },
+  "battleInfo": {}
+ },
+ "cumulus-rex": {
+  "title": "Cumulus Rex",
+  "description": "They hold sway over hordes of",
+  "secondaryDescription": "hell nino",
+  "experience": 1400,
+  "whereToFind": [
+   "Wyrmtail",
+   "Wyrmsmaw"
+  ],
+  "battleInfo": {}
+ },
+ "cumulus-vex": {
+  "title": "Cumulus Vex",
+  "description": "These kings among clouds rule the skies of hell, and can channel the power of lightning into a",
+  "secondaryDescription": "Weakening Wave",
+  "experience": 2300,
+  "whereToFind": [
+   "Realm of the Mighty"
+  ],
+  "battleInfo": {}
+ },
+ "cureslime": {
+  "title": "Cureslime",
+  "description": "Kind-hearted slimes who care more about curing than killing. Commonly called on by the similarly coloured lethal armour.",
+  "experience": 1350,
+  "whereToFind": [
+   "Realm of the Mighty"
+  ],
+  "battleInfo": {}
+ },
+ "cyber-spider": {
+  "title": "Cyber Spider",
+  "description": "Magic will make mincement of these mechanical web weavers, who mainly make use of mucus-based ammo and dazzling rounds.",
+  "secondaryDescription": "Secret weapons assembled by the Empire, they flit just as fast up and down cliffs and ravines as on flat fields.",
+  "experience": 5800,
+  "goldDropped": 184,
+  "whereToFind": [
+   "Grotto (Ruins",
+   "rank 10-12)"
+  ],
+  "itemsDropped": {
+   "tangleweb": "Handrills"
+  },
+  "battleInfo": {}
+ },
+ "cyclops": {
+  "title": "Cyclops",
+  "description": "Towering titans who may be sort of sluggish, but more than make up for it with insane strength, huge HP and crippling criticals.",
+  "experience": 1400,
+  "whereToFind": [
+   "Wyrmtail",
+   "Wyrmwing"
+  ],
+  "battleInfo": {}
+ },
+ "cyclown": {
+  "title": "Cyclown",
+  "description": "Their whipping whirlwinds slice through enemies and stop wind attacks from working.",
+  "experience": 108,
+  "whereToFind": [
+   "Newid Isle"
+  ],
+  "battleInfo": {}
+ },
+ "dark-skeleton": {
+  "title": "Dark Skeleton",
+  "description": "These shameful shams of chivalry cripple enemies with",
+  "secondaryDescription": "Kasap",
+  "experience": 1780,
+  "whereToFind": [
+   "The Gittish Empire",
+   "Gittingham Palace",
+   "Island off Cringle Coast",
+   "Urdus Marshland (plateau)",
+   "Grotto (Water",
+   "rank 5/6)"
+  ],
+  "battleInfo": {}
+ },
+ "darkonium-slime": {
+  "title": "Darkonium Slime",
+  "description": "There's not a single spell that will scratch these superslimes, who crush the competition with a powerful particle ray.",
+  "secondaryDescription": "They spend their days proudly polishing their faultless facets and likening them to twinkling stars and priceless pearls.",
+  "experience": 5880,
+  "goldDropped": 150,
+  "whereToFind": [
+   "Grotto (Ruins",
+   "rank 7-9; Ice",
+   "rank 9)"
+  ],
+  "itemsDropped": {
+   "slimedrop": "Thinking cap"
+  },
+  "battleInfo": {}
+ },
+ "deadcurion": {
+  "title": "Deadcurion",
+  "description": "They paralyse enemies, then poke them with",
+  "secondaryDescription": "Pressure Pointer",
+  "experience": 790,
+  "whereToFind": [
+   "Gerzuun",
+   "Khaalag Coast"
+  ],
+  "battleInfo": {}
+ },
+ "diethon": {
+  "title": "Diethon",
+  "description": "These sickening snakes are immune to poison, can vomit up a",
+  "secondaryDescription": "Venom Mist",
+  "experience": 432,
+  "whereToFind": [
+   "The Plumbed Depths",
+   "Western Coffinwell"
+  ],
+  "battleInfo": {}
+ },
+ "drackal": {
+  "title": "Drackal",
+  "description": "They bite with the best of them, and batter with their big bodies to boot, but sometimes prefer just to bail from battle.",
+  "experience": 1000,
+  "whereToFind": [
+   "Mt Ulzuun",
+   "Khaalag Coast"
+  ],
+  "battleInfo": {}
+ },
+ "drackyma": {
+  "title": "Drackyma",
+  "description": "Be grateful that these dukes among drackies can't cast",
+  "secondaryDescription": "Kasnooze",
+  "experience": 145,
+  "whereToFind": [
+   "Newid Isle",
+   "Tower of Trades"
+  ],
+  "battleInfo": {}
+ },
+ "drakulard": {
+  "title": "Drakulard",
+  "description": "Serpentine sovereigns of the wind who smash enemies with",
+  "secondaryDescription": "Swoosh",
+  "experience": 3450,
+  "whereToFind": [
+   "Realm of the Mighty"
+  ],
+  "battleInfo": {}
+ },
+ "drakularge": {
+  "title": "Drakularge",
+  "description": "Defeating these doughy dragons yields useful loot, but stacked stats, crazy claws and",
+  "secondaryDescription": "Flame Breath",
+  "experience": 1600,
+  "whereToFind": [
+   "The Bowhole",
+   "Wyrmtail"
+  ],
+  "battleInfo": {}
+ },
+ "drakulord": {
+  "title": "Drakulord",
+  "description": "Their HP is so high they're nigh unkillable, they're hard to hurt with earth and fire, and their skills hit everyone. Watch out!",
+  "secondaryDescription": "They're named for the fact that they're lords of the lizardly martial arts, but they have the potential to grow even greater.",
+  "experience": 6800,
+  "goldDropped": 65,
+  "whereToFind": [
+   "Grotto (Water",
+   "rank 11-12)"
+  ],
+  "itemsDropped": {
+   "dragon-scale": "Dragon claws"
+  },
+  "battleInfo": {}
+ },
+ "drastic-drackal": {
+  "title": "Drastic Drackal",
+  "description": "Chilly Breath",
+  "secondaryDescription": "and",
+  "experience": 1380,
+  "whereToFind": [
+   "Wormwood Canyon",
+   "Wyrmtail"
+  ],
+  "battleInfo": {}
+ },
+ "dread-admiral": {
+  "title": "Dread Admiral",
+  "description": "Swat these big, brutish butterflies before they swarm all over the battlefield and paralyse everyone with",
+  "secondaryDescription": "Burning Breath",
+  "experience": 192,
+  "whereToFind": [
+   "Slurry Coast",
+   "Dourbridge"
+  ],
+  "battleInfo": {}
+ },
+ "dreadful-drackal": {
+  "title": "Dreadful Drackal",
+  "description": "They might look frightening, but they're scaredy-cats really. If their bark doesn't scare people stiff, their bite surely will.",
+  "secondaryDescription": "When two of them meet at night, both will howl so loud with surprise that they scare each other into a sociable stupour.",
+  "experience": 2000,
+  "goldDropped": 180,
+  "whereToFind": [
+   "The Gittish empire"
+  ],
+  "itemsDropped": {
+   "magic-beast-hide": "Magic beast horn"
+  },
+  "battleInfo": {}
+ },
+ "dreadmaster": {
+  "title": "Dreadmaster",
+  "description": "Harsh master of old-fashioned teaching techniques who held his extra-curricular sessions in the basement of Swinedimples.",
+  "experience": 10000,
+  "whereToFind": [
+   "The Old School"
+  ],
+  "battleInfo": {}
+ },
+ "earthenwarrior": {
+  "title": "Earthenwarrior",
+  "description": "Fiery-breathed pieces of highly protected pottery which fortify themselves even further",
+  "secondaryDescription": "Kabuff",
+  "experience": 110,
+  "whereToFind": [
+   "Quarantomb"
+  ],
+  "battleInfo": {}
+ },
+ "expload": {
+  "title": "Expload",
+  "description": "Slow they may be, but their heavy weapons, in particular their ribbit launchers, are the terror of travellers everywhere.",
+  "experience": 522,
+  "whereToFind": [
+   "Djust Desert"
+  ],
+  "battleInfo": {}
+ },
+ "firn-fiend": {
+  "title": "Firn Fiend",
+  "description": "Should be fried with fire before they induce indolence with",
+  "secondaryDescription": "Sweet Breath",
+  "experience": 3200,
+  "whereToFind": [
+   "Realm of the Mighty"
+  ],
+  "battleInfo": {}
+ },
+ "flamin--drayman": {
+  "title": "Flamin' Drayman",
+  "description": "These fire-powered four-wheeled fighting machines will knock foes for six or fry them with Kafrizz.",
+  "secondaryDescription": "The drivers are fond of their flame-retardant unitards, and are forever fighting the flab, as it spoils the flattering fit.",
+  "experience": 4700,
+  "goldDropped": 145,
+  "whereToFind": [
+   "Grotto (Ruins",
+   "rank 10; Fire",
+   "rank 8-10)"
+  ],
+  "itemsDropped": {
+   "rockbomb-shard": "Hephaestus' flame"
+  },
+  "battleInfo": {}
+ },
+ "flython": {
+  "title": "Flython",
+  "description": "Snakes with sail-like gills packed with potent poison, which they puff out in a venomous vapour. They hate whistlers.",
+  "experience": 100,
+  "whereToFind": [
+   "Eastern Stornway",
+   "Western Coffinwell"
+  ],
+  "battleInfo": {}
+ },
+ "freaky-tiki": {
+  "title": "Freaky Tiki",
+  "description": "Menacing masks with mega defence who enfeeble foes with Eerie Light and Dazzleflash, then dish out some serious damage.",
+  "secondaryDescription": "The first of their race was made when the mask jumped from the face of an ancient king and came alive under an evil spell.",
+  "experience": 5100,
+  "goldDropped": 158,
+  "whereToFind": [
+   "Grotto (Ruins",
+   "rank 9-11)"
+  ],
+  "itemsDropped": {
+   "terrible-tattoo": "Boss shield"
+  },
+  "battleInfo": {}
+ },
+ "freezing-fog": {
+  "title": "Freezing Fog",
+  "description": "Savage snowclouds that control the cold, are impervious to ice, and can call forth a fog to deepen their defence.",
+  "experience": 1360,
+  "whereToFind": [
+   "The Gittish Empire",
+   "Gittingham Palace",
+   "Cringle Coast"
+  ],
+  "battleInfo": {}
+ },
+ "friendant": {
+  "title": "Friendant",
+  "description": "A memento of the firm friendship between Patty and Phoebe.",
+  "secondaryDescription": "Rarity:",
+  "whereToFind": [
+   "Obtained during quest"
+  ],
+  "battleInfo": {}
+ },
+ "fright-knight": {
+  "title": "Fright Knight",
+  "description": "Destroy these dastardly masters of",
+  "secondaryDescription": "Freezing Blizzard",
+  "experience": 2180,
+  "whereToFind": [
+   "monster"
+  ],
+  "battleInfo": {}
+ },
+ "gadrongo": {
+  "title": "Gadrongo",
+  "description": "A stalwart soul sealed in a statue and bunged into the Bowhole to test contenders in combat when the time came.",
+  "experience": 12500,
+  "whereToFind": [
+   "The Bowhole"
+  ],
+  "battleInfo": {}
+ },
+ "garth-goyle": {
+  "title": "Garth Goyle",
+  "description": "This stone sentry was created to stand guard over Zere Rocks. It seemed to be looking for someone called Mason…",
+  "experience": 4134,
+  "whereToFind": [
+   "Zere Rocks"
+  ],
+  "battleInfo": {}
+ },
+ "gem-jamboree": {
+  "title": "Gem Jamboree",
+  "description": "Bevies of blobs bonded by their love of beauty and booty. If you're lucky enough to meet one, don't let it get away.",
+  "secondaryDescription": "Being at the bottom of a monolith of heavy metal makes the lowest slimes in these stacks a shade short-tempered.",
+  "experience": 960,
+  "goldDropped": 1130,
+  "whereToFind": [
+   "Grotto (Caves",
+   "rank 7; Ruins",
+   "rank 8",
+   "10)"
+  ],
+  "itemsDropped": {
+   "gleeban-gold-piece": "Gold bar"
+  },
+  "battleInfo": {}
+ },
+ "gem-slime": {
+  "title": "Gem Slime",
+  "description": "They await adventurers with a graceful grin, then maul them with Magic Burst. Immune to all magic.",
+  "secondaryDescription": "These shining slimes were long sought by adventurers, thanks to a tale that told of all they touched turned to gold.",
+  "experience": 6000,
+  "goldDropped": 10080,
+  "whereToFind": [
+   "Grotto (Ruins",
+   "rank 11; Ice",
+   "rank 10; Water",
+   "rank 12)"
+  ],
+  "itemsDropped": {
+   "gold-bar": "Orichalcum"
+  },
+  "battleInfo": {}
+ },
+ "genie-sanguini": {
+  "title": "Genie Sanguini",
+  "description": "Cute little critters that can sing a",
+  "secondaryDescription": "Gritty Ditty",
+  "experience": 1260,
+  "whereToFind": [
+   "Realm of the Mighty",
+   "Western Coffinwell"
+  ],
+  "battleInfo": {}
+ },
+ "geothaum": {
+  "title": "Geothaum",
+  "description": "They emit waves of darkness which lower the agility and defence of all enemies. Hard to harm with earth or darkness.",
+  "secondaryDescription": "All they feel is a burning need to slap the living into an endless nightmare. No one knows what the rest of their bodies look like.",
+  "experience": 6600,
+  "goldDropped": 86,
+  "whereToFind": [
+   "Grotto (Ice",
+   "rank 11-12)"
+  ],
+  "itemsDropped": {
+   "flintstone": "Evencloth"
+  },
+  "battleInfo": {}
+ },
+ "ghoul": {
+  "title": "Ghoul",
+  "description": "They're pretty strong for stiffs, and although they don't have any special attacks, beware of them bellowing for backup.",
+  "experience": 760,
+  "whereToFind": [
+   "The Plumbed Depths",
+   "Urdus Marshland"
+  ],
+  "battleInfo": {}
+ },
+ "giddy-gastropog": {
+  "title": "Giddy Gastropog",
+  "description": "Strange snails that are fond of",
+  "secondaryDescription": "Fuddle",
+  "experience": 580,
+  "whereToFind": [
+   "Urdus Marshland",
+   "Pluvi Isle"
+  ],
+  "battleInfo": {}
+ },
+ "gigantes": {
+  "title": "Gigantes",
+  "description": "Stupidly strong, stamina-heavy and slightly slapdash smashers who can be licked with lightning.",
+  "experience": 3200,
+  "whereToFind": [
+   "Realm of the Mighty"
+  ],
+  "battleInfo": {}
+ },
+ "gloomy-gastropog": {
+  "title": "Gloomy Gastropog",
+  "description": "They believe the best offence is the dogged defence afforded by foiling attacks with",
+  "secondaryDescription": "Pincushion",
+  "experience": 1400,
+  "whereToFind": [
+   "The Gittish Empire",
+   "Pluvi Isle"
+  ],
+  "battleInfo": {}
+ },
+ "godsteed": {
+  "title": "Godsteed",
+  "description": "It's said that when their crystal-clear eyes shine, even the most grizzled veterans will be laid to rest. Beware their bright breath.",
+  "secondaryDescription": "The shoes that guard their hooves are incredible artefacts made from the same material as platinum king jewels' crowns.",
+  "experience": 6000,
+  "goldDropped": 172,
+  "whereToFind": [
+   "Grotto (Ruins",
+   "rank 11-12)"
+  ],
+  "itemsDropped": {
+   "horse-manure": "Friendly fan"
+  },
+  "battleInfo": {}
+ },
+ "gold-golem": {
+  "title": "Gold Golem",
+  "description": "Heavyweights who save up their strength, then hit hard. Beat them, though, and you might just break the bank.",
+  "experience": 414,
+  "whereToFind": [
+   "Djust Desert"
+  ],
+  "battleInfo": {}
+ },
+ "golem": {
+  "title": "Golem",
+  "description": "Though weak against wind, these stony souls will weather a storm of blows before unleashing a cataclysmic critical attack.",
+  "experience": 1700,
+  "whereToFind": [
+   "Lonely Coast",
+   "Wyrmwing"
+  ],
+  "battleInfo": {}
+ },
+ "goodybag": {
+  "title": "Goodybag",
+  "description": "Jangling bags of jewels, each of which has the power to render its foes unable to act. They can also carry of a",
+  "secondaryDescription": "Sultry Dance",
+  "experience": 500,
+  "whereToFind": [
+   "Iluugazar Plains",
+   "The Bowhole"
+  ],
+  "battleInfo": {}
+ },
+ "goreham-hogg": {
+  "title": "Goreham-Hogg",
+  "description": "One of the Triumgorate. He sealed those who fell from the skies in cells and sucked out their power.",
+  "secondaryDescription": "Was burnt to a cinder by Greygnarl's blazing breath three centuries ago, and brought back as a horrific hog.",
+  "experience": 1750,
+  "whereToFind": [
+   "Gortress"
+  ],
+  "battleInfo": {}
+ },
+ "goresby-purrvis": {
+  "title": "Goresby-Purrvis",
+  "description": "One of the Triumgorate. A swordsman who swore allegiance to the Empire hoping to meet with some worthy adversaries.",
+  "secondaryDescription": "Died faithfully protecting his master some three hundred years ago, and was brought back in a new, feline form.",
+  "experience": 20000,
+  "whereToFind": [
+   "Gittingham Palace"
+  ],
+  "battleInfo": {}
+ },
+ "gramarye-gruffon": {
+  "title": "Gramarye Gruffon",
+  "description": "Grown-up",
+  "secondaryDescription": "gruffon",
+  "experience": 1310,
+  "whereToFind": [
+   "Eastern Wormwood",
+   "Western Wormwood"
+  ],
+  "battleInfo": {}
+ },
+ "grand-lizzier": {
+  "title": "Grand Lizzier",
+  "description": "The fygg-altered form of the Queen of Gleeba's little lizard pal, who it turned out held a torch for his mistress all along.",
+  "experience": 6200,
+  "whereToFind": [
+   "The Plumbed Depths"
+  ],
+  "battleInfo": {}
+ },
+ "great-gruffon": {
+  "title": "Great Gruffon",
+  "description": "Thick fur means the cold doesn't concern them, and great might makes them formidable when they muster their strength.",
+  "experience": 1180,
+  "whereToFind": [
+   "Snowberia",
+   "Cringle Coast"
+  ],
+  "battleInfo": {}
+ },
+ "great-troll": {
+  "title": "Great Troll",
+  "description": "Kings among trolls, they might be big dunces, but their insane stamina more than makes up for it.",
+  "experience": 3800,
+  "whereToFind": [
+   "Realm of the Mighty"
+  ],
+  "battleInfo": {}
+ },
+ "green-dragon": {
+  "title": "Green Dragon",
+  "description": "These venom-vomiting dragons see humans as mere worms, and will absent-mindedly squish them as soon as they see them.",
+  "experience": 2200,
+  "whereToFind": [
+   "Lonely Coast",
+   "The Magmaroo"
+  ],
+  "battleInfo": {}
+ },
+ "greygnarl": {
+  "title": "Greygnarl",
+  "description": "One-time hero of the skies who watches over the world from up over Upover. Not too fond of Celestrians for some reason.",
+  "experience": 15500,
+  "whereToFind": [
+   "The Magmaroo"
+  ],
+  "battleInfo": {}
+ },
+ "grim-grinner": {
+  "title": "Grim Grinner",
+  "description": "Hellish, ice-breathing gnomes that wield a mean shield, and supplement their defence with",
+  "secondaryDescription": "Defending Champion",
+  "experience": 760,
+  "whereToFind": [
+   "Eastern Wormwood",
+   "Western Wormwood"
+  ],
+  "battleInfo": {}
+ },
+ "grim-reaper": {
+  "title": "Grim Reaper",
+  "description": "They render victims helpless with Deceleratle and Kasap, then swoop in to swipe their souls with their savage scythes.",
+  "secondaryDescription": "Took on their innocent, doll-like shape to lull travellers into a false sense of security. Their true form is utterly hideous.",
+  "experience": 5000,
+  "goldDropped": 165,
+  "whereToFind": [
+   "Grotto (Ice",
+   "rank 9-11)"
+  ],
+  "itemsDropped": {
+   "minister-s-mittens": "Blessed boots"
+  },
+  "battleInfo": {}
+ },
+ "grinade": {
+  "title": "Grinade",
+  "description": "These suspiciously sprightly stones merrily maul opponents, beaming all the while, and bring their boulder buddies into battle.",
+  "experience": 288,
+  "whereToFind": [
+   "Heights of Loneliness"
+  ],
+  "battleInfo": {}
+ },
+ "grrrgoyle": {
+  "title": "Grrrgoyle",
+  "description": "They stun enemies into inaction with a sickening cry, and must be whipped with wind if they cast Kacrack.",
+  "secondaryDescription": "Born from the tales told to terrified children of malicious monsters who will come and munch them if they misbehave.",
+  "experience": 5880,
+  "goldDropped": 170,
+  "whereToFind": [
+   "Grotto (Ice",
+   "rank 10-11)"
+  ],
+  "itemsDropped": {
+   "resurrock": "Malicite"
+  },
+  "battleInfo": {}
+ },
+ "gruffon": {
+  "title": "Gruffon",
+  "description": "They may be strong and have high HP, but they're just too laid-back to last. Strike first, and you're bound to beat them.",
+  "experience": 540,
+  "whereToFind": [
+   "Lonely Coast",
+   "Mt Ulzuun"
+  ],
+  "battleInfo": {}
+ },
+ "gum-shield": {
+  "title": "Gum Shield",
+  "description": "Be extra careful what you send this monster's way - you might find it coming right",
+  "secondaryDescription": "Back Atcha",
+  "experience": 226,
+  "whereToFind": [
+   "Bloomingdale"
+  ],
+  "battleInfo": {}
+ },
+ "hammer-horror": {
+  "title": "Hammer Horror",
+  "description": "They whip up a storm with Thin Air, and engulf all in evil with their dark breath. Embrace the light to end their existence.",
+  "secondaryDescription": "They loathe the light, and long to lord it over a world wrapped in the dank darkness of the ocean depths.",
+  "experience": 6400,
+  "goldDropped": 145,
+  "whereToFind": [
+   "Grotto (Water",
+   "rank 11-12)"
+  ],
+  "itemsDropped": {
+   "heavy-handwear": "Cobra claws"
+  },
+  "battleInfo": {}
+ },
+ "handsome-crab": {
+  "title": "Handsome Crab",
+  "description": "Deft defenders and cool critical hitters, these colossal crabs are the scourge of the seas. Flash-fry them with a little fire.",
+  "experience": 1350,
+  "whereToFind": [
+   "Lonely Coast",
+   "Pluvi Isle"
+  ],
+  "battleInfo": {}
+ },
+ "harmour": {
+  "title": "Harmour",
+  "description": "Suits of armour animated by evil forces. Not just masters of",
+  "secondaryDescription": "Multithrust",
+  "experience": 1300,
+  "whereToFind": [
+   "Western Wormwood",
+   "The Bowhole"
+  ],
+  "battleInfo": {}
+ },
+ "healslime": {
+  "title": "Healslime",
+  "description": "Unselfish slimes that are always on standby to step in and save others. Often summoned by their monster mates for support.",
+  "experience": 56,
+  "whereToFind": [
+   "Brigadoom",
+   "Western Coffinwell"
+  ],
+  "battleInfo": {}
+ },
+ "hell-nino": {
+  "title": "Hell Nino",
+  "description": "Super-heated clouds that travel in packs of",
+  "secondaryDescription": "Flame-Breath",
+  "experience": 960,
+  "whereToFind": [
+   "Khaalag Coast",
+   "Wyrmtail"
+  ],
+  "battleInfo": {}
+ },
+ "hell-s-gatekeeper": {
+  "title": "Hell's Gatekeeper",
+  "description": "These big-boned fellows are no fans of magic, and prefer to protect their pals while waiting for a critical to come good.",
+  "secondaryDescription": "Statues possessed by ruinous spirits, they blindly obey their master's orders, and stamp out all who stand against them.",
+  "experience": 6200,
+  "goldDropped": 95,
+  "whereToFind": [
+   "Grotto (Fire",
+   "rank 11-12)"
+  ],
+  "itemsDropped": {
+   "hades--helm": "Hela's hammer"
+  },
+  "battleInfo": {}
+ },
+ "hexagoon": {
+  "title": "Hexagoon",
+  "description": "Hideous hulk that once prowled the passages of the Hexagon, preying on travellers. The earth shakes with its every step.",
+  "experience": 175,
+  "whereToFind": [
+   "The Hexagon"
+  ],
+  "battleInfo": {}
+ },
+ "hocus-chimaera": {
+  "title": "Hocus Chimaera",
+  "description": "Blazing-breathed mountain birds of the chimaera family who are tough against fire, and may lay some good eggstras when licked.",
+  "experience": 288,
+  "whereToFind": [
+   "Heights of Loneliness",
+   "Bloomingdale"
+  ],
+  "battleInfo": {}
+ },
+ "hootingham-gore": {
+  "title": "Hootingham Gore",
+  "description": "One of the Triumgorate. Used stolen celestial power to bring back Barbarus and bend him to the will of the Empire.",
+  "secondaryDescription": "Threw his lot in with the ghastly Gittish Empire three hundred years ago, and was brought back as a beastly bird.",
+  "experience": 18500,
+  "whereToFind": [
+   "Gittingham Palace"
+  ],
+  "battleInfo": {}
+ },
+ "hunter-mech": {
+  "title": "Hunter Mech",
+  "description": "Robotic seekers of little metal blobs who don't take kindly to adventures trying to poach their pray.",
+  "experience": 450,
+  "whereToFind": [
+   "The Bad Cave",
+   "Pluvi Isle"
+  ],
+  "battleInfo": {}
+ },
+ "icikiller": {
+  "title": "Icikiller",
+  "description": "Impervious to ice attacks, these long-nailed nightmares cast",
+  "secondaryDescription": "Moreheal",
+  "experience": 1050,
+  "whereToFind": [
+   "Snowberia",
+   "Cringle Coast"
+  ],
+  "battleInfo": {}
+ },
+ "infernal-armour": {
+  "title": "Infernal Armour",
+  "description": "They can conduct lightning to engulf all enemies, and sometimes summon",
+  "secondaryDescription": "healslime",
+  "experience": 850,
+  "whereToFind": [
+   "Gerzuun"
+  ],
+  "battleInfo": {}
+ },
+ "jinkster": {
+  "title": "Jinkster",
+  "description": "Smash these supportive spellcasters before they can bolster their buddies' tension and tend to their wounds.",
+  "experience": 127,
+  "whereToFind": [
+   "Newid Isle",
+   "Tower of Trades"
+  ],
+  "battleInfo": {}
+ },
+ "killing-machine": {
+  "title": "Killing Machine",
+  "description": "These super-fast, multi-tasking military machines always attack twice per turn, and know an astounding amount of abilities.",
+  "experience": 1800,
+  "whereToFind": [
+   "The Gittish Empire",
+   "Gittingham Palace"
+  ],
+  "battleInfo": {}
+ },
+ "king-crab": {
+  "title": "King Crab",
+  "description": "They send foes to sleep with",
+  "secondaryDescription": "Snooze",
+  "experience": 2800,
+  "whereToFind": [
+   "Oubliette",
+   "Ocean"
+  ],
+  "battleInfo": {}
+ },
+ "king-cureslime": {
+  "title": "King Cureslime",
+  "description": "They may look like mere support slimes, but as well as Fullheal and Omniheal, they can put their weight behind their big body blows.",
+  "secondaryDescription": "Their emerald insides are stuffed with the stuff spells are made of, and any magic they cast is built to last.",
+  "experience": 3030,
+  "goldDropped": 174,
+  "itemsDropped": {
+   "slimedrop": "Slime crown"
+  },
+  "battleInfo": {}
+ },
+ "king-godfrey": {
+  "title": "King Godfrey",
+  "description": "Spirit of Godfrey of the House of Gitt, who dozed in the depths of the Quarantomb, north-west of Coffinwell.",
+  "secondaryDescription": "Planned to hand over the castle and kingship of Coffinwell when his son Godwyn came of age, but was killed before he could.",
+  "experience": 42000,
+  "goldDropped": 4750,
+  "whereToFind": [
+   "Gittingham Palace (During"
+  ],
+  "itemsDropped": {
+   "ruby-of-protection": "Where to find:"
+  },
+  "battleInfo": {}
+ },
+ "king-godwyn": {
+  "title": "King Godwyn",
+  "description": "King Godwyn of the House of Gitt's ultimate form. Far fiercer than any of the Triumgorate, he was a truly formidable foe.",
+  "experience": 26500,
+  "whereToFind": [
+   "Gittingham Palace"
+  ],
+  "battleInfo": {}
+ },
+ "king-slime": {
+  "title": "King Slime",
+  "description": "These superior slimes ooze authority, bringing their bulk to bear on opponents and mending mates with",
+  "secondaryDescription": "Multiheal",
+  "experience": 600,
+  "whereToFind": [
+   "Bloomingdale",
+   "Pluvi Isle"
+  ],
+  "battleInfo": {}
+ },
+ "knocktopus": {
+  "title": "Knocktopus",
+  "description": "Death spells work well on these awkward octopuses, which shower their enemies with skyborne spikes.",
+  "experience": 162,
+  "whereToFind": [
+   "Tywll Cave",
+   "Slurry Coast"
+  ],
+  "battleInfo": {}
+ },
+ "larstastnaras": {
+  "title": "Larstastnaras",
+  "description": "The true form of Sarantsatsral, the wicked witch who tried to take control of the plains by bending Batkhaan's ear.",
+  "experience": 8200,
+  "whereToFind": [
+   "Batsureg"
+  ],
+  "battleInfo": {}
+ },
+ "leafy-larrikin": {
+  "title": "Leafy Larrikin",
+  "description": "They flutter their leafy bodies to evade attack, and sometimes summon their buddies, the",
+  "secondaryDescription": "badger mager",
+  "experience": 42,
+  "whereToFind": [
+   "Eastern Coffinwell"
+  ],
+  "battleInfo": {}
+ },
+ "leery-lout": {
+  "title": "Leery Lout",
+  "description": "Mostly found cowering behind cover, even when countering, but, interestingly, the originator of the",
+  "secondaryDescription": "Blockenspiel",
+  "experience": 68,
+  "whereToFind": [
+   "Brigadoom"
+  ],
+  "battleInfo": {}
+ },
+ "lesionnaire": {
+  "title": "Lesionnaire",
+  "description": "Lay into these bags of bones with light attacks before they pump you full of poison or mash you with a",
+  "secondaryDescription": "Mercurial Thrust",
+  "experience": 410,
+  "whereToFind": [
+   "The Plumbed Depths"
+  ],
+  "battleInfo": {}
+ },
+ "lethal-armour": {
+  "title": "Lethal Armour",
+  "description": "Unfair foes who send enemies into a slumber with",
+  "secondaryDescription": "Kasnooze",
+  "experience": 1680,
+  "whereToFind": [
+   "The Gittish Empire"
+  ],
+  "battleInfo": {}
+ },
+ "liquid-metal-slime": {
+  "title": "Liquid Metal Slime",
+  "description": "Their defence and speed are pretty impressive, but nowhere near as amazing as the amount of experience they give!",
+  "experience": 40200,
+  "whereToFind": [
+   "The Bowhole"
+  ],
+  "battleInfo": {}
+ },
+ "live-lava": {
+  "title": "Live Lava",
+  "description": "Molten masses that frazzle foes feverishly with",
+  "secondaryDescription": "Frizzle",
+  "experience": 1620,
+  "whereToFind": [
+   "The Magmaroo"
+  ],
+  "battleInfo": {}
+ },
+ "living-statue": {
+  "title": "Living Statue",
+  "description": "They pump their massive bodies full of power, then pound the ground. Cure quickly if flattened by their frightening feet.",
+  "experience": 1500,
+  "whereToFind": [
+   "The Bowhole",
+   "Wyrmtail"
+  ],
+  "battleInfo": {}
+ },
+ "lleviathan": {
+  "title": "Lleviathan",
+  "description": "The people of Porth Llaffan worshipped this watery deity, which was really Dylan Jones in fygg-changed form.",
+  "secondaryDescription": "He once swam with countless companions in the seas around Newid Isle, but Llveiathan is now sadly the last of his kind.",
+  "experience": 4134,
+  "whereToFind": [
+   "Cuddiedig Cliff"
+  ],
+  "battleInfo": {}
+ },
+ "lost-soul": {
+  "title": "Lost Soul",
+  "description": "Self-destructive miseries of the monster realm who shy away from reality, only to implode self-importantly.",
+  "experience": 96,
+  "whereToFind": [
+   "Eastern Coffinwell",
+   "Western Coffinwell"
+  ],
+  "battleInfo": {}
+ },
+ "lunatick": {
+  "title": "Lunatick",
+  "description": "They distract enemies by tickling them with their teeming tentacles, then punish them with a paralysing ray.",
+  "experience": 70,
+  "whereToFind": [
+   "Brigadoom"
+  ],
+  "battleInfo": {}
+ },
+ "mad-moai": {
+  "title": "Mad Moai",
+  "description": "Stern statues that flatten foes with their breathtaking bulk and blind them with blasts of light.",
+  "experience": 350,
+  "whereToFind": [
+   "Lonely Plains",
+   "Heights of Loneliness"
+  ],
+  "battleInfo": {}
+ },
+ "magmalice": {
+  "title": "Magmalice",
+  "description": "They might look like champion rock chuckers, but it's their slap you want to watch for. Hard to harm with earth or fire.",
+  "experience": 2000,
+  "whereToFind": [
+   "The Magmaroo",
+   "Wyrmneck"
+  ],
+  "battleInfo": {}
+ },
+ "magus": {
+  "title": "Magus",
+  "description": "Attacks exclusively with spells, including",
+  "secondaryDescription": "Fizzle",
+  "experience": 90,
+  "whereToFind": [
+   "Quarantomb",
+   "Newid Isle"
+  ],
+  "battleInfo": {}
+ },
+ "man-o--war": {
+  "title": "Man o' War",
+  "description": "Slippery squid with tentacles that leave foes transfixed, they travel together to try and send seafarers to Davy Jones' locker.",
+  "experience": 200,
+  "whereToFind": [
+   "Tywll Cave",
+   "Ocean"
+  ],
+  "battleInfo": {}
+ },
+ "mandrake-major": {
+  "title": "Mandrake Major",
+  "description": "These reptilian raiders love to enhance their attacks with",
+  "secondaryDescription": "Oomph",
+  "experience": 510,
+  "whereToFind": [
+   "Urdus Marshland",
+   "Hermany"
+  ],
+  "battleInfo": {}
+ },
+ "mandrake-marauder": {
+  "title": "Mandrake Marauder",
+  "description": "Dragon dragoons and masters of fire. Fiercely loyal, their friends are never far off, and when called, will come running.",
+  "experience": 1760,
+  "whereToFind": [
+   "The Magmaroo"
+  ],
+  "battleInfo": {}
+ },
+ "mandrake-marshal": {
+  "title": "Mandrake Marshal",
+  "description": "Fierce fighters backed up by an array of support spells. They look scary, but don't do well against death spells.",
+  "experience": 2200,
+  "whereToFind": [
+   "Oubliette"
+  ],
+  "battleInfo": {}
+ },
+ "mandrake-monarch": {
+  "title": "Mandrake Monarch",
+  "description": "Well-balanced, wickedly talented warriors. When they meet with awkward opposition, they call on their companions.",
+  "secondaryDescription": "The rings around their wrists and ankles aren't armour — they're weights to keep them working out even while warring.",
+  "experience": 5000,
+  "goldDropped": 167,
+  "whereToFind": [
+   "Grotto (Water",
+   "rank 9-11)"
+  ],
+  "itemsDropped": {
+   "dragon-scale": "Veteran's helm"
+  },
+  "battleInfo": {}
+ },
+ "manguini": {
+  "title": "Manguini",
+  "description": "They rake their vicious claws through enemies with glee, and make use of their slim stature to sidestep strikes.",
+  "experience": 477,
+  "whereToFind": [
+   "The Plumbed Depths",
+   "Hermany"
+  ],
+  "battleInfo": {}
+ },
+ "master-moosifer": {
+  "title": "Master Moosifer",
+  "description": "They can tense up in an instant, and have hellishly hot halitosis. Also able to impair attack with a filthy fog.",
+  "secondaryDescription": "When they know their time has come, they voyage to the valley at the end of the underworld, and calmly breathe their last.",
+  "experience": 7600,
+  "goldDropped": 175,
+  "whereToFind": [
+   "Grotto (Fire",
+   "rank 12)"
+  ],
+  "itemsDropped": {
+   "magic-beast-hide": "Raging ruby"
+  },
+  "battleInfo": {}
+ },
+ "master-of-nu-un": {
+  "title": "Master of Nu'un",
+  "description": "Jack of Alltrades ate a fygg that had fallen from above in a bid to become god-like, but turned into this hideous beast instead.",
+  "experience": 2904,
+  "whereToFind": [
+   "Tower of Trades"
+  ],
+  "battleInfo": {}
+ },
+ "mean-spirit": {
+  "title": "Mean Spirit",
+  "description": "These soul-stealing minions of evil may be menacing, but their low defence lets them down.",
+  "experience": 99,
+  "whereToFind": [
+   "Western Coffinwell",
+   "Quarantomb"
+  ],
+  "battleInfo": {}
+ },
+ "medislime": {
+  "title": "Medislime",
+  "description": "Monsters are always made up to see these support slimes' yellow faces when they turn up to tend them with",
+  "secondaryDescription": "Midheal",
+  "experience": 300,
+  "whereToFind": [
+   "The Bad Cave"
+  ],
+  "battleInfo": {}
+ },
+ "mega-moai": {
+  "title": "Mega Moai",
+  "description": "Their igneous bodies are helluva hard, but their HP's not too hot. If one musters its strength, batter it before it blasts you.",
+  "experience": 2100,
+  "whereToFind": [
+   "Khaalag Coast",
+   "The Magmaroo"
+  ],
+  "battleInfo": {}
+ },
+ "metal-king-slime": {
+  "title": "Metal King Slime",
+  "description": "Big bundles of shiny joy whose ample insides hide the ingredients for an incredible experience.",
+  "secondaryDescription": "They admire a certain medal-mad monarch, and like to collect mini medals from their mini metal friends to mimic his methods.",
+  "experience": 120040,
+  "goldDropped": 80,
+  "whereToFind": [
+   "Grotto (Caves",
+   "rank 10; Water",
+   "rank 8; Fire",
+   "rank 9)"
+  ],
+  "itemsDropped": {
+   "slime-crown": "Orichalcum"
+  },
+  "battleInfo": {}
+ },
+ "metal-medley": {
+  "title": "Metal Medley",
+  "description": "A towering team of titanium tykes who can combine their clout to cast",
+  "secondaryDescription": "Kerfrizz",
+  "experience": 12288,
+  "whereToFind": [
+   "Lonely Coast",
+   "The Bad Cave"
+  ],
+  "battleInfo": {}
+ },
+ "metal-slime": {
+  "title": "Metal Slime",
+  "description": "Those lucky enough to meet one of these and defeat it before it dashes off will find it a very rewarding experience.",
+  "experience": 4096,
+  "whereToFind": [
+   "Quarantomb",
+   "Pluvi Isle"
+  ],
+  "battleInfo": {}
+ },
+ "metal-slime-knight": {
+  "title": "Metal Slime Knight",
+  "description": "Well-rounded warriors who are battle naturals, and can attack twice in one turn with their falcon-like fleetness.",
+  "experience": 305,
+  "whereToFind": [
+   "Heights of Loneliness"
+  ],
+  "battleInfo": {}
+ },
+ "mimic": {
+  "title": "Mimic",
+  "description": "Those who weather the storm of these bedevilled boxes' Chilly Breath still have to worry about Whack and critical attacks.",
+  "secondaryDescription": "Their appetites are insatiable, and the souls of those they swallow stay in their bottomless, boxy bellies forever.",
+  "experience": 4120,
+  "goldDropped": 315,
+  "whereToFind": [
+   "The Bowhole",
+   "Gittingham palace",
+   "Grotto (10% chance",
+   "rank C/D chests; 5% chance",
+   "rank E/F chests)"
+  ],
+  "itemsDropped": {
+   "mini-medal": "Gold rosary"
+  },
+  "battleInfo": {}
+ },
+ "moai-minstrel": {
+  "title": "Moai Minstrel",
+  "description": "Those facing these po-faced Pierrots should overcome the urge to laugh — a clout with Kamikazee just isn't funny.",
+  "secondaryDescription": "Their face paint is put on by boa bishops, who say it brings victory. Their real faces are rather handsome.",
+  "experience": 5880,
+  "goldDropped": 103,
+  "whereToFind": [
+   "Grotto (Caves",
+   "rank 8-9; Water",
+   "rank 8-10)"
+  ],
+  "itemsDropped": {
+   "narspicious": "Witch's hat"
+  },
+  "battleInfo": {}
+ },
+ "moosifer": {
+  "title": "Moosifer",
+  "description": "They blow",
+  "secondaryDescription": "Flame Breath",
+  "experience": 1240,
+  "whereToFind": [
+   "Lonely Coast",
+   "Wormwood Canyon"
+  ],
+  "battleInfo": {}
+ },
+ "morag": {
+  "title": "Morag",
+  "description": "Came to bring destruction to Brigadoom, but was rather taken with the",
+  "secondaryDescription": "Wight Knight",
+  "experience": 1600,
+  "whereToFind": [
+   "Brigadoom"
+  ],
+  "battleInfo": {}
+ },
+ "morphean-mushroom": {
+  "title": "Morphean Mushroom",
+  "description": "Tawdry toadstools that spew forth",
+  "secondaryDescription": "Sweet Breath",
+  "experience": 75,
+  "whereToFind": [
+   "Eastern Coffinwell",
+   "Western Coffinwell"
+  ],
+  "battleInfo": {}
+ },
+ "mortoad": {
+  "title": "Mortoad",
+  "description": "Hopping powder kegs with a whole heap of heavy artillery. Keep a particular eye out for the sickening",
+  "secondaryDescription": "Snot Shot",
+  "experience": 290,
+  "whereToFind": [
+   "Tywll Cave",
+   "Slurry Coast"
+  ],
+  "battleInfo": {}
+ },
+ "mudraker": {
+  "title": "Mudraker",
+  "description": "These amorphous masses of mud toughen themselves with",
+  "secondaryDescription": "Kabuff",
+  "experience": 188,
+  "whereToFind": [
+   "Newid Isle",
+   "Tywll Cave"
+  ],
+  "battleInfo": {}
+ },
+ "mummy": {
+  "title": "Mummy",
+  "description": "They envy the living, and torment them tirelessly. Their terrifying attacks may also sap tension, so take due care.",
+  "experience": 455,
+  "whereToFind": [
+   "Djust Desert",
+   "The Plumbed Depths"
+  ],
+  "battleInfo": {}
+ },
+ "mummy-boy": {
+  "title": "Mummy Boy",
+  "description": "Talented tacticians who focus on their more formidable foes first, and are reinforced against wind and darkness.",
+  "experience": 105,
+  "whereToFind": [
+   "Quarantomb"
+  ],
+  "battleInfo": {}
+ },
+ "mushroom-mage": {
+  "title": "Mushroom Mage",
+  "description": "Mean mushrooms who go round in groups endeavouring to make ice cubes out of adventurers with constant cold spells.",
+  "experience": 144,
+  "whereToFind": [
+   "Tower of Trades"
+  ],
+  "battleInfo": {}
+ },
+ "night-knight": {
+  "title": "Night Knight",
+  "description": "Emperors of the undead who can mend friends with",
+  "secondaryDescription": "Fullheal",
+  "experience": 2980,
+  "whereToFind": [
+   "Realm of the Mighty"
+  ],
+  "battleInfo": {}
+ },
+ "nodoph": {
+  "title": "Nodoph",
+  "description": "Sleeps atop the tower of Nod. Lost his powers three hundred years ago when he and Celestria went to Gittingham Palace.",
+  "secondaryDescription": "Created by the Grand Architect Zenus to destroy mortalkind, but had his hatred for humanity soothed by Serena.",
+  "experience": 46800,
+  "goldDropped": 5120,
+  "whereToFind": [
+   "Tower of Nod (During"
+  ],
+  "itemsDropped": {
+   "dragon-scale": "Where to find:"
+  },
+  "battleInfo": {}
+ },
+ "octagoon": {
+  "title": "Octagoon",
+  "description": "As strong as steel, and with horns hard enough to hew rocks in two, only the toughest will best these heavyweight beasts.",
+  "secondaryDescription": "They might look pretty po-faced, but they're actually rather amiable, even if they do like to live alone in quiet caves.",
+  "experience": 4620,
+  "goldDropped": 110,
+  "whereToFind": [
+   "Grotto (Caves",
+   "rank 10; Ruins",
+   "rank 7-9)"
+  ],
+  "itemsDropped": {
+   "magic-beast-hide": "Platinum ore"
+  },
+  "battleInfo": {}
+ },
+ "pale-whale": {
+  "title": "Pale Whale",
+  "description": "Deep-sea dwellers who blind foes with Dazzleflash and blaze a trail with their bright breath. Darkness will defeat them.",
+  "secondaryDescription": "They were the first beasts that the Great Architect Zenus placed in the oceans in the days of creation.",
+  "experience": 7500,
+  "goldDropped": 126,
+  "whereToFind": [
+   "Grotto (Water",
+   "rank 12)"
+  ],
+  "itemsDropped": {
+   "superior-medicine": "Wizard's hat"
+  },
+  "battleInfo": {}
+ },
+ "pandora-s-box": {
+  "title": "Pandora's Box",
+  "description": "Countless careless kids have fallen foul of these cruel casks, which are inured against ice and wind attacks.",
+  "secondaryDescription": "They love to spend their days off lolling around on the ground with their lids open, lapping up the sun and airing their insides.",
+  "experience": 5990,
+  "goldDropped": 600,
+  "whereToFind": [
+   "Grotto (15% chance",
+   "rank S chests; 10% chance",
+   "rank A chests; 5% chance",
+   "rank B chests)"
+  ],
+  "itemsDropped": {
+   "mini-medal": "Gold bar"
+  },
+  "battleInfo": {}
+ },
+ "parched-peckerel": {
+  "title": "Parched Peckerel",
+  "description": "Known as 'sandstreakers' for their insane speed, which is added to with",
+  "secondaryDescription": "Acceleratle",
+  "experience": 405,
+  "whereToFind": [
+   "Djust Desert"
+  ],
+  "battleInfo": {}
+ },
+ "peckerel": {
+  "title": "Peckerel",
+  "description": "They fly fast at their foes with paralysing attacks, and treat troublesome opponents to an",
+  "secondaryDescription": "Assassin's Stab",
+  "experience": 580,
+  "whereToFind": [
+   "Iluugazar Plains",
+   "Mt Ulbaruun"
+  ],
+  "battleInfo": {}
+ },
+ "pink-sanguini": {
+  "title": "Pink Sanguini",
+  "description": "Sanguinis who have cast off their cowskin kiddie coats for pink adolescent pelts. They love to have travellers for tea!",
+  "experience": 236,
+  "whereToFind": [
+   "Bloomingdale"
+  ],
+  "battleInfo": {}
+ },
+ "platinum-king-jewel": {
+  "title": "Platinum King Jewel",
+  "description": "The unrivalled experience of besting these hard-to-hit, Dazzle-dispensing diamonds makes them a dream come true.",
+  "secondaryDescription": "They spend their days off with their metal king slime mates, gazing rapt at their reflections in their buddies' bulbous bodies.",
+  "experience": 240000,
+  "goldDropped": 1000,
+  "whereToFind": [
+   "Grotto (Ruins",
+   "rank 12; Ice",
+   "rank 12)"
+  ],
+  "itemsDropped": {
+   "platinum-ore": "Seed of skill"
+  },
+  "battleInfo": {}
+ },
+ "power-hammer": {
+  "title": "Power Hammer",
+  "description": "Not content just to be strong, they get tough with",
+  "secondaryDescription": "Kabuff",
+  "experience": 450,
+  "whereToFind": [
+   "Lonely Coast",
+   "Djust Desert"
+  ],
+  "battleInfo": {}
+ },
+ "prime-slime": {
+  "title": "Prime Slime",
+  "description": "Legendary slime soldiers who amplify their attack with Oomph, and whose lightning speed lets them attack twice on the trot.",
+  "secondaryDescription": "Rumours abound about these brutal blobs. Some say they're heaven-sent, others that they're the saviours of slimekind.",
+  "experience": 5600,
+  "goldDropped": 178,
+  "whereToFind": [
+   "Grotto (Water",
+   "rank 10-12)"
+  ],
+  "itemsDropped": {
+   "valkyrie-sword": "Falcon blade"
+  },
+  "battleInfo": {}
+ },
+ "prism-peacock": {
+  "title": "Prism Peacock",
+  "description": "Brightly coloured, burning birds that fry all foes with their",
+  "secondaryDescription": "Flame Breath",
+  "experience": 2300,
+  "whereToFind": [
+   "Realm of the Mighty"
+  ],
+  "battleInfo": {}
+ },
+ "purrestidigitator": {
+  "title": "Purrestidigitator",
+  "description": "No cats on a hot tin roof, these fearless, peerless, fire-loving felines enjoy frying foes with",
+  "secondaryDescription": "Frizzle",
+  "experience": 423,
+  "whereToFind": [
+   "Lonely Coast",
+   "The Plumbed Depths"
+  ],
+  "battleInfo": {}
+ },
+ "python-priest": {
+  "title": "Python Priest",
+  "description": "Reptilian reverends who can cast",
+  "secondaryDescription": "Swoosh",
+  "experience": 950,
+  "whereToFind": [
+   "The Bowhole"
+  ],
+  "battleInfo": {}
+ },
+ "rag-doll": {
+  "title": "Rag Doll",
+  "description": "A little girl's doll beloved by Batkhaan.",
+  "secondaryDescription": "Rarity:",
+  "whereToFind": [
+   "Obtained during quest"
+  ],
+  "battleInfo": {}
+ },
+ "ragin--contagion": {
+  "title": "Ragin' Contagion",
+  "description": "The very essence of illness, it was sealed up in the Quarantomb for a century, but came back to curse Coffinwell once more.",
+  "experience": 2295,
+  "whereToFind": [
+   "Quarantomb"
+  ],
+  "battleInfo": {}
+ },
+ "rampage": {
+  "title": "Rampage",
+  "description": "Barbaric blue sheep that sap foes' speed with",
+  "secondaryDescription": "Deceleratle",
+  "experience": 224,
+  "whereToFind": [
+   "Dourbridge",
+   "Lonely Plains"
+  ],
+  "battleInfo": {}
+ },
+ "rashaverak": {
+  "title": "Rashaverak",
+  "description": "Worryingly weighty wyrms whose sheer size will shock anyone not sufficiently impressed by their spine-chilling strength.",
+  "secondaryDescription": "Should day suddenly turn to night, turn a wary eye to the skies — it could be a company of rampaging rashaveraks.",
+  "experience": 6600,
+  "goldDropped": 36,
+  "whereToFind": [
+   "Grotto (Fire",
+   "rank 11-12)"
+  ],
+  "itemsDropped": {
+   "dragon-scale": "Brighten rock"
+  },
+  "battleInfo": {}
+ },
+ "raving-lunatick": {
+  "title": "Raving Lunatick",
+  "description": "They banish their enemies to the underworld by zapping them with",
+  "secondaryDescription": "Zammle",
+  "experience": 310,
+  "whereToFind": [
+   "Bloomingdale",
+   "The Bad Cave"
+  ],
+  "battleInfo": {}
+ },
+ "raving-reaper": {
+  "title": "Raving Reaper",
+  "description": "Scary scythe swingers who like to aim for the vitals, and are sometimes so drunk on the darkness that they go haywire.",
+  "experience": 1050,
+  "whereToFind": [
+   "The Old School",
+   "Ondro Cliffs"
+  ],
+  "battleInfo": {}
+ },
+ "red-dragon": {
+  "title": "Red Dragon",
+  "description": "Fiery dragons that engulf enemies in all manner of intense infernos, but fear the might of light.",
+  "experience": 3000,
+  "whereToFind": [
+   "Realm of the Mighty"
+  ],
+  "battleInfo": {}
+ },
+ "restless-armour": {
+  "title": "Restless Armour",
+  "description": "Chivalrous champions who like to fight fair and square. Beware the tension-trashing",
+  "secondaryDescription": "Morale Masher",
+  "experience": 324,
+  "whereToFind": [
+   "Tower of Trades",
+   "Dourbridge"
+  ],
+  "battleInfo": {}
+ },
+ "riptide": {
+  "title": "Riptide",
+  "description": "They hit back with",
+  "secondaryDescription": "Whack",
+  "experience": 540,
+  "whereToFind": [
+   "The Bad Cave",
+   "Ocean"
+  ],
+  "battleInfo": {}
+ },
+ "robo-robin": {
+  "title": "Robo-Robin",
+  "description": "They may look like sweet little songbirds, but these mechanical murder machines are set to explode when their HP gets low.",
+  "experience": 580,
+  "whereToFind": [
+   "Iluugazar Plains",
+   "Mt Ulbaruun"
+  ],
+  "battleInfo": {}
+ },
+ "rockbomb": {
+  "title": "Rockbomb",
+  "description": "Don't dismiss these beaming boulders due to their funny faces - they can take out entire teams with",
+  "secondaryDescription": "Kamikazee",
+  "experience": 700,
+  "whereToFind": [
+   "Iluugazar Plains",
+   "Mt Ulbaruun"
+  ],
+  "battleInfo": {}
+ },
+ "rover": {
+  "title": "Rover",
+  "description": "Vicious guard dog of the Inntouchables. Only heeds the instructions of the innfamous Al Capinne.",
+  "secondaryDescription": "Was left as a pup on Al Capinne's doorstep. He raised the little rascal, and watched him grow into a deadly drastic drackal!",
+  "experience": 42500,
+  "goldDropped": 3750,
+  "whereToFind": [
+   "The Plumbed Depths (During"
+  ],
+  "itemsDropped": {
+   "magic-beast-hide": "Where to find:"
+  },
+  "battleInfo": {}
+ },
+ "sail-serpent": {
+  "title": "Sail Serpent",
+  "description": "Spiteful serpents that love to paralyse people with",
+  "secondaryDescription": "Burning Breath",
+  "experience": 850,
+  "whereToFind": [
+   "Lonely Coast",
+   "Wyrmwing"
+  ],
+  "battleInfo": {}
+ },
+ "salamarauder": {
+  "title": "Salamarauder",
+  "description": "These practical pests freeze foes with their breath, and evade attacks while summoning support.",
+  "experience": 171,
+  "whereToFind": [
+   "Tywll Cave",
+   "Slurry Coast"
+  ],
+  "battleInfo": {}
+ },
+ "scarewolf": {
+  "title": "Scarewolf",
+  "description": "They're not just razor-taloned terrors, their tension also increases every time they're attacked. Handle with care.",
+  "experience": 325,
+  "whereToFind": [
+   "Lonely Coast",
+   "Bloomingdale"
+  ],
+  "battleInfo": {}
+ },
+ "scarlet-fever": {
+  "title": "Scarlet Fever",
+  "description": "Rivers run dry, animals die, and the grass and trees are burnt to cinders when the scarlet fever walks the land.",
+  "secondaryDescription": "These hellfire-exhaling horrors are born when souls that cannot rest are engulfed in evil auras. None can rest while they live.",
+  "experience": 5600,
+  "goldDropped": 115,
+  "whereToFind": [
+   "Grotto (Fire",
+   "rank 10-12)"
+  ],
+  "itemsDropped": {
+   "lava-lump": "Fire blade"
+  },
+  "battleInfo": {}
+ },
+ "scourgette": {
+  "title": "Scourgette",
+  "description": "These veteran vegetables are very versatile, and can batter with",
+  "secondaryDescription": "Boom",
+  "experience": 500,
+  "whereToFind": [
+   "Hermany",
+   "Pluvi Isle"
+  ],
+  "battleInfo": {}
+ },
+ "sculptrice": {
+  "title": "Sculptrice",
+  "description": "Snowy statues that can disconcert with",
+  "secondaryDescription": "Dazzleflash",
+  "experience": 920,
+  "whereToFind": [
+   "Cringle Coast",
+   "The Old School"
+  ],
+  "battleInfo": {}
+ },
+ "sculpture-vulture": {
+  "title": "Sculpture Vulture",
+  "description": "Monumental monsters who bolster their unbreakable bodies with",
+  "secondaryDescription": "Buff",
+  "experience": 1320,
+  "whereToFind": [
+   "The Bowhole",
+   "Wyrmtail"
+  ],
+  "battleInfo": {}
+ },
+ "seasaur": {
+  "title": "Seasaur",
+  "description": "These super-strong sea serpents have sunk many a ship with their ear-splitting roars and brutal hot and cold breath.",
+  "experience": 1900,
+  "whereToFind": [
+   "Ocean"
+  ],
+  "battleInfo": {}
+ },
+ "seavern": {
+  "title": "Seavern",
+  "description": "True masters of the sea, these supreme seasaurs scare foes silly with a blood-curdling cry, then smash them with a tsunami.",
+  "secondaryDescription": "Dealers of watery death, they rise from the depths to bring terror and destruction to all the oceans of the world.",
+  "experience": 7000,
+  "goldDropped": 87,
+  "whereToFind": [
+   "Grotto (Water",
+   "rank 12)"
+  ],
+  "itemsDropped": {
+   "saint-s-ashes": "Cobra fan"
+  },
+  "battleInfo": {}
+ },
+ "shaman": {
+  "title": "Shaman",
+  "description": "Fearsome fiends who launch weird light to weaken foes against spells, then maul them with all manner of magic.",
+  "experience": 290,
+  "whereToFind": [
+   "The Bad Cave"
+  ],
+  "battleInfo": {}
+ },
+ "shivery-shrubbery": {
+  "title": "Shivery Shrubbery",
+  "description": "They go around in gangs trying to turn the world to ice by stealing MP with",
+  "secondaryDescription": "Drain Magic",
+  "experience": 680,
+  "whereToFind": [
+   "Snowberia",
+   "Snowberian Coast"
+  ],
+  "battleInfo": {}
+ },
+ "shocktopus": {
+  "title": "Shocktopus",
+  "description": "Betentacled terrors that are immune to poison, paralysis and sleep. Whack them silly before they launch a",
+  "secondaryDescription": "Spike Strike",
+  "experience": 375,
+  "whereToFind": [
+   "Djust Desert",
+   "Ocean"
+  ],
+  "battleInfo": {}
+ },
+ "sick-trigertaur": {
+  "title": "Sick Trigertaur",
+  "description": "They enjoy attacks that damage all enemies like",
+  "secondaryDescription": "Party Pooper",
+  "experience": 3600,
+  "whereToFind": [
+   "Realm of the Mighty"
+  ],
+  "battleInfo": {}
+ },
+ "skeleton-soldier": {
+  "title": "Skeleton Soldier",
+  "description": "Bony bruisers who give of their best whoever they're battling. They serve up sleep attacks and mend themselves with",
+  "secondaryDescription": "Midheal",
+  "experience": 1100,
+  "whereToFind": [
+   "Eastern Wormwood",
+   "Western Wormwood"
+  ],
+  "battleInfo": {}
+ },
+ "slime-knight": {
+  "title": "Slime Knight",
+  "description": "An all-out attack is the only way to best these balanced battlers who use",
+  "secondaryDescription": "Helm Splitter",
+  "experience": 127,
+  "whereToFind": [
+   "Newid Isle",
+   "Tower of Trades"
+  ],
+  "battleInfo": {}
+ },
+ "slime-stack": {
+  "title": "Slime Stack",
+  "description": "You'd think three slimes would be better than one, but there's more bickering than battling with these tetchy towers.",
+  "experience": 317,
+  "whereToFind": [
+   "Newid Isle",
+   "Tower of Trades"
+  ],
+  "battleInfo": {}
+ },
+ "slionheart": {
+  "title": "Slionheart",
+  "description": "Supreme slimes who ooze class, and whose incredible strength and insane speed are second only those of the gods.",
+  "secondaryDescription": "They may see themselves as superior to slimes, but they still return to see in the new year with their bouncy brethren.",
+  "experience": 6200,
+  "goldDropped": 184,
+  "whereToFind": [
+   "Grotto (Caves",
+   "rank 11-12)"
+  ],
+  "itemsDropped": {
+   "falcon-blade": "Pallium regale"
+  },
+  "battleInfo": {}
+ },
+ "slugger": {
+  "title": "Slugger",
+  "description": "They know a dazzling array of dastardly dances, but run out of steam rather quickly.",
+  "experience": 64,
+  "whereToFind": [
+   "Eastern Coffinwell",
+   "Western Coffinwell"
+  ],
+  "battleInfo": {}
+ },
+ "sluggernaut": {
+  "title": "Sluggernaut",
+  "description": "They can turn up the tension with a bit of",
+  "secondaryDescription": "Egg On",
+  "experience": 720,
+  "whereToFind": [
+   "Khaalag Coast",
+   "Ondor Cliffs"
+  ],
+  "battleInfo": {}
+ },
+ "sluggerslaught": {
+  "title": "Sluggerslaught",
+  "description": "These non-stop boppers can crank up their allies' tension with a twirl, heal them with a handclap and vogue their way to victory.",
+  "secondaryDescription": "Suffered a crisis of confidence and had to reassess their style when the boogie manguinis said their steps lacked soul.",
+  "experience": 4600,
+  "goldDropped": 148,
+  "whereToFind": [
+   "Grotto (Caves",
+   "rank 9",
+   "11; Ruins",
+   "rank 8-9",
+   "12)"
+  ],
+  "itemsDropped": {
+   "heavy-handwear": "Bardic boots"
+  },
+  "battleInfo": {}
+ },
+ "slugly-betsy": {
+  "title": "Slugly Betsy",
+  "description": "Warty, weighty witches who watch over their own with support spells. Irksome if they cast Kazing or Magic Barrier.",
+  "secondaryDescription": "They may look monstrous but love nothing more than looking after the little beasties of river, sea and shore.",
+  "experience": 5500,
+  "goldDropped": 158,
+  "whereToFind": [
+   "Grotto (Water",
+   "rank 8-10)"
+  ],
+  "itemsDropped": {
+   "watermaul-wand": "Nomadic deel"
+  },
+  "battleInfo": {}
+ },
+ "sootheslime": {
+  "title": "Sootheslime",
+  "description": "Healslimes who've mastered the mighty",
+  "secondaryDescription": "Moreheal",
+  "experience": 1050,
+  "whereToFind": [
+   "Cringle Coast",
+   "The Old School"
+  ],
+  "battleInfo": {}
+ },
+ "sorcerer": {
+  "title": "Sorcerer",
+  "description": "Supreme spellcasters whose repertoire includes",
+  "secondaryDescription": "Boom",
+  "experience": 690,
+  "whereToFind": [
+   "Gerzuun"
+  ],
+  "battleInfo": {}
+ },
+ "spinchilla": {
+  "title": "Spinchilla",
+  "description": "They ride atop a raging torrent, spinning their bodies to cast",
+  "secondaryDescription": "Crackle",
+  "experience": 300,
+  "whereToFind": [
+   "Slurry Coast",
+   "Dourbridge"
+  ],
+  "battleInfo": {}
+ },
+ "splatterhorn": {
+  "title": "Splatterhorn",
+  "description": "They stoically soak up damage while stacking up strength with",
+  "secondaryDescription": "Double Up",
+  "experience": 980,
+  "whereToFind": [
+   "Eastern Wormwood",
+   "Western Wormwood"
+  ],
+  "battleInfo": {}
+ },
+ "stale-whale": {
+  "title": "Stale Whale",
+  "description": "Woeful wales who singe foes with Scorch, and whose rancid spines are rank enough to confuse anyone they touch.",
+  "secondaryDescription": "Companions of Lleviathan who made a pact with an evil god to remain in the mortal realm as monsters rather than be ruined.",
+  "experience": 5700,
+  "goldDropped": 84,
+  "whereToFind": [
+   "Grotto (Caves",
+   "rank 10-11)"
+  ],
+  "itemsDropped": {
+   "glass-frit": "Trident"
+  },
+  "battleInfo": {}
+ },
+ "stenchurion": {
+  "title": "Stenchurion",
+  "description": "They specialise in toxic attacks, and in transfixing all and sundry with",
+  "secondaryDescription": "Multithrust",
+  "experience": 1380,
+  "whereToFind": [
+   "The Gittish Empire",
+   "Ocean"
+  ],
+  "battleInfo": {}
+ },
+ "stone-golem": {
+  "title": "Stone Golem",
+  "description": "They protect their pals with their bulky bodies, and brush off bog-standard blows with ease. Hit them hard or not at all.",
+  "experience": 400,
+  "whereToFind": [
+   "Heights of Loneliness",
+   "Bloomingdale"
+  ],
+  "battleInfo": {}
+ },
+ "stone-guardian": {
+  "title": "Stone Guardian",
+  "description": "Normal blows won't blemish these blighters' bodies, and those who aren't quaking before they save up a",
+  "secondaryDescription": "Stomp",
+  "experience": 2040,
+  "whereToFind": [
+   "The Gittish Empire",
+   "Gittingham Palace"
+  ],
+  "battleInfo": {}
+ },
+ "swinoceros": {
+  "title": "Swinoceros",
+  "description": "These raging rhinos love to hit hard with their horns, which often put enemies out of action.",
+  "experience": 610,
+  "whereToFind": [
+   "Iluugazar Plains",
+   "Mt Ulbaruun"
+  ],
+  "battleInfo": {}
+ },
+ "tantamount": {
+  "title": "Tantamount",
+  "description": "These heavenly horses lash out with Lightning Storm, sometimes strike twice, and read the battlefield like a book.",
+  "secondaryDescription": "Some believe that the moon's craters are made by tantamounts' flaming manes as they gallop across the night sky.",
+  "experience": 4600,
+  "goldDropped": 167,
+  "whereToFind": [
+   "Grotto (Fire",
+   "rank 8-10)"
+  ],
+  "itemsDropped": {
+   "horse-manure": "Friendly fan"
+  },
+  "battleInfo": {}
+ },
+ "teaky-mask": {
+  "title": "Teaky Mask",
+  "description": "Real nuisances who cover companions who are under attack, and even explode when the going gets tough.",
+  "experience": 860,
+  "whereToFind": [
+   "The Old School"
+  ],
+  "battleInfo": {}
+ },
+ "tearwolf": {
+  "title": "Tearwolf",
+  "description": "Ultimate assassins of the wolf family, their claws are razor-sharp and lightning-fast, and they love to",
+  "secondaryDescription": "Feel the Burn",
+  "experience": 730,
+  "whereToFind": [
+   "Snowberia",
+   "Snowberian Coast"
+  ],
+  "battleInfo": {}
+ },
+ "terra-hammer": {
+  "title": "Terra Hammer",
+  "description": "An awesome overhaul of the terra firmer.",
+  "secondaryDescription": "Attack:",
+  "battleInfo": {
+   "attack": 100
+  }
+ },
+ "terror-troll": {
+  "title": "Terror Troll",
+  "description": "It's hard to hurt these denizens of the depths with darkness or earth abilities. They hit hideously hard but mostly miss their mark.",
+  "secondaryDescription": "Often sought out by adventurers in training, as their incredibly durable bodies make perfect punchbags.",
+  "experience": 4880,
+  "goldDropped": 58,
+  "whereToFind": [
+   "Grotto (Caves",
+   "rank 8-9; Fire",
+   "rank 9-11)"
+  ],
+  "itemsDropped": {
+   "royal-soil": "Roguess's robes"
+  },
+  "battleInfo": {}
+ },
+ "terrorhawk": {
+  "title": "Terrorhawk",
+  "description": "Raised on molten magma, these fiery, feathered fiends ignite enemies with",
+  "secondaryDescription": "Flame Breath",
+  "experience": 1080,
+  "whereToFind": [
+   "Wyrmtail",
+   "Wyrmwing"
+  ],
+  "battleInfo": {}
+ },
+ "the-page": {
+  "title": "The page",
+  "description": "roundaclout",
+  "secondaryDescription": "you want to access does not exist.",
+  "battleInfo": {}
+ },
+ "toxic-zombie": {
+  "title": "Toxic Zombie",
+  "description": "Flatten those foetid foes with fire and light spells before they blight body and mind with their filthy fingernails and foul breath.",
+  "experience": 270,
+  "whereToFind": [
+   "Dourbridge",
+   "Lonely Plains"
+  ],
+  "battleInfo": {}
+ },
+ "treeface": {
+  "title": "Treeface",
+  "description": "These troublesome trees lower MP with",
+  "secondaryDescription": "Weird Dance",
+  "experience": 315,
+  "whereToFind": [
+   "Lonely Coast",
+   "Heights of Loneliness"
+  ],
+  "battleInfo": {}
+ },
+ "treevil": {
+  "title": "Treevil",
+  "description": "They keep",
+  "secondaryDescription": "Yggdrasil leaves",
+  "experience": 600,
+  "whereToFind": [
+   "Urdus Marshland",
+   "Iluugazar Plains"
+  ],
+  "battleInfo": {}
+ },
+ "trigertaur": {
+  "title": "Trigertaur",
+  "description": "Intimidating enemies who damage defence with",
+  "secondaryDescription": "Sap",
+  "experience": 350,
+  "whereToFind": [
+   "Lonely Plains",
+   "Bloomingdale"
+  ],
+  "battleInfo": {}
+ },
+ "troll": {
+  "title": "Troll",
+  "description": "These enormous enemies' attacks are enough to level mountains. Beware of the bothersome",
+  "secondaryDescription": "Bagsy Last",
+  "experience": 1500,
+  "whereToFind": [
+   "Mt Ulzuun",
+   "Gerzuun"
+  ],
+  "battleInfo": {}
+ },
+ "tyrannosaura-wrecks": {
+  "title": "Tyrannosaura Wrecks",
+  "description": "Goddess of destruction from a different dimension. She can reduce continents to dust with a single digit.",
+  "secondaryDescription": "Eldest girl of the Hackson Five, she killed older brother Tyrannousaurus Wrocks, and youngsters Wracks and Wrucks.",
+  "experience": 45550,
+  "goldDropped": 5000,
+  "whereToFind": [
+   "Starflight express (During"
+  ],
+  "itemsDropped": {
+   "raging-ruby": "Where to find:"
+  },
+  "battleInfo": {}
+ },
+ "tyrantula": {
+  "title": "Tyrantula",
+  "description": "An enormous arachnid who dwelt deep in the Bad Cave, soaking up poison and perniciousness until she morphed into a man-eater",
+  "experience": 5231,
+  "whereToFind": [
+   "The Bad Cave"
+  ],
+  "battleInfo": {}
+ },
+ "uncommon-cold": {
+  "title": "Uncommon Cold",
+  "description": "Snow elementals that could freeze even fire, and will pitilessly turn all before them to ice unless taken out of play.",
+  "secondaryDescription": "The souls of travellers who snuff it in snowstorms are set adrift on sleety winds to be consumed by the uncommon cold.",
+  "experience": 6200,
+  "goldDropped": 104,
+  "whereToFind": [
+   "Grotto (Ice",
+   "rank 11-12)"
+  ],
+  "itemsDropped": {
+   "ice-crystal": "Icicle dirk"
+  },
+  "battleInfo": {}
+ },
+ "vermil-lion": {
+  "title": "Vermil Lion",
+  "description": "They expunge spells with Disruptive Wave and burp forth black breath. Also able to mend themselves by meditating.",
+  "secondaryDescription": "Cobbled together from bits of various beasts by degenerate demons, they curse their unhappy existence.",
+  "experience": 8120,
+  "goldDropped": 200,
+  "whereToFind": [
+   "Grotto (Fire",
+   "rank 12)"
+  ],
+  "itemsDropped": {
+   "beast-claws": "Divine dress"
+  },
+  "battleInfo": {}
+ },
+ "void-droid": {
+  "title": "Void Droid",
+  "description": "They shoot showers of arrows, slice savagely with their swords, and use any means available to annihilate enemies.",
+  "secondaryDescription": "Brainchild of a scientist who made many weapons before crowning his career with these massively murderous machines.",
+  "experience": 7800,
+  "goldDropped": 156,
+  "whereToFind": [
+   "Grotto (Ruins",
+   "rank 12)"
+  ],
+  "itemsDropped": {
+   "mythril-ore": "Brawling byrnie"
+  },
+  "battleInfo": {}
+ },
+ "walking-corpse": {
+  "title": "Walking Corpse",
+  "description": "These dogged dead bodies fixate on a foe and won't leave them alone. They may be brittle, but they're tough too.",
+  "experience": 155,
+  "whereToFind": [
+   "Newid Isle",
+   "Tower of Trades"
+  ],
+  "battleInfo": {}
+ },
+ "weaken-beakon": {
+  "title": "Weaken Beakon",
+  "description": "They love to cast",
+  "secondaryDescription": "Kasap",
+  "experience": 266,
+  "whereToFind": [
+   "The Bad Cave"
+  ],
+  "battleInfo": {}
+ },
+ "whirly-girly": {
+  "title": "Whirly Girly",
+  "description": "Wild women of the weather world who work wonders with wind spells, and push",
+  "secondaryDescription": "Swoosh",
+  "experience": 1020,
+  "whereToFind": [
+   "Ondor Cliffs",
+   "Eastern Wormwood"
+  ],
+  "battleInfo": {}
+ },
+ "white-trigertaur": {
+  "title": "White Trigertaur",
+  "description": "Monstrous masters of ice who are super-skilled with their icicle-like spears, and also adept at using",
+  "secondaryDescription": "Thin Air",
+  "experience": 940,
+  "whereToFind": [
+   "Snowberia",
+   "Cringle Coast"
+  ],
+  "battleInfo": {}
+ },
+ "widow-s-pique": {
+  "title": "Widow's Pique",
+  "description": "They wrap their victims in sticky silk, then smack them with a stinker of an attack. Firmly insulated against fire attacks.",
+  "secondaryDescription": "The reincarnated souls of spurned lovers, they spend their days as poisonous spiders weaving webs of eternal woe.",
+  "experience": 6800,
+  "goldDropped": 189,
+  "whereToFind": [
+   "Grotto (Caves",
+   "rank 12)"
+  ],
+  "itemsDropped": {
+   "tangleweb": "Rogue's robes"
+  },
+  "battleInfo": {}
+ },
+ "wight-emperor": {
+  "title": "Wight Emperor",
+  "description": "Spine-chilling sorcerers who cast Kazam, Kafuddle and Kathwack. Face them unprepared at your own peril.",
+  "secondaryDescription": "They believe that life is pain and death is eternal happiness, and love treating travellers to a taste of 'contentment'.",
+  "experience": 5250,
+  "goldDropped": 185,
+  "whereToFind": [
+   "Grotto (Ice",
+   "rank 9-11)"
+  ],
+  "itemsDropped": {
+   "mitre": "Surplice"
+  },
+  "battleInfo": {}
+ },
+ "wight-king": {
+  "title": "Wight King",
+  "description": "They foil magic with",
+  "secondaryDescription": "Fizzle",
+  "experience": 1680,
+  "whereToFind": [
+   "Gittingham Palace",
+   "Oubliette"
+  ],
+  "battleInfo": {}
+ },
+ "wight-knight": {
+  "title": "Wight Knight",
+  "description": "Black-clad knight errant who once terrorised the people of Stornway in mistaken search of his long-lost love.",
+  "experience": 800,
+  "whereToFind": [
+   "Loch Storn"
+  ],
+  "battleInfo": {}
+ },
+ "wight-priest": {
+  "title": "Wight Priest",
+  "description": "Always take these maleficent ministers out first, as they can raise their dead with",
+  "secondaryDescription": "Zing",
+  "experience": 940,
+  "whereToFind": [
+   "The Old School"
+  ],
+  "battleInfo": {}
+ },
+ "wishmaster": {
+  "title": "Wishmaster",
+  "description": "They pound the ground, toppling enemies all around, then, as if that wasn't enough, they clobber them with Kaboom as well.",
+  "secondaryDescription": "Demons once worshipped by a long-forgotten civilisation. They granted wishes to those who made sacrifices in their name.",
+  "experience": 5500,
+  "goldDropped": 75,
+  "whereToFind": [
+   "Grotto (Caves",
+   "rank 9-11)"
+  ],
+  "itemsDropped": {
+   "densinium": "Holy femail"
+  },
+  "battleInfo": {}
+ },
+ "wonder-wyrtle": {
+  "title": "Wonder Wyrtle",
+  "description": "These reptilian regents can bring down bolts of lightning and exhale gouts of flame, but aren't wild about water or darkness.",
+  "secondaryDescription": "Supposedly, when wyrtles' souls depart their bodies, they are absorbed by wonder wyrtles, and earn eternal life.",
+  "experience": 6900,
+  "goldDropped": 98,
+  "whereToFind": [
+   "Grotto (Caves",
+   "rank 12)"
+  ],
+  "itemsDropped": {
+   "tortoiseshell": "Dragon shield"
+  },
+  "battleInfo": {}
+ },
+ "wyrtle": {
+  "title": "Wyrtle",
+  "description": "Hurtful turtles that like to frazzle foes with",
+  "secondaryDescription": "Flame Breath",
+  "experience": 600,
+  "whereToFind": [
+   "Urdus Marshland",
+   "Hermany"
+  ],
+  "battleInfo": {}
+ },
+ "wyrtoise": {
+  "title": "Wyrtoise",
+  "description": "Shelled fellows who are no suckers, and can send back spells with",
+  "secondaryDescription": "Bounce",
+  "experience": 2500,
+  "whereToFind": [
+   "Oubliette"
+  ],
+  "battleInfo": {}
+ },
+ "yore": {
+  "title": "Yore",
+  "description": "An ancient evil confined in a casket beneath Stornway castle three hundred years ago by the King of that bygone age.",
+  "secondaryDescription": "Had a contract with the evil Empire to wipe out not just the people of Stornway, but the entire population of the world.",
+  "experience": 36500,
+  "goldDropped": 4200,
+  "whereToFind": [
+   "Stornway Castle Basement (Accessible during"
+  ],
+  "itemsDropped": {
+   "aggressence": "Where to find:"
+  },
+  "battleInfo": {}
+ },
+ "zere": {
+  "title": "Zere",
+  "description": "Item Shop",
+  "secondaryDescription": "Medicinal herb",
+  "battleInfo": {}
+ },
+ "zumeanie": {
+  "title": "Zumeanie",
+  "description": "Trop-pickle vegetables, ripened in the sun, and unable to cope with icy conditions. Can confuse with their spinning spears.",
+  "experience": 212,
+  "whereToFind": [
+   "Slurry Coast",
+   "Dourbridge"
+  ],
+  "battleInfo": {}
+ }
+}

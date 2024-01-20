@@ -1,0 +1,93 @@
+{
+ "batterfly": {
+  "number": 5,
+  "title": "Batterfly",
+  "description": "Beastly butterflies who disrupt their enemies with",
+  "secondaryDescription": "Dazzle",
+  "experience": 7,
+  "goldDropped": 9,
+  "family": "Bug",
+  "isFloating": true,
+  "whereToFind": [
+   "Angel Falls",
+   "Zere"
+  ],
+  "itemsDropped": {
+   "moonwort-bulb": "(1/16)"
+  },
+  "battleInfo": {
+   "maxHP": 14,
+   "maxMP": 5,
+   "attack": 14,
+   "defense": 12,
+   "evasionChance": 2,
+   "elementalAversions": "Takes 1.25x damage from all elements",
+   "ailmentAffinities": [
+    "25% resistance to Dazzle."
+   ],
+   "enragedBy": {
+    "whistle": 75
+   }
+  }
+ },
+ "betterfly": {
+  "number": 18,
+  "title": "Betterfly",
+  "description": "Brutal butterflies that dizzy with",
+  "secondaryDescription": "Dazzle",
+  "experience": 36,
+  "goldDropped": 44,
+  "family": "Bug",
+  "isFloating": true,
+  "whereToFind": [
+   "Zere"
+  ],
+  "itemsDropped": {
+   "coagulant": "(1/8)"
+  },
+  "battleInfo": {
+   "maxHP": 37,
+   "maxMP": 5,
+   "attack": 30,
+   "defense": 16,
+   "evasionChance": 2,
+   "elementalAversions": "Takes 1.25x damage from Fire, Dark, and Light.",
+   "ailmentAffinities": [
+    "25% resistance to Dazzle and Poison",
+    "50% resistance to Paralyze."
+   ],
+   "enragedBy": {
+    "whistle": 75
+   }
+  }
+ },
+ "gastropog": {
+  "number": 21,
+  "title": "Gastropog",
+  "description": "They slap their sickening long tongues across enemies' faces, and eject 'orrible ooze to slow their foes.",
+  "secondaryDescription": "The size of their shells dictates their status, and the competition for cool carapaces is fairly fierce.",
+  "experience": 48,
+  "goldDropped": 22,
+  "family": "Bug",
+  "whereToFind": [
+   "Eastern Stornway",
+   "Zere"
+  ],
+  "itemsDropped": {
+   "antidotal-herb": "(1/16)"
+  },
+  "battleInfo": {
+   "maxHP": 28,
+   "attack": 36,
+   "defense": 48,
+   "elementalAversions": "Takes 1.25x damage from Ice, Dark, and Light.",
+   "ailmentAffinities": [
+    "25% resistance to Sap",
+    "50% resistance to Sleep. Immune to Drain Magic and Fizzle."
+   ],
+   "enragedBy": {
+    "whistle": 0
+   }
+  }
+ }
+}

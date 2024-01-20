@@ -1,0 +1,93 @@
+{
+ "aggrosculpture": {
+  "number": 184,
+  "title": "Aggrosculpture",
+  "description": "Malicious monsters who batter adventurers with",
+  "secondaryDescription": "Boom",
+  "experience": 2280,
+  "family": "Demon",
+  "whereToFind": [
+   "Oubliette",
+   "Ocean"
+  ],
+  "battleInfo": {}
+ },
+ "atlas": {
+  "number": 289,
+  "title": "Atlas",
+  "description": "A humongous hulk who's as big as house. Ponds appearing in towns and villages are duly dubbed 'Atlas' footprints'.",
+  "secondaryDescription": "A giant thought to be older than time itself. Some say that he lived in the palace of an almighty realm before being sealed away.",
+  "experience": 50000,
+  "goldDropped": 1680,
+  "family": "Demon",
+  "whereToFind": [
+   "Grotto (Rank 5-9",
+   "11-12; Suffix: Regret",
+   "Bane",
+   "Fear",
+   "Dread",
+   "Hurt",
+   "Gloom)"
+  ],
+  "itemsDropped": {
+   "tough-guy-tattoo": "(steal only)"
+  },
+  "battleInfo": {
+   "elementalAversions": "Light (2x damage)"
+  }
+ },
+ "teeny-sanguini": {
+  "number": 3,
+  "title": "Teeny Sanguini",
+  "description": "Cowskin-coloured little devils who only chase after travellers because they want to play.",
+  "secondaryDescription": "The cow pattern pales, and patches of pink poke through as they mature. You could say they rose as they rise!",
+  "experience": 4,
+  "goldDropped": 15,
+  "family": "Demon",
+  "isFloating": true,
+  "whereToFind": [
+   "Angel Falls"
+  ],
+  "itemsDropped": {
+   "medicinal-herb": "(1/16)"
+  },
+  "battleInfo": {
+   "maxHP": 13,
+   "maxMP": 2,
+   "attack": 12,
+   "defense": 6,
+   "evasionChance": 2,
+   "elementalAversions": "Takes 1.25x damage from all elements.",
+   "enragedBy": {
+    "whistle": 75
+   }
+  }
+ },
+ "winkster": {
+  "number": 12,
+  "title": "Winkster",
+  "description": "These trainee tricksters have just learnt",
+  "secondaryDescription": "Frizz",
+  "experience": 22,
+  "goldDropped": 22,
+  "family": "Demon",
+  "isFloating": true,
+  "whereToFind": [
+   "Western Stornway",
+   "Eastern Stornway"
+  ],
+  "itemsDropped": {
+   "cotton-trousers": "(1/32)"
+  },
+  "battleInfo": {
+   "maxHP": 18,
+   "maxMP": 3,
+   "attack": 19,
+   "defense": 16,
+   "elementalAversions": "Takes 1.25x damage from Light.",
+   "enragedBy": {
+    "whistle": 75
+   }
+  }
+ }
+}

@@ -1,0 +1,218 @@
+{
+ "alphyn": {
+  "number": 225,
+  "title": "Alphyn",
+  "description": "They may be made of a muddle of bits, but these fast foes attack twice, and cast Kaboom, Bounce and Feel the Burn.",
+  "secondaryDescription": "They were created by the Grand Architect, Zenus, to massacre the mortals, and faithfully follow his orders still.",
+  "experience": 6200,
+  "goldDropped": 195,
+  "family": "Beast",
+  "whereToFind": [
+   "Grotto (Ruins",
+   "rank 11-12)"
+  ],
+  "itemsDropped": {
+   "mirrorstone": "Demon whip"
+  },
+  "battleInfo": {}
+ },
+ "boppin--badger": {
+  "number": 23,
+  "title": "Boppin' Badger",
+  "description": "Badgers with large leaves and the gift of the groove. Their moves are admired by many in the monster world.",
+  "secondaryDescription": "They'd rather be dancing than doing battle, so they beat their bellies like bongos to try and get travellers tapping their toes too.",
+  "experience": 60,
+  "goldDropped": 33,
+  "family": "Beast",
+  "whereToFind": [
+   "Eastern Stornway",
+   "Zere"
+  ],
+  "itemsDropped": {
+   "medicinal-herb": "(1/16)"
+  },
+  "battleInfo": {
+   "maxHP": 39,
+   "maxMP": 4,
+   "attack": 38,
+   "defense": 28,
+   "elementalAversions": "Takes 1.25x damage from Dark and Light.",
+   "ailmentAffinities": [
+    "25% resistance to Sap."
+   ],
+   "enragedBy": {
+    "whistle": 75
+   }
+  }
+ },
+ "equinox": {
+  "number": 283,
+  "title": "Equinox",
+  "description": "Ceaseless steed of death, who tirelessly travels the skies, taking the lives of all in his path. Also known as the Black Star.",
+  "secondaryDescription": "Gallops freely through the night skies, and answers only to the stars. Once had an entirely different form…",
+  "experience": 10000,
+  "goldDropped": 117,
+  "family": "Beast",
+  "isFloating": true,
+  "whereToFind": [
+   "Grotto (rank 1–2",
+   "11–12; suffix: Joy",
+   "Bliss",
+   "Glee",
+   "Doubt",
+   "Woe",
+   "Dolour)"
+  ],
+  "itemsDropped": {
+   "dragon-scale": "(steal only: 1/16)"
+  },
+  "battleInfo": {
+   "maxHP": 1800,
+   "maxMP": 255,
+   "attack": 180,
+   "defense": 180,
+   "evasionChance": 4,
+   "elementalAversions": "Light (2x damage)",
+   "enragedBy": {
+    "whistle": 50
+   }
+  }
+ },
+ "excalipurr": {
+  "number": 292,
+  "title": "Excalipurr",
+  "description": "A spectacularly skilled lord of the sword, and wielder of a bewitching blade that can only be used by those it chooses.",
+  "secondaryDescription": "Deems very few worthy of facing him, as his sword is said to sing with the power of the Almighty Himself.",
+  "experience": 70000,
+  "goldDropped": 2107,
+  "family": "Beast",
+  "whereToFind": [
+   "Grotto (Rank 9-12; Suffix: Dread",
+   "Hurt",
+   "Gloom",
+   "Doom",
+   "Evil",
+   "Ruin",
+   "Death)"
+  ],
+  "itemsDropped": {
+   "fencing-jacket": "(steal only)"
+  },
+  "battleInfo": {
+   "elementalAversions": "Ice (1.5x damage)"
+  }
+ },
+ "hammibal": {
+  "number": 290,
+  "title": "Hammibal",
+  "description": "An impeccably-armoured and impressively massive monster who may look mean, but has a huge heart as well.",
+  "secondaryDescription": "Once lived in a lovely palace with his equally lovely daughter, but woke one day to find himself sealed away in a grotto.",
+  "experience": 60000,
+  "goldDropped": 1822,
+  "family": "Beast",
+  "whereToFind": [
+   "Grotto (Rank 7-12; Suffix: Regret",
+   "Bane",
+   "Fear",
+   "Dread",
+   "Hurt",
+   "Gloom)"
+  ],
+  "itemsDropped": {
+   "aggressence": "(Steal only)"
+  },
+  "battleInfo": {
+   "elementalAversions": "Ice (1.5x damage)"
+  }
+ },
+ "meowgician": {
+  "number": 19,
+  "title": "Meowgician",
+  "description": "Fierce felines also known as Frizzcats because they fire off frequent blasts of",
+  "secondaryDescription": "Frizz",
+  "experience": 40,
+  "goldDropped": 32,
+  "family": "Beast",
+  "whereToFind": [
+   "Zere"
+  ],
+  "itemsDropped": {
+   "oak-staff": "(1/16)"
+  },
+  "battleInfo": {
+   "maxHP": 29,
+   "maxMP": 5,
+   "attack": 25,
+   "defense": 20,
+   "elementalAversions": "Takes 1.25x damage from Dark and Light.",
+   "ailmentAffinities": [
+    "25% resistance to Sleep, Confuse, Blunt, Sap, and Divine Intervention",
+    "50% resistance to Dazzle."
+   ],
+   "enragedBy": {
+    "whistle": 0
+   }
+  }
+ },
+ "nemean": {
+  "number": 284,
+  "title": "Nemean",
+  "description": "This ultimate being combines the best of nature's creations, and its heavenly form has earned it the nickname 'Godbeloved'.",
+  "secondaryDescription": "It was once able to speak the mortal tongue, but has forgotten both that and its true form in its long years of captivity.",
+  "experience": 15000,
+  "goldDropped": 132,
+  "family": "Beast",
+  "whereToFind": [
+   "Grotto (rank 1–4",
+   "11–12; suffix: Joy",
+   "Bliss",
+   "Glee",
+   "Doubt",
+   "Woe",
+   "Dolour)"
+  ],
+  "itemsDropped": {
+   "white-tights": "(steal only: 1/32)"
+  },
+  "battleInfo": {
+   "maxHP": 2800,
+   "maxMP": 255,
+   "attack": 225,
+   "defense": 240,
+   "evasionChance": 4,
+   "numberOfTurns": 2,
+   "elementalAversions": "Dark (2x damage)",
+   "enragedBy": {
+    "whistle": 50
+   }
+  }
+ },
+ "ram-raider": {
+  "number": 26,
+  "title": "Ram Raider",
+  "description": "These rampant rams will do nothing but nut you, but you'd do well to defend yourself when their tension is high.",
+  "secondaryDescription": "They faithfully follow their fathers' advice to get their heads down and charge headlong into all that life hurls at them.",
+  "experience": 70,
+  "goldDropped": 40,
+  "family": "Beast",
+  "whereToFind": [
+   "Doomingdale Forest"
+  ],
+  "itemsDropped": {
+   "sleeping-hibiscus": "(1/16)"
+  },
+  "battleInfo": {
+   "maxHP": 57,
+   "maxMP": 4,
+   "attack": 46,
+   "defense": 28,
+   "elementalAversions": "Takes 1.25x damage from Dark and Light.",
+   "ailmentAffinities": [
+    "25% resistance to Dazzle, Sleep, Confuse, Stun, Poison, Paralyze, and Decelerate. Immune to Fizzle."
+   ],
+   "enragedBy": {
+    "whistle": 75
+   }
+  }
+ }
+}

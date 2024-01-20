@@ -1,0 +1,85 @@
+{
+ "sir-sanguinus": {
+  "number": 288,
+  "title": "Sir Sanguinus",
+  "description": "A crimson crusader who spurs his steed ever onward in search of victims in whose blood he can bathe.",
+  "secondaryDescription": "Not just his armour, but his body itself is built of blood, and he uses the claret of those he kills to strengthen his sanguine self.",
+  "experience": 40000,
+  "goldDropped": 1537,
+  "family": "Zombie",
+  "whereToFind": [
+   "Grotto (Rank 5-8",
+   "11-12; Suffix: Doubt",
+   "Woe",
+   "Dolour",
+   "Regret",
+   "Bane",
+   "Fear)"
+  ],
+  "itemsDropped": {
+   "crimson-boots": "(steal only)"
+  },
+  "battleInfo": {
+   "elementalAversions": "Blast, light (1.5x damage)"
+  }
+ },
+ "skeleton": {
+  "number": 28,
+  "title": "Skeleton",
+  "description": "The remains of robust warriors. They hit hard with Helm Splitter, and cannot be defeated with death spells.",
+  "secondaryDescription": "Deceased soldiers who faithfully patrol the ruins of Brigadoom, though their king is long dead, and his kingdom a mere memory.",
+  "experience": 81,
+  "goldDropped": 54,
+  "family": "Zombie",
+  "whereToFind": [
+   "Doomingdale Forest",
+   "Brigadoom"
+  ],
+  "itemsDropped": {
+   "cotton-gloves": "(1/32)"
+  },
+  "battleInfo": {
+   "maxHP": 42,
+   "maxMP": 6,
+   "attack": 48,
+   "defense": 40,
+   "elementalAversions": "Takes 1.25x damage from Fire, Wind, Earth, and Light.",
+   "ailmentAffinities": [
+    "25% resistance to Dazzle, Confuse, Stun, and Sap",
+    "50% resistance to Sleep, Poison, Paralyze, and Charm. Immune to Death and Fizzle."
+   ],
+   "enragedBy": {
+    "below-50%-hp": 25
+   }
+  }
+ },
+ "spirit": {
+  "number": 11,
+  "title": "Spirit",
+  "description": "Formless phantoms who are hard to get a hold of, but are easily eradicated with a fire-based offensive.",
+  "secondaryDescription": "Restless wraiths who refuse to take their rightful rest. They might look like a laugh, but they're far from frolicsome.",
+  "experience": 16,
+  "goldDropped": 14,
+  "family": "Zombie",
+  "isFloating": true,
+  "whereToFind": [
+   "The Hexagon",
+   "Western Stornway"
+  ],
+  "itemsDropped": {
+   "holy-water": "(1/32)"
+  },
+  "battleInfo": {
+   "maxHP": 20,
+   "maxMP": 2,
+   "attack": 23,
+   "defense": 20,
+   "evasionChance": 2,
+   "elementalAversions": "Takes 1.5x damage from Fire; 1.25x from Light.",
+   "ailmentAffinities": [
+    "25% resistance to Dazzle and Sleep",
+    "50% resistance to Stun, Paralyze, and Sap. Immune to Death, Fizzle, and Poison."
+   ]
+  }
+ }
+}

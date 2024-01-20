@@ -1,0 +1,257 @@
+{
+ "baramos": {
+  "title": "Baramos",
+  "description": "Windproof king and wizard who wastes no time whipping out Kaboom, Kafrizz and all kinds of calamity-inducing conjury.",
+  "secondaryDescription": "Takes great pleasure in obliterating people while they're busy poking fun at his bizarre appearance.",
+  "experience": 59600,
+  "goldDropped": 2490,
+  "family": "???",
+  "whereToFind": [
+   "Legacy boss grotto map (Reward for"
+  ],
+  "itemsDropped": {
+   "(100%)": "Baramos' level",
+   "(dependant-on-level)": "Mini medal"
+  },
+  "battleInfo": {
+   "elementalAversions": "Ice (1.5x damage)"
+  }
+ },
+ "dhoulmagus": {
+  "title": "Dhoulmagus",
+  "description": "Superfast attacker who likes to rush his foes off their feet, and whose Kacrack packs a kick. Not a fan of earth attacks.",
+  "secondaryDescription": "Try not to be too annoyed by this self-satisfied clown laughing down his nose at you. Smack the smile off his smug old face!",
+  "experience": 61600,
+  "goldDropped": 2490,
+  "family": "???",
+  "whereToFind": [
+   "Legacy boss grotto map (10-40% drop from"
+  ],
+  "itemsDropped": {
+   "(100%)": "Dhoulmagus' level",
+   "(dependant-on-level)": "Mini medal"
+  },
+  "battleInfo": {
+   "elementalAversions": "Earth (1.5x damage)"
+  }
+ },
+ "dragonlord": {
+  "title": "Dragonlord",
+  "description": "Lizard lord who ravages all with great gouts of flame, and whose fire-retardant scales stop any such scorching in return.",
+  "secondaryDescription": "This proud and mighty beast rules over all the dragon clans of the world with a high and haughty hand.",
+  "experience": 63600,
+  "goldDropped": 2490,
+  "family": "???",
+  "whereToFind": [
+   "Legacy boss grotto map (2% drop from"
+  ],
+  "itemsDropped": {
+   "(100%)": "Dragonlord's level",
+   "(dependant-on-level)": "Mini medal"
+  },
+  "battleInfo": {
+   "elementalAversions": "Blast (1.5x damage)"
+  }
+ },
+ "estark": {
+  "title": "Estark",
+  "description": "Not only can he pound opponents with Kafrizzle and Kaboom, he packs a powerful punch as well. Good luck!",
+  "secondaryDescription": "This emperor of the underworld evolved into his horrific form after hibernating for many milennia.",
+  "experience": 72600,
+  "goldDropped": 2490,
+  "family": "???",
+  "whereToFind": [
+   "Legacy boss grotto map (Reward for"
+  ],
+  "itemsDropped": {
+   "(100%)": "Estark's level",
+   "(dependant-on-level)": "Mini medal"
+  },
+  "battleInfo": {
+   "elementalAversions": "Dark (1.5x damage)"
+  }
+ },
+ "malroth": {
+  "title": "Malroth",
+  "description": "Brings about destruction by breathing both fire and ice, and disruption with Disruptive Wave. Hard to harm with darkness.",
+  "secondaryDescription": "This deity of the damned enjoys nothing more than the sacrificed souls of his most sincere followers. Mmmmm!",
+  "experience": 64600,
+  "goldDropped": 2490,
+  "family": "???",
+  "whereToFind": [
+   "Legacy boss grotto map (Reward for"
+  ],
+  "itemsDropped": {
+   "(100%)": "Malroth's level",
+   "(dependant-on-level)": "Mini medal"
+  },
+  "battleInfo": {
+   "elementalAversions": "Wind (1.5x damage)"
+  }
+ },
+ "mortamor": {
+  "title": "Mortamor",
+  "description": "Stares enemies into a slumber, then clobbers them with Kafrizz and Kafrizzle. Can be damaged with darkness.",
+  "secondaryDescription": "Assesses opponents' strength, then assumes a disguise to suit the situation. No one knows what he really looks like…",
+  "experience": 67600,
+  "goldDropped": 2490,
+  "family": "???",
+  "whereToFind": [
+   "Legacy boss grotto map (reward for"
+  ],
+  "itemsDropped": {
+   "(100%)": "Mortamor's level",
+   "(dependant-on-level)": "Mini medal"
+  },
+  "battleInfo": {
+   "elementalAversions": "Dark (1.5x damage)"
+  }
+ },
+ "murdaw": {
+  "title": "Murdaw",
+  "description": "Casts Kasap to curb his enemies' enthusiasm, then curbs it further with Dazzleflash and Disruptive Wave.",
+  "secondaryDescription": "Gains a hold over people by plunging them into a world of nightmares from which they can't escape. Never sleeps himself.",
+  "experience": 60600,
+  "goldDropped": 2490,
+  "family": "???",
+  "whereToFind": [
+   "Legacy boss grotto map (10-40% drop from"
+  ],
+  "itemsDropped": {
+   "(100%)": "Murdaw's level",
+   "(dependant-on-level)": "Mini medal"
+  },
+  "battleInfo": {
+   "elementalAversions": "Ice (1.5x damage)"
+  }
+ },
+ "nimzo": {
+  "title": "Nimzo",
+  "description": "Likes to kick in with Kaboom after taking the edge off his enemies by casting Bounce and Kasap.",
+  "secondaryDescription": "Some thought he could only command from afar, but he has more than enough mental and physical ability to rule the world.",
+  "experience": 66600,
+  "goldDropped": 2490,
+  "family": "???",
+  "whereToFind": [
+   "Legacy boss grotto map (10-40% drop from"
+  ],
+  "itemsDropped": {
+   "(100%)": "Nimzo's level",
+   "(dependant-on-level)": "Mini medal"
+  },
+  "battleInfo": {
+   "elementalAversions": "Wind (1.5x damage)"
+  }
+ },
+ "nokturnus": {
+  "title": "Nokturnus",
+  "description": "Improves his already eye-watering attack with Oomph, then smacks foes silly with a stupidly speedy assault.",
+  "secondaryDescription": "Brutal bad-dream demon from another dimension. So strong that he makes Mortamor seem more like Snoretamore!",
+  "experience": 74600,
+  "goldDropped": 2490,
+  "family": "???",
+  "whereToFind": [
+   "Legacy boss grotto map (Reward for"
+  ],
+  "itemsDropped": {
+   "(100%)": "Nokturnus' level",
+   "(dependant-on-level)": "Mini medal"
+  },
+  "battleInfo": {
+   "elementalAversions": "Light (1.5x damage)"
+  }
+ },
+ "orgodemir": {
+  "title": "Orgodemir",
+  "description": "Screams enemies into submission with a blood-curdling cry, then hits hard with Hellfire. Always attacks twice.",
+  "secondaryDescription": "Doesn't like people to know that he's a dumpy dragon, so disguises himself as a dashing young dandy.",
+  "family": "???",
+  "whereToFind": [
+   "Legacy boss grotto map (Reward for"
+  ],
+  "itemsDropped": {
+   "(100%)": "Orgodemir's level",
+   "(dependant-on-level)": "Mini medal"
+  },
+  "battleInfo": {
+   "elementalAversions": "Fire (1.5x damage)"
+  }
+ },
+ "psaro": {
+  "title": "Psaro",
+  "description": "Toughens up with Kabuff, then — Shazam! — hits hard with Kazam. Keep him under control with water-based warcraft.",
+  "secondaryDescription": "A tragic figure who forsook his normal form to wreak revenge on the mortals who murdered his beloved.",
+  "experience": 65600,
+  "goldDropped": 2490,
+  "family": "???",
+  "whereToFind": [
+   "Legacy boss grotto map (10-40% drop from"
+  ],
+  "itemsDropped": {
+   "(100%)": "Psaro's level",
+   "(dependant-on-level)": "Mini medal"
+  },
+  "battleInfo": {
+   "elementalAversions": "Ice (1.5x damage)"
+  }
+ },
+ "rhapthorne": {
+  "title": "Rhapthorne",
+  "description": "Evil incantations and Kafrizz form just part of this portly demon's plan to exterminate his enemies. Lick him with light.",
+  "secondaryDescription": "Some say his body is so big that it contains enough cursed power to contort the space-time continuum itself.",
+  "experience": 69600,
+  "goldDropped": 2490,
+  "family": "???",
+  "whereToFind": [
+   "Legacy boss grotto map (Reward for 179 Pants Macabre|quest 179)"
+  ],
+  "itemsDropped": {
+   "(100%)": "Rhapthorne's level",
+   "(dependant-on-level)": "Mini medal"
+  },
+  "battleInfo": {
+   "elementalAversions": "Light (1.5x damage)"
+  }
+ },
+ "tyrannosaurus-wrecks": {
+  "title": "Tyrannosaurus Wrecks",
+  "description": "A supremely destructive demon who broke free from the book into which he was sealed by a supreme sage ages ago.",
+  "secondaryDescription": "The wickedest of the Hackson Five. He wanted to destroy the world, but was stopped by a saintly sage.",
+  "experience": 75000,
+  "goldDropped": 2250,
+  "family": "???",
+  "whereToFind": [
+   "Grotto (Rank 10-12; Suffix Dread",
+   "Hurt",
+   "Gloom",
+   "Doom",
+   "Evil",
+   "Ruin",
+   "Death)"
+  ],
+  "itemsDropped": {
+   "narspicious": "(steal only)"
+  },
+  "battleInfo": {
+   "elementalAversions": "Wind, light (1.5x damage)"
+  }
+ },
+ "zoma": {
+  "title": "Zoma",
+  "description": "A truly intimidating opponent who can attack twice and use seriously strong spells. Lay into him with the power of light.",
+  "secondaryDescription": "His unparalleled evil made him very popular with monsters, but he left the lands above to escape his screaming fans.",
+  "experience": 70600,
+  "goldDropped": 2490,
+  "family": "???",
+  "whereToFind": [
+   "Legacy boss grotto map (Reward for"
+  ],
+  "itemsDropped": {
+   "(100%)": "Zoma's level",
+   "(dependant-on-level)": "Mini medal"
+  },
+  "battleInfo": {
+   "elementalAversions": "Light (1.5x damage)"
+  }
+ }
+}

@@ -1,0 +1,119 @@
+{
+ "bodkin-archer": {
+  "number": 7,
+  "title": "Bodkin Archer",
+  "description": "Able archers who attack from afar, use",
+  "secondaryDescription": "medicinal herbs",
+  "experience": 9,
+  "goldDropped": 10,
+  "family": "Humanoid",
+  "whereToFind": [
+   "Angel Falls",
+   "The Hexagon"
+  ],
+  "itemsDropped": {
+   "plain-clothes": "(1/16)"
+  },
+  "battleInfo": {
+   "maxHP": 17,
+   "maxMP": 5,
+   "attack": 16,
+   "defense": 12,
+   "elementalAversions": "Takes 1.25x damage from all elements.",
+   "ailmentAffinities": [
+    "25% resistance to Sleep."
+   ],
+   "enragedBy": {
+    "whistle": 75
+   }
+  }
+ },
+ "bodkin-fletcher": {
+  "number": 25,
+  "title": "Bodkin Fletcher",
+  "description": "Forest hunters who can call on more of their kind in a pinch to pepper foes with",
+  "secondaryDescription": "poisoned arrows",
+  "experience": 62,
+  "goldDropped": 53,
+  "family": "Humanoid",
+  "whereToFind": [
+   "Zere",
+   "Doomingdale Forest"
+  ],
+  "itemsDropped": {
+   "antidotal-herb": "(1/8)"
+  },
+  "battleInfo": {
+   "maxHP": 36,
+   "maxMP": 4,
+   "attack": 42,
+   "defense": 30,
+   "elementalAversions": "Takes 1.25x damage from Dark and Light.",
+   "ailmentAffinities": [
+    "25% resistance to Sleep."
+   ],
+   "enragedBy": {
+    "whistle": 75
+   }
+  }
+ },
+ "brownie": {
+  "number": 22,
+  "title": "Brownie",
+  "description": "Erratic enemies that can attain an instant state of high tension, only to topple over and go off the boil.",
+  "secondaryDescription": "Bodkin bowyers often take them on camping trips and trick them into tapping in their tent pegs for them.",
+  "experience": 56,
+  "goldDropped": 40,
+  "family": "Humanoid",
+  "whereToFind": [
+   "Zere",
+   "Doomingdale Forest"
+  ],
+  "itemsDropped": {
+   "leather-kilt": "(1/32)"
+  },
+  "battleInfo": {
+   "maxHP": 40,
+   "maxMP": 255,
+   "attack": 29,
+   "defense": 26,
+   "elementalAversions": "Takes 1.25x damage from Dark and Light.",
+   "ailmentAffinities": [
+    "25% resistance to Sleep, Drain Magic, and Stun",
+    "50% resistance to Death. Immune to Fizzle."
+   ],
+   "enragedBy": {
+    "whistle": 75
+   }
+  }
+ },
+ "hammerhood": {
+  "number": 13,
+  "title": "Hammerhood",
+  "description": "Their huge great hammers have them hitting the dirt more often than not, but if they do score a direct hit…",
+  "secondaryDescription": "They're discerning fans of good comedy, which is why they think the",
+  "experience": 20,
+  "goldDropped": 17,
+  "family": "Humanoid",
+  "whereToFind": [
+   "Western Stornway",
+   "Eastern Stornway"
+  ],
+  "itemsDropped": {
+   "leather-kilt": "(1/64)"
+  },
+  "battleInfo": {
+   "maxHP": 20,
+   "maxMP": 2,
+   "attack": 12,
+   "defense": 18,
+   "elementalAversions": "Takes 1.25x damage from Dark and Light.",
+   "ailmentAffinities": [
+    "25% resistance to Stun and Paralyze. Immune to Fizzle."
+   ],
+   "enragedBy": {
+    "whistle": 75
+   }
+  }
+ }
+}

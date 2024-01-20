@@ -1,0 +1,56 @@
+{
+ "cruelcumber": {
+  "number": 2,
+  "title": "Cruelcumber",
+  "description": "Poky little vegetables that often trouble travellers, but are terribly sour losers.",
+  "secondaryDescription": "The violent vestiges of veggies vetoed by unadventurous eaters. They fight for the favour they didn't find as food.",
+  "experience": 3,
+  "goldDropped": 10,
+  "family": "Plant",
+  "whereToFind": [
+   "Angel Falls"
+  ],
+  "itemsDropped": {
+   "antidotal-herb": "(1/8)"
+  },
+  "battleInfo": {
+   "maxHP": 10,
+   "maxMP": 2,
+   "attack": 12,
+   "defense": 9,
+   "elementalAversions": "Takes 1.25x damage from all elements.",
+   "enragedBy": {
+    "whistle": 75
+   }
+  }
+ },
+ "funghoul": {
+  "number": 15,
+  "title": "Funghoul",
+  "description": "Flambé these foul funghi to stop them sending you to sleep with their sickly",
+  "secondaryDescription": "Sweet Breath",
+  "experience": 25,
+  "goldDropped": 19,
+  "family": "Plant",
+  "whereToFind": [
+   "Western Stornway",
+   "Eastern Stornway"
+  ],
+  "itemsDropped": {
+   "medicinal-herb": "(1/8)"
+  },
+  "battleInfo": {
+   "maxHP": 22,
+   "maxMP": 3,
+   "attack": 25,
+   "defense": 17,
+   "elementalAversions": "Takes 1.25x damage from Fire, Dark, and Light.",
+   "ailmentAffinities": [
+    "Immune to Fizzle."
+   ],
+   "enragedBy": {
+    "whistle": 75
+   }
+  }
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "au-1000": {
+  "number": 227,
+  "title": "AU-1000",
+  "description": "Reinforced robots that render attack impossible with a blast of blinding light, then slice foes silly.",
+  "secondaryDescription": "They secretly scrape shavings off gem slimes to repair their gold plating when it gets patchy.",
+  "experience": 6800,
+  "goldDropped": 124,
+  "family": "Machine",
+  "whereToFind": [
+   "Grotto (Ruins",
+   "rank 12)"
+  ],
+  "itemsDropped": {
+   "gold-bar": "(1/128)"
+  },
+  "battleInfo": {
+   "attack": 567,
+   "defense": 798
+  }
+ },
+ "mecha-mynah": {
+  "number": 9,
+  "title": "Mecha-Mynah",
+  "description": "Rapid, robotic birds, adept at upping their work-rate with",
+  "secondaryDescription": "Accelerate",
+  "experience": 12,
+  "goldDropped": 9,
+  "family": "Machine",
+  "isFloating": true,
+  "whereToFind": [
+   "The Hexagon"
+  ],
+  "itemsDropped": {
+   "chimaera-wing": "(1/32)"
+  },
+  "battleInfo": {
+   "maxHP": 6,
+   "maxMP": 4,
+   "attack": 20,
+   "defense": 38,
+   "evasionChance": 2,
+   "elementalAversions": "Takes 2x damage from Lightning.",
+   "ailmentAffinities": [
+    "25% resistance to Dazzle, Sleep, Blunt, Sap, Decelerate, and Divine Intervention",
+    "50% resistance to Death. Immune to Stun, Poison, Paralyze, and Charm."
+   ]
+  }
+ },
+ "trauminator": {
+  "number": 286,
+  "title": "Trauminator",
+  "description": "Senses the life force of flesh-and-blood beings, and can't stop killing until every trace is erased from its environs.",
+  "secondaryDescription": "This mad mechanical murder machine is thought to have existed since the very dawn of time itself.",
+  "experience": 25500,
+  "goldDropped": 1252,
+  "family": "Machine",
+  "whereToFind": [
+   "Grotto (Rank 3-6",
+   "11-12; Suffix: Doubt",
+   "Woe",
+   "Dolour",
+   "Regret",
+   "Bane",
+   "Fear)"
+  ],
+  "itemsDropped": {
+   "handrills": "(steal only)"
+  },
+  "battleInfo": {
+   "elementalAversions": "Blast (1.5x damage)"
+  }
+ }
+}
