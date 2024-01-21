@@ -3,7 +3,6 @@ package router
 import (
 	"dqix/internal/types"
 	"encoding/json"
-	"fmt"
 	"os"
 	"path/filepath"
 	"strings"
@@ -104,8 +103,6 @@ func (a *app) loadData() error {
 			}
 		}
 	}
-
-	fmt.Println(len(a.data.monsterMap))
 
 	return nil
 }
