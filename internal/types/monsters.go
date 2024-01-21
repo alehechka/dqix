@@ -104,6 +104,17 @@ func (m Monster) GetFamilyID() string {
 	return TitleToID(m.Family)
 }
 
+func ToFamilyTitle(familyId string) string {
+	if familyId == "unknown" {
+		return "???"
+	}
+	return strings.Title(familyId)
+}
+
+func (m Monster) GetFamilyTitle() string {
+	return ToFamilyTitle(m.Family)
+}
+
 type BattleInfo struct {
 	MaxHP              int            `json:"maxHP,omitempty"`
 	MaxMP              int            `json:"maxMP,omitempty"`
@@ -147,6 +158,9 @@ func (p PageContent) ParseMonster() (monster Monster) {
 			monster.Family = familyParts[0]
 			if len(familyParts) > 1 && familyParts[1] == "(floating)" {
 				monster.IsFloating = true
+			}
+			if monster.Family == "???" {
+				monster.Family = "unknown"
 			}
 		case "Where to find:":
 			i++

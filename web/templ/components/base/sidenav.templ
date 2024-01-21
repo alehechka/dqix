@@ -19,6 +19,34 @@ templ SideNav(page string) {
 			<li>
 				<details
 					class="pl-2"
+					if types.IsMonster(page) {
+						open
+					}
+					data-page={ page }
+				>
+					<summary>Monster Families</summary>
+					<ul class="flex flex-col gap-1 overflow-x-hidden">
+						@sideNavLink("???", fn.Path("monsters", types.FamilyUnknown), page == types.FamilyUnknown)
+						@sideNavLink("Aquatic", fn.Path("monsters", types.FamilyAquatic), page == types.FamilyAquatic)
+						@sideNavLink("Beast", fn.Path("monsters", types.FamilyBeast), page == types.FamilyBeast)
+						@sideNavLink("Bird", fn.Path("monsters", types.FamilyBird), page == types.FamilyBird)
+						@sideNavLink("Bug", fn.Path("monsters", types.FamilyBug), page == types.FamilyBug)
+						@sideNavLink("Demon", fn.Path("monsters", types.FamilyDemon), page == types.FamilyDemon)
+						@sideNavLink("Dragon", fn.Path("monsters", types.FamilyDragon), page == types.FamilyDragon)
+						@sideNavLink("Elemental", fn.Path("monsters", types.FamilyElemental), page == types.FamilyElemental)
+						@sideNavLink("Humanoid", fn.Path("monsters", types.FamilyHumanoid), page == types.FamilyHumanoid)
+						@sideNavLink("Machine", fn.Path("monsters", types.FamilyMachine), page == types.FamilyMachine)
+						@sideNavLink("Material", fn.Path("monsters", types.FamilyMaterial), page == types.FamilyMaterial)
+						@sideNavLink("Plant", fn.Path("monsters", types.FamilyPlant), page == types.FamilyPlant)
+						@sideNavLink("Slime", fn.Path("monsters", types.FamilySlime), page == types.FamilySlime)
+						@sideNavLink("Zombie", fn.Path("monsters", types.FamilyZombie), page == types.FamilyZombie)
+					</ul>
+				</details>
+			</li>
+			<hr/>
+			<li>
+				<details
+					class="pl-2"
 					if types.IsItem(page) {
 						open
 					}

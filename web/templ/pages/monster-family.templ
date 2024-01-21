@@ -2,12 +2,12 @@ package pages
 
 import "dqix/web/templ/components/base"
 import "dqix/internal/types"
-import "strings"
 import "dqix/web/templ/components/links"
 import "dqix/web/templ/utilities"
 
 type MonsterFamilyParams struct {
 	Family          string
+	FamilyTitle     string
 	Monsters        types.MonsterSlice
 	DisplayMode     string
 	LayoutParams    base.LayoutParams
@@ -28,7 +28,7 @@ templ MonsterFamilyContentWithSideNav(params MonsterFamilyParams) {
 }
 
 templ MonsterFamilyContent(params MonsterFamilyParams) {
-	<h1 class="text-3xl font-bold">{ strings.Title(strings.ReplaceAll(params.Family, "-", " ")) }</h1>
+	<h1 class="text-3xl font-bold">{ params.FamilyTitle + " Family" }</h1>
 	@MonsterFamilyList(params.Monsters)
 }
 

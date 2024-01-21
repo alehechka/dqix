@@ -29,6 +29,8 @@ func (a *app) MonsterFamilyHandler(ctx *gin.Context) {
 	htmx.SetTitle(ctx, pageTitle)
 	htmx.SetIcon(ctx, "/static/favicon.ico")
 	params := pages.MonsterFamilyParams{
+		Family:          familyId,
+		FamilyTitle:     types.ToFamilyTitle(familyId),
 		Monsters:        monsters,
 		DisplayMode:     ctx.Query("display"),
 		SortPathGetter:  types.PrepareSimpleSortPath(*ctx.Request.URL),

@@ -56,6 +56,23 @@ const (
 	ClassAccessories string = "accessories"
 )
 
+const (
+	FamilyUnknown   = "unknown"
+	FamilyAquatic   = "aquatic"
+	FamilyBeast     = "beast"
+	FamilyBird      = "bird"
+	FamilyBug       = "bug"
+	FamilyDemon     = "demon"
+	FamilyDragon    = "dragon"
+	FamilyElemental = "elemental"
+	FamilyHumanoid  = "humanoid"
+	FamilyMachine   = "machine"
+	FamilyMaterial  = "material"
+	FamilyPlant     = "plant"
+	FamilySlime     = "slime"
+	FamilyZombie    = "zombie"
+)
+
 func IsWeapon(class string) bool {
 	switch class {
 	case ClassWeaponAxe,
@@ -93,6 +110,28 @@ func IsArmor(class string) bool {
 func IsItem(class string) bool {
 	switch class {
 	case ClassItemEveryday, ClassItemImportant:
+		return true
+	default:
+		return false
+	}
+}
+
+func IsMonster(family string) bool {
+	switch family {
+	case FamilyUnknown,
+		FamilyAquatic,
+		FamilyBeast,
+		FamilyBird,
+		FamilyBug,
+		FamilyDemon,
+		FamilyDragon,
+		FamilyElemental,
+		FamilyHumanoid,
+		FamilyMachine,
+		FamilyMaterial,
+		FamilyPlant,
+		FamilySlime,
+		FamilyZombie:
 		return true
 	default:
 		return false
