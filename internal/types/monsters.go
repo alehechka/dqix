@@ -3,6 +3,7 @@ package types
 import (
 	"encoding/json"
 	"os"
+	"path"
 	"path/filepath"
 	"strconv"
 	"strings"
@@ -16,10 +17,29 @@ func (m MonsterMap) AddMonster(monster Monster) {
 	}
 
 	if family, ok := m[monster.GetFamilyID()]; !ok || family == nil {
-		m[monster.GetFamilyID()] = map[string]Monster{}
+		m[monster.GetFamilyID()] = make(map[string]Monster)
 	}
 
 	m[monster.GetFamilyID()][monster.GetID()] = monster
+}
+
+func (m MonsterMap) GetFamily(family string) map[string]Monster {
+	if family, ok := m[family]; !ok || family == nil {
+		return make(map[string]Monster)
+	} else {
+		return family
+	}
+}
+
+func (m MonsterMap) GetMonster(family string, id string) (monster Monster) {
+	familyMap := m.GetFamily(family)
+
+	monster, _ = familyMap[id]
+	return
+}
+
+func (m MonsterMap) GetMonsterFromDataKey(d DataKey) Monster {
+	return m.GetMonster(d.Type, d.GetID())
 }
 
 func (m MonsterMap) WriteJSON(basePath string) (err error) {
@@ -58,6 +78,14 @@ type Monster struct {
 
 func (m Monster) GetID() string {
 	return TitleToID(m.Title)
+}
+
+func (m Monster) GetTitle() string {
+	return m.Title
+}
+
+func (m Monster) GetPath() string {
+	return "/" + path.Join("monsters", m.Family, m.GetID())
 }
 
 func (m Monster) GetFamilyID() string {
@@ -167,4 +195,13 @@ func (p PageContent) ParseMonster() (monster Monster) {
 	}
 
 	return
+}
+
+func (m Monster) ToDataKey() DataKey {
+	return DataKey{
+		Structure: "monsters",
+		Type:      m.Family,
+		Title:     m.Title,
+		Path:      m.GetPath(),
+	}
 }
