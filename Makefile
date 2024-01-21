@@ -1,5 +1,5 @@
 start:
-	gin run start 
+	gin --buildArgs "--buildvcs=false" run start 
 
 install-templ:
 	go install github.com/a-h/templ/cmd/templ@$(shell go list -m -f '{{ .Version }}' github.com/a-h/templ)
