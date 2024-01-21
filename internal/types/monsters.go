@@ -11,6 +11,8 @@ import (
 
 type MonsterMap map[string]map[string]Monster
 
+type MonsterSlice []Monster
+
 func (m MonsterMap) AddMonster(monster Monster) {
 	if m == nil {
 		return
@@ -29,6 +31,16 @@ func (m MonsterMap) GetFamily(family string) map[string]Monster {
 	} else {
 		return family
 	}
+}
+
+func (m MonsterMap) GetFamilySlice(familyId string, sortQuery string) (monsters MonsterSlice) {
+	family := m.GetFamily(familyId)
+
+	for _, monster := range family {
+		monsters = append(monsters, monster)
+	}
+
+	return
 }
 
 func (m MonsterMap) GetMonster(family string, id string) (monster Monster) {
