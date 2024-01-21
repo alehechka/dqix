@@ -3,6 +3,7 @@ package types
 import (
 	"encoding/json"
 	"os"
+	"path"
 	"path/filepath"
 	"strconv"
 	"strings"
@@ -10,16 +11,47 @@ import (
 
 type MonsterMap map[string]map[string]Monster
 
+type MonsterSlice []Monster
+
 func (m MonsterMap) AddMonster(monster Monster) {
 	if m == nil {
 		return
 	}
 
 	if family, ok := m[monster.GetFamilyID()]; !ok || family == nil {
-		m[monster.GetFamilyID()] = map[string]Monster{}
+		m[monster.GetFamilyID()] = make(map[string]Monster)
 	}
 
 	m[monster.GetFamilyID()][monster.GetID()] = monster
+}
+
+func (m MonsterMap) GetFamily(family string) map[string]Monster {
+	if family, ok := m[family]; !ok || family == nil {
+		return make(map[string]Monster)
+	} else {
+		return family
+	}
+}
+
+func (m MonsterMap) GetFamilySlice(familyId string, sortQuery string) (monsters MonsterSlice) {
+	family := m.GetFamily(familyId)
+
+	for _, monster := range family {
+		monsters = append(monsters, monster)
+	}
+
+	return
+}
+
+func (m MonsterMap) GetMonster(family string, id string) (monster Monster) {
+	familyMap := m.GetFamily(family)
+
+	monster, _ = familyMap[id]
+	return
+}
+
+func (m MonsterMap) GetMonsterFromDataKey(d DataKey) Monster {
+	return m.GetMonster(d.Type, d.GetID())
 }
 
 func (m MonsterMap) WriteJSON(basePath string) (err error) {
@@ -60,8 +92,27 @@ func (m Monster) GetID() string {
 	return TitleToID(m.Title)
 }
 
+func (m Monster) GetTitle() string {
+	return m.Title
+}
+
+func (m Monster) GetPath() string {
+	return "/" + path.Join("monsters", m.Family, m.GetID())
+}
+
 func (m Monster) GetFamilyID() string {
 	return TitleToID(m.Family)
+}
+
+func ToFamilyTitle(familyId string) string {
+	if familyId == "unknown" {
+		return "???"
+	}
+	return strings.Title(familyId)
+}
+
+func (m Monster) GetFamilyTitle() string {
+	return ToFamilyTitle(m.Family)
 }
 
 type BattleInfo struct {
@@ -107,6 +158,9 @@ func (p PageContent) ParseMonster() (monster Monster) {
 			monster.Family = familyParts[0]
 			if len(familyParts) > 1 && familyParts[1] == "(floating)" {
 				monster.IsFloating = true
+			}
+			if monster.Family == "???" {
+				monster.Family = "unknown"
 			}
 		case "Where to find:":
 			i++
@@ -167,4 +221,13 @@ func (p PageContent) ParseMonster() (monster Monster) {
 	}
 
 	return
+}
+
+func (m Monster) ToDataKey() DataKey {
+	return DataKey{
+		Structure: "monsters",
+		Type:      m.Family,
+		Title:     m.Title,
+		Path:      m.GetPath(),
+	}
 }

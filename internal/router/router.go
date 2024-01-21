@@ -50,6 +50,7 @@ func (a *app) SetupRouter() *gin.Engine {
 	})
 
 	a.InventoryRoutes(engine)
+	a.MonsterRoutes(engine)
 
 	return engine
 }
