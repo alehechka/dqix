@@ -56,5 +56,35 @@ func (a *app) MonsterFamilyHandler(ctx *gin.Context) {
 }
 
 func (a *app) MonsterHandler(ctx *gin.Context) {
-	ctx.Status(http.StatusNotImplemented)
+	familyId := ctx.Param("family")
+	id := ctx.Param("id")
+	monster := a.data.monsterMap.GetMonster(familyId, id)
+
+	pageTitle := "DQIX | " + monster.Title
+	htmx.SetTitle(ctx, pageTitle)
+	htmx.SetIcon(ctx, "/static/favicon.ico") // htmx.SetIcon(ctx, inventory.ImageSrc())
+	params := pages.MonsterParams{
+		Monster: monster,
+		Getter:  a.data.GetQuickThing,
+		LayoutParams: base.LayoutParams{
+			PageTitle:  pageTitle,
+			Page:       monster.GetFamilyID(),
+			IsDarkMode: gin_utils.IsDarkMode(ctx),
+			CSSVersion: a.cssVersion,
+		},
+	}
+
+	switch htmx.GetHxSwapTarget(ctx) {
+	case "page-content":
+		if htmx.HasMatchingParentPath(ctx) {
+			ctx.HTML(http.StatusOK, "", pages.MonsterContent(params))
+		} else {
+			htmx.Retarget(ctx, "#sidenav-page-wrapper")
+			ctx.HTML(http.StatusOK, "", pages.MonsterContentWithSideNav(params))
+		}
+	case "sidenav-page-wrapper":
+		ctx.HTML(http.StatusOK, "", pages.MonsterContentWithSideNav(params))
+	default:
+		ctx.HTML(http.StatusOK, "", pages.MonsterPage(params))
+	}
 }
