@@ -49,7 +49,13 @@ func (a *app) MonsterFamilyHandler(ctx *gin.Context) {
 	case "page-content":
 		ctx.HTML(http.StatusOK, "", pages.MonsterFamilyContent(params))
 	case "sidenav-page-wrapper":
-		ctx.HTML(http.StatusOK, "", pages.MonsterFamilyContentWithSideNav(params))
+		if htmx.HasMatchingPath(ctx) {
+			htmx.Retarget(ctx, "#page-content")
+			htmx.Reswap(ctx, "innerHTML")
+			ctx.HTML(http.StatusOK, "", pages.MonsterFamilyContent(params))
+		} else {
+			ctx.HTML(http.StatusOK, "", pages.MonsterFamilyContentWithSideNav(params))
+		}
 	default:
 		ctx.HTML(http.StatusOK, "", pages.MonsterFamilyPage(params))
 	}

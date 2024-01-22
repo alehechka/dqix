@@ -42,6 +42,10 @@ func Retarget(ctx *gin.Context, target string) {
 	ctx.Header(ResponseHeaderRetarget, target)
 }
 
+func Reswap(ctx *gin.Context, swapStrategy string) {
+	ctx.Header(ResponseHeaderReswap, swapStrategy)
+}
+
 func GetHxCurrentUrl(ctx *gin.Context) string {
 	return ctx.GetHeader(RequestHeaderCurrentURL)
 }
@@ -68,6 +72,10 @@ func HasMatchingParentPath(ctx *gin.Context) bool {
 	// Else, check the equality of parent paths
 	currentPathParent := path.Join(currentPathParts[0 : len(currentPathParts)-1]...)
 	return currentPathParent == requestPathParent
+}
+
+func HasMatchingPath(ctx *gin.Context) bool {
+	return GetHxCurrentPath(ctx) == ctx.Request.URL.Path
 }
 
 func SetTitle(ctx *gin.Context, title string) {

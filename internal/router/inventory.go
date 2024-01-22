@@ -59,7 +59,13 @@ func (a *app) ClassificationHandler(ctx *gin.Context) {
 	case "page-content":
 		ctx.HTML(http.StatusOK, "", pages.InventoryClassificationContent(params))
 	case "sidenav-page-wrapper":
-		ctx.HTML(http.StatusOK, "", pages.InventoryClassificationContentWithSideNav(params))
+		if htmx.HasMatchingPath(ctx) {
+			htmx.Retarget(ctx, "#page-content")
+			htmx.Reswap(ctx, "innerHTML")
+			ctx.HTML(http.StatusOK, "", pages.InventoryClassificationContent(params))
+		} else {
+			ctx.HTML(http.StatusOK, "", pages.InventoryClassificationContentWithSideNav(params))
+		}
 	default:
 		ctx.HTML(http.StatusOK, "", pages.InventoryClassificationPage(params))
 	}
