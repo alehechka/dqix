@@ -1,7 +1,6 @@
 package htmx
 
 import (
-	"fmt"
 	"net/url"
 	"path"
 	"strings"
@@ -55,12 +54,20 @@ func GetHxCurrentPath(ctx *gin.Context) string {
 }
 
 func HasMatchingParentPath(ctx *gin.Context) bool {
-	currentUrlParts := strings.Split(GetHxCurrentPath(ctx), "/")
-	shortCurrent := path.Join(currentUrlParts[0 : len(currentUrlParts)-1]...)
-	requestUrlParts := strings.Split(ctx.Request.URL.Path, "/")
-	shortRequest := path.Join(requestUrlParts[0 : len(requestUrlParts)-1]...)
-	fmt.Println(shortCurrent, shortRequest)
-	return shortCurrent == shortRequest
+	currentPath := GetHxCurrentPath(ctx)
+	currentPathParts := strings.Split(currentPath, "/")
+
+	requestPathParts := strings.Split(ctx.Request.URL.Path, "/")
+	requestPathParent := path.Join(requestPathParts[0 : len(requestPathParts)-1]...)
+
+	// If the currentPath is the parent, then check that against the requestedPath's parent
+	if len(currentPathParts) == len(requestPathParts)-1 {
+		return strings.TrimPrefix(currentPath, "/") == requestPathParent
+	}
+
+	// Else, check the equality of parent paths
+	currentPathParent := path.Join(currentPathParts[0 : len(currentPathParts)-1]...)
+	return currentPathParent == requestPathParent
 }
 
 func SetTitle(ctx *gin.Context, title string) {
