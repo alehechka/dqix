@@ -7,7 +7,6 @@ import (
 	"dqix/web/templ/components/base"
 	"dqix/web/templ/pages"
 	"net/http"
-	"strings"
 
 	"github.com/gin-gonic/gin"
 )
@@ -25,7 +24,7 @@ func (a *app) MonsterFamilyHandler(ctx *gin.Context) {
 
 	monsters := a.data.monsterMap.GetFamilySlice(familyId, ctx.Query("sort"))
 
-	pageTitle := "DQIX | " + strings.Title(familyId) + " Family"
+	pageTitle := "DQIX | " + types.ToFamilyTitle(familyId) + " Family"
 	htmx.SetTitle(ctx, pageTitle)
 	htmx.SetIcon(ctx, "/static/favicon.ico")
 	params := pages.MonsterFamilyParams{
