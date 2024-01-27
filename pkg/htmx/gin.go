@@ -61,7 +61,8 @@ func HasMatchingParentPath(ctx *gin.Context) bool {
 	currentPath := GetHxCurrentPath(ctx)
 	currentPathParts := strings.Split(currentPath, "/")
 
-	requestPathParts := strings.Split(ctx.Request.URL.Path, "/")
+	requestPath := ctx.Request.URL.Path
+	requestPathParts := strings.Split(requestPath, "/")
 	requestPathParent := path.Join(requestPathParts[0 : len(requestPathParts)-1]...)
 
 	// If the currentPath is the parent, then check that against the requestedPath's parent
@@ -69,8 +70,14 @@ func HasMatchingParentPath(ctx *gin.Context) bool {
 		return strings.TrimPrefix(currentPath, "/") == requestPathParent
 	}
 
-	// Else, check the equality of parent paths
 	currentPathParent := path.Join(currentPathParts[0 : len(currentPathParts)-1]...)
+
+	// If the requestPath is the parent, then check that against the currentPath's parent
+	if len(currentPathParts)-1 == len(requestPathParts) {
+		return currentPathParent == strings.TrimPrefix(requestPath, "/")
+	}
+
+	// Else, check the equality of parent paths
 	return currentPathParent == requestPathParent
 }
 
