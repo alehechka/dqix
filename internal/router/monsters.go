@@ -48,7 +48,7 @@ func (a *app) MonsterFamilyHandler(ctx *gin.Context) {
 	case "page-content":
 		ctx.HTML(http.StatusOK, "", pages.MonsterFamilyContent(params))
 	case "sidenav-page-wrapper":
-		if htmx.HasMatchingPath(ctx) || htmx.HasMatchingParentPath(ctx) {
+		if htmx.HasMatchingPath(ctx) || htmx.IsRequestingParentPath(ctx) {
 			htmx.Retarget(ctx, "#page-content")
 			htmx.Reswap(ctx, "innerHTML")
 			ctx.HTML(http.StatusOK, "", pages.MonsterFamilyContent(params))
