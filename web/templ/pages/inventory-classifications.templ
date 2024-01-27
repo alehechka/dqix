@@ -43,150 +43,158 @@ templ InventoryClassificationContent(params InventoryClassificationParams) {
 templ InventoryClassificationTable(params InventoryClassificationParams) {
 	<table role="table" id="inventory-table">
 		<thead role="rowgroup" hx-boost="true" hx-target="#inventory-table" hx-swap="outerHTML">
-			<tr role="row" class="[&>th]:py-2 [&>th]:pr-4 [&>th:not(.text-left)]:pl-4">
-				@SortableColumnHeaderLeft(params, "name", "Name")
-				<th role="columnheader" scope="col" id="image"></th>
-				if params.Stats.HasAttack {
-					@SortableColumnHeader(params, "attack", "Attack")
-				}
-				if params.Stats.HasDefense {
-					@SortableColumnHeader(params, "defense", "Defense")
-				}
-				if params.Stats.HasBlockChance {
-					@SortableColumnHeader(params, "block-chance", "Block")
-				}
-				if params.Stats.HasAgility {
-					@SortableColumnHeader(params, "agility", "Agility")
-				}
-				if params.Stats.HasEvasionChance {
-					@SortableColumnHeader(params, "evasion-chance", "Evasion")
-				}
-				if params.Stats.HasMagicalMight {
-					@SortableColumnHeader(params, "magical-might", "Might")
-				}
-				if params.Stats.HasMagicalMending {
-					@SortableColumnHeader(params, "magical-mending", "Mending")
-				}
-				if params.Stats.HasMPAbsorptionRate {
-					@SortableColumnHeader(params, "mp-absorption-rate", "MP Absorption")
-				}
-				if params.Stats.HasMaxMP {
-					@SortableColumnHeader(params, "max-mp", "Max MP")
-				}
-				if params.Stats.HasDeftness {
-					@SortableColumnHeader(params, "deftness", "Deftness")
-				}
-				if params.Stats.HasCharm {
-					@SortableColumnHeader(params, "charm", "Charm")
-				}
-				if params.Stats.HasSpecial {
-					<th role="columnheader" scope="col" id="special" class="text-left">Special</th>
-				}
-			</tr>
+			@inventoryTableHeader(params)
 		</thead>
 		<tbody role="rowgroup" class="[&>tr:nth-child(odd)]:bg-gray-100 dark:[&>tr:nth-child(odd)]:bg-zinc-800" hx-boost="true" hx-target="#page-content" hx-swap="innerHTML">
 			for _, inventory := range params.Inventories {
-				<tr key={ inventory.GetID() } role="row" class="[&>td]:py-2 [&>td]:pr-4 [&>th]:py-2 [&>th]:pr-4 [&>td:is(.text-center)]:pl-4">
-					<th scope="row" role="cell" data-cell="name" class="text-left">
-						@links.Link(inventory.Title, fn.Path(inventory.GetPath()), nil)
-					</th>
-					<td role="cell" data-cell="image" width="49px">
-						<img src={ inventory.ImageSrc() } alt={ inventory.GetID() }/>
-					</td>
-					if params.Stats.HasAttack {
-						<td role="cell" data-cell="attack" class="text-center">
-							if inventory.Statistics.Attack > 0 {
-								{ strconv.Itoa(inventory.Statistics.Attack) }
-							}
-						</td>
-					}
-					if params.Stats.HasDefense {
-						<td role="cell" data-cell="defense" class="text-center">
-							if inventory.Statistics.Defense > 0 {
-								{ strconv.Itoa(inventory.Statistics.Defense) }
-							}
-						</td>
-					}
-					if params.Stats.HasBlockChance {
-						<td role="cell" data-cell="block-chance" class="text-center">
-							if inventory.Statistics.BlockChance > 0 {
-								{ fmt.Sprintf("%.2f%%", inventory.Statistics.BlockChance) }
-							}
-						</td>
-					}
-					if params.Stats.HasAgility {
-						<td role="cell" data-cell="agility" class="text-center">
-							if inventory.Statistics.Agility > 0 {
-								{ strconv.Itoa(inventory.Statistics.Agility) }
-							}
-						</td>
-					}
-					if params.Stats.HasEvasionChance {
-						<td role="cell" data-cell="evasion-chance" class="text-center">
-							if inventory.Statistics.EvasionChance > 0 {
-								{ fmt.Sprintf("%.2f%%", inventory.Statistics.EvasionChance) }
-							}
-						</td>
-					}
-					if params.Stats.HasMagicalMight {
-						<td role="cell" data-cell="magical-might" class="text-center">
-							if inventory.Statistics.MagicalMight > 0 {
-								{ strconv.Itoa(inventory.Statistics.MagicalMight) }
-							}
-						</td>
-					}
-					if params.Stats.HasMagicalMending {
-						<td role="cell" data-cell="magical-mending" class="text-center">
-							if inventory.Statistics.MagicalMending > 0 {
-								{ strconv.Itoa(inventory.Statistics.MagicalMending) }
-							}
-						</td>
-					}
-					if params.Stats.HasMPAbsorptionRate {
-						<td role="cell" data-cell="mp-absorption-rate" class="text-center">
-							if inventory.Statistics.MPAbsorptionRate > 0 {
-								{ fmt.Sprintf("%.2f%%",inventory.Statistics.MPAbsorptionRate) }
-							}
-						</td>
-					}
-					if params.Stats.HasMaxMP {
-						<td role="cell" data-cell="max-mp" class="text-center">
-							if inventory.Statistics.MaxMP > 0 {
-								{ strconv.Itoa(inventory.Statistics.MaxMP) }
-							}
-						</td>
-					}
-					if params.Stats.HasDeftness {
-						<td role="cell" data-cell="deftness" class="text-center">
-							if inventory.Statistics.Deftness > 0 {
-								{ strconv.Itoa(inventory.Statistics.Deftness) }
-							}
-						</td>
-					}
-					if params.Stats.HasCharm {
-						<td role="cell" data-cell="charm" class="text-center">
-							if inventory.Statistics.Charm > 0 {
-								{ strconv.Itoa(inventory.Statistics.Charm) }
-							}
-						</td>
-					}
-					if params.Stats.HasSpecial {
-						<td role="cell" data-cell="special">
-							if inventory.Statistics.Special.Effect != "" {
-								<p><strong>Effect: </strong>{ inventory.Statistics.Special.Effect }</p>
-							}
-							if inventory.Statistics.Special.Usage != "" {
-								<p><strong>Use: </strong>{ inventory.Statistics.Special.Usage }</p>
-							}
-							if inventory.Statistics.Special.Curse != "" {
-								<p><strong>Curse: </strong>{ inventory.Statistics.Special.Curse }</p>
-							}
-						</td>
-					}
-				</tr>
+				@inventoryTableRow(inventory, params.Stats)
 			}
 		</tbody>
 	</table>
+}
+
+templ inventoryTableHeader(params InventoryClassificationParams) {
+	<tr role="row" class="[&>th]:py-2 [&>th]:pr-4 [&>th:not(.text-left)]:pl-4">
+		@SortableColumnHeaderLeft(params, "name", "Name")
+		<th role="columnheader" scope="col" id="image"></th>
+		if params.Stats.HasAttack {
+			@SortableColumnHeader(params, "attack", "Attack")
+		}
+		if params.Stats.HasDefense {
+			@SortableColumnHeader(params, "defense", "Defense")
+		}
+		if params.Stats.HasBlockChance {
+			@SortableColumnHeader(params, "block-chance", "Block")
+		}
+		if params.Stats.HasAgility {
+			@SortableColumnHeader(params, "agility", "Agility")
+		}
+		if params.Stats.HasEvasionChance {
+			@SortableColumnHeader(params, "evasion-chance", "Evasion")
+		}
+		if params.Stats.HasMagicalMight {
+			@SortableColumnHeader(params, "magical-might", "Might")
+		}
+		if params.Stats.HasMagicalMending {
+			@SortableColumnHeader(params, "magical-mending", "Mending")
+		}
+		if params.Stats.HasMPAbsorptionRate {
+			@SortableColumnHeader(params, "mp-absorption-rate", "MP Absorption")
+		}
+		if params.Stats.HasMaxMP {
+			@SortableColumnHeader(params, "max-mp", "Max MP")
+		}
+		if params.Stats.HasDeftness {
+			@SortableColumnHeader(params, "deftness", "Deftness")
+		}
+		if params.Stats.HasCharm {
+			@SortableColumnHeader(params, "charm", "Charm")
+		}
+		if params.Stats.HasSpecial {
+			<th role="columnheader" scope="col" id="special" class="text-left">Special</th>
+		}
+	</tr>
+}
+
+templ inventoryTableRow(inventory types.Inventory, stats types.HasInventoryStats) {
+	<tr key={ inventory.GetID() } role="row" class="[&>td]:py-2 [&>td]:pr-4 [&>th]:py-2 [&>th]:pr-4 [&>td:is(.text-center)]:pl-4">
+		<th scope="row" role="cell" data-cell="name" class="text-left">
+			@links.Link(inventory.Title, fn.Path(inventory.GetPath()), nil)
+		</th>
+		<td role="cell" data-cell="image" width="49px">
+			<img src={ inventory.ImageSrc() } alt={ inventory.GetID() }/>
+		</td>
+		if stats.HasAttack {
+			<td role="cell" data-cell="attack" class="text-center">
+				if inventory.Statistics.Attack > 0 {
+					{ strconv.Itoa(inventory.Statistics.Attack) }
+				}
+			</td>
+		}
+		if stats.HasDefense {
+			<td role="cell" data-cell="defense" class="text-center">
+				if inventory.Statistics.Defense > 0 {
+					{ strconv.Itoa(inventory.Statistics.Defense) }
+				}
+			</td>
+		}
+		if stats.HasBlockChance {
+			<td role="cell" data-cell="block-chance" class="text-center">
+				if inventory.Statistics.BlockChance > 0 {
+					{ fmt.Sprintf("%.2f%%", inventory.Statistics.BlockChance) }
+				}
+			</td>
+		}
+		if stats.HasAgility {
+			<td role="cell" data-cell="agility" class="text-center">
+				if inventory.Statistics.Agility > 0 {
+					{ strconv.Itoa(inventory.Statistics.Agility) }
+				}
+			</td>
+		}
+		if stats.HasEvasionChance {
+			<td role="cell" data-cell="evasion-chance" class="text-center">
+				if inventory.Statistics.EvasionChance > 0 {
+					{ fmt.Sprintf("%.2f%%", inventory.Statistics.EvasionChance) }
+				}
+			</td>
+		}
+		if stats.HasMagicalMight {
+			<td role="cell" data-cell="magical-might" class="text-center">
+				if inventory.Statistics.MagicalMight > 0 {
+					{ strconv.Itoa(inventory.Statistics.MagicalMight) }
+				}
+			</td>
+		}
+		if stats.HasMagicalMending {
+			<td role="cell" data-cell="magical-mending" class="text-center">
+				if inventory.Statistics.MagicalMending > 0 {
+					{ strconv.Itoa(inventory.Statistics.MagicalMending) }
+				}
+			</td>
+		}
+		if stats.HasMPAbsorptionRate {
+			<td role="cell" data-cell="mp-absorption-rate" class="text-center">
+				if inventory.Statistics.MPAbsorptionRate > 0 {
+					{ fmt.Sprintf("%.2f%%",inventory.Statistics.MPAbsorptionRate) }
+				}
+			</td>
+		}
+		if stats.HasMaxMP {
+			<td role="cell" data-cell="max-mp" class="text-center">
+				if inventory.Statistics.MaxMP > 0 {
+					{ strconv.Itoa(inventory.Statistics.MaxMP) }
+				}
+			</td>
+		}
+		if stats.HasDeftness {
+			<td role="cell" data-cell="deftness" class="text-center">
+				if inventory.Statistics.Deftness > 0 {
+					{ strconv.Itoa(inventory.Statistics.Deftness) }
+				}
+			</td>
+		}
+		if stats.HasCharm {
+			<td role="cell" data-cell="charm" class="text-center">
+				if inventory.Statistics.Charm > 0 {
+					{ strconv.Itoa(inventory.Statistics.Charm) }
+				}
+			</td>
+		}
+		if stats.HasSpecial {
+			<td role="cell" data-cell="special">
+				if inventory.Statistics.Special.Effect != "" {
+					<p><strong>Effect: </strong>{ inventory.Statistics.Special.Effect }</p>
+				}
+				if inventory.Statistics.Special.Usage != "" {
+					<p><strong>Use: </strong>{ inventory.Statistics.Special.Usage }</p>
+				}
+				if inventory.Statistics.Special.Curse != "" {
+					<p><strong>Curse: </strong>{ inventory.Statistics.Special.Curse }</p>
+				}
+			</td>
+		}
+	</tr>
 }
 
 func SortableColumnHeaderLeft(params InventoryClassificationParams, id string, label string) templ.Component {

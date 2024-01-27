@@ -7,7 +7,6 @@ import (
 	"dqix/web/templ/components/base"
 	"dqix/web/templ/pages"
 	"net/http"
-	"strings"
 
 	"github.com/gin-gonic/gin"
 )
@@ -25,7 +24,7 @@ func (a *app) MonsterFamilyHandler(ctx *gin.Context) {
 
 	monsters := a.data.monsterMap.GetFamilySlice(familyId, ctx.Query("sort"))
 
-	pageTitle := "DQIX | " + strings.Title(familyId) + " Family"
+	pageTitle := "DQIX | " + types.ToFamilyTitle(familyId) + " Family"
 	htmx.SetTitle(ctx, pageTitle)
 	htmx.SetIcon(ctx, "/static/favicon.ico")
 	params := pages.MonsterFamilyParams{
@@ -49,12 +48,48 @@ func (a *app) MonsterFamilyHandler(ctx *gin.Context) {
 	case "page-content":
 		ctx.HTML(http.StatusOK, "", pages.MonsterFamilyContent(params))
 	case "sidenav-page-wrapper":
-		ctx.HTML(http.StatusOK, "", pages.MonsterFamilyContentWithSideNav(params))
+		if htmx.HasMatchingPath(ctx) || htmx.IsRequestingParentPath(ctx) {
+			htmx.Retarget(ctx, "#page-content")
+			htmx.Reswap(ctx, "innerHTML")
+			ctx.HTML(http.StatusOK, "", pages.MonsterFamilyContent(params))
+		} else {
+			ctx.HTML(http.StatusOK, "", pages.MonsterFamilyContentWithSideNav(params))
+		}
 	default:
 		ctx.HTML(http.StatusOK, "", pages.MonsterFamilyPage(params))
 	}
 }
 
 func (a *app) MonsterHandler(ctx *gin.Context) {
-	ctx.Status(http.StatusNotImplemented)
+	familyId := ctx.Param("family")
+	id := ctx.Param("id")
+	monster := a.data.monsterMap.GetMonster(familyId, id)
+
+	pageTitle := "DQIX | " + monster.Title
+	htmx.SetTitle(ctx, pageTitle)
+	htmx.SetIcon(ctx, "/static/favicon.ico") // htmx.SetIcon(ctx, inventory.ImageSrc())
+	params := pages.MonsterParams{
+		Monster: monster,
+		Getter:  a.data.GetQuickThing,
+		LayoutParams: base.LayoutParams{
+			PageTitle:  pageTitle,
+			Page:       monster.GetFamilyID(),
+			IsDarkMode: gin_utils.IsDarkMode(ctx),
+			CSSVersion: a.cssVersion,
+		},
+	}
+
+	switch htmx.GetHxSwapTarget(ctx) {
+	case "page-content":
+		if htmx.HasMatchingParentPath(ctx) {
+			ctx.HTML(http.StatusOK, "", pages.MonsterContent(params))
+		} else {
+			htmx.Retarget(ctx, "#sidenav-page-wrapper")
+			ctx.HTML(http.StatusOK, "", pages.MonsterContentWithSideNav(params))
+		}
+	case "sidenav-page-wrapper":
+		ctx.HTML(http.StatusOK, "", pages.MonsterContentWithSideNav(params))
+	default:
+		ctx.HTML(http.StatusOK, "", pages.MonsterPage(params))
+	}
 }

@@ -10,7 +10,7 @@ templ SideNav(page string) {
 		hx-boost="true"
 		hx-target="#sidenav-page-wrapper"
 		hx-swap="outerHTML"
-		class="fixed -right-[--sidenav-width] md:right-0 top-16 p-2
+		class="fixed -right-[--sidenav-width] md:right-0 top-16 p-2 overflow-y-auto
 				z-40 h-[calc(100%-var(--navbar-height))] w-[--sidenav-width]
 				bg-gray-50 dark:bg-zinc-900
 				transition-[right] duration-300 aria-expanded:right-0"

@@ -1,7 +1,6 @@
 package htmx
 
 import (
-	"fmt"
 	"net/url"
 	"path"
 	"strings"
@@ -43,6 +42,10 @@ func Retarget(ctx *gin.Context, target string) {
 	ctx.Header(ResponseHeaderRetarget, target)
 }
 
+func Reswap(ctx *gin.Context, swapStrategy string) {
+	ctx.Header(ResponseHeaderReswap, swapStrategy)
+}
+
 func GetHxCurrentUrl(ctx *gin.Context) string {
 	return ctx.GetHeader(RequestHeaderCurrentURL)
 }
@@ -55,12 +58,37 @@ func GetHxCurrentPath(ctx *gin.Context) string {
 }
 
 func HasMatchingParentPath(ctx *gin.Context) bool {
-	currentUrlParts := strings.Split(GetHxCurrentPath(ctx), "/")
-	shortCurrent := path.Join(currentUrlParts[0 : len(currentUrlParts)-1]...)
-	requestUrlParts := strings.Split(ctx.Request.URL.Path, "/")
-	shortRequest := path.Join(requestUrlParts[0 : len(requestUrlParts)-1]...)
-	fmt.Println(shortCurrent, shortRequest)
-	return shortCurrent == shortRequest
+	currentPath := GetHxCurrentPath(ctx)
+	currentPathParts := strings.Split(currentPath, "/")
+
+	requestPath := ctx.Request.URL.Path
+	requestPathParts := strings.Split(requestPath, "/")
+	requestPathParent := path.Join(requestPathParts[0 : len(requestPathParts)-1]...)
+
+	// If the currentPath is a parent, then check that against the requestedPath's parent
+	if len(currentPathParts) == len(requestPathParts)-1 {
+		return strings.TrimPrefix(currentPath, "/") == requestPathParent
+	}
+
+	// Else, check the equality of parent paths
+	currentPathParent := path.Join(currentPathParts[0 : len(currentPathParts)-1]...)
+	return currentPathParent == requestPathParent
+}
+
+func IsRequestingParentPath(ctx *gin.Context) bool {
+	currentPath := GetHxCurrentPath(ctx)
+	currentPathParts := strings.Split(currentPath, "/")
+	currentPathParent := path.Join(currentPathParts[0 : len(currentPathParts)-1]...)
+
+	requestPath := ctx.Request.URL.Path
+	requestPathParts := strings.Split(requestPath, "/")
+
+	// If the requestPath is a parent, then check that against the currentPath's parent
+	return len(currentPathParts)-1 == len(requestPathParts) && currentPathParent == strings.TrimPrefix(requestPath, "/")
+}
+
+func HasMatchingPath(ctx *gin.Context) bool {
+	return GetHxCurrentPath(ctx) == ctx.Request.URL.Path
 }
 
 func SetTitle(ctx *gin.Context, title string) {

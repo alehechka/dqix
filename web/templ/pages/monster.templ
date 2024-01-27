@@ -1,0 +1,26 @@
+package pages
+
+import "dqix/internal/types"
+import "dqix/web/templ/components/base"
+
+type MonsterParams struct {
+	Monster      types.Monster
+	Getter       types.IGetThingFromID
+	LayoutParams base.LayoutParams
+}
+
+templ MonsterPage(params MonsterParams) {
+	@base.Layout(params.LayoutParams) {
+		@MonsterContent(params)
+	}
+}
+
+templ MonsterContentWithSideNav(params MonsterParams) {
+	@base.MainContentWithSidenav(params.Monster.GetFamilyID()) {
+		@MonsterContent(params)
+	}
+}
+
+templ MonsterContent(params MonsterParams) {
+	<div hx-boost="true" hx-target="#page-content"><h1>{ params.Monster.Title }</h1></div>
+}

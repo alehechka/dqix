@@ -97,7 +97,7 @@ func (m Monster) GetTitle() string {
 }
 
 func (m Monster) GetPath() string {
-	return "/" + path.Join("monsters", m.Family, m.GetID())
+	return "/" + path.Join("monsters", m.GetFamilyID(), m.GetID())
 }
 
 func (m Monster) GetFamilyID() string {
