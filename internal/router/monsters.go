@@ -15,32 +15,37 @@ func (a *app) MonsterRoutes(engine *gin.Engine) {
 	router := engine.Group("/monsters")
 
 	router.GET("/")
-	router.GET("/:family", a.MonsterFamilyHandler)
+	router.GET("/:family", a.MonsterFamilyWrapper(MonsterFamilyRenderer))
 	router.GET("/:family/:id", a.MonsterHandler)
 }
 
-func (a *app) MonsterFamilyHandler(ctx *gin.Context) {
-	familyId := ctx.Param("family")
+func (a *app) MonsterFamilyWrapper(handler func(*gin.Context, params.MonsterFamily)) func(*gin.Context) {
+	return func(ctx *gin.Context) {
+		familyId := ctx.Param("family")
+		monsters := a.data.monsterMap.GetFamilySlice(familyId, ctx.Query("sort"))
 
-	monsters := a.data.monsterMap.GetFamilySlice(familyId, ctx.Query("sort"))
+		params := params.MonsterFamily{
+			Family:          familyId,
+			FamilyTitle:     types.ToFamilyTitle(familyId),
+			Monsters:        monsters,
+			DisplayMode:     ctx.Query("display"),
+			SortPathGetter:  types.PrepareSimpleSortPath(*ctx.Request.URL),
+			SortOrderGetter: types.GetSortOrder(ctx.Request.URL),
+			LayoutParams: params.Layout{
+				PageTitle:  "DQIX | " + types.ToFamilyTitle(familyId) + " Family",
+				Page:       familyId,
+				IsDarkMode: gin_utils.IsDarkMode(ctx),
+				CSSVersion: a.cssVersion,
+			},
+		}
 
-	pageTitle := "DQIX | " + types.ToFamilyTitle(familyId) + " Family"
-	htmx.SetTitle(ctx, pageTitle)
-	htmx.SetIcon(ctx, "/static/favicon.ico")
-	params := params.MonsterFamily{
-		Family:          familyId,
-		FamilyTitle:     types.ToFamilyTitle(familyId),
-		Monsters:        monsters,
-		DisplayMode:     ctx.Query("display"),
-		SortPathGetter:  types.PrepareSimpleSortPath(*ctx.Request.URL),
-		SortOrderGetter: types.GetSortOrder(ctx.Request.URL),
-		LayoutParams: params.Layout{
-			PageTitle:  pageTitle,
-			Page:       familyId,
-			IsDarkMode: gin_utils.IsDarkMode(ctx),
-			CSSVersion: a.cssVersion,
-		},
+		handler(ctx, params)
 	}
+}
+
+func MonsterFamilyRenderer(ctx *gin.Context, params params.MonsterFamily) {
+	htmx.SetTitle(ctx, params.LayoutParams.PageTitle)
+	htmx.SetIcon(ctx, params.LayoutParams.GetIconPath())
 
 	switch htmx.GetHxSwapTarget(ctx) {
 	// case "monster-table":
