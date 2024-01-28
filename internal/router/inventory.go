@@ -86,6 +86,7 @@ func (a *app) InventoryWrapper(handler func(*gin.Context, params.Inventory)) fun
 				Page:       inventory.Classification,
 				IsDarkMode: gin_utils.IsDarkMode(ctx),
 				CSSVersion: a.cssVersion,
+				IconPath:   inventory.ImageSrc(),
 			},
 		}
 
@@ -95,7 +96,7 @@ func (a *app) InventoryWrapper(handler func(*gin.Context, params.Inventory)) fun
 
 func InventoryRenderer(ctx *gin.Context, params params.Inventory) {
 	htmx.SetTitle(ctx, params.LayoutParams.PageTitle)
-	htmx.SetIcon(ctx, params.Inventory.ImageSrc())
+	htmx.SetIcon(ctx, params.LayoutParams.GetIconPath())
 
 	switch htmx.GetHxSwapTarget(ctx) {
 	case "page-content":
