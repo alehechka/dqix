@@ -41,7 +41,6 @@ func (a *app) SetupRouter() *gin.Engine {
 	engine.GET("/", func(ctx *gin.Context) {
 		params := params.Index{
 			LayoutParams: params.Layout{
-				PageTitle:  "Dragon Quest IX",
 				IsDarkMode: gin_utils.IsDarkMode(ctx),
 				CSSVersion: a.cssVersion,
 			},

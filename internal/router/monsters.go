@@ -6,6 +6,7 @@ import (
 	gin_utils "dqix/pkg/gin"
 	"dqix/pkg/htmx"
 	"dqix/web/templ/pages"
+	"fmt"
 	"net/http"
 
 	"github.com/gin-gonic/gin"
@@ -32,7 +33,7 @@ func (a *app) MonsterFamilyWrapper(handler func(*gin.Context, params.MonsterFami
 			SortPathGetter:  types.PrepareSimpleSortPath(*ctx.Request.URL),
 			SortOrderGetter: types.GetSortOrder(ctx.Request.URL),
 			LayoutParams: params.Layout{
-				PageTitle:  "DQIX | " + types.ToFamilyTitle(familyId) + " Family",
+				PageTitle:  fmt.Sprintf("%s Family", types.ToFamilyTitle(familyId)),
 				Page:       familyId,
 				IsDarkMode: gin_utils.IsDarkMode(ctx),
 				CSSVersion: a.cssVersion,
@@ -44,7 +45,7 @@ func (a *app) MonsterFamilyWrapper(handler func(*gin.Context, params.MonsterFami
 }
 
 func MonsterFamilyRenderer(ctx *gin.Context, params params.MonsterFamily) {
-	htmx.SetTitle(ctx, params.LayoutParams.PageTitle)
+	htmx.SetTitle(ctx, params.LayoutParams.GetPageTitle())
 	htmx.SetIcon(ctx, params.LayoutParams.GetIconPath())
 
 	switch htmx.GetHxSwapTarget(ctx) {
@@ -75,7 +76,7 @@ func (a *app) MonsterWrapper(handler func(*gin.Context, params.Monster)) func(*g
 			Monster: monster,
 			Getter:  a.data.GetQuickThing,
 			LayoutParams: params.Layout{
-				PageTitle:  "DQIX | " + monster.Title,
+				PageTitle:  monster.Title,
 				Page:       monster.GetFamilyID(),
 				IsDarkMode: gin_utils.IsDarkMode(ctx),
 				CSSVersion: a.cssVersion,
@@ -87,7 +88,7 @@ func (a *app) MonsterWrapper(handler func(*gin.Context, params.Monster)) func(*g
 }
 
 func MonsterRenderer(ctx *gin.Context, params params.Monster) {
-	htmx.SetTitle(ctx, params.LayoutParams.PageTitle)
+	htmx.SetTitle(ctx, params.LayoutParams.GetPageTitle())
 	htmx.SetIcon(ctx, params.LayoutParams.GetIconPath())
 
 	switch htmx.GetHxSwapTarget(ctx) {

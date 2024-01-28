@@ -22,6 +22,6 @@ templ Meta(params params.Layout) {
 	<link rel="icon" type="image/x-icon" href={ params.GetIconPath() }/>
 	<link rel="stylesheet" href={ fmt.Sprintf("/static/output.%s.css", params.CSSVersion) }/>
 	<title>
-		{ params.PageTitle }
+		{ params.GetPageTitle() }
 	</title>
 }

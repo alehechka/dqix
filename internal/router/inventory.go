@@ -37,7 +37,7 @@ func (a *app) InventoryClassificationWrapper(handler func(*gin.Context, params.I
 			SortPathGetter:  types.PrepareSimpleSortPath(*ctx.Request.URL),
 			SortOrderGetter: types.GetSortOrder(ctx.Request.URL),
 			LayoutParams: params.Layout{
-				PageTitle:  "DQIX | " + strings.Title(classification),
+				PageTitle:  strings.Title(classification),
 				Page:       classification,
 				IsDarkMode: gin_utils.IsDarkMode(ctx),
 				CSSVersion: a.cssVersion,
@@ -49,7 +49,7 @@ func (a *app) InventoryClassificationWrapper(handler func(*gin.Context, params.I
 }
 
 func InventoryClassificationRenderer(ctx *gin.Context, params params.InventoryClassification) {
-	htmx.SetTitle(ctx, params.LayoutParams.PageTitle)
+	htmx.SetTitle(ctx, params.LayoutParams.GetPageTitle())
 	htmx.SetIcon(ctx, params.LayoutParams.GetIconPath())
 
 	switch htmx.GetHxSwapTarget(ctx) {
@@ -82,7 +82,7 @@ func (a *app) InventoryWrapper(handler func(*gin.Context, params.Inventory)) fun
 			Inventory: inventory,
 			Getter:    a.data.GetQuickThing,
 			LayoutParams: params.Layout{
-				PageTitle:  "DQIX | " + inventory.Title,
+				PageTitle:  inventory.Title,
 				Page:       inventory.Classification,
 				IsDarkMode: gin_utils.IsDarkMode(ctx),
 				CSSVersion: a.cssVersion,
@@ -95,7 +95,7 @@ func (a *app) InventoryWrapper(handler func(*gin.Context, params.Inventory)) fun
 }
 
 func InventoryRenderer(ctx *gin.Context, params params.Inventory) {
-	htmx.SetTitle(ctx, params.LayoutParams.PageTitle)
+	htmx.SetTitle(ctx, params.LayoutParams.GetPageTitle())
 	htmx.SetIcon(ctx, params.LayoutParams.GetIconPath())
 
 	switch htmx.GetHxSwapTarget(ctx) {

@@ -1,5 +1,7 @@
 package params
 
+import "fmt"
+
 type Layout struct {
 	PageTitle  string
 	Page       string
@@ -8,13 +10,22 @@ type Layout struct {
 	IconPath   string
 }
 
-// GetIconPath returns the IconPath when it not empty, otherwise will return the default path to the app's favicon.
-func (l Layout) GetIconPath() string {
-	if l.IconPath != "" {
-		return l.IconPath
+// GetPageTitle returns the formatted PageTitle when not empty, otherwise will return the default page title.
+func (l Layout) GetPageTitle() string {
+	if l.PageTitle == "" {
+		return "Dragon Quest IX"
 	}
 
-	return "/static/favicon.ico"
+	return fmt.Sprintf("DQIX | %s", l.PageTitle)
+}
+
+// GetIconPath returns the IconPath when not empty, otherwise will return the default path to the app's favicon.
+func (l Layout) GetIconPath() string {
+	if l.IconPath == "" {
+		return "/static/favicon.ico"
+	}
+
+	return l.IconPath
 }
 
 type Index struct {
