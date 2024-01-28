@@ -28,10 +28,10 @@ templ MonsterContent(params params.Monster) {
 		</div>
 		<hr/>
 		<p id="description" class="pt-4 pb-2">
-			{ params.Monster.Description }
+			@links.TextBlockLinks(params.Monster.Description, params.Getter)
 			if params.Monster.SecondaryDescription != "" {
 				<br/>
-				{ params.Monster.SecondaryDescription }
+				@links.TextBlockLinks(params.Monster.SecondaryDescription, params.Getter)
 			}
 		</p>
 		<p id="information" class="py-2">
