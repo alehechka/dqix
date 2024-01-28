@@ -1,12 +1,9 @@
 package pages
 
 import "dqix/web/templ/components/base"
+import "dqix/internal/types/params"
 
-type IndexParams struct {
-	LayoutParams base.LayoutParams
-}
-
-templ IndexPage(params IndexParams) {
+templ IndexPage(params params.Index) {
 	@base.Layout(params.LayoutParams) {
 		@indexContent()
 	}

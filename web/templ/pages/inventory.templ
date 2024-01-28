@@ -6,28 +6,22 @@ import "dqix/web/templ/components/links"
 import "strings"
 import "strconv"
 import "fmt"
+import "dqix/internal/types/params"
 
 // Inventory
-
-type InventoryParams struct {
-	Inventory    types.Inventory
-	Getter       types.IGetThingFromID
-	LayoutParams base.LayoutParams
-}
-
-templ InventoryPage(params InventoryParams) {
+templ InventoryPage(params params.Inventory) {
 	@base.Layout(params.LayoutParams) {
 		@InventoryContent(params)
 	}
 }
 
-templ InventoryContentWithSideNav(params InventoryParams) {
+templ InventoryContentWithSideNav(params params.Inventory) {
 	@base.MainContentWithSidenav(params.Inventory.Classification) {
 		@InventoryContent(params)
 	}
 }
 
-templ InventoryContent(params InventoryParams) {
+templ InventoryContent(params params.Inventory) {
 	<div hx-boost="true" hx-target="#page-content">
 		<div class="flex flex-row items-center">
 			<img src={ params.Inventory.ImageSrc() } alt={ params.Inventory.GetID() }/>

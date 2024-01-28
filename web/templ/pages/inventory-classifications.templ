@@ -7,31 +7,21 @@ import "strings"
 import "dqix/web/templ/utilities"
 import "strconv"
 import "fmt"
+import "dqix/internal/types/params"
 
-// Inventory Classifications
-type InventoryClassificationParams struct {
-	Classification  string
-	Inventories     types.InventorySlice
-	Stats           types.HasInventoryStats
-	DisplayMode     string
-	LayoutParams    base.LayoutParams
-	SortPathGetter  func(sortField string) templ.SafeURL
-	SortOrderGetter func(sortField string) string
-}
-
-templ InventoryClassificationPage(params InventoryClassificationParams) {
+templ InventoryClassificationPage(params params.InventoryClassification) {
 	@base.Layout(params.LayoutParams) {
 		@InventoryClassificationContent(params)
 	}
 }
 
-templ InventoryClassificationContentWithSideNav(params InventoryClassificationParams) {
+templ InventoryClassificationContentWithSideNav(params params.InventoryClassification) {
 	@base.MainContentWithSidenav(params.Classification) {
 		@InventoryClassificationContent(params)
 	}
 }
 
-templ InventoryClassificationContent(params InventoryClassificationParams) {
+templ InventoryClassificationContent(params params.InventoryClassification) {
 	<h1 class="text-3xl font-bold">{ strings.Title(strings.ReplaceAll(params.Classification, "-", " ")) }</h1>
 	if params.DisplayMode == "list" {
 		@InventoryClassificationList(params.Inventories)
@@ -40,7 +30,7 @@ templ InventoryClassificationContent(params InventoryClassificationParams) {
 	}
 }
 
-templ InventoryClassificationTable(params InventoryClassificationParams) {
+templ InventoryClassificationTable(params params.InventoryClassification) {
 	<table role="table" id="inventory-table">
 		<thead role="rowgroup" hx-boost="true" hx-target="#inventory-table" hx-swap="outerHTML">
 			@inventoryTableHeader(params)
@@ -53,7 +43,7 @@ templ InventoryClassificationTable(params InventoryClassificationParams) {
 	</table>
 }
 
-templ inventoryTableHeader(params InventoryClassificationParams) {
+templ inventoryTableHeader(params params.InventoryClassification) {
 	<tr role="row" class="[&>th]:py-2 [&>th]:pr-4 [&>th:not(.text-left)]:pl-4">
 		@SortableColumnHeaderLeft(params, "name", "Name")
 		<th role="columnheader" scope="col" id="image"></th>
@@ -197,15 +187,15 @@ templ inventoryTableRow(inventory types.Inventory, stats types.HasInventoryStats
 	</tr>
 }
 
-func SortableColumnHeaderLeft(params InventoryClassificationParams, id string, label string) templ.Component {
+func SortableColumnHeaderLeft(params params.InventoryClassification, id string, label string) templ.Component {
 	return sortableColumnHeader(params, id, label, templ.Attributes{"class": "group relative text-left"})
 }
 
-func SortableColumnHeader(params InventoryClassificationParams, id string, label string) templ.Component {
+func SortableColumnHeader(params params.InventoryClassification, id string, label string) templ.Component {
 	return sortableColumnHeader(params, id, label, templ.Attributes{"class": "group relative"})
 }
 
-templ sortableColumnHeader(params InventoryClassificationParams, id string, label string, attrs templ.Attributes) {
+templ sortableColumnHeader(params params.InventoryClassification, id string, label string, attrs templ.Attributes) {
 	<th
 		role="columnheader"
 		scope="col"
@@ -219,7 +209,7 @@ templ sortableColumnHeader(params InventoryClassificationParams, id string, labe
 	</th>
 }
 
-templ SortableColumnHeaderLink(params InventoryClassificationParams, id string, label string) {
+templ SortableColumnHeaderLink(params params.InventoryClassification, id string, label string) {
 	<a
 		href={ params.SortPathGetter(id) }
 		class="after:hidden group-aria-[sort=descending]:after:inline group-aria-[sort=ascending]:after:inline 

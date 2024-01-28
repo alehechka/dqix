@@ -1,8 +1,8 @@
 package router
 
 import (
+	"dqix/internal/types/params"
 	gin_utils "dqix/pkg/gin"
-	"dqix/web/templ/components/base"
 	"dqix/web/templ/pages"
 	"fmt"
 	"net/http"
@@ -39,9 +39,8 @@ func (a *app) SetupRouter() *gin.Engine {
 	a.StaticFiles(engine)
 
 	engine.GET("/", func(ctx *gin.Context) {
-		params := pages.IndexParams{
-			LayoutParams: base.LayoutParams{
-				PageTitle:  "Dragon Quest IX",
+		params := params.Index{
+			LayoutParams: params.Layout{
 				IsDarkMode: gin_utils.IsDarkMode(ctx),
 				CSSVersion: a.cssVersion,
 			},

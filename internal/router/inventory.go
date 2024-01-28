@@ -2,9 +2,9 @@ package router
 
 import (
 	"dqix/internal/types"
+	"dqix/internal/types/params"
 	gin_utils "dqix/pkg/gin"
 	"dqix/pkg/htmx"
-	"dqix/web/templ/components/base"
 	"dqix/web/templ/pages"
 	"net/http"
 	"strings"
@@ -18,40 +18,39 @@ func (a *app) InventoryRoutes(engine *gin.Engine) {
 	router.GET("/")
 	// router.GET("/:type")
 	// router.GET("/:type/:category")
-	router.GET("/:type/:category/:classification", a.ClassificationHandler)
-
-	router.GET("/:type/:category/:classification/:id", a.InventoryHandler)
+	router.GET("/:type/:category/:classification", a.InventoryClassificationWrapper(InventoryClassificationRenderer))
+	router.GET("/:type/:category/:classification/:id", a.InventoryWrapper(InventoryRenderer))
 }
 
-func (a *app) ClassificationHandler(ctx *gin.Context) {
-	typeId := ctx.Param("type")
-	category := ctx.Param("category")
-	classification := ctx.Param("classification")
-	inventories := a.data.inventoryMap.GetClassificationSlice(typeId, category, classification, ctx.Query("sort"))
+func (a *app) InventoryClassificationWrapper(handler func(*gin.Context, params.InventoryClassification)) func(*gin.Context) {
+	return func(ctx *gin.Context) {
+		typeId := ctx.Param("type")
+		category := ctx.Param("category")
+		classification := ctx.Param("classification")
+		inventories := a.data.inventoryMap.GetClassificationSlice(typeId, category, classification, ctx.Query("sort"))
 
-	// TODO add some utility function that checks if the request Accept's JSON (and/or weighted with others)
-	if ctx.GetHeader("Accept") == "application/json" {
-		ctx.JSON(http.StatusOK, inventories)
-		return
-	}
+		params := params.InventoryClassification{
+			Classification:  classification,
+			Inventories:     inventories,
+			Stats:           inventories.GetHasInventoryStats(),
+			DisplayMode:     ctx.Query("display"),
+			SortPathGetter:  types.PrepareSimpleSortPath(*ctx.Request.URL),
+			SortOrderGetter: types.GetSortOrder(ctx.Request.URL),
+			LayoutParams: params.Layout{
+				PageTitle:  strings.Title(classification),
+				Page:       classification,
+				IsDarkMode: gin_utils.IsDarkMode(ctx),
+				CSSVersion: a.cssVersion,
+			},
+		}
 
-	pageTitle := "DQIX | " + strings.Title(classification)
-	htmx.SetTitle(ctx, pageTitle)
-	htmx.SetIcon(ctx, "/static/favicon.ico")
-	params := pages.InventoryClassificationParams{
-		Classification:  classification,
-		Inventories:     inventories,
-		Stats:           inventories.GetHasInventoryStats(),
-		DisplayMode:     ctx.Query("display"),
-		SortPathGetter:  types.PrepareSimpleSortPath(*ctx.Request.URL),
-		SortOrderGetter: types.GetSortOrder(ctx.Request.URL),
-		LayoutParams: base.LayoutParams{
-			PageTitle:  pageTitle,
-			Page:       classification,
-			IsDarkMode: gin_utils.IsDarkMode(ctx),
-			CSSVersion: a.cssVersion,
-		},
+		handler(ctx, params)
 	}
+}
+
+func InventoryClassificationRenderer(ctx *gin.Context, params params.InventoryClassification) {
+	htmx.SetTitle(ctx, params.LayoutParams.GetPageTitle())
+	htmx.SetIcon(ctx, params.LayoutParams.GetIconPath())
 
 	switch htmx.GetHxSwapTarget(ctx) {
 	case "inventory-table":
@@ -71,32 +70,33 @@ func (a *app) ClassificationHandler(ctx *gin.Context) {
 	}
 }
 
-func (a *app) InventoryHandler(ctx *gin.Context) {
-	typeId := ctx.Param("type")
-	category := ctx.Param("category")
-	classification := ctx.Param("classification")
-	id := ctx.Param("id")
-	inventory := a.data.inventoryMap.GetInventory(typeId, category, classification, id)
+func (a *app) InventoryWrapper(handler func(*gin.Context, params.Inventory)) func(*gin.Context) {
+	return func(ctx *gin.Context) {
+		typeId := ctx.Param("type")
+		category := ctx.Param("category")
+		classification := ctx.Param("classification")
+		id := ctx.Param("id")
+		inventory := a.data.inventoryMap.GetInventory(typeId, category, classification, id)
 
-	// TODO add some utility function that checks if the request Accept's JSON (and/or weighted with others)
-	if ctx.GetHeader("Accept") == "application/json" {
-		ctx.JSON(http.StatusOK, inventory)
-		return
-	}
+		params := params.Inventory{
+			Inventory: inventory,
+			Getter:    a.data.GetQuickThing,
+			LayoutParams: params.Layout{
+				PageTitle:  inventory.Title,
+				Page:       inventory.Classification,
+				IsDarkMode: gin_utils.IsDarkMode(ctx),
+				CSSVersion: a.cssVersion,
+				IconPath:   inventory.ImageSrc(),
+			},
+		}
 
-	pageTitle := "DQIX | " + inventory.Title
-	htmx.SetTitle(ctx, pageTitle)
-	htmx.SetIcon(ctx, inventory.ImageSrc())
-	params := pages.InventoryParams{
-		Inventory: inventory,
-		Getter:    a.data.GetQuickThing,
-		LayoutParams: base.LayoutParams{
-			PageTitle:  pageTitle,
-			Page:       inventory.Classification,
-			IsDarkMode: gin_utils.IsDarkMode(ctx),
-			CSSVersion: a.cssVersion,
-		},
+		handler(ctx, params)
 	}
+}
+
+func InventoryRenderer(ctx *gin.Context, params params.Inventory) {
+	htmx.SetTitle(ctx, params.LayoutParams.GetPageTitle())
+	htmx.SetIcon(ctx, params.LayoutParams.GetIconPath())
 
 	switch htmx.GetHxSwapTarget(ctx) {
 	case "page-content":

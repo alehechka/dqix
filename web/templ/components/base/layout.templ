@@ -1,15 +1,9 @@
 package base
 
 import "dqix/web/templ/components/buttons"
+import "dqix/internal/types/params"
 
-type LayoutParams struct {
-	PageTitle  string
-	Page       string
-	IsDarkMode bool
-	CSSVersion string
-}
-
-templ Layout(params LayoutParams) {
+templ Layout(params params.Layout) {
 	<!DOCTYPE html>
 	<html
 		lang="en"
@@ -19,7 +13,7 @@ templ Layout(params LayoutParams) {
 		}
 	>
 		<head>
-			@Meta(params.PageTitle, params.CSSVersion)
+			@Meta(params)
 		</head>
 		<body class="h-full overflow-hidden dark:text-gray-300" hx-ext="title-header,icon-header">
 			@Navbar(params.IsDarkMode)
