@@ -2,6 +2,9 @@ package pages
 
 import "dqix/web/templ/components/base"
 import "dqix/internal/types/params"
+import "strconv"
+import "dqix/web/templ/components/links"
+import "fmt"
 
 templ MonsterPage(params params.Monster) {
 	@base.Layout(params.LayoutParams) {
@@ -16,5 +19,113 @@ templ MonsterContentWithSideNav(params params.Monster) {
 }
 
 templ MonsterContent(params params.Monster) {
-	<div hx-boost="true" hx-target="#page-content"><h1>{ params.Monster.Title }</h1></div>
+	<div hx-boost="true" hx-target="#page-content">
+		<div class="flex flex-row items-center">
+			// <img src={ params.Monster.ImageSrc() } alt={ params.Monster.GetID() }/>
+			<h1 id="title" class="text-3xl font-bold">
+				{ params.Monster.GetTitle() }
+			</h1>
+		</div>
+		<hr/>
+		<p id="description" class="pt-4 pb-2">
+			{ params.Monster.Description }
+			if params.Monster.SecondaryDescription != "" {
+				<br/>
+				{ params.Monster.SecondaryDescription }
+			}
+		</p>
+		<p id="information" class="py-2">
+			if params.Monster.Experience != 0 {
+				<strong>Experience: </strong>{ strconv.Itoa(params.Monster.Experience) }
+				<br/>
+			}
+			if params.Monster.GoldDropped != 0 {
+				<strong>Gold Dropped: </strong>{ strconv.Itoa(params.Monster.GoldDropped) }
+				<br/>
+			}
+		</p>
+		<p id="details" class="py-2">
+			<strong>Family: </strong>{ params.Monster.GetFamilyTitle() }
+			<br/>
+			if len(params.Monster.WhereToFind) > 0 {
+				<strong>Where to find:</strong>
+				<ul class="pl-8 list-disc">
+					for _, whereToFind := range params.Monster.WhereToFind {
+						<li>{ whereToFind }</li>
+					}
+				</ul>
+			}
+		</p>
+		if len(params.Monster.ItemsDropped) > 0 {
+			<div id="items-dropped" class="py-2">
+				<strong>Items Dropped:</strong>
+				<ul class="pl-8 list-disc">
+					for itemId, dropRate := range params.Monster.ItemsDropped {
+						<li>
+							@links.ThingLink(itemId, params.Getter)
+							<span>&nbsp;{ dropRate }</span>
+						</li>
+					}
+				</ul>
+			</div>
+		}
+		<details id="battle-info">
+			<summary>Battle Info</summary>
+			<div class="pl-8">
+				if params.Monster.BattleInfo.MaxHP > 0 {
+					<strong>Max HP: </strong>{ strconv.Itoa(params.Monster.BattleInfo.MaxHP) }
+					<br/>
+				}
+				if params.Monster.BattleInfo.MaxMP > 0 {
+					<strong>Max MP: </strong>{ strconv.Itoa(params.Monster.BattleInfo.MaxMP) }
+					<br/>
+				}
+				if params.Monster.BattleInfo.Attack > 0 {
+					<strong>Attack: </strong>{ strconv.Itoa(params.Monster.BattleInfo.Attack) }
+					<br/>
+				}
+				if params.Monster.BattleInfo.Defense > 0 {
+					<strong>Defense: </strong>{ strconv.Itoa(params.Monster.BattleInfo.Defense) }
+					<br/>
+				}
+				if params.Monster.BattleInfo.Agility > 0 {
+					<strong>Agility: </strong>{ strconv.Itoa(params.Monster.BattleInfo.Agility) }
+					<br/>
+				}
+				if params.Monster.BattleInfo.EvasionChance > 0 {
+					<strong>Evasion: </strong>{ fmt.Sprintf("%.2f%%",params.Monster.BattleInfo.EvasionChance) }
+					<br/>
+				}
+				if params.Monster.BattleInfo.NumberOfTurns > 0 {
+					<strong>Number of Turns: </strong>{ strconv.Itoa(params.Monster.BattleInfo.NumberOfTurns) }
+					<br/>
+				}
+				if params.Monster.BattleInfo.ElementalAversions != "" {
+					<strong>Elemental Aversions: </strong>{ params.Monster.BattleInfo.ElementalAversions }
+					<br/>
+				}
+				if len(params.Monster.BattleInfo.AilmentAffinities) > 0 {
+					<strong>Ailment Affinities: </strong>
+					<ul class="pl-8 list-disc">
+						for _, affinity := range params.Monster.BattleInfo.AilmentAffinities {
+							<li>
+								{ affinity }
+							</li>
+						}
+					</ul>
+				}
+				if len(params.Monster.BattleInfo.EnragedBy) > 0 {
+					<strong>Enraged By: </strong>
+					<ul class="pl-8 list-disc">
+						for enragedBy, chance := range params.Monster.BattleInfo.EnragedBy {
+							<li>
+								@links.ThingLink(enragedBy, params.Getter)
+								<span>&nbsp;{ fmt.Sprintf("(%d%%)", chance) }</span>
+							</li>
+						}
+					</ul>
+				}
+			</div>
+		</details>
+	</div>
 }
