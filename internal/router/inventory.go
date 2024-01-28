@@ -2,9 +2,9 @@ package router
 
 import (
 	"dqix/internal/types"
+	"dqix/internal/types/params"
 	gin_utils "dqix/pkg/gin"
 	"dqix/pkg/htmx"
-	"dqix/web/templ/components/base"
 	"dqix/web/templ/pages"
 	"net/http"
 	"strings"
@@ -38,14 +38,14 @@ func (a *app) ClassificationHandler(ctx *gin.Context) {
 	pageTitle := "DQIX | " + strings.Title(classification)
 	htmx.SetTitle(ctx, pageTitle)
 	htmx.SetIcon(ctx, "/static/favicon.ico")
-	params := pages.InventoryClassificationParams{
+	params := params.InventoryClassification{
 		Classification:  classification,
 		Inventories:     inventories,
 		Stats:           inventories.GetHasInventoryStats(),
 		DisplayMode:     ctx.Query("display"),
 		SortPathGetter:  types.PrepareSimpleSortPath(*ctx.Request.URL),
 		SortOrderGetter: types.GetSortOrder(ctx.Request.URL),
-		LayoutParams: base.LayoutParams{
+		LayoutParams: params.Layout{
 			PageTitle:  pageTitle,
 			Page:       classification,
 			IsDarkMode: gin_utils.IsDarkMode(ctx),
@@ -87,10 +87,10 @@ func (a *app) InventoryHandler(ctx *gin.Context) {
 	pageTitle := "DQIX | " + inventory.Title
 	htmx.SetTitle(ctx, pageTitle)
 	htmx.SetIcon(ctx, inventory.ImageSrc())
-	params := pages.InventoryParams{
+	params := params.Inventory{
 		Inventory: inventory,
 		Getter:    a.data.GetQuickThing,
-		LayoutParams: base.LayoutParams{
+		LayoutParams: params.Layout{
 			PageTitle:  pageTitle,
 			Page:       inventory.Classification,
 			IsDarkMode: gin_utils.IsDarkMode(ctx),

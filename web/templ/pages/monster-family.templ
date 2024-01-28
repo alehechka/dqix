@@ -4,30 +4,21 @@ import "dqix/web/templ/components/base"
 import "dqix/internal/types"
 import "dqix/web/templ/components/links"
 import "dqix/web/templ/utilities"
+import "dqix/internal/types/params"
 
-type MonsterFamilyParams struct {
-	Family          string
-	FamilyTitle     string
-	Monsters        types.MonsterSlice
-	DisplayMode     string
-	LayoutParams    base.LayoutParams
-	SortPathGetter  func(sortField string) templ.SafeURL
-	SortOrderGetter func(sortField string) string
-}
-
-templ MonsterFamilyPage(params MonsterFamilyParams) {
+templ MonsterFamilyPage(params params.MonsterFamily) {
 	@base.Layout(params.LayoutParams) {
 		@MonsterFamilyContent(params)
 	}
 }
 
-templ MonsterFamilyContentWithSideNav(params MonsterFamilyParams) {
+templ MonsterFamilyContentWithSideNav(params params.MonsterFamily) {
 	@base.MainContentWithSidenav(params.Family) {
 		@MonsterFamilyContent(params)
 	}
 }
 
-templ MonsterFamilyContent(params MonsterFamilyParams) {
+templ MonsterFamilyContent(params params.MonsterFamily) {
 	<h1 class="text-3xl font-bold">{ params.FamilyTitle + " Family" }</h1>
 	@MonsterFamilyList(params.Monsters)
 }

@@ -2,9 +2,9 @@ package router
 
 import (
 	"dqix/internal/types"
+	"dqix/internal/types/params"
 	gin_utils "dqix/pkg/gin"
 	"dqix/pkg/htmx"
-	"dqix/web/templ/components/base"
 	"dqix/web/templ/pages"
 	"net/http"
 
@@ -27,14 +27,14 @@ func (a *app) MonsterFamilyHandler(ctx *gin.Context) {
 	pageTitle := "DQIX | " + types.ToFamilyTitle(familyId) + " Family"
 	htmx.SetTitle(ctx, pageTitle)
 	htmx.SetIcon(ctx, "/static/favicon.ico")
-	params := pages.MonsterFamilyParams{
+	params := params.MonsterFamily{
 		Family:          familyId,
 		FamilyTitle:     types.ToFamilyTitle(familyId),
 		Monsters:        monsters,
 		DisplayMode:     ctx.Query("display"),
 		SortPathGetter:  types.PrepareSimpleSortPath(*ctx.Request.URL),
 		SortOrderGetter: types.GetSortOrder(ctx.Request.URL),
-		LayoutParams: base.LayoutParams{
+		LayoutParams: params.Layout{
 			PageTitle:  pageTitle,
 			Page:       familyId,
 			IsDarkMode: gin_utils.IsDarkMode(ctx),
@@ -68,10 +68,10 @@ func (a *app) MonsterHandler(ctx *gin.Context) {
 	pageTitle := "DQIX | " + monster.Title
 	htmx.SetTitle(ctx, pageTitle)
 	htmx.SetIcon(ctx, "/static/favicon.ico") // htmx.SetIcon(ctx, inventory.ImageSrc())
-	params := pages.MonsterParams{
+	params := params.Monster{
 		Monster: monster,
 		Getter:  a.data.GetQuickThing,
-		LayoutParams: base.LayoutParams{
+		LayoutParams: params.Layout{
 			PageTitle:  pageTitle,
 			Page:       monster.GetFamilyID(),
 			IsDarkMode: gin_utils.IsDarkMode(ctx),

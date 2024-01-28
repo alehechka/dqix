@@ -1,15 +1,9 @@
 package base
 
 import "dqix/web/templ/components/buttons"
+import "dqix/internal/types/params"
 
-type LayoutParams struct {
-	PageTitle  string
-	Page       string
-	IsDarkMode bool
-	CSSVersion string
-}
-
-templ Layout(params LayoutParams) {
+templ Layout(params params.Layout) {
 	<!DOCTYPE html>
 	<html
 		lang="en"
