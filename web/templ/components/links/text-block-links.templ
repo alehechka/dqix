@@ -1,0 +1,67 @@
+package links
+
+import "dqix/internal/types"
+import "regexp"
+
+type iText interface {
+	render() templ.Component
+}
+
+type textBlockLinks []iText
+
+type spanBlock struct {
+	text string
+}
+
+func (s spanBlock) render() templ.Component {
+	return span(s.text)
+}
+
+templ span(text string) {
+	<span>{ text }</span>
+}
+
+type thinkLinkBlock struct {
+	id     string
+	getter types.IGetThingFromID
+}
+
+func (t thinkLinkBlock) render() templ.Component {
+	return ThingLink(t.id, t.getter)
+}
+
+func parseTextBlockLinks(text string, getter types.IGetThingFromID) (blocks textBlockLinks) {
+	rgxp := regexp.MustCompile(`\${[^}]+}`)
+
+	indices := rgxp.FindAllIndex([]byte(text), len(text))
+	if len(indices) == 0 {
+		blocks = append(blocks, spanBlock{text: text})
+		return
+	}
+
+	currentIndex := 0
+	for _, index := range indices {
+		section := text[currentIndex:index[0]]
+		if section != "" {
+			blocks = append(blocks, spanBlock{text: section})
+		}
+
+		thingId := types.TitleToID(text[index[0]+2 : index[1]-1])
+		blocks = append(blocks, thinkLinkBlock{id: thingId, getter: getter})
+
+		currentIndex = index[1]
+	}
+
+	endSection := text[indices[len(indices)-1][1]:]
+	if endSection != "" {
+		blocks = append(blocks, spanBlock{text: endSection})
+	}
+
+	return
+}
+
+templ TextBlockLinks(text string, getter types.IGetThingFromID) {
+	for _, textBlockLink := range parseTextBlockLinks(text, getter) {
+		@textBlockLink.render()
+	}
+}

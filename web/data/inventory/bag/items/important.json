@@ -763,7 +763,7 @@
  },
  "nod-s-tear": {
   "title": "Nod's Tear",
-  "description": "A teardrop shed by noble Nodoph.",
+  "description": "A teardrop shed by noble ${Nodoph}.",
   "statistics": {
    "special": {}
   },
