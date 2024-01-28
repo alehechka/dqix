@@ -8512,7 +8512,7 @@
     "Path": "baramos",
     "Text": [
       "Baramos",
-      "Windproof king and wizard who wastes no time whipping out Kaboom, Kafrizz and all kinds of calamity-inducing conjury.",
+      "Windproof king and wizard who wastes no time whipping out ${Kaboom}, ${Kafrizz} and all kinds of calamity-inducing conjury.",
       "Takes great pleasure in obliterating people while they're busy poking fun at his bizarre appearance.",
       "Exp.:",
       "59600",
@@ -12050,7 +12050,7 @@
     "Text": [
       "022 Brownie",
       "Erratic enemies that can attain an instant state of high tension, only to topple over and go off the boil.",
-      "Bodkin bowyers often take them on camping trips and trick them into tapping in their tent pegs for them.",
+      "${Bodkin bowyer}s often take them on camping trips and trick them into tapping in their tent pegs for them.",
       "Exp.:",
       "56",
       "Gold:",
@@ -38879,7 +38879,7 @@
     "Path": "nod-s-tear",
     "Text": [
       "Nod's Tear",
-      "A teardrop shed by noble Nodoph.",
+      "A teardrop shed by noble ${Nodoph}.",
       "Rarity:",
       "1/5",
       "Classification:",
@@ -38897,13 +38897,15 @@
   "/nodoph": {
     "Path": "nodoph",
     "Text": [
-      "Nodoph",
+      "278 Nodoph",
       "Sleeps atop the tower of Nod. Lost his powers three hundred years ago when he and Celestria went to Gittingham Palace.",
       "Created by the Grand Architect Zenus to destroy mortalkind, but had his hatred for humanity soothed by Serena.",
       "Exp.:",
       "46800",
       "Gold:",
       "5120",
+      "Family:",
+      "??? family",
       "Items dropped:",
       "Dragon scale",
       "Where to find:",

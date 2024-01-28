@@ -61,7 +61,7 @@
   "number": 22,
   "title": "Brownie",
   "description": "Erratic enemies that can attain an instant state of high tension, only to topple over and go off the boil.",
-  "secondaryDescription": "Bodkin bowyers often take them on camping trips and trick them into tapping in their tent pegs for them.",
+  "secondaryDescription": "${Bodkin bowyer}s often take them on camping trips and trick them into tapping in their tent pegs for them.",
   "experience": 56,
   "goldDropped": 40,
   "family": "Humanoid",

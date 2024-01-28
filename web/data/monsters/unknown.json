@@ -1,7 +1,7 @@
 {
  "baramos": {
   "title": "Baramos",
-  "description": "Windproof king and wizard who wastes no time whipping out Kaboom, Kafrizz and all kinds of calamity-inducing conjury.",
+  "description": "Windproof king and wizard who wastes no time whipping out ${Kaboom}, ${Kafrizz} and all kinds of calamity-inducing conjury.",
   "secondaryDescription": "Takes great pleasure in obliterating people while they're busy poking fun at his bizarre appearance.",
   "experience": 59600,
   "goldDropped": 2490,
@@ -142,6 +142,22 @@
   "battleInfo": {
    "elementalAversions": "Wind (1.5x damage)"
   }
+ },
+ "nodoph": {
+  "number": 278,
+  "title": "Nodoph",
+  "description": "Sleeps atop the tower of Nod. Lost his powers three hundred years ago when he and Celestria went to Gittingham Palace.",
+  "secondaryDescription": "Created by the Grand Architect Zenus to destroy mortalkind, but had his hatred for humanity soothed by Serena.",
+  "experience": 46800,
+  "goldDropped": 5120,
+  "family": "unknown",
+  "whereToFind": [
+   "Tower of Nod (During"
+  ],
+  "itemsDropped": {
+   "dragon-scale": "Where to find:"
+  },
+  "battleInfo": {}
  },
  "nokturnus": {
   "title": "Nokturnus",
