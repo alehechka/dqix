@@ -16,7 +16,7 @@ func (a *app) MonsterRoutes(engine *gin.Engine) {
 
 	router.GET("/")
 	router.GET("/:family", a.MonsterFamilyWrapper(MonsterFamilyRenderer))
-	router.GET("/:family/:id", a.MonsterHandler)
+	router.GET("/:family/:id", a.MonsterWrapper(MonsterRenderer))
 }
 
 func (a *app) MonsterFamilyWrapper(handler func(*gin.Context, params.MonsterFamily)) func(*gin.Context) {
@@ -65,24 +65,30 @@ func MonsterFamilyRenderer(ctx *gin.Context, params params.MonsterFamily) {
 	}
 }
 
-func (a *app) MonsterHandler(ctx *gin.Context) {
-	familyId := ctx.Param("family")
-	id := ctx.Param("id")
-	monster := a.data.monsterMap.GetMonster(familyId, id)
+func (a *app) MonsterWrapper(handler func(*gin.Context, params.Monster)) func(*gin.Context) {
+	return func(ctx *gin.Context) {
+		familyId := ctx.Param("family")
+		id := ctx.Param("id")
+		monster := a.data.monsterMap.GetMonster(familyId, id)
 
-	pageTitle := "DQIX | " + monster.Title
-	htmx.SetTitle(ctx, pageTitle)
-	htmx.SetIcon(ctx, "/static/favicon.ico") // htmx.SetIcon(ctx, inventory.ImageSrc())
-	params := params.Monster{
-		Monster: monster,
-		Getter:  a.data.GetQuickThing,
-		LayoutParams: params.Layout{
-			PageTitle:  pageTitle,
-			Page:       monster.GetFamilyID(),
-			IsDarkMode: gin_utils.IsDarkMode(ctx),
-			CSSVersion: a.cssVersion,
-		},
+		params := params.Monster{
+			Monster: monster,
+			Getter:  a.data.GetQuickThing,
+			LayoutParams: params.Layout{
+				PageTitle:  "DQIX | " + monster.Title,
+				Page:       monster.GetFamilyID(),
+				IsDarkMode: gin_utils.IsDarkMode(ctx),
+				CSSVersion: a.cssVersion,
+			},
+		}
+
+		handler(ctx, params)
 	}
+}
+
+func MonsterRenderer(ctx *gin.Context, params params.Monster) {
+	htmx.SetTitle(ctx, params.LayoutParams.PageTitle)
+	htmx.SetIcon(ctx, params.LayoutParams.GetIconPath())
 
 	switch htmx.GetHxSwapTarget(ctx) {
 	case "page-content":
