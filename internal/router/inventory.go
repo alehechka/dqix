@@ -18,40 +18,41 @@ func (a *app) InventoryRoutes(engine *gin.Engine) {
 	router.GET("/")
 	// router.GET("/:type")
 	// router.GET("/:type/:category")
-	router.GET("/:type/:category/:classification", a.ClassificationHandler)
+	router.GET("/:type/:category/:classification", a.InventoryClassificationWrapper(InventoryClassificationRenderer))
 
 	router.GET("/:type/:category/:classification/:id", a.InventoryHandler)
 }
 
-func (a *app) ClassificationHandler(ctx *gin.Context) {
-	typeId := ctx.Param("type")
-	category := ctx.Param("category")
-	classification := ctx.Param("classification")
-	inventories := a.data.inventoryMap.GetClassificationSlice(typeId, category, classification, ctx.Query("sort"))
+func (a *app) InventoryClassificationWrapper(handler func(*gin.Context, params.InventoryClassification)) func(*gin.Context) {
+	return func(ctx *gin.Context) {
+		typeId := ctx.Param("type")
+		category := ctx.Param("category")
+		classification := ctx.Param("classification")
+		inventories := a.data.inventoryMap.GetClassificationSlice(typeId, category, classification, ctx.Query("sort"))
 
-	// TODO add some utility function that checks if the request Accept's JSON (and/or weighted with others)
-	if ctx.GetHeader("Accept") == "application/json" {
-		ctx.JSON(http.StatusOK, inventories)
-		return
-	}
+		pageTitle := "DQIX | " + strings.Title(classification)
+		params := params.InventoryClassification{
+			Classification:  classification,
+			Inventories:     inventories,
+			Stats:           inventories.GetHasInventoryStats(),
+			DisplayMode:     ctx.Query("display"),
+			SortPathGetter:  types.PrepareSimpleSortPath(*ctx.Request.URL),
+			SortOrderGetter: types.GetSortOrder(ctx.Request.URL),
+			LayoutParams: params.Layout{
+				PageTitle:  pageTitle,
+				Page:       classification,
+				IsDarkMode: gin_utils.IsDarkMode(ctx),
+				CSSVersion: a.cssVersion,
+			},
+		}
 
-	pageTitle := "DQIX | " + strings.Title(classification)
-	htmx.SetTitle(ctx, pageTitle)
-	htmx.SetIcon(ctx, "/static/favicon.ico")
-	params := params.InventoryClassification{
-		Classification:  classification,
-		Inventories:     inventories,
-		Stats:           inventories.GetHasInventoryStats(),
-		DisplayMode:     ctx.Query("display"),
-		SortPathGetter:  types.PrepareSimpleSortPath(*ctx.Request.URL),
-		SortOrderGetter: types.GetSortOrder(ctx.Request.URL),
-		LayoutParams: params.Layout{
-			PageTitle:  pageTitle,
-			Page:       classification,
-			IsDarkMode: gin_utils.IsDarkMode(ctx),
-			CSSVersion: a.cssVersion,
-		},
+		handler(ctx, params)
 	}
+}
+
+func InventoryClassificationRenderer(ctx *gin.Context, params params.InventoryClassification) {
+	htmx.SetTitle(ctx, params.LayoutParams.PageTitle)
+	htmx.SetIcon(ctx, params.LayoutParams.GetIconPath())
 
 	switch htmx.GetHxSwapTarget(ctx) {
 	case "inventory-table":
