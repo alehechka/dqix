@@ -13,7 +13,7 @@ templ Layout(params params.Layout) {
 		}
 	>
 		<head>
-			@Meta(params.PageTitle, params.CSSVersion)
+			@Meta(params)
 		</head>
 		<body class="h-full overflow-hidden dark:text-gray-300" hx-ext="title-header,icon-header">
 			@Navbar(params.IsDarkMode)

@@ -2,8 +2,9 @@ package base
 
 import "fmt"
 import "dqix/web/templ/components/htmx"
+import "dqix/internal/types/params"
 
-templ Meta(pageTitle string, cssVersion string) {
+templ Meta(params params.Layout) {
 	<meta charset="UTF-8"/>
 	<meta
 		name="viewport"
@@ -18,9 +19,9 @@ templ Meta(pageTitle string, cssVersion string) {
 	@htmx.TitleHeader()
 	@htmx.IconHeader()
 	@sidenavScriptUtils()
-	<link rel="icon" type="image/x-icon" href="/static/favicon.ico"/>
-	<link rel="stylesheet" href={ fmt.Sprintf("/static/output.%s.css", cssVersion) }/>
+	<link rel="icon" type="image/x-icon" href={ params.GetIconPath() }/>
+	<link rel="stylesheet" href={ fmt.Sprintf("/static/output.%s.css", params.CSSVersion) }/>
 	<title>
-		{ pageTitle }
+		{ params.PageTitle }
 	</title>
 }
