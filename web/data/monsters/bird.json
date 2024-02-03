@@ -1,4 +1,14 @@
 {
+ "70-beakon": {
+  "title": "70 Beakon",
+  "description": "Barbaric birds that attack twice with deadly drumsticks and cry cacophonously to creep out foes and call forth friends.",
+  "experience": 153,
+  "family": "Bird",
+  "whereToFind": [
+   "Lonely Plains"
+  ],
+  "battleInfo": {}
+ },
  "apeckalypse": {
   "number": 128,
   "title": "Apeckalypse",
@@ -10,6 +20,35 @@
    "Snowberia",
    "Snowberian Coast"
   ],
+  "battleInfo": {}
+ },
+ "belisha-beakon": {
+  "number": 193,
+  "title": "Belisha Beakon",
+  "description": "Their whirlwind speed allows them to attack twice per turn, wards off wind spells and makes them masters of",
+  "secondaryDescription": "Swoosh",
+  "experience": 1460,
+  "family": "Bird",
+  "whereToFind": [
+   "Realm of the Mighty"
+  ],
+  "battleInfo": {}
+ },
+ "bird-of-terrordise": {
+  "number": 241,
+  "title": "Bird Of Terrordise",
+  "description": "Brutish birds that bring things to a boil with their burning breath, and drive enemies dotty with Kafuddle.",
+  "secondaryDescription": "Supposedly named after world champion strongman Terry Terrordise, who is said to have discovered them on his travels.",
+  "experience": 5560,
+  "goldDropped": 185,
+  "family": "Bird",
+  "whereToFind": [
+   "Grotto (Fire",
+   "rank 10-12)"
+  ],
+  "itemsDropped": {
+   "fowl-fan": "Flame shield"
+  },
   "battleInfo": {}
  },
  "drackmage": {

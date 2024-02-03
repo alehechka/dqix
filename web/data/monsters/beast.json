@@ -16,6 +16,106 @@
   },
   "battleInfo": {}
  },
+ "badboon": {
+  "number": 50,
+  "title": "Badboon",
+  "description": "Giant apes and lords of the jungle who store up their anger, then attack with full, explosive force.",
+  "experience": 171,
+  "family": "Beast",
+  "whereToFind": [
+   "Newid Isle",
+   "Tower of Trades"
+  ],
+  "battleInfo": {}
+ },
+ "badger-mager": {
+  "number": 40,
+  "title": "Badger Mager",
+  "description": "Badgers who have begun the long journey on the Way of the Badja, but have only learnt one spell so far:",
+  "secondaryDescription": "Woosh",
+  "experience": 105,
+  "family": "Beast",
+  "whereToFind": [
+   "Western Coffinwell"
+  ],
+  "battleInfo": {}
+ },
+ "badja": {
+  "number": 108,
+  "title": "Badja",
+  "description": "Pure-hearted masters of the mighty Way of the Badja, they evade blows with a mysterious mist, and foil magic with",
+  "secondaryDescription": "Fizzle",
+  "experience": 570,
+  "family": "Beast",
+  "whereToFind": [
+   "Djust Desert"
+  ],
+  "battleInfo": {}
+ },
+ "battering-ram": {
+  "number": 115,
+  "title": "Battering Ram",
+  "description": "Their hairy hides are hard to harm with ice. They send enemies to sleep with",
+  "secondaryDescription": "Sweet Breath",
+  "experience": 600,
+  "family": "Beast",
+  "whereToFind": [
+   "Iluugazar Plains",
+   "Mt Ulbaruun"
+  ],
+  "battleInfo": {}
+ },
+ "bewarewolf": {
+  "number": 67,
+  "title": "Bewarewolf",
+  "description": "It's best to bash these baddies quickly, as their tension is turned up a notch every time they take damage.",
+  "experience": 225,
+  "family": "Beast",
+  "whereToFind": [
+   "Slurry Coast",
+   "Dourbridge"
+  ],
+  "battleInfo": {}
+ },
+ "big-badboon": {
+  "number": 82,
+  "title": "Big Badboon",
+  "description": "Swirling whirlwinds of unstoppable power. If they call on a friend, prepare for the end!",
+  "experience": 420,
+  "family": "Beast",
+  "whereToFind": [
+   "Bloomingdale"
+  ],
+  "battleInfo": {}
+ },
+ "blastoad": {
+  "number": 180,
+  "title": "Blastoad",
+  "description": "Heavy toad tanks that pound enemies with poisonous rounds, and whose tongue lashings would make even the toughest tremble.",
+  "experience": 2100,
+  "family": "Beast",
+  "whereToFind": [
+   "Gittingham Palace"
+  ],
+  "battleInfo": {}
+ },
+ "bling-badger": {
+  "number": 251,
+  "title": "Bling Badger",
+  "description": "Grandmasters of the Way of the Badja, these shining paragons bring both brains and brawn to bear in their supreme style.",
+  "secondaryDescription": "Legends tells that when the badjas bow down to their sacred solid-gold statue, the bling badgers will come to save them.",
+  "experience": 5800,
+  "goldDropped": 196,
+  "family": "Beast",
+  "whereToFind": [
+   "Grotto (Water",
+   "rank 10-11)"
+  ],
+  "itemsDropped": {
+   "magic-beast-hide": "Yggdrasil leaf"
+  },
+  "battleInfo": {}
+ },
  "boppin--badger": {
   "number": 23,
   "title": "Boppin' Badger",
@@ -44,6 +144,19 @@
     "whistle": 75
    }
   }
+ },
+ "brainy-badboon": {
+  "number": 117,
+  "title": "Brainy Badboon",
+  "description": "Astute apes that weaken enemies with",
+  "secondaryDescription": "Dazzle",
+  "experience": 800,
+  "family": "Beast",
+  "whereToFind": [
+   "Iluugazar Plains",
+   "Mt Ulzuun"
+  ],
+  "battleInfo": {}
  },
  "equinox": {
   "number": 283,
