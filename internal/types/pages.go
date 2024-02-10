@@ -70,6 +70,7 @@ const (
 	FamilyMaterial  = "material"
 	FamilyPlant     = "plant"
 	FamilySlime     = "slime"
+	FamilyUndead    = "undead"
 	FamilyZombie    = "zombie"
 )
 
@@ -131,6 +132,7 @@ func IsMonster(family string) bool {
 		FamilyMaterial,
 		FamilyPlant,
 		FamilySlime,
+		FamilyUndead,
 		FamilyZombie:
 		return true
 	default:
