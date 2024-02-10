@@ -9,7 +9,11 @@ script toggleSidenav() {
 
 templ SidenavToggleButton() {
 	<div id="sidenav-toggle-wrapper">
-		<button aria-label="Sidenav Toggle" class="block md:hidden hover:bg-gray-200 dark:hover:bg-gray-600 rounded p-1" onclick={ toggleSidenav() }>
+		<button
+			aria-label="Sidenav Toggle"
+			class="block rounded p-1 hover:bg-gray-200 md:hidden dark:hover:bg-gray-600"
+			onclick={ toggleSidenav() }
+		>
 			@icons.Hamburger(icons.WithSize("1.25rem"))
 		</button>
 	</div>

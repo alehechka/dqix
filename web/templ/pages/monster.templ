@@ -27,7 +27,7 @@ templ MonsterContent(params params.Monster) {
 			</h1>
 		</div>
 		<hr/>
-		<p id="description" class="pt-4 pb-2">
+		<p id="description" class="pb-2 pt-4">
 			@links.TextBlockLinks(params.Monster.Description, params.Getter)
 			if params.Monster.SecondaryDescription != "" {
 				<br/>
@@ -49,7 +49,7 @@ templ MonsterContent(params params.Monster) {
 			<br/>
 			if len(params.Monster.WhereToFind) > 0 {
 				<strong>Where to find:</strong>
-				<ul class="pl-8 list-disc">
+				<ul class="list-disc pl-8">
 					for _, whereToFind := range params.Monster.WhereToFind {
 						<li>{ whereToFind }</li>
 					}
@@ -59,7 +59,7 @@ templ MonsterContent(params params.Monster) {
 		if len(params.Monster.ItemsDropped) > 0 {
 			<div id="items-dropped" class="py-2">
 				<strong>Items Dropped:</strong>
-				<ul class="pl-8 list-disc">
+				<ul class="list-disc pl-8">
 					for itemId, dropRate := range params.Monster.ItemsDropped {
 						<li>
 							@links.ThingLink(itemId, params.Getter)
@@ -106,7 +106,7 @@ templ MonsterContent(params params.Monster) {
 				}
 				if len(params.Monster.BattleInfo.AilmentAffinities) > 0 {
 					<strong>Ailment Affinities: </strong>
-					<ul class="pl-8 list-disc">
+					<ul class="list-disc pl-8">
 						for _, affinity := range params.Monster.BattleInfo.AilmentAffinities {
 							<li>
 								{ affinity }
@@ -116,7 +116,7 @@ templ MonsterContent(params params.Monster) {
 				}
 				if len(params.Monster.BattleInfo.EnragedBy) > 0 {
 					<strong>Enraged By: </strong>
-					<ul class="pl-8 list-disc">
+					<ul class="list-disc pl-8">
 						for enragedBy, chance := range params.Monster.BattleInfo.EnragedBy {
 							<li>
 								@links.ThingLink(enragedBy, params.Getter)

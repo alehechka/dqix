@@ -10,10 +10,7 @@ templ SideNav(page string) {
 		hx-boost="true"
 		hx-target="#sidenav-page-wrapper"
 		hx-swap="outerHTML"
-		class="fixed -right-[--sidenav-width] md:right-0 top-16 p-2 overflow-y-auto
-				z-40 h-[calc(100%-var(--navbar-height))] w-[--sidenav-width]
-				bg-gray-50 dark:bg-zinc-900
-				transition-[right] duration-300 aria-expanded:right-0"
+		class="fixed -right-[--sidenav-width] top-16 z-40 h-[calc(100%-var(--navbar-height))] w-[--sidenav-width] overflow-y-auto bg-gray-50 p-2 transition-[right] duration-300 aria-expanded:right-0 md:right-0 dark:bg-zinc-900"
 	>
 		<ul class="flex flex-col gap-1 overflow-x-hidden border-l-[1px] border-gray-300">
 			<li>
@@ -114,14 +111,7 @@ templ sideNavLink(text string, href templ.SafeURL, isActive bool) {
 			if isActive {
 				aria-current="page"
 			}
-			class="flex flex-row items-center gap-2 dark:text-gray-300
-					rounded p-2 text-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600
-					aria-[current='page']:bg-blue-100 aria-[current='page']:bg-opacity-70 
-					aria-[current='page']:text-blue-700 
-					hover:aria-[current='page']:bg-opacity-100
-					dark:aria-[current='page']:bg-gray-700 
-					dark:aria-[current='page']:text-yellow-400 
-					dark:hover:aria-[current='page']:bg-gray-600"
+			class="flex flex-row items-center gap-2 rounded p-2 text-gray-700 hover:bg-gray-200 aria-[current='page']:bg-blue-100 aria-[current='page']:bg-opacity-70 aria-[current='page']:text-blue-700 hover:aria-[current='page']:bg-opacity-100 dark:text-gray-300 dark:hover:bg-gray-600 dark:aria-[current='page']:bg-gray-700 dark:aria-[current='page']:text-yellow-400 dark:hover:aria-[current='page']:bg-gray-600"
 		>
 			<span>{ text }</span>
 		</a>
