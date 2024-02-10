@@ -1,4 +1,16 @@
 {
+ "bud-brother": {
+  "number": 65,
+  "title": "Bud Brother",
+  "description": "They like to bring buddies into battle to beef up the bloodshed, or, if they're feeling inferior, they'll beckon forth a",
+  "secondaryDescription": "badja",
+  "experience": 100,
+  "family": "Plant",
+  "whereToFind": [
+   "Slurry Coast"
+  ],
+  "battleInfo": {}
+ },
  "cruelcumber": {
   "number": 2,
   "title": "Cruelcumber",

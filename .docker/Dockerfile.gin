@@ -1,5 +1,5 @@
 # BASE IMAGES
-FROM golang:1.21 as go-base
+FROM golang:1.22 as go-base
 
 FROM go-base as go-builder
 

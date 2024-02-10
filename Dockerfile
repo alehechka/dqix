@@ -1,5 +1,5 @@
 # BASE IMAGES
-FROM --platform=$BUILDPLATFORM golang:1.21 as go-base
+FROM --platform=$BUILDPLATFORM golang:1.22 as go-base
 FROM --platform=$BUILDPLATFORM node:20.7.0-bullseye as node-base
 
 # BUILD WEB

@@ -16,6 +16,18 @@
   },
   "battleInfo": {}
  },
+ "bad-karmour": {
+  "number": 186,
+  "title": "Bad Karmour",
+  "description": "Steely devils who harm with",
+  "secondaryDescription": "Helm Splitter",
+  "experience": 2280,
+  "family": "Material",
+  "whereToFind": [
+   "Oubliette"
+  ],
+  "battleInfo": {}
+ },
  "bag-o--laughs": {
   "number": 8,
   "title": "Bag o' Laughs",
@@ -44,6 +56,62 @@
     "whistle": 75
    }
   }
+ },
+ "bagma": {
+  "number": 160,
+  "title": "Bagma",
+  "description": "Their HP's not so hot, but these burning bags can turn up the heat with their baking breath, and summon",
+  "secondaryDescription": "live lava",
+  "experience": 840,
+  "family": "Material",
+  "whereToFind": [
+   "Wyrmsmaw",
+   "The Magmaroo"
+  ],
+  "battleInfo": {}
+ },
+ "barriearthenwarrior": {
+  "number": 240,
+  "title": "Barriearthenwarrior",
+  "description": "Hard horsemen who may not say much, but whose actions speak louder than words. They soup up sub-par strength with Oomph.",
+  "secondaryDescription": "Built by ancient sages who sank their spellcraft into sculpting statues strong enough to smash the soldiers of the underworld.",
+  "experience": 5120,
+  "goldDropped": 176,
+  "family": "Material",
+  "whereToFind": [
+   "Grotto (Fire",
+   "rank 9-11)"
+  ],
+  "itemsDropped": {
+   "royal-soil": "Warrior's sword"
+  },
+  "battleInfo": {}
+ },
+ "bomboulder": {
+  "number": 159,
+  "title": "Bomboulder",
+  "description": "They're not fond of fighting, and mostly just sit there smiling, but if any ally expires, they kick in with",
+  "secondaryDescription": "Kerplunk",
+  "experience": 1300,
+  "family": "Material",
+  "whereToFind": [
+   "Khaalag Coast",
+   "Ondor Cliffs"
+  ],
+  "battleInfo": {}
+ },
+ "brrearthenwarrior": {
+  "number": 127,
+  "title": "Brrearthenwarrior",
+  "description": "Nippy knights on a quest to rid the world of evil with",
+  "secondaryDescription": "Chilly Breath",
+  "experience": 800,
+  "family": "Material",
+  "whereToFind": [
+   "Snowberia",
+   "Snowberian Coast"
+  ],
+  "battleInfo": {}
  },
  "ragged-reaper": {
   "number": 20,

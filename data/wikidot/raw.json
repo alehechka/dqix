@@ -6595,7 +6595,7 @@
       "alma-mater",
       "you want to access does not exist.",
       "Create page",
-      "monster"
+      "ability"
     ],
     "Links": {}
   },
@@ -7998,7 +7998,7 @@
   "/axolhotl": {
     "Path": "axolhotl",
     "Text": [
-      "Axolhotl",
+      "093 Axolhotl",
       "Nihilistic, flame-retardant desert warriors that use",
       "Flame Slash",
       "and",
@@ -8008,6 +8008,8 @@
       "360",
       "Gold Carried:",
       "104",
+      "Family:",
+      "Aquatic Family",
       "Items Dropped:",
       "Iron helmet",
       "Cautery sword",
@@ -8119,7 +8121,7 @@
   "/bad-karmour": {
     "Path": "bad-karmour",
     "Text": [
-      "Bad Karmour",
+      "186 Bad Karmour",
       "Steely devils who harm with",
       "Helm Splitter",
       "and",
@@ -8131,6 +8133,8 @@
       "2280",
       "Gold Carried:",
       "132",
+      "Family:",
+      "Material Family",
       "Items Dropped:",
       "Iron ore",
       "Hades helm",
@@ -8149,12 +8153,14 @@
   "/badboon": {
     "Path": "badboon",
     "Text": [
-      "Badboon",
+      "050 Badboon",
       "Giant apes and lords of the jungle who store up their anger, then attack with full, explosive force.",
       "Exp.:",
       "171",
       "Gold Carried:",
       "69",
+      "Family:",
+      "Beast Family",
       "Items Dropped:",
       "Magic beast hide",
       "Strong medicine",
@@ -8170,7 +8176,7 @@
   "/badger-mager": {
     "Path": "badger-mager",
     "Text": [
-      "Badger Mager",
+      "040 Badger Mager",
       "Badgers who have begun the long journey on the Way of the Badja, but have only learnt one spell so far:",
       "Woosh",
       ".",
@@ -8178,6 +8184,8 @@
       "105",
       "Gold Carried:",
       "60",
+      "Family:",
+      "Beast Family",
       "Items Dropped:",
       "Moonwort bulb",
       "Magic beast hide",
@@ -8194,7 +8202,7 @@
   "/badja": {
     "Path": "badja",
     "Text": [
-      "Badja",
+      "108 Badja",
       "Pure-hearted masters of the mighty Way of the Badja, they evade blows with a mysterious mist, and foil magic with",
       "Fizzle",
       ".",
@@ -8202,6 +8210,8 @@
       "570",
       "Gold Carried:",
       "144",
+      "Family:",
+      "Beast Family",
       "Items Dropped:",
       "Magic beast hide",
       "Special medicine",
@@ -8298,7 +8308,7 @@
   "/bagma": {
     "Path": "bagma",
     "Text": [
-      "Bagma",
+      "160 Bagma",
       "Their HP's not so hot, but these burning bags can turn up the heat with their baking breath, and summon",
       "live lava",
       "s too.",
@@ -8306,6 +8316,8 @@
       "840",
       "Gold Carried:",
       "102",
+      "Family:",
+      "Material Family",
       "Items Dropped:",
       "Lava lump",
       "Softwort",
@@ -8511,7 +8523,7 @@
   "/baramos": {
     "Path": "baramos",
     "Text": [
-      "Baramos",
+      "297 Baramos",
       "Windproof king and wizard who wastes no time whipping out ${Kaboom}, ${Kafrizz} and all kinds of calamity-inducing conjury.",
       "Takes great pleasure in obliterating people while they're busy poking fun at his bizarre appearance.",
       "Exp.:",
@@ -8600,10 +8612,12 @@
   "/barbarus": {
     "Path": "barbarus",
     "Text": [
-      "Barbarus",
+      "275 Barbarus",
       "Greygnarl's nefarious nemesis. He was defeated long ago, but the Empire brought him back to wreak havoc once more.",
       "Exp.:",
       "32500",
+      "Family:",
+      "Dragon Family",
       "Items Dropped:",
       "Yggdrasil leaf",
       "Where to find:",
@@ -8617,7 +8631,7 @@
   "/barbatos": {
     "Path": "barbatos",
     "Text": [
-      "Barbatos",
+      "201 Barbatos",
       "Beasts whose burning rage causes them to spit flames and cast",
       "Kaboom",
       ". Protected against pyrotechnical techniques.",
@@ -8625,6 +8639,8 @@
       "3400",
       "Gold Carried:",
       "187",
+      "Family:",
+      "Demon Family",
       "Items Dropped:",
       "Terrible tattoo",
       "Raging bull helm",
@@ -8668,13 +8684,15 @@
   "/barriearthenwarrior": {
     "Path": "barriearthenwarrior",
     "Text": [
-      "Barriearthenwarrior",
+      "240 Barriearthenwarrior",
       "Hard horsemen who may not say much, but whose actions speak louder than words. They soup up sub-par strength with Oomph.",
       "Built by ancient sages who sank their spellcraft into sculpting statues strong enough to smash the soldiers of the underworld.",
       "Exp.:",
       "5120",
       "Gold:",
       "176",
+      "Family:",
+      "Material Family",
       "Items dropped:",
       "Royal soil",
       "Warrior's sword",
@@ -8977,7 +8995,7 @@
   "/battering-ram": {
     "Path": "battering-ram",
     "Text": [
-      "Battering Ram",
+      "115 Battering Ram",
       "Their hairy hides are hard to harm with ice. They send enemies to sleep with",
       "Sweet Breath",
       ", build tension and then batter them.",
@@ -8985,6 +9003,8 @@
       "600",
       "Gold Carried:",
       "108",
+      "Family:",
+      "Beast Family",
       "Items Dropped:",
       "Lambswool",
       "Magic beast hide",
@@ -9155,12 +9175,14 @@
   "/beakon": {
     "Path": "beakon",
     "Text": [
-      "Beakon",
+      "070 Beakon",
       "Barbaric birds that attack twice with deadly drumsticks and cry cacophonously to creep out foes and call forth friends.",
       "Exp.:",
       "153",
       "Gold Carried:",
       "78",
+      "Family:",
+      "Bird Family",
       "Items Dropped:",
       "Chimaera wing",
       "Clogs",
@@ -9367,7 +9389,7 @@
   "/belisha-beakon": {
     "Path": "belisha-beakon",
     "Text": [
-      "Belisha Beakon",
+      "193 Belisha Beakon",
       "Their whirlwind speed allows them to attack twice per turn, wards off wind spells and makes them masters of",
       "Swoosh",
       ".",
@@ -9375,6 +9397,8 @@
       "1460",
       "Gold Carried:",
       "104",
+      "Family:",
+      "Bird Family",
       "Items Dropped:",
       "Crimson coral",
       "Red tights",
@@ -9583,12 +9607,14 @@
   "/bewarewolf": {
     "Path": "bewarewolf",
     "Text": [
-      "Bewarewolf",
+      "067 Bewarewolf",
       "It's best to bash these baddies quickly, as their tension is turned up a notch every time they take damage.",
       "Exp.:",
       "225",
       "Gold Carried:",
       "98",
+      "Family:",
+      "Beast Family",
       "Items Dropped:",
       "Magic beast hide",
       "Iron claws",
@@ -9692,12 +9718,14 @@
   "/big-badboon": {
     "Path": "big-badboon",
     "Text": [
-      "Big Badboon",
+      "082 Big Badboon",
       "Swirling whirlwinds of unstoppable power. If they call on a friend, prepare for the end!",
       "Exp.:",
       "420",
       "Gold Carried:",
       "96",
+      "Family:",
+      "Beast Family",
       "Items Dropped:",
       "Magic beast hide",
       "Strength ring",
@@ -9841,13 +9869,15 @@
   "/bird-of-terrordise": {
     "Path": "bird-of-terrordise",
     "Text": [
-      "Bird Of Terrordise",
+      "241 Bird Of Terrordise",
       "Brutish birds that bring things to a boil with their burning breath, and drive enemies dotty with Kafuddle.",
       "Supposedly named after world champion strongman Terry Terrordise, who is said to have discovered them on his travels.",
       "Exp.:",
       "5560",
       "Gold:",
       "185",
+      "Family:",
+      "Bird Family",
       "Items dropped:",
       "Fowl fan",
       "Flame shield",
@@ -9995,12 +10025,14 @@
   "/blastoad": {
     "Path": "blastoad",
     "Text": [
-      "Blastoad",
+      "180 Blastoad",
       "Heavy toad tanks that pound enemies with poisonous rounds, and whose tongue lashings would make even the toughest tremble.",
       "Exp.:",
       "2100",
       "Gold Carried:",
       "156",
+      "Family:",
+      "Beast Family",
       "Items Dropped:",
       "Toad oil",
       "Panacea",
@@ -10152,13 +10184,15 @@
   "/blight-knight": {
     "Path": "blight-knight",
     "Text": [
-      "Blight Knight",
+      "237 Blight Knight",
       "These demonic masters of battle know no fear, and calmly await attacks, then counter them with catastrophic quickness.",
       "They burgle the bones from brawny enemies they've beaten to beef up their bodies and get better at battle.",
       "Exp.:",
       "7000",
       "Gold:",
       "192",
+      "Family:",
+      "Undead Family",
       "Items dropped:",
       "Skull helm",
       "Veteran's helm",
@@ -10235,13 +10269,15 @@
   "/bling-badger": {
     "Path": "bling-badger",
     "Text": [
-      "Bling Badger",
+      "251 Bling Badger",
       "Grandmasters of the Way of the Badja, these shining paragons bring both brains and brawn to bear in their supreme style.",
       "Legends tells that when the badjas bow down to their sacred solid-gold statue, the bling badgers will come to save them.",
       "Exp.:",
       "5800",
       "Gold:",
       "196",
+      "Family:",
+      "Beast Family",
       "Items dropped:",
       "Magic beast hide",
       "Yggdrasil leaf",
@@ -10257,12 +10293,14 @@
   "/blinkster": {
     "Path": "blinkster",
     "Text": [
-      "Blinkster",
+      "030 Blinkster",
       "Wait for these witless wizards to waste their MP on snowy spells, then whack them back!",
       "Exp.:",
       "64",
       "Gold Carried:",
       "40",
+      "Family:",
+      "Demon Family",
       "Items Dropped:",
       "Leather shoes",
       "Wizard's staff",
@@ -10303,19 +10341,21 @@
       "Attacks while still protecting the body with a shield.",
       "MP Cost:",
       "4",
-      "monster"
+      "ability"
     ],
     "Links": {}
   },
   "/blood-mummy": {
     "Path": "blood-mummy",
     "Text": [
-      "Blood Mummy",
+      "146 Blood Mummy",
       "Set these blood-stained mummies on fire before they trash team members' tension with their spite-filled strikes.",
       "Exp.:",
       "1200",
       "Gold Carried:",
       "108",
+      "Family:",
+      "Undead Family",
       "Items Dropped:",
       "Grubby bandage",
       "Malicite",
@@ -10331,7 +10371,7 @@
   "/bloody-manguini": {
     "Path": "bloody-manguini",
     "Text": [
-      "Bloody Manguini",
+      "145 Bloody Manguini",
       "Freaky beasts who drain adventurers of their blood and MP, and sometimes flip them out with",
       "Fuddle Dance",
       ".",
@@ -10339,6 +10379,8 @@
       "1000",
       "Gold Carried:",
       "148",
+      "Family:",
+      "Demon Family",
       "Items Dropped:",
       "Wing of bat",
       "Terrible tattoo",
@@ -10744,13 +10786,15 @@
   "/boa-bishop": {
     "Path": "boa-bishop",
     "Text": [
-      "Boa Bishop",
+      "223 Boa Bishop",
       "Masterly mages of the reptile kingdom. They attack twice, and can bring buddies back from the brink with Omniheal.",
       "Their mesmerising eyes, which sap the will of those they stare at and send them to sleep, still shine even in death.",
       "Exp.:",
       "4400",
       "Gold:",
       "168",
+      "Family:",
+      "Demon Family",
       "Items dropped:",
       "Wizard's hat",
       "Wizard's robe",
@@ -10835,12 +10879,14 @@
   "/bodkin-bowyer": {
     "Path": "bodkin-bowyer",
     "Text": [
-      "Bodkin Bowyer",
+      "047 Bodkin Bowyer",
       "These expert archers specialise in troubling travellers with hails of well-aimed arrows.",
       "Exp.:",
       "112",
       "Gold Carried:",
       "62",
+      "Family:",
+      "Humanoid Family",
       "Items Dropped:",
       "Leather hat",
       "Leather cape",
@@ -10955,7 +11001,7 @@
   "/bomboulder": {
     "Path": "bomboulder",
     "Text": [
-      "Bomboulder",
+      "159 Bomboulder",
       "They're not fond of fighting, and mostly just sit there smiling, but if any ally expires, they kick in with",
       "Kerplunk",
       "to bring them back.",
@@ -10963,6 +11009,8 @@
       "1300",
       "Gold Carried:",
       "144",
+      "Family:",
+      "Material Family",
       "Items Dropped:",
       "Rockbomb shard",
       "Yggdrasil dew",
@@ -11017,13 +11065,15 @@
   "/boogie-manguini": {
     "Path": "boogie-manguini",
     "Text": [
-      "Boogie Manguini",
+      "249 Boogie Manguini",
       "Dancing yellow devils who know every step there is — not just the support steps, but tension-building tactical ones too.",
       "The young ones are nicknamed 'yellow-bellies', but they're not too pleased to have this pointed out by their beastly brethren.",
       "Exp.:",
       "5230",
       "Gold:",
       "149",
+      "Family:",
+      "Demon Family",
       "Items dropped:",
       "Wing of bat",
       "Lunaria",
@@ -11363,12 +11413,14 @@
   "/boss-troll": {
     "Path": "boss-troll",
     "Text": [
-      "Boss Troll",
+      "179 Boss Troll",
       "Super-sized swingers who can smack foes into next week with one whack of their colossal clubs.",
       "Exp.:",
       "2400",
       "Gold Carried:",
       "98",
+      "Family:",
+      "Demon Family",
       "Items Dropped:",
       "Oaken club",
       "Boomer briefs",
@@ -11617,7 +11669,7 @@
   "/brainy-badboon": {
     "Path": "brainy-badboon",
     "Text": [
-      "Brainy Badboon",
+      "117 Brainy Badboon",
       "Astute apes that weaken enemies with",
       "Dazzle",
       "and",
@@ -11629,6 +11681,8 @@
       "800",
       "Gold Carried:",
       "108",
+      "Family:",
+      "Beast Family",
       "Items Dropped:",
       "Magic beast hide",
       "Raging ruby",
@@ -12115,7 +12169,7 @@
   "/brrearthenwarrior": {
     "Path": "brrearthenwarrior",
     "Text": [
-      "Brrearthenwarrior",
+      "127 Brrearthenwarrior",
       "Nippy knights on a quest to rid the world of evil with",
       "Chilly Breath",
       "and",
@@ -12125,6 +12179,8 @@
       "800",
       "Gold Carried:",
       "149",
+      "Family:",
+      "Material Family",
       "Items Dropped:",
       "Ice crystal",
       "Ice shield",
@@ -12234,7 +12290,7 @@
   "/bud-brother": {
     "Path": "bud-brother",
     "Text": [
-      "Bud Brother",
+      "065 Bud Brother",
       "They like to bring buddies into battle to beef up the bloodshed, or, if they're feeling inferior, they'll beckon forth a",
       "badja",
       ".",
@@ -12242,6 +12298,8 @@
       "100",
       "Gold Carried:",
       "62",
+      "Family:",
+      "Plant Family",
       "Items Dropped:",
       "Superior medicine",
       "Softwort",

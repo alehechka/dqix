@@ -16,6 +16,19 @@
   },
   "battleInfo": {}
  },
+ "axolhotl": {
+  "number": 93,
+  "title": "Axolhotl",
+  "description": "Nihilistic, flame-retardant desert warriors that use",
+  "secondaryDescription": "Flame Slash",
+  "experience": 360,
+  "family": "Aquatic",
+  "whereToFind": [
+   "Bloomingdale",
+   "Djust Desert"
+  ],
+  "battleInfo": {}
+ },
  "wooper-trooper": {
   "number": 17,
   "title": "Wooper Trooper",

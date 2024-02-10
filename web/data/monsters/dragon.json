@@ -1,4 +1,15 @@
 {
+ "barbarus": {
+  "number": 275,
+  "title": "Barbarus",
+  "description": "Greygnarl's nefarious nemesis. He was defeated long ago, but the Empire brought him back to wreak havoc once more.",
+  "experience": 32500,
+  "family": "Dragon",
+  "whereToFind": [
+   "Realm of the Mighty"
+  ],
+  "battleInfo": {}
+ },
  "elusid": {
   "number": 287,
   "title": "Elusid",

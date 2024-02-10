@@ -1,0 +1,31 @@
+{
+ "blight-knight": {
+  "number": 237,
+  "title": "Blight Knight",
+  "description": "These demonic masters of battle know no fear, and calmly await attacks, then counter them with catastrophic quickness.",
+  "secondaryDescription": "They burgle the bones from brawny enemies they've beaten to beef up their bodies and get better at battle.",
+  "experience": 7000,
+  "goldDropped": 192,
+  "family": "Undead",
+  "whereToFind": [
+   "Grotto (Ice",
+   "rank 12)"
+  ],
+  "itemsDropped": {
+   "skull-helm": "Veteran's helm"
+  },
+  "battleInfo": {}
+ },
+ "blood-mummy": {
+  "number": 146,
+  "title": "Blood Mummy",
+  "description": "Set these blood-stained mummies on fire before they trash team members' tension with their spite-filled strikes.",
+  "experience": 1200,
+  "family": "Undead",
+  "whereToFind": [
+   "Khaalag Coast",
+   "Ondor Cliffs"
+  ],
+  "battleInfo": {}
+ }
+}

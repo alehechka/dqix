@@ -1,4 +1,15 @@
 {
+ "30-blinkster": {
+  "title": "30 Blinkster",
+  "description": "Wait for these witless wizards to waste their MP on snowy spells, then whack them back!",
+  "experience": 64,
+  "family": "Demon",
+  "whereToFind": [
+   "Brigadoom",
+   "Eastern Coffinwell"
+  ],
+  "battleInfo": {}
+ },
  "aggrosculpture": {
   "number": 184,
   "title": "Aggrosculpture",
@@ -35,6 +46,78 @@
   "battleInfo": {
    "elementalAversions": "Light (2x damage)"
   }
+ },
+ "barbatos": {
+  "number": 201,
+  "title": "Barbatos",
+  "description": "Beasts whose burning rage causes them to spit flames and cast",
+  "secondaryDescription": "Kaboom",
+  "experience": 3400,
+  "family": "Demon",
+  "whereToFind": [
+   "Realm of the Mighty"
+  ],
+  "battleInfo": {}
+ },
+ "bloody-manguini": {
+  "number": 145,
+  "title": "Bloody Manguini",
+  "description": "Freaky beasts who drain adventurers of their blood and MP, and sometimes flip them out with",
+  "secondaryDescription": "Fuddle Dance",
+  "experience": 1000,
+  "family": "Demon",
+  "whereToFind": [
+   "Western Wormwood",
+   "The Bowhole"
+  ],
+  "battleInfo": {}
+ },
+ "boa-bishop": {
+  "number": 223,
+  "title": "Boa Bishop",
+  "description": "Masterly mages of the reptile kingdom. They attack twice, and can bring buddies back from the brink with Omniheal.",
+  "secondaryDescription": "Their mesmerising eyes, which sap the will of those they stare at and send them to sleep, still shine even in death.",
+  "experience": 4400,
+  "goldDropped": 168,
+  "family": "Demon",
+  "whereToFind": [
+   "Grotto (Ruins",
+   "rank 10-12)"
+  ],
+  "itemsDropped": {
+   "wizard-s-hat": "Wizard's robe"
+  },
+  "battleInfo": {}
+ },
+ "boogie-manguini": {
+  "number": 249,
+  "title": "Boogie Manguini",
+  "description": "Dancing yellow devils who know every step there is — not just the support steps, but tension-building tactical ones too.",
+  "secondaryDescription": "The young ones are nicknamed 'yellow-bellies', but they're not too pleased to have this pointed out by their beastly brethren.",
+  "experience": 5230,
+  "goldDropped": 149,
+  "family": "Demon",
+  "whereToFind": [
+   "Grotto (Ice",
+   "rank 12; Water",
+   "rank 9-11)"
+  ],
+  "itemsDropped": {
+   "wing-of-bat": "Lunaria"
+  },
+  "battleInfo": {}
+ },
+ "boss-troll": {
+  "number": 179,
+  "title": "Boss Troll",
+  "description": "Super-sized swingers who can smack foes into next week with one whack of their colossal clubs.",
+  "experience": 2400,
+  "family": "Demon",
+  "whereToFind": [
+   "Gittingham Palace",
+   "Oubliette"
+  ],
+  "battleInfo": {}
  },
  "teeny-sanguini": {
   "number": 3,

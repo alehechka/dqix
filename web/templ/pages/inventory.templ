@@ -30,7 +30,7 @@ templ InventoryContent(params params.Inventory) {
 			</h1>
 		</div>
 		<hr/>
-		<p id="description" class="pt-4 pb-2">
+		<p id="description" class="pb-2 pt-4">
 			@links.TextBlockLinks(params.Inventory.Description, params.Getter)
 		</p>
 		if params.Inventory.Statistics != (types.Statistics{}) {
@@ -113,7 +113,7 @@ templ InventoryContent(params params.Inventory) {
 		if len(params.Inventory.LocationsFound) > 0 {
 			<div id="locations-found" class="py-2">
 				<strong>Where to find:</strong>
-				<ul class="pl-8 list-disc">
+				<ul class="list-disc pl-8">
 					for _, location := range params.Inventory.LocationsFound {
 						<li>
 							{ location }
@@ -125,7 +125,7 @@ templ InventoryContent(params params.Inventory) {
 		if len(params.Inventory.DroppedBy) > 0 {
 			<div id="dropped-by" class="py-2">
 				<strong>Dropped by:</strong>
-				<ul class="pl-8 list-disc">
+				<ul class="list-disc pl-8">
 					for monster, dropRate := range params.Inventory.DroppedBy {
 						<li>
 							@links.ThingLink(monster, params.Getter)
@@ -152,7 +152,7 @@ templ InventoryContent(params params.Inventory) {
 		if len(params.Inventory.IngredientFor) > 0 {
 			<div id="alchemises" class="py-2">
 				<strong>Alchemises:</strong>
-				<ul class="pl-8 list-disc">
+				<ul class="list-disc pl-8">
 					for _, id := range params.Inventory.IngredientFor {
 						<li>
 							@links.ThingLink(id, params.Getter)
@@ -164,7 +164,7 @@ templ InventoryContent(params params.Inventory) {
 		if len(params.Inventory.RequiredFor) > 0 {
 			<div id="required-for" class="py-2">
 				<strong>Required for:</strong>
-				<ul class="pl-8 list-disc">
+				<ul class="list-disc pl-8">
 					for _, id := range params.Inventory.RequiredFor {
 						<li>
 							@links.ThingLink(id, params.Getter)
@@ -176,7 +176,7 @@ templ InventoryContent(params params.Inventory) {
 		if len(params.Inventory.CanBeUsedFor) > 0 {
 			<div id="can-be-used-for" class="py-2">
 				<strong>Can be used for:</strong>
-				<ul class="pl-8 list-disc">
+				<ul class="list-disc pl-8">
 					for _, id := range params.Inventory.CanBeUsedFor {
 						<li>
 							@links.ThingLink(id, params.Getter)

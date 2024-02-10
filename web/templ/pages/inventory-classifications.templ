@@ -212,9 +212,7 @@ templ sortableColumnHeader(params params.InventoryClassification, id string, lab
 templ SortableColumnHeaderLink(params params.InventoryClassification, id string, label string) {
 	<a
 		href={ params.SortPathGetter(id) }
-		class="after:hidden group-aria-[sort=descending]:after:inline group-aria-[sort=ascending]:after:inline 
-				after:content-[url(/static/icons/chevron-down.svg)] dark:after:content-[url(/static/icons/chevron-down[dark].svg)]
-				after:absolute group-aria-[sort=descending]:after:rotate-180 after:top-[33%]"
+		class="after:absolute after:top-[33%] after:hidden after:content-[url(/static/icons/chevron-down.svg)] group-aria-[sort=ascending]:after:inline group-aria-[sort=descending]:after:inline group-aria-[sort=descending]:after:rotate-180 dark:after:content-[url(/static/icons/chevron-down[dark].svg)]"
 	>
 		{ label }
 	</a>

@@ -9,16 +9,16 @@ type iText interface {
 
 type textBlockLinks []iText
 
-type spanBlock struct {
+type textBlock struct {
 	text string
 }
 
-func (s spanBlock) render() templ.Component {
-	return span(s.text)
+func (s textBlock) render() templ.Component {
+	return text(s.text)
 }
 
-templ span(text string) {
-	<span>{ text }</span>
+templ text(text string) {
+	{ text }
 }
 
 type thinkLinkBlock struct {
@@ -35,7 +35,7 @@ func parseTextBlockLinks(text string, getter types.IGetThingFromID) (blocks text
 
 	indices := rgxp.FindAllIndex([]byte(text), len(text))
 	if len(indices) == 0 {
-		blocks = append(blocks, spanBlock{text: text})
+		blocks = append(blocks, textBlock{text: text})
 		return
 	}
 
@@ -43,7 +43,7 @@ func parseTextBlockLinks(text string, getter types.IGetThingFromID) (blocks text
 	for _, index := range indices {
 		section := text[currentIndex:index[0]]
 		if section != "" {
-			blocks = append(blocks, spanBlock{text: section})
+			blocks = append(blocks, textBlock{text: section})
 		}
 
 		thingId := types.TitleToID(text[index[0]+2 : index[1]-1])
@@ -54,7 +54,7 @@ func parseTextBlockLinks(text string, getter types.IGetThingFromID) (blocks text
 
 	endSection := text[indices[len(indices)-1][1]:]
 	if endSection != "" {
-		blocks = append(blocks, spanBlock{text: endSection})
+		blocks = append(blocks, textBlock{text: endSection})
 	}
 
 	return

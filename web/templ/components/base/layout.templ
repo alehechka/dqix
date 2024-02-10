@@ -36,12 +36,7 @@ templ MainContentWithSidenav(page string) {
 templ MainContent() {
 	<main
 		id="page-wrapper"
-		class="mt-[--navbar-height] 
-				h-[calc(100%-var(--navbar-height))] 
-				overflow-auto bg-gray-50 
-				transition-[margin-right] duration-300
-				md:mr-[--sidenav-width]
-				dark:bg-zinc-900"
+		class="mt-[--navbar-height] h-[calc(100%-var(--navbar-height))] overflow-auto bg-gray-50 transition-[margin-right] duration-300 md:mr-[--sidenav-width] dark:bg-zinc-900"
 	>
 		@ContentWrapper() {
 			{ children... }
@@ -57,16 +52,12 @@ templ ContentWrapper() {
 
 templ Navbar(isDarkMode bool) {
 	<header
-		class="fixed top-0 z-50 
-				h-[--navbar-height] w-full 
-				flex flex-row items-center justify-between
-				border-b-[1px] border-gray-300 dark:border-none
-				bg-white dark:bg-zinc-800"
+		class="fixed top-0 z-50 flex h-[--navbar-height] w-full flex-row items-center justify-between border-b-[1px] border-gray-300 bg-white dark:border-none dark:bg-zinc-800"
 	>
 		<a href="/">
 			<img src="/static/dqix_logo.webp" alt="Dragon Quest IX" class="h-[calc(var(--navbar-height)-0.5rem)]"/>
 		</a>
-		<div class="flex flex-row gap-2 mr-4 items-center">
+		<div class="mr-4 flex flex-row items-center gap-2">
 			@buttons.ThemeToggleButton(isDarkMode)
 			@buttons.SidenavToggleButton()
 		</div>
