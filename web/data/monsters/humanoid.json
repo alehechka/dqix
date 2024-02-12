@@ -1,14 +1,4 @@
 {
- "47-bodkin-bowyer": {
-  "title": "47 Bodkin Bowyer",
-  "description": "These expert archers specialise in troubling travellers with hails of well-aimed arrows.",
-  "experience": 112,
-  "family": "Humanoid",
-  "whereToFind": [
-   "Newid Isle"
-  ],
-  "battleInfo": {}
- },
  "bodkin-archer": {
   "number": 7,
   "title": "Bodkin Archer",
@@ -37,6 +27,17 @@
     "whistle": 75
    }
   }
+ },
+ "bodkin-bowyer": {
+  "number": 47,
+  "title": "Bodkin Bowyer",
+  "description": "These expert archers specialise in troubling travellers with hails of well-aimed arrows.",
+  "experience": 112,
+  "family": "Humanoid",
+  "whereToFind": [
+   "Newid Isle"
+  ],
+  "battleInfo": {}
  },
  "bodkin-fletcher": {
   "number": 25,

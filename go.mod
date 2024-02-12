@@ -6,6 +6,7 @@ require (
 	github.com/a-h/templ v0.2.543
 	github.com/gin-contrib/gzip v0.0.6
 	github.com/gin-gonic/gin v1.9.1
+	github.com/mattn/go-sqlite3 v1.14.22
 	github.com/urfave/cli/v2 v2.27.1
 	golang.org/x/net v0.20.0
 )

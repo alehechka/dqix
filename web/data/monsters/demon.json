@@ -1,15 +1,4 @@
 {
- "30-blinkster": {
-  "title": "30 Blinkster",
-  "description": "Wait for these witless wizards to waste their MP on snowy spells, then whack them back!",
-  "experience": 64,
-  "family": "Demon",
-  "whereToFind": [
-   "Brigadoom",
-   "Eastern Coffinwell"
-  ],
-  "battleInfo": {}
- },
  "aggrosculpture": {
   "number": 184,
   "title": "Aggrosculpture",
@@ -56,6 +45,18 @@
   "family": "Demon",
   "whereToFind": [
    "Realm of the Mighty"
+  ],
+  "battleInfo": {}
+ },
+ "blinkster": {
+  "number": 30,
+  "title": "Blinkster",
+  "description": "Wait for these witless wizards to waste their MP on snowy spells, then whack them back!",
+  "experience": 64,
+  "family": "Demon",
+  "whereToFind": [
+   "Brigadoom",
+   "Eastern Coffinwell"
   ],
   "battleInfo": {}
  },

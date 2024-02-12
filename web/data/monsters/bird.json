@@ -1,14 +1,4 @@
 {
- "70-beakon": {
-  "title": "70 Beakon",
-  "description": "Barbaric birds that attack twice with deadly drumsticks and cry cacophonously to creep out foes and call forth friends.",
-  "experience": 153,
-  "family": "Bird",
-  "whereToFind": [
-   "Lonely Plains"
-  ],
-  "battleInfo": {}
- },
  "apeckalypse": {
   "number": 128,
   "title": "Apeckalypse",
@@ -19,6 +9,17 @@
   "whereToFind": [
    "Snowberia",
    "Snowberian Coast"
+  ],
+  "battleInfo": {}
+ },
+ "beakon": {
+  "number": 70,
+  "title": "Beakon",
+  "description": "Barbaric birds that attack twice with deadly drumsticks and cry cacophonously to creep out foes and call forth friends.",
+  "experience": 153,
+  "family": "Bird",
+  "whereToFind": [
+   "Lonely Plains"
   ],
   "battleInfo": {}
  },

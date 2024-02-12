@@ -11,4 +11,4 @@ css:
 	npm run watch:css
 
 parse:
-	go run main.go parse wikidot
+	CGO_ENABLED=1 go run main.go parse wikidot
