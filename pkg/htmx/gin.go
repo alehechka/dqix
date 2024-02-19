@@ -5,53 +5,55 @@ import (
 	"path"
 	"strings"
 
+	htmx_go "github.com/alehechka/htmx-go"
+	htmx_ext "github.com/alehechka/htmx-go/ext"
 	"github.com/gin-gonic/gin"
 )
 
 func IsHxRequest(ctx *gin.Context) bool {
-	return ctx.GetHeader(RequestHeaderRequest) == "true"
+	return ctx.GetHeader(htmx_go.HxRequest) == "true"
 }
 
 func IsHxBoosted(ctx *gin.Context) bool {
-	return ctx.GetHeader(RequestHeaderBoosted) == "true"
+	return ctx.GetHeader(htmx_go.HxBoosted) == "true"
 }
 
 func GetHxSwapTarget(ctx *gin.Context) string {
-	return ctx.GetHeader(RequestHeaderTarget)
+	return ctx.GetHeader(htmx_go.HxTarget)
 }
 
 func TryGetHxSwapTarget(ctx *gin.Context) (target string, hasTarget bool) {
-	target = ctx.GetHeader(RequestHeaderTarget)
+	target = ctx.GetHeader(htmx_go.HxTarget)
 
 	return target, target != ""
 }
 
 func HasHxSwapTarget(ctx *gin.Context, expected string) bool {
-	return ctx.GetHeader(RequestHeaderTarget) == expected
+	return ctx.GetHeader(htmx_go.HxTarget) == expected
 }
 
 func PushUrl(ctx *gin.Context, redirect string) {
-	ctx.Header(ResponseHeaderPushUrl, redirect)
+	ctx.Header(htmx_go.HxPushUrl, redirect)
 }
 
 func ReplaceUrl(ctx *gin.Context, replace string) {
-	ctx.Header(ResponseHeaderReplaceUrl, replace)
+	ctx.Header(htmx_go.HxReplaceUrl, replace)
 }
 
 func Retarget(ctx *gin.Context, target string) {
-	ctx.Header(ResponseHeaderRetarget, target)
+	ctx.Header(htmx_go.HxRetarget, target)
 }
 
 func Reswap(ctx *gin.Context, swapStrategy string) {
-	ctx.Header(ResponseHeaderReswap, swapStrategy)
+	ctx.Header(htmx_go.HxReswap, swapStrategy)
 }
 
 func GetHxCurrentUrl(ctx *gin.Context) string {
-	return ctx.GetHeader(RequestHeaderCurrentURL)
+	return ctx.GetHeader(htmx_go.HxCurrentURL)
 }
 
 func GetHxCurrentPath(ctx *gin.Context) string {
-	currentUrl := ctx.GetHeader(RequestHeaderCurrentURL)
+	currentUrl := ctx.GetHeader(htmx_go.HxCurrentURL)
 
 	uri, _ := url.Parse(currentUrl)
 	return uri.Path
@@ -92,9 +94,9 @@ func HasMatchingPath(ctx *gin.Context) bool {
 }
 
 func SetTitle(ctx *gin.Context, title string) {
-	ctx.Header(ResponseHeaderTitle, title)
+	ctx.Header(htmx_ext.HxTitle, title)
 }
 
 func SetIcon(ctx *gin.Context, iconHref string) {
-	ctx.Header(ResponseHeaderIcon, iconHref)
+	ctx.Header(htmx_ext.HxIcon, iconHref)
 }

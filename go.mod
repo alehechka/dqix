@@ -1,9 +1,10 @@
 module dqix
 
-go 1.22
+go 1.22.0
 
 require (
 	github.com/a-h/templ v0.2.543
+	github.com/alehechka/htmx-go v0.2.0
 	github.com/gin-contrib/gzip v0.0.6
 	github.com/gin-gonic/gin v1.9.1
 	github.com/urfave/cli/v2 v2.27.1

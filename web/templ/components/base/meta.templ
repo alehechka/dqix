@@ -1,7 +1,6 @@
 package base
 
 import "fmt"
-import "dqix/web/templ/components/htmx"
 import "dqix/internal/types/params"
 
 templ Meta(params params.Layout) {
@@ -12,12 +11,12 @@ templ Meta(params params.Layout) {
 	/>
 	<meta
 		name="description"
-		content="Imp is focused on building the premier small, business Inventory Management Product."
+		content="Dragon Quest IX Wiki Page"
 	/>
 	<script src="https://unpkg.com/htmx.org@1.9.10" integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC" crossorigin="anonymous"></script>
 	// <script defer src="https://unpkg.com/htmx.org@1.9.10/dist/ext/loading-states.js" integrity="sha384-v04dReCP6N+wBCc+JjDUHyvkWJPO5jyzXxNdZHF/HZVyMXhh2USfi3UvCfiPwmmB" crossorigin="anonymous"></script>
-	@htmx.TitleHeader()
-	@htmx.IconHeader()
+	<script defer src="https://alehechka.github.io/htmx-go/ext/v0.3.0/title-header.js" integrity="sha384-QpvXQsM7LNJMqvp3sjlkkZMuyfPJ8b6m9howiYTtqtm7r6FwXoMeHebpJ1GBTLck" crossorigin="anonymous"></script>
+	<script defer src="https://alehechka.github.io/htmx-go/ext/v0.3.0/icon-header.js" integrity="sha384-LD+CBq/1F96QA1csEZHVPw0y+kMwc1rD8hjrrJboXP7kmQ5qygHDoGQX2t3hpkCH" crossorigin="anonymous"></script>
 	@sidenavScriptUtils()
 	<link rel="icon" type="image/x-icon" href={ params.GetIconPath() }/>
 	<link rel="stylesheet" href={ fmt.Sprintf("/static/output.%s.css", params.CSSVersion) }/>
